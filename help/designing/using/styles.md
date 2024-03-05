@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1075'
 ht-degree: 100%
 
@@ -97,14 +97,14 @@ Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez
 
   ![](assets/des_set_vertical_alignment.png)
 
-## Définition des fonds {#about-backgrounds}
+## Définition des arrière-plans {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Paramètres d’arrière-plan"
 >abstract="Le concepteur d’e-mail vous permet de personnaliser la couleur de fond ou l&#39;image d&#39;arrière-plan de votre contenu. Notez que l&#39;image d&#39;arrière-plan n&#39;est pas prise en charge par tous les clients de messagerie."
 
-Lorsqu&#39;il s&#39;agit de définir des fonds dans le concepteur d’e-mail, Adobe a les recommandations suivantes :
+Lorsqu’il s’agit de définir des arrière-plans dans le concepteur d’e-mail, Adobe a les recommandations suivantes :
 
 1. Appliquez une couleur de fond au corps de votre email si votre design le requiert.
 1. Dans la plupart des cas, définissez les couleurs de fond au niveau des colonnes.
@@ -112,27 +112,27 @@ Lorsqu&#39;il s&#39;agit de définir des fonds dans le concepteur d’e-mail, Ad
 
 Vous trouverez ci-dessous les paramètres de fond disponibles.
 
-* Définissez une **[!UICONTROL Couleur de fond]** pour l&#39;ensemble de l&#39;email. Assurez-vous de sélectionner les paramètres du corps dans l&#39;arborescence de navigation accessible à partir de la palette gauche.
+* Définissez une **[!UICONTROL Couleur d’arrière-plan]** pour l’ensemble de l’e-mail. Assurez-vous de sélectionner les paramètres du corps dans l&#39;arborescence de navigation accessible à partir de la palette gauche.
 
   ![](assets/des_background_body.png)
 
-* Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un paramètre différent de la couleur de fond.
+* Définissez la même couleur d’arrière-plan pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur d’arrière-plan de la fenêtre]**. Cette option vous permet de sélectionner un paramètre différent de la couleur d’arrière-plan.
 
   ![](assets/des_background_viewport.png)
 
-* Définissez une couleur de fond différente pour chaque composant de structure. Sélectionnez une structure dans l&#39;arborescence de navigation accessibles à partir de la palette gauche afin d&#39;appliquer une couleur de fond spécifique uniquement sur cette structure.
+* Définissez une couleur d’arrière-plan différente pour chaque composant de structure. Sélectionnez une structure dans l&#39;arborescence de navigation accessibles à partir de la palette gauche afin d&#39;appliquer une couleur de fond spécifique uniquement sur cette structure.
 
   ![](assets/des_background_structure.png)
 
   Veillez à ne pas définir de couleur de fond de la fenêtre, car celle-ci peut masquer les couleurs de fond de la structure.
 
-* Définissez une **[!UICONTROL Image de fond]** pour le contenu d&#39;un composant de structure.
+* Définissez une **[!UICONTROL Image d’arrière-plan]** pour le contenu d’un composant de structure.
 
   ![](assets/des_background_image.png)
 
   >[!NOTE]
   >
-  >Certains programmes de messagerie ne prennent pas en charge les images de fond. Si ces images ne sont pas prises en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
+  >Certains programmes de messagerie ne prennent pas en charge les images d’arrière-plan. Si ces images ne sont pas prises en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
 
 * Définissez une couleur de fond au niveau des colonnes.
 

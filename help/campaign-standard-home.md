@@ -4,7 +4,7 @@ title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 8b94b632bbc4fc8e190cccb05018043cdeb00fdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Découvrez les dernières améliorations apportées au produit Adobe Campaign 
 
 >[!BEGINTABS]
 
->[!TAB La version de Campaign 24.1 est en ligne !]
+>[!TAB La version de Campaign 24.1 est en ligne.]
 
 Découvrez les nouvelles fonctionnalités, les améliorations et les correctifs de la version 24.1 de Campaign Standard.
 

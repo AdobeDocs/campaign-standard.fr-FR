@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -106,9 +106,9 @@ The default configuration allows five retries at one-hour intervals, followed by
 Une diffusion peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
 * **Erreur synchrone** : le serveur distant contacté par le serveur de diffusion Adobe Campaign a retourné immédiatement un message d’erreur. L’envoi de la diffusion au serveur du profil n’est pas autorisé.
-* **Erreur asynchrone**: un mail rebond ou un SR a été renvoyé plus tard par le serveur de réception. Les erreurs asynchrones peuvent se produire jusqu’à une semaine après l’envoi d’une diffusion.
+* **Erreur asynchrone** : un e-mail ayant fait l’objet d’un rebond ou un SR a été renvoyé plus tard par le serveur de réception. Les erreurs asynchrones peuvent se produire jusqu’à une semaine après l’envoi d’une diffusion.
 
-## Qualification des e-mails rebonds {#bounce-mail-qualification}
+## Qualification des e-mails faisant l’objet d’un rebond {#bounce-mail-qualification}
 
 Pour les messages d’erreur d’échec de diffusion synchrone, le MTA (Message Transfer Agent) amélioré d’Adobe Campaign détermine le type et la qualification du rebond et renvoie ces informations à Campaign.
 

@@ -10,9 +10,9 @@ role: Data Architect
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1104'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ L&#39;édition des expressions peut être utilisée dans la fenêtre Audience lo
 
 1. Accédez à la fenêtre d&#39;édition d&#39;expression par l&#39;un des moyens décrits dans la section [À propos de l&#39;édition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing). Elle se compose des éléments suivants :
 
-   * un champ de saisie, dans lequel l&#39;expression est définie
+   * un champ de saisie, dans lequel l’expression est définie ;
    * la liste des champs disponibles, utilisables dans l&#39;expression, et correspondant à la dimension de ciblage de la requête (voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources)).
    * la liste des fonctions disponibles, triées par catégorie.
 
@@ -200,7 +200,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
    <td> Similaire à <span class="uicontrol">Comme</span>. Permet de ne pas obtenir la valeur renseignée. La valeur renseignée doit ici aussi comporter le caractère de substitution <span class="uicontrol">%</span>.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. Ici, les destinataires correspondent au nom 'Smi%h' (donc Smith, etc.) ne sont pas renvoyées par conséquent.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. Ici, les personnes destinataires correspondant au nom Smi%h (donc Smith, etc.) ne sont pas renvoyées.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Est vide</span> <br /> </td> 

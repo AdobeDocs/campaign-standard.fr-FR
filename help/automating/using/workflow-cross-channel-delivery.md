@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Vous devez utiliser une activité de [Segmentation](../../automating/using/segme
 
 ![](assets/wkf_segment_activity.png)
 
-La variable **Email** groupe ciblera les destinataires dont l&#39;adresse email est définie mais pas le numéro de téléphone portable. La variable **SMS** contiennent les destinataires dont le numéro de téléphone portable est enregistré dans leur profil.
+Le groupe **E-mail** cible les personnes destinataires dont l’adresse e-mail est définie, mais pas le numéro de téléphone portable. Le groupe **SMS** contient les personnes destinataires dont le numéro de téléphone portable est enregistré dans leur profil.
 
 Pour configurer la première transition (Email) :
 
@@ -112,9 +112,9 @@ Votre seconde transition est maintenant également configurée.
 
 ## Créer des diffusions {#creating-deliveries}
 
-Comme deux transitions ont déjà été créées, vous devez désormais ajouter deux types de diffusion à la suite des transitions sortantes de l’activité Segmentation : une activité [diffusion Email](../../automating/using/email-delivery.md) et une activité [diffusion SMS](../../automating/using/sms-delivery.md).
+Comme deux transitions ont déjà été créées, vous devez désormais ajouter deux types de diffusion à la suite des transitions sortantes de l’activité Segmentation : une activité [Diffusion e-mail](../../automating/using/email-delivery.md) et une activité [Diffusion SMS](../../automating/using/sms-delivery.md).
 
-Adobe Campaign vous permet d&#39;ajouter des diffusions dans un workflow. Pour cela, sélectionnez une diffusion depuis le **[!UICONTROL Canaux]** catégorie de la palette d&#39;activités de votre workflow.
+Adobe Campaign vous permet d’ajouter des diffusions dans un workflow. Pour cela, sélectionnez une diffusion depuis la catégorie **[!UICONTROL Canaux]** de la palette d’activités de votre workflow.
 
 ![](assets/wkf_segment_deliveries1.png)
 
@@ -154,4 +154,4 @@ Une fois le workflow démarré, la population ciblée par l’activité **[!UICO
 
 Pour exécuter votre workflow, cliquez sur le bouton **[!UICONTROL Démarrer]** dans la barre d’actions.
 
-Vous pouvez accéder à vos diffusions à partir du **[!UICONTROL Plans marketing]** > **[!UICONTROL Activités marketing]** menu avancé via le logo Adobe Campaign. Cliquez sur la diffusion, puis sur **[!UICONTROL Rapports]** pour accéder au [rapports de diffusion](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), comme la synthèse de la diffusion, le taux d&#39;ouverture ou le rendu de l&#39;email en fonction de la boîte de réception du message du destinataire.
+Vous pouvez accéder à vos diffusions à partir du menu avancé **[!UICONTROL Plans marketing]** > **[!UICONTROL Activités marketing]** via le logo Adobe Campaign. Cliquez sur la diffusion, puis sur le bouton **[!UICONTROL Rapports]** pour accéder aux [rapports de diffusion](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), comme la synthèse de la diffusion, le taux d’ouverture ou le rendu de l’e-mail en fonction de la boîte de réception du message de la personne destinataire.

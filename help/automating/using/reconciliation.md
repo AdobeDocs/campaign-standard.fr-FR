@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
 source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ L&#39;activité **[!UICONTROL Réconciliation]** est essentiellement utilisée �
 
   >[!NOTE]
   >
-  >Cette opération suppose que les données des dimensions liées sont déjà présentes en base. Par exemple, si vous importez un fichier d&#39;actes d&#39;achats indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister en base.
+  >Cette opération suppose que les données des dimensions liées sont déjà présentes en base. Par exemple, si vous importez un fichier d’achats indiquant quel produit a été acheté, à quelle heure, par quelle personne de la clientèle, etc., le produit ainsi que la personne doivent déjà exister dans la base de données.
 
 * Identification de données : un onglet **[!UICONTROL Identification]** vous permet de simplement associer les données entrantes à des colonnes d&#39;une dimension existante dans la base de données Adobe Campaign. En sortie de l&#39;activité, les données sont identifiées comme appartenant à la dimension définie.
 

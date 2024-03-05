@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1778'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Pour configurer un compte Amazon S3, nous vous conseillons de suivre les recomm
 
 * Créez une politique de compartiment stricte afin de limiter l’accès aux compartiments S3. Vous pouvez configurer la politique de compartiment pendant la création d’un compartiment. Pour plus d’informations, consultez la [documentation d’Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Lors de la création d’un compte externe, activez le chiffrement pour stocker les données sensibles dans le compartiment S3 en cochant la case **[!UICONTROL Conserver les fichiers chiffrés dans S3]**.
-* Octroyez des autorisations de compartiment pour indiquer qui peut accéder à l’objet dans un compartiment. Pour plus d’informations sur les autorisations de compartiment, reportez-vous à la section [Documentation d’Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
+* Octroyez des autorisations de compartiment pour indiquer qui peut accéder à l’objet dans un compartiment. Pour plus d’informations sur les autorisations de compartiment, consultez la [documentation d’Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
 ## Compte externe Adobe Experience Manager {#adobe-experience-manager-external-account}
 

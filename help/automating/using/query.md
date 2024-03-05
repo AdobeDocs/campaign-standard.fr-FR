@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1878'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -180,7 +180,7 @@ Veuillez noter que si vous devez effectuer un tri sur votre agrégat, vous devez
 1. Depuis l’onglet **[!UICONTROL Données additionnelles]**, ajoutez un nouvel élément.
 1. Dans la fenêtre qui s’ouvre, sélectionnez la collection que vous souhaitez ajouter au niveau du champ **[!UICONTROL Expression]**. Un **[!UICONTROL Alias]** est automatiquement créé. Si vous le souhaitez, vous pouvez modifier ce dernier en revenant à l’onglet **[!UICONTROL Données additionnelles]** de la requête.
 1. Sélectionnez **[!UICONTROL Ajouter]**. Une nouvelle fenêtre s’ouvre, vous permettant d’affiner les données de la collection que vous souhaitez afficher.
-1. Dans le **[!UICONTROL Paramètres]** onglet, sélectionnez **[!UICONTROL Collection]** et définissez le nombre de lignes de la collection que vous souhaitez ajouter. Par exemple, si vous souhaitez obtenir les trois achats les plus récents réalisés par chaque profil, indiquez &quot;3&quot; dans la variable **[!UICONTROL Nombre de lignes à retourner]** champ .
+1. Dans l’onglet **[!UICONTROL Paramètres]**, sélectionnez **[!UICONTROL Collection]** et définissez le nombre de lignes de la collection que vous souhaitez ajouter. Par exemple, si vous souhaitez obtenir les trois achats les plus récents réalisés par chaque profil, indiquez 3 dans le champ **[!UICONTROL Nombre de lignes à renvoyer]**.
 
    >[!NOTE]
    >

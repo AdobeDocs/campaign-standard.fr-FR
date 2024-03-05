@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign Standard est compatible avec Adobe Experience Manager 6.1, 6
 
   La configuration de l’externaliseur lors de l’implémentation d’Experience Manager pour Adobe Campaign Standard permet de transformer un chemin de ressource en URL. Vous pouvez ainsi rendre vos images visibles sur la page. Si l’externaliseur n’est pas configuré correctement, vos emails contiendront des images endommagées.
 
-  Pour savoir comment configurer l’externaliseur, reportez-vous à cette section [page](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html?lang=fr).
+  Pour découvrir comment configurer l’externaliseur, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html?lang=fr).
 
 * **Organisez vos modèles d’email pour éviter toute mauvaise utilisation.**
 

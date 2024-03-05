@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5442'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -403,7 +403,7 @@ _Emails, SMS et courrier_
 
 * Amélioration de la phase de préparation des diffusions pour optimiser les performances.
 * Correction de plusieurs problèmes qui entraînaient l’endommagement du tracking dans certains cas très spécifiques.
-* Correction d’un problème de mise à jour de date de contact qui se produisait lorsque la date de contact était modifiée entre la préparation de la diffusion et sa validation. Vous pouvez modifier la date de contact après la préparation. Vous devrez toutefois préparer à nouveau la diffusion avant de pouvoir valider l’envoi. Voir [documentation détaillée](../../sending/using/preparing-the-send.md).
+* Correction d’un problème de mise à jour de date de contact qui se produisait lorsque la date de contact était modifiée entre la préparation de la diffusion et sa validation. Vous pouvez modifier la date de contact après la préparation. Vous devrez toutefois préparer à nouveau la diffusion avant de pouvoir valider l’envoi. Consultez la [documentation détaillée](../../sending/using/preparing-the-send.md).
 
 _Notifications push_
 

@@ -294,7 +294,7 @@ Le champ **[!UICONTROL Data_coding]** permet à Adobe Campaign de signaler au S
 
 >[!NOTE]
 >
->La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Cependant, certains SMSC possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
+>Le mappage entre la valeur du **data_coding** et l’encodage réellement utilisé est standardisé. Cependant, certains SMSC possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
 
 La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]** vous permet de déclarer des **data_coding** et de forcer l&#39;encodage si besoin : pour ce faire, spécifiez un seul encodage dans le tableau.
 

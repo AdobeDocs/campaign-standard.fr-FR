@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1504'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Pour ajouter un lien profond à une notification push :
 
 ## Définir une action       {#define-an-action}
 
-Le cas échéant, vous pouvez ajouter l&#39;identifiant de catégorie de l&#39;application mobile et afficher ensuite des boutons d&#39;action. Ces notifications permettent à l&#39;utilisateur d&#39;effectuer plus rapidement différentes tâches en réponse à celles-ci, sans ouvrir l&#39;application ou la parcourir.
+Le cas échéant, vous pouvez ajouter l&#39;identifiant de catégorie de l&#39;application mobile et afficher ensuite des boutons d&#39;action. Ces notifications permettent à la personne d’effectuer plus rapidement différentes tâches en réponse à celles-ci, sans ouvrir l’application ou la parcourir.
 
 La boîte de dialogue qui s&#39;affiche sur le téléphone de l&#39;utilisateur requiert une prise de décision. Quand l&#39;utilisateur sélectionne l&#39;une des actions, le système notifie l&#39;application afin qu&#39;elle puisse réaliser n&#39;importe quelle tâche associée.
 
@@ -166,7 +166,7 @@ Pour insérer du contenu multimédia dans la notification push :
 
 Pour iOS 10 et version ultérieure, deux options supplémentaires sont disponibles dans la section **[!UICONTROL Options avancées]** des notifications push : **[!UICONTROL Contenu mutable]** et **[!UICONTROL Contenu disponible]**.
 
-Lorsque l&#39;option **[!UICONTROL Contenu mutable]** est cochée ou qu&#39;une URL de contenu multimédia est ajoutée, le flag de contenu mutable est envoyé dans la payload push et permet au contenu de la notification push d&#39;être modifié par une extension de l&#39;application de service de notification fournie dans le SDK iOS. Consultez à ce sujet la [Documentation développeur Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).
+Lorsque l&#39;option **[!UICONTROL Contenu mutable]** est cochée ou qu&#39;une URL de contenu multimédia est ajoutée, le flag de contenu mutable est envoyé dans la payload push et permet au contenu de la notification push d&#39;être modifié par une extension de l&#39;application de service de notification fournie dans le SDK iOS. Consultez à ce sujet la [Documentation de développement Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).
 
 Vous pouvez ensuite tirer parti des extensions de votre application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs peuvent utiliser cette option pour :
 

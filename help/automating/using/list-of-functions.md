@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2013'
 ht-degree: 100%
 
@@ -478,7 +478,7 @@ Ce tableau contient les autres fonctions disponibles.
  </tbody> 
 </table>
 
-## Chaîne  {#string}
+## Chaîne {#string}
 
 Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
 

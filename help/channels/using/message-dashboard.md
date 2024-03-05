@@ -10,9 +10,9 @@ role: User
 level: Beginner
 exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -59,9 +59,9 @@ L’écran principal est composé de différents blocs. Cliquez dans un bloc pou
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Déploiement]** : permet de tracker l&#39;état d&#39;avancement de la préparation ou de l&#39;envoi du message. Cliquez sur le bouton situé en bas à droite du bloc pour accéder aux logs d’analyse et d’envoi. Ce bloc n’apparaît qu’après la préparation de l’envoi. Pour en savoir plus à ce sujet. Voir [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md).
-* **[!UICONTROL Audience]**: permet de définir la cible principale du message ainsi que les profils de test. Voir [Créer une audience](../../audiences/using/creating-audiences.md).
-* **[!UICONTROL Planification]**: vous permet de spécifier la date d’envoi de votre message. Voir [Planification](../../sending/using/about-scheduling-messages.md).
+* **[!UICONTROL Déploiement]** : permet de tracker l&#39;état d&#39;avancement de la préparation ou de l&#39;envoi du message. Cliquez sur le bouton situé en bas à droite du bloc pour accéder aux logs d’analyse et d’envoi. Ce bloc n’apparaît qu’après la préparation de l’envoi. Pour plus d’informations : Voir [Confirmer l’envoi](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Audience]** : permet de définir la cible principale du message ainsi que les profils de test. Voir [Créer des audiences](../../audiences/using/creating-audiences.md).
+* **[!UICONTROL Planning]** : permet de définir la date d’envoi du message. Voir [Planification](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Contenu]** : permet de définir le contenu du message et de le prévisualiser. Voir [Principales étapes pour envoyer un message](../../channels/using/key-steps-to-send-a-message.md).
 
 ## Avertissements {#warnings}
@@ -88,6 +88,6 @@ Vous trouverez ci-dessous une liste des messages pouvant être affichés :
 
   Certains de ces modèles de message transactionnel d’usine sont des modèles de landing page intégrés. Voir à ce propos [cette section](../../channels/using/landing-page-templates.md).
 
-* *&quot;Ce message est un modèle de message transactionnel technique. Vous ne pouvez pas le modifier ni le publier.&quot;*
+* *« Ce message est un modèle de message transactionnel technique. Vous ne pouvez pas le modifier ni le publier. »*
 
   Cet avertissement s’affiche dans des modèles de message transactionnel vides ne pouvant pas être modifiés. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md).

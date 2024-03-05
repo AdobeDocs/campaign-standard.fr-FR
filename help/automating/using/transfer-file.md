@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1320'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
 
    Vous pouvez ainsi effectuer les actions suivantes :
 
-   * **[!UICONTROL Supprimer les fichiers source après leur transfert]**: supprime les fichiers sur le serveur distant. Si vous ne cochez pas cette option, veillez à surveiller manuellement la taille du contenu archivé dans le répertoire SFTP.
+   * **[!UICONTROL Supprimer les fichiers source après leur transfert]** : supprime les fichiers sur le serveur distant. Si vous ne cochez pas cette option, veillez à surveiller manuellement la taille du contenu archivé dans le répertoire SFTP.
 
    * **[!UICONTROL Tri des fichiers]** : permet de trier les fichiers par ordre alphanumérique. Par défaut, cette option est désactivée.
 

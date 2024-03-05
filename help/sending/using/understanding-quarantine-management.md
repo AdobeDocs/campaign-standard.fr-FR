@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1487'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ La quarantaine et la liste bloquée ne s’appliquent pas au même objet :
 >
 >La mise en quarantaine inclut un statut **Sur liste bloquée**, qui s’applique lorsque les destinataires signalent votre message comme étant du spam ou répondent à un message SMS avec un mot-clé tel que « STOP ». Dans ce cas, l’adresse ou le numéro de téléphone du profil impliqué est mis en quarantaine avec le statut **[!UICONTROL Sur liste bloquée]**. Pour plus d&#39;informations sur la gestion des messages SMS STOP, consultez [cette section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-&lt;!: lorsqu’un utilisateur répond à un SMS avec un mot-clé tel que STOP pour se désinscrire des diffusions SMS, son profil n’est pas ajouté à la liste bloquée comme dans le processus d’opt-out des emails. Au lieu de cela, le numéro de téléphone du profil est mis en quarantaine avec la variable **[!UICONTROL En liste bloquée]** statut. Ce statut se rapporte uniquement au numéro de téléphone, ce qui signifie que le profil continuera à recevoir des emails.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+&lt;!Lorsqu’un utilisateur ou une utilisatrice répond à un SMS avec un mot-clé tel que « STOP » pour se désabonner des diffusions SMS, son profil n’est pas mis en liste bloquée comme c’est le cas pour le processus d’opt-out des e-mails. Au lieu de cela, le numéro de téléphone du profil est envoyé en quarantaine avec le statut **[!UICONTROL Sur la liste bloquée]**. Ce statut ne concerne que le numéro de téléphone, ce qui signifie que le profil continuera à recevoir des e-mails.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## Identifier les adresses en quarantaine  {#identifying-quarantined-addresses}
 
@@ -116,7 +116,7 @@ Le nombre maximal de reprises à effectuer en cas de statut **[!UICONTROL En err
 
 >[!IMPORTANT]
 >
->Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne font jamais l’objet d’une suppression, même s’ils/elles reçoivent un e-mail.
+Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne font jamais l’objet d’une suppression, même s’ils/elles reçoivent un e-mail.
 
 
 ### Mises à jour manuelles {#unquarantine-manual}
@@ -166,7 +166,7 @@ Si un utilisateur qualifie un email comme du spam ([système de gestion des plai
 
 >[!NOTE]
 >
->La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu’elles ne soient pas reciblées ultérieurement.
+La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu’elles ne soient pas reciblées ultérieurement.
 
 Dans la liste des adresses mises en quarantaine (voir [Identifier les adresses mises en quarantaine pour l’ensemble de la plateforme](#identifying-quarantined-addresses-for-the-entire-platform)), le champ **[!UICONTROL Raison de l’erreur]** indique pourquoi l’adresse sélectionnée a été mise en quarantaine.
 

@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1181'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Si elle est spécifiée dans un fichier par le biais de colonnes dédiées, cett
 
      Dans cette colonne, l’opération doit être spécifiée sous la forme d’une valeur booléenne ou d’un entier. Utilisez la valeur **0** pour désabonner un enregistrement et la valeur **1** pour en abonner un.
 
-     Si les valeurs contenues dans un fichier importé ne répondent pas aux exigences ci-dessus, vous pouvez tout de même utiliser la variable [Recodification des valeurs](../../automating/using/load-file.md#column-format) , disponible dans la variable **[!UICONTROL Chargement de fichier]** activité.
+     Si les valeurs contenues dans un fichier importé ne répondent pas aux exigences ci-dessus, vous pouvez toujours utiliser l’option [Recodification des valeurs](../../automating/using/load-file.md#column-format) disponible dans l’activité **[!UICONTROL Chargement de fichier]**.
 
 1. Si les données en entrée contiennent une colonne avec la date d’abonnement au service correspondant au profil, sélectionnez-la. Vous pouvez la laisser vide, mais aucune date d’abonnement n’est définie lors de l’exécution du workflow.
 1. Définissez l’origine de l’abonnement. Vous pouvez la définir sur une origine des champs des données en entrée ou sur une valeur constante de votre choix en cochant l’option **[!UICONTROL Définir une constante comme origine]**. Vous pouvez la laisser vide, mais aucune origine n’est définie lors de l’exécution du workflow.

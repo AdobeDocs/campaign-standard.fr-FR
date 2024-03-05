@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Adobe recommande de conserver la valeur par défaut de la taille maximale de mes
 
 Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications). Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
-La translittération consiste à remplacer un caractère d&#39;un SMS par un autre lorsque ce caractère n&#39;est pas pris en charge par la norme GSM. Notez que l&#39;insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l&#39;encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l&#39;onglet Paramètres du canal SMPP de la balise **[!UICONTROL Compte externe]**.
+La translittération consiste à remplacer un caractère de SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
 En savoir plus dans [cette section](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Conseils** :
@@ -117,7 +117,7 @@ Le responsive design des e-mails permet de s&#39;assurer que le rendu d&#39;un e
 
 * Utilisez du code HTML en responsive design plutôt que du code HTML web
 
-* Utilisez le mode Aperçu et envoyez des bons à tirer pour tester le rendu sur le plus grand nombre d’appareils possible. Apprenez à [prévisualiser un message](../../sending/using/previewing-messages.md) avant l&#39;envoi.
+* Utilisez le mode Aperçu et envoyez des BAT pour tester le rendu sur le plus grand nombre d’appareils possible. Apprenez à [prévisualiser un message](../../sending/using/previewing-messages.md) avant l&#39;envoi.
 
 * Le concepteur d’e-mail de Campaign est fourni avec des modèles mis en forme en responsive design pour les appareils mobiles. En savoir plus [dans cette page](../../designing/using/using-reusable-content.md#content-templates).
 
@@ -133,7 +133,7 @@ Certains clients de messagerie bloquent les images par défaut, et certains util
 
 * Si le texte doit être contenu dans une image, utilisez du texte de titre et du texte alternatif pour vous assurer que votre message passe bien. Mettez en forme votre texte de titre et alternatif pour améliorer son aspect.
 
-* Évitez d&#39;utiliser des images de fond, car elles ne sont pas prises en charge par certains clients de messagerie.
+* Évitez d’utiliser des images d’arrière-plan, car elles ne sont pas prises en charge par certains clients de messagerie.
 
 ### Rendre les images réactives
 

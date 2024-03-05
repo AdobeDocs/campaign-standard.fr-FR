@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1252'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Si vous ne sélectionnez pas de modèle, la page d&#39;accueil du concepteur d�
 
 **Fragments** : un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
 
-**Composants de structure**: éléments structurels définissant la disposition de l&#39;email.
+**Composants de structure** : éléments structurels définissant la disposition de l’e-mail.
 
 **Composants de contenu** : les composants de contenu sont des composants bruts et vides que vous pouvez modifier une fois qu&#39;ils ont été placés dans un email.
 

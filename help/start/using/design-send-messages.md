@@ -5,7 +5,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 Retenez l’attention de vos clients et améliorez vos taux de réponses grâce à une personnalisation évoluée du contenu et des en-têtes des messages selon leur profil, leurs préférences et leur activité. Toutes les informations concernant vos clients sont centralisées dans Adobe Campaign et vous pouvez leur proposer des messages au contenu adapté, sur les différents canaux.
 
-Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, proposer des expériences personnalisées et augmenter les taux d’ouverture et de conversion. Les messages cross-canal diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. Ces différentes façons peuvent être associées à des critères en fonction des profils. Vous pouvez ainsi :
+Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, proposer des expériences personnalisées et augmenter les taux d’ouverture et de conversion. Les messages cross-canal diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. Ces différentes façons peuvent être associées à des critères en fonction des profils. Vous pouvez ainsi effectuer les actions suivantes :
 
 * insérer des [champs de personnalisation dynamiques](../../designing/using/personalization.md#inserting-a-personalization-field) dans vos messages ;
 * insérer des [blocs de personnalisation prédéfinis](../../designing/using/personalization.md#adding-a-content-block) ;
@@ -90,7 +90,7 @@ Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, p
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Outre des modèles de reporting d&#39;usine puissants, Adobe Campaign vous permet de créer des rapports personnalisés au niveau d&#39;une diffusion, d&#39;une campagne, d&#39;un utilisateur ou d&#39;un segment. Trackez vos messages et comprenez le comportement de vos clients en enrichissant progressivement leurs données de profil. Avec les outils de reporting et d&#39;analyse, vous capitalisez à chaque nouvelle campagne, ciblez mieux vos actions marketing et optimisez leur impact et leur retour sur investissement.
+Outre des modèles prêts à l’emploi de reporting puissants, Adobe Campaign vous permet de créer des rapports personnalisés au niveau d’une diffusion, d’une campagne, d’un utilisateur ou d’une utilisatrice ou d’un segment. Trackez vos messages et comprenez le comportement de vos clients en enrichissant progressivement leurs données de profil. Avec les outils de reporting et d&#39;analyse, vous capitalisez à chaque nouvelle campagne, ciblez mieux vos actions marketing et optimisez leur impact et leur retour sur investissement.
 
 L&#39;interface graphique permet d&#39;avoir rapidement et facilement accès aux principaux indicateurs et aux statistiques de la diffusion.
 

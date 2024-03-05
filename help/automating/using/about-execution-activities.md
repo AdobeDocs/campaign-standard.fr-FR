@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: e2841f26-6f87-4bc4-baf7-c3c29dd69eae
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '67'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Depuis la palette, située à gauche de l&#39;écran, développez la section **[!UICONTROL Exécution]**.
 
-Les activités ci-après sont spécifiques à l’organisation et à l’exécution du workflow. Leur principale tâche est de coordonner les autres activités.
+Les activités ci-après sont spécifiques à l’organisation et à l’exécution des workflows. Leur principale tâche est de coordonner les autres activités.
 
 ![](assets/wkf_execution_activities.png)
 

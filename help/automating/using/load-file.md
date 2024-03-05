@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1528'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ L&#39;activité **[!UICONTROL Chargement de fichier]** permet d&#39;importer les
 
 La façon dont les données seront extraites est définie lors du paramétrage de l’activité. Le fichier à charger peut par exemple être une liste de contacts.
 
-Vous pouvez ainsi :
+Vous pouvez ainsi effectuer les actions suivantes :
 
 * utiliser la structure du fichier pour l&#39;appliquer aux données d&#39;un autre fichier (récupéré grâce à l&#39;activité **[!UICONTROL Transfert de fichier]**) ou,
 * utiliser la structure et les données du fichier pour les importer dans Adobe Campaign.
@@ -117,9 +117,9 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
-Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d’informations sur les logs de workflows, reportez-vous à la section [cette section](../../automating/using/monitoring-workflow-execution.md).
+Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d’informations sur les journaux de workflows, reportez-vous à [cette section](../../automating/using/monitoring-workflow-execution.md).
 
-## Format des colonnes          {#column-format}
+## Format des colonnes {#column-format}
 
 Lorsque vous téléchargez un fichier d&#39;exemple, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données. Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particulier à appliquer à vos données, notamment en cas d&#39;erreur ou de valeur vide.
 

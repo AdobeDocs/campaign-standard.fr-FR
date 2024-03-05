@@ -1,5 +1,5 @@
 ---
-title: Création d'un rapport à partir de segments de workflow
+title: Créer un rapport à partir de segments de workflow
 description: Découvrez comment vérifier le succès de votre diffusion en fonction des segments de vos workflows dans vos rapports.
 audience: reporting
 content-type: reference
@@ -9,16 +9,16 @@ role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Création d&#39;un rapport à partir de segments de workflow{#creating-a-report-workflow-segment}
+# Créer un rapport à partir de segments de workflow{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Code segment]** ne peuvent cibler que les diffusions email et SMS.
+> Le **[!UICONTROL code segment]** ne peut cibler que les diffusions e-mail et SMS.
 
 Après avoir créé un workflow et filtré votre population dans une audience ciblée différente, vous pouvez mesurer l&#39;efficacité de vos campagnes marketing en fonction des segments définis dans ce workflow de ciblage.
 Pour cibler ces segments dans vos rapports :
