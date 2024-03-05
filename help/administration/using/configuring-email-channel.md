@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
+source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
-source-wordcount: '2967'
+source-wordcount: '2959'
 ht-degree: 97%
 
 ---
@@ -294,13 +294,11 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
   >
   >L’ajout d’un script pour l’insertion d’en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
 
-  À compter du 1er juin 2024, Google et Yahoo! exige que les expéditeurs se conforment aux **Liste-Unsubscribe en un clic**. Campaign prend en charge cette fonctionnalité prête à l’emploi. [En savoir plus sur cette modification](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+  À compter du 1er juin 2024, Google et Yahoo! exige que les expéditeurs se conforment aux **Liste-Unsubscribe en un clic**. Campaign prend en charge cette fonctionnalité prête à l’emploi.
 
   >[!CAUTION]
   >
   >Si vous modifiez la valeur d’en-tête dans la variable **[!UICONTROL En-têtes SMTP supplémentaires]** de vos modèles de courrier électronique, cela peut rompre la conformité à la **Liste-Unsubscribe en un clic** de Google et de Yahoo!.
-
-  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### Liste des paramètres d’autorisation d’accès   {#list-of-access-authorization-parameters}
 
