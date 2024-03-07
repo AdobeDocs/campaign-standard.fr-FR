@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
-source-wordcount: '1079'
-ht-degree: 100%
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+workflow-type: tm+mt
+source-wordcount: '1077'
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Cette page décrit les étapes d&#39;élaboration d&#39;un workflow qui crée/met à jour les données de profil après l&#39;envoi par une application mobile de données de collecte de PII, selon une planification.
 
-* Les **PII** (Personally Identifiable Information) sont des données personnelles. Il peut s&#39;agir de n&#39;importe quelles données, notamment d&#39;informations qui n&#39;apparaissent pas dans la table des profils de la base de données Campaign (par exemple, les [points ciblés](../../integrating/using/about-campaign-points-of-interest-data-integration.md) Analytics pour les applications mobiles). Les données de PII sont définies par le développeur d’applications mobiles, généralement avec un spécialiste marketing.
+* **PII** signifie &quot;Informations d’identification personnelle&quot;. Il peut s&#39;agir de n&#39;importe quelles données, notamment d&#39;informations qui n&#39;apparaissent pas dans la table des profils de la base de données Campaign (par exemple, les [points ciblés](../../integrating/using/about-campaign-points-of-interest-data-integration.md) Analytics pour les applications mobiles). Les données de PII sont définies par le développeur d’applications mobiles, généralement avec un spécialiste marketing.
 * La **collecte des PII** est une opération HTTP-POST vers une API REST dans Adobe Campaign Standard à partir d&#39;une application mobile.
 
 L&#39;objectif de ce cas pratique est de créer ou de mettre à jour un profil Campaign Standard si les données de PII renvoyées par une application mobile contiennent des données liées au profil.
@@ -48,8 +48,8 @@ Dans cet exemple, la section **[!UICONTROL Champs]** reflète les données de PI
 
 L&#39;association des données de profil lors de l&#39;extension de la ressource **[!UICONTROL Abonnements à une application]** est en LECTURE SEULE. Elle est utilisée pour la réconciliation. Le profil doit être entré dans le système avec les données nécessaires pour réconcilier le profil avec les données de PII. Dans notre cas, une adresse email pour le profil doit correspondre à un email provenant de la collecte des PII pour que la réconciliation se produise :
 
-* La collecte des PII est reçue d&#39;une application mobile pour un utilisateur dont le prénom est « Jane », le nom « Doe » et l&#39;adresse email janedoe@doe.com.
-* Les données de profil doivent exister séparément (par exemple, les données doivent être saisies manuellement ou provenir déjà d&#39;une autre ressource) où l&#39;adresse email du profil est janedoe@doe.com.
+* La collecte des PII provient d’une application mobile pour un utilisateur dont le prénom est &quot;Jane&quot;, le nom est &quot;Doe&quot; et l’adresse électronique est janedoe@doe.com.
+* Séparément, les données de profil doivent exister (par exemple, les données doivent être saisies manuellement ou provenir déjà d’une autre ressource) où l’adresse électronique du profil est janedoe@doe.com.
 
 **Rubriques connexes :**
 
@@ -88,7 +88,7 @@ Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréq
 
 ### Configurez l&#39;activité de **[!UICONTROL Requête incrémentale]**.
 
-1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, cliquez sur l&#39;icône **[!UICONTROL Sélectionner un élément]** du champ **[!UICONTROL Ressource]**, puis sélectionnez l&#39;élément **[!UICONTROL Abonnements à une application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]**.
+1. Dans le **[!UICONTROL Propriétés]** , cliquez sur l’onglet **[!UICONTROL Sélectionner un élément]** de la fonction **[!UICONTROL Ressource]** , puis sélectionnez la variable **[!UICONTROL Abonnements à une application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** élément .
 
    ![](assets/update_profile3.png)
 

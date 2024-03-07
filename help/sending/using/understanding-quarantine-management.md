@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
-workflow-type: ht
-source-wordcount: '1487'
-ht-degree: 100%
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+workflow-type: tm+mt
+source-wordcount: '1475'
+ht-degree: 99%
 
 ---
 
@@ -116,7 +116,7 @@ Le nombre maximal de reprises à effectuer en cas de statut **[!UICONTROL En err
 
 >[!IMPORTANT]
 >
->Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne font jamais l’objet d’une suppression, même s’ils/elles reçoivent un e-mail.
+Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne font jamais l’objet d’une suppression, même s’ils/elles reçoivent un e-mail.
 
 
 ### Mises à jour manuelles {#unquarantine-manual}
@@ -142,10 +142,10 @@ En fonction du calendrier de l’incident, voici les instructions recommandées 
 
 * **Le texte d’erreur (texte de quarantaine)** contient « 550-5.1.1 » ET **Le texte d’erreur (texte de quarantaine)** contient « support.ISP.com »,
 
-  où « ISP.com » peut être « support.apple.com » ou « support.google.com », par exemple.
+  où « support.ISP.com » peut être « support.apple.com » ou « support.google.com », par exemple.
 
-* **Mise à jour du statut (@lastModified)** le ou après le JJ/MM/AAAA à HH:MM:SS AM
-* **Mise à jour du statut (@lastModified)** le ou avant le JJ/MM/AAAA à HH:MM:SS PM
+* **Mise à jour du statut (@lastModified)** sur ou après `MM/DD/YYYY HH:MM:SS AM`
+* **Mise à jour du statut (@lastModified)** le ou avant  `MM/DD/YYYY HH:MM:SS PM`
 
 Une fois que vous disposez de la liste des destinataires concernés, ajoutez une activité **[!UICONTROL Mise à jour de données]** pour définir le statut de leur adresse e-mail sur **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le workflow **[!UICONTROL Nettoyage de la base de données]**. Vous pouvez également les supprimer uniquement de la table de quarantaine.
 
@@ -166,7 +166,7 @@ Si un utilisateur qualifie un email comme du spam ([système de gestion des plai
 
 >[!NOTE]
 >
->La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu’elles ne soient pas reciblées ultérieurement.
+La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu’elles ne soient pas reciblées ultérieurement.
 
 Dans la liste des adresses mises en quarantaine (voir [Identifier les adresses mises en quarantaine pour l’ensemble de la plateforme](#identifying-quarantined-addresses-for-the-entire-platform)), le champ **[!UICONTROL Raison de l’erreur]** indique pourquoi l’adresse sélectionnée a été mise en quarantaine.
 
