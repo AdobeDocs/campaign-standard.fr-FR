@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1475'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -144,8 +144,8 @@ En fonction du calendrier de l’incident, voici les instructions recommandées 
 
   où « support.ISP.com » peut être « support.apple.com » ou « support.google.com », par exemple.
 
-* **Mise à jour du statut (@lastModified)** sur ou après `MM/DD/YYYY HH:MM:SS AM`
-* **Mise à jour du statut (@lastModified)** le ou avant  `MM/DD/YYYY HH:MM:SS PM`
+* **Statut de la mise à jour (@lastModified)** à partir du `MM/DD/YYYY HH:MM:SS AM`
+* **Statut de la mise à jour (@lastModified)** le ou avant le `MM/DD/YYYY HH:MM:SS PM`
 
 Une fois que vous disposez de la liste des destinataires concernés, ajoutez une activité **[!UICONTROL Mise à jour de données]** pour définir le statut de leur adresse e-mail sur **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le workflow **[!UICONTROL Nettoyage de la base de données]**. Vous pouvez également les supprimer uniquement de la table de quarantaine.
 

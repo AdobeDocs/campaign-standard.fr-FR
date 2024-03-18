@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2959'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
 * **Champs de masques autorisés**
 
-  Les **[!UICONTROL Paramètres d’en-tête des e-mails envoyés]** répertorient les adresses e-mail autorisées que vous pouvez utiliser pour envoyer des e-mails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des rebonds asynchrones, des réponses indiquant leur absence, etc. (adresse d’erreur).
+  Les **[!UICONTROL Paramètres d’en-tête des e-mails envoyés]** répertorient les adresses e-mail autorisées que vous pouvez utiliser pour envoyer des e-mails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des rebonds asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).
 
   Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
 
    * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
    * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’assistance clientèle d’Adobe.
    * Si vous souhaitez ajouter une autre adresse, vous pouvez utiliser le [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine ou contacter l&#39;assistance clientèle d&#39;Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
-   * Il est recommandé de définir des adresses à l’aide d’une étoile telle que **@yourdomain.com**: il vous permet d’utiliser toute adresse se terminant par votre nom de sous-domaine.
+   * Il est recommandé de définir des adresses à l’aide d’une étoile comme dans l’expression **@votredomaine.com** : il est ainsi possible d’utiliser toute adresse se terminant par votre nom de sous-domaine.
 
 * **Délivrabilité**
 
@@ -294,13 +294,13 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
   >
   >L’ajout d’un script pour l’insertion d’en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
 
-  À compter du 1er juin 2024, Google et Yahoo! exige que les expéditeurs se conforment aux **Liste-Unsubscribe en un clic**. Campaign prend en charge cette fonctionnalité prête à l’emploi.
+  À compter du 1er juin 2024, Google et Yahoo! exigeront que les expéditeurs et expéditrices se conforment à **One-Click List-Unsubscribe**. Campaign prend en charge cette fonctionnalité prête à l’emploi.
 
   >[!CAUTION]
   >
-  >Si vous modifiez la valeur d’en-tête dans la variable **[!UICONTROL En-têtes SMTP supplémentaires]** de vos modèles de courrier électronique, cela peut rompre la conformité à la **Liste-Unsubscribe en un clic** de Google et de Yahoo!.
+  >Si vous modifiez la valeur d’en-tête dans les **[!UICONTROL en-têtes SMTP supplémentaires]** de vos modèles d’e-mail, cela peut empêcher la conformité à l’exigence **One-Click List-Unsubscribe** de Google et de Yahoo!.
 
-### Liste des paramètres d’autorisation d’accès   {#list-of-access-authorization-parameters}
+### Liste des paramètres d’autorisation d’accès {#list-of-access-authorization-parameters}
 
 La section **[!UICONTROL Autorisation d&#39;accès]** propose les paramètres suivants :
 
@@ -334,7 +334,7 @@ Utilisez la **[!UICONTROL Durée de diffusion]** ou la **[!UICONTROL Limite de v
 
 Les règles **[!UICONTROL Gestion des MX]**, **[!UICONTROL E-mails rejetés]** et **[!UICONTROL Gestion de domaine]** sont accessibles et modifiables par les administrateurs via le menu **[!UICONTROL Administration > Canaux > E-mail > Règles de gestion des e-mails]**. [En savoir plus](#email-processing-rules).
 
-### Qualification des e-mails rejetés {#legacy-bounce-mail-qualification}
+### Qualification des e-mails faisant l’objet d’un rebond {#legacy-bounce-mail-qualification}
 
 Pour répertorier les différents rebonds, ainsi que les types d’erreur et raisons associés, cliquez sur le logo **Adobe** en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
 

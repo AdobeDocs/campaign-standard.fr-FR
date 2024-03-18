@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
 source-git-commit: 7deb1147febfcc8956768715a65416806752c92f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -54,35 +54,35 @@ Lors de la conception d’un workflow planifié incluant plusieurs activités, v
    * **[!UICONTROL Mensuelle]** : le workflow est exécuté à un instant défini, une ou plusieurs fois par mois. Vous pouvez sélectionner les mois auxquels le workflow doit être exécuté. Vous pouvez également configurer des exécutions un jour de semaine spécifié du mois, comme le deuxième mardi du mois.
    * **[!UICONTROL Annuelle]** : le workflow est exécuté à un instant défini, une ou plusieurs fois par an.
 
-1. Configurez les paramètres d’exécution selon vos besoins. Les options disponibles peuvent varier en fonction de la fréquence d&#39;exécution sélectionnée (heure ou jours d&#39;exécution, fréquence de répétition, etc.).
+1. Configurez les paramètres de l’exécution en fonction de vos besoins. Les options disponibles peuvent varier en fonction de la fréquence d’exécution sélectionnée (heure ou jours d’exécution, fréquence de répétition, etc.).
 
    >[!NOTE]
    >
-   >La variable **[!UICONTROL Fréquence des répétitions]** Les champs disponibles pour les fréquences d&#39;exécution Quotidienne et Mensuelle permettent d&#39;espacer dans le temps les déclenchements du workflow. Par exemple, si vous sélectionnez une fréquence d&#39;exécution quotidienne et que la fréquence de répétition est paramétrée sur **2** (jours), le workflow sera déclenché tous les deux jours. La fréquence de répétition ne peut pas être inférieure à 10 minutes. Si la fréquence de répétition est définie sur **0** (également valeur par défaut), cette option n&#39;est pas prise en compte et le workflow s&#39;exécute selon la fréquence d&#39;exécution spécifiée.
+   >Le champ **[!UICONTROL Fréquence des répétitions]** disponible pour les fréquences d’exécution quotidiennes et mensuelles permet d’espacer dans le temps les déclenchements du workflow. Par exemple, si vous sélectionnez une fréquence d&#39;exécution quotidienne et que la fréquence de répétition est paramétrée sur **2** (jours), le workflow sera déclenché tous les deux jours. La fréquence de répétition ne peut pas être inférieure à 10 minutes. Si la fréquence de répétition est paramétrée sur **0** (également valeur par défaut), cette option n’est pas prise en compte et le workflow s’exécute selon la fréquence d’exécution définie.
 
    Lorsque vous définissez la fréquence d’exécution sur **[!UICONTROL Plusieurs fois par jour]**, vous avez la possibilité de choisir entre exécuter le workflow à des moments spécifiques de la journée ou périodiquement tout au long de la journée.
 
-+++ Découvrez comment configurer une **[!UICONTROL &quot;Plusieurs fois par jour&quot;]** fréquence d&#39;exécution
++++ Découvrez comment configurer une fréquence d’exécution **[!UICONTROL « Plusieurs fois par jour »]**.
 
-   * Pour exécuter le workflow plusieurs fois à des moments spécifiques de la journée, activez la fonction **[!UICONTROL Heures spécifiques]** option puis cliquez sur **[!UICONTROL Ajouter un élément]** pour spécifier le temps d’exécution souhaité. Ajoutez autant de fois que nécessaire pour vous aligner sur vos exigences.
+   * Pour exécuter le workflow plusieurs fois à des moments spécifiques de la journée, activez l’option **[!UICONTROL Heures spécifiques]** puis cliquez sur **[!UICONTROL Ajouter un élément]** pour spécifier l’heure d’exécution souhaitée. Ajoutez-en autant de fois que nécessaire pour répondre à vos besoins.
 
-   * Pour exécuter le workflow de manière périodique tout au long de la journée, activez la fonction **[!UICONTROL Périodique]** puis paramétrez la périodicité d&#39;exécution :
+   * Pour exécuter le workflow de manière périodique tout au long de la journée, activez l’option **[!UICONTROL Périodique]** puis configurez la périodicité d’exécution :
 
-      1. Dans le **[!UICONTROL Traitement répété selon la fréquence suivante (par exemple 2h)]** , indiquez l’intervalle d’exécution du workflow (toutes les 30 minutes, toutes les 2 heures, par exemple).
+      1. Dans le champ **[!UICONTROL Traitement répété selon la fréquence suivante (par exemple 2 h)]**, indiquez l’intervalle d’exécution du workflow (toutes les 30 minutes, toutes les 2 heures, par exemple).
 
          >[!NOTE]
          >
-         >Cette option permet également des fréquences de répétition quotidiennes, mensuelles ou annuelles. Dans ce cas, le workflow ne s&#39;exécutera pas plusieurs fois par jour, mais selon la fréquence que vous avez définie dans ce champ.
+         >Cette option permet également de définir des fréquences de répétition quotidiennes, mensuelles ou annuelles. Dans ce cas, le workflow ne s’exécutera pas plusieurs fois par jour, mais selon la fréquence que vous avez définie dans ce champ.
          >
-         > Si votre workflow ne nécessite pas plusieurs exécutions au cours d’une journée, mais doit plutôt s’exécuter tous les jours, tous les mois ou tous les ans, il est conseillé d’utiliser la variable **[!UICONTROL Qualité]**, **[!UICONTROL Mensuel]** ou **[!UICONTROL Annuel]** options disponibles dans la variable **[!UICONTROL Fréquence d&#39;exécution]** liste déroulante.
+         > Si votre workflow ne nécessite pas plusieurs exécutions au cours d’une journée, mais doit plutôt s’exécuter tous les jours, tous les mois ou tous les ans, il est conseillé d’utiliser les options **[!UICONTROL Quotidienne]**, **[!UICONTROL Mensuelle]** ou **[!UICONTROL Annuelle]** disponibles dans la liste déroulante **[!UICONTROL Fréquence d’exécution]**.
 
-      1. Dans le **[!UICONTROL Début]**/**[!UICONTROL Fin]** champ heure , définissez l&#39;heure à laquelle l&#39;exécution du workflow doit commencer et se terminer.
+      1. Dans le champ heure de **[!UICONTROL Début]**/**[!UICONTROL Fin]**, définissez l’heure à laquelle l’exécution du workflow doit commencer et se terminer.
 
-         Si aucune heure de fin n&#39;est définie, l&#39;exécution se termine à minuit 00:00:00 heures et la prochaine exécution démarre le lendemain à l’heure de début spécifiée.
+         Si aucune heure de fin n’est définie, l’exécution se termine à 00 :00: 00 et la prochaine exécution démarre le lendemain à l’heure de début spécifiée.
 
-      1. Dans le **[!UICONTROL Début]** champ date , sélectionnez la date de début de la première exécution.
+      1. Dans le champ de date de **[!UICONTROL Début]**, sélectionnez la date de début de la première exécution.
 
-   Dans l&#39;exemple ci-dessous, l&#39;activité est configurée pour exécuter le workflow toutes les 2 heures entre 8 h et 17 h, à partir du 1er mars.
+   Dans l’exemple ci-dessous, l’activité est configurée pour exécuter le workflow toutes les 2 heures entre 8 h et 17 h, à partir du 1er mars.
 
    ![](assets/wkf_scheduler_day.png)
 

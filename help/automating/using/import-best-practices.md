@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Par exemple :
 * Séparateur : onglet ou point virgule
 * Première ligne avec en-têtes
 * Pas de délimiteur de chaîne
-* Format de date : `YYYY/MM/DD HH:mm:SS`
+* Format de date : `YYYY/MM/DD HH:mm:SS`
 
 Voici un exemple de fichier à importer :
 

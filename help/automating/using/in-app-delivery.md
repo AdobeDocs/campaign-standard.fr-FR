@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 
    * La dimension de ciblage doit être définie sur **[!UICONTROL mobileApp (mobileAppV5)]** pour le modèle **[!UICONTROL Cibler tous les utilisateurs d&#39;une application mobile (inAppBroadcast)]**.
    * La dimension de ciblage doit être définie sur **[!UICONTROL Profil (profile)]** pour le modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)]**.
-   * La dimension de ciblage doit être définie sur **[!UICONTROL abonnements à une application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** pour le **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]** modèle.
+   * La dimension de ciblage doit être définie sur **[!UICONTROL abonnements à une application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** pour le modèle **[!UICONTROL Cibler les utilisateurs et utilisatrices en fonction de leur profil mobile (in-app)]**.
 
 1. Placez une activité **[!UICONTROL Diffusion In-App]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
