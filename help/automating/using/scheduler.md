@@ -9,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 7deb1147febfcc8956768715a65416806752c92f
+source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
 workflow-type: ht
 source-wordcount: '949'
 ht-degree: 100%
@@ -107,3 +107,4 @@ Lors de la conception d’un workflow planifié incluant plusieurs activités, v
 Dans l&#39;exemple suivant, l&#39;activité est paramétrée afin de faire démarrer le workflow toutes les deux semaines, le lundi matin à 7 h, pour une durée indéterminée.
 
 ![](assets/wkf_scheduler_example.png)
+
