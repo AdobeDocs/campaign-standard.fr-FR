@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 2d3210f681bef0f94b7f22f43906ac62b29541f2
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 37%
@@ -31,7 +31,7 @@ Pour garantir un service ininterrompu, vous devez mettre à niveau votre ou vos 
 
 Dans le cadre des efforts constants de Google pour améliorer ses services, les API FCM héritées seront abandonnées le **20 juin 2024**. Pour en savoir plus sur le protocole HTTP Firebase Cloud Messaging, consultez la [documentation de Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-À compter de la version 24.2, Adobe Campaign Standard prend en charge les API HTTP v1 pour envoyer des messages de notification push Android.
+Démarrage [Version 24.1](../../rn/using/release-notes.md), Adobe Campaign Standard prend en charge les API HTTP v1 pour envoyer des messages de notification push Android.
 
 ### Cela vous concerne-t-il ? {#fcm-impact}
 
@@ -49,7 +49,7 @@ La transition vers les dernières API est obligatoire pour éviter toute distrac
 
 #### Conditions préalables {#fcm-transition-prerequisites}
 
-* Le soutien de **AP HTTP v1** Le mode a été ajouté à la version 24.1. Si votre environnement s’exécute sur une ancienne version, une condition préalable à cette modification est de mettre à niveau votre environnement vers [dernière version de Campaign Standard](../../rn/using/release-notes.md).
+* Le soutien de **API HTTP v1** Le mode a été ajouté à la version 24.1. Si votre environnement s’exécute sur une ancienne version, une condition préalable à cette modification est de mettre à niveau votre environnement vers [dernière version de Campaign Standard](../../rn/using/release-notes.md).
 
 * Le fichier JSON du compte du service SDK Firebase Admin Android est nécessaire pour que l’application mobile soit déplacée vers HTTP v1. Découvrez comment obtenir ce fichier dans la [documentation de Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -118,7 +118,7 @@ Si votre mise en œuvre actuelle repose sur des demandes basées sur des certifi
 
 #### Conditions préalables {#ios-transition-prerequisites}
 
-* Le soutien de **Authentification basée sur les jetons** Le mode a été ajouté à la version 24.1. Si votre environnement s’exécute sur une ancienne version, une condition préalable à cette modification est de mettre à niveau votre environnement vers [dernière version de Campaign Standard](../../rn/using/release-notes.md).
+* Le soutien de **Authentification basée sur les jetons** Le mode a été ajouté dans [Version 24.1](../../rn/using/release-notes.md). Si votre environnement s’exécute sur une ancienne version, une condition préalable à cette modification est de mettre à niveau votre environnement vers [dernière version de Campaign Standard](../../rn/using/release-notes.md).
 
 * Vous avez besoin d’une clé de signature de jeton d’authentification APN pour générer les jetons utilisés par votre serveur. Vous pouvez demander cette clé à votre compte de développement Apple, en suivant la procédure décrite à la section [Documentation destinée aux équipes de développement Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
