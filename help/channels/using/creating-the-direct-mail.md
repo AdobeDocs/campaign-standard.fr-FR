@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ La création d&#39;une diffusion courrier est très similaire à celle d&#39;un 
 
    >[!NOTE]
    >
-   >La définition de l&#39;audience est très similaire à celle d&#39;un email classique. Voir [Créer une audience](../../audiences/using/creating-audiences.md).
+   >La définition de l&#39;audience est très similaire à celle d&#39;un email classique. Voir [Créer des audiences](../../audiences/using/creating-audiences.md).
 
 1. Modifiez le contenu de votre fichier : colonnes à inclure pour chaque profil, structure du fichier, en-tête et pied de page. Voir [Définir le contenu du courrier](../../channels/using/defining-the-direct-mail-content.md).
 
