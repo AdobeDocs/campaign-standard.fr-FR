@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
+source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
 workflow-type: tm+mt
 source-wordcount: '1376'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch a été rebaptisé en tant que suite de technologies de collecte de données dans Adobe Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document suivant](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=fr) pour une référence consolidée des modifications terminologiques.
+> Adobe Experience Platform Launch a été rebaptisé en tant que suite de technologies de collecte de données dans Adobe Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous à [document suivant](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=fr){target="_blank"} pour une référence consolidée des modifications terminologiques.
 
 Notez que les implémentations In-App et les notifications push doivent être effectuées par des utilisateurs expérimentés. Si vous avez besoin d’aide, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels.
 
@@ -39,6 +39,7 @@ Pour terminer la configuration, procédez comme suit :
    Si ce n&#39;est pas le cas, contactez l&#39;équipe chargée de votre compte.
 
 1. Vérifiez que votre utilisateur dispose des autorisations nécessaires dans Adobe Campaign Standard et des balises dans Adobe Experience Platform.
+
    * Dans Adobe Campaign Standard, assurez-vous que l’utilisateur IMS figure dans les profils de produit utilisateur et administrateur standard. Cette étape permet à l’utilisateur de se connecter à Adobe Campaign Standard, d’accéder à la page de l’application mobile SDK Experience Platform et d’afficher les propriétés de l’application mobile créée dans l’interface utilisateur de collecte de données.
 
    * Dans l’interface utilisateur de collecte de données, assurez-vous que votre utilisateur IMS fait partie d’un profil de produit Experience Platform Launch.
@@ -152,10 +153,10 @@ Votre application mobile est maintenant prête à être utilisée dans Campaign 
 
      Saisissez les informations suivantes sur l’application :
 
-      * **ID d’application (ID de bundle iOS)** : voir [Documentation Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) pour plus d’informations sur l’ID de bundle.
-      * **Fichier de certificat iOS (P8)** : effectuez un glisser-déposer de votre clé d’authentification .p8. Pour plus d’informations sur la génération du fichier d’authentification .p8, consultez votre [Compte de développement Apple](https://developer.apple.com/account/ios/authkey/create).
-      * **ID de clé** : voir [Documentation Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) pour plus d’informations sur l’ID de clé.
-      * **ID de l’équipe iOS** : voir [Documentation Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) pour plus d’informations sur l’ID de l’équipe iOS.
+      * **ID d’application (ID de bundle iOS)**: voir [Documentation Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} pour plus d’informations sur le Bundle ID.
+      * **Fichier de certificat iOS (P8)** : effectuez un glisser-déposer de votre clé d’authentification .p8. Pour plus d’informations sur la génération du fichier d’authentification .p8, reportez-vous à la section [Compte de développeur Apple](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **ID de clé**: voir [Documentation Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} pour plus d’informations sur l’ID de clé.
+      * **Identifiant de l’équipe iOS**: voir [Documentation Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} pour plus d’informations sur l’identifiant d’équipe iOS.
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -164,8 +165,8 @@ Votre application mobile est maintenant prête à être utilisée dans Campaign 
 
      Saisissez les informations suivantes sur l’application :
 
-      * **ID d’application (nom du package Android)** : voir [Documentation Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) pour plus d’informations sur le nom du package.
-      * **Fichier de clé Android (Json)** : effectuez un glisser-déposer de votre fichier de clé privée .json. Pour plus d’informations sur la génération du fichier de clé privée .json, reportez-vous à la [Documentation pour développeurs et développeuses de Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+      * **ID d’application (nom du module Android)**: voir [Documentation Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} pour plus d’informations sur le nom du module.
+      * **Fichier de clé Android (Json)** : effectuez un glisser-déposer de votre fichier de clé privée .json. Pour plus d’informations sur la génération du fichier de clé privée .json, reportez-vous à la section [Documentation destinée aux développeurs pour Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++
