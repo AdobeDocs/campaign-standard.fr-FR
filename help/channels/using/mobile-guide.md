@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -225,7 +225,7 @@ Avec Adobe Campaign Standard, vous pouvez envoyer des diffusions mobiles par l
 
 ## Résolution des problèmes mobiles {#mobile-troubleshooting}
 
-Les pages suivantes vous aideront à résoudre les problèmes les plus courants qui se produisent lors de l’utilisation de la diffusion mobile dans Adobe Campaign Standard.
+Les pages suivantes permettent de résoudre les problèmes les plus courants qui se produisent lors de l’utilisation de la diffusion mobile dans Adobe Campaign Standard.
 
 <table style="table-layout:fixed">
 <tr>
