@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4695'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -338,7 +338,7 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 
 * Le format de journal SMPP a été amélioré.
 
-* Des paramètres facultatifs pour les fonctions JS cryptString et decryptString ont été ajoutés pour correspondre aux API Adobe Campaign Standard.
+* Des paramètres facultatifs pour les fonctions JS cryptString et decryptString ont été ajoutés pour correspondre aux API Adobe Campaign Standard.
 
 * Amélioration des messages d&#39;avertissement ou d&#39;erreur dans les logs de préparation de diffusion.
 
