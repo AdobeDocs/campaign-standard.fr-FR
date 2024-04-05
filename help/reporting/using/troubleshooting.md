@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 8625a26686570d555d7f5614b38536c248ee16a3
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 100%
+source-wordcount: '1228'
+ht-degree: 68%
 
 ---
 
@@ -190,3 +190,25 @@ Pour résoudre ce problème, procédez comme suit :
 * Après avoir importé votre mapping de ciblage à partir d’un fichier XML, vous devrez également importer l’enrichissement du reporting.
 
 * Au lieu d&#39;importer votre mapping de ciblage, vous pouvez le créer directement dans Adobe Campaign Standard, ce qui créera automatiquement l&#39;enrichissement du reporting.
+
+## Différence entre le numéro d’en-tête de colonne et la somme des lignes
+
+L’écart entre le numéro d’en-tête de colonne et la somme de toutes les lignes est attendu dans les cas suivants :
+
+* **Mesures uniques**: l’utilisation de mesures uniques peut modifier le nombre total affiché dans l’en-tête, car il est basé sur les identifiants des destinataires au lieu d’une simple somme des chiffres de lignes. Par conséquent, un seul profil peut déclencher de nombreux événements dans différentes dimensions, ce qui entraîne plusieurs lignes dans le jeu de données. Cependant, dans l’en-tête, chaque profil n’est comptabilisé qu’une seule fois.
+
+  Par exemple :
+
+   * Si un profil A ouvre un email sur trois jours différents, la ventilation par jour affichera A sur trois lignes, mais dans l’en-tête, A comptera 1.
+
+   * Si le profil A clique sur trois liens différents dans un email le même jour, la ventilation par URL de suivi affiche A sur trois lignes, mais dans l’en-tête, A compte sur 1. Il en va de même pour les ventilations par appareil et navigateur.
+
+* **Ouvrir les mesures**: le nombre d’ouvertures est déterminé par l’agrégation du total des événements d’ouverture réels et des événements de clic unique (par identifiant de destinataire), à l’exception des cas où aucun événement d’ouverture n’a eu lieu, puisqu’il n’est pas possible de cliquer sur un lien d’email sans événement d’ouverture.
+
+  Par exemple :
+
+   * Lorsque le profil A ouvre un email suivi (avec l’URL U1), il s’enregistre en tant qu’événement d’ouverture avec l’URL indiquée comme nulle. Cliquer sur U1 ultérieurement génère un événement de clic. Bien que le clic de A sur U1 soit également comptabilisé comme événement d’ouverture, il n’existe aucun événement d’ouverture spécifique pour U1. Par conséquent, A n’est compté qu’une seule fois dans le nombre d’ouvertures unique.
+
+   * Un profil R ouvre un email le jour 1, enregistrant un événement d’ouverture, puis clique sur un lien. Au cours des deux jours suivants, R rouvre l’email et clique à nouveau sur le lien, générant un événement de clic chaque jour. Bien que l’engagement de R soit suivi quotidiennement dans le nombre d’ouvertures, R n’est compté qu’une seule fois dans l’en-tête de colonne, en se concentrant sur les engagements uniques.
+
+* **Événement négatif**: dans les rapports, un événement nié signifie que les tentatives de diffusion qui ont été initialement marquées comme réussies mais ont finalement échoué après les nouvelles tentatives. Elles sont indiquées par un nombre de -1. Pour éviter toute confusion, ces nombres négatifs sont exclus des nombres de mesures de diffusion affichés. Par conséquent, le total de toutes les lignes pour la mesure de diffusion peut ne pas correspondre au numéro de l’en-tête de colonne.
