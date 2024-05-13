@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '2959'
-ht-degree: 100%
+source-wordcount: '2984'
+ht-degree: 99%
 
 ---
 
@@ -294,7 +294,9 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
   >
   >L’ajout d’un script pour l’insertion d’en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
 
-  À compter du 1er juin 2024, Google et Yahoo! exigeront que les expéditeurs et expéditrices se conforment à **One-Click List-Unsubscribe**. Campaign prend en charge cette fonctionnalité prête à l’emploi.
+  À compter du 1er juin 2024, Google et Yahoo! exigeront que les expéditeurs et expéditrices se conforment à **One-Click List-Unsubscribe**. Campaign prend en charge cette fonctionnalité prête à l’emploi pour les modèles de diffusion.
+
+  A appliquer **Liste-Unsubscribe en un clic** pour toutes les diffusions email qui ne sont pas des modèles, vous devez exécuter la variable **[!UICONTROL Copie d’en-têtes à partir de modèles de diffusion]** workflow technique. [En savoir plus](technical-workflows.md)
 
   >[!CAUTION]
   >
@@ -332,7 +334,7 @@ Utilisez la **[!UICONTROL Durée de diffusion]** ou la **[!UICONTROL Limite de v
 
 ### Règles de gestion des e-mails {#legacy-email-processing-rules}
 
-Les règles **[!UICONTROL Gestion des MX]**, **[!UICONTROL E-mails rejetés]** et **[!UICONTROL Gestion de domaine]** sont accessibles et modifiables par les administrateurs via le menu **[!UICONTROL Administration > Canaux > E-mail > Règles de gestion des e-mails]**. [En savoir plus](#email-processing-rules).
+Les règles **[!UICONTROL Gestion des MX]**, **[!UICONTROL E-mails rejetés]** et **[!UICONTROL Gestion de domaine]** sont accessibles et modifiables par les administrateurs via le menu **[!UICONTROL Administration > Canaux > E-mail > Règles de gestion des e-mails]**. [En savoir plus](#email-processing-rules)
 
 ### Qualification des e-mails faisant l’objet d’un rebond {#legacy-bounce-mail-qualification}
 
