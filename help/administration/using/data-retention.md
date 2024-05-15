@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -36,30 +36,30 @@ Vous trouverez ci-dessous les périodes de conservation par défaut pour les tab
 * **Alertes de diffusion** : 1 mois
 * **Audit des exports** : 6 mois (recommandé : 1 mois)
 
-## Période de rétention des diffusions {#deliveries}
+## Période de conservation des diffusions {#deliveries}
 
 Par défaut, la période de conservation des diffusions est illimitée.
 
-Cependant, si votre instance contient un volume élevé de diffusions, vous pouvez mettre à jour la variable **NmsCleanup_DeliveryPurgeDelay** option disponible à partir de la **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]** .
+Cependant, si votre instance contient un volume élevé de diffusions, vous pouvez mettre à jour l’option **NmsCleanup_DeliveryPurgeDelay** disponible à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]**.
 
-Chaque fois que la fonction **[!UICONTROL Nettoyer la base]** est exécuté, les diffusions répondant aux conditions définies pour cette option seront supprimées.
+Chaque fois que le workflow **[!UICONTROL Nettoyage de la base de données]** est exécuté, les diffusions répondant aux conditions définies pour cette option sont supprimées.
 
-Cette action peut contribuer à accélérer les processus tels que la **[!UICONTROL Copie d’en-têtes à partir de modèles de diffusion]** workflow.
+Cette action peut contribuer à accélérer les processus tels que le workflow **[!UICONTROL Copie d’en-têtes à partir de modèles de diffusion]**.
 
 >[!NOTE]
 >
 >En savoir plus sur les workflows techniques dans [cette section](technical-workflows.md).
 
 
-La valeur par défaut de la variable **NmsCleanup_DeliveryPurgeDelay** option est `-1`. Dans ce cas, aucune diffusion n&#39;est supprimée.
+La valeur par défaut de l’option **NmsCleanup_DeliveryPurgeDelay** est `-1`. Dans ce cas, aucune diffusion n’est supprimée.
 
-Par exemple, si vous définissez sur `180`, toutes les diffusions qui ne sont pas des modèles et qui n’ont pas été mises à jour au cours des 180 derniers jours seront supprimées lorsque la variable **[!UICONTROL Nettoyer la base]** le workflow est exécuté.
+Par exemple, si vous la définissez sur `180`, toutes les diffusions qui ne sont pas des modèles et qui n’ont pas été mises à jour au cours des 180 derniers jours seront supprimées lorsque le workflow **[!UICONTROL Nettoyage de la base de données]** est exécuté.
 
 >[!NOTE]
 >
 >* Les modèles de diffusion marketing ou transactionnelle ne seront pas supprimés.
 >
->* Pour les diffusions récurrentes, les diffusions enfants avec une période d’agrégation définie comme mois ou année ne seront pas supprimées.
+>* Pour les diffusions récurrentes, les diffusions enfant avec une période d’agrégation définie en mois ou années ne seront pas supprimées.
 
-Lors de la mise à jour de la variable **NmsCleanup_DeliveryPurgeDelay** , il est recommandé de procéder progressivement à plusieurs itérations. Par exemple, vous pouvez commencer en définissant la valeur sur 300 jours, puis 180 jours, puis 120 jours, etc., en vous assurant que les itérations sont séparées d’au moins 2 jours. Sinon, la variable **[!UICONTROL Nettoyer la base]** le workflow peut prendre beaucoup plus de temps en raison d’un grand nombre de diffusions à supprimer.
+Lors de la mise à jour de l’option **NmsCleanup_DeliveryPurgeDelay**, il est recommandé de procéder progressivement à plusieurs itérations. Par exemple, vous pouvez commencer en définissant la valeur sur 300 jours, puis 180 jours, puis 120 jours, etc., en vous assurant que les itérations sont séparées d’au moins 2 jours. Sinon, le workflow **[!UICONTROL Nettoyage de la base de données]** peut prendre beaucoup plus de temps en raison d’un grand nombre de diffusions à supprimer.
 

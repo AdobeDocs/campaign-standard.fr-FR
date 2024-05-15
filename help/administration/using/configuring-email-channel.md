@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2984'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
   Dans le champ **[!UICONTROL Durée entre deux erreurs significatives]**, saisissez une valeur pour définir le temps d’attente de l’application avant d’incrémenter le compteur d’erreurs en cas d’échec lié à un rebond temporaire. La valeur par défaut est **&quot;1d&quot;**, pour 1 jour.
 
-  Lorsque la valeur **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** est atteinte, l’adresse email est mise en quarantaine. La valeur par défaut est **&quot;5&quot;** : l&#39;adresse est mise en quarantaine à la cinquième erreur. Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
+  Lorsque la valeur **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** est atteinte, l’adresse e-mail est mise en quarantaine. La valeur par défaut est **&quot;5&quot;** : l&#39;adresse est mise en quarantaine à la cinquième erreur. Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
   Pour plus d’informations sur ce sujet, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
@@ -296,7 +296,7 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
 
   À compter du 1er juin 2024, Google et Yahoo! exigeront que les expéditeurs et expéditrices se conforment à **One-Click List-Unsubscribe**. Campaign prend en charge cette fonctionnalité prête à l’emploi pour les modèles de diffusion.
 
-  A appliquer **Liste-Unsubscribe en un clic** pour toutes les diffusions email qui ne sont pas des modèles, vous devez exécuter la variable **[!UICONTROL Copie d’en-têtes à partir de modèles de diffusion]** workflow technique. [En savoir plus](technical-workflows.md)
+  Pour appliquer **List-Unsubscribe en un clic** à toutes les diffusions e-mail qui ne sont pas des modèles, vous devez exécuter le workflow technique **[!UICONTROL Copie d’en-têtes à partir de modèles de diffusion]**. [En savoir plus](technical-workflows.md)
 
   >[!CAUTION]
   >

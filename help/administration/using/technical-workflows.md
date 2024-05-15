@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -49,10 +49,10 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
    <td> Ce workflow transmet par e-mail le rapport d'activité du système à l'utilisateur 'billing'. Par défaut, il se déclenche tous les jours à 1H00.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Copie d’en-têtes à partir de modèles de diffusion</span> <br /> </td> 
+   <td> <span class="uicontrol">Copier des en-têtes à partir de modèles de diffusion</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> Ce workflow copie les en-têtes SMTP définis pour les modèles de diffusion email vers les diffusions enfants non modèles correspondantes. Seules les diffusions de marketing email sont récupérées par ce workflow. Les en-têtes SMTP ne sont pas copiés vers les diffusions transactionnelles et les diffusions de BAT. <br> Ce workflow n’est pas exécuté périodiquement. Il doit être démarré par l’utilisateur selon son utilisation. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Si votre instance contient un volume élevé de diffusions, vous pouvez mettre à jour l’option NmsCleanup_DeliveryPurgeDelay dans la variable <strong>Paramètres de l’application</strong>. Si vous effectuez une modification dans les en-têtes SMTP d’un modèle, vous devez exécuter à nouveau le workflow après la modification afin que les en-têtes corrigés soient copiés vers les diffusions non modèles.<a href="data-retention.md#deliveries">En savoir plus</a>
-   <br /> </td> 
+   <td> Ce workflow copie les en-têtes SMTP définis pour les modèles de diffusion e-mail vers les diffusions enfant correspondantes qui ne sont pas des modèles. Seules les diffusions e-mail marketing sont récupérées par ce workflow. Les en-têtes SMTP ne sont pas copiés vers les diffusions transactionnelles et les diffusions de BAT. <br> Ce workflow n’est pas exécuté périodiquement. Il doit être démarré par la personne selon son utilisation. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Si votre instance contient un volume élevé de diffusions, vous pouvez mettre à jour l’option NmsCleanup_DeliveryPurgeDelay dans les <strong>Paramètres de l’application</strong>. Si vous effectuez une modification dans les en-têtes SMTP d’un modèle, vous devez exécuter à nouveau le workflow après la modification afin que les en-têtes corrigés soient copiés vers les diffusions non modèles.<a href="data-retention.md#deliveries">En savoir plus</a>
+<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Nettoyage de la base</span> <br /> </td> 
