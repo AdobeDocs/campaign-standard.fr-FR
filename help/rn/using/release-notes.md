@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
+source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 38%
@@ -26,7 +26,7 @@ ht-degree: 38%
 
 * **Notifications push iOS** - Adobe Campaign Standard 24.1 prend désormais en charge les certificats d’authentification p8 pour les notifications push iOS. Votre mise en œuvre doit être adaptée pour activer ces modifications. Consultez [cette note technique](../../administration/using/push-technote.md) pour en savoir plus.
 
-**Liste-Unsubscribe en un clic** - à partir du 1er juin 2024, Google et Yahoo! exigeront que les expéditeurs et expéditrices se conforment à One-Click List-Unsubscribe. Campaign prend désormais en charge cette fonctionnalité prête à l’emploi. En savoir plus dans [cette section](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
+* **Liste-Unsubscribe en un clic** - à partir du 1er juin 2024, Google et Yahoo! exigeront que les expéditeurs et expéditrices se conforment à One-Click List-Unsubscribe. Campaign prend désormais en charge cette fonctionnalité prête à l’emploi. En savoir plus dans [cette section](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
 
 * **Infrastructure** - La base de données Postgres a été mise à niveau de la version 11.22 vers la version 12.17.
 
