@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
 workflow-type: tm+mt
 source-wordcount: '2753'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Personnalisation du contenu des e-mails {#personalization}
 
-Le contenu et l&#39;affichage des messages diffusés par Adobe Campaign peuvent être personnalisés de plusieurs façons différentes. Celles-ci peuvent être combinées selon des critères qui sont fonction des profils. En règle générale, Adobe Campaign permet d&#39;effectuer les opérations suivantes :
+Le contenu et l&#39;affichage des messages diffusés par Adobe Campaign peuvent être personnalisés de plusieurs façons différentes. Celles-ci peuvent être combinées selon des critères qui sont fonction des profils. D&#39;une manière générale, Adobe Campaign vous permet de :
 
 * Insérer des champs de personnalisation dynamiques. Voir [Insertion d&#39;un champ de personnalisation](#inserting-a-personalization-field).
 * Insérer des blocs de personnalisation prédéfinis. Voir [Ajouter un bloc de contenu](#adding-a-content-block).
@@ -37,7 +37,7 @@ Le champ peut être personnalisé. Pour cela, vous pouvez ajouter des champs de 
 >
 >Les paramètres d’en-tête ne doivent pas être vides. L’adresse de l’expéditeur est obligatoire pour permettre l’envoi d’un email (norme RFC). Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
 
-## Personnaliser une URL{#personalizing-urls}
+## Personnaliser une URL {#personalizing-urls}
 
 Adobe Campaign vous permet de personnaliser une ou plusieurs URL dans votre message, en insérant des champs de personnalisation, des blocs de contenu ou du contenu dynamique à la suite de celles-ci. Pour cela :
 
@@ -85,7 +85,7 @@ Une fois la personnalisation générée (lors de la prévisualisation et de la p
 >
 >Si l&#39;email est créé depuis un workflow, les données additionnelles calculées dans le workflow sont aussi disponibles dans les champs de personnalisation. Pour plus d&#39;informations sur l&#39;ajout de données additionnelles depuis un workflow, consultez la section [Enrichir les données](../../automating/using/about-targeting-activities.md#enriching-data).
 
-## Ajout d&#39;un bloc de contenu{#adding-a-content-block}
+## Ajout d&#39;un bloc de contenu {#adding-a-content-block}
 
 Adobe Campaign propose une liste de blocs de contenu pré-paramétrés. Ces blocs de contenu sont dynamiques, personnalisés et possèdent un rendu spécifique. Vous pouvez par exemple ajouter un message de salutations ou un lien vers la page miroir.
 
