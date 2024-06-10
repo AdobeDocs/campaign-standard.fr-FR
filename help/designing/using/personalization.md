@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2753'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Personnalisation du contenu des e-mails {#personalization}
 
-Le contenu et l&#39;affichage des messages diffusés par Adobe Campaign peuvent être personnalisés de plusieurs façons différentes. Celles-ci peuvent être combinées selon des critères qui sont fonction des profils. D&#39;une manière générale, Adobe Campaign vous permet de :
+Le contenu et l&#39;affichage des messages diffusés par Adobe Campaign peuvent être personnalisés de plusieurs façons différentes. Celles-ci peuvent être combinées selon des critères qui sont fonction des profils. D’une manière générale, Adobe Campaign vous permet d’effectuer ce qui suit :
 
 * Insérer des champs de personnalisation dynamiques. Voir [Insertion d&#39;un champ de personnalisation](#inserting-a-personalization-field).
 * Insérer des blocs de personnalisation prédéfinis. Voir [Ajouter un bloc de contenu](#adding-a-content-block).
