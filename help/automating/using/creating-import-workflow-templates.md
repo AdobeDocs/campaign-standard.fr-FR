@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1307'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Par exemple :
 
      ![](assets/import_template_example6.png)
 
-   * Dans l’onglet **[!UICONTROL Champs à mettre à jour]**, indiquez les champs de la dimension Profils à mettre à jour avec la valeur de la colonne correspondante du fichier. Si les noms des colonnes du fichier sont identiques ou presque identiques aux noms des champs de la dimension des destinataires, utilisez le bouton baguette magique pour réconcilier les différents champs automatiquement.
+   * Dans l’onglet **[!UICONTROL Champs à mettre à jour]**, indiquez les champs de la dimension Profils à mettre à jour avec la valeur de la colonne correspondante du fichier. Si les noms des colonnes du fichier sont identiques ou presque identiques aux noms des champs de la dimension des personnes destinataires, utilisez le bouton baguette magique pour faire correspondre les différents champs automatiquement.
 
      ![](assets/import_template_example6_2.png)
 
@@ -113,7 +113,7 @@ Par exemple :
 
      ![](assets/import_template_example6.png)
 
-   * Dans l’onglet **[!UICONTROL Champs à mettre à jour]**, indiquez les champs de la dimension Profils à mettre à jour avec la valeur de la colonne correspondante du fichier. Si les noms des colonnes du fichier sont identiques ou presque identiques aux noms des champs de la dimension des destinataires, utilisez le bouton baguette magique pour réconcilier les différents champs automatiquement.
+   * Dans l’onglet **[!UICONTROL Champs à mettre à jour]**, indiquez les champs de la dimension Profils à mettre à jour avec la valeur de la colonne correspondante du fichier. Si les noms des colonnes du fichier sont identiques ou presque identiques aux noms des champs de la dimension des personnes destinataires, utilisez le bouton baguette magique pour faire correspondre les différents champs automatiquement.
 
      ![](assets/import_template_example6_2.png)
 

@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Avant d&#39;accéder à l&#39;image dans Adobe Campaign, les tâches suivantes d
 * créer une ou plusieurs [offres de redirection](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=fr), dans lesquelles vous devez spécifier l&#39;URL de l&#39;image que vous souhaitez utiliser.
 * créer une ou plusieurs [audiences](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=fr), afin de définir la cible de votre activité.
 * créer une activité de type [Compositeur d&#39;expérience d&#39;après les formulaires](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=fr), dans laquelle vous devez sélectionner un &quot;rawbox&quot; et définir plusieurs expériences, en fonction du nombre d&#39;offres de redirection créées. Pour chaque expérience, vous devez sélectionner une des offres de redirection créées.
-* créer des segments à l&#39;aide des informations issues d&#39;Adobe Campaign pour spécifier des expériences. Si vous souhaitez utiliser des données issues d&#39;Adobe Campaign dans les règles de sélection de l&#39;offre, vous devez les spécifier au niveau du &quot;rawbox&quot; dans Adobe Target.
+* créer des segments à l&#39;aide des informations issues d&#39;Adobe Campaign pour spécifier des expériences. Si vous souhaitez utiliser des données issues d’Adobe Campaign dans les règles de sélection de l’offre, vous devez les spécifier au niveau du « rawbox » dans Adobe Target.
 
 1. Créez une diffusion email.
 1. Lors de l&#39;édition du contenu d&#39;un email ou d&#39;une landing page, placez-vous sur un bloc de type image, puis via le menu contextuel, sélectionnez **[!UICONTROL Image dynamique servie par Adobe Target]**.

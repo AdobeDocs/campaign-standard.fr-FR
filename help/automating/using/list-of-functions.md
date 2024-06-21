@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2013'
 ht-degree: 100%
 
@@ -396,7 +396,7 @@ Ce tableau contient les autres fonctions disponibles.
    <td> <strong>Syntaxe</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Case</strong><br /> </td> 
+   <td> <strong>Casse</strong><br /> </td> 
    <td> Renvoie la valeur 1 si la condition est vérifiée. Sinon, renvoie la valeur 2<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;valeur 1&gt;), Else(&lt;valeur 2&gt;))<br /> </td> 
   </tr> 

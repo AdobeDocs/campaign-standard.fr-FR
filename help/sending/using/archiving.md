@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Une fois la fonctionnalité activée, vous devez activer Email BCC depuis l’o
 
 ## Recommandations et limitations  {#recommendations-and-limitations}
 
-* Cette fonctionnalité est en option. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l’activer.
+* Cette fonctionnalité est en option. Vérifiez votre contrat de licence et contactez la personne chargée de votre compte pour l’activer.
 * L’adresse en Cci de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
 * Vous ne pouvez utiliser qu’une seule adresse email en Cci.
 * Seuls les emails envoyés sont pris en compte, les rebonds ne le sont pas.

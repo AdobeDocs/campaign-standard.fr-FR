@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Le but du workflow est d&#39;envoyer un email distinct pour chaque tranche d&#39
 
 ![](assets/wkf_segment_example_4.png)
 
-Le workflow est défini comme suit :
+Le workflow est constitué des éléments suivants :
 
 * Une [activité Planificateur](../../automating/using/segmentation.md) permettant de définir la date d&#39;exécution du workflow.
 * Une activité [Requête](../../automating/using/query.md) permettant de cibler les profils de personnes dont la date de naissance et l&#39;adresse email sont renseignées.

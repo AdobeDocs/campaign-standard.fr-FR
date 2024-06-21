@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1528'
 ht-degree: 100%
 
@@ -50,11 +50,11 @@ Vous pouvez ainsi effectuer les actions suivantes :
 
 ## Configuration {#configuration}
 
-Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, vous devez définir la structure du fichier attendue en téléchargeant un fichier d&#39;exemple. Une fois cela réalisé, vous pouvez spécifier la provenance du fichier dont les données seront importées.
+Le paramétrage de l&#39;activité se déroule en deux temps. Tout d’abord, vous devez définir la structure du fichier attendue en chargeant un fichier d’exemple. Une fois cela réalisé, vous pouvez spécifier la provenance du fichier dont les données seront importées.
 
 >[!NOTE]
 >
->Les données du fichier d&#39;exemple sont utilisées pour le paramétrage de l&#39;activité mais ne sont pas importées. Il est recommandé d&#39;utiliser un fichier d&#39;exemple avec peu de données.
+>Les données du fichier d’exemple sont utilisées pour le paramétrage de l’activité mais ne sont pas importées. Il est recommandé d&#39;utiliser un fichier d&#39;exemple avec peu de données.
 
 1. Placez une activité **[!UICONTROL Chargement de fichier]** dans votre workflow.
 1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
@@ -121,7 +121,7 @@ Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflo
 
 ## Format des colonnes {#column-format}
 
-Lorsque vous téléchargez un fichier d&#39;exemple, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données. Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particulier à appliquer à vos données, notamment en cas d&#39;erreur ou de valeur vide.
+Lorsque vous téléchargez un fichier d&#39;exemple, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données. Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particuliers à appliquer à vos données, notamment en cas d’erreur ou de valeur vide.
 
 Pour cela, sélectionnez **[!UICONTROL Editer les propriétés]** dans les actions rapides de la colonne dont vous souhaitez définir le format. La fenêtre de détail du format de la colonne s&#39;ouvre.
 
@@ -145,7 +145,7 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
    * **[!UICONTROL Format]** : permet de définir le format des valeurs numériques pour les données de type **Nombre entier** et **Nombre flottant**.
    * **[!UICONTROL Séparateur]** : permet de définir le séparateur spécifié par le contexte de la colonne (séparateur de milliers ou séparateur décimal pour les valeurs numériques, séparateur pour les dates et les heures) pour les données de type **Date**, **Heure**, **Date et Heure**, **Nombre entier** et **Nombre flottant**.
 
-* **[!UICONTROL Recodification des valeurs]** : ce champ est disponible uniquement dans le paramétrage du détail d&#39;une colonne. Il permet de transformer certaines valeurs lors de l&#39;import. Par exemple, vous pouvez transformer &quot;trois&quot; en &quot;3&quot;.
+* **[!UICONTROL Recodification des valeurs]** : ce champ est disponible uniquement dans le paramétrage du détail d&#39;une colonne. Il permet de transformer certaines valeurs lors de l&#39;import. Par exemple, vous pouvez transformer « trois » en « 3 ».
 * **[!UICONTROL Traitement des erreurs]** : permet de définir le comportement en cas d&#39;erreur.
 
    * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le journal d&#39;exécution du workflow.

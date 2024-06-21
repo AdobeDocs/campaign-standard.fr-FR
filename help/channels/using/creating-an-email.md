@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
    >
    >Vous pouvez définir des règles de fatigue cross-canal globales qui excluront automatiquement les profils sur-sollicités des campagnes. Voir à ce propos [Règles de fatigue](../../sending/using/fatigue-rules.md).
 
-1. Envoyez des BAT à vérifier, validez votre message et suivez son rendu dans la boîte de réception. Voir [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
+1. Envoyez des BAT pour vérifier et valider votre message et suivre son rendu dans la boîte de réception. Voir [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 

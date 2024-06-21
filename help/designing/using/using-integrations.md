@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '706'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Cette fonctionnalité est présentée dans la documentation Dreamweaver, accessi
 
 ## Modifier le contenu dans Experience Manager {#editing-content-in-experience-manager}
 
-Un contenu d&#39;email peut être édité dans Experience Manager puis utilisé pour un ou plusieurs messages d&#39;email dans Adobe Campaign Standard. Reportez-vous à [ce document](../../integrating/using/integrating-with-experience-manager.md).
+Un contenu d&#39;email peut être édité dans Experience Manager puis utilisé pour un ou plusieurs messages d&#39;email dans Adobe Campaign Standard. Consultez [ce document](../../integrating/using/integrating-with-experience-manager.md).
 
 ## Listes de produits {#product-listing}
 

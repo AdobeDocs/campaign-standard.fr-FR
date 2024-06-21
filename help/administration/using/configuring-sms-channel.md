@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un c
 
 1. Définissez les paramètres de **[!UICONTROL Débit et délais]**.
 
-   Vous pouvez indiquer le débit maximum des messages sortants (&quot;MT&quot;, Mobile Terminated) en MT par seconde. Si vous indiquez &quot;0&quot; dans le champ correspondant, le débit ne sera pas limité.
+   Vous pouvez indiquer le débit maximum des messages sortants (&quot;MT&quot;, Mobile Terminated) en MT par seconde. Si vous indiquez « 0 » dans le champ correspondant, le débit ne sera pas limité.
 
    Les valeurs de tous les champs correspondant à des délais sont à renseigner en secondes.
 
