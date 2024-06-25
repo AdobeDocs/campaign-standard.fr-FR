@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Les mises à niveau sont déployées en deux phases. Tout d’abord, les instanc
 
 Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour. Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
 
-## Version 24.1 - Version d’hiver 2024 {#release-24-1-release}
+## Version 24.2 - Version d’été 2024 {#release-24-2-release}
 
 Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](release-notes.md) quand les mises à niveau de l’environnement d’évaluation démarrent.
 
@@ -33,17 +33,20 @@ Des informations détaillées sur cette version sont disponibles dans les [Notes
  <thead>
   <tr>
    <th> Environnements </th>
-   <th> Dates </th>
+   <th> Disponibilité limitée </th>
+   <th> Disponibilité générale </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Évaluation </td>
-   <td>16 janvier-13 février 2024 </td>
+   <td>6-13 août 2024 </td>
+   <td>2025 - Dates à confirmer</td>
   </tr>
   <tr>
    <td>Production </td>
-   <td>23 janvier-20 février 2024 </td>
+   <td>20-27 août 2024 </td>
+   <td>2025 - Dates à confirmer</td>
   </tr>
  </tbody>
 </table>
