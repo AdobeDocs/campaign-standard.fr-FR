@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
-workflow-type: ht
-source-wordcount: '843'
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
+workflow-type: tm+mt
+source-wordcount: '795'
 ht-degree: 100%
 
 ---
@@ -58,13 +58,7 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
    <td> <span class="uicontrol">Nettoyage de la base</span> <br /> </td> 
    <td> <span class="uicontrol">nettoyage</span> <br /> </td> 
    <td> Ce workflow est le workflow d'entretien de la base : il procède aux différents calculs des statistiques et traitements, et supprime les données obsolètes de la base de données selon le paramétrage défini. Par défaut, il se déclenche tous les jours à 4H00.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Prévisionnel</span> <br /> </td> 
-   <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> Ce workflow effectue l’analyse des diffusions enregistrées dans le calendrier prévisionnel (création des logs prévisionnels). Par défaut, il se déclenche tous les jours à 1 h 00. <br />
-   Le workflow de prévision est un workflow hérité qui a été arrêté dans Campaign Standard et n’est plus opérationnel.</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Importer une audience partagée</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 

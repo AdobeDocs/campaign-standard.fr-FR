@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentation produit pour Adobe Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation de Campaign Standard
-source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
-workflow-type: ht
-source-wordcount: '1754'
+source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+workflow-type: tm+mt
+source-wordcount: '1752'
 ht-degree: 100%
 
 ---
@@ -15,10 +15,8 @@ ht-degree: 100%
 # Documentation d’Adobe Campaign Standard {#using}
 
 + [Documentation de Campaign Standard](campaign-standard-home.md)
-+ [Dernières mises à jour](rn/using/documentation-updates.md)
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/using/release-notes.md)
-   + [Notes de mise à jour initiales](rn/using/e-release-notes.md)
    + Versions précédentes {#previous-releases}
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -30,6 +28,7 @@ ht-degree: 100%
    + [Calendrier des versions](rn/using/release-planning.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Problème de signature des URL trackées](rn/using/tracked-urls.md)
+   + [Dernières mises à jour de la documentation](rn/using/documentation-updates.md)
 + Prise en main {#getting-started}
    + [À propos d&#39;Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Découverte de l&#39;interface {#discovering-the-interface}

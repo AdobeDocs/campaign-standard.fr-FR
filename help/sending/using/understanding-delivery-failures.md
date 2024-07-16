@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -136,6 +136,6 @@ To list the various bounces and their associated error types et reasons, click t
 
 Le mécanisme de double opt-in constitue une bonne pratique lors de l’envoi d’emails. Il protège la plateforme des adresses email erronées ou non valides ainsi que des spammeurs, et empêche les éventuelles plaintes pour spam.
 
-Le principe consiste à envoyer un email pour confirmer l’accord du visiteur avant de le stocker en tant que profil dans votre base de données Adobe Campaign : le visiteur remplit une landing page en ligne, il reçoit ensuite un email et doit cliquer sur le lien de confirmation afin de finaliser son abonnement.
+Le principe consiste à envoyer un email pour confirmer l&#39;accord du visiteur avant de le stocker en tant que &quot;profils&quot; dans votre base de données Campaign : le visiteur remplit une landing page en ligne, il reçoit alors un email et doit cliquer sur le lien de confirmation pour finaliser son inscription.
 
-Pour plus d’informations à ce sujet, consultez [cette section](../../channels/using/setting-up-a-double-opt-in-process.md).
+Pour plus d’informations, consultez [cette section](../../channels/using/setting-up-a-double-opt-in-process.md).
