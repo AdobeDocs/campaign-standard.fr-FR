@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1778'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Les comptes externes sont utilisés par des processus techniques, tels que des w
 1. Cliquez sur le bouton **[!UICONTROL Créer]**.
 1. Saisissez un libellé. Le libellé et l’identifiant seront utilisés lors de la sélection des comptes externes dans les workflows.
 1. Sélectionnez le type de compte que vous souhaitez créer.
-1. Configurez l’accès au compte en indiquant les identifiants, l’adresse du serveur, le numéro de port et les clés, le cas échéant.
+1. Configurez l’accès au compte en indiquant les informations d’identification, l’adresse du serveur, le numéro de port et les clés, le cas échéant.
 
    Les informations nécessaires sont généralement fournies par le fournisseur du serveur auquel vous vous connectez.
 
@@ -146,7 +146,7 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
   http://aem.domain.com:4502
   ```
 
-* Identifiants du compte AEM : utilisez le compte qui accédera à l’instance d’Adobe Experience Manager. Il doit s’agir d’un compte appartenant au groupe distant de campagnes dans Experience Manager.
+* Informations d’identification du compte AEM : utilisez le compte qui accédera à l’instance d&#39;Adobe Experience Manager. Il doit s’agir d’un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
 ## Compte externe Google reCAPTCHA    {#google-recaptcha-external-account}
 

@@ -9,7 +9,7 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1158'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Vous pouvez utiliser Campaign pour envoyer des notifications push sur les appare
 
 En outre, Adobe recommande vivement de passer à une connexion au service APN basée sur des jetons plutôt que sur des certificats, pour une solution davantage sécurisée et évolutive.
 
-Pour garantir un service ininterrompu, vous devez mettre à niveau votre ou vos applications mobiles enregistrées auprès d’Adobe Campaign afin d’incorporer les derniers mécanismes d’authentification pour FCM (Android) et APNS (iOS).
+Pour garantir un service ininterrompu, vous devez mettre à niveau votre ou vos applications mobiles enregistrées auprès d’Adobe Campaign afin d’incorporer les derniers mécanismes d’authentification pour FCM (Android) et APNS (iOS).
 
 
-[En savoir plus sur la configuration des certificats de vos applications mobiles dans Adobe Campaign Standard](configuring-a-mobile-application.md#channel-specific-config)
+[En savoir plus sur la configuration des certificats de vos applications mobiles dans Adobe Campaign Standard](configuring-a-mobile-application.md#channel-specific-config)
 
 
 ## Service Google Android Firebase Cloud Messaging (FCM) {#fcm-push-upgrade}
@@ -31,13 +31,13 @@ Pour garantir un service ininterrompu, vous devez mettre à niveau votre ou vos 
 
 Dans le cadre des efforts constants de Google pour améliorer ses services, les API FCM héritées seront abandonnées le **20 juin 2024**. Pour en savoir plus sur le protocole HTTP Firebase Cloud Messaging, consultez la [documentation de Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-Démarrage [Version 24.1](../../rn/using/release-notes.md), Adobe Campaign Standard prend en charge les API HTTP v1 pour envoyer des messages de notification push Android.
+À compter de la [version 24.1](../../rn/using/release-notes.md), Adobe Campaign Standard prend en charge les API HTTP v1 pour envoyer des messages de notification push Android.
 
 ### Cela vous concerne-t-il ? {#fcm-impact}
 
-Si vous utilisez déjà Adobe Campaign Standard pour envoyer des notifications push, votre mise en oeuvre doit être mise à jour.
+Si vous utilisez déjà Adobe Campaign Standard pour envoyer des notifications push, votre implémentation doit être mise à jour.
 
-La transition vers les dernières API est obligatoire pour éviter toute distraction de service.
+La transition vers les dernières API est obligatoire pour éviter toute interruption de service.
 
 <!--To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below
 
@@ -49,32 +49,32 @@ La transition vers les dernières API est obligatoire pour éviter toute distrac
 
 #### Conditions préalables {#fcm-transition-prerequisites}
 
-* Le soutien de **API HTTP v1** Le mode a été ajouté à la version 24.1. Si votre environnement s’exécute sur une ancienne version, une condition préalable à cette modification est de mettre à niveau votre environnement vers [dernière version de Campaign Standard](../../rn/using/release-notes.md).
+* La prise en charge du mode **API HTTP v1** a été ajoutée à la version 24.1. Si votre environnement s’exécute sur une ancienne version, une condition préalable à ce changement est de mettre à niveau votre environnement vers la [dernière version de Campaign Standard](../../rn/using/release-notes.md).
 
 * Le fichier JSON du compte du service SDK Firebase Admin Android est nécessaire pour que l’application mobile soit déplacée vers HTTP v1. Découvrez comment obtenir ce fichier dans la [documentation de Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* Si vous utilisez toujours cette version héritée du SDK, vous devez mettre à jour votre mise en oeuvre avec le SDK Adobe Experience Platform. Découvrez comment migrer vers Adobe Experience Platform SDK dans [cet article](sdkv4-migration.md).
+* Si vous utilisez toujours cette version héritée du SDK, vous devez mettre à jour votre implémentation au SDK Adobe Experience Platform. Découvrez comment migrer vers le SDK Adobe Experience Platform dans [cet article](sdkv4-migration.md).
 
-* Assurez-vous que la variable **Configuration des applications mobiles** autorisation dans Adobe Experience Platform Data Collection Mobile avant d’effectuer les étapes ci-dessous. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Assurez-vous de disposer de l’autorisation **Configuration des applications mobiles** dans la collecte de données Adobe Experience Platform avant d’effectuer les étapes ci-dessous. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=fr#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Procédure de transition {#fcm-transition-steps}
 
 Pour déplacer votre environnement vers HTTP v1, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (SDK AEP)]**.
+1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (SDK AEP)]**.
 
    ![](assets/push_technote_1.png)
 
 1. Sélectionnez l’application mobile spécifique qui nécessite la mise à jour du certificat.
 
-1. Vérifiez les **[!UICONTROL Mise à jour des informations d’identification de l’application]** .
+1. Cochez la case **[!UICONTROL Mettre à jour les informations d’identification de l’application]**.
 
    ![](assets/push_technote_5.png)
 
-1. Indiquez l’ID de l’application (nom du module Android) provenant de votre projet Android `build.gradle` fichier . Par exemple : `com.android.test.testApp`. Veillez à utiliser différents identifiants pour les environnements d’évaluation et de production.
+1. Indiquez l’ID de l’application (nom du package Android) provenant du fichier `build.gradle` de votre projet Android. Par exemple, `com.android.test.testApp`. Veillez à utiliser différents identifiants pour les environnements d’évaluation et de production.
 
-1. Téléchargez votre fichier de clé JSON de clé privée Android.
+1. Chargez votre fichier JSON de clé privée Android.
 
    ![](assets/push_technote_3.png)
 
@@ -82,7 +82,7 @@ Pour déplacer votre environnement vers HTTP v1, procédez comme suit :
 
 >[!NOTE]
 >
->Une fois ces modifications appliquées, toutes les nouvelles diffusions de notifications push sur les appareils Android utilisent l’API HTTP v1. Les diffusions de notifications push existantes en reprise, et actuellement utilisées continueront à utiliser l’API HTTP (héritée).
+>Une fois ces modifications appliquées, toutes les nouvelles diffusions de notifications push vers les appareils Android utilisent l’API HTTP v1. Les diffusions de notifications push existantes en reprise, en cours et actuellement utilisées continueront à utiliser l’API HTTP (héritée).
 
 
 ## Service de notification Push Apple iOS (APN) {#apns-push-upgrade}
@@ -99,7 +99,7 @@ L’authentification par jeton offre un moyen sans état de communiquer avec le 
 
 En savoir plus sur les connexions au service APN basées sur les jetons dans la [Documentation destinée aux équipes de développement Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
-Adobe Campaign Standard prend en charge les connexions basées sur des jetons et sur des certificats. Si votre mise en œuvre repose sur une connexion basée sur un certificat, Adobe vous recommande vivement de la mettre à jour vers une connexion basée sur un jeton.
+Adobe Campaign Standard prend en charge les connexions basées sur des jetons et sur des certificats. Si votre mise en œuvre repose sur une connexion basée sur un certificat, Adobe vous recommande vivement de la mettre à jour vers une connexion basée sur un jeton.
 
 ### Cela vous concerne-t-il ? {#ios-impact}
 
@@ -118,7 +118,7 @@ Si votre mise en œuvre actuelle repose sur des demandes basées sur des certifi
 
 #### Conditions préalables {#ios-transition-prerequisites}
 
-* Le soutien de **Authentification basée sur les jetons** Le mode a été ajouté dans [Version 24.1](../../rn/using/release-notes.md). Si votre environnement s’exécute sur une ancienne version, une condition préalable à cette modification est de mettre à niveau votre environnement vers [dernière version de Campaign Standard](../../rn/using/release-notes.md).
+* La prise en charge du mode **Authentification basée sur les jetons** a été ajoutée à la [version 24.1](../../rn/using/release-notes.md). Si votre environnement s’exécute sur une ancienne version, une condition préalable à ce changement est de mettre à niveau votre environnement vers la [dernière version de Campaign Standard](../../rn/using/release-notes.md).
 
 * Vous avez besoin d’une clé de signature de jeton d’authentification APN pour générer les jetons utilisés par votre serveur. Vous pouvez demander cette clé à votre compte de développement Apple, en suivant la procédure décrite à la section [Documentation destinée aux équipes de développement Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
@@ -127,21 +127,21 @@ Si votre mise en œuvre actuelle repose sur des demandes basées sur des certifi
 
 Pour déplacer vos applications mobiles iOS vers le mode d’authentification basé sur les jetons, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (SDK AEP)]**.
+1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (SDK AEP)]**.
 
    ![](assets/push_technote_1.png)
 
 1. Sélectionnez l’application mobile spécifique qui nécessite la mise à jour du certificat.
 
-1. Vérifiez les **[!UICONTROL Mise à jour des informations d’identification de l’application]** .
+1. Cochez la case **[!UICONTROL Mettre à jour les informations d’identification de l’application]**.
 
    ![](assets/push_technote_2.png)
 
-1. Fournissez les **ID de l’application** (Identifiant du bundle iOS). Vous pouvez trouver le Bundle ID iOS (ID d’application) dans la cible principale de votre application dans Xcode.
+1. Fournissez l’**ID de l’application** (ID de bundle iOS). Vous pouvez trouver l’ID de bundle iOS (ID d’application) dans la cible principale de votre application dans Xcode.
 
-1. Téléchargez votre **Fichier de certificat iOS p8**.
+1. Chargez votre **Fichier de certificat iOS p8**.
 
-1. Renseignez les paramètres de connexion de l&#39;APNS **[!UICONTROL ID de clé]** et **[!UICONTROL Identifiant d’équipe iOS]**.
+1. Renseignez les paramètres de connexion de l’APNS **[!UICONTROL ID de clé]** et **[!UICONTROL Identifiant de l’équipe iOS]**.
 
    ![](assets/push_technote_4.png)
 
@@ -151,63 +151,63 @@ Votre application iOS est maintenant déplacée vers le mode d’authentificati
 
 ## Questions fréquentes{#push-upgrade-faq}
 
-+++Pouvons-nous conserver le même appID sur l’instance intermédiaire et prod ?
++++Pouvons-nous conserver le même appID sur l’instance d’évaluation et de production ?
 
-Pour les applications mobiles iOS, vous pouvez utiliser le même ID d’application, qui est votre ID de lot d’applications iOS, pour les environnements d’évaluation et de production. Cependant, sur Android, l’ID d’application doit être unique pour chaque environnement. Par conséquent, notre suggestion consiste à ajouter &quot;stage&quot; à l’ID d’application créé dans l’environnement d’évaluation.
-
-+++
-
-
-+++Pouvons-nous simplement migrer l’application Android uniquement ?
-
-Non, les applications Android et iOS doivent être migrées conformément aux étapes décrites ci-dessus.
+Pour les applications mobiles iOS, vous pouvez utiliser le même ID d’application, qui est votre ID de bundle iOS, pour les environnements d’évaluation et de production. Cependant, sur Android, l’ID d’application doit être unique pour chaque environnement. Par conséquent, notre suggestion consiste à ajouter « stage » (évaluation) à l’ID d’application créé dans l’environnement d’évaluation.
 
 +++
 
-+++Quel type de vérification devons-nous effectuer après la migration ?
+
++++Pouvons-nous uniquement migrer l’application Android ?
+
+Non, les applications Android et iOS doivent toutes deux être migrées conformément aux étapes décrites ci-dessus.
+
++++
+
++++Quel type de vérification devons-nous effectuer après la migration ?
 
 Nous vous recommandons d’effectuer une validation fonctionnelle de tous vos cas d’utilisation liés aux notifications push.
 
 +++
 
-+++Que faire en cas d’erreur &quot;Non autorisé&quot; lors de l’enregistrement de l’application mobile ?
++++Que faire en cas d’erreur « Non autorisé » lors de l’enregistrement de l’application mobile ?
 
-Il semble s’agir d’un problème d’autorisation lié à la collecte de données Adobe Experience Platform. Pour résoudre ce problème, vous devez ajouter les autorisations &quot;Mobile&quot; et &quot;Mobile App Configuration&quot; dans Adobe Admin Console, comme indiqué dans la section Conditions préalables de cet article.
-
-+++
-
-+++Les modifications sont-elles requises dans le code de l’application mobile ?
-
-Non, seules les modifications liées à la configuration dans Firebase et le compte de développeur d’applications sont requises. Les modifications apportées à l’application mobile du client ne sont pas requises.
+Il semble s’agir d’un problème d’autorisation lié à la collecte de données Adobe Experience Platform. Pour résoudre ce problème, vous devez ajouter les autorisations « Mobile » et « Configuration de l’application mobile » dans l’Adobe Admin Console, comme indiqué dans la section Conditions préalables de cet article.
 
 +++
 
-+++Devons-nous mettre à jour le certificat iOS chaque année ?
++++Les modifications sont-elles requises dans le code de l’application mobile ?
+
+Non, seules les modifications liées à la configuration dans Firebase et le compte de développement d’applications sont requises. Les modifications apportées à l’application mobile cliente ne sont pas requises.
+
++++
+
++++Devons-nous mettre à jour le certificat iOS chaque année ?
 
 Non, après cette migration, il n’est pas nécessaire de mettre à jour le certificat iOS chaque année.
 
 +++
 
-+++Que se passe-t-il si cette migration n’est pas terminée ?
++++Que se passe-t-il si cette migration n’est pas terminée ?
 
-Les messages push Android commenceront à échouer après le 20 juin 2024, conformément à la notification de Google. [En savoir plus](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
-
-+++
-
-+++Les clients peuvent-ils revenir à FCM après avoir terminé la migration FCMv1 ?
-
-Oui, les clients pourront effectuer une migration vers FCM jusqu’au 20 juin 2024. À compter de cette date, l’option de migration ne sera plus disponible.
+Les notifications push Android ne fonctionneront plus après le 20 juin 2024, conformément à la notification de Google. [En savoir plus](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 +++
 
-+++La migration de l’API HTTP v1 est-elle prise en charge sur l’application mobile SDK V4 ?
++++Est-ce que les clientes et clients peuvent migrer à nouveau vers FCM après avoir terminé la migration FCMv1 ?
 
-Non, les clients doivent d’abord migrer leur application mobile vers le SDK V5, puis procéder à la migration ci-dessus. Il doit le faire en priorité, car son service push commencera à échouer à partir de juin 2024, conformément à la notification de Google.
+Oui, les clientes et clients pourront migrer à nouveau vers FCM jusqu’au 20 juin 2024. Après cette date, l’option de migration ne sera plus disponible.
 
 +++
 
-+++La modification sur l’instance d’évaluation aura-t-elle un impact sur l’instance de production ?
++++La migration de l’API HTTP v1 est-elle prise en charge sur l’application mobile SDK V4 ?
 
-Non, les modifications apportées à l’application mobile intermédiaire n’ont aucun impact sur l’instance de production.
+Non, les clientes et clients doivent d’abord migrer leur application mobile vers le SDK V5, puis procéder à la migration ci-dessus. Les clientes et clients doit le faire en priorité, car leur service de notification push ne fonctionnera plus à partir de juin 2024, conformément à la notification de Google.
+
++++
+
++++Une modification sur l’instance d’évaluation aura-t-elle un impact sur l’instance de production ?
+
+Non, les modifications apportées à l’application mobile d’évaluation n’ont aucun impact sur l’instance de production.
 
 +++
