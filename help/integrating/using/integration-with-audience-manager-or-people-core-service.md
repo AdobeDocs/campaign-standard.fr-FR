@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
+source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ La mise en service et la configuration d&#39;Audience Manager et de People core
 
 L&#39;intégration d&#39;Audience Manager ou de People core service permet d&#39;importer et exporter des audiences ou des segments dans Adobe Campaign.
 
-Cette intégration doit d’abord être configurée. Pour demander la mise en service de cette intégration, écrivez un courrier électronique à l’adresse [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) avec les informations suivantes :
+Cette intégration doit d’abord être configurée. Pour demander la configuration de cette intégration, contactez le support Adobe avec les informations suivantes :
 
 <table> 
  <tbody> 
