@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+source-git-commit: 625b2341b1f7da17d202ef1edcdf97f3cb46b801
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 73%
 
 ---
 
@@ -18,25 +18,38 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
+<!--
+## Early release notes {#e-new-release}
 
-## Notes de mise à jour anticipées {#e-new-release}
-
-Cette section décrit les améliorations et modifications incluses dans la prochaine version de Campaign Standard.
+This section lists improvements and changes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
->Ce contenu est sujet à des modifications sans préavis jusqu’à la date de mise à niveau des environnements d’évaluation. Pour en savoir plus, consultez la [page du calendrier des versions](../../rn/using/release-planning.md).
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
+-->
 
-**Version 24.2 - Version été 2024**
+## Version 24.2 - Version été 2024 {#summer-24}
 
-* **Date de publication** : août 2024 (disponibilité limitée) - [En savoir plus](../../rn/using/release-planning.md).
+<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
 
-* **Migration vers les informations d’identification OAuth serveur à serveur**
+### Amélioration {#summer-24-rn-improvements}
 
-  À compter de cette version, les informations d’identification du compte de service (JWT) étant abandonnées par Adobe, les intégrations sortantes de Campaign aux solutions et applications d’Adobe dépendent désormais des informations d’identification OAuth serveur à serveur. Adobe effectuera la migration JWT vers OAuth pour vos intégrations sortantes, telles que l’intégration Campaign-Analytics ou Triggers Experience Cloud.
+**Migration vers les informations d’identification OAuth serveur à serveur**
 
-  Si vous avez implémenté des intégrations entrantes avec Campaign et si vous utilisez des [API Campaign](../../api/using/get-started-apis.md), vous devez migrer votre compte technique comme indiqué dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Les informations d’identification de compte de service (JWT) existantes continueront à fonctionner jusqu’au **27 janvier 2025**.
+À compter de cette version, les informations d’identification du compte de service (JWT) étant abandonnées par Adobe, les intégrations sortantes de Campaign aux solutions et applications d’Adobe dépendent désormais des informations d’identification OAuth serveur à serveur. Adobe effectuera la migration JWT vers OAuth pour vos intégrations sortantes, telles que l’intégration Campaign-Analytics ou Triggers Experience Cloud.
 
+Si vous avez implémenté des intégrations entrantes avec Campaign et si vous utilisez des [API Campaign](../../api/using/get-started-apis.md), vous devez migrer votre compte technique comme indiqué dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Les informations d’identification de compte de service (JWT) existantes continueront à fonctionner jusqu’au **27 janvier 2025**.
+
+### Correctifs {#summer-24-rn-fixes}
+
+* Correction d’un problème en raison duquel le planificateur de workflow démarrait avant l’heure planifiée. (CAMP-55412)
+* Correction d’un problème qui provoquait une erreur lors de la duplication de champs personnalisés dans des notifications push transactionnelles. (CAMP-54459)
+* Correction de problèmes qui affectaient l’utilisation du planificateur d’heure et de date pour la messagerie In-App. (CAMP-54495)
+* Correction d’un problème en raison duquel le suivi ne fonctionnait pas lors de l’utilisation de la fonctionnalité Alias de suivi personnalisé et que le lien complet était dynamique. (CAMP-56044)
+* Correction d’un problème en raison duquel un nombre limité de modèles s’affichaient lors de l’utilisation de la recherche pour trouver des modèles spécifiques. (CAMP-55273)
+* Ajout des langues suivantes à la liste déroulante des préférences linguistiques : en_kz (anglais - Kazakhstan) et en_ua (anglais - Ukraine). (CAMP-55336)
+* Correction d’un problème en raison duquel les boutons d’ajustement temporel ne fonctionnaient pas dans les paramètres du planificateur. (CAMP-53602)
+* Correction de plusieurs problèmes de l’interface utilisateur concernant la barre d’ajustement de l’heure dans les paramètres du planificateur. (CAMP-55291)
 
 ## Version 24.1 - Version d’hiver 2024 {#winter-24}
 
