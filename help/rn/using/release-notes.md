@@ -7,8 +7,8 @@ level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,12 +44,12 @@ Si vous avez implémenté des intégrations entrantes avec Campaign et si vous u
 
 * Correction d’un problème en raison duquel le planificateur de workflow démarrait avant l’heure planifiée. (CAMP-55412)
 * Correction d’un problème qui provoquait une erreur lors de la duplication de champs personnalisés dans des notifications push transactionnelles. (CAMP-54459)
-* Correction de problèmes qui affectaient l’utilisation du planificateur d’heure et de date pour la messagerie In-App. (CAMP-54495)
-* Correction d’un problème en raison duquel le suivi ne fonctionnait pas lors de l’utilisation de la fonctionnalité Alias de suivi personnalisé et que le lien complet était dynamique. (CAMP-56044)
+* Correction de problèmes qui affectaient la facilité d’utilisation du planificateur d’heure et de date pour la messagerie in-app. (CAMP-54495)
+* Correction d’un problème en raison duquel le suivi ne fonctionnait pas lors de l’utilisation de la fonctionnalité Alias de suivi personnalisé et le lien complet était dynamique. (CAMP-56044)
 * Correction d’un problème en raison duquel un nombre limité de modèles s’affichaient lors de l’utilisation de la recherche pour trouver des modèles spécifiques. (CAMP-55273)
-* Ajout des langues suivantes à la liste déroulante des préférences linguistiques : en_kz (anglais - Kazakhstan) et en_ua (anglais - Ukraine). (CAMP-55336)
+* Ajout des langues suivantes à la liste déroulante des préférences linguistiques : en_kz (anglais - Kazakhstan) et en_ua (anglais - Ukraine). (CAMP-55336)
 * Correction d’un problème en raison duquel les boutons d’ajustement temporel ne fonctionnaient pas dans les paramètres du planificateur. (CAMP-53602)
-* Correction de plusieurs problèmes de l’interface utilisateur concernant la barre d’ajustement de l’heure dans les paramètres du planificateur. (CAMP-55291)
+* Correction de plusieurs problèmes de l’interface d’utilisation concernant la barre d’ajustement de l’heure dans les paramètres du planificateur. (CAMP-55291)
 
 ## Version 24.1 - Version d’hiver 2024 {#winter-24}
 
