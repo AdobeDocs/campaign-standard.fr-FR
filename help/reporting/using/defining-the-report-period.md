@@ -8,14 +8,18 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 1fa05187-0488-4649-b903-079bfa4628f1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 89%
 
 ---
 
 # Définir la période d&#39;un rapport{#defining-the-report-period}
+
+>[!NOTE]
+>
+>Les rapports de données ne sont disponibles que pour les trois dernières années. Pour plus d’informations sur les périodes de conservation des données, contactez les consultants Adobe ou vos administrateurs techniques.
 
 Avant de lancer un rapport ou d&#39;y accéder, vous devez appliquer une période. La période donnée est accessible en haut à droite du rapport.
 
