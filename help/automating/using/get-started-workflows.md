@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
+source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -38,8 +38,6 @@ Les workflows peuvent intervenir dans différents contextes, par exemple :
 
 ## Activités de workflow {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
-
 Différentes activités sont à votre disposition pour vous aider à concevoir vos workflows.
 
 Les [activités de ciblage](../../automating/using/about-targeting-activities.md) permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
@@ -56,8 +54,6 @@ En savoir plus :
 
 ## Filtrage des données {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="15px">
-
 Utilisez le **requêteur** pour filtrer les données de votre base de données et créer une population afin de cibler plus efficacement vos destinataires. Le requêteur permet de mettre en œuvre différentes actions dans Campaign Standard : créer des audiences de type Requête, définir des cibles de diffusion ou des populations dans les activités de workflow.
 
 Le requêteur contient des **règles et des filtres prédéfinis** pour accélérer et faciliter le filtrage. Cependant, vous pouvez également utiliser des fonctionnalités **avancées d’édition d’expressions**. Vous pouvez ainsi saisir manuellement des conditions et utiliser des fonctions pour créer vos propres règles.
@@ -69,8 +65,6 @@ En savoir plus :
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
 ## Import/export des données {#import-export-data}
-
-<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standard propose plusieurs **fonctionnalités de data Management** pour importer et exporter des données.
 
