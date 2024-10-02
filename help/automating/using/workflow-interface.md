@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '883'
 ht-degree: 100%
 
 ---
@@ -28,6 +28,8 @@ L’écran d’édition d’un workflow se compose des éléments suivants :
 * Les [actions rapides](#quick-actions), qui s’affichent autour d’une activité sélectionnée, permettant d’interagir avec cette dernière.
 
 ![](assets/wkf_overview.png)
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer un workflow en vidéo](#video)
 
 ## Palette     {#palette}
 
@@ -154,3 +156,11 @@ Il est également possible de copier-coller plusieurs activités, ce qui permet 
 Pour ce faire, sélectionnez les activités en traçant une zone autour d’elles. Cliquez ensuite sur le bouton **[!UICONTROL Copier la sélection]** dans la barre d’actions (ou appuyez sur **Ctrl + C**). Vous pouvez coller les activités à l’emplacement de votre choix.
 
 ![](assets/wkf_copypaste3.png)
+
+## Tutoriel vidéo {#video}
+
+Cette vidéo montre comment créer un workflow.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
