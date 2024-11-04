@@ -9,16 +9,16 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '544'
 ht-degree: 100%
 
 ---
 
 # Enrichissement des données de profil avec des données contenues dans un fichier {#enriching-profile-data-with-data-contained-in-a-file}
 
-Cet exemple montre comment enrichir les données de profil avec les données d’achat contenues dans un fichier. Nous considérons ici que les données d’achat sont stockées dans un système tiers. Le fichier peut stocker plusieurs achats pour chaque profil. L&#39;objectif final du workflow est d&#39;envoyer un email aux profils ciblés ayant acheté au moins deux articles afin de les remercier pour leur fidélité.
+Cet exemple illustre comment enrichir des données de profil avec des données d&#39;achat contenues dans un fichier. Dans cet exemple, les données d&#39;achat sont stockées dans un système tiers. Le fichier peut stocker plusieurs achats pour chaque profil. L&#39;objectif final du workflow est d&#39;envoyer un email aux profils ciblés ayant acheté au moins deux articles afin de les remercier pour leur fidélité.
 
 Le workflow est configuré comme suit :
 
