@@ -4,9 +4,9 @@ title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Découvrez les dernières améliorations apportées au produit Adobe Campaign 
 
 >[!BEGINTABS]
 
->[!TAB Transition vers Campaign v8]
+>[!TAB Transition vers Campaign v8]
 
-Nous sommes ravis d’annoncer que les utilisateurs de Adobe Campaign Standard peuvent désormais passer à Adobe Campaign Managed Cloud Services v8.
+Nous avons le plaisir de vous annoncer que les utilisateurs et les utilisatrices d’Adobe Campaign Standard peuvent désormais passer à Adobe Campaign Managed Cloud Services v8.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+[![Image](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
 >[!TAB La version de Campaign 24.2 est en ligne.]
 
@@ -104,7 +104,7 @@ Découvrez comment partager des données entre Campaign et Real-time Customer 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Pages utiles</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr" target="_blank">Tutoriels</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html" target="_blank">Description du produit</a> - <a href="rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a> - <a href="rn/using/release-planning.md">Calendrier des versions</a>
+<a href="https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview" target="_blank">Tutoriels</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html" target="_blank">Description du produit</a> - <a href="rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a> - <a href="rn/using/release-planning.md">Calendrier des versions</a>
 </td>
 <td><strong>Ressources techniques</strong><br/>
 <a href="integrating/using/about-adobe-experience-cloud-triggers.md">Triggers Experience Cloud</a> - <a href="api/using/get-started-apis.md">API de Campaign</a> - <a href="https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html" target="blank">Notes techniques</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr" target="_blank">Documentation relative au Panneau de Contrôle</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html">Liste des messages d’erreur</a>

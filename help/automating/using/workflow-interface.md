@@ -10,7 +10,7 @@ role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
 ht-degree: 100%
 
@@ -29,9 +29,9 @@ L’écran d’édition d’un workflow se compose des éléments suivants :
 
 ![](assets/wkf_overview.png)
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer un workflow en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) [Découvrir comment créer un workflow en vidéo](#video)
 
-## Palette     {#palette}
+## Palette {#palette}
 
 La palette se situe sur la partie gauche de l’écran. Toutes les activités disponibles sont réparties en plusieurs catégories :
 
@@ -163,4 +163,4 @@ Cette vidéo montre comment créer un workflow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview).

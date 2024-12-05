@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
 source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Pour plus d’informations sur les notifications push ou les messages In-App, co
 
 Consultez les ressources ci-dessous pour plus d’informations sur le SDK Adobe Experience Platform et l’intégration de Campaign Standard :
 
-* Launch/Mobile [Vidéo de présentation](https://www.adobe.com/fr/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
-* [Guide des conseils et astuces](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf) concernant Launch/les applications mobiles
+* [Vidéo de vue d’ensemble](https://www.adobe.com/fr/experience-platform/launch.html#acpl-mobile-video){target="_blank"} de l’application mobile de Launch
+* [Guide des conseils et astuces](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf) concernant l’application mobile de Launch
 
 ## L’intégration du SDK Adobe Experience Platform est-elle disponible pour Adobe Campaign Standard et Adobe Campaign Classic ?  {#aep-validity}
 

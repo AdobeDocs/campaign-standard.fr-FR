@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1061'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Si vous utilisez une diffusion récurrente sans période d&#39;agrégation, vous
 
 >[!NOTE]
 >
-> Le **tableau de bord de déploiement** fournit des données à titre de référence rapide, qui peuvent ne pas correspondre aux nombres des rapports dynamiques. Pour des informations précises et fiables, il est recommandé d&#39;utiliser le reporting dynamique comme source de vérité. [En savoir plus](../../reporting/using/get-started-reporting.md)
+> Le **tableau de bord de déploiement** fournit des données à titre de référence rapide, qui peuvent ne pas correspondre aux nombres des rapports dynamiques. Pour des informations précises et fiables, il est recommandé d’utiliser les rapports dynamiques comme source de vérité. [En savoir plus](../../reporting/using/get-started-reporting.md)
 
 Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]** affiche vos données de KPI avec :
 

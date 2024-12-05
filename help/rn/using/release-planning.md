@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 8da7d90905745b99f52841483a2d540e9781104e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ Des informations détaillées sur cette version sont disponibles dans les [Notes
  <tbody>
   <tr>
    <td>Évaluation </td>
-   <td>7 janvier - 4 février 2025 </td>
+   <td>7 janvier au 4 février 2025 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Production </td>
-   <td>13 janvier - 25 février 2025 </td>
+   <td>13 janvier au 25 février 2025 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
