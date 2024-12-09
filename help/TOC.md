@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentation produit pour Adobe Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation de Campaign Standard
-source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1753'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 100%
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/using/release-notes.md)
    + Versions précédentes {#previous-releases}
+      + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
       + [2021](rn/using/release-notes-2021.md)
@@ -83,7 +84,7 @@ ht-degree: 100%
       + [Découverte des bonnes pratiques](sending/using/delivery-best-practices.md)
       + [Optimisation de votre diffusion](sending/using/optimize-delivery.md)
       + [Utilisation de modèles](sending/using/use-templates.md)
-      + [Création de contenu personnalisé](sending/using/design-and-personalize.md)
+      + [Créer du contenu personnalisé](sending/using/design-and-personalize.md)
       + [Définition de l&#39;audience appropriée](sending/using/define-the-right-audience.md)
       + [Vérification avant envoi](sending/using/check-before-sending.md)
       + [Tracker et suivre vos diffusions](sending/using/track-and-monitor.md)
