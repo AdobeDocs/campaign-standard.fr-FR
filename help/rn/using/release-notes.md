@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -31,19 +31,19 @@ Cette section décrit les améliorations et modifications incluses dans la proch
 
 #### Correctifs de sécurité {#winter-25-security}
 
-* Cette version apporte des correctifs de sécurité.
-* Cette version est fournie avec la mise à niveau de sécurité suivante : Apache Tomcat a été mis à niveau vers la version 10.1.3.
+* Cette version contient des correctifs de sécurité.
+* Cette version est fournie avec la mise à niveau de sécurité suivante : Apache Tomcat a été mis à niveau vers la version v10.1.33.
 
 #### Autres correctifs {#winter-25-fixes}
 
-* Correction d’un problème de duplication dans les modèles (CAMP-56340)
-* Correction d’une régression de suivi lors de l’utilisation d’URL dynamiques dans des modèles Adobe Experience Manager (CAMP-51932)
-* Correction d’un problème de performances sur le processus de facturation (CAMP-56796)
-* Correction d’un problème de codage des HTMLS avec le caractère `>` sur les pages web JSSP (CAMP-56497).
+* Correction d’un problème de doublons dans les modèles (CAMP-56340)
+* Correction d’une régression du tracking lorsque des URL dynamiques étaient utilisées dans les modèles Adobe Experience Manager (CAMP-51932)
+* Correction d’un problème de performances du processus de facturation (CAMP-56796)
+* Correction d’un problème de codage HTML avec le caractère `>` sur les pages web JSSP (CAMP-56497)
 * Correction d’un problème dans les rapports dynamiques lors de l’utilisation de l’option **Afficher sur les lignes sélectionnées** (CAMP-55895)
 
 
-## Version 24.2 - Version d’été 2024 (LA) {#summer-24}
+## Version 24.2 - Version été 2024 {#summer-24}
 
 ### Amélioration {#summer-24-rn-improvements}
 

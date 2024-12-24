@@ -4,8 +4,9 @@ description: Cette page répertorie toutes les versions 2024 d’Adobe Campaig
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
-workflow-type: tm+mt
+exl-id: 26616ecc-a009-485c-b13d-d4e0c23969f2
+source-git-commit: f5e8b3f1a2c235094eedf32199ea792cfa891fcd
+workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -33,4 +34,3 @@ ht-degree: 100%
 
 * Correction d’un problème qui empêchait le retrait de la quarantaine des mails rebonds au bout de 30 jours. (CAMP-52977)
 * Correction d’un problème qui arrêtait le workflow Alertes de diffusion avec l’erreur suivante : `division by zero`. (CAMP-49786)
-
