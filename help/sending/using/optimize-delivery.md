@@ -74,7 +74,7 @@ Lorsque vous commencez à envoyer des emails sur une nouvelle plateforme, vous p
 
 ## Mécanisme de double opt-in {#double-opt-in}
 
-Pour éviter d&#39;envoyer des messages à des adresses invalides, limiter les communications abusives et améliorer la réputation de l&#39;expéditeur, Adobe recommande de mettre en place un mécanisme de double opt-in pour une confirmation après inscription. Cela vous permet de vous assurer que le destinataire est bien à l&#39;origine de l&#39;abonnement.
+Pour éviter d&#39;envoyer des messages à des adresses invalides, limiter les communications abusives et améliorer la réputation de l&#39;expéditeur ou de l’expéditrice, Adobe recommande de mettre en place un mécanisme de double opt-in pour une confirmation après inscription. Cela vous permet de vous assurer que la personne destinataire est bien à l&#39;origine de l&#39;abonnement.
 
 Les détails de la mise en œuvre de ce mécanisme sont décrits dans [cette section](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 

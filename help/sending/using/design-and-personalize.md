@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Création de contenu personnalisé {#build-personalized-content}
+# Créer du contenu personnalisé {#build-personalized-content}
 
 Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d&#39;exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](../../designing/using/personalization.md), à la mise en forme lors de l&#39;[utilisation d&#39;un contenu existant](../../designing/using/using-existing-content.md) et à la [conversion d&#39;un contenu HTML](../../designing/using/using-existing-content.md#converting-an-html-content), ainsi qu&#39;aux [images](../../designing/using/images.md).
 
@@ -137,7 +137,7 @@ Certains clients de messagerie bloquent les images par défaut, et certains util
 
 ### Rendre les images réactives
 
-Essayez de rendre les images réactives et redimensionnables. Notez que ceci peut avoir un impact sur les coûts, car la création prend plus de temps.
+Essayez de rendre les images réactives et redimensionnables. Notez que cela peut avoir un impact sur les coûts, car la création prend plus de temps.
 
 ### Utiliser des références absolues pour l&#39;accès à l&#39;image
 

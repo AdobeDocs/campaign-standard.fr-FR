@@ -1,5 +1,5 @@
 ---
-title: Utiliser des listes de produits dans un message transactionnel
+title: 'Utiliser des listes de produits dans un message transactionnel    '
 description: Découvrez comment utiliser les listes de produits dans un contenu de message transactionnel.
 audience: designing
 content-type: reference

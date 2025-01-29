@@ -11,7 +11,7 @@ exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '2526'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -126,7 +126,7 @@ Si vous vous trouvez dans les régions EMEA ou APAC, certaines de vos données s
 
 >[!IMPORTANT]
 >
->Certaines actions de votre part (p.ex., l&#39;ingestion initiale des enregistrements, la relecture des données d&#39;enregistrement, etc.) peuvent entraîner une grande quantité d&#39;enregistrements ingérés de Microsoft Dynamics 365 vers votre instance Adobe Campaign. Pour limiter le risque de problèmes de performances, il est recommandé d&#39;arrêter tous les processus Campaign (par exemple, aucune activité marketing, aucune exécution de workflows, etc.) jusqu&#39;à ce que la grande quantité d&#39;enregistrements ait été ingérée dans Campaign.
+>Certaines actions de votre part (par exemple, l’ingestion initiale des enregistrements, la relecture des données d’enregistrement, etc.) peuvent entraîner une grande charge d’enregistrements ingérés à partir de Microsoft Dynamics 365 vers votre instance Adobe Campaign. Pour réduire le risque de problèmes de performances, il est recommandé d&#39;arrêter tous les processus Campaign (par exemple, aucune activité marketing, aucune exécution de workflows, etc.) jusqu&#39;à ce que la grande quantité d&#39;enregistrements ait été ingérée dans Campaign.
 
 ### Entités personnalisées
 
@@ -196,4 +196,4 @@ L&#39;intégration a été conçue pour résoudre le cas pratique général du m
 
 * La composition et le déclenchement de campagnes e-mail Campaign à partir de Dynamics 365 ne sont pas pris en charge.
 
-* L&#39;intégration **ne prend pas** en charge la réorganisation des données entre les modèles de données Dynamics 365 et Campaign. Il est prévu que l&#39;intégration synchronise une table Dynamics 365 avec une table Campaign.
+* L’intégration ne prend **pas** en charge la réorganisation des données entre les modèles de données Dynamics 365 et Campaign Standard. Il est prévu que l&#39;intégration synchronise une table Dynamics 365 avec une table Campaign.

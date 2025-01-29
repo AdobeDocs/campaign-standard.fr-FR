@@ -1,10 +1,10 @@
 ---
-title: Utilisation de modèles de diffusion
+title: Utiliser des modèles de diffusion
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: « Les modèles de diffusion accroissent l’efficacité en offrant des configurations prêtes à l’emploi pour les types d’activité les plus courants. »
+description: Les modèles de diffusion permettent une efficacité accrue en fournissant des scénarios prêts à l’emploi pour les types d’activités les plus courants.
 feature: Deliverability
 role: User
 level: Intermediate
@@ -12,7 +12,7 @@ exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Exemples de requêtes
+title: 'Exemples de requêtes '
 description: Cette section présente un cas pratique d’utilisation d’une activité de Requête.
 audience: automating
 content-type: reference

@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## À propos des règles de typologie {#about-typology-rules}
 
- Les règles de typologie sont des règles d’entreprise qui vous permettent d’effectuer des vérifications et filtrages de votre message avant de l’envoyer. Les types de règles de typologie disponibles sont les suivants :
+Les règles de typologie sont des règles métier qui vous permettent d’effectuer des vérifications et filtrages de votre message avant de l’envoyer. Les types de règles de typologie disponibles sont les suivants :
 
 * Règles de **filtrage** : Ce type de règle permet d’exclure une partie de la cible des messages en fonction de critères définis dans une requête, comme des profils mis en quarantaine ou à qui on a déjà envoyé un certain nombre d&#39;emails. Voir à ce propos [cette section](../../sending/using/filtering-rules.md).
 

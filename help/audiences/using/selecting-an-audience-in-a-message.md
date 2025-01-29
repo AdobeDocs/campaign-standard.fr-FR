@@ -1,6 +1,6 @@
 ---
 title: Sélectionner une audience dans un message
-description: "Cette section contient une procédure détaillée pour sélectionner les audiences d’un email\_: population cible principale et profils de test."
+description: 'Cette section contient une procédure détaillée pour sélectionner les audiences d''un email : population cible principale et profils de test.'
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences

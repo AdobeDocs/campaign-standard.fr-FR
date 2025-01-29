@@ -1,6 +1,6 @@
 ---
-title: Description de l’interface
-description: '« Découvrez comment naviguer dans Adobe Campaign et utiliser l’espace de travail : page d’accueil, barre supérieure, menus avancés et barres d’actions. »'
+title: Description de l'interface
+description: 'Découvrez comment naviguer dans Adobe Campaign et utiliser l''espace de travail : page d''accueil, barre supérieure, menus avancés et barres d''actions.'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface

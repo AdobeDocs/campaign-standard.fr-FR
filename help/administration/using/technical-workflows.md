@@ -1,6 +1,6 @@
 ---
 title: Workflows techniques
-description: En savoir plus à propos des workflows techniques
+description: 'En savoir plus à propos des workflows techniques '
 audience: administration
 feature: Instance Settings
 role: Admin

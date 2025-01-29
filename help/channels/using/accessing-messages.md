@@ -1,6 +1,6 @@
 ---
 title: Accéder aux messages
-description: "Découvrez comment accéder aux messages et à leurs fonctionnalités avancées\_: création, ciblage, personnalisation, exécution et reporting."
+description: 'Découvrez comment accéder aux messages et à leurs fonctionnalités avancées : création, ciblage, personnalisation, exécution et reporting.'
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
