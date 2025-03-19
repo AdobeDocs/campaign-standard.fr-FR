@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 69%
 
 ---
 
@@ -39,31 +39,40 @@ Vous trouverez ci-dessous les périodes de conservation par défaut pour les tab
 * **Événements Pipeline ignorés** : 1 mois
 * **Alertes de diffusion** : 1 mois
 * **Audit des exports** : 6 mois (recommandé : 1 mois)
+* **Diffusions** : 2 ans
 
 ## Période de conservation des diffusions {#deliveries}
 
-Par défaut, la période de conservation des diffusions est illimitée.
+<!-- By default, the retention period for deliveries is unlimited.-->
 
-Cependant, si votre instance contient un volume élevé de diffusions, vous pouvez mettre à jour l’option **NmsCleanup_DeliveryPurgeDelay** disponible à partir du menu **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]**.
+À compter du 1er juin 2025, seules les diffusions des deux dernières années resteront disponibles dans le système. Vous trouverez plus de détails ci-dessous :
 
-Chaque fois que le workflow **[!UICONTROL Nettoyage de la base de données]** est exécuté, les diffusions répondant aux conditions définies pour cette option sont supprimées.
+* Toutes les diffusions de plus de deux ans seront définitivement supprimées et ne seront plus accessibles.
+* Ce nettoyage inclut uniquement les diffusions envoyées et en échec ; les diffusions récurrentes, les brouillons de diffusion et les modèles ne seront pas affectés.
+* Une fois qu’une diffusion est supprimée, toutes les informations de suivi ou d’envoi liées sont également supprimées définitivement.
+* Les modèles de diffusion marketing ou transactionnelle ne seront pas supprimés.
+* Pour les diffusions récurrentes, les diffusions enfant avec une période d’agrégation définie en mois ou années ne seront pas supprimées.
 
-Cette action peut contribuer à accélérer les processus tels que le workflow **[!UICONTROL Copie d’en-têtes à partir de modèles de diffusion]**.
+Si vous souhaitez accélérer des processus tels que le workflow **[!UICONTROL Copier les en-têtes des modèles de diffusion]** , la période de conservation des diffusions peut être réduite. Pour ce faire, contactez votre représentant ou représentante Adobe.
 
->[!NOTE]
->
->En savoir plus sur les workflows techniques dans [cette section](technical-workflows.md).
+<!--
 
+However, if there is a high volume of deliveries on your instance, you can update the **NmsCleanup_DeliveryPurgeDelay** option available from the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menu.
 
-La valeur par défaut de l’option **NmsCleanup_DeliveryPurgeDelay** est `-1`. Dans ce cas, aucune diffusion n’est supprimée.
+Each time the **[!UICONTROL Database cleanup]** workflow is run, the deliveries meeting the conditions set for this option will be deleted.
 
-Par exemple, si vous la définissez sur `180`, toutes les diffusions qui ne sont pas des modèles et qui n’ont pas été mises à jour au cours des 180 derniers jours seront supprimées lorsque le workflow **[!UICONTROL Nettoyage de la base de données]** est exécuté.
+-->
 
->[!NOTE]
->
->* Les modèles de diffusion marketing ou transactionnelle ne seront pas supprimés.
->
->* Pour les diffusions récurrentes, les diffusions enfant avec une période d’agrégation définie en mois ou années ne seront pas supprimées.
+<!--
 
-Lors de la mise à jour de l’option **NmsCleanup_DeliveryPurgeDelay**, il est recommandé de procéder progressivement à plusieurs itérations. Par exemple, vous pouvez commencer en définissant la valeur sur 300 jours, puis 180 jours, puis 120 jours, etc., en vous assurant que les itérations sont séparées d’au moins 2 jours. Sinon, le workflow **[!UICONTROL Nettoyage de la base de données]** peut prendre beaucoup plus de temps en raison d’un grand nombre de diffusions à supprimer.
+When updating the **NmsCleanup_DeliveryPurgeDelay** option, it is recommended to proceed gradually with multiple iterations. For example, you can start by setting the value to 300 days, then 180 days, then 120 days, and so on - making sure iterations are at least 2 days apart. Otherwise, the **[!UICONTROL Database cleanup]** workflow may take much longer because of a large number of deliveries to delete.
+
+This action can help speeding up processes such as the **[!UICONTROL Copy headers from delivery templates]** workflow. Learn more on technical workflows in [this section](technical-workflows.md).
+
+The default value for the **NmsCleanup_DeliveryPurgeDelay** option is `-1`. In this case, no delivery is deleted.
+
+For example, if you set it to `180`, any non-template deliveries that have not been updated in the last 180 days will be deleted when the **[!UICONTROL Database cleanup]** workflow is run.
+
+-->
+
 
