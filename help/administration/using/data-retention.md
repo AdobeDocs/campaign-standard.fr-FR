@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: bd4b6d0d7d8fae6b14a41dc9001027d8154c9222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -39,21 +39,21 @@ Vous trouverez ci-dessous les périodes de conservation par défaut pour les tab
 * **Événements Pipeline ignorés** : 1 mois
 * **Alertes de diffusion** : 1 mois
 * **Audit des exports** : 6 mois (recommandé : 1 mois)
-* **Diffusions** : 2 ans
+* **Diffusions** : 2 ans
 
 ## Période de conservation des diffusions {#deliveries}
 
 <!-- By default, the retention period for deliveries is unlimited.-->
 
-À compter du 1er juin 2025, seules les diffusions des deux dernières années resteront disponibles dans le système. Vous trouverez plus de détails ci-dessous :
+À compter du 1er juin 2025, seules les diffusions des deux dernières années resteront disponibles dans le système. Vous trouverez plus de détails ci-dessous :
 
-* Toutes les diffusions de plus de deux ans seront définitivement supprimées et ne seront plus accessibles.
-* Ce nettoyage inclut uniquement les diffusions envoyées et en échec ; les diffusions récurrentes, les brouillons de diffusion et les modèles ne seront pas affectés.
-* Une fois qu’une diffusion est supprimée, toutes les informations de suivi ou d’envoi liées sont également supprimées définitivement.
+* Toutes les diffusions de plus de deux ans seront définitivement supprimées et ne seront plus accessibles.
+* Ce nettoyage inclut uniquement les diffusions envoyées et en échec ; les diffusions récurrentes, les brouillons de diffusion et les modèles ne seront pas affectés.
+* Une fois qu’une diffusion est supprimée, toutes les informations de tracking ou d’envoi liées sont également supprimées définitivement.
 * Les modèles de diffusion marketing ou transactionnelle ne seront pas supprimés.
 * Pour les diffusions récurrentes, les diffusions enfant avec une période d’agrégation définie en mois ou années ne seront pas supprimées.
 
-Si vous souhaitez accélérer des processus tels que le workflow **[!UICONTROL Copier les en-têtes des modèles de diffusion]** , la période de conservation des diffusions peut être réduite. Pour ce faire, contactez votre représentant ou représentante Adobe.
+Si vous souhaitez accélérer des processus tels que le workflow **[!UICONTROL Copier les en-têtes des modèles de diffusion]**, la période de conservation des diffusions peut être réduite. Pour ce faire, contactez votre représentant ou votre représentante Adobe.
 
 <!--
 
