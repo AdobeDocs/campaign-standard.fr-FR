@@ -88,7 +88,7 @@ ht-degree: 100%
       + [Définition de l&#39;audience appropriée](sending/using/define-the-right-audience.md)
       + [Vérification avant envoi](sending/using/check-before-sending.md)
       + [Tracker et suivre vos diffusions](sending/using/track-and-monitor.md)
-   + Canal e-mail {#email-messages}
+   + E-mails {#email-messages}
       + [À propos des e-mails](channels/using/about-emails.md)
       + [Créer un e-mail](channels/using/creating-an-email.md)
       + [Créer un e-mail de test A/B](channels/using/designing-an-a-b-test-email.md)
@@ -164,7 +164,7 @@ ht-degree: 100%
    + Préparation et test des messages {#preparing-and-testing-messages}
       + [Aperçu des diffusions](sending/using/previewing-messages.md)
       + [Envoi d’un BAT](sending/using/sending-proofs.md)
-      + [Test des e-mails à l&#39;aide des profils ciblés](sending/using/testing-messages-using-target.md)
+      + [Test des e-mails à l’aide des profils ciblés](sending/using/testing-messages-using-target.md)
       + [Fonctionnalités prédictives d’engagement client](sending/using/predictive.md)
       + [Rendu des e-mails](sending/using/email-rendering.md)
       + [Ajouter une population témoin](sending/using/control-group.md)
