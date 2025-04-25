@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -105,9 +105,9 @@ Une fois vos deux utilisateurs associés aux groupes de sécurité d&#39;usine *
 
    * Les rôles des différents groupes sont cumulés. Les utilisateurs figurent ici dans deux groupes différents : l&#39;un agira sur les rôles, l&#39;autre sur les entités.
    * C&#39;est l&#39;entité ayant le niveau le plus élevé dans la hiérarchie qui sera utilisée (voir l&#39;exemple de la section [Entités organisationnelles](../../administration/using/organizational-units.md)).
-   * Si les entités organisationnelles affectées à l&#39;utilisateur se trouvent dans des branches parallèles de la hiérarchie, c&#39;est-à-dire qu&#39;elles n&#39;ont pas d&#39;entité parente affectée commune, le système sélectionne l&#39;entité organisationnelle pour l&#39;utilisateur et l&#39;utilisateur aura accès à l&#39;entité organisationnelle sélectionnée par le système et à ses enfants.
+   * Si les entités organisationnelles affectées à l’utilisateur ou l’utilisatrice se trouvent dans des branches parallèles de la hiérarchie, c’est-à-dire qu’elles n’ont pas d’entité parente affectée commune, le système sélectionne l’entité organisationnelle pour cette personne qui aura alors accès à l’entité organisationnelle sélectionnée par le système et à ses enfants.
 
-1. Suivez la même procédure pour assigner le groupe de sécurité Geometrixx Clothes à votre Utilisateur standard.
+1. Suivez la même procédure pour assigner le groupe de sécurité Geometrixx Clothes à votre Utilisateur ou utilisatrice standard.
 
    ![](assets/manage_security_group_9.png)
 
