@@ -37,7 +37,7 @@ Les droits par défaut sont les suivants :
 
 Pour plus d’informations, consultez le [tableau Rôles et autorisations](/help/administration/using/assets/acs_rights.pdf), qui présente les fonctions disponibles dans l’interface en fonction des autorisations sélectionnées.
 
-[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
 
 **Rubriques connexes :**
 

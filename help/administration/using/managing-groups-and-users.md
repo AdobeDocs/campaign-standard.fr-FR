@@ -25,7 +25,7 @@ Les groupes de sécurité sont des ensembles d&#39;utilisateurs qui partagent le
 
 Les utilisateurs doivent toujours être rattachés à un groupe de sécurité Cela vous permettra de leur attribuer des rôles et des entités organisationnelles spécifiques. Si vous souhaitez restreindre les accès d’un utilisateur, ne l’ajoutez pas dans le groupe des **[!UICONTROL Utilisateurs standard]**, car celui-ci est rattaché à **[!UICONTROL toute]** l’entité organisationnelle.
 
-Pour plus d’informations sur les rôles, le tableau de la page suivante reprend les différentes opérations possibles en fonction du ou des rôle des l’utilisateur : [Autorisations dans Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+Pour plus d’informations sur les rôles, le tableau de la page suivante reprend les différentes opérations possibles en fonction du ou des rôle des l’utilisateur : [Autorisations dans Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
 
 Les groupes de sécurité par défaut sont :
 

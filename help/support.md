@@ -119,7 +119,7 @@ Le nouveau système de gestion des tickets a été mis en place via la console [
 
 ### Consultation d’experts
 
-Rejoignez la communauté Campaign : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Rejoignez la communauté Campaign : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=fr)
 
 ### Création d’un ticket ou démarrage d’une conversation
 
