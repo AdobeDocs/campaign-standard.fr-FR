@@ -104,6 +104,6 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
 Cette vidéo montre comment créer un e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30952?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

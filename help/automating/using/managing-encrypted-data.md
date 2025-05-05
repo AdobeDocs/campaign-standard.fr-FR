@@ -127,10 +127,10 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Cette vidéo montre comment utiliser une clé GPG pour déchiffrer des données.
 
->[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41348?quality=12&captions=fre_fr)
 
 Cette vidéo montre comment chiffrer des données à l’aide d’une clé GPG.
 
->[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41334?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

@@ -82,6 +82,6 @@ En savoir plus :
 
 Cette vidéo offre une vue d’ensemble des fonctionnalités de rapports dynamiques d’Adobe Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/38312?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

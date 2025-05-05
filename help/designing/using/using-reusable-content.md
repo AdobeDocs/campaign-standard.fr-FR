@@ -145,7 +145,7 @@ Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que 
 
 Cette vidéo montre comment créer votre propre modèle.
 
->[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/37585?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 

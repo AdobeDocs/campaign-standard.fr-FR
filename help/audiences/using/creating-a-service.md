@@ -65,6 +65,6 @@ Une fois qu&#39;un service a été créé, vous pouvez commencer à le promouvoi
 
 Cette vidéo montre comment créer un service et gérer ses abonnements.
 
->[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30956?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

@@ -97,6 +97,6 @@ En savoir plus :
 
 Cette vidéo montre comment envoyer un email de test, préparer puis envoyer une diffusion email avec Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/)
+>[!VIDEO](https://video.tv.adobe.com/v/30236?captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

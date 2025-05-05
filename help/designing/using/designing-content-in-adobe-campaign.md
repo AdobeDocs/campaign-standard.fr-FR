@@ -165,6 +165,6 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 Cette vidéo présente un aperçu du concepteur d’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/330100?quality=12&captions=fre_fr)
 
 Pour commencer à utiliser le concepteur d’e-mail, regardez cette [série de vidéos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr#GettingStarted) qui explique la fonctionnalité générale de l’outil et qui décrit comment créer entièrement un email ou le concevoir à l’aide de modèles

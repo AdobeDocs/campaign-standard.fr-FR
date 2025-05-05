@@ -81,6 +81,6 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 Cette vidéo présente un aperçu du connecteur de données Adobe Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/34363?quality=12&captions=fre_fr)
 
 D’autres vidéos relatives au connecteur de données Adobe Experience Platform sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=fr).

@@ -70,6 +70,6 @@ Le profil est ajouté à la liste.
 
 Cette vidéo montre comment importer des profils avec un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31328?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

@@ -271,6 +271,6 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 Cette vidéo explique comment tester vos emails à l’aide de la substitution de profil.
 
->[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424569?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
