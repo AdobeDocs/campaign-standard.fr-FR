@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 2bc6ce04d2580b561bfdaafe29985353fd116a42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Les rapports de données ne sont disponibles que pour les deux dernières années. Pour plus d’informations sur les périodes de conservation des données, contactez les consultantes et consultants Adobe ou vos administrateurs ou administratrices techniques.
+>Les rapports de données ne sont disponibles que pour les deux dernières années. Pour plus d’informations sur les périodes de conservation des données, contactez les consultantes et consultants Adobe ou vos administrateurs ou administratrices techniques.
 
 Dans Campaign, les tables de journaux standard comportent des périodes de conservation prédéfinies qui limitent la durée de stockage des données afin d’éviter de surcharger le système.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Les mises à niveau sont déployées en deux phases. Tout d’abord, les instanc
 
 Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour. Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
 
-## Version 25.2 - Version été 2025 {#release-25-2-release}
+## Version 25.2 - Version d’été 2025 {#release-25-2-release}
 
 Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](release-notes.md) quand les mises à niveau de l’environnement d’évaluation démarrent.
 
