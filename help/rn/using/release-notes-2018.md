@@ -307,7 +307,7 @@ _Ressources personnalisées_
      <li> Créez et enregistrez un modèle de contenu d’email et utilisez des modèles enregistrés pour faciliter la création d’emails. </li> 
      <li> Créez et enregistrez des fragments de contenu (tels qu’un en-tête, un pied de page, un article, etc.) pour rationaliser la création de contenu et assurer la cohérence de la marque </li> 
      <li> Passez facilement de la création d’un email dans l’interface de conception par glisser-déposer à l’édition directe de son code HTML en cliquant sur un bouton. </li> 
-    </ul> Creative Designer pour les emails est disponible uniquement en anglais.<br /> Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et regardez cette <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vidéo</a>.<br /> </td> 
+    </ul> Creative Designer pour les emails est disponible uniquement en anglais.<br /> Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et regardez cette <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Diffusions de notifications push multilingues <br /> </td> 

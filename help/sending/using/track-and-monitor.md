@@ -67,4 +67,4 @@ Pour plus d’informations, consultez la section [Rapport Hot clicks](../../repo
 **Rubriques connexes :**
 
 * [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Rapports ](../../reporting/using/about-dynamic-reports.md)
+* [Rapports &#x200B;](../../reporting/using/about-dynamic-reports.md)
