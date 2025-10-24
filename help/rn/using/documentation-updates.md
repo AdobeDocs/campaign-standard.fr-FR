@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a2a524eb3d90bbe41064bdcb078f69d483f90dac
+source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
 workflow-type: tm+mt
-source-wordcount: '7297'
-ht-degree: 100%
+source-wordcount: '7298'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ L&#39;utilisation du mode test SMTP a été détaillée. [En savoir plus](../../
 
 ## Mars 2022 {#doc-updates-march-2022}
 
-Une note a été fournie pour indiquer que l’envoi de BAT à l’aide de la substitution de profil ajoutera des enregistrements aux journaux des profils sélectionnés. [En savoir plus](../../sending/using/testing-messages-using-target.md)
+Une note a été ajoutée pour indiquer que l’envoi de BAT à l’aide de la substitution de profil ajoutera des enregistrements aux journaux des profils sélectionnés. [En savoir plus](../../sending/using/testing-messages-using-target.md)
 
 ## Version 22.1 - Février 2022 {#release-22-1}
 
@@ -86,7 +86,7 @@ Le nouveau menu déroulant **Historique des tâches** a été ajouté au tableau
 
 Ajout d’une note d’avertissement concernant les mots-clés qui déclenchent des réponses automatiques des SMS : ils ne doivent contenir que des caractères alphanumériques. [En savoir plus](../../channels/using/managing-incoming-sms.md)
 
-Ajout d’une note à la section E-mail du test A/B : si la population totale est inférieure à 50 000, chaque variante doit représenter au moins 10 % de la population totale. Sinon, les journaux afficheront un avertissement. [En savoir plus](../../channels/using/designing-an-a-b-test-email.md)
+Ajout d’une note à la section E-mail du test A/B : si la population totale est inférieure à 50 000, chaque variante doit représenter au moins 10 % de la population totale. Sinon, les logs afficheront un avertissement. [En savoir plus](../../channels/using/designing-an-a-b-test-email.md)
 
 Mise à jour de la description de l’option **[!UICONTROL Effacer les fichiers sources après le transfert]** dans l’activité **Transfert de fichier**, y compris un rappel pour surveiller manuellement la taille du contenu archivé dans le répertoire SFTP au cas où l’option n’est pas sélectionnée. [En savoir plus](../../automating/using/transfer-file.md)
 
@@ -231,7 +231,7 @@ Une section a été ajoutée pour décrire les nouveaux filtres qui permettent d
 
 La section relative aux **messages transactionnels Événement** a été réorganisée et clarifiée. [En savoir plus](../../channels/using/editing-transactional-message.md)
 
-Une note d&#39;avertissement a été ajoutée pour avertir les utilisateurs des limitations d&#39;autorisations liées à l&#39;accès au journal. [En savoir plus](../../administration/using/users-management.md)
+Une note d&#39;avertissement a été ajoutée pour avertir les utilisateurs des limitations d&#39;autorisations liées à l&#39;accès au log. [En savoir plus](../../administration/using/users-management.md)
 
 Une nouvelle section a été ajoutée pour détailler le processus de création d&#39;une nouvelle marque. [En savoir plus](../../administration/using/branding.md#creating-a-brand)
 
@@ -311,7 +311,7 @@ Des informations sur le service d’identité Experience Cloud (ECID) ont été
 
 La section Messages transactionnels a été améliorée avec des informations sur l&#39;accès aux derniers événements transactionnels et des captures d&#39;écran mises à jour. [En savoir plus](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
-Les typologies et la documentation des règles de typologie ont été améliorées et mises à jour avec des informations supplémentaires sur les règles de typologie natives. [En savoir plus](../../sending/using/about-typology-rules.md)
+Les typologies et la documentation des règles de typologie ont été améliorées et mises à jour avec des informations supplémentaires sur les règles de typologie natives [En savoir plus](../../sending/using/about-typology-rules.md)
 
 Des informations ont été ajoutées sur l&#39;action **[!UICONTROL Listage de fichiers]** de l&#39;activité **[!UICONTROL Transfert de fichier]**. [En savoir plus](../../automating/using/transfer-file.md)
 
@@ -373,9 +373,9 @@ Ajout d&#39;informations au **[!UICONTROL champ Jours d&#39;historique]** dispon
 
 **Nouvelles fonctionnalités de cette version**
 
-Adobe Experience Platform Data Connector (version bêta)
+Adobe Experience Platform Data Connector (Beta)
 
-Audience Destinations (version bêta)
+Audience Destinations (Beta)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
@@ -449,7 +449,7 @@ Intégration de Microsoft Dynamics 365 (GA) – [En savoir plus](../../integ
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La liste des messages d’erreur d’Adobe Campaign a été mise à jour. [En savoir plus](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr)
+La liste des messages d’erreur d’Adobe Campaign a été mise à jour. [En savoir plus](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 Amélioration et enrichissement du guide de prise en main du RGPD. Il s&#39;agit maintenant d&#39;une documentation sur la gestion de la vie privée, incluant le RGPD et la CCPA. [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/campaign-privacy.html)
 
@@ -499,7 +499,7 @@ Ajout d&#39;une section décrivant comment enregistrer un contenu d&#39;email en
 
 **Nouvelles fonctionnalités de cette version**
 
-Activité API externe (version bêta publique) – [En savoir plus](../../automating/using/external-api.md)
+Activité API externe (version Beta publique) – [En savoir plus](../../automating/using/external-api.md)
 
 Rapport sur le segment de workflow – [En savoir plus](../../reporting/using/creating-a-report-workflow-segment.md)
 
@@ -589,7 +589,7 @@ Mise à jour du guide sur l&#39;automatisation avec des liens vers les activité
 
 Mise à jour de la section Calcul des indicateurs pour les rapports dynamiques. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-Ajout d&#39;un tableau sur la compatibilité des rapports dynamiques pour mieux comprendre la compatibilité entre les dimensions et les mesures. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=fr)
+Ajout d&#39;un tableau sur la compatibilité des rapports dynamiques pour mieux comprendre la compatibilité entre les dimensions et les mesures. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Mise à jour de la liste des fonctions pour les workflows. [En savoir plus](../../automating/using/list-of-functions.md)
 
@@ -653,7 +653,7 @@ Ajout d&#39;une technote sur la mise en œuvre du tracking des notifications pus
 
 Mise à jour de la liste des messages d&#39;erreur de Standard et Campaign Classic. [En savoir plus](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr)
 
-Mise à jour de la documentation sur l&#39;intégration Triggers - Campaign. [En savoir plus](../../integrating/using/about-adobe-experience-cloud-triggers.md)
+Mise à jour de la documentation sur l’intégration Triggers - Campaign. [En savoir plus](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
 Mise à jour des liens d&#39;aide contextuelle disponibles directement dans Adobe Campaign.
 
@@ -717,7 +717,7 @@ Mise à jour de la section Type des utilisateurs. [En savoir plus](../../adminis
 
 Messagerie in-app (version bêta) – [En savoir plus](../../channels/using/about-in-app-messaging.md)
 
-Intégration avec Adobe Launch pour les applications mobiles (version bêta) – [En savoir plus](../../sending/using/managing-typologies.md)
+Intégration avec Adobe Launch pour les applications mobiles (Beta) – [En savoir plus](../../sending/using/managing-typologies.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
@@ -759,7 +759,7 @@ Mise à jour de la documentation sur les API avec des informations sur l&#39;API
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Mise à jour et réorganisation de la documentation sur l&#39;intégration Triggers - Campaign. [En savoir plus](../../integrating/using/about-adobe-experience-cloud-triggers.md)
+Mise à jour et réorganisation de la documentation sur l’intégration Triggers - Campaign. [En savoir plus](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
 Ajout d&#39;un cas pratique détaillé permettant de créer une dimension de profil personnalisée. [En savoir plus](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -801,7 +801,7 @@ La section dédiée au placement sur liste bloquée a été renommée « Compre
 
 Découvrez les bonnes pratiques relatives à l’utilisation de serveurs SFTP hébergés Adobe – [En savoir plus](../../administration/using/external-accounts.md#sftp-external-account)
 
-La liste des solutions/core services Analytics pris en charge en vue de l&#39;intégration avec Triggers a été mise à jour. [En savoir plus](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
+La liste des solutions/core services Analytics pris en charge en vue de l’intégration avec Triggers a été mise à jour. [En savoir plus](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
 Certaines pages de la documentation consacrée à l&#39;éditeur de contenu ont été fusionnées pour offrir un aperçu plus complet des différentes actions disponibles. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -867,7 +867,7 @@ Mise à jour de la section sur l&#39;activité **[!UICONTROL Services d&#39;abon
 
 Ajout d&#39;un cas pratique détaillé sur la préparation d&#39;une diffusion. [En savoir plus](../../sending/using/preparing-the-send.md)
 
-Suppression de la section comprenant la liste des autorisations. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr) (PDF).
+Suppression de la section comprenant la liste des autorisations. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Ajout d&#39;un cas pratique détaillé sur l&#39;utilisation des réponses automatiques des SMS. [En savoir plus](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -903,7 +903,7 @@ Ajout de cas pratiques pour une meilleure compréhension des entités et des gro
 
 Amélioration des définitions et des calculs des dimensions, mesures et segments dans les rapports dynamiques. [En savoir plus](../../reporting/using/list-of-components.md)
 
-Ajout d&#39;informations sur la récupération des SMS entrants à l&#39;aide d&#39;un workflow. [En savoir plus](../../administration/using/configuring-sms-channel.md)
+Ajout d’informations sur la récupération des SMS entrants à l’aide d’un workflow. [En savoir plus](../../administration/using/configuring-sms-channel.md)
 
 Ajout d&#39;informations sur les Paramètres d&#39;historisation de l&#39;activité Transfert de fichier. [En savoir plus](../../automating/using/transfer-file.md)
 
@@ -945,7 +945,7 @@ Mise à jour de la documentation sur les SMS avec l&#39;ajout d&#39;une clarific
 
 Nouvelle section consacrée à la gestion des workflows via l&#39;API. [En savoir plus](../../api/using/controlling-a-workflow.md)
 
-Nouvelle section consacrée aux clés primaires et à l&#39;utilisation d&#39;un identifiant d&#39;entreprise comme clé dans l&#39;API. [En savoir plus](../../api/using/get-started-apis.md)
+Nouvelle section consacrée aux clés primaires et à l’utilisation d’un identifiant d’entreprise comme clé dans l’API – [En savoir plus](../../api/using/get-started-apis.md)
 
 Ajout d&#39;informations sur le filtrage simple et multiple dans l&#39;API. [En savoir plus](../../api/using/filtering.md)
 
@@ -1009,7 +1009,7 @@ Canal courrier : Retour à l&#39;expéditeur – [En savoir plus](../../chan
 
 Les guides de prise en main et les vidéos ont été regroupés au sein d&#39;une section spécifique.
 
-La documentation sur le rendu des emails a été mise à jour. [En savoir plus](../../sending/using/email-rendering.md)
+La documentation sur le rendu des e-mails a été mise à jour. [En savoir plus](../../sending/using/email-rendering.md)
 
 Le tableau de calcul des indicateurs de rapports a été mis à jour. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
@@ -1039,7 +1039,7 @@ Une nouvelle technote est disponible : &quot;Intégration du SDK Adobe Mobile
 
 Les instructions relatives à la configuration du service People core service ou à l&#39;intégration d&#39;Audience Manager à Adobe Campaign ont été ajoutées. [En savoir plus](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Tableau des autorisations corrigé afin de clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
+Tableau des autorisations corrigé afin de clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Mise à jour des liens d&#39;aide contextuelle disponibles directement dans Adobe Campaign.
 
