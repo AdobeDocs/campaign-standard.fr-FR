@@ -45,7 +45,7 @@ ht-degree: 95%
    + Confidentialité {#privacy}
       + [Confidentialité et consentement](start/using/privacy.md)
       + [Gestion de la confidentialité](start/using/privacy-management.md)
-      + [Demandes d&#39;accès à des informations personnelles ](start/using/privacy-requests.md)
+      + [Demandes d&#39;accès à des informations personnelles &#x200B;](start/using/privacy-requests.md)
       + [FAQ sur la confidentialité](start/using/privacy-faq.md)
    + [Options d&#39;aide et de support](support.md)
 + Profils et audiences {#profiles-and-audiences}
@@ -245,7 +245,7 @@ ht-degree: 95%
       + [Dimensions et mesures de Campaign dans Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign et Audience Manager ou People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [À propos de l&#39;intégration Campaign-Audience Manager ou People core service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [ Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/integration-with-audience-manager-or-people-core-service.md)
+      + [&#x200B; Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Résolution des problèmes](integrating/using/troubleshooting.md)
       + [Partage d&#39;audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Utilisation de Campaign et Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
