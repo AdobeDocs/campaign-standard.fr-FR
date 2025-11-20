@@ -7,7 +7,7 @@ breadcrumb-title: Documentation de Campaign Standard
 source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
 workflow-type: tm+mt
 source-wordcount: '1753'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
    + [Dernières mises à jour de la documentation](rn/using/documentation-updates.md)
 + Prise en main {#getting-started}
    + [À propos d&#39;Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + Découverte de l&#39;interface {#discovering-the-interface}
+   + Découverte de lʼinterface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
       + [Description de l&#39;interface](start/using/interface-description.md)
       + [Personnalisation des listes](start/using/customizing-lists.md)
@@ -49,8 +49,8 @@ ht-degree: 100%
       + [FAQ sur la confidentialité](start/using/privacy-faq.md)
    + [Options d&#39;aide et de support](support.md)
 + Profils et audiences {#profiles-and-audiences}
-   + [Prise en main des profils et des audiences](audiences/using/get-started-profiles-and-audiences.md)
-   + Gestion de profils {#managing-profiles}
+   + [Commencer avec les profils et les audiences](audiences/using/get-started-profiles-and-audiences.md)
+   + Gérer des profils {#managing-profiles}
       + [À propos des profils](audiences/using/about-profiles.md)
       + [Créer un profil](audiences/using/creating-profiles.md)
       + [Éditer des profils](audiences/using/editing-profiles.md)
@@ -62,25 +62,25 @@ ht-degree: 100%
       + [À propos des audiences](audiences/using/about-audiences.md)
       + [Création d&#39;une audience](audiences/using/creating-audiences.md)
       + [Sélectionner une audience dans un message](audiences/using/selecting-an-audience-in-a-message.md)
-   + Gestion des abonnements {#managing-subscriptions}
+   + Gestion des inscriptions {#managing-subscriptions}
       + [À propos des abonnements](audiences/using/about-subscriptions.md)
       + [Créer un service](audiences/using/creating-a-service.md)
       + [Promouvoir un service](audiences/using/promoting-a-service.md)
       + [Contrôler les abonnements](audiences/using/monitoring-subscriptions.md)
       + [Confirmation d&#39;un abonnement à un service](audiences/using/confirming-subscription-to-a-service.md)
-   + Comprendre les processus d&#39;opt-in et d&#39;opt-out {#understanding-opt-in-and-opt-out-processes}
+   + Comprendre les processus d’inscription et de désinscription {#understanding-opt-in-and-opt-out-processes}
       + [À propos des processus d&#39;opt-in et d&#39;opt-out dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gestion des processus d&#39;opt-in et d&#39;opt-out dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identification des profils exclus pour une diffusion](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + Canaux de communication {#communication-channels}
-   + [Prise en main des canaux de communication](channels/using/get-started-communication-channels.md)
-   + À propos des canaux de communication {#about-communication-channels}
+   + [Commencer avec les canaux de communication](channels/using/get-started-communication-channels.md)
+   + Canaux de communication {#about-communication-channels}
       + [Principales étapes pour envoyer un message](channels/using/key-steps-to-send-a-message.md)
       + [Accéder aux messages](channels/using/accessing-messages.md)
       + [Tableau de bord des messages](channels/using/message-dashboard.md)
       + [Modèles de messages multilingues](channels/using/multilingual-messages-template.md)
       + [Prise en main des canaux mobiles](channels/using/mobile-guide.md)
-   + Bonnes pratiques relatives à la diffusion {#delivery-bestpractices}
+   + Bonnes pratiques de diffusion {#delivery-bestpractices}
       + [Découverte des bonnes pratiques](sending/using/delivery-best-practices.md)
       + [Optimisation de votre diffusion](sending/using/optimize-delivery.md)
       + [Utilisation de modèles](sending/using/use-templates.md)
@@ -88,7 +88,7 @@ ht-degree: 100%
       + [Définition de l&#39;audience appropriée](sending/using/define-the-right-audience.md)
       + [Vérification avant envoi](sending/using/check-before-sending.md)
       + [Tracker et suivre vos diffusions](sending/using/track-and-monitor.md)
-   + E-mails {#email-messages}
+   + Canal Email {#email-messages}
       + [À propos des e-mails](channels/using/about-emails.md)
       + [Créer un e-mail](channels/using/creating-an-email.md)
       + [Créer un e-mail de test A/B](channels/using/designing-an-a-b-test-email.md)
@@ -108,7 +108,7 @@ ht-degree: 100%
       + [Création d&#39;une notification push multilingue](channels/using/creating-a-multilingual-push-notification.md)
       + [Génération d&#39;un fichier CSV pour les notifications push multilingues](channels/using/generating-csv-multilingual-push.md)
       + [Création et mise à jour des informations de profil en fonction des données d&#39;application mobile](channels/using/updating-profile-with-mobile-app-data.md)
-   + Messagerie In-App {#in-app-messaging}
+   + Messagerie in-app {#in-app-messaging}
       + [À propos de la messagerie In-App](channels/using/about-in-app-messaging.md)
       + [Préparation et envoi d&#39;un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Personnalisation d&#39;un message In-App](channels/using/customizing-an-in-app-message.md)
@@ -134,7 +134,7 @@ ht-degree: 100%
       + [Notifications push transactionnelles](channels/using/transactional-push-notifications.md)
       + [Messages de relance](channels/using/follow-up-messages.md)
       + [Cas pratique de la messagerie transactionnelle](channels/using/transactional-messaging-use-case.md)
-   + Landing pages {#landing-pages}
+   + Pages de destination {#landing-pages}
       + [Prise en main des landing pages](channels/using/getting-started-with-landing-pages.md)
       + [À propos des modèles de landing pages](channels/using/landing-page-templates.md)
       + [Paramétrer une landing page](channels/using/configuring-landing-page.md)
@@ -142,11 +142,11 @@ ht-degree: 100%
       + [Gestion des données de formulaire de landing page](channels/using/managing-landing-page-form-data.md)
       + [Test et publication d&#39;une landing page](channels/using/testing-publishing-landing-page.md)
       + [Configuration d&#39;un processus de double opt-in](channels/using/setting-up-a-double-opt-in-process.md)
-+ Concevoir le contenu d&#39;un e-mail {#designing-content}
++ Concevoir un contenu d&#39;email {#designing-content}
    + [Concepteur d&#39;e-mails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
    + [Prise en main du concepteur d&#39;e-mails](designing/using/quick-start.md)
    + [Définition de l&#39;objet et de l&#39;expéditeur](designing/using/subject-line.md)
-   + Création du contenu d&#39;un e-mail{#building-email-content}
+   + Création du contenu d’un e-mail{#building-email-content}
       + [Conception d&#39;e-mails à partir de zéro](designing/using/designing-from-scratch.md)
       + [Utilisation de contenu existant](designing/using/using-existing-content.md)
       + [Utilisation de contenu réutilisable](designing/using/using-reusable-content.md)
@@ -196,9 +196,9 @@ ht-degree: 100%
       + [Règles de filtrage](sending/using/filtering-rules.md)
       + [Règles de fatigue](sending/using/fatigue-rules.md)
       + [Règles de contrôle](sending/using/control-rules.md)
-+ Reporting {#reporting}
-   + [Prise en main des rapports dynamiques](reporting/using/get-started-reporting.md)
-   + À propos du reporting {#about-reporting}
++ Rapports {#reporting}
+   + [Commencer avec les rapports dynamiques](reporting/using/get-started-reporting.md)
+   + À propos des rapports {#about-reporting}
       + [Rapports dynamiques](reporting/using/about-dynamic-reports.md)
       + [Interface de reporting](reporting/using/reporting-interface.md)
       + [Liste des composants](reporting/using/list-of-components.md)
@@ -227,9 +227,9 @@ ht-degree: 100%
       + [Ajouter des composants](reporting/using/adding-components.md)
       + [Création d&#39;une dimension de profil personnalisé](reporting/using/creating-a-custom-profile-dimension.md)
       + [Création d&#39;un rapport à partir de segments de workflow](reporting/using/creating-a-report-workflow-segment.md)
-+ Intégration avec d&#39;autres solutions {#integrating-with-adobe-cloud}
-   + [Prise en main des intégrations de Campaign](integrating/using/get-started-campaign-integrations.md)
-   + Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
++ Intégration à d’autres solutions {#integrating-with-adobe-cloud}
+   + [Commencer avec les intégrations de Campaign](integrating/using/get-started-campaign-integrations.md)
+   + Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
       + [À propos de l&#39;intégration Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Configuration de l&#39;intégration Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Création d&#39;un contenu d&#39;e-mail dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
@@ -243,7 +243,7 @@ ht-degree: 100%
       + [À propos de l&#39;intégration Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Configurer l&#39;intégration Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensions et mesures de Campaign dans Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign et Audience Manager ou People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign et Audience Manager ou People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [À propos de l&#39;intégration Campaign-Audience Manager ou People core service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [ Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Résolution des problèmes](integrating/using/troubleshooting.md)
@@ -256,30 +256,30 @@ ht-degree: 100%
    + Campaign et Triggers {#working-with-campaign-and-triggers}
       + [À propos des Triggers Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configuration des Triggers dans Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
-      + [Utilisation de Triggers dans Campaign](integrating/using/using-triggers-in-campaign.md)
-      + [Test de vos Triggers](integrating/using/testing-your-triggers.md)
-      + [Cas pratiques des Triggers d&#39;abandon](integrating/using/abandonment-triggers-use-cases.md)
-   + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [Utiliser les déclencheurs dans Campaign](integrating/using/using-triggers-in-campaign.md)
+      + [Test de vos déclencheurs](integrating/using/testing-your-triggers.md)
+      + [Cas pratiques de déclencheurs d’abandon](integrating/using/abandonment-triggers-use-cases.md)
+   + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Prise en main de l&#39;intégration de Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Bonnes pratiques et limites](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Configuration de Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
       + [Configuration de Campaign et d&#39;Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
-      + Configuration de l&#39;application d&#39;intégration {#configure-integration-tool}
+      + Configuration de l’application d’intégration {#configure-integration-tool}
          + [Prise en main de l&#39;application d&#39;intégration](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
          + [Accès à l&#39;application d&#39;intégration](integrating/using/d365-acs-self-service-app-control-access.md)
          + [Connecter les systèmes à l&#39;application d&#39;intégration](integrating/using/d365-acs-self-service-app-settings.md)
          + [Gestion des workflows de synchronisation](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mappage des données entre Microsoft Dynamics 365 et Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
          + [Migration des informations d’identification de JWT vers OAuth serveur à serveur](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
-      + [Utilisation de l&#39;intégration de Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
-   + Campaign et Adobe Experience Platform {#adobe-experience-platform}
+      + [Utiliser l&#39;intégration Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
+   + Campaign et Adobe Experience Platform {#adobe-experience-platform}
       + [Prise en main des sources et des destinations](integrating/using/get-started-sources-destinations.md)
       + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrating/using/ingest-aep-data.md)
       + [Exporter des données de Campaign vers Adobe Experience Platform](integrating/using/export-campaign-data.md)
 + Gestion des processus et des données {#managing-processes-and-data}
    + [Prise en main de la gestion des données et des processus](automating/using/get-started-workflows.md)
    + Fonctionnement général d&#39;un workflow {#workflow-general-operation}
-      + [Interface des workflows](automating/using/workflow-interface.md)
+      + [Interface de workflow](automating/using/workflow-interface.md)
       + [Construire un workflow](automating/using/building-a-workflow.md)
       + [Bonnes pratiques relatives aux workflows](automating/using/best-practices-workflows.md)
    + Exécuter un workflow {#executing-a-workflow}
@@ -318,14 +318,14 @@ ht-degree: 100%
       + [Attente](automating/using/wait.md)
       + [Signal externe](automating/using/external-signal.md)
       + [Test](automating/using/test.md)
-   + Activités des canaux {#channel-activities}
+   + Activités de canal {#channel-activities}
       + [À propos des activités des canaux](automating/using/about-channel-activities.md)
       + [Diffusion e-mail](automating/using/email-delivery.md)
       + [Diffusion SMS](automating/using/sms-delivery.md)
       + [Diffusion notification push](automating/using/push-notification-delivery.md)
       + [Diffusion courrier](automating/using/direct-mail-delivery.md)
       + [Diffusion In-App](automating/using/in-app-delivery.md)
-   + Activités de Data Management {#data-management-activities}
+   + Activités de gestion des données {#data-management-activities}
       + [À propos des activités de Data Management](automating/using/about-data-management-activities.md)
       + [Mise à jour de données](automating/using/update-data.md)
       + [Chargement de fichier](automating/using/load-file.md)
@@ -348,7 +348,7 @@ ht-degree: 100%
       + [Gestion des packages](automating/using/managing-packages.md)
       + [Export de listes](automating/using/exporting-lists.md)
       + [Cas pratique : export/import de ressources personnalisées](automating/using/exporting-importing-custom-resources.md)
-   + Cas pratiques {#workflow-use-case}
+   + Cas d’utilisation {#workflow-use-case}
       + [À propos des cas pratiques de workflows](automating/using/about-workflow-use-cases.md)
       + Diffusions {#deliveries}
          + [Création de diffusions avec un complémentaire](automating/using/workflow-created-query-with-complement.md)
@@ -424,7 +424,7 @@ ht-degree: 100%
    + [Prise en main de l&#39;administration de Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Instructions de surveillance](administration/using/monitoring-guidelines.md)
    + [Journal d&#39;audit](administration/using/audit.md)
-   + [Instructions de configuration](administration/using/about-configuration-guidelines.md)
+   + [Directives de configuration](administration/using/about-configuration-guidelines.md)
    + Utilisateurs et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
       + [Gestion des utilisateurs](administration/using/users-management.md)
@@ -453,7 +453,7 @@ ht-degree: 100%
       + [Mise en œuvre du canal SMS](administration/using/configuring-sms-channel.md)
       + [Protocole et paramètres du connecteur SMS](administration/using/sms-protocol.md)
       + [Résolution des problèmes de SMS](administration/using/troubleshooting-sms.md)
-   + Paramétrage de l&#39;application {#application-settings}
+   + Paramétrage de l’application {#application-settings}
       + [À propos des paramètres de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Comptes externes](administration/using/external-accounts.md)
       + [Mappings de ciblage dans Campaign](administration/using/target-mappings-in-campaign.md)
@@ -479,7 +479,7 @@ ht-degree: 100%
          + [Pagination](api/using/pagination.md)
       + [Ressources personnalisées](api/using/custom-resources.md)
    + [Interaction avec des ressources personnalisées](api/using/interacting-with-custom-resources.md)
-   + Gestion de profils {#managing-profiles}
+   + Gérer des profils {#managing-profiles}
       + [Récupérer des profils](api/using/retrieving-profiles.md)
       + [Mettre à jour des profils](api/using/updating-profiles.md)
       + [Créer un profil](api/using/creating-profiles-api.md)
