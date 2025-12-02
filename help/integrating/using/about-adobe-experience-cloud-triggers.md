@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
@@ -20,7 +21,7 @@ ht-degree: 100%
 
 L&#39;intégration entre le core service Activation Experience Cloud **[!UICONTROL Triggers]** et Adobe Campaign permet d&#39;envoyer des emails personnalisés à vos clients en réaction à des comportements spécifiques trackés sur votre site web par Adobe Analytics (dans un délai de 15 minutes).
 
-Dans Adobe Experience Cloud, vous définissez les différents déclencheurs, c&#39;est-à-dire les comportements des clients que vous souhaitez contrôler, comme tous les clients qui ont abandonné leur visite de votre site Web, effectué une recherche sur votre site Web, mais sans effectuer d&#39;achats, ou dont la session a expiré. Lors de la création d&#39;un trigger, vous définissez la condition du trigger et les données qui seront envoyées à Adobe Campaign dans l&#39;événement (pload). 
+Dans Adobe Experience Cloud, vous définissez les différents déclencheurs, c&#39;est-à-dire les comportements des clients que vous souhaitez contrôler, comme tous les clients qui ont abandonné leur visite de votre site Web, effectué une recherche sur votre site Web, mais sans effectuer d&#39;achats, ou dont la session a expiré. Lors de la création d’un déclencheur, vous définissez la condition du déclencheur et les données qui seront envoyées à Adobe Campaign dans l’événement (pload).
 
 Dans Adobe Campaign, vous sélectionnez le déclencheur qui a été précédemment créé, vous enrichissez les données de l&#39;événement avec celles du datamart et vous définissez un modèle de message transactionnel lié au déclencheur. Par exemple, lorsqu’un client abandonne sa visite sur votre site Web, un événement est envoyé à Adobe Campaign, qui peut ensuite exploiter cet événement par le biais d’un e-mail de remarketing envoyé au client dans les 15 minutes.
 
@@ -34,7 +35,7 @@ Le diagramme suivant décrit le fonctionnement de cette intégration.
 * Regardez la vidéo [Déclencher des messages de remarketing selon l&#39;activité du site](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two).
 * Découvrez nos deux [cas pratiques de déclencheurs d&#39;abandon](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Processus utilisateur de Triggers       {#triggers-user-process}
+## Processus utilisateur des déclencheurs {#triggers-user-process}
 
 >[!CAUTION]
 >
@@ -52,7 +53,7 @@ Des cas pratiques complets sont présentés dans [cette section](../../integrati
 
 ## Remarques importantes {#important-notes}
 
-Voici quelques remarques importantes à prendre en considération avant d&#39;utiliser l&#39;intégration Triggers - Campaign :
+Voici quelques remarques importantes à prendre en considération avant d’utiliser l’intégration des Triggers Campaign :
 
 * Les notifications push ne sont pas prises en charge pour les déclencheurs. Seuls les emails et les SMS sont pris en charge.
 * Vous pouvez enrichir le déclencheur à l&#39;aide de métadonnées récupérées par Analytics comme les ID d&#39;email, les noms de page, etc.

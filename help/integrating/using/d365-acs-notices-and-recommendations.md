@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2526'
 ht-degree: 97%
@@ -76,7 +77,7 @@ Découvrez comment sélectionner les options d&#39;opt-out/opt-in dans [cette se
 
 >[!NOTE]
 >
->Veuillez consulter et, le cas échéant, mettre à jour les règles de typologie par défaut et spécifiques dans Adobe Campaign avant d&#39;effectuer des modifications ici pour vous assurer que ces modifications sont correctement appliquées à toutes les communications sortantes. Par exemple, veillez à ce que tous les mappages vers les préférences d&#39;opt-out reflètent fidèlement les choix d&#39;intention/de communication du destinataire et n&#39;interrompent pas par inadvertance la diffusion d&#39;une relation ou de messages transactionnels tels que les confirmations de commande client.
+>Veuillez consulter et, le cas échéant, mettre à jour les règles de typologie par défaut et spécifiques dans Adobe Campaign avant d&#39;effectuer des modifications ici pour vous assurer que ces modifications sont correctement appliquées à toutes les communications sortantes. Par exemple, veillez à ce que tous les mappings vers les préférences d’opt-out reflètent fidèlement les choix d’intention/de communication de destinataires et n’interrompent pas par inadvertance la diffusion d’une relation ou de messages transactionnels tels que les confirmations de commande client.
 
 Si vous avez sélectionné la configuration d’opt-out **bidirectionnelle** ou **unidirectionnelle de Campaign vers Microsoft Dynamics 365**, les données d’opt-out Campaign seront régulièrement exportées via le workflow vers votre zone de stockage SFTP dans Campaign (voir « Utilisation du stockage SFTP dans Campaign » ci-dessous). Si vos workflows d&#39;opt-out Campaign s&#39;arrêtent, vous devrez les redémarrer manuellement dès que possible afin de réduire le risque de synchronisations d&#39;opt-out manquées.
 
@@ -152,7 +153,7 @@ Vous trouverez une présentation plus exhaustive des ressources personnalisées 
 
 Les mécanismes de sécurisation suivants doivent être pris en compte lors de la planification de l&#39;utilisation de cette intégration. Consultez votre représentant technique Adobe si vous pensez que vous ne respectez pas ces mécanismes de sécurisation.
 
-* Vous devez activer la licence du package Campaign approprié pour prendre en charge le volume d&#39;appels au moteur généré par l&#39;intégration. Le dépassement du volume d&#39;appels du moteur sous licence peut entraîner une baisse des performances de Campaign.
+* Vous devez activer la licence du kit de campagne approprié pour prendre en charge le volume d’appels au moteur généré par l’intégration. Le dépassement du volume d&#39;appels du moteur sous licence peut entraîner une baisse des performances de Campaign.
 
   Utilisez les éléments suivants pour estimer le volume d&#39;appels au moteur à partir de l&#39;intégration :
 

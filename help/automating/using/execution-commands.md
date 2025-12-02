@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
@@ -42,7 +43,7 @@ Le bouton ![](assets/stop_darkgrey-24px.png) arrête un workflow en cours d’ex
 
 **Redémarrer**
 
-Le bouton ![](assets/pauseplay_darkgrey-24px.png) consiste à arrêter, puis démarrer un workflow. Dans la plupart des cas, cela permet de redémarrer plus vite. C’est également utile pour automatiser le redémarrage lorsque l’arrêt prend un certain temps, car le bouton ![](assets/play_darkgrey-24px.png) n’est disponible que lorsque l’arrêt est effectif.
+Le bouton ![](assets/pauseplay_darkgrey-24px.png) consiste à arrêter, puis redémarrer un workflow. Dans la plupart des cas, cela permet de redémarrer plus vite. C’est également utile pour automatiser le redémarrage lorsque l’arrêt prend un certain temps, car le bouton ![](assets/play_darkgrey-24px.png) n’est disponible que lorsque l’arrêt est effectif.
 
 Lorsqu’une ou plusieurs activités d’un workflow sont sélectionnées, d’autres actions sont possibles :
 

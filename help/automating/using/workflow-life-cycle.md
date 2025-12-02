@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
@@ -30,7 +31,7 @@ Le cycle de vie d’un workflow comporte trois grandes étapes, chacune d’elle
 
 * **Terminé** (vert)
 
-  Un workflow est terminé lorsqu’il n’a plus de tâche en cours ou lorsque l’exécution a explicitement été arrêtée.
+  Un workflow est terminé lorsqu’il n’a plus de tâche en cours ou lorsque l’exécution de l’instance a explicitement été arrêtée.
 
 Une fois qu’il a été démarré, un workflow peut également se voir attribuer deux autres statuts :
 
@@ -40,7 +41,7 @@ Une fois qu’il a été démarré, un workflow peut également se voir attribue
 
 * **En erreur** (rouge)
 
-  Une erreur est survenue pendant l’exécution du workflow. Ce dernier est arrêté et une action est requise de la part de l’utilisateur. Pour connaître l’origine de l’erreur, utilisez le bouton ![](assets/printpreview_darkgrey-24px.png) afin d’accéder au journal du workflow (voir [Contrôle](../../automating/using/monitoring-workflow-execution.md)).
+  Une erreur est survenue pendant l’exécution du workflow. Ce dernier est arrêté et une action est requise de la part de l’utilisateur. Pour connaître l&#39;origine de l&#39;erreur, utilisez le bouton ![](assets/printpreview_darkgrey-24px.png) afin d&#39;accéder au log du workflow (voir [Contrôle](../../automating/using/monitoring-workflow-execution.md)).
 
 La liste des activités marketing permet d’afficher tous les workflows ainsi que leur statut. Voir à ce sujet la section [Gérer les activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 

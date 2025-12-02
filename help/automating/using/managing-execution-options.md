@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
@@ -34,7 +35,7 @@ Les options possibles sont les suivantes :
   >
   >Si le champ **[!UICONTROL Jours d’historique]** n’est pas renseigné, la valeur prise en compte est « 1 », ce qui signifie que l’historique sera purgé après 1 jour.
 
-* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** : permet d’enregistrer les requêtes SQL du workflow dans les journaux.
+* **[!UICONTROL Enregistrer les requêtes SQL dans le log]** : permet d’enregistrer les requêtes SQL du workflow dans les logs.
 
 * **[!UICONTROL Mode de diagnostic (consigner le plan d’exécution des requêtes longues et donner des recommandations)]** : cochez cette option si vous souhaitez que le plan d’exécution complet soit consigné. Cette fonctionnalité est désactivée par défaut.
 

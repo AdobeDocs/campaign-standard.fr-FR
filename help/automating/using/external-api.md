@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2224'
 ht-degree: 100%
@@ -110,7 +111,7 @@ La case à cocher Aplatir (par défaut : non cochée) est fournie pour indiquer
 * Lorsque la **case à cocher est activée** (cochée), l’exemple JSON est aplati et toutes les propriétés spécifiées dans l’exemple JSON fourni sont utilisées pour créer des colonnes du tableau temporaire de sortie et affichées dans l’onglet Définitions des colonnes. Notez que s’il existe un objet de tableau dans l’exemple JSON, tous les éléments de ces objets de tableau seront également aplatis.
 
 
-Si l’**analyse est validée**, un message s’affiche. Il vous invite à personnaliser le mappage des données dans l’onglet « Définition des colonnes ». Dans d’autres cas, un message d’erreur s’affiche.
+Si l’**analyse est validée**, un message s’affiche. Il vous invite à personnaliser le mapping des données dans l’onglet « Définition des colonnes ». Dans d’autres cas, un message d’erreur s’affiche.
 
 ### Exécution
 

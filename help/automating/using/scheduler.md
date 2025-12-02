@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
@@ -62,7 +63,7 @@ Lors de la conception d’un workflow planifié incluant plusieurs activités, v
 
    Lorsque vous définissez la fréquence d’exécution sur **[!UICONTROL Plusieurs fois par jour]**, vous avez la possibilité de choisir entre exécuter le workflow à des moments spécifiques de la journée ou périodiquement tout au long de la journée.
 
-+++ Découvrez comment configurer une fréquence d’exécution **[!UICONTROL « Plusieurs fois par jour »]**.
+   +++ Découvrez comment configurer une fréquence d’exécution **[!UICONTROL « Plusieurs fois par jour »]**.
 
    * Pour exécuter le workflow plusieurs fois à des moments spécifiques de la journée, activez l’option **[!UICONTROL Heures spécifiques]** puis cliquez sur **[!UICONTROL Ajouter un élément]** pour spécifier l’heure d’exécution souhaitée. Ajoutez-en autant de fois que nécessaire pour répondre à vos besoins.
 
@@ -86,7 +87,7 @@ Lors de la conception d’un workflow planifié incluant plusieurs activités, v
 
    ![](assets/wkf_scheduler_day.png)
 
-+++
+   +++
 
 1. Définissez l&#39;expiration de l&#39;exécution :
 

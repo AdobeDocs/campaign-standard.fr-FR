@@ -5,12 +5,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
@@ -21,7 +22,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Le service Audience Destinations est actuellement en version Beta et peut être fréquemment mis à jour sans préavis. L’hébergement des clientes et clients sur Azure (actuellement en version Beta en Amérique du Nord uniquement) est obligatoire pour pouvoir accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Une fois l’[audience Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) créée à l’aide du créateur de segments, vous pouvez l’utiliser de la même manière qu’une audience Campaign dans les workflows pour personnaliser et envoyer des messages.
 

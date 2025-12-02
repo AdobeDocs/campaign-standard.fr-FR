@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -57,7 +58,7 @@ Le workflow de se présente comme suit :
 
   ![](assets/subscription_example_service_relation.png)
 
-* Une [Déduplication](../../automating/using/deduplication.md) basée sur le champ **email** de la ressource temporaire (issue de la réconciliation) permet d’identifier les doublons. Il est important de supprimer les doublons, car s’il en existe, l’abonnement à un service échouera pour l’ensemble des données.
+* Une [Déduplication](../../automating/using/deduplication.md) basée sur le champ **e-mail** de la ressource temporaire (issue de la réconciliation) permet d’identifier les doublons. Il est important de supprimer les doublons, car s’il en existe, l’abonnement à un service échouera pour l’ensemble des données.
 
   ![](assets/subscription_activity_example5.png)
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 100%
@@ -67,7 +68,7 @@ L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas 
 
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Dimensions de ciblage et ressources        {#targeting-dimensions-and-resources}
+## Dimensions de ciblage et ressources {#targeting-dimensions-and-resources}
 
 Les dimensions de ciblage et les ressources permettent de définir sur quels éléments reposera une requête pour déterminer la cible d’une diffusion.
 

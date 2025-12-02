@@ -1,21 +1,22 @@
 ---
-title: Cas pratiques des Triggers d'abandon
+title: Cas pratiques de déclencheurs d’abandon
 description: Découvrez comment utiliser l'intégration Triggers Experience Cloud grâce à ces différents cas pratiques.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 100%
 
 ---
 
-# Cas pratiques des Triggers d&#39;abandon{#abandonment-triggers-use-cases}
+# Cas pratiques de déclencheurs d’abandon{#abandonment-triggers-use-cases}
 
 Cette section détaille divers cas pratiques qui peuvent être implémentés via l&#39;intégration entre Adobe Campaign et les Triggers Experience Cloud. Vous trouverez deux exemples de cas pratiques :
 
@@ -58,7 +59,7 @@ Dans ce cas pratique, nous allons créer un déclencheur simple qui se déclench
 
    ![](assets/trigger_uc_browse_3.png)
 
-### Utiliser le trigger dans Adobe Campaign  {#using-the-trigger-in-adobe-campaign}
+### Utiliser le déclencheur dans Adobe Campaign {#using-the-trigger-in-adobe-campaign}
 
 Maintenant que nous avons créé un déclencheur Experience Cloud, nous allons l&#39;utiliser dans Adobe Campaign.
 
@@ -81,7 +82,7 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dan
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Pour afficher le modèle de message, cliquez sur le bouton **[!UICONTROL Autres choix]**, en haut à droite, puis sur **[!UICONTROL Modèle transactionnel de trigger]**.
+1. Pour afficher le modèle de message, cliquez sur le bouton **[!UICONTROL Autres choix]**, en haut à droite, puis sur **[!UICONTROL Modèle transactionnel de déclencheur]**.
 
 1. Personnalisez son contenu et les données expéditeur.
 
@@ -129,10 +130,10 @@ Suivez les étapes décrites dans le cas pratique précédent pour créer le dé
 
 La section **[!UICONTROL Inclure les métadonnées]** vous permet de transférer toutes les données collectées via Analytics vers la payload de déclencheur. Dans cet exemple, nous allons créer un eVar personnalisé (eVar 3, par exemple) pour collecter le terme de recherche que le visiteur saisit. Ce terme sera ensuite utilisé dans l&#39;email transactionnel envoyé à ce même visiteur.
 
-### Utiliser le trigger dans Adobe Campaign  {#using-the-trigger-in-adobe-campaign-1}
+### Utiliser le déclencheur dans Adobe Campaign {#using-the-trigger-in-adobe-campaign-1}
 
 1. Suivez les étapes décrites dans le cas pratique précédent pour créer le déclencheur dans Adobe Campaign. Voir [Utiliser le déclencheur dans Adobe Campaign](#using-the-trigger-in-adobe-campaign). La différence principale est la manière dont, dans Adobe Campaign, nous accédons et utilisons les métadonnées transmises dans la payload de déclencheur.
-1. Dans le trigger d&#39;abandon de recherche créé dans Adobe Campaign, cliquez sur l&#39;icône **[!UICONTROL Contenu et enrichissement de l&#39;événement]** pour voir la payload transmise à Adobe Campaign.
+1. Dans le déclencheur d’abandon de recherche créé dans Adobe Campaign, cliquez sur l’icône **[!UICONTROL Contenu et enrichissement de l’événement]** pour voir la payload transmise à Adobe Campaign.
 
    ![](assets/trigger_uc_search_2.png)
 

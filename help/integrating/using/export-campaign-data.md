@@ -3,13 +3,14 @@ title: Exporter des données de Campaign vers Adobe Experience Platform
 description: Découvrez comment exporter des données de Campaign Standard vers Adobe Experience Platform.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +22,7 @@ Une fois le workflow configuré et les données envoyées à votre emplacement d
 
 >[!NOTE]
 >
->Notez que nous vous recommandons d’exporter uniquement des données générées par Campaign (par exemple, envois, ouvertures, clics, etc.) vers Adobe Experience Platform. Les données ingérées à partir d’une source tierce (tel que votre CRM) doivent être importées directement dans Adobe Experience Platform.
+>Veuillez noter que nous vous recommandons d’exporter uniquement les données générées par Campaign (par exemple, envois, ouvertures, clics, etc.) vers Adobe Experience Platform. Les données ingérées à partir d’une source tierce (telle que votre CRM) doivent être importées directement dans Adobe Experience Platform.
 
 ## Création d’un workflow d’exportation dans Campaign Standard
 
@@ -64,7 +65,7 @@ Les étapes principales pour connecter votre service de stockage Amazon (S3) ou 
 
    ![](assets/rtcdp-connector.png)
 
-1. Configurez un flux de données pour une connexion par lots vers l’espace de stockage. Un flux de données est une tâche planifiée qui récupère et ingère des données issues de l’emplacement de stockage pour obtenir un jeu de données Adobe Experience Platform. Cette procédure permet de configurer l’ingestion des données depuis votre emplacement de stockage, y compris la sélection des données et le mappage des champs CSV avec un schéma XDM.
+1. Configurez un flux de données pour une connexion par lots vers l’espace de stockage. Un flux de données est une tâche planifiée qui récupère et ingère des données issues de l’emplacement de stockage pour obtenir un jeu de données Adobe Experience Platform. Cette procédure permet de configurer l’ingestion des données depuis votre emplacement de stockage, y compris la sélection des données et le mapping des champs CSV avec un schéma XDM.
 
    Des informations détaillées sont disponibles dans [cette page](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html?lang=fr).
 

@@ -1,22 +1,23 @@
 ---
-title: Interface des workflows
+title: Interface de workflow
 description: Découvrez l’interface et les options pour créer, éditer et exécuter un workflow.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 100%
 
 ---
 
-# Interface des workflows{#workflow-interface}
+# Interface de workflow{#workflow-interface}
 
 Dans le cadre de vos campagnes et programmes, vous pouvez créer des workflows afin de gérer des processus complets.
 
@@ -85,7 +86,7 @@ En fonction des éléments sélectionnés dans l’espace de travail ou du statu
 
 <img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> **[!UICONTROL Redémarrer]**<br/>Redémarre le workflow.
 
-<img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Journal et tâches]**<br/>Ouvre le log d’exécution du workflow.
+<img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Log et tâches]**<br/>Ouvre le log d’exécution du workflow.
 
 <img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Activer le mode multi-sélection]**<br/>Active le mode multi-sélection. Le workflow doit comporter au minimum deux activités.
 
@@ -129,7 +130,7 @@ Lorsqu’une activité est sélectionnée, des boutons d’actions rapides appar
 
 L’espace de travail permet de dupliquer des activités de workflow en les copiant et en les collant dans le même workflow ou dans un autre depuis une même instance de Campaign.
 
-Une fois une activité dupliquée, l’ensemble de sa configuration est conservée. Pour les activités de diffusion (email, SMS, notification push, etc.), l’objet de diffusion associé à l’activité est dupliqué.
+Une fois une activité dupliquée, l’ensemble de sa configuration est conservée. Pour les activités de diffusion (e-mail, SMS, notification push, etc.), l’objet de diffusion associé à l’activité est dupliqué.
 
 >[!NOTE]
 >
@@ -161,6 +162,6 @@ Pour ce faire, sélectionnez les activités en traçant une zone autour d’elle
 
 Cette vidéo montre comment créer un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/31326?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview).

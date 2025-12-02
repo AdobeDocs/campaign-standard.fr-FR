@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 100%
@@ -69,4 +70,4 @@ Pour configurer une activité **[!UICONTROL Enrichissement]** :
 
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
-Les données peuvent maintenant être utilisées dans les activités reliées qui se trouvent à la suite de l&#39;**[!UICONTROL Enrichissement]**. Par exemple, vous pouvez les retrouver via le lien **[!UICONTROL Données additionnelles (targetData)]** de l&#39;explorateur des champs de personnalisation dans un contenu d&#39;email.
+Les données peuvent maintenant être utilisées dans les activités reliées qui se trouvent à la suite de l&#39;**[!UICONTROL Enrichissement]**. Par exemple, vous pouvez les retrouver via le lien **[!UICONTROL Données additionnelles (targetData)]** de l’explorateur des champs de personnalisation dans un contenu d’email.

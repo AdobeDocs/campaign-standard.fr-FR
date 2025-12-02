@@ -6,12 +6,13 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 100%
@@ -22,7 +23,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Le service Audience Destinations est actuellement en version Beta et peut être fréquemment mis à jour sans préavis. L’hébergement des clientes et clients sur Azure (actuellement en version Beta en Amérique du Nord uniquement) est obligatoire pour pouvoir accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Le créateur de segments vous permet de créer des audiences en définissant des règles basées sur les données provenant du [profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
 

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
@@ -56,7 +57,7 @@ Le workflow est constitué comme suit :
 
   ![](assets/deduplication_example2_writer1.png)
 
-  Indiquez les correspondances entre les colonnes du fichier dont vous souhaitez insérer les données et les champs de la base depuis l&#39;onglet **[!UICONTROL Champs à mettre à jour]**.
+  Indiquez les mappings entre les colonnes du fichier dont vous souhaitez insérer les données et les champs de la base depuis l&#39;onglet **[!UICONTROL Champs à mettre à jour]**.
 
   ![](assets/deduplication_example2_writer2.png)
 

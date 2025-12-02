@@ -2,10 +2,11 @@
 title: Mettre à jour des profils
 description: Découvrez comment mettre à jour les profils à l’aide des API
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 100%

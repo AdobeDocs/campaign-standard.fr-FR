@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 100%
@@ -60,7 +61,7 @@ Si elle est spécifiée dans un fichier par le biais de colonnes dédiées, cett
 
      Dans cette colonne, l’opération doit être spécifiée sous la forme d’une valeur booléenne ou d’un entier. Utilisez la valeur **0** pour désabonner un enregistrement et la valeur **1** pour en abonner un.
 
-     Si les valeurs contenues dans un fichier importé ne répondent pas aux exigences ci-dessus, vous pouvez toujours utiliser l’option [Recodification des valeurs](../../automating/using/load-file.md#column-format) disponible dans l’activité **[!UICONTROL Chargement de fichier]**.
+     Si les valeurs contenues dans un fichier importé ne répondent pas aux exigences ci-dessus, vous pouvez toujours utiliser l’option [Remapping des valeurs](../../automating/using/load-file.md#column-format) disponible dans l’activité **[!UICONTROL Chargement de fichier]**.
 
 1. Si les données en entrée contiennent une colonne avec la date d’abonnement au service correspondant au profil, sélectionnez-la. Vous pouvez la laisser vide, mais aucune date d’abonnement n’est définie lors de l’exécution du workflow.
 1. Définissez l’origine de l’abonnement. Vous pouvez la définir sur une origine des champs des données en entrée ou sur une valeur constante de votre choix en cochant l’option **[!UICONTROL Définir une constante comme origine]**. Vous pouvez la laisser vide, mais aucune origine n’est définie lors de l’exécution du workflow.
@@ -100,7 +101,7 @@ Le workflow de se présente comme suit :
 
   ![](assets/subscription_activity_example3.png)
 
-* Une **[!UICONTROL Déduplication]** basée sur le champ **email** de la ressource temporaire (issue de la réconciliation) permettant d’identifier d’éventuels doublons. Si les données importées depuis le fichier contiennent des doublons, l’abonnement à un service échouera pour l’ensemble des données.
+* Une **[!UICONTROL Déduplication]** basée sur le champ **e-mail** de la ressource temporaire (issue de la réconciliation) permettant d’identifier d’éventuels doublons. Si les données importées depuis le fichier contiennent des doublons, l’abonnement à un service échouera pour l’ensemble des données.
 
   ![](assets/subscription_activity_example5.png)
 
@@ -149,7 +150,7 @@ Le workflow de se présente comme suit :
 
   ![](assets/subscription_example_service_relation.png)
 
-* Une **[!UICONTROL Déduplication]** basée sur le champ **email** de la ressource temporaire (issue de la réconciliation) permet d’identifier les doublons. Il est important de supprimer les doublons, car s’il en existe, l’abonnement à un service échouera pour l’ensemble des données.
+* Une **[!UICONTROL Déduplication]** basée sur le champ **e-mail** de la ressource temporaire (issue de la réconciliation) permet d’identifier les doublons. Il est important de supprimer les doublons, car s’il en existe, l’abonnement à un service échouera pour l’ensemble des données.
 
   ![](assets/subscription_activity_example5.png)
 

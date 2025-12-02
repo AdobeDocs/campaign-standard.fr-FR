@@ -3,10 +3,11 @@ title: Prise en main des sources et des destinations
 description: En savoir plus sur les sources et les destinations d’Adobe Experience Platform.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%

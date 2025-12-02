@@ -1,15 +1,16 @@
 ---
 title: Reciblage des personnes n’ayant pas ouvert l’email
-description: Ce cas pratique montre comment recibler les personnes n’ayant pas ouvert l’email.
+description: Ce cas pratique montre comment recibler les personnes n’ayant pas ouvert l’e-mail.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
@@ -48,7 +49,7 @@ Vous pouvez envoyer un email à des clients et ensuite un SMS à ceux qui n&#39;
 1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre mise en page.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Cibler les personnes n&#39;ayant pas ouvert l&#39;email dans une activité Requête{#targeting-non-openers-in-a-query-activity}
+## Cibler les personnes n’ayant pas ouvert l’e-mail dans une activité Requête{#targeting-non-openers-in-a-query-activity}
 
 1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Exécution]**, effectuez un glisser-déposer d’une activité [Attente](../../automating/using/wait.md).
 1. Dans **[!UICONTROL Durée]**, cliquez sur ![](assets/duration-icon.png) et sélectionnez un jour.

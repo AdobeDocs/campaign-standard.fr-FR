@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 100%
@@ -74,7 +75,7 @@ Pour envoyer votre e-mail dans Adobe Campaign Standard :
 
 1. Une fois le contenu et les paramètres d’envoi définis, créez un e-mail à partir d’un modèle d’e-mail AEM spécifique dans Adobe Campaign Standard.
 
-+++ En savoir plus sur le modèle AEM spécifique.
+   +++ En savoir plus sur le modèle AEM spécifique.
 
    1. Dans le menu avancé, sélectionnez **[!UICONTROL Ressources]** `>` **[!UICONTROL Modèles]** `>` **[!UICONTROL Modèles de diffusion]**.
 
@@ -86,7 +87,7 @@ Pour envoyer votre e-mail dans Adobe Campaign Standard :
 
       ![](assets/aem_templates_2.png)
 
-+++
+   +++
 
    ![](assets/aem_send_1.png)
 

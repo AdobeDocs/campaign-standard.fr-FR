@@ -1,23 +1,24 @@
 ---
-title: Utiliser les Triggers dans Campaign
+title: Utiliser les déclencheurs dans Campaign
 description: Créez un événement Trigger dans Adobe Campaign, basé sur un Trigger Adobe Experience Cloud existant.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 100%
 
 ---
 
-# Utiliser les Triggers dans Campaign{#using-triggers-in-campaign}
+# Utiliser les déclencheurs dans Campaign{#using-triggers-in-campaign}
 
-## Création d&#39;un Trigger mappé dans Campaign {#creating-a-mapped-trigger-in-campaign}
+## Création d’un déclencheur mappé dans Campaign {#creating-a-mapped-trigger-in-campaign}
 
 >[!NOTE]
 >
@@ -33,7 +34,7 @@ Les étapes de mise en œuvre sont les suivantes :
 
    ![](assets/remarketing_1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Créer.]** L’assistant de création qui s’affiche contient la liste de tous les déclencheurs définis dans Adobe Experience Cloud. La colonne **[!UICONTROL Nombre d’envois Analytics]** indique le nombre d’événements envoyés à Campaign par le déclencheur Adobe Experience Cloud. Il s’agit d’un mappage des déclencheurs créés dans l’interface d’Experience Cloud.
+1. Cliquez sur le bouton **[!UICONTROL Créer.]** L’assistant de création qui s’affiche contient la liste de tous les déclencheurs définis dans Adobe Experience Cloud. La colonne **[!UICONTROL Nombre d’envois Analytics]** indique le nombre d’événements envoyés à Campaign par le déclencheur Adobe Experience Cloud. Il s’agit d’un mapping des déclencheurs créés dans l’interface d’Experience Cloud.
 
    ![](assets/remarketing_2.png)
 
@@ -49,7 +50,7 @@ Les étapes de mise en œuvre sont les suivantes :
 
 1. Vous pouvez maintenant publier vos déclencheurs. Pour plus d’informations à ce sujet, voir [Publication d’un déclencheur dans Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
-## Publication d&#39;un Trigger dans Campaign {#publishing-trigger-in-campaign}
+## Publication d’un déclencheur dans Campaign {#publishing-trigger-in-campaign}
 
 Après avoir créé un événement déclencheur dans Adobe Campaign en fonction d’un déclencheur Adobe Experience Cloud existant, vous devez le publier.
 
@@ -79,7 +80,7 @@ Une fois la publication effectuée, un modèle transactionnel associé au nouvel
 
 Une fois que vous avez créé et publié l’événement déclencheur, le modèle transactionnel correspondant est automatiquement créé. Consultez la section [Création d’un déclencheur mappé dans Campaign](#creating-a-mapped-trigger-in-campaign) pour en savoir plus.
 
-Pour que l’événement entraîne l’envoi d’un message transactionnel, vous devez personnaliser ce modèle, le tester et le publier. Ces étapes sont les mêmes que pour un message transactionnel standard. Pour plus d&#39;informations, consultez la section [Modifier un message transactionnel](../../channels/using/editing-transactional-message.md).
+Pour que l’événement déclenche l’envoi d’un message transactionnel, vous devez personnaliser ce modèle, le tester et le publier. Ces étapes sont les mêmes que pour un message transactionnel standard. Pour plus d&#39;informations, consultez la section [Modifier un message transactionnel](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >

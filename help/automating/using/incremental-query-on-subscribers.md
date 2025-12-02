@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
@@ -18,7 +19,7 @@ ht-degree: 100%
 
 # Requête incrémentale sur les abonnés à un service {#example--incremental-query-on-subscribers-to-a-service}
 
-L’exemple ci-après illustre le paramétrage d’une activité de **[!UICONTROL Requête incrémentale]** visant à filtrer les profils de la base Adobe Campaign qui sont abonnés au service **Newsletter Running**, afin de leur envoyer un email de bienvenue contenant un code promotion.
+L’exemple ci-après illustre la configuration d’une activité **[!UICONTROL Requête incrémentale]** qui filtre les profils de la base de données Adobe Campaign qui sont abonnés au service **Newsletter Running**, afin de leur envoyer un e-mail de bienvenue contenant un code promotionnel.
 
 Le workflow est construit de la manière suivante :
 

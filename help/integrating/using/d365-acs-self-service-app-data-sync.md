@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2005'
 ht-degree: 100%
@@ -116,7 +117,7 @@ Pour Campaign, vous devez sélectionner le champ qui sera la clé unique. Il doi
 >
 >Vous ne pourrez choisir le champ d’identifiant sur la table que lorsque vous aurez sélectionné **[!UICONTROL Ajouter un nouveau mapping]**. Si vous cliquez sur le bouton Modifier pour modifier un mapping de table existant, le champ d’identifiant est en lecture seule.
 
-Les clés primaires sont toujours les premiers noms de champ répertoriés dans la section **[!UICONTROL Mappings de champs]**. Pour rappel, l’icône ci-après est située à droite pour vous rappeler qu&#39;il s&#39;agit des clés primaires.
+Les clés primaires sont toujours les premiers noms de champ répertoriés dans la section **[!UICONTROL Mappings de champs]**. Pour rappel, l’icône ci-après est située à droite pour vous rappeler qu’il s’agit des clés primaires.
 
 ![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 

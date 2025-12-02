@@ -5,9 +5,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 100%
@@ -87,7 +88,7 @@ Les imports complets sont réservés au chargement initial.
 Pour maintenir la cohérence des données dans la base de données Adobe Campaign, veuillez appliquer les principes suivants :
 
 * Si les données importées correspondent à une table de référence dans Adobe Campaign, elles doivent être réconciliées avec ce tableau dans le workflow. Les enregistrements sans correspondance doivent être rejetés.
-* Assurez-vous que les données importées soient toujours **« normalisées »** (email, numéro de téléphone, adresse postale) et que cette normalisation soit fiable et ne risque pas de changer pas au fil des années. Si ce n’est pas le cas, des doublons risquent d’apparaître dans la base de données, et dans la mesure où Adobe Campaign ne fournit pas d’outils de « correspondance approximative », leur suppression sera très difficile.
-* Les données transactionnelles doivent être dotées d&#39;une clé de réconciliation et être réconciliées avec les données existantes afin d&#39;éviter la création de doublons.
+* Assurez-vous que les données importées soient toujours **« normalisées »** (e-mail, numéro de téléphone, adresse postale) et que cette normalisation soit fiable et ne risque pas de changer pas au fil des années. Si ce n’est pas le cas, des doublons risquent d’apparaître dans la base de données, et dans la mesure où Adobe Campaign ne fournit pas d’outils de « correspondance approximative », leur suppression sera très difficile.
+* Les données transactionnelles doivent être dotées d’une clé de réconciliation et être réconciliées avec les données existantes afin d’éviter la création de doublons.
 * **Les fichiers liés doivent être importés dans l&#39;ordre**. Si l&#39;import est composé de fichiers multiples et interdépendants, le workflow doit vérifier que les fichiers sont importés dans l&#39;ordre. Si un fichier échoue, les autres fichiers ne sont pas importés.
 * **Dédupliquez**, réconciliez et maintenez la cohérence lorsque vous importez des données.

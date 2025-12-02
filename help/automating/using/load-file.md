@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1528'
 ht-degree: 100%
@@ -117,7 +118,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d’abord, vo
 
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
-Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d’informations sur les journaux de workflows, reportez-vous à [cette section](../../automating/using/monitoring-workflow-execution.md).
+Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les logs pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d’informations sur les logs de workflows, reportez-vous à [cette section](../../automating/using/monitoring-workflow-execution.md).
 
 ## Format des colonnes {#column-format}
 
@@ -145,14 +146,14 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
    * **[!UICONTROL Format]** : permet de définir le format des valeurs numériques pour les données de type **Nombre entier** et **Nombre flottant**.
    * **[!UICONTROL Séparateur]** : permet de définir le séparateur spécifié par le contexte de la colonne (séparateur de milliers ou séparateur décimal pour les valeurs numériques, séparateur pour les dates et les heures) pour les données de type **Date**, **Heure**, **Date et Heure**, **Nombre entier** et **Nombre flottant**.
 
-* **[!UICONTROL Recodification des valeurs]** : ce champ est disponible uniquement dans le paramétrage du détail d&#39;une colonne. Il permet de transformer certaines valeurs lors de l&#39;import. Par exemple, vous pouvez transformer « trois » en « 3 ».
+* **[!UICONTROL Remapping des valeurs]** : ce champ est disponible uniquement dans la configuration des détails d’une colonne. Il permet de transformer certaines valeurs lors de l&#39;import. Par exemple, vous pouvez transformer « trois » en « 3 ».
 * **[!UICONTROL Traitement des erreurs]** : permet de définir le comportement en cas d&#39;erreur.
 
-   * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le journal d&#39;exécution du workflow.
+   * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le log d&#39;exécution du workflow. 
    * **[!UICONTROL Rejeter la ligne]** : la ligne entière n&#39;est pas traitée.
    * **[!UICONTROL Utiliser une valeur par défaut]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**.
-   * **[!UICONTROL Utiliser une valeur par défaut en cas d&#39;absence de recodification]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si une recodification a été définie pour la valeur en erreur (voir option **[!UICONTROL Recodification des valeurs]** ci-dessus).
-   * **[!UICONTROL Rejeter la ligne en cas d&#39;absence de recodification]** : la ligne entière n&#39;est pas traitée sauf si une recodification a été définie pour la valeur en erreur (voir option **[!UICONTROL Recodification des valeurs]** ci-dessus).
+   * **[!UICONTROL Utiliser une valeur par défaut en cas d’absence de remapping]** : remplace la valeur causant l’erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si un remapping a été défini pour la valeur en erreur (voir option **[!UICONTROL Remapping des valeurs]** ci-dessus).
+   * **[!UICONTROL Rejeter la ligne en l’absence de valeur de remapping]** : la ligne entière n’est pas traitée sauf si un remapping a été défini pour la valeur en erreur (voir option **[!UICONTROL Remapping des valeurs]** ci-dessus).
 
   >[!NOTE]
   >

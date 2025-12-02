@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
@@ -32,7 +33,7 @@ Dans ce cas, vérifiez que les éléments suivants sont correctement configurés
 
   Dans **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Data sources partagées]**, vérifiez que la data source partagée est correctement définie.
 
-  La **[!UICONTROL Priorité]** est utilisée lorsque plusieurs data sources sont définies. Elle décide quelle data source sera utilisée pour la mise en correspondance avec l&#39;alias reçu dans l&#39;ordre défini. La **[!UICONTROL Priorité]** n&#39;est nécessaire que pour l&#39;implémentation des Triggers.
+  La **[!UICONTROL Priorité]** est utilisée lorsque plusieurs data sources sont définies. Elle décide quelle data source sera utilisée pour la mise en correspondance avec l&#39;alias reçu dans l&#39;ordre défini. La **[!UICONTROL Priorité]** n’est nécessaire que pour l’implémentation de Triggers.
 
   Vérifiez que la clé de réconciliation est correcte. C&#39;est la valeur hachée/chiffrée de ce champ qui est utilisée pour exporter et importer les audiences.
 

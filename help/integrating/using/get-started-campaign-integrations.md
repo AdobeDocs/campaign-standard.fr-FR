@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 100%
@@ -56,7 +57,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Adobe Target<br /> </td> 
    <td> Permet d'insérer des images calculées dynamiquement par Adobe Target au moment de l'ouverture d'un e-mail créé et envoyé via Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Utiliser Campaign et Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr">Intégrer Campaign et Target</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Personnaliser les images d'e-mail en temps réel</a> (étape 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Utiliser Campaign et Target</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr">Intégrer Campaign et Target</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Personnaliser les images d’e-mail en temps réel</a> (étape 3)
     </td> 
   </tr> 
   <tr> 

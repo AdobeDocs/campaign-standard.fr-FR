@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
@@ -30,7 +31,7 @@ Vous pouvez envoyer une offre par email à la date anniversaire de la création 
 1. Double-cliquez sur l&#39;activité.
 1. Configurez l&#39;exécution de votre diffusion.
 1. Dans **[!UICONTROL Fréquence d&#39;exécution]**, sélectionnez **[!UICONTROL Quotidienne]**.
-1. Sélectionnez une **[!UICONTROL Heure]** et **[!UICONTROL Répéter le traitement selon la périodicité suivante]** pour votre workflow.
+1. Sélectionnez une **[!UICONTROL Heure]** et la **[!UICONTROL Fréquence de répétition]** pour l’exécution de votre workflow.
 1. Sélectionnez une date de **[!UICONTROL Début]** et d&#39;**[!UICONTROL Expiration]** de votre workflow.
 1. Validez votre activité et sauvegardez votre workflow.
 
@@ -68,7 +69,7 @@ Cliquez sur **[!UICONTROL Confirmer]**.
 ### Récupération des profils créés le même mois que le mois d’exécution{#retrieving-profiles-created-on-the-same-month}
 
 1. Dans l&#39;éditeur de **[!UICONTROL requêtes]**, sélectionnez la première requête et dupliquez-la.
-1. Ouvrez le duplicata.
+1. Ouvrez le doublon.
 1. Remplacez **[!UICONTROL Jour]** par **[!UICONTROL Mois]** dans la requête.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 

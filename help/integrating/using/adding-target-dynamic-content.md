@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 100%
@@ -39,7 +40,7 @@ Avant d&#39;accéder à l&#39;image dans Adobe Campaign, les tâches suivantes d
 
 1. Saisissez le nom du &quot;rawbox&quot; défini dans Adobe Target.
 1. Dans Adobe Target, si vous utilisez les autorisations Enterprise, ajoutez la propriété correspondante dans ce champ. Pour plus d&#39;informations sur les autorisations Enterprise Target, consultez [cette page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr). Ce champ est facultatif et n’est pas obligatoire si vous n’utilisez pas les autorisations Enterprise dans Target.
-1. Dans **[!UICONTROL Paramètres de décision additionnels]**, associez les champs définis dans les segments Adobe Target et les champs d&#39;Adobe Campaign.
+1. Dans **[!UICONTROL Paramètres de décision additionnels]**, spécifiez le mapping entre les champs définis dans les segments Adobe Target et les champs d’Adobe Campaign.
 
    Les champs d’Adobe Campaign utilisés doivent avoir été spécifiés au niveau du « rawbox ». Dans cet exemple, définissez différentes expériences en fonction du sexe du destinataire.
 

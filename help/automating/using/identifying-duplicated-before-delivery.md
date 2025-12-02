@@ -1,15 +1,16 @@
 ---
 title: Identifier des doublons avant une diffusion
-description: L'exemple suivant illustre une déduplication permettant d'exclure les doublons d'une cible avant l'envoi d'un email. Cela permet d'éviter d'envoyer une communication plusieurs fois à un même profil.
+description: L’exemple suivant illustre une déduplication permettant d’exclure les doublons d’une cible avant l’envoi d’un e-mail. Cela permet d'éviter d'envoyer une communication plusieurs fois à un même profil.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: a09b101b-f76f-4377-9854-1fcffaad4f9a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
@@ -18,7 +19,7 @@ ht-degree: 100%
 
 # Identifier des doublons avant une diffusion {#identifying-duplicates-before-a-delivery}
 
-L&#39;exemple suivant illustre une déduplication permettant d&#39;exclure les doublons d&#39;une cible avant l&#39;envoi d&#39;un email. Cela permet d&#39;éviter d&#39;envoyer une communication plusieurs fois à un même profil.
+L’exemple suivant illustre une déduplication permettant d’exclure les doublons d’une cible avant l’envoi d’un e-mail. Cela permet d&#39;éviter d&#39;envoyer une communication plusieurs fois à un même profil.
 
 Le workflow est constitué comme suit :
 

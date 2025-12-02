@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
@@ -18,13 +19,13 @@ ht-degree: 100%
 
 # Surveiller l&#39;exécution des workflows {#monitoring}
 
-## Journal et tâches du workflow {#workflow-log-and-tasks}
+## Log et tâches du workflow {#workflow-log-and-tasks}
 
-L’icône ![](assets/printpreview_darkgrey-24px.png) permet d’accéder au menu Journal et tâches du workflow.
+L&#39;icône ![](assets/printpreview_darkgrey-24px.png) permet d&#39;accéder au menu Log et tâches du workflow.
 
 L’historique d’un workflow est conservé pendant la durée que vous indiquez dans les options d’exécution du workflow (voir [Propriétés des workflows](../../automating/using/managing-execution-options.md)). Pendant cette durée, tous les messages sont donc conservés, même après un redémarrage. Si vous ne voulez pas conserver les messages d’une exécution précédente, vous devez purger l’historique en cliquant sur le bouton ![](assets/delete_darkgrey-24px.png).
 
-L’onglet **[!UICONTROL Journal]** contient l’historique de l’exécution de toutes les activités ou des activités sélectionnées. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d’exécution.
+L&#39;onglet **[!UICONTROL Log]** contient l&#39;historique de l&#39;exécution de toutes les activités ou des activités sélectionnées. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d’exécution.
 
 ![](assets/wkf_execution_4.png)
 
@@ -42,7 +43,7 @@ Dans ces deux listes :
 
 Lorsqu’une erreur se produit, le workflow se met en pause et l’activité qui était en cours d’exécution lorsque l’erreur s’est produite clignote alors en rouge.
 
-Le statut du workflow passe au rouge et l’erreur est consignée dans le journal.
+Le statut du workflow passe au rouge et l’erreur est consignée dans le log.
 
 Vous pouvez paramétrer le workflow pour qu’il ne se mette pas en pause et continue son exécution en cas d’erreur. Pour cela, accédez aux propriétés du workflow à l’aide du bouton ![](assets/edit_darkgrey-24px.png) et, dans la section **[!UICONTROL Exécution]**, sélectionnez l’option **Ignorer** dans le champ **En cas d’erreur**.
 

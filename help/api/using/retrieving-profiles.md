@@ -2,10 +2,11 @@
 title: Récupérer des profils
 description: Découvrez comment récupérer les profils à l’aide des API
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%

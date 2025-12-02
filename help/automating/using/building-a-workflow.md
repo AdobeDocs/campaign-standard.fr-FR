@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
@@ -135,6 +136,6 @@ Par défaut, les activités ne sont pas définies et ne traiteront pas correctem
 
 Cette vidéo montre comment créer un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/31326?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

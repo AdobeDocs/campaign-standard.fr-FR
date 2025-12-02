@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
@@ -32,7 +33,7 @@ La payload doit contenir les paramètres suivants :
 * **reconciliationValue** : valeur de réconciliation basée sur la clé de réconciliation définie dans l’espace de noms
 * **label** : libellé de la requête
 * **type** : type de requête. Les valeurs acceptées sont « access » ou « delete ».
-* **regulation** : type de réglementation. Exemple : « GDPR », « ACCP ». Ce paramètre est obligatoire et disponible à partir de la version 19.4 de Campaign Standard. Si vous utilisez une version plus ancienne, vous n’avez pas besoin de l’ajouter à votre payload.
+* **regulation** : type de réglementation. Exemple : « RGPD », « ACCP ». Ce paramètre est obligatoire et disponible à partir de la version 19.4 de Campaign Standard. Si vous utilisez une version plus ancienne, vous n’avez pas besoin de l’ajouter à votre payload.
 
 <br/>
 

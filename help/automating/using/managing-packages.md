@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 100%
@@ -46,7 +47,7 @@ Pour afficher le contenu d’un élément et le modifier, cliquez sur son libell
 
 Les étapes d’export d’un package sont présentées dans la section [Export d’un package](#exporting-a-package).
 
-* Le package **[!UICONTROL Plateforme]** regroupe toutes les ressources ajoutées pendant la configuration technique : ressources personnalisées, ensembles de ressources personnalisées, Triggers et options d’application de type **[!UICONTROL Système]**.
+* Le package **[!UICONTROL Plateforme]** regroupe toutes les ressources ajoutées pendant la configuration technique : ressources personnalisées, ensembles de ressources personnalisées, déclencheurs et options d’application de type **[!UICONTROL Système]**.
 * Le package **[!UICONTROL Administration]** regroupe tous les objets ajoutés pendant la configuration métier : modèles d’opération, modèles de contenu, modèles de diffusion, modèles de landing page, modèles de programme et modèles de workflow.
 
   Il comprend également les objets suivants : blocs de contenu, mappings de ciblage, comptes externes, entités organisationnelles, options d’application de type **[!UICONTROL Utilisateur]**, rôles, typologies, règles de typologie et utilisateurs.
@@ -114,13 +115,13 @@ Lorsque l’opération est terminée, plusieurs sections s’affichent :
 
   ![](assets/packages_6.png)
 
-* L’onglet **[!UICONTROL Journal]** permet de consulter les différentes étapes de l’export. Il contient les états de tous les exports précédents.
+* L’onglet **[!UICONTROL Log]** permet de consulter les différentes étapes de l’export. Il contient les états de tous les exports précédents.
 
   ![](assets/packages_7.png)
 
 >[!NOTE]
 >
->Lorsque vous sélectionnez, à partir de la liste des définitions de package, un élément qui a déjà été exporté, les onglets **[!UICONTROL Journal]** et **[!UICONTROL Dernier export]** sont toujours disponibles.
+>Lorsque vous sélectionnez, à partir de la liste des définitions de package, un élément qui a déjà été exporté, les onglets **[!UICONTROL Log]** et **[!UICONTROL Dernier export]** sont toujours disponibles.
 
 ## Imports de package {#package-imports}
 

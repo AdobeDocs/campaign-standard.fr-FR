@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 100%
@@ -43,7 +44,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
    ![](assets/wkf_file_transfer_01.png)
 
    * **Réception de fichier** : vous permet de télécharger un fichier.
-   * **Chargement de fichier** : vous permet de charger un fichier. Le téléchargement d&#39;un fichier depuis Adobe Campaign génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d’informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
+   * **Chargement de fichier** : vous permet de charger un fichier. Le téléchargement d’un fichier depuis Adobe Campaign génère une entrée de log dans le menu **[!UICONTROL Audits des exports]**. Pour plus d’informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
    * **Test d’existence de fichier** : vous permet de vérifier l’existence d’un fichier.
    * **Listage de fichiers** : vous permet de lister les fichiers présents sur le serveur défini dans l’onglet **[!UICONTROL Protocole]**. Cette action est principalement utilisée à des fins de débogage, afin de vérifier si l’activité est configurée en fonction de vos besoins avant de télécharger les fichiers à partir du serveur distant.
 
@@ -68,7 +69,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
 
 1. La section **[!UICONTROL En cas d’absence de fichier]** de l’onglet **[!UICONTROL Options avancées]** vous permet d’agir sur les erreurs ou les fichiers inexistants détectés lors du lancement de l’activité.
 
-   Vous pouvez également définir de nouvelles tentatives. Les différentes tentatives apparaissent dans le journal d’exécution du workflow.
+   Vous pouvez également définir de nouvelles tentatives. Les différentes tentatives apparaissent dans le log d’exécution du workflow.
 
    ![](assets/wkf_file_transfer_09.png)
 

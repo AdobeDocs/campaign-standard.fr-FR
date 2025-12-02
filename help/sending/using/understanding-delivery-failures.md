@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 100%
@@ -64,7 +64,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 | **[!UICONTROL Boîte pleine]** | Soft | La boîte aux lettres de cet utilisateur est pleine et ne peut pas accepter d’autres messages. Cette adresse peut éventuellement être retirée de la liste des quarantaines pour faire une nouvelle tentative, et l’est automatiquement au bout de 30 jours. Pour que l’adresse soit automatiquement retirée de la liste des adresses en quarantaine, le workflow technique **[!UICONTROL Nettoyage de la base]** doit être démarré. |
 | **[!UICONTROL Refusés]** | Soft/Hard | L’adresse a été mise en quarantaine en raison d’un retour de sécurité signalant du spam. Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
 | **[!UICONTROL Doublon]** | Ignoré | L’adresse a déjà été détectée dans la segmentation. |
-| **[!UICONTROL Non définie]** | Soft | L&#39;adresse est en cours de qualification parce que les erreurs n&#39;ont pas encore été  | incrémentées. Ce type d’erreur apparaît lorsqu’un nouveau message d’erreur est envoyé par le serveur : il peut s’agir d’une erreur isolée, mais si elle se répète, le compteur d’erreur augmente, ce qui permet d’alerter les équipes techniques. |
+| **[!UICONTROL Non définie]** | Soft | L’adresse est en cours de qualification parce que les erreurs n’ont pas encore été incrémentées. Ce type d’erreur apparaît lorsqu’un nouveau message d’erreur est envoyé par le serveur : il peut s’agir d’une erreur isolée, mais si elle se répète, le compteur d’erreur augmente, ce qui permet d’alerter les équipes techniques. |
 | **[!UICONTROL Erreur ignorée]** | Ignoré | L’adresse se trouve sur la liste autorisée et un email lui sera envoyé dans tous les cas. |
 | **[!UICONTROL Adresse sur liste bloquée]** | Hard | L’adresse a été ajoutée à la liste bloquée au moment de l’envoi. |
 | **[!UICONTROL Compte désactivé]** | Soft/Hard | Lorsque le Fournisseur d’Accès Internet (FAI) détecte une inactivité prolongée, il peut fermer le compte de l’utilisateur, ce qui rend les diffusions vers son adresse impossibles. Le type d’erreur Soft ou Hard dépend du type d’erreur reçu : si le compte est temporairement désactivé en raison d’une inactivité de 6 mois et qu’il peut toujours être activé, le statut **[!UICONTROL En erreur]** sera affecté et la diffusion sera de nouveau envoyée. Si l’erreur a reçu des signaux indiquant que le compte est définitivement désactivé, il sera mis directement en quarantaine. |

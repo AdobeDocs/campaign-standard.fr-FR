@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 100%
@@ -59,7 +60,7 @@ Les prérequis sont :
 
 Après avoir conçu le contenu de votre email, vous devez créer des copies de langue qui seront synchronisées avec Adobe Campaign Standard en tant que variantes.
 
-1. Sélectionnez la page que vous avez créée précédemment, cliquez sur **[!UICONTROL Créer]**, puis sur **[!UICONTROL Copie de la langue]**.
+1. Sélectionnez la page que vous avez créée précédemment, cliquez sur **[!UICONTROL Créer]**, puis sur **[!UICONTROL Copie linguistique]**.
 
    ![](assets/aem_acs_5.png)
 
@@ -77,7 +78,7 @@ Vos copies de langue sont créées. Vous pouvez maintenant modifier le contenu e
 
 >[!CAUTION]
 >
->Chaque copie de langue doit être approuvée via le workflow de validation **[!UICONTROL Approuver pour Adobe Campaign]**. Vous ne pouvez pas envoyer d&#39;email dans Adobe Campaign si son contenu n&#39;a pas été validé.
+>Chaque copie linguistique doit être approuvée via le workflow de validation **[!UICONTROL Approuver pour Adobe Campaign]**. Vous ne pouvez pas envoyer d&#39;email dans Adobe Campaign si son contenu n&#39;a pas été validé.
 
 ![](assets/aem_acs_11.png)
 
@@ -101,7 +102,7 @@ Vos copies de langue sont créées. Vous pouvez maintenant modifier le contenu e
 
    ![](assets/aem_acs_20.png)
 
-1. Cliquez sur **[!UICONTROL Création de la copie de la langue]**.
+1. Cliquez sur **[!UICONTROL Création de la copie linguistique]**.
 
    ![](assets/aem_acs_16.png)
 
@@ -109,7 +110,7 @@ Vos copies de langue sont créées. Vous pouvez maintenant modifier le contenu e
 
    >[!NOTE]
    >
-   >La copie de la langue choisie sera définie par défaut. Vous pourrez la modifier ultérieurement dans le bloc **[!UICONTROL Variante du contenu]**.
+   >La copie linguistique choisie sera définie par défaut. Vous pourrez la modifier ultérieurement dans le bloc **[!UICONTROL Variante du contenu]**.
 
    ![](assets/aem_acs_17.png)
 

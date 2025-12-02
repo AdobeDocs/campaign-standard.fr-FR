@@ -2,10 +2,11 @@
 title: Supprimer des abonnements
 description: Découvrez comment supprimer des abonnements à l’aide des API
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 100%

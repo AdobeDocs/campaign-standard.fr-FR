@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: People Core Service Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 100%
@@ -118,7 +119,7 @@ Pour créer la source de données **[!UICONTROL ID déclaré]** :
 
 >[!NOTE]
 >
->Le champ **[!UICONTROL AAM Destination ID]** n&#39;est pas obligatoire si vous configurez la data source partagée pour l&#39;[intégration des Triggers Campaign](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL La priorité]** n&#39;est nécessaire que lors de la configuration de l&#39;intégration des Triggers Campaign. La priorité détermine quelle source de données sera configurée en premier. Il peut s&#39;agit d&#39;un nombre tel que 1 ou 100. Plus la priorité est élevée, plus la préférence est importante lors de la réconciliation.
+>Le champ **[!UICONTROL AAM Destination ID]** n&#39;est pas obligatoire si vous configurez la data source partagée pour l&#39;[intégration des Triggers Campaign](../../integrating/using/configuring-triggers-in-experience-cloud.md). La **[!UICONTROL priorité]** n’est nécessaire que lors de la configuration de l’intégration de Triggers Campaign. La priorité détermine quelle source de données sera configurée en premier. Il peut s&#39;agit d&#39;un nombre tel que 1 ou 100. Plus la priorité est élevée, plus la préférence est importante lors de la réconciliation.
 
 ### Étape 3 : Configuration du serveur de tracking Campaign        {#step-3--configure-campaign-tracking-server}
 

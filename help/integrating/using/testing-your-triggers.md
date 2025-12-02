@@ -1,21 +1,22 @@
 ---
-title: Test de vos Triggers
-description: Découvrez les conseils de dépannage pour vous aider à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l'utilisation de Triggers avec Adobe Campaign.
+title: Test de vos déclencheurs
+description: Découvrez les conseils de dépannage pour vous aider à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l’utilisation de Triggers avec Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
 
-# Test de vos Triggers{#testing-your-triggers}
+# Test de vos déclencheurs{#testing-your-triggers}
 
 Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l’utilisation de Triggers avec Adobe Campaign :
 
@@ -64,7 +65,7 @@ Si tel est le cas, suivez ces directives :
 * Vérifiez le type d’ID de réconciliation dans la source de données Campaign.
 * La source de données CustomerId est créée via les attributs du client.
 * Vérifiez l’ID de la source de donnée.
-* Demandez à Adobe de relancer l’instance de Campaign après la configuration de la source de données.
+* Demandez à Adobe de redémarrer l’instance de Campaign après la configuration de la source de données.
 * Vérifier les problèmes d’analyse du déclencheur dans le rapport de déclencheur.
 
 **Le déclencheur est-il à l’état En attente ?**

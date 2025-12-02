@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
@@ -21,7 +22,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Adobe Experience Platform Data Connector est actuellement en version Beta et peut être fréquemment mis à jour sans préavis. L’hébergement des clientes et clients sur Azure (actuellement en version Beta en Amérique du Nord uniquement) est obligatoire pour pouvoir accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Adobe Campaign Standard permet de déclencher l&#39;ingestion immédiate des mappings de données par le biais des API et de récupérer le statut de vos demandes d&#39;ingestion.
 
@@ -46,7 +47,7 @@ Une fois le mapping de données créé, vous devez l&#39;arrêter afin de pouvoi
 
 L&#39;exécution du mapping de données est arrêtée. Vous pouvez utiliser les API de Campaign Standard pour le déclencher manuellement.
 
-## Démarrage de l&#39;ingestion immédiate des données {#starting-immediate-ingestion}
+## Démarrage de l’ingestion immédiate du mapping de données {#starting-immediate-ingestion}
 
 L&#39;ingestion immédiate d&#39;un mapping XDM dans Adobe Experience Platform est déclenchée par une opération POST :
 

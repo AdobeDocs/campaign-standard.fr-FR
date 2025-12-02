@@ -5,13 +5,14 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 100%
+source-wordcount: '965'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +38,7 @@ Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifi
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/34836?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
@@ -91,7 +92,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
 
 1. Cliquez sur le menu déroulant pour accéder à **[!UICONTROL Utilisateurs de l’application]**. Cliquez sur **[!UICONTROL Nouveau]**.
 
-1. Vérifiez que le menu déroulant en regard de l’icône utilisateur indique **[!UICONTROL UTILISATEUR : UTILISATEUR DE L’APPLICATION]**.
+1. Assurez-vous que la liste déroulante en regard de l’icône utilisateur indique **[!UICONTROL UTILISATEUR:APPLICATION UTILISATEUR]**.
 
    Renseignez l’écran du nouvel utilisateur.  Suggestions de paramètres :
 
@@ -99,9 +100,9 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
    * **[!UICONTROL ID d’application]** : ID de l’application que vous avez inscrite dans Azure AD (obligatoire)
    * Vous pouvez laisser les champs suivants vides : **[!UICONTROL URI de l’ID d’application]** et **[!UICONTROL ID d’objet Azure AD]**
    * **[!UICONTROL Nom complet]** : API Adobe `<stage or prod>`
-   * **[!UICONTROL E-mail]** : identique au **[!UICONTROL nom d’utilisateur]** (ou adresse e-mail de l’administrateur ou de l’administratrice si vous le souhaitez)
+   * **[!UICONTROL E-mail]** : identique au **[!UICONTROL nom d’utilisateur]** (ou adresse e-mail de l’administrateur si vous le souhaitez)
 
-   Pour plus d’informations sur la création d’un utilisateur ou d’une utilisatrice d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
+   Pour plus d’informations sur la création d’un utilisateur d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
 1. Cliquez sur l’icône de l’utilisateur et téléchargez une icône Adobe Campaign ; il s’agit de l’icône qui s’affiche dans la vue de calendrier lorsque de nouveaux événements Adobe apparaissent dans Dynamics 365.
 

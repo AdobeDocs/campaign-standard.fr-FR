@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1258'
 ht-degree: 100%
@@ -68,7 +69,7 @@ Les workflows en pause ou en échec pendant plus de 7 jours sont arrêtés afin
 
 ### Transitions
 
-Un workflow contenant des transitions flottantes peut être exécuté : il génère un avertissement et est suspendu une fois qu&#39;il atteint la transition, mais aucune erreur n&#39;est entraînée. Il est aussi possible de démarrer un workflow sans en avoir terminé la conception et de le compléter au fur et à mesure.
+Un workflow contenant des transitions flottantes peut être exécuté : il génère un avertissement et est suspendu une fois qu’il atteint la transition, mais aucune erreur n’est générée. Il est aussi possible de démarrer un workflow sans en avoir terminé la conception et de le compléter au fur et à mesure.
 
 Pour plus d&#39;informations, voir [Exécution de workflows](../../automating/using/about-workflow-execution.md).
 
@@ -147,10 +148,10 @@ L&#39;onglet Tâches permet de voir le séquencement de l&#39;exécution des act
 Vous pouvez analyser les requêtes SQL dans l&#39;onglet Log.
 
 1. Dans l&#39;espace de travail du workflow, cliquez sur **[!UICONTROL Editer les propriétés]**.
-1. Dans **[!UICONTROL Général]** > **[!UICONTROL Exécution]**, cochez les options **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** et **[!UICONTROL Exécuter dans le moteur]**, puis cliquez sur **[!UICONTROL Confirmer]**.
+1. Dans **[!UICONTROL Général]** > **[!UICONTROL Exécution]**, cochez les options **[!UICONTROL Enregistrer les requêtes SQL dans le log]** et **[!UICONTROL Exécuter dans le moteur]**, puis cliquez sur **[!UICONTROL Confirmer]**.
 
-**Pour voir les requêtes SQL dans Journal :**
-1. Cliquez sur **[!UICONTROL Journal et tâches]**.
+**Pour voir les requêtes SQL dans Log :**
+1. Cliquez sur **[!UICONTROL Log et tâches]**.
 1. Dans l&#39;onglet **[!UICONTROL Logs]**, ouvrez le panneau **[!UICONTROL Recherche]**.
 1. Cochez l&#39;option **[!UICONTROL Afficher les logs SQL uniquement]**.
 

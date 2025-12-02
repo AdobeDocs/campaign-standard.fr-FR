@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
@@ -30,7 +31,7 @@ L’activité utilise le requêteur, dont le fonctionnement est détaillé dans 
 
 ## Contexte d&#39;utilisation  {#context-of-use}
 
-Une **[!UICONTROL Requête incrémentale]** doit être associée à un **[!UICONTROL Planificateur]** afin de définir la récurrence de l&#39;exécution du workflow, et donc de la requête.
+Une **[!UICONTROL Requête incrémentale]** doit être associée à un **[!UICONTROL Planificateur]** afin de définir la fréquence d’exécution du workflow, et donc de la requête.
 
 L&#39;onglet **[!UICONTROL Données traitées]**, spécifique à cette activité, permet de visualiser les résultats des exécutions précédentes de l&#39;activité, le cas échéant.
 

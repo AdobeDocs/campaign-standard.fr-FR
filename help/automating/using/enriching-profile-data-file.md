@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 100%
@@ -81,7 +82,7 @@ Le workflow est configuré comme suit :
 
   ![](assets/enrichment_example_workflow5.png)
 
-* Une activité [Diffusion Email](../../automating/using/email-delivery.md) utilise les données additionnelles définies dans l&#39;**[!UICONTROL Enrichissement]** pour récupérer dynamiquement les deux derniers achats effectués par le profil. Les données additionnelles sont accessibles depuis le nœud **Données additionnelles (TargetData)** lors de l&#39;ajout d&#39;un champ personnalisé.
+* Une activité [Diffusion Email](../../automating/using/email-delivery.md) utilise les données additionnelles définies dans l&#39;**[!UICONTROL Enrichissement]** pour récupérer dynamiquement les deux derniers achats effectués par le profil. Les données additionnelles sont accessibles depuis le nœud **Données additionnelles (TargetData)** lors de l’ajout d’un champ personnalisé.
 
   ![](assets/enrichment_example_workflow10.png)
 

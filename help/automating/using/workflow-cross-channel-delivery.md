@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
@@ -20,7 +21,7 @@ ht-degree: 100%
 
 Ce document vous permet de découvrir la fonctionnalité d&#39;Adobe Campaign suivante via un cas pratique standard : création d&#39;un workflow de diffusion cross-canal.
 
-Dans ce cas pratique, l&#39;objectif est de sélectionner une audience parmi les destinataires de la base de données et de la segmenter en deux groupes différents afin d&#39;envoyer un email au premier groupe et un SMS au deuxième.
+Dans ce cas pratique, l’objectif est de sélectionner une audience parmi les destinataires de la base de données et de la segmenter en deux groupes différents afin d’envoyer un e-mail au premier groupe et un SMS au deuxième.
 
 ![](assets/wkf_segment_overview.png)
 
@@ -154,4 +155,4 @@ Une fois le workflow démarré, la population ciblée par l’activité **[!UICO
 
 Pour exécuter votre workflow, cliquez sur le bouton **[!UICONTROL Démarrer]** dans la barre d’actions.
 
-Vous pouvez accéder à vos diffusions à partir du menu avancé **[!UICONTROL Plans marketing]** > **[!UICONTROL Activités marketing]** via le logo Adobe Campaign. Cliquez sur la diffusion, puis sur le bouton **[!UICONTROL Rapports]** pour accéder aux [rapports de diffusion](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), comme la synthèse de la diffusion, le taux d’ouverture ou le rendu de l’e-mail en fonction de la boîte de réception du message de la personne destinataire.
+Vous pouvez accéder à vos diffusions à partir du menu avancé **[!UICONTROL Plans marketing]** > **[!UICONTROL Activités marketing]** via le logo Adobe Campaign. Cliquez sur la diffusion, puis sur le bouton **[!UICONTROL Rapports]** pour accéder aux [rapports de diffusion](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), comme la synthèse de la diffusion, le taux d’ouvertures ou le rendu des e-mails en fonction de la boîte de réception des messages de la personne destinataire.

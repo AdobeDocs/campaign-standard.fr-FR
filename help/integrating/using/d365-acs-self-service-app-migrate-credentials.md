@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
-source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 100%

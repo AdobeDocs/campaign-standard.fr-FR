@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -50,4 +51,4 @@ Les API fournies utilisent des **concepts standard** avec une interface REST et 
 
 Tous les points d’entrée sont décrits en détail dans cette documentation avec les notions générales que vous devez connaître pour manipuler les API, les informations de référence complètes relatives aux API, des exemples de code et des guides de démarrage rapide.
 
-S’il manque quelque chose ou si une information semble incorrecte, posez une question à la [communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=fr).
+S’il manque quelque chose ou si une information semble incorrecte, posez une question à la [communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).

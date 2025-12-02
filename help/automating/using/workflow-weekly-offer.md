@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
@@ -30,7 +31,7 @@ Vous pouvez envoyer un email tous les mardis à tous les clients pour des offres
 1. Double-cliquez sur l&#39;activité.
 1. Configurez l&#39;exécution de votre diffusion.
 1. Dans **[!UICONTROL Fréquence d&#39;exécution]**, sélectionnez **[!UICONTROL Hebdomadaire]**.
-1. Sélectionnez une **[!UICONTROL Heure]** et **[!UICONTROL Répéter le traitement selon la périodicité suivante]** pour vos diffusions.
+1. Sélectionnez une **[!UICONTROL Heure]** et une **[!UICONTROL Fréquence de répétition]** pour vos diffusions.
 1. Dans **[!UICONTROL Jours de la semaine]**, sélectionnez **[!UICONTROL Mardi]**.
 1. Spécifiez un paramètre de **[!UICONTROL Début]** et d&#39;**[!UICONTROL Expiration]** pour le workflow.
 1. Validez votre activité et sauvegardez votre workflow.
