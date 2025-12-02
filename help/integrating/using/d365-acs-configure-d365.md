@@ -38,7 +38,7 @@ Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifi
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/34836?captions=fre_fr)
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
