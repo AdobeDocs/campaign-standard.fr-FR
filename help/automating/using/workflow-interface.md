@@ -11,7 +11,7 @@ role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
 ht-degree: 100%
 
@@ -162,6 +162,6 @@ Pour ce faire, sélectionnez les activités en traçant une zone autour d’elle
 
 Cette vidéo montre comment créer un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/31326?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview).

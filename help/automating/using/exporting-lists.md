@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -81,6 +81,6 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 Cette vidéo montre comment configurer des listes.
 
->[!VIDEO](https://video.tv.adobe.com/v/30592/?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
 ht-degree: 100%
 

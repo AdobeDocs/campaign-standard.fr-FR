@@ -10,9 +10,9 @@ role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,13 +38,13 @@ Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifi
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/34836?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
 ### Enregistrement d’une nouvelle application   {#register-a-new-app}
 
-1. Avec votre identifiant d’administrateur, connectez-vous à [portal.azure.com](https://portal.azure.com){target="_blank"}.
+1. Avec votre identifiant d’administrateur ou d’administratrice, connectez-vous à [portal.azure.com](https://portal.azure.com){target="_blank"}.
 
 1. Cliquez sur **[!UICONTROL Azure Active Directory]** dans le menu de gauche, puis sur **[!UICONTROL Inscriptions des applications]** dans le sous-menu qui s’affiche.
 
@@ -92,7 +92,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
 
 1. Cliquez sur le menu déroulant pour accéder à **[!UICONTROL Utilisateurs de l’application]**. Cliquez sur **[!UICONTROL Nouveau]**.
 
-1. Assurez-vous que la liste déroulante en regard de l’icône utilisateur indique **[!UICONTROL UTILISATEUR:APPLICATION UTILISATEUR]**.
+1. Vérifiez que le menu déroulant en regard de l’icône d’utilisateur ou d’utilisatrice indique **[!UICONTROL USER:APPLICATION USER]**.
 
    Renseignez l’écran du nouvel utilisateur.  Suggestions de paramètres :
 

@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -136,6 +136,6 @@ Par défaut, les activités ne sont pas définies et ne traiteront pas correctem
 
 Cette vidéo montre comment créer un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/31326?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

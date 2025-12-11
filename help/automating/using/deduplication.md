@@ -11,7 +11,7 @@ role: Developer
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
    * **[!UICONTROL Ressource de la base]** si la déduplication porte sur des données déjà existantes en base de données. Sélectionnez la **[!UICONTROL Dimension de filtrage]** et la **[!UICONTROL Dimension de ciblage]** en fonction des données que vous souhaitez dédupliquer. Par défaut, la déduplication porte sur les **profils**.
    * **[!UICONTROL Ressource temporaire]** si la déduplication porte sur des données temporaires du workflow : sélectionnez l&#39;**[!UICONTROL Ensemble ciblé]** contenant les données à dédupliquer. Ce cas peut être rencontré à la suite d&#39;un import de fichier ou si des données de la base ont été enrichies (par exemple avec un code segment).
 
-1. Sélectionnez le **[!UICONTROL Nombre d&#39;enregistrements uniques à conserver]**. La valeur par défaut de ce champs est 1. La valeur 0 permet de conserver tous les doublons.
+1. Sélectionnez le **[!UICONTROL Nombre d&#39;enregistrements uniques à conserver]**. La valeur par défaut de ce champ est 1. La valeur 0 permet de conserver tous les doublons.
 
    Par exemple, si des enregistrements A et B sont considérés comme des doublons d&#39;un enregistrement Y, et un enregistrement C est considéré comme un doublon d&#39;un enregistrement Z :
 

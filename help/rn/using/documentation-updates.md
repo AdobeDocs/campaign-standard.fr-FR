@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7298'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
 
 ## Octobre 2023 {#doc-updates-oct-2023}
 
-* La nouvelle interface utilisateur des Triggers d’Experience Cloud est désormais disponible. Elle offre une expérience intuitive de gestion des comportements des consommateurs et des consommatrices et de personnalisation des expériences client. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=fr){target="_blank"}.
+* La nouvelle interface utilisateur des Triggers d’Experience Cloud est désormais disponible. Elle offre une expérience intuitive de gestion des comportements des consommateurs et consommatrices et de personnalisation des expériences clientèle. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=fr){target="_blank"}.
 
 * Une note sur l’utilisation de profils de test de type Piège combinés à des règles de filtrage ou de fatigue a été ajoutée. [En savoir plus](../../sending/using/using-traps.md)
 
@@ -70,7 +70,7 @@ L&#39;utilisation du mode test SMTP a été détaillée. [En savoir plus](../../
 
 ## Mars 2022 {#doc-updates-march-2022}
 
-Une note a été ajoutée pour indiquer que l’envoi de BAT à l’aide de la substitution de profil ajoutera des enregistrements aux journaux des profils sélectionnés. [En savoir plus](../../sending/using/testing-messages-using-target.md)
+Une note a été fournie pour indiquer que l’envoi de BAT à l’aide de la substitution de profil ajoutera des enregistrements aux logs des profils sélectionnés. [En savoir plus](../../sending/using/testing-messages-using-target.md)
 
 ## Version 22.1 - Février 2022 {#release-22-1}
 
@@ -80,7 +80,7 @@ Amélioration du mécanisme de reprise pour les diffusions, y compris le contenu
 
 Mise à jour du niveau d’accès des options de contrôle de l’audit : les options antérieures d’activation/désactivation du [Journal d’audit](../../administration/using/audit.md) n’étaient pas accessibles aux [administrateurs fonctionnels](../../administration/using/users-management.md#functional-administrators). Grâce à cette modification, le niveau d’accès à l’audit est modifié pour fournir un contrôle aux administrateurs fonctionnels. [En savoir plus](../../administration/using/audit.md#enable-disable-audit)
 
-Le nouveau menu déroulant **Historique des tâches** a été ajouté au tableau de bord des messages. [En savoir plus](../../sending/using/monitoring-a-delivery.md)
+Le nouveau menu déroulant **Historique des traitements** a été ajouté au tableau de bord des messages. [En savoir plus](../../sending/using/monitoring-a-delivery.md)
 
 **Autres changements**
 
@@ -449,7 +449,7 @@ Intégration de Microsoft Dynamics 365 (GA) – [En savoir plus](../../integ
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La liste des messages d’erreur d’Adobe Campaign a été mise à jour. [En savoir plus](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr)
+La liste des messages d’erreur d’Adobe Campaign a été mise à jour. [En savoir plus](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 Amélioration et enrichissement du guide de prise en main du RGPD. Il s&#39;agit maintenant d&#39;une documentation sur la gestion de la vie privée, incluant le RGPD et la CCPA. [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/campaign-privacy.html)
 
@@ -589,7 +589,7 @@ Mise à jour du guide sur l&#39;automatisation avec des liens vers les activité
 
 Mise à jour de la section Calcul des indicateurs pour les rapports dynamiques. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-Ajout d&#39;un tableau sur la compatibilité des rapports dynamiques pour mieux comprendre la compatibilité entre les dimensions et les mesures. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=fr)
+Ajout d&#39;un tableau sur la compatibilité des rapports dynamiques pour mieux comprendre la compatibilité entre les dimensions et les mesures. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Mise à jour de la liste des fonctions pour les workflows. [En savoir plus](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ Mise à jour de la section sur l&#39;activité **[!UICONTROL Services d&#39;abon
 
 Ajout d&#39;un cas pratique détaillé sur la préparation d&#39;une diffusion. [En savoir plus](../../sending/using/preparing-the-send.md)
 
-Suppression de la section comprenant la liste des autorisations. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr) (PDF).
+Suppression de la section comprenant la liste des autorisations. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Ajout d&#39;un cas pratique détaillé sur l&#39;utilisation des réponses automatiques des SMS. [En savoir plus](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Une nouvelle technote est disponible : &quot;Intégration du SDK Adobe Mobile
 
 Les instructions relatives à la configuration du service People core service ou à l&#39;intégration d&#39;Audience Manager à Adobe Campaign ont été ajoutées. [En savoir plus](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Tableau des autorisations corrigé afin de clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
+Tableau des autorisations corrigé afin de clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Mise à jour des liens d&#39;aide contextuelle disponibles directement dans Adobe Campaign.
 
