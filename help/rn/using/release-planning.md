@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
+source-git-commit: a9137d1230bd4d975593cfcc3f9c5e2e985f603d
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Les mises à niveau sont déployées en deux phases. Tout d’abord, les instanc
 
 Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour. Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
 
-## Version 25.2 - Version d’été 2025 {#release-25-2-release}
+## Version 26.1 {#release-26.1}
 
 Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](release-notes.md) quand les mises à niveau de l’environnement d’évaluation démarrent.
 
@@ -33,19 +33,19 @@ Des informations détaillées sur cette version sont disponibles dans les [Notes
  <thead>
   <tr>
    <th> Environnements </th>
-   <th> Dates</th>
+   <th> Dates      </th>
    <!--th> General Availability </th-->
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Évaluation </td>
-   <td>Août </td>
+   <td>Mars </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Production </td>
-   <td>Septembre </td>
+   <td>Avril </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
