@@ -59,7 +59,7 @@ Cette étape permet à l’utilisateur de se connecter à l’interface utilisat
 Pour plus d&#39;informations, reportez-vous à la section [Configuration de l&#39;application spécifique au canal dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 1. Si nécessaire, vous pouvez supprimer la propriété de balise.
-Pour plus d’informations, voir la section [Suppression de l’application Adobe ](../../administration/using/configuring-a-mobile-application.md#delete-app).
+Pour plus d’informations, voir la section [Suppression de l’application Adobe &#x200B;](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
 ## Workflow technique Synchronisation de l’application mobile AEPSDK depuis Launch {#aepsdk-workflow}
 
