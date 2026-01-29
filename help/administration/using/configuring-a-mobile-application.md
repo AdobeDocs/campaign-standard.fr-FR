@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
+source-git-commit: c1914c855011868c76debebbea87d7416faaf0dc
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 100%
+source-wordcount: '1378'
+ht-degree: 99%
 
 ---
 
@@ -149,27 +149,27 @@ Votre application mobile est maintenant prête à être utilisée dans Campaign 
 
 1. Dans la section **[!UICONTROL Paramètres spécifiques à l’appareil]** du tableau de bord d’une application mobile, pour chaque appareil, fournissez les détails de l’application.
 
-   * +++ Pour iOS
+   +++ Pour iOS
 
-     Saisissez les informations suivantes sur l’application :
+   Saisissez les informations suivantes sur l’application :
 
-      * **ID d’application (ID de bundle iOS)** : voir [Documentation Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} pour plus d’informations sur l’ID de bundle.
-      * **Fichier de certificat iOS (P8)** : effectuez un glisser-déposer de votre clé d’authentification .p8. Pour plus d’informations sur la génération du fichier d’authentification .p8, consultez votre [Compte de développement Apple](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
-      * **ID de clé** : voir [Documentation Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} pour plus d’informations sur l’ID de clé.
-      * **ID de l’équipe iOS** : voir [Documentation Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} pour plus d’informations sur l’ID de l’équipe iOS.
+   * **ID d’application (ID de bundle iOS)** : voir [Documentation Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} pour plus d’informations sur l’ID de bundle.
+   * **Fichier de certificat iOS (P8)** : effectuez un glisser-déposer de votre clé d’authentification .p8. Pour plus d’informations sur la génération du fichier d’authentification .p8, consultez votre [Compte de développement Apple](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+   * **ID de clé** : voir [Documentation Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} pour plus d’informations sur l’ID de clé.
+   * **ID de l’équipe iOS** : voir [Documentation Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} pour plus d’informations sur l’ID de l’équipe iOS.
 
-        ![](assets/mobile_app_ios_config.png)
-+++
+          ![](assets/mobile_app_ios_config.png)
+     +++
 
-   * +++ Pour Android
+   +++ Pour Android
 
-     Saisissez les informations suivantes sur l’application :
+   Saisissez les informations suivantes sur l’application :
 
-      * **ID d’application (nom du package Android)** : voir [Documentation Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} pour plus d’informations sur le nom du package.
-      * **Fichier de clé Android (Json)** : effectuez un glisser-déposer de votre fichier de clé privée .json. Pour plus d’informations sur la génération du fichier de clé privée .json, reportez-vous à la [Documentation pour l’équipe de développement de Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
+   * **ID d’application (nom du package Android)** : voir [Documentation Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} pour plus d’informations sur le nom du package.
+   * **Fichier de clé Android (Json)** : effectuez un glisser-déposer de votre fichier de clé privée .json. Pour plus d’informations sur la génération du fichier de clé privée .json, reportez-vous à la [Documentation pour développeurs et développeuses de Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
-        ![](assets/mobile_app_android_config.png)
-+++
+     ![](assets/mobile_app_android_config.png)
+   +++
 
 1. Une fois le certificat chargé, un message vous informe que le chargement a réussi et indique la date d’expiration de votre certificat.
 
