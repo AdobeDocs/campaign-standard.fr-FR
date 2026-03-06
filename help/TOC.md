@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentation produit pour Adobe Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation de Campaign Standard
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
+source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1754'
 ht-degree: 95%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 95%
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/using/release-notes.md)
    + Versions précédentes {#previous-releases}
+      + [2025](rn/using/release-notes-2025.md)
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -41,11 +42,11 @@ ht-degree: 95%
       + [Programmes et campagnes](start/using/programs-and-campaigns.md)
       + [Activités marketing](start/using/marketing-activities.md)
       + [Modèles d&#39;activité marketing](start/using/marketing-activity-templates.md)
-      + [Planning](start/using/timeline.md)
+      + [Chronologie](start/using/timeline.md)
    + Confidentialité {#privacy}
       + [Confidentialité et consentement](start/using/privacy.md)
       + [Gestion de la confidentialité](start/using/privacy-management.md)
-      + [Demandes d&#39;accès à des informations personnelles &#x200B;](start/using/privacy-requests.md)
+      + [Demandes d&#39;accès à des informations personnelles ](start/using/privacy-requests.md)
       + [FAQ sur la confidentialité](start/using/privacy-faq.md)
    + [Options d&#39;aide et de support](support.md)
 + Profils et audiences {#profiles-and-audiences}
@@ -85,7 +86,7 @@ ht-degree: 95%
       + [Optimisation de votre diffusion](sending/using/optimize-delivery.md)
       + [Utilisation de modèles](sending/using/use-templates.md)
       + [Créer du contenu personnalisé](sending/using/design-and-personalize.md)
-      + [Définition de l&#39;audience appropriée](sending/using/define-the-right-audience.md)
+      + [Définition de lʼaudience appropriée](sending/using/define-the-right-audience.md)
       + [Vérification avant envoi](sending/using/check-before-sending.md)
       + [Tracker et suivre vos diffusions](sending/using/track-and-monitor.md)
    + Canal Email {#email-messages}
@@ -113,7 +114,7 @@ ht-degree: 95%
       + [Préparation et envoi d&#39;un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Personnalisation d&#39;un message In-App](channels/using/customizing-an-in-app-message.md)
       + [FAQ sur les messages In-App](channels/using/in-app-faq.md)
-   + Courrier {#direct-mail}
+   + Canal Courrier {#direct-mail}
       + [À propos du courrier](channels/using/about-direct-mail.md)
       + [Retour à l&#39;expéditeur](channels/using/return-to-sender.md)
       + [Créer le courrier](channels/using/creating-the-direct-mail.md)
@@ -134,7 +135,7 @@ ht-degree: 95%
       + [Notifications push transactionnelles](channels/using/transactional-push-notifications.md)
       + [Messages de relance](channels/using/follow-up-messages.md)
       + [Cas pratique de la messagerie transactionnelle](channels/using/transactional-messaging-use-case.md)
-   + Pages de destination {#landing-pages}
+   + Landing pages {#landing-pages}
       + [Prise en main des landing pages](channels/using/getting-started-with-landing-pages.md)
       + [À propos des modèles de landing pages](channels/using/landing-page-templates.md)
       + [Paramétrer une landing page](channels/using/configuring-landing-page.md)
@@ -158,7 +159,7 @@ ht-degree: 95%
    + [Gestion des styles d&#39;e-mail](designing/using/styles.md)
    + [Gestion des liens](designing/using/links.md)
    + [Gestion des images](designing/using/images.md)
-   + [Foire aux questions](designing/using/faq-email-designer.md)
+   + [Forum aux questions](designing/using/faq-email-designer.md)
 + Test et envoi {#testing-and-sending}
    + [Prise en main du test et de l&#39;envoi](sending/using/get-started-sending-messages.md)
    + Préparation et test des messages {#preparing-and-testing-messages}
@@ -182,7 +183,7 @@ ht-degree: 95%
    + Contrôler les messages {#monitoring-messages}
       + [Contrôler une diffusion](sending/using/monitoring-a-delivery.md)
       + [Recevoir des alertes en cas d&#39;échec](sending/using/receiving-alerts-when-failures-happen.md)
-      + [Comprendre les échecs de diffusion](sending/using/understanding-delivery-failures.md)
+      + [Présentation des échecs de diffusion](sending/using/understanding-delivery-failures.md)
       + [Comprendre la gestion des quarantaines](sending/using/understanding-quarantine-management.md)
    + Gestion de la délivrabilité {#managing-deliverability}
       + [À propos de la délivrabilité](sending/using/about-deliverability.md)
@@ -196,7 +197,7 @@ ht-degree: 95%
       + [Règles de filtrage](sending/using/filtering-rules.md)
       + [Règles de fatigue](sending/using/fatigue-rules.md)
       + [Règles de contrôle](sending/using/control-rules.md)
-+ Rapports {#reporting}
++ Reporting {#reporting}
    + [Commencer avec les rapports dynamiques](reporting/using/get-started-reporting.md)
    + À propos des rapports {#about-reporting}
       + [Rapports dynamiques](reporting/using/about-dynamic-reports.md)
@@ -245,7 +246,7 @@ ht-degree: 95%
       + [Dimensions et mesures de Campaign dans Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign et Audience Manager ou People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [À propos de l&#39;intégration Campaign-Audience Manager ou People core service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [&#x200B; Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/integration-with-audience-manager-or-people-core-service.md)
+      + [ Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Résolution des problèmes](integrating/using/troubleshooting.md)
       + [Partage d&#39;audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Utilisation de Campaign et Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
@@ -296,7 +297,7 @@ ht-degree: 95%
       + [Définir les paramètres lors de l&#39;appel du workflow](automating/using/defining-parameters-calling-workflow.md)
       + [Suivi des variables d&#39;événements](automating/using/monitoring-events-variables.md)
       + [Personnaliser le workflow avec des paramètres externes](automating/using/customizing-workflow-external-parameters.md)
-      + [Cas pratique](automating/using/use-case-calling-workflow.md)
+      + [Cas d’utilisation](automating/using/use-case-calling-workflow.md)
    + Activités de ciblage {#targeting-activities}
       + [À propos des activités de ciblage](automating/using/about-targeting-activities.md)
       + [Requête](automating/using/query.md)
@@ -332,7 +333,7 @@ ht-degree: 95%
       + [Transfert de fichier](automating/using/transfer-file.md)
       + [Réconciliation](automating/using/reconciliation.md)
       + [Extraction de fichier](automating/using/extract-file.md)
-      + [Services d&#39;abonnements](automating/using/subscription-services.md)
+      + [Services d’inscriptions](automating/using/subscription-services.md)
       + [API externe](automating/using/external-api.md)
    + Filtrer les données {#filtering-data}
       + [Édition de requêtes](automating/using/editing-queries.md)
@@ -436,7 +437,7 @@ ht-degree: 95%
    + Configuration des canaux {#configuring-channels}
       + [À propos de la configuration des canaux](administration/using/about-channel-configuration.md)
       + [Configuration du canal e-mail](administration/using/configuring-email-channel.md)
-      + [Mettre à jour la qualification des rebonds après une panne d&#39;un FAI](administration/using/update-bounce-qualification.md)
+      + [Mettre à jour la qualification des rebonds après une panne d’un FAI](administration/using/update-bounce-qualification.md)
       + [Configuration d&#39;une application mobile](administration/using/configuring-a-mobile-application.md)
    + Configuration des canaux mobiles {#configuring-mobile}
       + [Mise en œuvre du suivi des notifications push](administration/using/push-tracking.md)
