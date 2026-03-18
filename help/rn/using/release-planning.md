@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: f0d21b5eaac74eb27790eb342e56c334e0a04990
+source-git-commit: 035fa1ab4703d5511bdd1bbdbf2585f893b9d787
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 99%
@@ -25,7 +25,7 @@ Les mises à niveau sont déployées en deux phases. Tout d’abord, les instanc
 
 Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour. Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
 
-## Version 26.3 {#release-26-2-release}
+## Version 26.3 {#release-26-3-release}
 
 Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](release-notes.md) quand les mises à niveau de l’environnement d’évaluation démarrent.
 
