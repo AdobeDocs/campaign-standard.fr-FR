@@ -29,7 +29,7 @@ Pour garantir un service ininterrompu, vous devez mettre à niveau votre ou vos 
 
 ### Qu’est-ce qui a changé ? {#fcm-changes}
 
-Dans le cadre des efforts constants de Google pour améliorer ses services, les API FCM héritées seront abandonnées le **20 juin 2024**. Apprenez-en davantage sur le protocole HTTP de Firebase Cloud Messaging en consultant la documentation de Firebase de Google [](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Dans le cadre des efforts constants de Google pour améliorer ses services, les API FCM héritées seront abandonnées le **20 juin 2024**. Apprenez-en davantage sur le protocole HTTP de Firebase Cloud Messaging en consultant la documentation de Firebase de Google [&#128279;](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
 À compter de la [version 24.1](../../rn/using/release-notes.md), Adobe Campaign Standard prend en charge les API HTTP v1 pour envoyer des messages de notification push Android.
 
