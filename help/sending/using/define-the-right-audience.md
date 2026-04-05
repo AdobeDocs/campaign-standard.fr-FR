@@ -3,13 +3,13 @@ title: Définition de lʼaudience appropriée
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Une fois votre contenu prêt, apprenez à définir soigneusement qui recevra votre message.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 96%
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 # Définition de l&#39;audience appropriée {#define-the-right-audience}
 
-La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes email sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des bons à tirer permettant de configurer un cycle de validation complet.
+La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes e-mail sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des BAT permettant de configurer un cycle de validation complet.
 
 En savoir plus sur les populations ciblées [dans cette section](../../audiences/using/selecting-an-audience-in-a-message.md)
 
@@ -38,7 +38,7 @@ Vous pouvez également créer et utiliser un mapping de ciblage personnalisé. P
 
 ## Données externes {#external-data}
 
-Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un fichier externe plutôt qu&#39;enregistrés dans la base de données. Pour ce faire, concevez un workflow qui chargera des données dans votre base de données à partir d’un fichier et créez une audience associée.  En savoir plus [sur ce cas pratique](../../automating/using/use-case-calling-workflow.md). Voir aussi [Appel d’un workflow avec des paramètres](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Vous pouvez effectuer une diffusion aux personnes destinataires qui sont stockées dans un fichier externe plutôt qu’enregistrées dans la base de données. Pour ce faire, concevez un workflow qui chargera des données dans votre base de données à partir d’un fichier et créez une audience associée.  En savoir plus [sur ce cas pratique](../../automating/using/use-case-calling-workflow.md). Voir aussi [Appel d’un workflow avec des paramètres](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Envoyer des messages à vos abonnés {#send-to-subscribers}
 
@@ -57,7 +57,7 @@ Vous pouvez utiliser des [Populations témoins](../../sending/using/control-grou
 
 ## Dédupliquer les adresses {#deduplicate-addresses}
 
-Il est important d&#39;éviter d&#39;avoir des adresses email en double, car cela peut avoir un impact sur votre cible.
+Il est important d’éviter d’avoir des adresses e-mail en double, car cela peut avoir un impact sur votre cible :
 
 * Un même message peut être envoyé plusieurs fois lorsqu&#39;une une cible est partagée.
 

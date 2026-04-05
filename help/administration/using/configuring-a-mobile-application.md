@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: c1914c855011868c76debebbea87d7416faaf0dc
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 99%
+source-wordcount: '1376'
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Cette étape permet à l’utilisateur de se connecter à l’interface utilisat
 Pour plus d&#39;informations, reportez-vous à la section [Configuration de l&#39;application spécifique au canal dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 1. Si nécessaire, vous pouvez supprimer la propriété de balise.
-Pour plus d’informations, voir la section [Suppression de l’application Adobe &#x200B;](../../administration/using/configuring-a-mobile-application.md#delete-app).
+Pour plus d’informations, voir la section [Suppression de l’application Adobe ](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
 ## Workflow technique Synchronisation de l’application mobile AEPSDK depuis Launch {#aepsdk-workflow}
 
@@ -158,8 +158,8 @@ Votre application mobile est maintenant prête à être utilisée dans Campaign 
    * **ID de clé** : voir [Documentation Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} pour plus d’informations sur l’ID de clé.
    * **ID de l’équipe iOS** : voir [Documentation Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} pour plus d’informations sur l’ID de l’équipe iOS.
 
-          ![](assets/mobile_app_ios_config.png)
-     +++
+     ![](assets/mobile_app_ios_config.png)
+   +++
 
    +++ Pour Android
 

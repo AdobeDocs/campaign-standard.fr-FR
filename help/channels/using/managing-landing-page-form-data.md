@@ -9,7 +9,7 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 100%
@@ -22,11 +22,11 @@ Dans le contenu de la landing page, les champs de saisie sont utilisés pour sto
 
 Pour cela, ces champs doivent être mappés aux champs de la base de données.
 
-Vous pouvez définir et gérer leur mappage à l&#39;aide de la section **[!UICONTROL Données de formulaire]** de la palette de gauche.
+Vous pouvez définir et gérer leur mapping à l’aide de la section **[!UICONTROL Données de formulaire]** de la palette de gauche.
 
 ![](assets/lp_form-data.png)
 
-## Mappage des champs de formulaire  {#mapping-form-fields}
+## Mapping des champs de formulaire {#mapping-form-fields}
 
 Pour mettre à jour la base de données Campaign selon vos besoins, associez les champs pertinents de la base de données aux blocs de type zone de saisie, bouton radio ou case à cocher de votre landing page.
 
@@ -48,7 +48,7 @@ Pour ce faire, procédez comme suit :
    >
    >Pour plus d&#39;informations sur l&#39;utilisation du type case à cocher dans une landing page, reportez-vous aux sections [Mise à jour de plusieurs abonnements aux services](#multiple-subscriptions) et [Case à cocher Accord](#agreement-checkbox).
 
-1. Si vous sélectionnez un type de champ non compatible avec le champ de base de données actuellement sélectionné dans la zone **[!UICONTROL Champ]**, un message d&#39;avertissement s&#39;affiche. Pour un mappage optimal, sélectionnez une valeur appropriée.
+1. Si vous sélectionnez un type de champ non compatible avec le champ de base de données actuellement sélectionné dans la zone **[!UICONTROL Champ]**, un message d&#39;avertissement s&#39;affiche. Pour un mapping optimal, sélectionnez une valeur appropriée.
 
    ![](assets/lp_field-type-warning.png)
 
@@ -86,7 +86,7 @@ Pour cela :
 
 1. Sélectionnez la **[!UICONTROL clé de réconciliation]** : ce champ de base de données permet de déterminer si le visiteur possède un profil déjà connu dans la base de données Adobe Campaign. Il peut s&#39;agir par exemple d&#39;une adresse email, d&#39;un prénom ou d&#39;un nom. La clé de réconciliation permet de mettre à jour ou de créer un profil, en fonction du paramètre **[!UICONTROL Stratégie de mise à jour]** défini ci-dessous.
 
-1. Définissez la **[!UICONTROL Correspondance des paramètres du formulaire]** : cette section permet de mettre en correspondance les paramètres des champs de la landing page et ceux utilisés dans la clé de réconciliation.
+1. Définissez le **[!UICONTROL Mapping de paramètre de formulaire]** : cette section permet de mettre en correspondance les paramètres des champs de la landing page et ceux utilisés dans la clé de réconciliation.
 
 1. Sélectionnez la **[!UICONTROL Stratégie de mise à jour]** : si la clé de réconciliation permet de retrouver un profil existant en base, vous pouvez mettre à jour ce profil avec les données entrées dans le formulaire ou bien empêcher cette mise à jour.
 
@@ -156,9 +156,11 @@ Pour insérer et configurer cette case à cocher, procédez comme suit :
 
      ![](assets/lp_show_source.png)
 
-     <!--Manually insert a checkbox, such as in the example below:
+     <!--
+      Manually insert a checkbox, such as in the example below:
 
-      <!--Click **[!UICONTROL Hide source]**.-->
+      Click **[!UICONTROL Hide source]**.
+      -->
 
 1. Assurez-vous que la case est cochée.
 

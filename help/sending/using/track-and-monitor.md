@@ -3,13 +3,13 @@ title: Suivi et surveillance des messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Découvrez la manière dont Adobe Campaign vous permet de conserver une trace des messages envoyés et observez la réaction des destinataires face à votre diffusion
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 96%
@@ -67,4 +67,4 @@ Pour plus d’informations, consultez la section [Rapport Hot clicks](../../repo
 **Rubriques connexes :**
 
 * [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Rapports &#x200B;](../../reporting/using/about-dynamic-reports.md)
+* [Rapports ](../../reporting/using/about-dynamic-reports.md)

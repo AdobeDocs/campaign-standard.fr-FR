@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '2984'
-ht-degree: 100%
+source-wordcount: '2983'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
   Les **[!UICONTROL Paramètres d’en-tête des e-mails envoyés]** répertorient les adresses e-mail autorisées que vous pouvez utiliser pour envoyer des e-mails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des rebonds asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).
 
-  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
+  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient entraîner des problèmes de délivrabilité.
 
    * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
    * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’assistance clientèle d’Adobe.
@@ -49,7 +49,7 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
   >
   >**Ce paramètre dans Campaign n’est désormais utilisé que s’il est défini sur 3,5 jours ou moins.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 
-  Le champ **[!UICONTROL Durée de validité des ressources en ligne]** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
+  Le champ **[!UICONTROL Durée de validité des ressources en ligne]** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d&#39;économiser de l&#39;espace disque).
 
 * **Reprises**
 
@@ -93,9 +93,11 @@ Les **[!UICONTROL règles de gestion des emails]** sont accessibles pour les adm
 * La signature d’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée pour tous les messages et tous les domaines. Il ne se signe pas avec **Sender ID**, **DomainKeys** ou **S/MIME**.
 * Les règles MX personnalisent automatiquement votre débit par domaine en fonction de votre propre réputation d&#39;email historique et des commentaires en temps réel provenant des domaines où vous envoyez des emails.
 
-<!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
+<!--
+Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
-* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ### Mails rebonds {#bounce-mails}
 
@@ -109,7 +111,8 @@ Ces règles contiennent la liste des chaînes de caractères qui peuvent être r
 
 Pour plus d’informations sur la qualification des e-mails rejetés, reportez-vous à cette [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+<!--
+Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 ### Management of email domains {#managing-email-domains}
 
@@ -121,7 +124,8 @@ The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe 
 
 The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
+-->
 
 ## Liste des propriétés des emails   {#list-of-email-properties}
 
@@ -180,13 +184,13 @@ Vous pouvez paramétrer le format des emails envoyés. Trois options sont dispon
 
 #### Mode test SMTP {#smtp-test-mode}
 
-Utilisez l&#39;option **[!UICONTROL Activer le mode test SMTP]** pour tester l&#39;envoi d&#39;e-mails via une connexion SMTP sans envoyer réellement de messages. La diffusion est traitée jusqu&#39;à la connexion au serveur SMTP mais n&#39;est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
+Utilisez l&#39;option **[!UICONTROL Activer le mode test SMTP]** pour tester l&#39;envoi d&#39;e-mails via une connexion SMTP sans envoyer réellement de messages. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
 ![](assets/smtp-test-mode.png)
 
 Cette option est disponible pour les emails et les modèles d’email.
 
-Si vous activez l’option de mode test SMTP pour un modèle d’email, cette option sera activée pour tous les emails créés à partir de ce modèle.
+Si vous activez l’option de mode test SMTP pour un modèle d’e-mail, cette option sera activée pour tous les e-mails créés à partir de ce modèle.
 
 >[!IMPORTANT]
 >
@@ -215,7 +219,7 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
   >
   >Le paramètre **[!UICONTROL Durée de diffusion]** ne s’applique pas aux messages transactionnels. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md).
 
-* **[!UICONTROL Durée de validité des ressources]** / **[!UICONTROL Date limite de validité des ressources]** : ce champ est utilisé pour les ressources chargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
+* **[!UICONTROL Durée de validité des ressources]** / **[!UICONTROL Date limite de validité des ressources]** : ce champ est utilisé pour les ressources chargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d&#39;économiser de l&#39;espace disque).
 * **[!UICONTROL Gestion de la page miroir]** : la page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’email. Par défaut, la page miroir est générée si le lien est inséré dans le contenu du mail. Utilisez ce champ pour modifier le mode de génération de cette page :
 
    * **[!UICONTROL Générer la page miroir si le lien apparaît dans le contenu du message]** (mode par défaut) : la page miroir est générée si le lien est inséré dans le contenu du mail.
@@ -242,7 +246,7 @@ La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
 La section **[!UICONTROL Paramètres avancés]** propose les paramètres suivants :
 
-Les premiers champs vous permettent de saisir les informations nécessaires pour élaborer les en-têtes d’email. Vous pouvez gérer ici l’adresse de réponse et le texte ainsi que l’adresse de l’expéditeur (qui occupe le champ « De : »). Ces informations peuvent être personnalisées.
+Les premiers champs vous permettent de saisir les informations nécessaires pour élaborer les en-têtes d’e-mail. Vous pouvez gérer ici l’adresse de réponse et le texte ainsi que l’adresse de l’expéditeur (qui occupe le champ « De : »). Ces informations peuvent être personnalisées.
 
 Cliquez sur le bouton à droite du champ qui va être modifié, puis ajoutez le champ de personnalisation, le bloc de contenu ou le texte dynamique.
 
@@ -254,7 +258,7 @@ L’insertion et l’utilisation du contenu de personnalisation sont présentée
 
 Utilisez le contexte de ciblage pour définir l&#39;ensemble des tables qui seront utilisées pour le ciblage (dans l&#39;écran de définition des audiences) et la personnalisation (définition de champs de personnalisation, dans l&#39;éditeur de contenu HTML) de l&#39;e-mail.
 
-#### Routage {#routing}
+#### Routage  {#routing}
 
 Ce champ indique le mode de routage utilisé. Il référence un compte externe. Par exemple, cela peut être utile si vous souhaitez utiliser un compte externe contenant des paramétrages de branding spécifiques.
 
@@ -276,7 +280,7 @@ La préparation des messages est présentée dans la section [Valider les messag
 
   Il est également possible de personnaliser le libellé de la diffusion avec les variables d’événements qui ont été déclarées dans l’activité de signal externe du workflow. Pour plus d’informations, consultez [cette section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** : utilisez cette option pour ajouter les logs des requêtes SQL dans le journal lors de la phase de préparation.
+* **[!UICONTROL Enregistrer les requêtes SQL dans le log]** : utilisez cette option pour ajouter les logs des requêtes SQL dans le journal lors de la phase de préparation.
 
 #### Paramètres de BAT {#proof-settings}
 
@@ -288,7 +292,7 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
 
 * **[!UICONTROL Encodage des caractères]** : cochez la case **[!UICONTROL Forcer l’encodage]** si vous souhaitez forcer l’encodage des messages, puis sélectionnez le codage à utiliser.
 * **[!UICONTROL Mails rebonds]** : par défaut, les mails rebonds sont récupérés dans la boîte d’erreur de la plateforme (définie dans l’écran **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration).]** Si vous souhaitez définir une adresse d’erreur spécifique pour un email, saisissez l’adresse dans le champ **[!UICONTROL Adresse des erreurs]**.
-* **[!UICONTROL En-têtes SMTP supplémentaires]** : cette option permet d’ajouter des en-têtes SMTP supplémentaires à vos messages. Le script saisi dans le champ **[!UICONTROL En-têtes]** doit comporter un en-tête par ligne, sous la forme **nom:valeur**. Les valeurs sont automatiquement encodées, si nécessaire.
+* **[!UICONTROL En-têtes SMTP supplémentaires]** : cette option permet d’ajouter des en-têtes SMTP supplémentaires à vos messages. Le script renseigné dans le champ **[!UICONTROL En-têtes]** doit référencer un en-tête par ligne, sous la forme **nom:value**. Les valeurs sont automatiquement encodées, si nécessaire.
 
   >[!IMPORTANT]
   >
@@ -336,7 +340,7 @@ Utilisez la **[!UICONTROL Durée de diffusion]** ou la **[!UICONTROL Limite de v
 
 Les règles **[!UICONTROL Gestion des MX]**, **[!UICONTROL E-mails rejetés]** et **[!UICONTROL Gestion de domaine]** sont accessibles et modifiables par les administrateurs via le menu **[!UICONTROL Administration > Canaux > E-mail > Règles de gestion des e-mails]**. [En savoir plus](#email-processing-rules)
 
-### Qualification des e-mails faisant l’objet d’un rebond {#legacy-bounce-mail-qualification}
+### Qualification des e-mails rejetés {#legacy-bounce-mail-qualification}
 
 Pour répertorier les différents rebonds, ainsi que les types d’erreur et raisons associés, cliquez sur le logo **Adobe** en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
 
@@ -348,7 +352,7 @@ Les statuts de qualification des bounces sont les suivants :
 
 >[!NOTE]
 >
->En cas de panne d’un FAI, les e-mails envoyés via Campaign seront incorrectement marqués comme des rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. [En savoir plus](../../administration/using/update-bounce-qualification.md).
+>En cas de panne d&#39;un fournisseur de services Internet, les emails envoyés par le biais de Campaign seront incorrectement marqués comme des rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. [En savoir plus](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 

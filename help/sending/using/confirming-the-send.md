@@ -9,7 +9,7 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
@@ -22,9 +22,11 @@ Une fois que la préparation de vos messages est terminée et que les étapes de
 
 Seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Démarrer des diffusions]** peuvent confirmer l’envoi. Pour plus d’informations, consultez la section [Liste des rôles](../../administration/using/list-of-roles.md).
 
-<!--Users without this role will see the following message: 
+<!--
+Users without this role will see the following message:
 
-![](assets/confirm_delivery_2.png)-->
+![](assets/confirm_delivery_2.png)
+-->
 
 ## Envoyer le message {#sending-message}
 
@@ -100,14 +102,14 @@ Lorsque les messages soft bounce sont renvoyés du MTA amélioré, ils apparaiss
 
 Par conséquent, vous devez attendre la fin de la période de validité pour voir le pourcentage **[!UICONTROL Délivrés]** final ainsi que le nombre final de messages réellement **[!UICONTROL Envoyés]** et **[!UICONTROL En échec]**.
 
-### Service de retour d&#39;e-mail (bêta) {#email-feedback-service}
+### Service de retour d’e-mail (Beta) {#email-feedback-service}
 
 Grâce à la fonctionnalité Service de retour d&#39;e-mail (EFS - Email Feedback Service), l&#39;état de chaque email est signalé avec précision, car les retours sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
 
 
 >[!IMPORTANT]
 >
->Le service de retour d&#39;e-mail est actuellement disponible en version bêta.
+>Le service de retour d’e-mail est actuellement disponible en version Beta.
 
 Une fois la diffusion lancée, le pourcentage **[!UICONTROL Délivrés]** n&#39;est plus modifié lorsque le message est relayé avec succès de Campaign vers le MTA amélioré.
 

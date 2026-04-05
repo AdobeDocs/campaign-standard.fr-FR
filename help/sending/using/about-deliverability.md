@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 100%
@@ -57,24 +57,24 @@ Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, p
 
 ## Outils de délivrabilité de Campaign {#deliverability-tools}
 
-Adobe Campaign fournit un ensemble d’outils pour suivre et améliorer les performances de délivrabilité de votre plateforme. Cette page met également en avant les principes clés à garder en tête pour optimiser la délivrabilité lors de l’utilisation de Campaign.
+Adobe Campaign fournit un ensemble d’outils pour suivre et améliorer les performances de délivrabilité de votre plateforme. Cette page met également en avant les principes clés à garder en tête pour optimiser la délivrabilité lors de l&#39;utilisation de Campaign.
 
 ### Création minutieuse de votre message
 
 Lors de la configuration, de la conception et du test de votre message, assurez-vous de suivre les bonnes pratiques mentionnées dans les sections ci-dessous. Tirer parti de toutes les fonctionnalités d&#39;Adobe Campaign contribue à améliorer la délivrabilité.
 
-* [Bonnes pratiques relatives à la diffusion](../../sending/using/delivery-best-practices.md)
+* [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
 * [Contrôle du contenu des e-mails](../../sending/using/control-email-content.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
 * [Envoi d&#39;un bon à tirer](../../sending/using/sending-proofs.md)
 
 ### Vérification du consentement par le biais du double opt-in {#double-opt-in}
 
-Pour éviter d’envoyer des messages à des adresses non valides, limiter les communications abusives et améliorer la réputation de l’expéditeur, Adobe recommande de mettre en place un mécanisme de double opt-in. Cela vous permet de vous assurer que vos destinataires se sont abonnés intentionnellement.
+Pour éviter d&#39;envoyer des messages à des adresses non valides, limiter les communications abusives et améliorer la réputation de l&#39;expéditeur, Adobe recommande de mettre en place un mécanisme de double opt-in. Cela vous permet de vous assurer que vos destinataires se sont abonnés intentionnellement.
 
 Pour plus d’informations à ce sujet, consultez la section [À propos des opt-in et opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Pour plus d’informations sur les bonnes pratiques à appliquer lors de la collecte de données auprès de vos clients, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=fr#data-quality-and-hygiene).
+Pour plus d&#39;informations sur les bonnes pratiques à appliquer lors de la collecte de données auprès de vos clients, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d&#39;Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=fr#data-quality-and-hygiene).
 
 ### Utilisation de la gestion des quarantaines
 
@@ -86,7 +86,7 @@ Certains fournisseurs d&#39;accès Internet considèrent automatiquement les ema
 
 Voir à ce propos les sections suivantes :
 
-* [Comprendre les échecs de diffusion](../../sending/using/understanding-delivery-failures.md)
+* [Présentation des échecs de diffusion](../../sending/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 * [Quarantaine et liste bloquée](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
@@ -103,7 +103,8 @@ Voir à ce propos les sections suivantes :
 * [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
-<!--## General recommendations
+<!--
+## General recommendations
 
 NOT SURE TO KEEP
 
@@ -119,9 +120,10 @@ Double opt-in mechanisms and effective handling of technical bounce messages mak
 
 ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests, making regular use of a given list, verifying consent through a double opt-in system, and implementing feedback loops, you can reduce complaint rates.
 
-<!--Sending to honeypot addresses {#honeypot-addresses}
-ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.-->
+Sending to honeypot addresses {#honeypot-addresses}
+ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.
 
-<!--## Sending on a regular basis {#regular-deliveries}
+## Sending on a regular basis {#regular-deliveries}
 
-Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.-->
+Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.
+-->

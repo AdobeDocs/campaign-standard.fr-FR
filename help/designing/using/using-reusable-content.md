@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1876'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Les modèles de contenu HTML sont accessibles à partir de l&#39;écran **[!UICO
 
 ![](assets/content_templates_list.png)
 
-Les modèles de contenu d&#39;usine sont en lecture seule. Pour éditer l&#39;un des modèles, vous devez d&#39;abord le dupliquer.
+Les modèles de contenu d&#39;usine sont en lecture seule. Pour modifier l’un des modèles, vous devez d’abord le dupliquer.
 
 Vous pouvez créer des modèles ou des fragments et définir vos propres contenus. Pour plus d&#39;informations, consultez [Création d&#39;un modèle de contenu](#creating-a-content-template) et [Création d&#39;un fragment de contenu](#creating-a-content-fragment).
 
@@ -85,9 +85,11 @@ Ce modèle peut à présent être utilisé dans n&#39;importe quel email créé 
 
 Lorsque vous éditez un email avec le concepteur d’e-mail, vous ne pouvez pas enregistrer directement le contenu de cet email en tant que modèle.
 
-<!--[!CAUTION]
+<!--
+[!CAUTION]
 >
->You cannot save as template a structure containing personalization fields or dynamic content.-->
+>You cannot save as template a structure containing personalization fields or dynamic content.
+-->
 
 1. Sélectionnez **[!UICONTROL Enregistrer en tant que modèle]** dans la barre d&#39;outils principale du concepteur d’e-mail.
 
@@ -145,7 +147,7 @@ Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que 
 
 Cette vidéo montre comment créer votre propre modèle.
 
->[!VIDEO](https://video.tv.adobe.com/v/37585?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
@@ -157,7 +159,7 @@ D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https
 >abstract="Un fragment est un bloc de contenu réutilisable pouvant être référencé dans un ou plusieurs emails."
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
-Il se trouve dans l&#39;interface sous **Ressources** > **Contenu, fragments et modèles**.
+Il se trouve dans l’interface sous **Ressources** > **Modèles et fragments de contenu**.
 
 Pour optimiser les fragments dans le Concepteur d&#39;email :
 
@@ -207,7 +209,7 @@ Maintenant que la structure de l&#39;email est remplie, vous pouvez modifier le 
 
 ### Créer un fragment de contenu           {#creating-a-content-fragment}
 
-Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos besoins dans un ou plusieurs emails.
+Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos besoins dans un ou plusieurs e-mails.
 
 1. Accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Modèles et fragments de contenu]**, puis cliquez sur **[!UICONTROL Créer]**.
 1. Cliquez sur le libellé d&#39;email de façon à accéder à l&#39;onglet **[!UICONTROL Propriétés]** du concepteur d’e-mail.
@@ -222,7 +224,7 @@ Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos 
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
-   Cette miniature apparaîtra en regard du libellé du fragment lorsque vous éditez un email.
+   Cette miniature apparaîtra en regard du libellé du fragment lorsque vous modifiez un e-mail.
 
 1. Fermez l&#39;onglet **[!UICONTROL Propriétés]** pour retourner à l&#39;espace de travail principal.
 1. Ajoutez des composants de structure et de contenu que vous pouvez personnaliser au besoin.
@@ -281,7 +283,8 @@ Lorsque vous éditez un email avec le concepteur d’e-mail, vous pouvez enregis
 >[!NOTE]
 >La [vue mobile](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) n&#39;est pas disponible dans les fragments. Si vous souhaitez éditer la vue mobile d&#39;un email, faites-le avant d&#39;enregistrer votre contenu en tant que fragment.
 
-<!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
+<!--
+You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
 >[!NOTE]
 >
@@ -295,13 +298,14 @@ To save as a fragment some email content that you created, follow the steps belo
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
 1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
 1. Paste the HTML that you copied where appropriate.
-1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
+1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.
+-->
 
 ## Création d&#39;en-têtes et de pieds de page réutilisables à l&#39;aide de fragments {#header-footer-fragments}
 
 A l&#39;aide du concepteur d’e-mail, créez un fragment pour chaque section réutilisable. Dans cet exemple, vous allez créer deux fragments : un pour l&#39;en-tête et un autre pour le pied de page. Vous pouvez ensuite copier les parties pertinentes de votre contenu existant dans ces fragments.
 
-Pour cela, procédez comme suit :
+Pour ce faire, procédez comme suit :
 
 1. Dans Adobe Campaign, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Modèles et fragments de contenu]**, puis créez un fragment pour votre en-tête. Pour plus d&#39;informations, consultez la section [Créer un fragment de contenu](#creating-a-content-fragment).
 1. Ajoutez autant de composants de structure que vous le souhaitez à votre fragment.

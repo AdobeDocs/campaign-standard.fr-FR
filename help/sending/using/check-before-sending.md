@@ -3,13 +3,13 @@ title: Vérification avant envoi
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Une fois votre message prêt, apprenez à effectuer toutes les vérifications avant l’envoi
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 96%

@@ -3,20 +3,20 @@ title: Bonnes pratiques de diffusion Campaign
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Découvrez les bonnes pratiques en matière de conception et d’envoi de diffusions avec Adobe Campaign.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
 
 ---
 
-# Bonnes pratiques relatives à la diffusion {#delivery-best-practices}
+# Bonnes pratiques de diffusion {#delivery-best-practices}
 
 Découvrez les bonnes pratiques en matière de conception et d&#39;envoi de diffusions avec Adobe Campaign. Cliquez sur les liens ci-dessous pour parcourir les rubriques et trouver des conseils.
 
@@ -48,6 +48,6 @@ Découvrez les bonnes pratiques en matière de conception et d&#39;envoi de diff
 
 * [Prise en main de la délivrabilité](../../sending/using/about-deliverability.md)
 
-* [Prise en main des messages](../../channels/using/get-started-communication-channels.md)
+* [Commencer avec les messages](../../channels/using/get-started-communication-channels.md)
 
 * [Recommandations concernant la confidentialité et le consentement](../../start/using/privacy.md)

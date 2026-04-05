@@ -8,9 +8,9 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1409'
 ht-degree: 99%
 
 ---
@@ -27,9 +27,9 @@ Dans tous les cas, la mise en quarantaine répond à des règles précises qui s
 
 Les profils dont l&#39;adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
-Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d’éviter d’être ajouté à une liste bloquée par ces fournisseurs.
+Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.
 
-De plus, elles réduisent les coûts d’envoi des SMS en excluant les numéros de téléphone erronés des diffusions.
+De plus, elle réduit les coûts d’envoi des SMS en excluant les numéros de téléphone erronés des diffusions.
 
 Pour plus d’informations sur les bonnes pratiques en matière de sécurisation et d’optimisation de vos diffusions, consultez [cette page](../../sending/using/delivery-best-practices.md).
 
@@ -43,13 +43,13 @@ La quarantaine et la liste bloquée ne s’appliquent pas au même objet :
 
 * En revanche, en cas d&#39;insertion en **liste bloquée**, le **profil** ne sera plus ciblé par aucune diffusion, par exemple après une désinscription (opt-out), pour un canal donné. Par exemple, si un profil de la liste bloquée pour le canal e-mail comporte deux adresses e-mail, les deux adresses seront exclues de la diffusion. Pour plus d’informations sur le processus de liste bloquée, voir la section [À propos des processus d’opt-in et d’opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-  Vous pouvez vérifier si un profil est sur liste bloquée pour un ou plusieurs canaux dans la section **[!UICONTROL Ne plus contacter (sur liste bloquée)]** de l’onglet **[!UICONTROL Général]** du profil. Consultez [cette section](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+  Vous pouvez vérifier si un profil est sur liste bloquée pour un ou plusieurs canaux dans la section **[!UICONTROL Ne plus contacter (sur liste bloquée)]** de l’onglet **[!UICONTROL Général]** du profil. Voir [cette section](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 >[!NOTE]
 >
 >La mise en quarantaine inclut un statut **Sur liste bloquée**, qui s’applique lorsque les destinataires signalent votre message comme étant du spam ou répondent à un message SMS avec un mot-clé tel que « STOP ». Dans ce cas, l’adresse ou le numéro de téléphone du profil impliqué est mis en quarantaine avec le statut **[!UICONTROL Sur liste bloquée]**. Pour plus d&#39;informations sur la gestion des messages SMS STOP, consultez [cette section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-&lt;!Lorsqu’un utilisateur ou une utilisatrice répond à un SMS avec un mot-clé tel que « STOP » pour se désabonner des diffusions SMS, son profil n’est pas mis en liste bloquée comme c’est le cas pour le processus d’opt-out des e-mails. Au lieu de cela, le numéro de téléphone du profil est envoyé en quarantaine avec le statut **[!UICONTROL Sur la liste bloquée]**. Ce statut ne concerne que le numéro de téléphone, ce qui signifie que le profil continuera à recevoir des e-mails.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages. Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## Identifier les adresses en quarantaine  {#identifying-quarantined-addresses}
 
@@ -138,7 +138,7 @@ Vous devrez peut-être effectuer des mises à jour en bloc sur la liste de quara
 
 Pour ce faire, créez un workflow et ajoutez une activité **[!UICONTROL Requête]** sur votre table de quarantaine pour filtrer tous les destinataires concernés. Une fois identifiés, ils peuvent être supprimés de la liste de quarantaine et inclus dans les prochaines diffusions e-mail de Campaign.
 
-En fonction du calendrier de l’incident, voici les instructions recommandées pour cette requête.
+En fonction du calendrier de l&#39;incident, voici les instructions recommandées pour cette requête.
 
 * **Le texte d’erreur (texte de quarantaine)** contient « 550-5.1.1 » ET **Le texte d’erreur (texte de quarantaine)** contient « support.ISP.com »,
 
@@ -178,7 +178,9 @@ Contrairement aux erreurs de type Hard, les erreurs de type Soft ne provoquent p
 
 Les reprises seront effectuées pendant la [durée de diffusion](../../administration/using/configuring-email-channel.md#validity-period-parameters). Quand le compteur d&#39;erreurs atteint le seuil limite, l&#39;adresse passe en quarantaine. Pour en savoir plus, voir la section [Reprises après une diffusion temporairement en échec](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-<!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
-The error counter threshold can be modified.-->
+<!--
+In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
+The error counter threshold can be modified.
+-->
 
 Le compteur d&#39;erreurs est réinitialisé si la dernière erreur significative s&#39;est produite plus de 10 jours avant. Le statut de l&#39;adresse passe à **Valide** et est supprimé de la liste des quarantaines grâce au workflow **Nettoyage de la base**. (Pour plus d&#39;informations sur ces workflows, consultez [cette section](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

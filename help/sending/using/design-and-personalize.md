@@ -1,15 +1,15 @@
 ---
-title: Création de contenu personnalisé
+title: Créer du contenu personnalisé
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Découvrez comment concevoir le contenu de votre message et évitez les problèmes courants qui peuvent vous empêcher d'exécuter votre diffusion. 
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 # Créer du contenu personnalisé {#build-personalized-content}
 
-Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d&#39;exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](../../designing/using/personalization.md), à la mise en forme lors de l&#39;[utilisation d&#39;un contenu existant](../../designing/using/using-existing-content.md) et à la [conversion d&#39;un contenu HTML](../../designing/using/using-existing-content.md#converting-an-html-content), ainsi qu&#39;aux [images](../../designing/using/images.md).
+Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](../../designing/using/personalization.md), à la mise en forme lors de l&#39;[utilisation d&#39;un contenu existant](../../designing/using/using-existing-content.md) et à la [conversion d&#39;un contenu HTML](../../designing/using/using-existing-content.md#converting-an-html-content), ainsi qu&#39;aux [images](../../designing/using/images.md).
 
 ## Optimiser la personnalisation {#optimize-personalization}
 
 Pour éviter des problèmes courants qui peuvent vous empêcher d&#39;exécuter votre diffusion et d&#39;améliorer l&#39;expérience de vos destinataires, Adobe Campaign vous permet de personnaliser vos messages.
 
-Vous pouvez utiliser les données des destinataires stockées dans la base de données Adobe Campaign ou collectées par le biais du tracking, des landing pages, des inscriptions, etc.
+Vous pouvez utiliser les données des destinataires stockées dans la base de données Adobe Campaign ou collectées par le biais du tracking, des landing pages, des inscriptions, etc.
 Les principes de base de la personnalisation sont présentés dans [cette section](../../designing/using/personalization.md).
 
 Vérifiez que le contenu de votre message est correctement conçu pour éviter les erreurs généralement liées à la personnalisation.
@@ -72,11 +72,11 @@ Par défaut, une [règle de typologie](../../sending/using/control-rules.md) de 
 
 Découvrez comment insérer un lien d&#39;opt-out [dans cette section](../../designing/using/personalization.md#adding-a-content-block).
 
-### Taille des e-mails  {#email-size}
+### Taille des emails {#email-size}
 
 Pour éviter des problèmes de performances ou de délivrabilité, la taille maximale recommandée d’un email est d’environ **35 Ko**.
 
-Pour maintenir la taille de l&#39;e-mail sous cette limite, tenez compte des possibilités suivantes :
+Pour maintenir la taille de l’email sous cette limite, tenez compte des possibilités suivantes :
 
 * Supprimer les styles redondants ou inutilisés
 
@@ -88,7 +88,7 @@ Veillez à tester toutes les modifications avant l’envoi final.
 
 Dans Adobe Campaign, la taille maximale par défaut d&#39;un e-mail est définie sur **100 Mo**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
-Si la limite est atteinte, le message qui dépasse la limite échoue et un message d&#39;erreur s&#39;affiche dans les logs de diffusion. Les autres messages d&#39;une même diffusion ne seront pas impactés. Dans ce cas, vous devez adapter la partie dynamique du modèle d&#39;e-mail ou les fragments de contenu utilisés par la diffusion. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+Si la limite est atteinte, le message qui dépasse la limite échoue et un message d&#39;erreur s&#39;affiche dans les logs de diffusion. Les autres messages d&#39;une même diffusion ne seront pas impactés. Dans ce cas, vous devez adapter la partie dynamique du modèle d’e-mail ou les fragments de contenu utilisés par la diffusion. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
 Adobe recommande de conserver la valeur par défaut de la taille maximale de message. Cependant, cette valeur peut être modifiée dans l&#39;option **[!UICONTROL Taille maximale de message]**, via le menu **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Options]**, mais uniquement par les [administrateurs fonctionnels](../../administration/using/users-management.md#functional-administrators).
 
@@ -100,12 +100,12 @@ Adobe recommande de conserver la valeur par défaut de la taille maximale de mes
 
 Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications). Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
-La translittération consiste à remplacer un caractère de SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
+La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
 En savoir plus dans [cette section](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Conseils** :
 
-* Pour conserver tous les caractères de vos SMS, afin de ne pas altérer les noms propres par exemple, n&#39;activez pas la translittération.
+* Pour conserver tous les caractères de vos SMS, afin de ne pas altérer les noms propres par exemple, n’activez pas la translittération.
 
 * En revanche, si vos SMS contiennent beaucoup de caractères qui ne sont pas pris en charge par la norme GSM, activez la translittération afin de limiter le coût de vos envois.
 
@@ -119,7 +119,7 @@ Le responsive design des e-mails permet de s&#39;assurer que le rendu d&#39;un e
 
 * Utilisez le mode Aperçu et envoyez des BAT pour tester le rendu sur le plus grand nombre d’appareils possible. Apprenez à [prévisualiser un message](../../sending/using/previewing-messages.md) avant l&#39;envoi.
 
-* Le concepteur d’e-mail de Campaign est fourni avec des modèles mis en forme en responsive design pour les appareils mobiles. En savoir plus [dans cette page](../../designing/using/using-reusable-content.md#content-templates).
+* Le concepteur d’e-mail de Campaign est fourni avec des modèles mis en forme en responsive design pour les appareils mobiles. En savoir plus [sur cette page](../../designing/using/using-reusable-content.md#content-templates).
 
 ## Gestion des images {#manage-images}
 
@@ -141,7 +141,7 @@ Essayez de rendre les images réactives et redimensionnables. Notez que cela peu
 
 ### Utiliser des références absolues pour l&#39;accès à l&#39;image
 
-Pour être accessibles depuis l&#39;extérieur, les images utilisées dans les e-mails et les ressources publiques associées aux opérations doivent être présentes sur un serveur accessible de l&#39;extérieur.
+Pour être accessibles depuis l&#39;extérieur, les images utilisées dans les emails et les ressources publiques associées aux opérations doivent être présentes sur un serveur accessible de l&#39;extérieur.
 
 ## Prévisualisez votre message {#preview-msg}
 

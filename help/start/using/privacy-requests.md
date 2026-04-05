@@ -1,5 +1,5 @@
 ---
-title: Demandes d'accès à des informations personnelles
+title: 'Demandes d''accès à des informations personnelles '
 description: Découvrez comment gérer les demandes d'accès à des informations personnelles dans Adobe Campaign Standard
 audience: start
 content-type: reference
@@ -8,7 +8,7 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Par conséquent, il est de votre responsabilité, en tant que contrôleur de don
 
 ### Espaces de noms {#namesspaces}
 
-Avant de créer des demandes d’accès à des informations personnelles, vous devez définir l’espace de noms que vous utiliserez. L’espace de noms est la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign. Deux espaces de noms d&#39;usine sont disponibles : e-mail et téléphone mobile. Si vous avez besoin d&#39;un autre espace de noms (un champ personnalisé de profil, par exemple), suivez les étapes ci-dessous.
+Avant de créer des demandes d’accès à des informations personnelles, vous devez définir l’espace de noms que vous utiliserez. L’espace de noms est la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign. Deux espaces de noms d’usine sont disponibles : e-mail et téléphone mobile. Si vous avez besoin d&#39;un autre espace de noms (un champ personnalisé de profil, par exemple), suivez les étapes ci-dessous.
 
 Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=fr#privacy) sur la création d&#39;un espace de noms.
 
@@ -71,7 +71,7 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
    ![](assets/privacy-create-new-namespace.png)
 
-   Pour en savoir plus sur les espaces de noms d&#39;identité, consultez la documentation d&#39;[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr).
+   Pour en savoir plus sur les espaces de noms d’identité, consultez la documentation d’[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=fr).
 
 1. Un espace de noms Service d’identités est associé à un espace de noms dans Campaign. Vous devez indiquer comment l’espace de noms sera réconcilié dans Campaign.
 
@@ -97,7 +97,7 @@ Reportez-vous à la documentation d&#39;[Experience Platform Privacy Service](h
 >
 >Pour envoyer une requête à l’aide du type d’espace de noms personnalisé, utilisez la [méthode JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#json){target="_blank"} et ajoutez l’identifiant de l’espace de noms à la requête, ou utilisez l’[appel API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=fr#access-delete){target="_blank"} pour effectuer la requête.
 >
->N’utilisez que l’[interface utilisateur Confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target="_blank"} pour envoyer des requêtes à l’aide du type d’espace de nom standard.
+>N’utilisez que l’[interface d’utilisation Confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target="_blank"} pour envoyer des requêtes à l’aide du type d’espace de noms standard.
 
 Chaque traitement du Privacy Core Service est divisé en plusieurs demandes d&#39;accès à des informations personnelles dans Campaign en fonction du nombre d&#39;espaces de noms utilisés (une demande correspondant à un espace de noms). En outre, un traitement peut être exécuté sur plusieurs instances. C&#39;est pourquoi plusieurs fichiers sont créés pour un seul traitement. Par exemple, si une demande contient deux espaces de noms et est exécutée sur trois instances, six fichiers sont envoyés. Soit un fichier par espace de noms et par instance.
 
@@ -151,9 +151,10 @@ Voici les différents états des demandes d&#39;accès à des informations perso
 * **[!UICONTROL Suppression en cours]** : le workflow traite la suppression.
   <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
 * **[!UICONTROL Terminé]** : le traitement de la demande s&#39;est terminé sans erreur.
-* **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la colonne **[!UICONTROL État de la demande]** de la liste des demandes d&#39;accès à des informations personnelles. Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu’aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire de données n’a été trouvée dans la base de données. 
+* **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la colonne **[!UICONTROL État de la demande]** de la liste des demandes d’accès à des informations personnelles. Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu’aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire de données n’a été trouvée dans la base de données.
 
-<!--### Disabling the 2-step process {#disabling-two-step-process}
+<!--
+### Disabling the 2-step process {#disabling-two-step-process}
 
 The Core Privacy Service does not support the 2-step process.
 
@@ -167,13 +168,14 @@ By default, the 2-step process is activated.
 
 To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)-->
+![](assets/privacy-disable-2-step-process.png)
+-->
 
 ## Droit d&#39;opposition (opt-out) à la vente des informations personnelles (CCPA) {#sale-of-personal-information-ccpa}
 
 Le **CCPA** (California Consumer Privacy Act) fournit aux résidents de la Californie de nouveaux droits relatifs aux informations personnelles et impose des responsabilités en matière de protection des données à certaines entités qui exercent des activités en Californie.
 
-La configuration et l&#39;usage des demandes d&#39;accès et de suppression sont identiques pour le RGPD et le CCPA. Cette section présente le droit d&#39;opposition à la vente des données personnelles, qui est spécifique au CCPA.
+La configuration et l&#39;usage des demandes d&#39;accès et de suppression sont identiques pour le RGPD et le CCPA. Cette section présente le processus d’opt-out à la vente des données personnelles, qui est spécifique au CCPA.
 
 Outre les outils de [gestion du consentement](../../start/using/privacy-management.md#consent-management) fournis par Adobe Campaign, vous pouvez suivre si un client s&#39;est opposé à la vente de ses informations personnelles.
 
@@ -185,13 +187,13 @@ Lorsque les utilisateurs décident, par l’intermédiaire de votre système, de
 
 >[!IMPORTANT]
 >
->En tant que contrôleur des données, il vous incombe de recevoir la demande du titulaire des données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d’informations sur votre rôle en tant que contrôleur de données, voir la section [Données personnelles et personnes concernées](../../start/using/privacy.md#personal-data).
+>En tant que contrôleur des données, il vous incombe de recevoir la demande du titulaire des données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d&#39;informations sur votre rôle en tant que contrôleur de données, voir [Données personnelles et personnes concernées](../../start/using/privacy.md#personal-data).
 
 ### Condition préalable requise pour les tables personnalisées {#ccpa-prerequisite}
 
 Le champ **[!UICONTROL Opt-out du CCPA]** est fourni tel quel dans l’API et l’interface de Campaign. Par défaut, le champ est disponible pour la ressource **[!UICONTROL Profil]** standard.
 
-Si vous utilisez une ressource de profil personnalisée, vous devez étendre la ressource et ajouter le champ. Nous vous recommandons d&#39;utiliser un nom différent du nom d&#39;origine du champ, par exemple : **[!UICONTROL Opt-out du CCPA]** (optoutccpa). Lorsqu&#39;un champ est créé, il est automatiquement pris en charge par l&#39;API de Campaign.
+Si vous utilisez une ressource de profil personnalisée, vous devez étendre la ressource et ajouter le champ. Nous vous recommandons d&#39;utiliser un nom différent du nom d&#39;origine du champ, par exemple : **[!UICONTROL Opt-out du CCPA]** (optoutccpa). Lorsqu&#39;un champ est créé, il est automatiquement pris en charge par l&#39;API Campaign.
 
 Pour plus d&#39;informations sur la façon d&#39;étendre la ressource de profil, consultez [cette section](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
@@ -215,7 +217,7 @@ Pour plus d&#39;informations sur la façon d&#39;étendre la ressource de profil
 
    ![](assets/privacy-ccpa-extend-pub.png)
 
-1. Vérifiez que le champ est disponible sur les détails d&#39;un profil. Pour plus d’informations, consultez [cette section](#usage).
+1. Vérifiez que le champ est disponible sur les détails d&#39;un profil. Voir à ce propos [cette section](#usage).
 
 ### Usage {#usage}
 

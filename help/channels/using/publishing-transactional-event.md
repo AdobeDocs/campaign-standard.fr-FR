@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
@@ -68,7 +68,7 @@ Avant de pouvoir utiliser l’événement, vous devez le prévisualiser et le pu
    >
    >Pour que cet événement déclenche l’envoi d’un message transactionnel, vous devez modifier et publier le message qui vient d’être créé. Voir les sections [Modification](../../channels/using/editing-transactional-message.md) et [Publication d&#39;un message transactionnel](../../channels/using/publishing-transactional-message.md). Il vous faut également [intégrer le déclenchement de cet événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) à votre site web.
 
-1. Une fois qu’Adobe Campaign commence à recevoir des événements liés à cette configuration de l’événement, le lien des **[!UICONTROL Derniers événements transactionnels]** sous la section **[!UICONTROL Historique]** vous permet d’accéder aux derniers événements envoyés par votre service tiers et traités par Adobe Campaign.
+1. Une fois qu’Adobe Campaign commence à recevoir des événements liés à cette configuration de l’événement, vous pouvez cliquer sur le lien **[!UICONTROL Derniers événements transactionnels]** sous la section **[!UICONTROL Historique]** pour accéder aux derniers événements envoyés par votre service tiers et traités par Adobe Campaign.
 
 ![](assets/message-center_latest-events.png)
 
@@ -88,13 +88,15 @@ Désormais, même si l’événement est déclenché via votre site web, les mes
 
 Cliquez sur le bouton **[!UICONTROL Publier]** pour générer une nouvelle API REST.
 
-<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
+<!--
+## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the transactional messaging publication process.
 
 ![](assets/message-center_pub-process.png)
 
-For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
+For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).
+-->
 
 ## Suppression d’un événement {#deleting-an-event}
 

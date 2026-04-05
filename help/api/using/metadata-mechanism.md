@@ -9,8 +9,8 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -38,8 +38,10 @@ Si &quot;type&quot; est renseigné avec la valeur &quot;enumeration&quot;, un ch
 * Le nœud **Filters** renvoie l’URL permettant de récupérer les filtres associés. Voir à ce propos [cette section](../../api/using/filtering.md).
 
 <!-- créer une section au même niveau sur les liens -->
-<!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
-si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
+<!--
+dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
+si on prend l'exemple de l'org unit, on aura un bon exemple lien
+-->
 <!-- plus reparler du node Data -->
 
 <br/>
