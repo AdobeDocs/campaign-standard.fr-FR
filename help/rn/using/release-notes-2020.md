@@ -7,9 +7,8 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '5272'
 ht-degree: 99%
@@ -84,7 +83,7 @@ ht-degree: 99%
 **Améliorations**
 
 * **Gestion de la confidentialité** : le champ **Option d’Opt-out du CCPA**, qui était disponible via l’interface Campaign et l’API, est maintenant également pris en charge par Privacy Core Service. Ce champ permet aux utilisateurs d’Adobe Campaign de déterminer si un client s’est opposé à la vente de ses informations personnelles. [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#ccpa)
-* **Améliorations de l’exécution du workflow** (version bêta) : dans le cadre d’une initiative mondiale autour des workflows, des améliorations majeures ont été apportées pour stabiliser la gestion de la mémoire, réduire la latence et optimiser la mémoire consommée par les workflows pendant l’exécution. Ces améliorations sont actuellement en version bêta et ne sont disponibles que pour un certain nombre de clients. La disponibilité générale est prévue pour début 2021.
+* **Améliorations de l’exécution du workflow** (Beta) : dans le cadre d’une initiative mondiale autour des workflows, des améliorations majeures ont été apportées pour stabiliser la gestion de la mémoire, réduire la latence et optimiser la mémoire consommée par les workflows pendant l’exécution. Ces améliorations sont actuellement en version Beta et ne sont disponibles que pour un certain nombre de personnes. La disponibilité générale est prévue pour début 2021.
 * Pour améliorer la sécurité, Campaign utilise désormais un **mécanisme de signature** pour le tracking des liens dans les emails.
 * La configuration des applications mobiles a été améliorée avec des **messages d’erreur plus clairs** lors du téléchargement de certificats iOS ou de clés Android.
 * La **gestion des erreurs SMS** a été améliorée afin d’éviter qu’un trop grand nombre de profils ne soit ajouté à la liste de quarantaine. Par défaut, les erreurs SMS sont désormais configurées en tant qu’erreurs soft plutôt qu’en tant qu’erreurs hard. Pour plus d’informations, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
@@ -140,7 +139,7 @@ ht-degree: 99%
 * Correction d’un problème qui pouvait interrompre l’envoi de messages SMS lorsque la connexion SMPP était instable. (CAMP-42789)
 * Correction d’un problème qui empêchait l’affichage du bouton **Arrêter la préparation** après l’actualisation de la page. (CAMP-42721)
 * Correction d’un problème qui empêchait l’affichage des pourcentages des rapports de hot clicks lors de l’importation de contenu à partir d’une URL. (CAMP-44468)
-* Correction d’un problème qui pouvait afficher une erreur de délai dépassé lors de la sélection d’un profil à utiliser dans le contexte de la substitution de profil. (CAMP-44746)
+* Correction d’un problème qui pouvait afficher une erreur de temporisation lors de la sélection d’un profil à utiliser dans le contexte de la substitution de profil. (CAMP-44746)
 * Correction d’un problème en raison duquel les instances ne fonctionnaient pas après le déploiement de ressources personnalisées contenant des définitions de liens incorrectes. (CAMP-44406)
 * Correction d’un problème en raison duquel des entités liées vides (typologies, marques, etc.) étaient créées après avoir copié et collé une diffusion dans un modèle de campagne. (CAMP-44765)
 * Correction d’un problème qui empêchait l’envoi de BAT en raison d’une gestion incorrecte des tables de préparation de diffusion en cas de blocage de la base de données ou de redémarrage simple de la base de données sur Azure.
@@ -220,13 +219,13 @@ ht-degree: 99%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>L’activité <strong>API externe</strong> est en cours de transition de la version bêta vers la version DG (disponibilité générale). Cette version apporte une flexibilité supplémentaire à l’analyseur du corps de réponse JSON. Vous pouvez maintenant :</p>
+  <td> <p>L’activité <strong>API externe</strong> est en cours de transition de la version Beta vers la version GA (General Availability - Disponibilité générale). Cette version apporte une flexibilité supplémentaire à l’analyseur du corps de réponse JSON. Vous pouvez maintenant :</p>
 <ul>
 <li>analyser un JSON imbriqué avec une profondeur maximale de 10 niveaux ; </li>
 <li>analyser les propriétés sélectionnées sous forme de nœuds feuilles à partir d’un JSON et les aplatir en une seule ligne de tableau ;</li>
 <li>sélectionner et utiliser un objet de tableau à partir d’un JSON sans avoir à nommer l’objet « data » ou le mettre au niveau supérieur.</li>
 </ul>
-<p><strong>Attention :</strong> les clients devront <strong>remplacer toutes les activités API externes en version bêta</strong> par des activités API externes DG dans leurs workflows.  Les workflows qui utilisent la version bêta de l’API externe cesseront de fonctionner dans la version 20.3.</p>
+<p><strong>Attention :</strong> les clientes et clients devront <strong>remplacer toutes les activités API externes en version Beta</strong> par des activités API externes GA dans leurs workflows.  Les workflows qui utilisent la version Beta de l’API externe cesseront de fonctionner dans la version 20.3.</p>
 <p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=fr">vidéo de procédure</a>.</p>
 </td> 
 </tr> 
@@ -305,7 +304,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Le connecteur de stockage Blob de Microsoft Azure peut maintenant être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow <strong>Transfert de fichier</strong>. </p>
-    <p>Pour plus d’informations, consultez la <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">documentation détaillée</a>.</p>
+    <p>Pour plus d'informations, consultez la <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">documentation détaillée</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -360,7 +359,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Les fonctionnalités Adobe Experience Platform dans Campaign Standard sont actuellement en version bêta et peuvent être fréquemment mises à jour sans préavis. Reportez-vous à la documentation détaillée : Connecteur Experience Platform, Audience Destinations
+>Les fonctionnalités Adobe Experience Platform dans Campaign Standard sont actuellement en version Beta et peuvent être fréquemment mises à jour sans préavis. Reportez-vous à la documentation détaillée : Connecteur Experience Platform, Audience Destinations
 
 * Dans les logs des workflows, Campaign affiche maintenant toutes les 10 minutes le nombre d’enregistrements déjà traités par le traitement en cours d’exécution.
 * Correction d’un problème qui se produisait lors de l’import d’un profil Adobe Experience Platform qui avait été supprimé de la base de données.
@@ -401,7 +400,7 @@ ht-degree: 99%
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Adobe Experience Platform Data Connector (version bêta)</strong><br /> </th> 
+   <th> <strong>Adobe Experience Platform Data Connector (Beta)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -416,7 +415,7 @@ ht-degree: 99%
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Audience Destinations (version bêta) </strong><br /> </th> 
+   <th> <strong>Audience Destinations (Beta) </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 

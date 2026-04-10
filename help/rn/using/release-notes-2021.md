@@ -8,9 +8,8 @@ feature: Overview
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '4695'
 ht-degree: 100%
@@ -86,7 +85,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 </tbody> 
 </table>
 
-**Amélioration de la sécurité**
+**Améliorations de la sécurité**
 
 * La sécurité a été renforcée pour assurer une protection contre les attaques SSRF. (CAMP-47836)
 * La liste des utilisateurs est désormais restreinte aux administrateurs. (CAMP-47260)
@@ -95,12 +94,12 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 **Améliorations**
 
 * Lors de la création d’une diffusion récurrente dans un workflow, associée à un contenu Adobe Experience Manager, l’état de validation du contenu est désormais vérifié avant envoi.
-* La limite de connexion à la base de données est maintenant alignée avec le package Campaign pour éviter les erreurs de connexion.
-* Un nouveau contrôle de cohérence dans la publication des ressources personnalisées empêche les utilisateurs de dupliquer des index, ce qui entraîne l’échec de la publication. Un message d’erreur amélioré demande à l’utilisateur de renommer l’index, si nécessaire. [Apprenez-en davantage](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)   
+* La limite de connexion à la base de données est maintenant alignée avec le kit de campagne pour éviter les erreurs de connexion.
+* Un nouveau contrôle de cohérence dans la publication des ressources personnalisées empêche de dupliquer des index, ce qui entraîne l’échec de la publication. Un message d’erreur amélioré demande à l’utilisateur de renommer l’index, si nécessaire. [En savoir plus](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **Autres changements**
 
-* Les services Connecteur de données Adobe Experience Platform et Audience Destinations sont désormais obsolètes avec Campaign Standard. Si vous utilisez ces fonctionnalités, vous devez migrer vers les sources et destinations d’Adobe et adapter votre mise en œuvre. [Apprenez-en davantage](../../integrating/using/get-started-sources-destinations.md)   
+* Les services Connecteur de données Adobe Experience Platform et Audience Destinations sont désormais obsolètes avec Campaign Standard. Si vous utilisez ces fonctionnalités, vous devez migrer vers les sources et destinations d’Adobe et adapter votre mise en œuvre. [En savoir plus](../../integrating/using/get-started-sources-destinations.md)
 * Les fonctionnalités obsolètes et supprimées sont répertoriées dans [cette page](deprecated-features.md).
 * Une nouvelle fonction d&#39;agrégat &#39;StringAgg&#39; a été introduite pour concaténer les valeurs d&#39;une colonne de type chaîne. (CAMP-47077) [En savoir plus](../../automating/using/list-of-functions.md#aggregates)
 * Le workflow technique **Mise à jour des indicateurs de diffusion** (updateDeliveryIndicators) a été amélioré pour optimiser les performances.
@@ -146,7 +145,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 **Améliorations**
 
-* Lors de la conception d&#39;une landing page, vous pouvez désormais ajouter une case à cocher obligatoire que les profils doivent sélectionner avant d&#39;envoyer le formulaire. Pour plus d&#39;informations, consultez la [documentation détaillée](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
+* Lors de la conception d&#39;une landing page, vous pouvez désormais ajouter une case à cocher obligatoire que les profils doivent sélectionner avant d&#39;envoyer le formulaire. Pour plus d’informations, consultez la [documentation détaillée](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox).
 
 * Pour l&#39;intégration des Triggers, le message d&#39;erreur affiché en l&#39;absence de données de réconciliation entrant dans la payload du déclencheur a été amélioré : &quot;Données d&#39;alias manquantes dans la payload&quot;.
 
@@ -156,7 +155,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Le mécanisme de signature d&#39;URL pour les liens de suivi a été désactivé afin d&#39;éviter qu&#39;un problème ne bloque incorrectement certains liens de suivi signés valides après avoir été modifiés par des outils de sécurité tiers.
 
-* Dans les diffusions à plusieurs variantes, les utilisateurs ne peuvent plus créer de copies de la langue si la variante par défaut a été supprimée. Un message s&#39;affiche maintenant lors de la création de la copie de la langue. (CAMP-48235)
+* Dans les diffusions à plusieurs variantes, les utilisateurs ne peuvent plus créer de copies de la langue si la variante par défaut a été supprimée. Un message s&#39;affiche maintenant lors de la création de la copie linguistique. (CAMP-48235)
 
 * Le processus de suppression de profil en deux étapes (obsolète à partir de la version 19.4 de Campaign) est désormais désactivé par défaut. Auparavant, il devait être désactivé manuellement à partir de l&#39;interface de Campaign avant d&#39;utiliser Privacy Core Service. Si vous ne le faites pas, les demandes de suppression restent en attente et ne terminent pas.
 
@@ -206,7 +205,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Correction d&#39;un problème qui réinitialisait une activité de **Requête incrémentale** après avoir modifié le nom interne du workflow. Cela se produisait lorsqu&#39;un champ de date était utilisé comme mode incrémental. (CAMP-47674)
 
-* Correction d&#39;un problème qui empêchait l&#39;affichage de la miniature de prévisualisation dans la synthèse de la diffusion, lors de la création d&#39;un e-mail multilingue avec l&#39;intégration Adobe Experience Manager. Ce problème se produisait lors de l&#39;utilisation du bouton **Création de la copie de la langue** pour créer les variantes d&#39;e-mail. (CAMP-47810)
+* Correction d&#39;un problème qui empêchait l&#39;affichage de la miniature de prévisualisation dans la synthèse de la diffusion, lors de la création d&#39;un e-mail multilingue avec l&#39;intégration Adobe Experience Manager. Ce problème se produisait lors de l&#39;utilisation du bouton **Création de la copie linguistique** pour créer les variantes d&#39;e-mail. (CAMP-47810)
 
 * Correction d&#39;un problème qui empêchait les utilisateurs d&#39;accéder à la diffusion parente à partir de la diffusion enfant e-mail ou SMS. (CAMP-47986)
 
@@ -243,13 +242,14 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 <tr> 
 <td>
 <p>Le service de retour d'e-mail (EFS - Email Feedback Service) est un service évolutif chargé de capturer directement les retours du MTA amélioré, contribuant ainsi à la précision des rapports.
-Cette fonctionnalité est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.</p>
+Cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour toute la clientèle dans les prochaines versions.</p>
 <ul>
 <li>Toutes les catégories de commentaires sont maintenant capturées pour créer des rapports complets et précis.</li>
 <li>Le calcul de l'indicateur <b>Délivrés</b> est désormais fondé sur les commentaires en temps réel du MTA amélioré, ce qui contribue à l'amélioration de la précision et de la réactivité.</li>
-<li>EFS résout le problème des retards grâce au reporting synchrone des rebonds temporaires.</li>
+<li>EFS résout le problème des retards grâce au reporting synchrone des rebonds temporaires.
+</li>
 </ul>
-<p>Pour plus d'informations, consultez la <a href="../../sending/using/confirming-the-send.md">documentation détaillée</a>.
+<p>Pour plus d’informations, consultez la <a href="../../sending/using/confirming-the-send.md">documentation détaillée</a>.
 </p>
 </td> 
 </tr> 
@@ -267,7 +267,7 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 <td>
 <p>L'intégration de Campaign avec Adobe Experience Manager a été améliorée : vous pouvez désormais importer plus facilement du contenu multilingue depuis Adobe Experience Manager. <p>
 <p>Adobe Campaign Standard détecte désormais automatiquement les variantes de langues d'un contenu Adobe Experience Manager, et permet l'importation et la création de variantes en masse. Cette approche simplifie considérablement le nombre d’étapes nécessaires pour créer une campagne multilingue basée sur un contenu Adobe Experience Manager.</p>
-<p>Pour plus d'informations, consultez la <a href="../../integrating/using/creating-multilingual-email-aem.md">documentation détaillée</a>.
+<p>Pour plus d’informations, consultez la <a href="../../integrating/using/creating-multilingual-email-aem.md">documentation détaillée</a>.
 </p>
 </td> 
 </tr> 
@@ -332,13 +332,13 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 
 * Les utilisateurs dotés du rôle DATAMODEL peuvent désormais publier les extensions des logs de diffusion. (CAMP-46604)
 
-* Le message d&#39;erreur qui s&#39;affichait lors de la publication d&#39;une ressource ciblant une ressource personnalisée qui n&#39;existe plus a été clarifié. (CAMP-46893)
+* Le message d’erreur qui s’affichait lors de la publication d’une ressource ciblant une ressource personnalisée qui n’existe plus a été clarifié. (CAMP-46893)
 
 * Les langues suivantes ont été ajoutées à la liste **Préférence linguistique** : indonésien - Indonésie (in-id), anglais - Suède (en-se), anglais - Asie-Pacifique (en-ap), anglais - Japon (en-jp), espagnol - Amérique latine (es-la). (CAMP-46351)
 
-* Le sélecteur de profils lors du test d’une landing page utilise désormais la ressource profilBase plutôt que le profil afin d’éviter l’expiration du délai.
+* Le sélecteur de profils lors du test d’une landing page utilise désormais la ressource profilBase plutôt que le profil afin d’éviter une temporisation.
 
-* Le format de journal SMPP a été amélioré.
+* Le format de log SMPP a été amélioré.
 
 * Des paramètres facultatifs pour les fonctions JS cryptString et decryptString ont été ajoutés pour correspondre aux API Adobe Campaign Standard.
 
@@ -384,7 +384,7 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 * Correction de problèmes de consommation de mémoire liés à la publication de ressources personnalisées.
 * Correction d&#39;un problème survenant lors de la configuration d&#39;une diffusion à envoyer à une date spécifique. Si la diffusion était alors définie pour être envoyée immédiatement une fois confirmée, la préparation de la diffusion échouait et la date initialement spécifiée était prise en compte. (CAMP-44107)
 * Correction d&#39;un problème qui pouvait empêcher l&#39;ouverture de modèles transactionnels. (CAMP-47181)
-* Correction d&#39;un problème survenant dans le processus de publication des messages transactionnels, en raison duquel pouvaient apparaître des typologies et des règles de typologie redondantes dont les noms pouvaient dépasser la taille de chaîne autorisée. (CAMP-47104)
+* Correction d’un problème survenant dans le processus de publication des messages transactionnels, en raison duquel pouvaient apparaître des typologies et des règles de typologie en double dont les noms pouvaient dépasser la taille de chaîne autorisée. (CAMP-47104)
 * Correction d&#39;un problème dans l&#39;activité **API externe** qui se produisait lorsqu&#39;un paramètre d&#39;entrée renvoyait un enregistrement qui n&#39;existait pas. (CAMP-47023)
 * Correction d&#39;un problème qui pouvait empêcher le connecteur SMPP de se reconnecter.
 * Correction d&#39;un problème qui se produisait dans l&#39;activité **Transfert de fichier** lors du téléchargement d&#39;un fichier dont le nom contenait un point. Les caractères qui suivent le point étaient considérés comme une extension du fichier. (CAMP-46624)
@@ -430,7 +430,7 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 * Correction d&#39;un problème de génération de miniatures qui pouvait se produire sur Azure dans les variantes d&#39;email contenant des caractères chinois. (CAMP-47152)
 * Correction d&#39;une régression introduite dans la version Campaign 20.4 qui pouvait entraîner des taux d&#39;ouverture incorrects pour Gmail en raison du filtrage des événements de tracking reçus de comptes Gmail. (CAMP-46504)
 * Correction d&#39;un problème qui pouvait empêcher l&#39;importation de contenu HTML dans un modèle de message transactionnel. (CAMP-47318)
-* Correction d&#39;un problème qui pouvait ralentir l&#39;affichage des rendus dans le **rapport de rendu des emails**. (CAMP-46226)
+* Correction d’un problème qui pouvait ralentir l’affichage des rendus dans le **rapport de rendu des e-mails**. (CAMP-46226)
 * Correction d&#39;un problème qui pouvait empêcher la publication de ressources personnalisées configurées avec un élément de type Liste dans la définition d&#39;écran. (CAMP-47217)
 * Correction d&#39;un problème dans le concepteur d’e-mails qui empêchait le rendu correct des séparateurs de ligne dans **Microsoft Outlook** lorsqu&#39;ils étaient placés en haut du contenu email. (CAMP-46294)
 * Correction d’un problème en raison duquel la réconciliation des KPI avec le workflow technique **Adobe Analytics** était bloquée. (CAMP-46576)

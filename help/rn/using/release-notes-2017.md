@@ -4,9 +4,8 @@ description: Cette page répertorie toutes les versions 2017 d’Adobe Campaig
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '4637'
 ht-degree: 100%
@@ -48,7 +47,7 @@ _Plateforme_
 * Correction d’une erreur d’interface lors de l’affichage et du filtrage des activités marketing.
 * Correction d’une erreur qui empêchait la mise à jour des champs de date d’abonnement avec un appel d’API REST POST.
 
-_Emails, SMS et courrier_
+_E-mails, SMS et courrier_
 
 * Correction d’une erreur qui empêchait le ciblage d’une audience de type Liste dans un message, ce qui provoquait l’échec de la préparation.
 * Des langues manquantes ont été ajoutées aux fonctionnalités de diffusion email multilingue.
@@ -87,7 +86,7 @@ _Profils et audiences_
 
 _Intégrations_
 
-* Correction d’une erreur qui empêchait l’affichage et la sélection de certaines Data sources créées pour les Triggers.
+* Correction d’une erreur qui empêchait l’affichage et la sélection de certaines Data sources créées pour Triggers.
 
 _Ressources personnalisées_
 
@@ -125,28 +124,28 @@ _Ressources personnalisées_
 
 _Plateforme_
 
-* Certains clients doivent pouvoir utiliser un identifiant provenant d’Adobe Campaign Standard, car ils ne gèrent pas de clé unique pour identifier leurs enregistrements. Cet identifiant (**Identifiant ACS**) peut être exporté et utilisé comme clé de réconciliation lors de la mise à jour des données. Pour plus d’informations, consultez la [documentation détaillée](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+* Certains clients doivent pouvoir utiliser un identifiant provenant d’Adobe Campaign Standard, car ils ne gèrent pas de clé unique pour identifier leurs enregistrements. Cet identifiant (**Identifiant ACS**) peut être exporté et utilisé comme clé de réconciliation lors de la mise à jour des données. Pour plus d&#39;informations, consultez la [documentation détaillée](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * Le protocole FTP devient obsolète. Vous devez à présent utiliser le protocole SFTP à la place. Pour ne pas bloquer les implémentations existantes, les configurations sur FTP continueront à fonctionner comme avant, mais l’option ne sera plus visible pour les nouvelles activités.
 
-_Emails, SMS et courrier_
+_E-mails, SMS et courrier_
 
-* Il est désormais possible de créer des critères d’alerte afin de les utiliser dans les notifications d’alerte de diffusion. Pour plus d’informations, consultez la [documentation détaillée](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
+* Il est désormais possible de créer des critères d’alerte afin de les utiliser dans les notifications d’alerte de diffusion. Pour plus d&#39;informations, consultez la [documentation détaillée](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Les notifications d’alerte de diffusion sont dotées d’un nouveau design et l’expérience utilisateur du tableau de bord des alertes de diffusion a été améliorée.
 * Désormais, lorsqu’un compte externe de routage est désactivé, un avertissement s’affiche dans les diffusions concernées (email, SMS et push) et le bouton **Prévisualiser** est masqué dans celles-ci.
 * Résolution d’un problème qui entraînait une erreur lors de l’aperçu d’un test A/B sur le contenu d’un email lorsque le texte dynamique était activé dans l’objet.
 
 _Messages transactionnels_
 
-* Il est désormais possible de définir à quel moment envoyer un message de relance, par exemple 3 jours après l’envoi d’un message transactionnel. Pour plus d’informations, consultez la [documentation détaillée](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
+* Il est désormais possible de définir à quel moment envoyer un message de relance, par exemple 3 jours après l’envoi d’un message transactionnel. Pour plus d&#39;informations, consultez la [documentation détaillée](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
 * Il est désormais possible de définir la date à partir de laquelle les messages transactionnels associés à un événement doivent être envoyés.
 * Correction d’un problème qui entraînait une erreur SQL lors de l’exécution d’un workflow contenant un message de relance après la suppression des profils associés aux événements reçus et traités.
 * Correction d’une erreur qui empêchait la suppression d’un profil associé à un événement.
 * Correction d’une erreur qui empêchait le fonctionnement de la redirection des liens trackés.
-* Correction d’une erreur qui empêchait la désactivation du tracking de certains liens dans un email ou un SMS.
+* Correction d’une erreur qui empêchait la désactivation du tracking de certains liens dans un e-mail ou un SMS.
 
 _Rapports_
 
-* Le rapport **Hot clicks** a été amélioré. En outre, il est désormais possible d’afficher les hot clicks selon chaque contenu conditionnel défini dans une diffusion et pour chaque exécution des diffusions récurrentes ou des messages transactionnels. Pour plus d’informations, consultez la [documentation détaillée](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
+* Le rapport **Hot clicks** a été amélioré. En outre, il est désormais possible d’afficher les hot clicks selon chaque contenu conditionnel défini dans une diffusion et pour chaque exécution des diffusions récurrentes ou des messages transactionnels. Pour plus d&#39;informations, consultez la [documentation détaillée](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Correction d’une erreur qui empêchait la mesure de quarantaine de récupérer les données correctes.
 * Une nouvelle période de temps prédéfinie a été ajoutée au widget de calendrier.
 * Les [mesures des rapports dynamiques](../../reporting/using/indicator-calculation.md) et les [KPI des campagnes](../../sending/using/confirming-the-send.md) (affichés dans le tableau de bord des messages envoyés) ont été harmonisés pour plus de cohérence.
@@ -163,7 +162,7 @@ _Intégrations_
 
 _Profils et audiences_
 
-* Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation. Pour plus d’informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
+* Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation. Pour plus d&#39;informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
 * Correction d’une erreur qui empêchait l’inscription des profils à un service lors de l’utilisation de l’API Profils et Services.
 
 ## Version 17.7 - Juillet 2017                {#release-17-7---july-2017}
@@ -192,7 +191,7 @@ _Profils et audiences_
   </tr> 
   <tr> 
    <td> Identifiant Declared ID chiffré dans les sources de données<br /> </td> 
-   <td> Envoyez des e-mails et des SMS sans avoir besoin d’un profil existant dans Campaign à l’aide d’informations de contact chiffrées (adresse e-mail ou numéro de téléphone) sous forme d’identifiant Declared ID. Dans la mesure où les identifiants Declared ID chiffrés peuvent être décodés par Adobe Campaign Standard, Campaign peut désormais créer des profils marketing lors de la réception d’audiences d’autres solutions Experience Cloud contenant des contacts encore inconnus.<br /> Ciblez des clients et des prospects inconnus en temps réel par email et SMS pour à la fois accroître la fidélité de votre clientèle actuelle et acquérir de nouveaux clients. Tirez pleinement parti des données des cookies propriétaires (depuis Adobe Audience Manager*) une fois les prospects authentifiés et exploitez ces informations dans Adobe Campaign. <br /> *Adobe Audience Manager est requis. Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
+   <td> Envoyez des déclencheurs E-mail et SMS sans avoir besoin d’un profil existant dans Campaign à l’aide d’informations de contact chiffrées (adresse e-mail ou numéro de téléphone) sous forme d’identifiant Declared ID. Dans la mesure où les identifiants Declared ID chiffrés peuvent être décodés par Adobe Campaign Standard, Campaign peut désormais créer des profils marketing lors de la réception d’audiences d’autres solutions Experience Cloud contenant des contacts jusqu’alors inconnus.<br /> Ciblez des clients et des prospects inconnus en temps réel par email et SMS pour à la fois accroître la fidélité de votre clientèle actuelle et acquérir de nouveaux clients. Tirez pleinement parti des données des cookies propriétaires (depuis Adobe Audience Manager*) une fois les prospects authentifiés et exploitez ces informations dans Adobe Campaign. <br /> *Adobe Audience Manager est requis. Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Partage des KPI de Campaign vers Analytics<br /> </td> 
@@ -200,7 +199,7 @@ _Profils et audiences_
   </tr> 
   <tr> 
    <td> Canal Courrier - Retour à l’expéditeur<br /> </td> 
-   <td> Les échanges de fichiers plats avec les opérateurs de services postaux intégrant les informations de retour à l’expéditeur sont désormais pris en charge. Cette amélioration du canal Courrier permet d’exclure les adresses postales correspondantes des communications futures.<br /> Les spécialistes du marketing peuvent ainsi être avertis si une adresse est incorrecte, interagir avec le client à travers d’autres canaux ou l’inciter à mettre à jour son adresse postale. Comme ils n’envoient plus de courrier à des adresses incorrectes, les dépenses marketing inutiles sont également réduites. <br /> Le canal Courrier est disponible en tant que canal additionnel. Pour plus d’informations, consultez la <a href="../../channels/using/return-to-sender.md">documentation détaillée</a>.<br /> </td> 
+   <td> Les échanges de fichiers plats avec les fournisseurs de courrier intégrant les informations de retour à l’expéditeur sont désormais pris en charge. Cette amélioration du canal Courrier permet d’exclure les adresses postales correspondantes des communications futures.<br /> Les spécialistes du marketing peuvent ainsi être avertis si une adresse est incorrecte, interagir avec le client à travers d’autres canaux ou l’inciter à mettre à jour son adresse postale. Comme ils n’envoient plus de courrier à des adresses incorrectes, les dépenses marketing inutiles sont également réduites. <br /> Le canal Courrier est disponible en tant que canal additionnel. Pour plus d’informations, consultez la <a href="../../channels/using/return-to-sender.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -211,7 +210,7 @@ _Général_
 
 * Correction d’une erreur qui permettait à n’importe quel utilisateur d’exporter des listes. Désormais, seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Export]** peuvent effectuer cette action.
 
-_Emails, SMS et courrier_
+_E-mails, SMS et courrier_
 
 * Correction d’une erreur liée au workflow **updateDeliveryExecInfo** qui définissait l’indicateur **To deliver** sur 0 pour les diffusions SMS.
 * Dans les **Paramètres avancés** des propriétés du modèle de diffusion, la liste déroulante **Routage** n’affiche désormais que les comptes externes qui correspondent au type du message du modèle. Par exemple, un modèle de diffusion email affiche uniquement les comptes externes de type email.
@@ -256,11 +255,11 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Canal Courrier<br /> </td> 
-   <td> Reconnectez avec les fondamentaux de la communication grâce au premier canal off-line d’Adobe Campaign. Le canal Courrier vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux dans le cadre de vos campagnes cross-canal. Utilisez le canal Courrier pour relancer vos clients et leur proposer une expérience unique qui les conduira vers votre application, site web ou magasin.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/about-direct-mail.md">documentation détaillée</a>.<br /> </td> 
+   <td> Reconnectez avec les fondamentaux de la communication grâce au premier canal off-line d’Adobe Campaign Standard : le courrier. Le canal Courrier vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux dans le cadre de vos campagnes cross-canal. Utilisez le canal Courrier pour relancer vos clients et leur proposer une expérience unique qui les conduira vers votre application, site web ou magasin.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/about-direct-mail.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Email BCC<br /> </td> 
-   <td> Email BCC donne la possibilité de conserver les emails spécifiques envoyés à chaque destinataire, permettant ainsi à la marque de les archiver. En ajoutant une adresse email en “copie cachée” (BCC en anglais) à tous les emails, les clients Adobe Campaign Standard peuvent conserver une copie exacte de chaque email. Il s’agit d’une obligation juridique courante dans le secteur financier. De plus, cette fonctionnalité s’avère utile pour aider les centres de service client lors de la résolution de conflits en temps réel.<br /> Pour plus d’informations, consultez la <a href="../../sending/using/archiving.md">documentation détaillée</a>.<br /> </td> 
+   <td> E-mail Cci donne la possibilité de conserver les e-mails spécifiques envoyés à chaque destinataire, permettant ainsi à la marque de les archiver. En ajoutant une adresse email en “copie cachée” (BCC en anglais) à tous les emails, les clients Adobe Campaign Standard peuvent conserver une copie exacte de chaque email. Il s’agit d’une obligation juridique courante dans le secteur financier. De plus, cette fonctionnalité s’avère utile pour aider les centres de service client lors de la résolution de conflits en temps réel.<br /> Pour plus d’informations, consultez la <a href="../../sending/using/archiving.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -269,9 +268,9 @@ _Workflows_
 
 _Mises à jour de l’interface_
 
-* Dans la barre supérieure, le lien **[!UICONTROL Planning]** a été supprimé. Il a été remplacé par un lien vers **[!UICONTROL Programmes et Campagnes]** .
+* Dans la barre supérieure, le lien **[!UICONTROL Chronologie]** a été supprimé. Il a été remplacé par un lien vers **[!UICONTROL Programmes et Campagnes]** .
 
-_Emails et SMS_
+_E-mails et SMS_
 
 * Correction d’une erreur qui affichait une couleur incorrecte pour l’état de diffusion **[!UICONTROL Reprise en cours]**. La couleur était grise au lieu d’être bleue.
 
@@ -330,7 +329,7 @@ _Plateforme_
 
 * Résolution d’un problème de consommation de mémoire.
 
-_Emails et SMS_
+_E-mails et SMS_
 
 * Correction d’une erreur suite à laquelle le contenu ne pouvait pas être synchronisé correctement avec les dernières modifications lors de la prévisualisation d’un message.
 * Correction d’une erreur qui empêchait la création ou la suppression d’une règle de gestion des emails MX ou de domaine.
@@ -440,9 +439,9 @@ _Notifications push_
 
 _Général_
 
-* Il est à présent possible d’ajouter des données de profil lors de l’import de logs de diffusion.
+* Il est à présent possible d’ajouter des données de profil lors de l’export de logs de diffusion.
 
-_Emails et SMS_
+_E-mails et SMS_
 
 * Correction d’une erreur suite à laquelle l’option **[!UICONTROL Demander une confirmation avant d’envoyer les messages]** restait sélectionnée même après avoir été décochée et la diffusion sauvegardée.
 * Correction d’une erreur qui pouvait provoquer la dépublication d’emails transactionnels.
@@ -508,7 +507,7 @@ _Général_
 * Correction d’un problème qui empêchait les utilisateurs d’éditer certains champs dans un compte externe SFTP existant.
 * Correction de plusieurs problèmes liés à l’interface utilisateur. Par exemple, les utilisateurs peuvent désormais éditer les attributs des profils et enregistrer les modifications sans rencontrer de problème dans l’interface utilisateur.
 
-_Emails et SMS_
+_E-mails et SMS_
 
 * Correction d’une erreur liée aux modèles de diffusion comportant du contenu HTML avec une
 
@@ -517,18 +516,18 @@ _Notifications push_
 * Correction d&#39;une erreur qui était susceptible d&#39;empêcher une publication (postback) depuis une application sur le serveur Adobe Campaign.
 * Correction d’une erreur qui était susceptible d’empêcher la prise en compte de **[!UICONTROL Jouer un son]** et de **[!UICONTROL Champs personnalisés]** pour Android.
 * Correction d’une erreur qui était susceptible d’entraîner l’ajout d’un caractère d’échappement supplémentaire aux caractères Unicode utilisés pour les emojis.
-* Lorsque le jeton d’enregistrement d’un abonné est ajouté à la liste bloquée, le statut correspondant est désormais mis immédiatement à jour dans la liste des abonnés de l’application, dans Adobe Campaign.
+* Lorsque le jeton d’enregistrement d’un profil abonné est placé sur liste bloquée, le statut correspondant est désormais mis immédiatement à jour dans la liste des profils abonnés de l’application, dans Adobe Campaign.
 
 _Workflows_
 
 * Correction d’une erreur qui était susceptible d’empêcher les prévisualisations des requêtes sur les ressources d’événement (rtEvent, par exemple).
 * Le fichier de rejets généré par une activité **[!UICONTROL Chargement de fichier]** peut désormais être récupéré dans sa transition sortante et traité dans l’activité suivante. Par exemple, chargez le fichier de rejets via un serveur SFTP à l’aide d’une activité **[!UICONTROL Chargement de fichier]**.
 * Correction d’une erreur qui était susceptible d’empêcher un utilisateur de limiter la population d’un segment lorsque **[!UICONTROL Ressource temporaire]** était sélectionnée dans l’onglet **[!UICONTROL Général]** de l’activité **[!UICONTROL Segmentation]** .
-* **[!UICONTROL Les activités Planificateur]** ne peuvent plus être définies pour exécuter un workflow plusieurs fois toutes les 10 minutes.
+* Les **[!UICONTROL activités Planificateur]** ne peuvent plus être définies pour exécuter un workflow plusieurs fois toutes les 10 minutes.
 * Correction d’une erreur qui était susceptible d’empêcher le bon fonctionnement de l’option **[!UICONTROL Utiliser uniquement les données additionnelles communes]** dans une activité **[!UICONTROL Union]**.
 
 _Intégrations_
 
-* Correction d’un problème qui était susceptible d’entraîner une erreur lors du déploiement d’un déclenchement d’événement dans Adobe Campaign. Cette erreur se produisait lorsque les métadonnées &quot;Probabilité de retour avant 30 jours&quot; avait été ajoutées au trigger Abandon dans Adobe Experience Cloud.
+* Correction d’un problème qui était susceptible d’entraîner une erreur lors du déploiement d’un déclenchement d’événement dans Adobe Campaign. Cette erreur se produisait lorsque les métadonnées « Probabilité de retour avant 30 jours » avaient été ajoutées au déclencheur Abandon dans Adobe Experience Cloud.
 * Correction d’une erreur qui était susceptible d’entraîner l’effacement du champ Dimension cible par un workflow technique lors de l’import des audiences depuis People core service. Les requêtes suivantes ne pouvaient pas récupérer les audiences importées.
 * Correction d’une erreur qui était susceptible d’entraîner l’échec d’une activité **[!UICONTROL Sauvegarde d’audience]** d’un workflow lorsque l’option **[!UICONTROL Partager dans Adobe Experience Cloud]** était cochée.
