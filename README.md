@@ -11,4 +11,4 @@ Ce projet contient la documentation technique pour Campaign Standard. Vous pouve
 
 Pour plus d’informations sur le dépannage, la procédure et les bonnes pratiques, consultez nos [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html).
 
-Pour visionner des vidéos sur les fonctionnalités de Adobe Campaign Standard, consultez [ tutoriels ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=fr).
+Pour visionner des vidéos sur les fonctionnalités de Adobe Campaign Standard, consultez [&#x200B; tutoriels &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=fr).
