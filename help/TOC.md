@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentation produit pour Adobe Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation de Campaign Standard
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '1754'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 95%
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
-      + [2021](rn/using/release-notes-2021.md)
-      + [2020](rn/using/release-notes-2020.md)
-      + [2019](rn/using/release-notes-2019.md)
-      + [2018](rn/using/release-notes-2018.md)
-      + [2017](rn/using/release-notes-2017.md)
+      + {hide-from-toc}[2021](rn/using/release-notes-2021.md)
+      + {hide-from-toc}[2020](rn/using/release-notes-2020.md)
+      + {hide-from-toc}[2019](rn/using/release-notes-2019.md)
+      + {hide-from-toc}[2018](rn/using/release-notes-2018.md)
+      + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [Calendrier des versions](rn/using/release-planning.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
-   + [Problème de signature des URL trackées](rn/using/tracked-urls.md)
-   + [Dernières mises à jour de la documentation](rn/using/documentation-updates.md)
+   + {hide-from-toc}[Problème de signature des URL suivies](rn/using/tracked-urls.md)
+   + {hide-from-toc}[Dernières mises à jour de la documentation](rn/using/documentation-updates.md)
 + Prise en main {#getting-started}
    + [À propos d&#39;Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Découverte de lʼinterface {#discovering-the-interface}
@@ -48,7 +48,7 @@ ht-degree: 95%
       + [Gestion de la confidentialité](start/using/privacy-management.md)
       + [Demandes d&#39;accès à des informations personnelles &#x200B;](start/using/privacy-requests.md)
       + [FAQ sur la confidentialité](start/using/privacy-faq.md)
-   + [Options d&#39;aide et de support](support.md)
+   + {hide-from-toc}[Options d’aide et de support](support.md)
 + Profils et audiences {#profiles-and-audiences}
    + [Commencer avec les profils et les audiences](audiences/using/get-started-profiles-and-audiences.md)
    + Gérer des profils {#managing-profiles}
@@ -437,7 +437,7 @@ ht-degree: 95%
    + Configuration des canaux {#configuring-channels}
       + [À propos de la configuration des canaux](administration/using/about-channel-configuration.md)
       + [Configuration du canal e-mail](administration/using/configuring-email-channel.md)
-      + [Mettre à jour la qualification des rebonds après une panne d’un FAI](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[Mettre à jour la qualification des bounces après une panne du FAI](administration/using/update-bounce-qualification.md)
       + [Configuration d&#39;une application mobile](administration/using/configuring-a-mobile-application.md)
    + Configuration des canaux mobiles {#configuring-mobile}
       + [Mise en œuvre du suivi des notifications push](administration/using/push-tracking.md)

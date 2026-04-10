@@ -4,11 +4,10 @@ description: Cette page répertorie toutes les versions 2018 d’Adobe Campaig
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '5442'
+source-wordcount: '5440'
 ht-degree: 99%
 
 ---
@@ -32,7 +31,7 @@ ht-degree: 99%
    <td> La messagerie in-app permet d’interagir plus efficacement avec les utilisateurs d’application mobile en offrant une interaction contextuelle et en permettant d’atteindre les utilisateurs susceptibles de ne pas s’être abonnés aux notifications push. Utilisez la messagerie In-App avec les notifications push pour créer une expérience hautement personnalisée et pertinente. Vous obtiendrez ainsi une meilleure conversion et rétention des utilisateurs de votre application.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Intégration avec Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
+   <td> Intégration avec Adobe Launch pour les applications mobiles (Beta)<br /> </td> 
    <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Application mobile dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +50,7 @@ ht-degree: 99%
 
 * Ciblez des utilisateurs sur une application mobile spécifique en sélectionnant cette application mobile lorsque vous définissez les propriétés de Campaign. Cette fonctionnalité est destinée aux canaux Push et Messagerie in-app.
 
-  Pour plus d’informations, consultez la [documentation détaillée](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
+  Pour plus d&#39;informations, consultez la [documentation détaillée](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
 * Lors de la sélection d’un bloc de contenu à l’aide de l’interface Creative Designer, tous les blocs de contenu de la liste sont maintenant chargés et affichés. (CAMP-27311)
 
@@ -122,7 +121,7 @@ ht-degree: 99%
 
 **Autres changements**
 
-* Le délai de partage des rapports a été prolongé d’une à quatre minutes afin d’éviter toute erreur de timeout.
+* Le délai d’expiration de partage des rapports a été prolongé d’une à quatre minutes afin d’éviter toute erreur de temporisation.
 * Lors de l’édition du contenu d’un email, le nouveau Creative Designer s’ouvre par défaut. Si vous le souhaitez, vous pouvez revenir à l’éditeur de contenu par défaut à tout moment après avoir enregistré vos modifications. Consultez à ce sujet la [documentation détaillée](../../designing/using/designing-content-in-adobe-campaign.md).
 * Dans Creative Designer, un nouveau composant de contenu peut désormais être ajouté à un email : le carrousel. Consultez à ce sujet la [documentation détaillée](../../designing/using/designing-from-scratch.md#about-content-components).
 * Si vous cliquez sur le bouton **Charger un profil** dans un rapport Hot clicks de message transactionnel, seuls les profils de test liés à l’événement que vous avez défini pour votre message transactionnel sont maintenant répertoriés.
@@ -153,10 +152,10 @@ ht-degree: 99%
 
 **Autres changements**
 
-* Un bouton **[!UICONTROL Calculer les statistiques]** a été ajouté à la fenêtre **[!UICONTROL Déploiement]** des diffusions envoyées. Il permet de récupérer les derniers KPI, par exemple si la mise à jour des résultats de l’envoi prend trop de temps ou si les résultats n’ont pas été pris en compte. Voir à ce propos cette [section](../../sending/using/confirming-the-send.md).
+* Un bouton **[!UICONTROL Calculer les statistiques]** a été ajouté à la fenêtre **[!UICONTROL Déploiement]** des diffusions envoyées. Il permet de récupérer les derniers KPI, par exemple si la mise à jour des résultats de l’envoi prend trop de temps ou si les résultats n’ont pas été pris en compte. Pour plus d’informations à ce sujet, consultez cette [section](../../sending/using/confirming-the-send.md).
 * Dans le workflow technique d’usine **Mise à jour pour la délivrabilité**, les administrateurs fonctionnels peuvent maintenant définir le nombre d’erreurs consécutives à ignorer dans l’activité javascript **Mise à jour des règles**. Par défaut, la valeur du champ est définie sur 0, ce qui signifie que toutes les erreurs seront ignorées.
 * Le code SQL généré lors de la gestion des conditions de restriction d’accès à l’entité a été optimisé.
-* L’activité **[!UICONTROL Mise à jour]** permet maintenant d’ajouter, de mettre à jour ou de supprimer des données relatives aux abonnements (table nms:appSubscriptionRcp).
+* L&#39;activité **[!UICONTROL Mise à jour]** vous permet désormais d&#39;ajouter, de mettre à jour ou de supprimer des données relatives aux abonnements (table nms:appSubscriptionRcp).
 * Le workflow technique **[!UICONTROL Mise à jour de l’exécution des diffusions]** a été divisé en deux workflows afin d’optimiser les performances : - **[!UICONTROL Mise à jour de l’exécution des diffusions]** : met à jour le tracking de la diffusion. Par défaut, il est démarré toutes les 10 minutes. **[!UICONTROL Mise à jour des indicateurs de diffusion]** : met à jour les indicateurs clés de performance (KPI) de la diffusion. Par défaut, il est démarré toutes les heures. Pour plus d’informations sur les workflows techniques, voir cette [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 * Lorsqu’une diffusion envoie des messages, le statut dans la section **[!UICONTROL Déploiement]** peut maintenant avoir deux valeurs : **[!UICONTROL Envoi]** : les messages sont en cours d’envoi. **[!UICONTROL Envoi (nouvel essai)]** : un nouvel essai est en cours.
 * Les utilisateurs disposant du rôle **[!UICONTROL Préparation de la diffusion]** peuvent maintenant envoyer des bons à tirer. (CAMP-24313)
@@ -230,7 +229,7 @@ ht-degree: 99%
 * Les propriétés et la structure des workflows techniques peuvent désormais être modifiées par les utilisateurs disposant de droits d’administration et appartenant aux entités organisationnelles et géographiques &quot;Toutes&quot;.
 * Des améliorations ont été apportées à l’interface de l’activité Segmentation lors de la création de nouveaux segments : l’onglet Limitation apparaît désormais directement après avoir ajouté une limitation. De nouveaux noms de segments sont maintenant incrémentés (&quot;Segment 1&quot;, &quot;Segment 2&quot;, etc.).
 * Un champ &quot;nextProcessingDate&quot; est ajouté à la ressource Workflow. Ce champ n’est visible que via les appels d’API REST ; il vous permet de visualiser les dates de prochain traitement des workflows.
-* Le champ &quot;sourceId&quot; est désormais affiché dans la ressource de tracking (nms:trackingLog).
+* Le champ « sourceId » est maintenant exposé dans la ressource des logs de tracking (nms:trackingLog).
 * Les valeurs &quot;Nombre total d’ouvertures&quot; et &quot;Nombre total de clics&quot; peuvent désormais être exportées dans un fichier plat via un workflow. (CAMP-24186)
 * &quot;Anglais - Danemark&quot; est désormais disponible dans la liste des Préférences linguistiques au sein des profils. (CAMP-23728)
 * Lors de l’utilisation d’une activité Segmentation avec un lien Données additionnelles (targetData), un message vous informe désormais que les données ne sont pas disponibles en dehors du workflow. Ce message s’affiche lorsque vous cliquez sur le bouton Compter ou Aperçu depuis l’activité Segmentation. (CAMP-23651)
@@ -261,7 +260,7 @@ _Plateforme_
 
 * Corrections d’une erreur qui pouvait empêcher le bon traitement des demandes d’accès ou de suppression du RGPD. Ce comportement a été observé dans de rares cas lorsque les données extraites contenaient l’un des caractères suivants : &amp; &lt; > &quot; ’.
 
-_Emails, SMS et courrier_
+_E-mails, SMS et courrier_
 
 * Correction d’un problème qui pouvait entraîner le remplacement des KPI par des valeurs incorrectes si la synchronisation du broadlog prenait plus d’une heure.
 
@@ -301,7 +300,7 @@ _Ressources personnalisées_
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 
-   <td> Le nouvel outil Creative Designer d’Adobe Campaign offre un environnement de création entièrement intégré dans Campaign, permettant la création rapide et facile d’emails personnalisés, sans avoir à écrire une seule ligne de code. Grâce à sa puissante interface de conception par glisser-déposer, Creative Designer permet de créer facilement des emails à partir de zéro ou en utilisant des fragments ou des modèles de contenu existants. <br />Les fonctionnalités principales sont les suivantes :<br /> 
+   <td> Le nouvel outil Creative Designer d’Adobe Campaign offre un environnement de création entièrement intégré dans Campaign, permettant la création rapide et facile d’emails personnalisés, sans avoir à écrire une seule ligne de code. Grâce à sa puissante interface de conception par glisser-déposer, Creative Designer permet de créer facilement des e-mails à partir de zéro ou en utilisant des fragments ou des modèles de contenu existants. <br />Les fonctionnalités principales sont les suivantes :<br /> 
     <ul> 
      <li> Créez visuellement des emails personnalisés et au design responsive grâce à une interface de conception par glisser-déposer, complétée par des intégrations Creative Cloud natives. </li> 
      <li> Créez et enregistrez un modèle de contenu d’email et utilisez des modèles enregistrés pour faciliter la création d’emails. </li> 
@@ -331,7 +330,7 @@ _Plateforme_
 * Correction d’un problème qui empêchait l’export de plus de 5 000 enregistrements d’une liste.
 * Correction d’un problème lors de l’export de données vers des fichiers nommés avec des champs de personnalisation.
 
-_Emails, SMS et courrier_
+_E-mails, SMS et courrier_
 
 * Correction d’un problème qui entraînait la troncature des SMS en plusieurs parties, car la taille des parties était calculée en caractères et non en octets.
 * Ajout d’une option permettant de mettre à jour en temps réel le KPI **[!UICONTROL Délivrés]** ou **[!UICONTROL Rebonds + erreurs]** après l’envoi de la diffusion. Ils sont directement recalculés à partir du SR (Status Report) reçu du fournisseur.
@@ -362,7 +361,7 @@ _Intégrations_
 * Les ressources doivent à présent se charger plus rapidement lorsque vous insérez une image dans un message depuis votre bibliothèque de ressources Experience Cloud.
 * Correction d’un problème qui empêchait, dans certains cas, la fermeture de la fenêtre de sélection de ressources.
 * Depuis le détail d’une source de données, vous pouvez à présent accéder directement au workflow associé pour en vérifier l’état.
-* Vous pouvez maintenant mettre directement à jour le schéma Triggers lors de la définition ou de l’édition d’un événement de trigger. Grâce à cette modification, vous n’avez plus à dépublier le trigger et en créer un autre.
+* Vous pouvez maintenant mettre directement à jour le schéma Triggers lors de la définition ou de l’édition d’un événement de déclenchement. Grâce à cette modification, vous n’avez plus à dépublier le déclencheur et en créer un autre.
 
 _Messages transactionnels_
 
@@ -399,7 +398,7 @@ _Plateforme_
 * Mise à jour de la barre supérieure de l’interface d’Adobe Campaign avec le nouveau menu d’Experience Cloud.
 * Correction d’une erreur qui empêchait l’affichage du lien vers les **[!UICONTROL Offres]** dans la liste déroulante de la solution.
 
-_Emails, SMS et courrier_
+_E-mails, SMS et courrier_
 
 * Amélioration de la phase de préparation des diffusions pour optimiser les performances.
 * Correction de plusieurs problèmes qui entraînaient l’endommagement du tracking dans certains cas très spécifiques.
@@ -455,7 +454,7 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
   </tr> 
   <tr> 
    <td> Nouvelles fonctionnalités push<br /> </td> 
-   <td> Prévisualisation des notifications push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où un utilisateur ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’un utilisateur.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs peuvent utiliser l’option Contenu mutable pour :<br /> 
+   <td> Prévisualisation des messages push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où un utilisateur ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’un utilisateur.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs peuvent utiliser l’option Contenu mutable pour :<br /> 
     <ul> 
      <li> déchiffrer des données diffusées dans un format chiffré ; </li> 
      <li> télécharger des images ou d’autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ; </li> 
@@ -481,7 +480,7 @@ _Plateforme_
 * La recherche de profils a été optimisée afin d’améliorer les performances.
 * L’identifiant interne des groupes de sécurité par défaut est désormais en mode de lecture seule pour les utilisateurs standard.
 
-_Emails, SMS et courrier_
+_E-mails, SMS et courrier_
 
 * Correction d’une erreur d’affichage qui se produisait lors de l’insertion d’emojis dans le contenu des diffusions.
 * Correction d’une erreur qui permettait à l’utilisateur d’accéder aux envois alors que la diffusion était toujours en édition.

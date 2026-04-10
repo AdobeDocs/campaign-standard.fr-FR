@@ -1,17 +1,16 @@
 ---
 title: Mettre à jour la qualification des rebonds après une panne d’un FAI
-description: Découvrez comment mettre à jour la qualification des rebonds après une panne d’un fournisseur d’accès à Internet.
+description: Découvrez comment mettre à jour la qualification des rebonds après une panne d'un fournisseur d'accès à Internet.
 audience: delivery
-hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 100%
+source-wordcount: '443'
+ht-degree: 86%
 
 ---
 
-# Mettre à jour la qualification des rebonds après une panne d’un FAI{#update-bounce-qualification.md}
+# Mettre à jour la qualification des rebonds après une panne d’un FAI {#update-bounce-qualification.md}
 
 ## Contexte
 
@@ -19,11 +18,11 @@ En cas de panne d’un fournisseur d’accès à Internet, les emails envoyés p
 
 En décembre 2020, un problème mondial qui a affecté Gmail a entraîné des rebonds définitifs incorrects lors de l’envoi d’e-mails à des adresses Gmail valides. Les serveurs Gmail les ont incorrectement rejetés pour cause d’adresses e-mail non valides avec la réponse suivante : *« 550-5.1.1 Le compte de messagerie que vous avez tenté d’atteindre n’existe pas. »*
 
-Google a déclaré que les pannes et interruptions de Gmail qui ont causé ce problème ont commencé le 14 décembre à 6h55 et se sont terminées à 18h09 EST le 15 décembre. Notre analyse de données a également montré un pic très court des rebonds Gmail à 2h06 EST le 16 décembre, la majorité s’étant produits le 15 décembre entre 14h00 HNE et 18h30 EST.
+Google a déclaré que les pannes et les perturbations de Gmail à l’origine de ce problème ont commencé le 14 décembre à :55AM et se sont terminées à 6:09PM EST le 15 décembre. Notre analyse des données a également montré un pic très court dans les bounces Gmail à 2:06AM EST le 16 décembre, la majorité se produisant le 15 décembre entre 14:00 EST et 18:30 EST.
 
 >[!NOTE]
 >
->Vous pouvez vérifier le tableau de bord d’état de Google Workspace sur [cette page](https://www.google.com/appsstatus#hl=fr&amp;v=status).
+>Vous pouvez vérifier le tableau de bord d’état de Google Workspace sur [cette page](https://www.google.com/appsstatus#hl=fr&v=status).
 
 
 Selon la logique standard de gestion des rebonds, Adobe Campaign a automatiquement ajouté ces destinataires à la liste de quarantaine avec un paramètre **[!UICONTROL Statut]** de **[!UICONTROL Quarantaine]**. Pour corriger ce problème, vous devez mettre à jour votre table de quarantaines dans Campaign en recherchant et en supprimant ces destinataires ou en basculant leur **[!UICONTROL Statut]** sur **[!UICONTROL Valide]** afin que le processus de nettoyage de nuit les supprime.
@@ -34,7 +33,7 @@ Pour trouver les destinataires qui ont été affectés par ce problème Gmail, o
 
 Vous devrez exécuter une requête sur votre table de quarantaine pour filtrer tous les destinataires Gmail (ou autres FAI) qui ont été potentiellement affectés par la panne afin qu’ils puissent être supprimés de la liste de quarantaine et inclus dans les futures diffusions d’emails de Campaign.
 
-En fonction du calendrier de l’incident, voici les instructions recommandées pour cette requête.
+En fonction du calendrier de l&#39;incident, voici les instructions recommandées pour cette requête.
 
 >[!IMPORTANT]
 >

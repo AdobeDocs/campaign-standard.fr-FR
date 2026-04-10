@@ -5,10 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
-workflow-type: ht
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+workflow-type: tm+mt
 source-wordcount: '7298'
 ht-degree: 100%
 
@@ -31,7 +30,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
 
 * Les notes de mise à jour de la version automne/hiver 2023 de Campaign Standard 23.2 ont été publiées. [En savoir plus](release-notes.md)
 
-* JWT (JSON Web Tokens) est actuellement en cours d’obsolescence et est remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera modifiée pour refléter ces mises à jour.
+* JWT (JSON Web Tokens) est actuellement en voie de devenir obsolète et sera remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera modifiée pour refléter ces mises à jour.
 
 ## Octobre 2023 {#doc-updates-oct-2023}
 
@@ -62,7 +61,7 @@ Les notes de mise à jour de la version automne/hiver 2022 de Campaign Standar
 
 **Adobe Notification Service** - Campaign est fourni avec Adobe Notification Service, qui permet aux solutions Experience Cloud de tenir les utilisateurs d’Experience Cloud informés des activités qui leur sont importantes. [En savoir plus](../../administration/using/sending-internal-notifications.md).
 
-**Autres modifications**
+**Autres changements**
 
 Les intégrations avec le Connecteur d’Adobe Experience Platform et le service Audience Destinations sont désormais obsolètes. [En savoir plus](deprecated-features.md)
 
@@ -423,7 +422,7 @@ Le guide de prise en main sur l&#39;export/import des ressources personnalisées
 
 Ajout d’un nouveau cas pratique, décrivant comment créer une population témoin à l’aide d’un workflow dans Campaign Standard.
 
-Les informations relatives aux propriétés des pages de destination ont été déplacées dans une section dédiée. [En savoir plus](../../channels/using/configuring-landing-page.md)
+Les informations relatives aux propriétés des landing pages ont été déplacées dans une section dédiée. [En savoir plus](../../channels/using/configuring-landing-page.md)
 
 La documentation du Panneau de contrôle a été intégrée au nouvel ensemble de documentation collaborative. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 
@@ -477,7 +476,7 @@ Une nouvelle section a été ajoutée dans la section des notifications push sur
 
 Un nouvel exemple a été ajouté pour montrer comment envoyer un email contenant des données supplémentaires extraites d&#39;une activité de chargement de fichier. [En savoir plus](../../automating/using/sending-email-enriched-fields.md)
 
-Une nouvelle section sur l&#39;utilisation des pièges a été ajoutée. [En savoir plus](../../sending/using/using-traps.md)
+Une nouvelle section sur l&#39;utilisation des pièges a été ajoutée. [En savoir plus](../../sending/using/using-traps.md).
 
 Une note sur l&#39;option **Launch_URL_Campaign** a été ajoutée à la page sur la configuration d&#39;une application mobile à l&#39;aide des SDK Adobe Experience Platform. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html)
 
@@ -825,7 +824,7 @@ Ajout d&#39;informations sur la configuration des landing pages pour offrir aux 
 
 Réorganisation de la section [Configuration des messages transactionnels](../../channels/using/configuring-transactional-event.md) et ajout d&#39;un [cas pratique détaillé](../../channels/using/transactional-messaging-use-case.md).
 
-Ajout d&#39;une note technique permettant d&#39;apprendre comment générer un fichier CSV multilingue à utiliser pour les notifications push. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-generate-csv-multilingual-push.html)
+Ajout d&#39;une note technique permettant d&#39;apprendre comment générer un fichier CSV multilingue à utiliser pour les notifications push. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-generate-csv-multilingual-push.html).
 
 Ajout d&#39;informations sur le modèle d&#39;import **Mettre à jour les logs de diffusion et les mises en quarantaine Courrier**. [En savoir plus](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
@@ -833,7 +832,7 @@ Mise à jour de la liste des workflows techniques. [En savoir plus](../../admini
 
 Mise à jour de la section relative à l&#39;activité Planificateur. [En savoir plus](../../automating/using/scheduler.md)
 
-Mise à jour de la liste des ressources d&#39;aide concernant l&#39;intégration des solutions Campaign et Adobe. [En savoir plus](../../integrating/using/get-started-campaign-integrations.md)
+Mise à jour de la liste des ressources d&#39;aide concernant l&#39;intégration des solutions Campaign et Adobe. [En savoir plus](../../integrating/using/get-started-campaign-integrations.md).
 
 Mise à jour de l’aide contextuelle intégrée à Campaign Standard.
 

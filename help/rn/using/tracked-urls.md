@@ -1,10 +1,9 @@
 ---
 title: Problème de signature des URL trackées
 description: Problème de signature des URL trackées
-hidefromtoc: true
 hide: true
 exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%
@@ -25,7 +24,7 @@ Certains utilisateurs Campaign Standards sont affectés, car le mécanisme de s
 
 **Comment effectuer la mise à jour ?**
 
-Adobe travaillera avec vous pour mettre à jour votre configuration sous peu. Vous recevrez une notification par e-mail avec votre planning de mise à niveau.
+Adobe travaillera avec vous pour mettre à jour votre configuration sous peu. Vous recevrez une notification par e-mail avec votre chronologie de mise à niveau.
 
 **Quel est l&#39;impact ?**
 

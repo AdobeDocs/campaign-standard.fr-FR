@@ -4,11 +4,10 @@ description: Besoin d’aide pour Campaign Standard ? Vous êtes au bon endroi
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
-hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
@@ -61,7 +60,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Gestion du fuseau horaire</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Réception d’une notification en cas d’échec</a></li>
         <li><a href="designing/using/using-existing-content.md">Import ou conversion d’un contenu d’email</a></li>
-        <li><a href="sending/using/delivery-best-practices.md">Bonnes pratiques relatives à la diffusion</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Bonnes pratiques de diffusion</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -89,7 +88,7 @@ Le Panneau de contrôle accroît votre efficacité en tant qu’administrateur d
 
 >[!NOTE]
 >
->Le Panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+>Le Panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 
 ### Comment accéder au Panneau de contrôle ?
 
