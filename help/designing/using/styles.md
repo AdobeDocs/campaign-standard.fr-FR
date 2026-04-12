@@ -146,7 +146,7 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
 ### Exemple : ajustement de la marge intérieure et de l&#39;alignement vertical {#example--adjusting-vertical-alignment-and-padding}
 
-Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes. Pour cela, procédez comme suit :
+Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes. Pour ce faire, procédez comme suit :
 
 1. Sélectionnez le composant de structure, directement dans l&#39;email ou à l&#39;aide de l&#39;arborescence dans la **Palette** gauche.
 1. Dans la **barre d&#39;outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à éditer. Vous pouvez également la sélectionner dans l&#39;arborescence.
