@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
-workflow-type: ht
-source-wordcount: '1261'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1260'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Voici les principales étapes pour créer entièrement un contenu d’email à l
 1. Prévisualisez l’email.
 1. Enregistrez votre contenu et traitez votre message après avoir vérifié que vous avez défini une audience et correctement planifié l’envoi.
 
-Vous pouvez également regarder cette [vidéo de présentation](https://video.tv.adobe.com/v/330100/?autoplay=true&hidetitle=true&captions=fre_fr).
+Vous pouvez également regarder cette [vidéo de présentation](https://video.tv.adobe.com/v/330100/?captions=fre_fr&autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Pour éditer la structure d’un email :
 
 1. Plusieurs composants de structure constitués d’une ou de plusieurs colonnes sont disponibles.
 
-   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -81,24 +81,24 @@ Pour éditer la structure d’un email :
 
 Lorsque la structure est définie, vous pouvez ajouter des fragments de contenu et des composants à votre email.
 
-## Utilisation d’un pré-titre  {#preheader}
+## Utilisation d’un pré-en-tête  {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Utilisation d’un pré-titre "
->abstract="Le pré-titre permet de configurer un texte de résumé court qui vous permettra de bénéficier d’un taux d’ouverture plus élevé pour votre email."
+>title="Utilisation d’un pré-en-tête"
+>abstract="Le pré-en-tête permet de configurer un texte de résumé court qui vous permettra de bénéficier d’un taux d’ouverture plus élevé pour votre e-mail."
 
-Un pré-titre est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre boîte de réception. Le pré-titre permet d’obtenir un taux d’ouverture plus élevé.
+Un pré-en-tête est un texte de résumé court qui suit l’objet d’un message lorsque vous le visualisez depuis votre boîte de réception. Le pré-en-tête permet d’obtenir un taux d’ouverture plus élevé.
 
-Sélectionnez la zone de modification du **[!UICONTROL pré-titre]** et complétez le contenu.
+Sélectionnez la zone de modification du **[!UICONTROL pré-en-tête]** et renseignez le contenu.
 
 ![](assets/email_designer_preheader.png)
 
-Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou un **[!UICONTROL champ de personnalisation]** dans le contenu du pré-titre.
+Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou un **[!UICONTROL champ de personnalisation]** dans le contenu du pré-en-tête.
 
 >[!NOTE]
 >
->Le pré-titre n’est pas compatible avec tous les programmes de messagerie. Lorsqu’il n’est pas pris en charge, le pré-titre ne s’affiche pas.
+>Le pré-en-tête n’est pas compatible avec tous les programmes de messagerie. Lorsqu’il n’est pas pris en charge, le pré-en-tête ne s’affiche pas.
 
 ## Utilisation des composants de contenu {#about-content-components}
 
