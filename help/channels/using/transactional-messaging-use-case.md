@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '530'
+workflow-type: ht
+source-wordcount: '534'
 ht-degree: 100%
 
 ---
@@ -44,11 +44,11 @@ Les principales étapes de mise en œuvre de ce cas pratique sont présentées c
 
    ![](assets/message-center_usecase1.png)
 
-1. Pour enrichir le contenu du message avec des informations sur les achats du client, créez un enrichissement ciblant la ressource **[!UICONTROL Achat]**. Voir [Enrichir l&#39;événement](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content).
+1. Pour enrichir le contenu du message avec des informations sur les achats du client ou de la cliente, créez un enrichissement ciblant la ressource **[!UICONTROL Achat]**. Voir [Enrichir l&#39;événement](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content).
 
    ![](assets/message-center_usecase2.png)
 
-1. Créez une condition de jointure entre le champ « Identifiant produit » ajouté précédemment au message et le champ correspondant dans la ressource **[!UICONTROL Achat]**.
+1. Créez une condition de jointure entre le champ « Identifiant produit » ajouté précédemment à l’événement et le champ correspondant dans la ressource **[!UICONTROL Achat]**.
 
    ![](assets/message-center_usecase3.png)
 
@@ -58,7 +58,7 @@ Les principales étapes de mise en œuvre de ce cas pratique sont présentées c
 
    ![](assets/message-center_usecase4.png)
 
-1. Dans la section **[!UICONTROL Enrichissement de la cible]**, sélectionnez l’enrichissement dans la ressource **[!UICONTROL Profil]** qui sera utilisé en tant que cible des messages pendant l’exécution de la diffusion.
+1. Dans la section **[!UICONTROL Enrichissement du ciblage]**, sélectionnez l’enrichissement dans la ressource **[!UICONTROL Profil]** qui sera utilisé en tant que cible des messages pendant l’exécution de la diffusion.
 
    ![](assets/message-center_usecase5.png)
 
@@ -74,7 +74,7 @@ Les principales étapes de mise en œuvre de ce cas pratique sont présentées c
 
    ![](assets/message-center_usecase6.png)
 
-1. Grâce à la réconciliation avec le champ « Identifiant produit », vous pouvez enrichir le contenu du message avec des informations sur les achats du client en ajoutant n’importe quel champ de la ressource **[!UICONTROL Achat]**.
+1. Grâce à la réconciliation avec le champ « Identifiant produit », vous pouvez enrichir le contenu du message avec des informations sur les achats du client ou de la cliente en ajoutant n’importe quel champ de la ressource **[!UICONTROL Achat]**.
 
    ![](assets/message-center_usecase7.png)
 

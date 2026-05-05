@@ -10,8 +10,8 @@ role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
-workflow-type: tm+mt
-source-wordcount: '1850'
+workflow-type: ht
+source-wordcount: '1853'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Lors de l&#39;édition de la ressource, dans l&#39;onglet **[!UICONTROL Structur
 * [Liens](#defining-links-with-other-resources)
 * [Envois](#defining-sending-logs-extension)
 
-## Ajouter des champs à une ressource       {#adding-fields-to-a-resource}
+## Ajouter des champs à une ressource {#adding-fields-to-a-resource}
 
 Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les données qui ne font pas partie du modèle de données d&#39;usine.
 
@@ -43,11 +43,11 @@ Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les donnée
 
    ![](assets/schema_extension_4.png)
 
-1. Pour modifier l&#39;un des champs, cliquez sur le bouton **[!UICONTROL Editer les propriétés]**.
+1. Pour modifier l’un des champs, cliquez sur le bouton **[!UICONTROL Modifier les propriétés]**.
 
    ![](assets/schema_extension_24.png)
 
-1. Dans l&#39;écran **[!UICONTROL Définition du champ]**, vous pouvez définir une catégorie qui servira pour l&#39;audience et le ciblage ou encore ajouter une description.
+1. Dans l’écran **[!UICONTROL Définition du champ]**, vous pouvez définir une catégorie qui servira pour l’audience et le ciblage ou encore ajouter une description.
 
    ![](assets/schema_extension_5.png)
 
@@ -71,7 +71,7 @@ Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les donnée
 
 Les champs de votre ressource sont maintenant définis.
 
-## Définir les clés d&#39;identification       {#defining-identification-keys}
+## Définir les clés d&#39;identification {#defining-identification-keys}
 
 Chaque ressource doit posséder au moins une clé permettant de l&#39;identifier de manière unique. Vous pouvez par exemple définir une clé pour que deux produits ne puissent pas avoir le même ID dans une table d&#39;achats.
 
@@ -99,7 +99,7 @@ Les clés d&#39;identification de la ressource sont maintenant créées.
 >
 >Pour en savoir plus sur les bonnes pratiques lors de la création de clés d’identification, consultez cette [section](../../developing/using/data-model-best-practices.md#keys).
 
-## Définir les index       {#defining-indexes}
+## Définir les index {#defining-indexes}
 
 Un index peut référencer un ou plusieurs champs de la ressource. Les index permettent à la base de données de trier les enregistrements afin de les retrouver plus facilement. Ils optimisent les performances des requêtes SQL.
 
@@ -127,7 +127,7 @@ Les index créés s&#39;affichent dans la liste de la section **[!UICONTROL Inde
 >
 >Pour en savoir plus sur les bonnes pratiques lors de la création d’index, consultez cette [section](../../developing/using/data-model-best-practices.md#indexes).
 
-## Définir les liens avec d’autres ressources {#defining-links-with-other-resources}
+## Définition de liens avec d’autres ressources {#defining-links-with-other-resources}
 
 Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
 
@@ -152,7 +152,7 @@ Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
 
    ![](assets/schema_extension_29.png)
 
-1. Dans l&#39;écran **[!UICONTROL Nouveau lien]**, les champs **[!UICONTROL Libellé]** et **[!UICONTROL Identifiant]** sont renseignés par défaut, mais vous pouvez les modifier.
+1. Dans l’écran **[!UICONTROL Nouveau lien]**, les champs **[!UICONTROL Libellé]** et **[!UICONTROL Identifiant]** sont renseignés par défaut, mais vous pouvez les modifier.
 
    >[!NOTE]
    >
@@ -168,14 +168,14 @@ Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
 
    ![](assets/schema_extension_16.png)
 
-1. Dans la section **[!UICONTROL Définition de la jointure]**, l&#39;option par défaut **[!UICONTROL Utiliser les clés primaires pour faire la jointure]** est sélectionnée, mais vous pouvez effectuer une sélection parmi deux options :
+1. Dans la section **[!UICONTROL Définition de la jointure]**, l’option par défaut **[!UICONTROL Utiliser les clés primaires pour faire la jointure]** est sélectionnée, mais vous pouvez effectuer une sélection parmi deux options :
 
    * **[!UICONTROL Utiliser les clés primaires pour faire la jointure]** : cette définition de jointure vous permet d&#39;utiliser la clé primaire des profils pour effectuer une réconciliation avec la clé primaire des achats.
    * **[!UICONTROL Définir des conditions de jointure spécifiques]** : cette définition de jointure vous permet de sélectionner manuellement les champs qui effectuent une jointure entre les deux ressources. Si les données ne sont pas correctement configurées, l&#39;enregistrement **Achat** ne sera pas visible.
 
    ![](assets/schema_extension_17.png)
 
-Les liens créés s&#39;affichent dans la liste de la section **[!UICONTROL Liens]**.
+Les liens créés s’affichent dans la liste de la section **[!UICONTROL Liens]**.
 
 >[!NOTE]
 >
@@ -238,7 +238,7 @@ Pour plus d&#39;informations sur le code segment, voir la section [Segmentation]
 
 >[!NOTE]
 >
->L&#39;administrateur doit avoir étendu la ressource Profil avec un champ personnalisé.
+>L’administrateur doit avoir étendu la ressource Profil avec un champ personnalisé.
 
 ![](assets/sendinglogsextension_2.png)
 
@@ -256,17 +256,17 @@ Pour plus d&#39;informations sur les rapports dynamiques, voir la [Liste des com
 >
 >Le nombre de champs envoyés aux rapports dynamiques est limité à 20.
 
-## Editer les propriétés d&#39;une ressource       {#editing-resource-properties}
+## Editer les propriétés d&#39;une ressource {#editing-resource-properties}
 
 Dans l&#39;écran de la ressource personnalisée, le volet **[!UICONTROL Résumé]** indique le statut de la ressource nouvellement créée. Vous pouvez gérer son accès et ses propriétés générales.
 
 ![](assets/schema_extension_3.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Editer les propriétés]** pour ajouter une description.
+1. Cliquez sur le bouton **[!UICONTROL Modifier les propriétés]** pour ajouter une description.
 
    ![](assets/schema_extension_30.png)
 
-1. Si besoin, modifiez le libellé et l&#39;identifiant de la ressource.
+1. Si besoin, modifiez le libellé et l’identifiant de la ressource.
 
    >[!NOTE]
    >

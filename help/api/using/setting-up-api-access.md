@@ -11,7 +11,7 @@ level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '442'
+source-wordcount: '497'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Pour configurer l’accès aux API d’Adobe Campaign Standard, procédez comm
 
    >[!IMPORTANT]
    >
-   >JWT (JSON Web Tokens) est actuellement en cours d’obsolescence et est remplacé par OAuth. La transition se fera progressivement dans les prochaines versions de Campaign. Bien que les informations d’identification du compte de service (JWT) aient été marquées comme obsolètes, elles continueront de fonctionner jusqu’au 27 janvier 2025. Par conséquent, vous devez migrer votre application ou intégration pour utiliser les nouvelles informations d’identification OAuth serveur à serveur avant le 27 janvier 2025. L’authentification OAuth est préférable. Vous trouverez tous les éléments à migrer de l’authentification JWT vers l’authentification OAuth sur ces pages :
+   >JWT (JSON Web Tokens) est actuellement en voie de devenir obsolète et sera remplacé par OAuth. La transition se fera progressivement dans les prochaines versions de Campaign. Bien que les informations d’identification du compte de service (JWT) aient été marquées comme obsolètes, elles continueront de fonctionner jusqu’au 27 janvier 2025. Par conséquent, vous devez migrer votre application ou intégration pour utiliser les nouvelles informations d’identification OAuth serveur à serveur avant le 27 janvier 2025. L’authentification OAuth est préférable. Vous trouverez tous les éléments à migrer de l’authentification JWT vers l’authentification OAuth sur ces pages :
    >* [Migration](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [Mise en œuvre](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
    >* [Questions fréquentes sur l’obsolescence de JWT](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)

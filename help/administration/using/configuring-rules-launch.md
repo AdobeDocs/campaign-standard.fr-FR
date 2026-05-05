@@ -10,8 +10,8 @@ role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: tm+mt
-source-wordcount: '1154'
+workflow-type: ht
+source-wordcount: '1226'
 ht-degree: 100%
 
 ---
@@ -139,7 +139,7 @@ Pour envoyer des données de PII à [!DNL Adobe Campaign Standard], créez une r
 
 1. Dans **[!UICONTROL Content Type]**, saisissez **application/json**.
 
-1. Dans **[!UICONTROL Timeout]**, sélectionnez 0.
+1. Dans **[!UICONTROL Délai d’expiration]**, sélectionnez 0.
 
    ![](assets/do-not-localize/rules_2.png)
 
@@ -179,7 +179,7 @@ Pour envoyer des données de tracking à [!DNL Adobe Campaign Standard] afin d�
 
 1. Dans **[!UICONTROL Content Type]**, saisissez **application/json**.
 
-1. Dans **[!UICONTROL Timeout]**, sélectionnez 0.
+1. Dans **[!UICONTROL Délai d’expiration]**, sélectionnez 0.
 
    ![](assets/do-not-localize/rules_3.png)
 
@@ -221,7 +221,7 @@ Pour tracker les actions de l&#39;application, utilisez l&#39;API trackAction. P
 
 1. Dans **[!UICONTROL Content Type]**, saisissez **application/json**.
 
-1. Dans **[!UICONTROL Timeout]**, sélectionnez 0.
+1. Dans **[!UICONTROL Délai d’expiration]**, sélectionnez 0.
 
 ### Postback de l&#39;emplacement {#location-postback}
 
@@ -231,9 +231,9 @@ Pour tracker les actions de l&#39;application, utilisez l&#39;API trackAction. P
 
 1. Dans la section **[!UICONTROL Events]**, cliquez sur **[!UICONTROL Add]**.
 
-1. Créez un événement, par exemple, Entrée dans un point ciblé ou Sortie d&#39;un point ciblé. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **Places - Version bêta**. Ensuite, **Enter POI** ou **Exit POI** dans la liste déroulante **[!UICONTROL Event type]**.
+1. Créez un événement, par exemple, Entrée dans un point ciblé ou Sortie d&#39;un point ciblé. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **Places - Beta**. Ensuite, **Enter POI** ou **Exit POI** dans la liste déroulante **[!UICONTROL Event type]**.
 
-1. Entrez un nom, par exemple, **Places - Version bêta - Entrée dans un point ciblé** ou **Sortie d&#39;un point ciblé**.
+1. Entrez un nom, par exemple, **Places - Beta - Entrée dans un point ciblé** ou **Sortie d’un point ciblé**.
 
 1. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Add]**.
 
@@ -268,6 +268,6 @@ Pour tracker les actions de l&#39;application, utilisez l&#39;API trackAction. P
 
 1. Dans **[!UICONTROL Content Type]**, saisissez **application/json**.
 
-1. Dans **[!UICONTROL Timeout]**, sélectionnez 5.
+1. Dans **[!UICONTROL Délai d’expiration]**, sélectionnez 5.
 
    ![](assets/do-not-localize/rules_4.png)

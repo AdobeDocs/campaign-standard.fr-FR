@@ -9,8 +9,8 @@ role: Developer
 level: Experienced
 exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '264'
+workflow-type: ht
+source-wordcount: '265'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Cette ressource peut être étendue pour collecter les données que vous avez l&
 
    ![](assets/in_app_personal_data_4.png)
 
-1. Dans la catégorie **[!UICONTROL Champs]** de l&#39;onglet **[!UICONTROL Structure de données]**, définissez les données du client à récupérer de l&#39;application mobile en cliquant sur le bouton **[!UICONTROL Ajouter un champ]**.
+1. Dans la catégorie **[!UICONTROL Champs]** de l’onglet **[!UICONTROL Structure de données]**, définissez les données du client ou de la cliente à récupérer de l’application mobile en cliquant sur le bouton **[!UICONTROL Ajouter un champ]**.
 
    >[!NOTE]
    >

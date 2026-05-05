@@ -12,7 +12,7 @@ level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1258'
+source-wordcount: '1260'
 ht-degree: 100%
 
 ---
@@ -141,7 +141,8 @@ Adobe Campaign propose divers logs pour mieux comprendre les problèmes liés a
 ### Utilisation des logs de workflow{#using-workflow-logs}
 
 Vous pouvez accéder aux logs de workflow pour surveiller l&#39;exécution de vos activités. Ils répertorient par ordre chronologique les opérations réalisées et les erreurs d&#39;exécution. L&#39;onglet Logs contient l&#39;historique de l&#39;exécution de toutes les activités ou de celles sélectionnées.
-L&#39;onglet Tâches permet de voir le séquencement de l&#39;exécution des activités. Pour obtenir plus d&#39;informations sur une activité, cliquez sur une tâche. Pour plus d&#39;informations, consultez [Surveiller l&#39;exécution des workflows](../../automating/using/monitoring-workflow-execution.md).
+L’onglet Tâches permet de voir le séquencement de l’exécution des activités.Pour obtenir plus d&#39;informations sur une activité, cliquez sur une tâche.
+Pour plus d&#39;informations, consultez [Surveiller l&#39;exécution des workflows](../../automating/using/monitoring-workflow-execution.md).
 
 #### Résolution des problèmes liés aux activités Data Management{#troubleshooting-data-management-activities}
 

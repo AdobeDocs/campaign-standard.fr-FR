@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '757'
+workflow-type: ht
+source-wordcount: '761'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Une fois le message publié et l’intégration de votre site effectuée, lorsqu
 Une **diffusion d&#39;exécution** est un message technique non exploitable et non fonctionnel créé une fois par mois pour chaque message transactionnel, et chaque fois qu’un message transactionnel est modifié et publié de nouveau.
 
 **Rubriques connexes** :
-* [Publier un message transactionnel           ](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Publier un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 * [Intégrer le déclenchement de l&#39;événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Processus de reprise de la messagerie transactionnelle {#transactional-message-retry-process}
@@ -39,7 +39,7 @@ En cas d’échec de l’envoi d’un message transactionnel, il existe deux sys
 * Au niveau des messages transactionnels, un message transactionnel peut échouer avant que l’événement ne soit assigné à une diffusion d’exécution, c’est-à-dire entre la réception de l’événement et la préparation de la diffusion. Voir [Processus de reprise du traitement d’un événement](#event-processing-retry-process).
 * Au niveau du processus d’envoi, une fois l’événement assigné à une diffusion d’exécution, le message transactionnel peut échouer en raison d’une erreur temporaire. Voir [Processus de reprise de l’envoi d’un message](#message-sending-retry-process).
 
-### Processus de reprise du traitement d’un événement            {#event-processing-retry-process}
+### Processus de reprise du traitement d’un événement {#event-processing-retry-process}
 
 Lorsqu’un événement est déclenché, il est affecté à une diffusion d’exécution. Si l’événement ne peut pas être assigné à une diffusion d’exécution, son traitement est reporté. Des reprises sont ensuite effectuées jusqu’à ce qu’il soit assigné à une nouvelle diffusion d’exécution.
 
@@ -47,9 +47,9 @@ Lorsqu’un événement est déclenché, il est affecté à une diffusion d’ex
 >
 >Un événement reporté n’apparaît pas dans les logs d’envoi de messages transactionnels, car il n’est pas encore assigné à une diffusion d’exécution.
 
-Par exemple, l’événement ne pourrait pas être assigné à une diffusion d’exécution, en raison d’un contenu incorrect, d’un problème de droits d’accès ou de branding, d’une erreur détectée lors de l’application des règles de typologie, etc. Dans ce cas, vous pouvez mettre le message en pause, l’éditer pour résoudre le problème et le publier à nouveau. Le système de reprise l’assignera ensuite à une nouvelle diffusion d’exécution.
+Par exemple, l’événement ne pouvait pas être assigné à une diffusion d’exécution en raison d’un contenu incorrect, d’un problème de droits d’accès ou de branding, d’une erreur détectée lors de l’application des règles de typologie, etc. Dans ce cas, vous pouvez mettre le message en pause, le modifier pour corriger le problème, puis le publier à nouveau.Le système de reprise l’assignera ensuite à une nouvelle diffusion d’exécution.
 
-### Processus de reprise de l’envoi d’un message            {#message-sending-retry-process}
+### Processus de reprise de l’envoi d’un message {#message-sending-retry-process}
 
 Une fois que l’événement a été assigné à une diffusion d’exécution, le message transactionnel peut échouer en raison d’une erreur temporaire, par exemple si la boîte du destinataire est pleine. Voir à ce propos [Reprises après un échec temporaire de diffusion](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
@@ -77,7 +77,7 @@ Pour surveiller un message transactionnel, vous devez accéder aux [diffusions d
 
    ![](assets/message-center_access_logs.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Liste d&#39;exécution]**.
+1. Cliquez sur l’onglet **[!UICONTROL Liste d’exécution]**.
 
    ![](assets/message-center_execution_tab.png)
 
@@ -99,7 +99,7 @@ Sélectionnez l&#39;onglet **[!UICONTROL Envois]**. Dans la colonne **[!UICONTRO
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-Sélectionnez l’onglet **[!UICONTROL Logs d’exclusion]** pour visualiser les destinataires qui ont été exclus de la cible du message, par exemple les adresses mises en liste bloquée.
+Sélectionnez l’onglet **[!UICONTROL Logs d’exclusion]** pour visualiser les personnes destinataires qui ont été exclues de la cible du message, par exemple les adresses mises en liste bloquée.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

@@ -23,13 +23,13 @@ ht-degree: 100%
 
 ![](assets/union.png)
 
-L&#39;activité **[!UICONTROL Union]** permet de regrouper le résultat de plusieurs activités dans une même cible.
+L’activité **[!UICONTROL Union]** permet de regrouper le résultat de plusieurs activités dans une même cible.
 
 >[!NOTE]
 >
 >Les ensembles ne doivent pas nécessairement être homogènes.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Union]** est utilisée afin de réunir les populations des transitions entrantes dans le cadre d&#39;une segmentation, d&#39;une définition d&#39;audience ou en vue de la préparation de la cible d&#39;un message par exemple.
 
@@ -53,7 +53,7 @@ L&#39;activité **[!UICONTROL Union]** est utilisée afin de réunir les populat
 1. Si besoin, gérez les [Transitions](../../automating/using/activity-properties.md) de l&#39;activité afin d&#39;accéder à des options avancées sur la population calculée.
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Exemple  {#example}
+## Exemple {#example}
 
 L&#39;exemple suivant montre le résultat de deux activités de requête visant à regrouper les profils de la base Adobe Campaign dont l&#39;âge est compris entre 18 et 27 ans et ceux dont l&#39;âge est compris entre 34 et 40 ans. Le résultat contient l&#39;ensemble des profils des deux requêtes ou le nombre d&#39;enregistrements maximum défini lors du paramétrage, le cas échéant.
 

@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '240'
+workflow-type: ht
+source-wordcount: '246'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Les droits par défaut sont les suivants :
 
 Pour plus d’informations, consultez le [tableau Rôles et autorisations](/help/administration/using/assets/acs_rights.pdf), qui présente les fonctions disponibles dans l’interface en fonction des autorisations sélectionnées.
 
-[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
+[![Image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 **Rubriques connexes :**
 

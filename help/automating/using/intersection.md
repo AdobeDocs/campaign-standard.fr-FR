@@ -24,7 +24,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Intersection]** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l&#39;activité.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Intersection]** est essentiellement utilisée afin de réaliser un filtrage supplémentaire sur les populations des transitions entrantes.
 
@@ -43,7 +43,7 @@ L&#39;activité **[!UICONTROL Intersection]** est essentiellement utilisée afin
 1. Si besoin, gérez les [Transitions](../../automating/using/activity-properties.md) de l&#39;activité afin d&#39;accéder à des options avancées sur la population transmise en sortie.
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Exemple  {#example}
+## Exemple {#example}
 
 L&#39;exemple suivant montre l&#39;intersection de deux activités de requête visant à filtrer respectivement les profils de la base Adobe Campaign dont l&#39;âge est compris entre 18 et 27 ans et ceux dont l&#39;adresse email renseignée est valide.
 

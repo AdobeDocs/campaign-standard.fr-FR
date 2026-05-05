@@ -11,7 +11,7 @@ level: Experienced
 exl-id: d7ca0de6-7f7b-4e31-877c-909d962c5f53
 hide: true
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector est actuellement en version Beta et peut être fréquemment mis à jour sans préavis. L’hébergement des clientes et clients sur Azure (actuellement en version Beta en Amérique du Nord uniquement) est obligatoire pour pouvoir accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Adobe Experience Platform Data Connector est actuellement en version Beta et peut être fréquemment mis à jour sans préavis. L’hébergement des clientes et clients sur Azure (actuellement en version Beta en Amérique du Nord uniquement) est obligatoire pour pouvoir accéder à ces fonctionnalités. Contactez l&#39;Assistance clientèle d&#39;Adobe si vous souhaitez y accéder.
 
 Une fois la définition du mapping terminée, vous pouvez le publier. Après l’étape de déploiement, la réplication des données entre Campaign Standard et Adobe Experience Platform démarre automatiquement. Vous pouvez arrêter la réplication à tout moment en cliquant sur le bouton **[!UICONTROL Arrêter]**.
 
@@ -29,11 +29,11 @@ Selon les modifications apportées au mapping, vous pouvez choisir de renvoyer t
 
 ![](assets/aep_publishmapping.png)
 
-Dans la vignette de déploiement, vous pouvez accéder aux logs de publication et d’export.
+Dans la tuile de déploiement, vous pouvez accéder aux logs de publication et d’export.
 
 ![](assets/aep_publog.png)
 
-Dans l’onglet **[!UICONTROL Traitements d’exportation]**, vous pouvez surveiller le traitement d’export pour le mapping publié.
+Dans l’onglet **[!UICONTROL Traitements d’exportation]**, vous pouvez surveiller le traitement d’exportation pour le mapping publié.
 
 ![](assets/aep_jobstatus.png)
 

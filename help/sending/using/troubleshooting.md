@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
 source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
-workflow-type: tm+mt
-source-wordcount: '469'
+workflow-type: ht
+source-wordcount: '484'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
 
   Voir à ce propos cette [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
-* **A quoi correspondent les différentes raisons de mise en quarantaine ?**
+* **À quoi correspondent les différentes raisons de mise en quarantaine ?**
 
   Il existe dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, adresse en liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
 
@@ -59,12 +59,12 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
 * **Comment puis-je savoir si l’une de mes adresses IP est sur la liste bloquée ? Comment supprimer mes adresses IP d’une liste bloquée ?**
 
   Pour vérifier si votre adresse IP se trouve dans une liste bloquée, vous pouvez utiliser différents sites web, tels que :
-   * [MX Toolbox](https://mxtoolbox.com/)
+   * [MX Toolbox](https://mxtoolbox.com/)
    * [Quelle est mon adresse IP ?](https://whatismyipaddress.com)
 
   En général, la vérification d’une adresse IP renvoie une liste contenant les détails de la liste bloquée et le nom du site web qui a bloqué l’adresse IP.
 
-  En cliquant sur le lien correspondant, accédez aux détails du site web.
+  En cliquant sur le lien correspondant, vous pouvez accéder aux détails du site web.
 
   Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l’a mise en liste bloquée.
 

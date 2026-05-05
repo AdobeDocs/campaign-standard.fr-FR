@@ -9,8 +9,8 @@ role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
-source-wordcount: '750'
+workflow-type: ht
+source-wordcount: '768'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Utilisez l’onglet **Projet** pour :
 * **Ouvrir...** : ouvre un rapport ou un modèle créé précédemment.
 * **Enregistrer sous...** : duplique les modèles pour les rendre modifiables.
 * **Actualiser le projet** : met à jour votre rapport en fonction des nouvelles données et des changements de filtre.
-* **Télécharger CSV** : exporte vos rapports sous forme de fichier CSV.
+* **Télécharger CSV** : exporte vos rapports sous forme de fichiers CSV.
 
 L’onglet **Modifier** permet les opérations suivantes :
 
@@ -45,9 +45,9 @@ Le tableau **Insérer** vous permet de personnaliser vos rapports en ajoutant de
 * [Ajouter des panneaux](../../reporting/using/adding-panels.md)
 * [Ajouter des visualisations](../../reporting/using/adding-visualizations.md)
 * [Ajouter des composants](../../reporting/using/adding-components.md)
-* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Partage automatique des rapports avec les parties prenantes par e-mail](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
-## Onglets     {#tabs}
+## Onglets {#tabs}
 
 Les onglets de gauche vous permettent de créer votre rapport et de filtrer les données selon les besoins.
 
@@ -71,7 +71,7 @@ La barre d&#39;outils se trouve au-dessus de votre espace de travail. Composée 
 * [Ajouter des visualisations](../../reporting/using/adding-visualizations.md)
 * [Ajouter des composants](../../reporting/using/adding-components.md)
 
-### Onglet Projet     {#project-tab}
+### Onglet Projet {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -92,7 +92,7 @@ L’onglet **Modifier** permet les opérations suivantes :
 * **Annuler** : annule la dernière action effectuée sur votre tableau de bord.
 * **Effacer tout** : supprime tous les panneaux sur votre tableau de bord.
 
-### Onglet Insérer     {#insert-tab}
+### Onglet Insérer {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -101,9 +101,9 @@ L&#39;onglet **Insérer** vous permet de personnaliser vos rapports en ajoutant 
 * **Nouveau panneau vierge** : ajoute un nouveau panneau vierge à votre tableau de bord.
 * **Nouvelle structure libre** : ajoute une nouvelle structure libre à votre tableau de bord.
 * **Nouvelle ligne** : ajoute un nouveau graphique linéaire à votre tableau de bord.
-* **Nouvelle barre** : ajoute un nouveau graphique à barre à votre tableau de bord.
+* **Nouvelle barre** : ajoute un nouveau graphique en barres à votre tableau de bord.
 
-### Onglet Partager     {#share-tab}
+### Onglet Partager {#share-tab}
 
 ![](assets/tab_share_1.png)
 
@@ -147,4 +147,4 @@ Les utilisateurs ciblés recevront alors votre rapport joint à un email directe
 
 **Rubrique connexe :**
 
-* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Partage automatique des rapports avec les parties prenantes par e-mail](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

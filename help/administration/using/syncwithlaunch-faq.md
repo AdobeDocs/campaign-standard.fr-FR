@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
-source-wordcount: '516'
+workflow-type: ht
+source-wordcount: '519'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,8 @@ La section ci-dessous répertorie les questions courantes sur cette synchronisat
 
 ## J’ai créé une propriété dans de balise (non-administrateur ou entité organisationnelle ALL). Mon application est à l’état Prêt pour configuration dans Adobe Campaign, mais je ne peux pas l’ouvrir/la configurer. {#configuring-property}
 
-Seul l’administrateur de l’entité organisationnelle ALL peut configurer des applications mobiles dans Adobe Campaign Standard. Une fois l’application configurée, seuls les utilisateurs de l’entité organisationnelle affectée peuvent la modifier. Pour plus d’informations sur les entités organisationnelles, consultez cette [page](../../administration/using/organizational-units.md).
+Seul l’administrateur de l’entité organisationnelle ALL peut configurer des applications mobiles dans Adobe Campaign Standard. Une fois l’application configurée, seuls les utilisateurs et utilisatrices de l’entité organisationnelle affectée peuvent modifier
+l’application.Pour plus d’informations sur les entités organisationnelles, consultez cette [page](../../administration/using/organizational-units.md).
 
 ## Je ne peux pas modifier une application mobile configurée dans Adobe Campaign Standard et les applications mobiles sont en mode lecture seule. {#read-mode-mobile-app}
 

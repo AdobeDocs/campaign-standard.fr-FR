@@ -29,7 +29,7 @@ Vous pouvez définir des **[!UICONTROL Données additionnelles]** pour la popula
 
 L’activité utilise le requêteur, dont le fonctionnement est détaillé dans une [section dédiée](../../automating/using/editing-queries.md#about-query-editor).
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 Une **[!UICONTROL Requête incrémentale]** doit être associée à un **[!UICONTROL Planificateur]** afin de définir la fréquence d’exécution du workflow, et donc de la requête.
 
@@ -72,6 +72,6 @@ L&#39;activité **[!UICONTROL Requête incrémentale]** peut être utilisée dan
 1. Vous pouvez définir des **[!UICONTROL Données additionnelles]** pour la population ciblée via un onglet dédié. Ces données sont stockées dans des colonnes additionnelles et sont exploitables uniquement pour le workflow en cours. Vous pouvez notamment ajouter des données provenant des tables de la base Adobe Campaign liées à la dimension de ciblage de la requête. Consultez la section [Enrichir des données](../../automating/using/query.md#enriching-data).
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
-## Enrichir des données  {#enriching-data}
+## Enrichir des données {#enriching-data}
 
 De la même manière que pour une requête, vous pouvez enrichir les données issues d&#39;une **[!UICONTROL Requête incrémentale]**. Consultez la section [Enrichir des données](../../automating/using/query.md#enriching-data).

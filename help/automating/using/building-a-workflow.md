@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '987'
+source-wordcount: '1001'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Vous pouvez ouvrir les transitions afin de vérifier que les données transmises
 
 ![](assets/workflow_overview.png)
 
-## Créer un workflow          {#creating-a-workflow}
+## Créer un workflow {#creating-a-workflow}
 
 La création d’un workflow est possible au sein d’un programme ou d’une campagne, ou dans la liste des activités marketing.
 
@@ -65,7 +65,7 @@ La création d’une activité marketing est présentée dans la section [Créer
 
    Vous pouvez ajouter une description, qui sera visible par l’utilisateur dans le contenu de la campagne.
 
-   Pour trouver plus facilement les workflows qui ne fonctionnent pas de la manière attendue et résoudre les problèmes, Adobe recommande d’attribuer aux workflows des libellés et des noms adéquats. Renseignez également le champ de description du workflow pour que l’opérateur puisse facilement comprendre son objectif.
+   Pour trouver plus facilement les workflows qui ne fonctionnent pas de la manière attendue et résoudre les problèmes, Adobe recommande d&#39;attribuer aux workflows des libellés et des noms adéquats. Renseignez également le champ de description du workflow pour que l&#39;opérateur puisse facilement comprendre son objectif.
 
 1. Validez la création de l’activité, dont le tableau de bord s’affiche alors. Pour plus d&#39;informations, consultez la section [Interface des workflows](../../automating/using/workflow-interface.md).
 
@@ -112,7 +112,7 @@ Pour construire le diagramme :
 
 Une fois vos activités de workflow reliées, vous pouvez personnaliser les transitions entre elles avec le **libellé** de votre choix. Pour cela, double-cliquez sur la transition pour accéder à ses propriétés.
 
-De plus, les activités **[!UICONTROL Ciblage]** et **[!UICONTROL Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l’efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
+De plus, les activités **[!UICONTROL Ciblage]** et **[!UICONTROL Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l’efficacité des campagnes marketing. Pour plus d’informations, consultez [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Cas pratiques de workflow :**
 
@@ -136,6 +136,6 @@ Par défaut, les activités ne sont pas définies et ne traiteront pas correctem
 
 Cette vidéo montre comment créer un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/31326?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

@@ -8,8 +8,8 @@ role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '183'
+workflow-type: ht
+source-wordcount: '182'
 ht-degree: 100%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>emailRendering</td>
-                  <td>Email rendering</td>
+                  <td>Rendu des e-mails</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -171,7 +171,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>sampleData</td>
-                  <td>Sample data</td>
+                  <td>Données d’exemple</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -194,8 +194,8 @@ ht-degree: 100%
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
-                  <td>Thumbnail</td>
+                  <td>miniature</td>
+                  <td>Miniature</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>

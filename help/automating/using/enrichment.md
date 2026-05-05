@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Enrichissement]** est une activité avancée qui permet de définir des données additionnelles à traiter dans un workflow.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Enrichissement]** est généralement utilisée à la suite des activités de ciblage ou d&#39;un import de fichier et avant les activités permettant de consommer les données ciblées.
 

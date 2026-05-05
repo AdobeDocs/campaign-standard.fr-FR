@@ -11,7 +11,7 @@ level: Experienced
 exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '648'
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Qu&#39;elles concernent les diffusions ou les abonnements, les données de log p
 
 >[!CAUTION]
 >
->Seuls les [administrateurs](../../administration/using/users-management.md#functional-administrators) fonctionnels, avec un rôle d’**[!UICONTROL administration]** et un accès aux entités **Toutes**, peuvent accéder aux logs d’envoi, aux logs de messages, aux logs de tracking, aux logs d’exclusion et aux logs d’abonnement. Un utilisateur autre qu’administrateur peut cibler ces logs mais en commençant par une table liée (profils, diffusion).
+>Seuls les [administrateurs](../../administration/using/users-management.md#functional-administrators) fonctionnels, avec un rôle d’**[!UICONTROL administration]** et un accès aux entités **Toutes**, peuvent accéder aux logs d’envoi, aux logs de messages, aux logs de tracking, aux logs d’exclusion ou aux logs d’abonnement. Un utilisateur autre qu’administrateur peut cibler ces logs mais en commençant par une table liée (profils, diffusion).
 
 Grâce à une **[!UICONTROL Requête incrémentale]** qui récupère uniquement les nouveaux logs à chaque exécution du workflow et une activité **[!UICONTROL Extraction de fichier]** simple qui permet de définir les colonnes de sortie, vous pouvez obtenir un fichier au format et avec les données désirés. Utilisez ensuite une activité **[!UICONTROL Transfert de fichier]** pour récupérer le fichier final. Chaque exécution du workflow est planifiée par un **[!UICONTROL Planificateur]**.
 
@@ -69,7 +69,7 @@ L&#39;opération d&#39;export des logs peut être effectuée par les utilisateur
 
 1. Ajoutez une activité **[!UICONTROL Transfert de fichier]** et configurez-la pour transférer le fichier nouvellement créé du serveur Adobe Campaign vers un autre emplacement où vous pourrez accéder au fichier (un serveur SFTP, par exemple).
 
-   * Dans l’onglet **[!UICONTROL Général]**, sélectionnez **[!UICONTROL Chargement de fichier]** puisque l’objectif est d’envoyer le fichier d’Adobe Campaign vers un autre serveur. 
+   * Dans l’onglet **[!UICONTROL Général]**, sélectionnez **[!UICONTROL Chargement de fichier]** puisque l’objectif est d’envoyer le fichier d’Adobe Campaign vers un autre serveur.
    * Dans l&#39;onglet **[!UICONTROL Protocole]**, indiquez les paramètres de transfert et sélectionnez le [compte externe](../../administration/using/external-accounts.md#creating-an-external-account) à utiliser.
 
 1. Ajoutez une activité **[!UICONTROL Fin]** pour vous assurer que le workflow se termine correctement et enregistrez ce dernier.

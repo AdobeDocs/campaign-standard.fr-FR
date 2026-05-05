@@ -4,9 +4,9 @@ description: Découvrez comment mettre à jour la qualification des rebonds apr�
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 86%
+workflow-type: ht
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ En cas de panne d’un fournisseur d’accès à Internet, les emails envoyés p
 
 En décembre 2020, un problème mondial qui a affecté Gmail a entraîné des rebonds définitifs incorrects lors de l’envoi d’e-mails à des adresses Gmail valides. Les serveurs Gmail les ont incorrectement rejetés pour cause d’adresses e-mail non valides avec la réponse suivante : *« 550-5.1.1 Le compte de messagerie que vous avez tenté d’atteindre n’existe pas. »*
 
-Google a déclaré que les pannes et les perturbations de Gmail à l’origine de ce problème ont commencé le 14 décembre à :55AM et se sont terminées à 6:09PM EST le 15 décembre. Notre analyse des données a également montré un pic très court dans les bounces Gmail à 2:06AM EST le 16 décembre, la majorité se produisant le 15 décembre entre 14:00 EST et 18:30 EST.
+D’après Google, les pannes et les perturbations de Gmail, qui sont à l’origine de ce problème, ont commencées le 14 décembre à 6:55AM et se sont terminées à 6:09PM EST le jour suivant.Notre analyse des données a également montré un pic très court dans les rebonds Gmail à 2:06AM EST le 16 décembre, la majorité se produisant le 15 décembre entre 14:00 EST et 18:30 EST.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Pour les instances Campaign contenant des informations de réponse de rebond SMT
 * **Mise à jour du statut (@lastModified)** le ou après le 14/12/2020 à 6:55:00
 * **État de la mise à jour (@lastModified)** le ou avant le 16/12/2020 6:00:00
 
-Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l’état **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.
+Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l&#39;état **[!UICONTROL Valide]** afin qu&#39;ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.
 
 **Rubriques connexes :**
 * [Présentation des diffusions en échec](../../sending/using/understanding-delivery-failures.md)

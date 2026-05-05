@@ -5,8 +5,8 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
-source-wordcount: '780'
+workflow-type: ht
+source-wordcount: '788'
 ht-degree: 100%
 
 ---
@@ -56,13 +56,13 @@ Campaign Standard propose plusieurs outils pour vous aider à développer votre
 
 ### Import de données par le biais de workflows {#importing-data-through-workflows}
 
-Les workflows permettent de collecter des données et de les importer dans la base de données Campaign via les activités de [**[!UICONTROL Data management. ]**](../../automating/using/about-data-management-activities.md) Les informations génériques et les bonnes pratiques relatives à l&#39;import de données par le biais de workflows sont présentées dans [cette section](../../automating/using/about-data-import-and-export.md).
+Les workflows permettent de collecter des données et de les importer dans la base de données Campaign via les activités de [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md). Les informations génériques et les bonnes pratiques relatives à l&#39;import de données par le biais de workflows sont présentées dans [cette section](../../automating/using/about-data-import-and-export.md).
 
 Vous pouvez en outre configurer des modèles pour importer des données. L’utilisation de modèles d’import est recommandée si vous devez importer régulièrement des fichiers avec la même structure. Vous pouvez configurer deux types de modèles :
 
 * **Modèles de workflow** : il s&#39;agit de workflows préconfigurés que vous pouvez paramétrer une fois selon vos besoins. Vous pouvez ensuite les réutiliser chaque fois que vous souhaitez importer des données et mettre à jour la base de données. Vous trouverez un exemple de modèle de workflow pour importer des données dans [cette section](../../automating/using/creating-import-workflow-templates.md).
 
-* **Modèles de données d&#39;import** : tout comme les modèles de workflow, il s&#39;agit de modèles reposant sur des workflows qui sont configurés pour télécharger des fichiers afin de mettre à jour la base de données. Une fois configurés, ils sont mis à disposition des utilisateurs avec une vue simplifiée dans le menu **[!UICONTROL Profil &amp; audiences]** / **[!UICONTROL Imports.]** Pour plus d&#39;informations sur les modèles de données d&#39;import, reportez-vous à la [documentation dédiée](../../automating/using/importing-data-with-import-templates.md).
+* **Modèles de données d&#39;import** : tout comme les modèles de workflow, il s&#39;agit de modèles reposant sur des workflows qui sont configurés pour télécharger des fichiers afin de mettre à jour la base de données. Une fois configurés, ils sont mis à disposition des utilisateurs avec une vue simplifiée dans le menu **[!UICONTROL Profil &amp; audiences]** / **[!UICONTROL Imports]**. Pour plus d&#39;informations sur les modèles de données d&#39;import, reportez-vous à la [documentation dédiée](../../automating/using/importing-data-with-import-templates.md).
 
 ### Collecte de données à partir de landing pages {#collecting-data-from-landing-pages}
 
@@ -99,7 +99,7 @@ Les API Campaign Standard vous permettent d&#39;effectuer des opérations pour 
 
 >[!CAUTION]
 >
->Avant d&#39;effectuer une mise à jour ou une création en masse de profils via des appels d&#39;API, vérifiez les limites d&#39;échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#Ressourcesdinfrastructureinformatiqueparniveauxdeprofilsactifs).
+>Avant d&#39;effectuer une mise à jour ou une création en masse de profils via des appels d&#39;API, vérifiez les limites d&#39;échelle correspondant à votre contrat de licence. Pour plus d’informations, consultez [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#RessourcesdinfrastructureinformatiqueparniveauxdeProfilsactifs).
 
 **En savoir plus**
 
@@ -123,7 +123,7 @@ Grâce aux workflows et à l&#39;éditeur de requêtes, vous pouvez créer des a
 
 <img width="60px" alt="conditions" src="assets/icon_privacy.svg"/>
 
-Le RGPD est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
+Le RGPD (Règlement général sur la protection des données) est la nouvelle loi de l’Union européenne (UE) qui harmonise et modernise les exigences en matière de protection de la vie privée.Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
 
 Pour plus d’informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à [cette section](../../start/using/privacy.md).
 

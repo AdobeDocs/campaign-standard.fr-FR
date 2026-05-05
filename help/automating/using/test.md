@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L’activité **[!UICONTROL Test]** active une transition en fonction d’un résultat au test.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 Une activité **Test** active la première transition qui satisfait la condition qui lui est associée.
 

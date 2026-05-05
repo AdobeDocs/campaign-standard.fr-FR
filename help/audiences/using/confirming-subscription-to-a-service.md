@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
-source-wordcount: '1419'
+workflow-type: ht
+source-wordcount: '1422'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Un email de confirmation sera automatiquement envoyé à chaque profil qui s&#39
 
 Les étapes de création de l&#39;email de confirmation sont décrites ci-dessous. Comme le message transactionnel est référencé dans le service, vous devez d&#39;abord le créer.
 
-#### Création de l&#39;événement      {#create-the-event-1}
+#### Création de l&#39;événement {#create-the-event-1}
 
 L&#39;email de confirmation est un message transactionnel car il réagit à un événement : l&#39;abonnement à un service. Ce message sera envoyé pour confirmer l&#39;abonnement à votre newsletter.
 
@@ -66,7 +66,7 @@ L&#39;email de confirmation est un message transactionnel car il réagit à un �
 
    ![](assets/confirmation_enrichment-service.png)
 
-1. Dans la section **[!UICONTROL Définition de la jointure]**, faites correspondre le champ **[!UICONTROL publicLabel]** de la ressource **[!UICONTROL Service]** au champ **[!UICONTROL publicLabel]** de la configuration de l&#39;événement.
+1. Dans la section **[!UICONTROL Définition de la jointure]**, faites correspondre le champ **[!UICONTROL publicLabel]** de la ressource **[!UICONTROL Service]** au champ **[!UICONTROL publicLabel]** de la configuration de l’événement.
 
    ![](assets/confirmation_publicLabel-join.png)
 
@@ -76,9 +76,9 @@ L&#39;email de confirmation est un message transactionnel car il réagit à un �
 
 1. Enregistrez la configuration de l&#39;événement et cliquez sur **[!UICONTROL Publier]** pour publier l&#39;événement.
 
-L&#39;événement est prêt. Vous pouvez maintenant concevoir le modèle d&#39;email transactionnel.
+L&#39;événement est prêt. Vous pouvez maintenant concevoir le modèle d’e-mail transactionnel.
 
-#### Conception du message de confirmation      {#design-the-confirmation-message-1}
+#### Conception du message de confirmation {#design-the-confirmation-message-1}
 
 L&#39;email de confirmation est un message transactionnel basé sur l&#39;événement que vous venez de publier.
 
@@ -134,7 +134,7 @@ Un email de confirmation sera automatiquement envoyé à chaque profil qui s&#39
 
 Les étapes de création de ces éléments sont décrites ci-dessous. Comme le message transactionnel est référencé dans la landing page, vous devez d&#39;abord le créer.
 
-#### Création de l&#39;événement      {#create-the-event-2}
+#### Création de l&#39;événement {#create-the-event-2}
 
 L&#39;email de confirmation est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) car il réagit à un événement : l&#39;abonnement à un service. Ce message sera envoyé pour confirmer l&#39;abonnement à votre newsletter.
 
@@ -160,7 +160,7 @@ L&#39;email de confirmation est un [message transactionnel](../../channels/using
    >
    >Vous pourrez ainsi utiliser les champs de personnalisation de la ressource [!UICONTROL Service] dans le message transactionnel.
 
-#### Conception du message de confirmation      {#design-the-confirmation-message-2}
+#### Conception du message de confirmation {#design-the-confirmation-message-2}
 
 Les étapes de conception du message transactionnel sont présentées dans cette [section](#design-the-confirmation-message-1).
 
@@ -182,7 +182,7 @@ Pour créer et configurer cette landing page, procédez comme suit :
 
    ![](assets/confirmation_lp-specific-service.png)
 
-1. Sélectionnez l&#39;option **[!UICONTROL Déclencher l&#39;envoi d&#39;un message]** et choisissez le message transactionnel que vous venez de créer dans la liste déroulante.
+1. Sélectionnez l’option **[!UICONTROL Déclencher l’envoi d’un message]** et choisissez le message transactionnel que vous venez de créer dans la liste déroulante.
 
    ![](assets/confirmation_lp-start-sending-message.png)
 

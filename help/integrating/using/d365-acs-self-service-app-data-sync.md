@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '2005'
+source-wordcount: '2021'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Voici une description de chacune des colonnes de la table :
 
    * Utilisez l&#39;icône **[!UICONTROL Supprimer]** pour supprimer un mapping de table.
 
-   * Cliquez sur l&#39;icône **[!UICONTROL Relire les données]** pour resynchroniser toutes les données de la table Microsoft Dynamics 365. Normalement, l&#39;application d&#39;intégration ne synchronise que les données de Microsoft Dynamics 365 qui ont récemment été modifiées.  Cependant, dans certains cas (vous avez apporté une modification ou commis une erreur, par exemple), vous pouvez souhaiter que toutes les données soient resynchronisées. Dans ces cas, vous cliquez sur ce bouton et, la prochaine fois que vous arrêtez/démarrez le workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**, vos données commencent à se synchroniser.
+   * Cliquez sur l&#39;icône **[!UICONTROL Relire les données]** pour resynchroniser toutes les données de la table Microsoft Dynamics 365. Normalement, l&#39;application d&#39;intégration ne synchronise que les données de Microsoft Dynamics 365 qui ont récemment été modifiées.  Cependant, dans certains cas (vous avez apporté une modification ou commis une erreur, par exemple), vous pouvez souhaiter que toutes les données soient resynchronisées.  Dans ces cas, vous cliquez sur ce bouton et, la prochaine fois que vous arrêtez/démarrez le workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**, vos données commencent à se synchroniser.
 
      Si vous cliquez sur le bouton **[!UICONTROL Relire les données]** et que les vérifications réussissent, l&#39;icône devient désactivée : les données de cette paire de mapping de table seront resynchronisées avec la prochaine exécution du workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**.
 
@@ -56,7 +56,7 @@ Voici une description de chacune des colonnes de la table :
 
      >[!IMPORTANT]
      >
-     > Il est vivement recommandé d&#39;arrêter le workflow d&#39;intégration lors de la publication de modifications dans Adobe Campaign Standard ou Microsoft Dynamics 365. Les modifications applicables sont les suivantes : mises à jour des ressources/entités (et de leurs champs associés), des liens, des colonnes d&#39;identifiants, etc. qui sont actuellement utilisés par l&#39;intégration.
+     > Il est vivement recommandé d’arrêter le workflow d’intégration lors de la publication de modifications dans Adobe Campaign Standard ou Microsoft Dynamics 365.Les modifications applicables comprennent des mises à jour de ressources/entités (et de leurs champs associés), de liens, de colonnes d’identifiant, etc., qui sont actuellement utilisés par l’intégration.
      >
 
 ## Créer un mapping {#add-a-new-mapping}
@@ -87,7 +87,7 @@ Si vous modifiez un mapping existant, vous verrez que les sélections de table n
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
-Ce comportement est lié à la conception, car les entrées situées plus bas dans la page reposent sur les champs associés à ces tables. La modification des tables rendrait tous les champs associés non valides. Si vous souhaitez modifier la table à mapper, vous devez revenir à la page précédente, supprimer le mapping à modifier et ajouter un nouveau mapping.
+Ce comportement est lié à la conception, car les entrées situées plus bas dans la page reposent sur les champs associés à ces tables. La modification des tables rendrait tous les champs associés non valides.  Si vous souhaitez modifier la table à mapper, vous devez revenir à la page précédente, supprimer le mapping à modifier et ajouter un nouveau mapping.
 
 ### Configurer un mapping de tableau individuel {#new-mapping-settings}
 
@@ -141,7 +141,7 @@ Le commutateur **[!UICONTROL Appliquer les mises à jour]** vous permet de contr
 >Cliquez sur l&#39;en-tête de colonne **[!UICONTROL Appliquer les mises à jour]** pour mettre à jour **tous** les commutateurs à activer ou à désactiver.
 >
 
-Lorsque vous sélectionnez des valeurs de champ, le type de données s’affiche sous les menus déroulants.  Souvenez-nous de ce point lors du mapping des valeurs d’un champ à l’autre.
+Lorsque vous sélectionnez des valeurs de champ, le type de données s’affiche sous les menus déroulants.   Souvenez-nous de ce point lors du mapping des valeurs d’un champ à l’autre.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
@@ -169,12 +169,12 @@ Vous spécifiez un filtre en renseignant les informations suivantes :
 
 * nom du champ Microsoft Dynamics 365 ;
 * valeur de comparaison ; et
-* valeur (de Microsoft Dynamics 365).
+* une valeur (provenant de Microsoft Dynamics 365).
 Si le nom du champ, la comparaison et la valeur sont vrais pour un enregistrement donné, l’enregistrement est propagé vers Adobe Campaign.
 
-Vous pouvez choisir comment ces filtres sont évalués en définissant l’entrée libellée **[!UICONTROL Sélectionner l’opérateur de comparaison de filtre]**. Si vous choisissez **Et**, tous les filtres doivent être vrais pour qu’un enregistrement soit propagé vers Campaign. Si vous sélectionnez **Ou**, l’enregistrement est propagé si l’un d’eux est évalué comme vrai.
+Vous pouvez choisir comment ces filtres sont évalués en définissant l’entrée libellée **[!UICONTROL Sélectionner l’opérateur de comparaison de filtre]**.  Si vous choisissez **Et**, tous les filtres doivent être vrais pour qu’un enregistrement soit propagé vers Campaign. Si vous sélectionnez **Ou**, l’enregistrement est propagé si l’un d’eux est évalué comme vrai.
 
-L&#39;option **[!UICONTROL Voulez-vous supprimer les enregistrements dans Adobe Campaign Standard qui seront filtrés à partir de Microsoft Dynamics 365 ?]** contrôle si vous souhaitez que les enregistrements qui ont été filtrés soient supprimés de Campaign. Si vous sélectionnez **Non**, les enregistrements resteront dans Adobe Campaign. Sélectionnez **Oui** pour qu’ils soient supprimés par la logique d’intégration.
+L’option **[!UICONTROL Voulez-vous supprimer les enregistrements dans Adobe Campaign Standard qui seront filtrés à partir de Microsoft Dynamics 365 ?]** contrôle si vous souhaitez que les enregistrements qui ont été filtrés soient supprimés de Campaign.Si vous sélectionnez **Non**, les enregistrements resteront dans Adobe Campaign. Sélectionnez **Oui** pour qu’ils soient supprimés par la logique d’intégration.
 
 >[!NOTE]
 >
@@ -185,9 +185,9 @@ L&#39;option **[!UICONTROL Voulez-vous supprimer les enregistrements dans Adobe�
 
 Vous pouvez configurer les options supplémentaires suivantes lors de la configuration d’un mapping :
 
-* Définissez l&#39;option **[!UICONTROL Appliquer les suppressions dans Microsoft Dynamics 365 vers Campaign ?]** sur **Oui**, si vous souhaitez propager les suppressions effectuées dans Microsoft Dynamics 365 vers le champ correspondant dans Adobe Campaign (en fonction du mapping du nom de champ). Sélectionnez **Non** pour ignorer les suppressions dans Microsoft Dynamics 365.
+* Définissez l’option **[!UICONTROL Appliquer les suppressions dans Microsoft Dynamics 365 vers Campaign ?]** sur **Oui**, si vous souhaitez propager les suppressions effectuées dans Microsoft Dynamics 365 vers le champ correspondant dans Adobe Campaign (en fonction du mapping du nom de champ).Sélectionnez **Non** pour ignorer les suppressions dans Microsoft Dynamics 365.
 
-* Définissez l&#39;option **[!UICONTROL Utiliser les valeurs techniques dans les listes de sélection Microsoft Dynamics 365 ?]** sur **Non** si vous souhaitez propager vers Campaign la valeur d&#39;affichage associée à une liste de sélections Microsoft Dynamics 365. Sélectionnez **Oui** pour propager la valeur technique.
+* Définissez l’option **[!UICONTROL Utiliser les valeurs techniques dans les listes de sélection Microsoft Dynamics 365 ?]** sur **Non** si vous souhaitez propager vers Campaign la valeur d’affichage associée à une liste de sélections Microsoft Dynamics 365.Sélectionnez **Oui** pour propager la valeur technique.
 
 ## Synchroniser les événements marketing Campaign vers Microsoft Dynamics 365
 

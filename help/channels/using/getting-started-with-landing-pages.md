@@ -9,8 +9,8 @@ feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '1037'
+workflow-type: ht
+source-wordcount: '1049'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ La section ci-dessous répertorie les limites que vous devez connaître avant de
 **Ecriture et mise à jour des données**
 
 * Les landing pages sont limitées uniquement aux ressources **[!UICONTROL Profil]** et **[!UICONTROL Abonnement]**. Un enregistrement peut être sauvegardé et mis à jour depuis le **[!UICONTROL Profil]** et un abonnement/désabonnement à un **[!UICONTROL Service]**.
-Pour en savoir plus sur la configuration des ressources, voir [Configuration de la structure de données de la ressource](../../developing/using/configuring-the-resource-s-data-structure.md).
+Pour en savoir plus sur la configuration des ressources, consultez [Configuration de la structure de données de la ressource](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 >[!IMPORTANT]
 >
@@ -72,7 +72,7 @@ Dans le cas présent, seul le premier profil a été mis à jour, car il s’agi
 Avant de configurer une landing page, vous devez configurer un modèle de landing page correspondant à vos besoins. Une fois le modèle prêt, toutes les landing pages reposant sur celui-ci seront préconfigurées avec les paramètres souhaités.
 
 1. Depuis le menu avancé, via le logo Adobe Campaign, sélectionnez **[!UICONTROL Ressources]** / **[!UICONTROL Modèles]** / **[!UICONTROL Modèles de landing page]**, puis dupliquez le modèle que vous souhaitez utiliser.
-1. Dans les propriétés du modèle, spécifiez tous les paramètres que vos landing pages doivent avoir en commun, par exemple, la dimension de ciblage, les paramètres d’accès aux pages pour les visiteurs identifiés ou non, les actions spécifiques à la validation de formulaire par un visiteur, la marque/le logo à utiliser dans le contenu, etc. Pour plus d’informations sur les propriétés des landing pages, reportez-vous à [cette section](../../channels/using/configuring-landing-page.md)
+1. Dans les propriétés du modèle, spécifiez tous les paramètres que vos landing pages doivent avoir en commun, Par exemple, la dimension de ciblage, les paramètres d’accès aux pages pour les visiteurs et visiteuses identifiés ou non, les actions spécifiques à la validation de formulaire par un visiteur ou une visiteuse, la marque/le logo à utiliser dans le contenu, etc. Pour en savoir plus sur les propriétés des pages de destination, consultez [cette section](../../channels/using/configuring-landing-page.md)
 1. Enregistrez vos modifications.
 
 Pour plus d’informations sur les modèles de landing page, reportez-vous à [cette section](../../channels/using/getting-started-with-landing-pages.md).
@@ -92,7 +92,7 @@ Pour des raisons de sécurité et de performances de la plateforme, il est vivem
 
 >[!NOTE]
 >
->Vos modifications sont effectives uniquement pour la landing page en cours d’édition. Si vous souhaitez appliquer ces modifications à d’autres landing pages, vous pouvez les effectuer dans un modèle dédié et créer d’autres landing pages à partir de ce modèle.
+>Vos modifications ne sont effectives que pour la page de destination en cours d’édition.Si vous souhaitez les appliquer à d’autres pages de destination, vous pouvez les effectuer dans un modèle dédié et créer d’autres pages de destination à partir de ce modèle.
 
 ## Etape 3 - Concevoir la landing page {#design-the-landing-page}
 
@@ -100,7 +100,7 @@ Vous pouvez maintenant définir le contenu de la landing page. Celle-ci contient
 
 ![](assets/lp-steps4.png)
 
-Plusieurs champs sont configurés par défaut sur chaque page. Si nécessaire, vous pouvez éditer leurs propriétés et mappage.
+Plusieurs champs sont configurés par défaut sur chaque page. Si nécessaire, vous pouvez éditer leurs propriétés et leur mapping.
 
 Vous pouvez également configurer le comportement du bouton de confirmation lorsqu’un profil clique dessus et personnaliser le contenu selon vos besoins (image, champs de personnalisation, etc.). Par exemple, vous pouvez insérer le prénom d’un profil dans la page de confirmation de la landing page pour le remercier de s’être inscrit.
 
@@ -124,11 +124,11 @@ Pour plus d’informations sur le test d’une landing page, reportez-vous à [c
 
 Une fois les tests terminés, vous pouvez publier la landing page via le bouton **[!UICONTROL Publier]** de la barre d’actions du tableau de bord. Un bloc de suivi indique la progression et le statut de la publication.
 
-La publication de la landing page permet de la rendre accessible en ligne. Une fois publiée, vous pouvez toujours la mettre à jour : pour cela, vous devez la publier de nouveau après chaque modification. Vous pouvez également dépublier une landing page à tout moment afin qu’elle ne soit plus accessible.
+La publication de la page de destination permet de la rendre accessible en ligne.Une fois publiée, vous pouvez toujours la mettre à jour : pour cela, vous devez la publier de nouveau après chaque modification.Vous pouvez également dépublier une page de destination à tout moment afin qu’elle ne soit plus accessible.
 
 ![](assets/lp-steps6.png)
 
-Une fois publiée, votre landing page est prête à être utilisée. Vous pouvez alors mettre en place différents mécanismes permettant d’y accéder afin d’acquérir de nouveaux profils dans votre base ou d’obtenir des informations complémentaires sur les profils existants.
+Une fois publiée, votre page de destination est prête à être utilisée.Vous pouvez alors mettre en place différents mécanismes permettant d’y accéder afin d’acquérir de nouveaux profils dans votre base de données ou d’obtenir des informations complémentaires sur les profils existants.
 
 Pour plus d’informations sur la publication d’une landing page, reportez-vous à [cette section](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 
@@ -136,6 +136,6 @@ Pour plus d’informations sur la publication d’une landing page, reportez-vou
 
 Cette vidéo montre comment créer et modifier une landing page.
 
->[!VIDEO](https://video.tv.adobe.com/v/36633?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

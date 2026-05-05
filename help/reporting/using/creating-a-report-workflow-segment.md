@@ -9,8 +9,8 @@ role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '694'
+workflow-type: ht
+source-wordcount: '697'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ Vous devez d&#39;abord créer un workflow avec une population ciblée différent
 
    ![](assets/report_segment_9.png)
 
-1. Placez une activité **[!UICONTROL Diffusion Email]** après vos segments.
+1. Placez une activité **[!UICONTROL Diffusion e-mail]** après vos segments.
 
    ![](assets/report_segment_3.png)
 

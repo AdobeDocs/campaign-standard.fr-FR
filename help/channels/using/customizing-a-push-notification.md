@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
-source-wordcount: '1504'
+workflow-type: ht
+source-wordcount: '1574'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Un son permet d&#39;avertir l&#39;utilisateur lors de la réception d&#39;une no
 
 L’utilisateur ne recevra alors la notification push et le son que si le son de son téléphone n’est pas désactivé.
 
-## Actualiser la valeur du badge       {#refresh-the-badge-value}
+## Actualiser la valeur du badge {#refresh-the-badge-value}
 
 Un badge est utilisé pour afficher le nombre de nouvelles informations non lues directement sur l&#39;icône de l&#39;application. La valeur du badge disparaît dès que l&#39;utilisateur ouvre ou lit le nouveau contenu de l&#39;application.
 
@@ -65,11 +65,11 @@ A la réception d&#39;une notification sur un appareil, la valeur du badge de l&
 
    ![](assets/push_notif_advanced_8.png)
 
-1. Une fois le message envoyé, les utilisateurs recevront la notification push. L&#39;application affichera alors automatiquement la nouvelle valeur de badge.
+1. Une fois le message envoyé, les utilisateurs et utilisatrices recevront la notification push. L’application affichera alors automatiquement la nouvelle valeur de badge.
 
    ![](assets/push_notif_advanced_1.png)
 
-## Ajouter un lien profond       {#add-a-deeplink}
+## Ajouter un lien profond {#add-a-deeplink}
 
 Un lien profond vous permet d&#39;amener directement les utilisateurs à un contenu situé dans l&#39;application (au lieu d&#39;ouvrir une page de navigateur Web).
 
@@ -82,13 +82,13 @@ Pour ajouter un lien profond à une notification push :
 
    ![](assets/push_notif_advanced_3.png)
 
-1. Une fois le message envoyé, les utilisateurs recevront la notification push puis accéderont à la page spécifique de l&#39;application en interagissant avec la notification (en appuyant ou en cliquant sur le bouton d&#39;appel à l&#39;action, par exemple).
+1. Une fois le message envoyé, les utilisateurs et utilisatrices recevront la notification push puis accéderont à la page spécifique de l’application en interagissant avec la notification (en appuyant ou en cliquant sur le bouton d’appel à l’action, par exemple).
 
    ![](assets/push_notif_advanced_4.png)
 
-## Définir une action       {#define-an-action}
+## Définir une action {#define-an-action}
 
-Le cas échéant, vous pouvez ajouter l&#39;identifiant de catégorie de l&#39;application mobile et afficher ensuite des boutons d&#39;action. Ces notifications permettent à la personne d’effectuer plus rapidement différentes tâches en réponse à celles-ci, sans ouvrir l’application ou la parcourir.
+Le cas échéant, vous pouvez ajouter l&#39;identifiant de catégorie de l&#39;application mobile et afficher ensuite des boutons d&#39;action. Ces notifications permettent à l&#39;utilisateur d&#39;effectuer plus rapidement différentes tâches en réponse à celles-ci, sans ouvrir l&#39;application ou la parcourir.
 
 La boîte de dialogue qui s&#39;affiche sur le téléphone de l&#39;utilisateur requiert une prise de décision. Quand l&#39;utilisateur sélectionne l&#39;une des actions, le système notifie l&#39;application afin qu&#39;elle puisse réaliser n&#39;importe quelle tâche associée.
 
@@ -101,7 +101,7 @@ Pour ajouter une catégorie à une notification push :
 
    ![](assets/push_notif_advanced_9.png)
 
-1. Une fois la notification push envoyée, les utilisateurs la reçoivent et doivent agir à l&#39;aide des boutons actifs configurés auparavant.
+1. Une fois la notification push envoyée, les utilisateurs et utilisatrices la reçoivent et doivent agir à l’aide des boutons actifs configurés auparavant.
 
    ![](assets/push_notif_actionable_buttons.png)
 
@@ -123,7 +123,7 @@ Pour ajouter une date d&#39;expiration à votre notification push :
 
 Notez que si la notification push n&#39;a pas été envoyée avant la date d&#39;expiration, elle sera ignorée.
 
-## Ajouter des champ personnalisés       {#add-custom-fields}
+## Ajouter des champ personnalisés {#add-custom-fields}
 
 Les champs personnalisés vous permettent de transmettre des données personnalisées à la payload sous la forme d&#39;une paire de valeurs de clés. Vous pouvez utiliser cette option pour transmettre des données supplémentaires à l&#39;application en plus des clés prédéfinies.
 
@@ -156,11 +156,11 @@ Pour insérer du contenu multimédia dans la notification push :
 
    ![](assets/push_notif_advanced_6.png)
 
-1. Une fois le message envoyé, l&#39;utilisateur recevra votre notification push et pourra afficher le contenu multimédia.
+1. Une fois le message envoyé, l’utilisateur ou l’utilisatrice recevra votre notification push et pourra afficher le contenu multimédia.
 
    ![](assets/push_notif_advanced_2.png)
 
-## Changer le comportement des notifications pour iOS       {#change-the-notification-behavior-for-ios}
+## Changer le comportement des notifications pour iOS {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 

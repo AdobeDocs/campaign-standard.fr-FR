@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '408'
+workflow-type: ht
+source-wordcount: '423'
 ht-degree: 100%
 
 ---
@@ -50,11 +50,11 @@ Les modèles de message peuvent être gérés par l&#39;administrateur fonctionn
 
    ![](assets/template_2.png)
 
-1. Survolez-le avec la souris, puis sélectionnez l&#39;option **[!UICONTROL Dupliquer l&#39;élément]**.
+1. Survolez-le avec la souris, puis sélectionnez l’option **[!UICONTROL Dupliquer l’élément]**.
 
    ![](assets/template_3.png)
 
-1. Configurez les paramètres de votre choix comme vous le feriez lors de la [création d&#39;une activité marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+1. Configurez les paramètres de votre choix comme vous le feriez lors de la [création d’une activité marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity) à partir de zéro.
 
    ![](assets/template_4.png)
 
@@ -72,10 +72,10 @@ Voyons à présent comment utiliser un modèle créé dans la section précéden
 
    ![](assets/template_5.png)
 
-1. Dans le premier écran de l&#39;assistant, sélectionnez le modèle que vous souhaitez utiliser.
+1. Dans le premier écran de l’assistant, sélectionnez le modèle que vous souhaitez utiliser.
 
    ![](assets/template_6.png)
 
-   L&#39;activité marketing est pré-configurée avec les paramètres définis dans le modèle.
+   L’activité marketing est pré-configurée avec les paramètres définis dans le modèle.
 
    ![](assets/template_7.png)

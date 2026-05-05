@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1320'
+source-wordcount: '1322'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L’activité **[!UICONTROL Transfert de fichier]** permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 La façon dont les données seront extraites est définie lors du paramétrage de l’activité. Le fichier à charger peut par exemple être une liste de contacts.
 
@@ -35,7 +35,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
 
 * [Cas pratique : mise à jour des données à l’aide d’un téléchargement automatique de fichier](../../automating/using/update-data-automatic-download.md)
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Transfert de fichier]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
@@ -57,7 +57,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
 
 1. La section **[!UICONTROL Options supplémentaires]**, disponible en fonction du protocole choisi, vous permet d’ajouter des paramètres à votre protocole.
 
-   Vous pouvez ainsi effectuer les actions suivantes :
+   Vous pouvez ainsi :
 
    * **[!UICONTROL Supprimer les fichiers source après leur transfert]** : supprime les fichiers sur le serveur distant. Si vous ne cochez pas cette option, veillez à surveiller manuellement la taille du contenu archivé dans le répertoire SFTP.
 
@@ -83,7 +83,7 @@ Avec ce protocole, vous pouvez choisir l&#39;option **[!UICONTROL Utiliser des p
 
 ![](assets/wkf_file_transfer_03.png)
 
-Vous pouvez également choisir l’option **[!UICONTROL Configuration rapide]**. Il suffit de saisir l’URL dans le champ URL.
+Vous pouvez également choisir l&#39;option **[!UICONTROL Configuration rapide]**. Il suffit de saisir l’URL dans le champ URL.
 ![](assets/wkf_file_transfer_04.png)
 
 **[!UICONTROL Suivre les redirections]**, **[!UICONTROL Ignorer le code de retour HTTP]** et **[!UICONTROL Ajouter les en-têtes HTTP reçus au fichier]** sont les options supplémentaires disponibles lorsque vous sélectionnez le protocole HTTP.
@@ -92,7 +92,7 @@ Vous pouvez également choisir l’option **[!UICONTROL Configuration rapide]**.
 
 Le protocole SFTP permet de lancer le téléchargement d’un fichier depuis une URL ou un compte externe.
 
-Avec ce protocole, vous pouvez choisir l&#39;option **[!UICONTROL Utiliser des paramètres de connexion définis dans un compte externe]**, puis sélectionner le compte désiré et indiquer le chemin d&#39;accès au fichier à télécharger.
+Avec ce protocole, vous pouvez choisir l’option **[!UICONTROL Utiliser des paramètres de connexion définis dans un compte externe]**, puis sélectionner le compte désiré et indiquer le chemin d’accès au fichier à télécharger.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -105,7 +105,7 @@ Vous pouvez également choisir l&#39;option **[!UICONTROL Configuration rapide]*
 
 Le protocole Amazon S3 permet de lancer le téléchargement d’un fichier depuis une URL ou un compte externe via Amazon Simple Storage Service (S3).
 
-1. Sélectionnez un compte externe Amazon S3. Pour plus d&#39;informations à ce propos, consultez cette [page](../../administration/using/external-accounts.md#amazon-s3-external-account).
+1. Sélectionnez un compte externe Amazon S3. Pour plus d’informations à ce sujet, consultez cette [page](../../administration/using/external-accounts.md#amazon-s3-external-account).
 
 2. Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**.
 
@@ -125,9 +125,9 @@ Le protocole Amazon S3 permet de lancer le téléchargement d’un fichier depu
 
 Le protocole Blob Microsoft Azure permet d’accéder à l’objet Blob situé sur un compte de stockage Blob Microsoft Azure.
 
-1. Sélectionnez un compte externe **[!UICONTROL Blob Microsoft Azure]**. Pour plus d&#39;informations à ce propos, consultez cette [page](../../administration/using/external-accounts.md#microsoft-azure-external-account).
+1. Sélectionnez un compte externe **[!UICONTROL Blob Microsoft Azure]**. Pour plus d’informations à ce sujet, consultez cette [page](../../administration/using/external-accounts.md#microsoft-azure-external-account).
 
-1. Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d&#39;accès au fichier]** ou **[!UICONTROL Utiliser un chemin d&#39;accès au fichier dynamique]**.
+1. Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**.
 
    ![](assets/wkf_file_transfer_10.png)
 
@@ -146,13 +146,14 @@ Le protocole Blob Microsoft Azure permet d’accéder à l’objet Blob situé s
 ### Configuration avec des fichiers présents sur le serveur Adobe Campaign {#files-server-configuration-wf}
 
 Le protocole **[!UICONTROL Fichier(s) présent(s) sur le serveur Adobe Campaign]** correspond au référentiel contenant le ou les fichiers à récupérer.
-Les métacaractères ou caractères génériques (par exemple &#42; ou ?) peuvent être utilisés pour filtrer les fichiers.
+Les métacaractères ou caractères génériques (par exemple &#42; ou ?)peuvent être utilisés pour filtrer les fichiers.
 
-Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**. L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer. Voir à ce propos [cette page](../../automating/using/customizing-workflow-external-parameters.md).
+Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique.]**
+L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer.Pour plus d’informations, consultez [cette page](../../automating/using/customizing-workflow-external-parameters.md).
 
 Veuillez noter que le chemin doit être relatif au répertoire d’espace de stockage du serveur Adobe Campaign. Les fichiers se trouvent dans le répertoire **sftp&lt;nomdevotreinstance>/**. Il est également impossible de parcourir les niveaux de répertoires supérieurs à l’espace de stockage.
 
-par exemple :
+Par exemple :
 
 `user&lt;yourinstancename>/my_recipients.csv` est correct.
 
@@ -160,7 +161,7 @@ par exemple :
 
 `//myserver/hello/myrecipients.csv` est incorrect.
 
-## Paramètres d’historisation   {#historization-settings}
+## Paramètres d’historisation {#historization-settings}
 
 À chacune de ses exécutions, l’activité **[!UICONTROL Transfert de fichier]** stocke les fichiers transférés ou téléchargés dans un dossier dédié. Un dossier est créé pour chaque activité **[!UICONTROL Transfert de fichier]** d’un workflow. Par conséquent, il est important de pouvoir limiter la taille de ce dossier de façon à préserver l’espace physique sur le serveur.
 

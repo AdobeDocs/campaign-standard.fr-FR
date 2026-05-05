@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
-source-wordcount: '426'
+workflow-type: ht
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -27,15 +27,15 @@ Les notifications push sont prises en charge par les SDK Experience Platform.
 
 Les applications mobiles recevant les notifications push doivent être configurées par un administrateur dans l&#39;interface d&#39;Adobe Campaign.
 
-En configurant Adobe Campaign et Adobe Mobile Services, vous serez en mesure d&#39;utiliser les données de votre application mobile pour vos campagnes. Pour plus d’informations à ce propos, consultez cette [page](../../administration/using/configuring-a-mobile-application.md).
+En configurant Adobe Campaign et Adobe Mobile Services, vous serez en mesure d&#39;utiliser les données de votre application mobile pour vos campagnes. Pour plus d’informations à ce sujet, consultez cette [page](../../administration/using/configuring-a-mobile-application.md).
 
-Pour envoyer des notifications push avec l&#39;application SDK Experience Cloud, une application mobile doit être installée dans l’interface utilisateur de collecte de données et configurée dans Adobe Campaign. Pour en savoir plus à ce sujet, consultez cette [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+Pour envoyer des notifications push avec l&#39;application SDK Experience Cloud, une application mobile doit être installée dans l’interface utilisateur de collecte de données et configurée dans Adobe Campaign. Pour plus d’informations à ce sujet, consultez cette [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Étape 2 : personnalisation de votre notification push dans Adobe Campaign {#customize-push}
 
 Pour parfaire votre notification push, Adobe Campaign vous permet d&#39;accéder à un ensemble d&#39;options avancées lors de sa création.
 
-1. Créez une notification push. Pour plus d’informations à ce propos, consultez cette [page](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Créez une notification push. Pour plus d’informations à ce sujet, consultez cette [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. Dans la page de contenu de la notification push, accédez à la section **[!UICONTROL Options avancées]**.
 
@@ -44,7 +44,7 @@ Pour parfaire votre notification push, Adobe Campaign vous permet d&#39;accéde
 
    ![](assets/push_notif_advanced_6.png)
 
-1.  Prévisualisez et enregistrez votre notification push.
+1. Prévisualisez et enregistrez votre notification push.
 
 ## Étape 3 : adaptation du code de l’application mobile {#mobile-app-code}
 

@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
-workflow-type: tm+mt
-source-wordcount: '782'
+workflow-type: ht
+source-wordcount: '790'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Au cours de la configuration et de la publication de messages transactionnels, c
 * Un seul canal peut être utilisé pour chaque configuration d’événement. Voir la section [Créer un événement](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Une fois l’événement créé, vous ne pouvez plus modifier le canal. Par conséquent, si un message n&#39;est pas envoyé avec succès, vous devez concevoir le mécanisme permettant de l&#39;envoyer depuis un autre canal à l&#39;aide d&#39;un workflow. Voir la section [Données de workflow et processus](../../automating/using/get-started-workflows.md).
 * Une fois l&#39;événement créé, vous ne pouvez pas modifier la dimension de ciblage (**[!UICONTROL Evénement temps réel]** ou **[!UICONTROL Profil]**). Voir la section [Créer un événement](../../channels/using/configuring-transactional-event.md#creating-an-event).
-* Il n&#39;est pas possible de restaurer une publication, mais vous pouvez dépublier un événement : cette opération rend l&#39;événement et le message transactionnel associé inaccessibles. Voir la section [Dépublier un événement](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+* Il n’est pas possible de restaurer une publication, mais vous pouvez annuler la publication d’un événement : cette opération rend l’événement et le message transactionnel associé inaccessibles. Voir la section [Dépublier un événement](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 * Le seul message transactionnel pouvant être associé à un événement est le message créé automatiquement lors de la publication de cet événement. Voir la section [Prévisualiser et publier l’événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 ## Nombre de messages transactionnels {#transactional-message-number}
@@ -45,7 +45,7 @@ Le nombre de messages transactionnels publiés peut avoir un impact significatif
 
 Pour optimiser les performances, vous pouvez également dépublier ou supprimer des événements inutilisés. En effet, la dépublication ou la suppression d’un événement entraînera également la dépublication ou la suppression des messages transactionnels correspondants, ainsi que leurs logs d’envoi et de tracking, le cas échéant. Voir [Dépublier un événement](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) et [Supprimer un événement](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Personnalisation          {#personalization}
+## Personnalisation {#personalization}
 
 La manière dont vous pouvez personnaliser le contenu d&#39;un message dépend du type du message transactionnel. Les spécificités sont répertoriées ci-dessous.
 
@@ -56,7 +56,7 @@ La manière dont vous pouvez personnaliser le contenu d&#39;un message dépend d
 * Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l’événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d’enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign. Voir [Enrichissement d&#39;un événement](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) et [Personnalisation d&#39;un message transactionnel](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * Comme les messages transactionnels basés sur un événement ne contiennent pas d’informations sur les profils, ils ne sont pas compatibles avec les règles de fatigue, même dans le cas d’un enrichissement avec des profils.
 
-### Messages transactionnels basés sur un profil  
+### Messages transactionnels basés sur un profil
 
 * Les informations de personnalisation peuvent provenir des données contenues dans l’événement ou de l’enregistrement de profil réconcilié. Voir [Configuration des messages transactionnels basés sur un profil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) et [Caractéristiques des messages transactionnels basés sur un profil](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
 * Vous **pouvez** utiliser les blocs de contenu **[!UICONTROL Lien de désabonnement]** dans un message transactionnel basé sur un profil. Voir [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
@@ -64,7 +64,7 @@ La manière dont vous pouvez personnaliser le contenu d&#39;un message dépend d
 
 ### Listes de produits
 
-Les listes de produits ne sont disponibles que dans les **emails transactionnels**. Voir [Utiliser des listes de produits dans un message transactionnel](../../designing/using/using-product-listings.md).
+Les listes de produits ne sont disponibles que dans les **e-mails transactionnels**. Voir [Utiliser des listes de produits dans un message transactionnel](../../designing/using/using-product-listings.md).
 
 ## Branding {#permissions-and-branding}
 
@@ -83,4 +83,4 @@ Par conséquent, si vous souhaitez utiliser le multi-branding dans le contexte d
 ## Exporter et importer des messages transactionnels {#exporting-and-importing-transactional-messages}
 
 * Pour exporter un message transactionnel, vous devez inclure la configuration de l&#39;événement correspondante lors de la [création de l&#39;export de package](../../automating/using/managing-packages.md#creating-a-package).
-* Une fois le message transactionnel [importé via un package](../../automating/using/managing-packages.md#importing-a-package); il n&#39;apparaît pas dans la liste de messages transactionnels. Il vous faut [publier](../../channels/using/publishing-transactional-event.md) la configuration de l&#39;événement afin de rendre le message transactionnel associé disponible.
+* Une fois le message transactionnel [importé via un package](../../automating/using/managing-packages.md#importing-a-package); il n’apparaît pas dans la liste de messages transactionnels. Il vous faut [publier](../../channels/using/publishing-transactional-event.md) la configuration de l&#39;événement afin de rendre le message transactionnel associé disponible.

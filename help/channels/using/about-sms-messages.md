@@ -10,8 +10,8 @@ role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
-source-wordcount: '286'
+workflow-type: ht
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
@@ -24,11 +24,11 @@ Adobe Campaign permet de distribuer des messages SMS (Short Message Service).
 >
 >Le canal SMS est un composant additionnel. Veuillez vérifier votre accord de licence.
 
-Pour les SMS, vous pouvez créer, modifier et personnaliser des messages au format texte uniquement. Vous pouvez également prévisualiser les SMS avant leur envoi.
+Pour les SMS, vous pouvez créer, modifier et personnaliser des messages au format texte uniquement.Vous pouvez également prévisualiser les SMS avant leur envoi.
 
 La longueur des messages SMS est limitée à 160 caractères si l&#39;encodage GSM est utilisé, à 70 caractères seulement si le message est rédigé en Unicode. Par ailleurs, certains caractères spéciaux peuvent avoir une influence sur la longueur du message. Pour en savoir plus, consultez la section [Encodage des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
-La création d&#39;un SMS est possible depuis le menu **[!UICONTROL Activités marketing]**, à partir d&#39;une campagne ou dans un workflow. Voir [Créer un SMS](../../channels/using/creating-an-sms-message.md).
+La création d’un SMS est possible depuis le menu **[!UICONTROL Activités marketing]**, à partir d’une campagne ou dans un workflow. Voir [Créer un SMS](../../channels/using/creating-an-sms-message.md).
 
 Pour diffuser des SMS vers un téléphone mobile, il vous faut :
 

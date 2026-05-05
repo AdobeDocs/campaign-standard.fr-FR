@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '682'
+source-wordcount: '685'
 ht-degree: 100%
 
 ---
@@ -64,7 +64,7 @@ Après avoir conçu le contenu de votre email, vous devez créer des copies de l
 
    ![](assets/aem_acs_5.png)
 
-1. Sélectionnez le contenu de votre email créé précédemment qui sera traduit dans les langues choisies, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez le contenu de votre e-mail créé précédemment qui sera traduit dans les langues choisies, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/aem_acs_6.png)
 
@@ -92,7 +92,7 @@ Vos copies de langue sont créées. Vous pouvez maintenant modifier le contenu e
 
    >[!NOTE]
    >
-   >Dans le cas présent, vous devrez dupliquer le modèle intégré **[!UICONTROL Email multilingue (mailMultiLang)]** pour pouvoir envoyer votre email multilingue.
+   >Dans le cas présent, vous devrez dupliquer le modèle intégré **[!UICONTROL E-mail multilingue (mailMultiLang)]** pour pouvoir envoyer votre e-mail multilingue.
 
    ![](assets/aem_acs_13.png)
 

@@ -10,8 +10,8 @@ role: Developer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '96'
+workflow-type: ht
+source-wordcount: '103'
 ht-degree: 100%
 
 ---

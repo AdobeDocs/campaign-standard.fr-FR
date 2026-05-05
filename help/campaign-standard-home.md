@@ -4,8 +4,8 @@ title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: tm+mt
-source-wordcount: '284'
+workflow-type: ht
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
@@ -28,13 +28,13 @@ Nous avons le plaisir de vous annoncer que les utilisateurs et les utilisatrices
 
 Découvrez les améliorations et les correctifs de la version 25.1 de Campaign Standard.
 
-[![image](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
+[![Image](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
 >[!TAB Intégration Campaign - RTCDP]
 
 Découvrez comment partager des données entre Campaign et Real-time Customer Data Platform (RTCDP).
 
-[![image](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
+[![Image](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
 
 >[!ENDTABS]
 
@@ -44,7 +44,7 @@ Découvrez comment partager des données entre Campaign et Real-time Customer 
   <tr style="border: 0;">
     <td>
     <a href="start/using/about-the-interface.md"><img src="assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>Interface utilisateur</strong><br/>Découvrez comment naviguer dans Journey Optimizer et optimiser votre expérience.</div>
+    <div><strong>Interface d’utilisation</strong><br/>Découvrez comment naviguer dans Journey Optimizer et optimiser votre expérience.</div>
     </td>
     <td>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><img src="assets/do-not-localize/start-designer.png"></a>
@@ -81,7 +81,7 @@ Découvrez comment partager des données entre Campaign et Real-time Customer 
     </td>
     <td>
       <img src="assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>Canaux de communication</strong><br/><a href="channels/using/about-emails.md">E-mail</a> - <a href="channels/using/about-sms-messages.md">SMS</a> - <a href="channels/using/about-in-app-messaging.md">In-app</a> - <a href="channels/using/about-push-notifications.md">Notifications push</a> - <a href="channels/using/about-direct-mail.md">Mailing direct</a> - <a href="channels/using/about-direct-mail.md">Web</a>
+      <strong>Canaux de communication</strong><br/><a href="channels/using/about-emails.md">E-mail</a> - <a href="channels/using/about-sms-messages.md">SMS</a> - <a href="channels/using/about-in-app-messaging.md">In-app</a> - <a href="channels/using/about-push-notifications.md">Notifications push</a> - <a href="channels/using/about-direct-mail.md">Courrier</a> - <a href="channels/using/about-direct-mail.md">Web</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -95,18 +95,18 @@ Découvrez comment partager des données entre Campaign et Real-time Customer 
     </td>
     <td>
       <img src="assets/do-not-localize/icon-data.svg" width="35px"><br/>
-      <strong>Gestion des données</strong><br/><a href="developing/using/data-model-concepts.md">Modèle de données Campaign Standard</a> - <a href="developing/using/key-steps-to-add-a-resource.md">Ajouter ou étendre une ressource</a> - <a href="automating/using/about-data-import-and-export.md">Import et export de données</a> - <a href="automating/using/managing-encrypted-data.md">Gérer les données cryptées</a>
+      <strong>Gestion des données</strong><br/><a href="developing/using/data-model-concepts.md">Modèle de données Campaign Standard</a> - <a href="developing/using/key-steps-to-add-a-resource.md">Ajouter ou étendre une ressource</a> - <a href="automating/using/about-data-import-and-export.md">Import et export de données</a> - <a href="automating/using/managing-encrypted-data.md">Gérer les données chiffrées</a>
     </td>
   </tr>
 </table>
 
-## Ressources supplémentaires
+## Autres ressources
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Pages utiles</strong><br/>
 <a href="https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview" target="_blank">Tutoriels</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html" target="_blank">Description du produit</a> - <a href="rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a> - <a href="rn/using/release-planning.md">Calendrier des versions</a>
 </td>
 <td><strong>Ressources techniques</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Triggers Experience Cloud</a> - <a href="api/using/get-started-apis.md">API de Campaign</a> - <a href="https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html" target="blank">Notes techniques</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr" target="_blank">Documentation relative au Panneau de Contrôle</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr">Liste des messages d’erreur</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Déclencheurs Experience Cloud</a> - <a href="api/using/get-started-apis.md">API de Campaign</a> - <a href="https://helpx.adobe.com/campaign/kb/acs-article-list.html" target="blank">Notes techniques</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr" target="_blank">Documentation relative au Panneau de Contrôle</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr">Liste des messages d’erreur</a>
 </td>
 </tr></table>

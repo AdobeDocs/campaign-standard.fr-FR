@@ -11,7 +11,7 @@ level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1652'
+source-wordcount: '1680'
 ht-degree: 100%
 
 ---
@@ -34,11 +34,11 @@ Lorsqu’un attribut d&#39;opt-out est modifié dans Campaign, la modification e
 
 Pour la sortie, les événements de marketing email suivants sont envoyés de Campaign vers Dynamics 365 et affichés dans la vue de chronologie Microsoft Dynamics 365 sous forme d’activités personnalisées :
 
-*  Envoi d’email Adobe Campaign
+* Envoi d’email Adobe Campaign
 
-*  Ouverture d’email Adobe Campaign
+* Ouverture d’email Adobe Campaign
 
-*  Clic sur une URL d’email Adobe Campaign
+* Clic sur une URL d’email Adobe Campaign
 
 * E-mails rejetés Adobe Campaign
 
@@ -52,7 +52,7 @@ Vous trouverez ci-dessous un une capture de l’écran Contact pour « Utilisat
 
 ![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
-Reportez au gros plan ci-dessous de la vue de chronologie pour l’utilisateur Dynamics.
+Reportez-vous au gros plan ci-dessous de la vue de chronologie pour l’utilisateur ou l’utilisatrice Dynamics.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
@@ -64,7 +64,7 @@ Si vous cliquez sur l&#39;objet de l’événement d’envoi, vous verrez un for
 
 ![](assets/do-not-localize/mirror_page_url_send.png)
 
-Le formulaire pour les événements de clic sur l’URL d’un email ajoute un attribut supplémentaire pour l’URL sur laquelle l’utilisateur a cliqué :
+Le formulaire pour les événements de clic sur l’URL d’un e-mail ajoute un attribut supplémentaire pour l’URL sur laquelle l’utilisateur ou l’utilisatrice a cliqué :
 
 ![](assets/do-not-localize/mirror_page_url_click.png)
 
@@ -139,7 +139,7 @@ Vous trouverez une présentation plus exhaustive des ressources personnalisées 
 
 ### Flux d’événements de marketing par e-mail{#email-marketing-event-flow}
 
-Les événements de marketing email sont envoyés de Campaign vers Microsoft Dynamics 365 pour apparaître dans la vue Planning.
+Les événements de marketing email sont envoyés de Campaign vers Microsoft Dynamics 365 pour apparaître dans la vue Chronologie.
 
 Types d’événements de marketing pris en charge :
 * Envoi - email envoyé au destinataire
@@ -164,7 +164,7 @@ Les valeurs d’opt-out (par exemple, denyList) sont synchronisées entre les sy
 * **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d’opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365.
 * **Bidirectionnelle** : Dynamics 365 ET Campaign Standard sont deux sources de vérité. Les attributs d’opt-out seront synchronisés de façon bidirectionnelle entre Campaign Standard et Dynamics 365
 
-Si vous disposez également d’un processus distinct pour gérer la synchronisation des opt-outs entre les systèmes, le flux de données d’opt-out de l’intégration peut être désactivé.
+Si vous disposez également d&#39;un processus distinct pour gérer la synchronisation des opt-outs entre les systèmes, le flux de données d&#39;opt-out de l&#39;intégration peut être désactivé.
 
 >[!NOTE]
 >

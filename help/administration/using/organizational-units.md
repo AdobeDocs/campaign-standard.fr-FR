@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
-source-wordcount: '881'
+workflow-type: ht
+source-wordcount: '885'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ Chaque objet et utilisateur de la plateforme est rattaché à une entité organi
 
 >[!IMPORTANT]
 >
->Si un utilisateur n&#39;est rattaché à aucune entité, il ne pourra pas se connecter à Adobe Campaign. Si vous souhaitez restreindre les accès d’un utilisateur ou d’un groupe d’utilisateur, ne le rattachez pas à l’entité **[!UICONTROL Tous]**. Nous vous recommandons d’ajouter l’option **Accéder aux champs de gestion des autorisations** avant d’importer des profils. Voir à ce propos cette [section](../../administration/using/organizational-units.md#partitioning-profiles).
+>Si un utilisateur n&#39;est rattaché à aucune entité, il ne pourra pas se connecter à Adobe Campaign. Si vous souhaitez restreindre les accès d’un utilisateur ou d’un groupe d’utilisateur, ne le rattachez pas à l’entité **[!UICONTROL Tous]**. Nous vous recommandons d’ajouter l’option **Accéder aux champs de gestion des autorisations** avant d’importer des profils. Pour plus d’informations à ce sujet, consultez cette [section](../../administration/using/organizational-units.md#partitioning-profiles).
 >
 >Par défaut, l&#39;entité organisationnelle **[!UICONTROL Tous (tous)]** est affectée au groupe de sécurité **[!UICONTROL Administrateurs]**. Elle est en lecture seule et ne peut pas être modifiée.
 
@@ -37,7 +37,7 @@ Lorsqu&#39;une entité organisationnelle est affectée à l&#39;utilisateur, cel
 >
 >Lorsqu&#39;un utilisateur est présent dans plusieurs groupes rattachés à différentes entités, certaines règles s&#39;appliquent. Pour plus d&#39;informations, consultez la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md).
 
-## Création et gestion des entités      {#creating-and-managing-units}
+## Création et gestion des entités {#creating-and-managing-units}
 
 Les entités organisationnelles vous permettent de filtrer votre instance en fonction de l&#39;organisation à laquelle vos utilisateurs sont liés. Cette entité peut représenter une région, un pays et même une marque dans votre instance.
 
@@ -80,7 +80,7 @@ Les utilisateurs assignés aux groupes **Utilisateur standard** et **Vêtements 
 
 ![](assets/manage_units_7.png)
 
-L’entité Vêtements Geometrixx étant une entité enfant de Geometrixx, le message suivant apparaît lorsqu’un utilisateur tente de modifier le modèle Geometrixx :
+L’entité Vêtements Geometrixx étant une entité enfant de Geometrixx, le message suivant apparaît lorsqu’un utilisateur ou une utilisatrice tente de modifier le modèle Geometrixx :
 
 ![](assets/manage_units_8.png)
 
@@ -90,7 +90,7 @@ Alors que les profils de l’entité organisationnelle Geometrixx seront en lect
 
 ![](assets/manage_units_10.png)
 
-## Partitionnement des profils {#partitioning-profiles}
+## Partition des profils {#partitioning-profiles}
 
 >[!IMPORTANT]
 >

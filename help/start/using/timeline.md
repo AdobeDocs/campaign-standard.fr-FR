@@ -1,5 +1,5 @@
 ---
-title: Planning
+title: Chronologie
 description: Découvrez comment visualiser les programmes en cours et leur contenu à l'aide de l'interface d'Adobe Campaign Standard.
 audience: start
 content-type: reference
@@ -10,15 +10,15 @@ role: User
 level: Beginner
 exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '373'
+workflow-type: ht
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
 
-# Planning{#timeline}
+# Chronologie{#timeline}
 
-Le **[!UICONTROL Planning]** permet de visualiser les programmes en cours ainsi que leur contenu.
+La **[!UICONTROL Chronologie]** permet de visualiser les programmes en cours ainsi que leur contenu.
 
 Pour accéder au planning, cliquez sur la vignette correspondante depuis la page d&#39;accueil.
 
@@ -48,7 +48,7 @@ Lorsque le contenu d&#39;un programme ou d&#39;une campagne est affiché, le cad
 Chaque élément est accompagné d&#39;une icône correspondant à son type :
 
 * ![](assets/timeline_program_icon.png) Programme
-* ![](assets/timeline_campaign_icon.png) Campaign
+* ![](assets/timeline_campaign_icon.png) Campagne
 * ![](assets/timeline_lp_icon.png) Landing page
 * ![](assets/timeline_email_icon.png) Email
 * ![](assets/timeline_sms_icon.png) SMS

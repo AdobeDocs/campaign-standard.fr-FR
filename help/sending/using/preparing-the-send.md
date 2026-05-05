@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '462'
+workflow-type: ht
+source-wordcount: '465'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ La préparation correspond à l&#39;étape de calcul de la population cible et d
 
    ![](assets/preparing_delivery_4.png)
 
-1. La fenêtre **[!UICONTROL Déploiement]** s&#39;affiche. Corrigez les erreurs, puis relancez la préparation.
+1. La fenêtre **[!UICONTROL Déploiement]** saffiche. Corrigez les erreurs, puis redémarrez la préparation.
 
    Le dernier message de logs affiche les erreurs éventuelles et leur nombre. Une icône spécifique permet de visualiser le type d&#39;erreur rencontrée : l&#39;icône jaune indique une erreur de traitement non bloquante, l&#39;icône rouge indique une erreur qui empêche le lancement de la diffusion.
 

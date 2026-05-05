@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1376'
+workflow-type: ht
+source-wordcount: '1514'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Cette étape permet à l’utilisateur de se connecter à l’interface utilisat
 1. Dans Adobe Campaign Standard, configurez la propriété mobile que vous avez créée dans l’interface utilisateur de collecte de données. Pour plus d&#39;informations, consultez la section [Configuration de l’application Adobe Experience Platform Launch dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Ajoutez la configuration spécifique au canal à votre configuration d’application mobile.
-Pour plus d&#39;informations, reportez-vous à la section [Configuration de l&#39;application spécifique au canal dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+Pour plus d’informations, reportez-vous à la section [Configuration de l’application spécifique au canal dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 1. Si nécessaire, vous pouvez supprimer la propriété de balise.
 Pour plus d’informations, voir la section [Suppression de l’application Adobe ](../../administration/using/configuring-a-mobile-application.md#delete-app).
@@ -96,7 +96,7 @@ Pour plus d’informations sur le workflow technique de synchronisation de l’a
 
    ![](assets/launch.png)
 
-1. Sélectionnez l’application mobile que vous avez créée dans l’interface utilisateur de collecte de données.
+1. Sélectionnez l’application mobile que vous avez créée dans l’interface d’utilisation de collecte de données.
 Son **[!UICONTROL Statut de propriété]** doit être **[!UICONTROL Prêt pour configuration]**.
 
    >[!NOTE]

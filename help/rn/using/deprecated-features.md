@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
-source-wordcount: '882'
+workflow-type: ht
+source-wordcount: '1045'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,10 @@ Adobe évalue constamment les fonctionnalités des produits pour identifier cell
 
 Lors de l&#39;annonce de la suppression ou du remplacement imminent de fonctionnalités Campaign Standard, les règles suivantes s&#39;appliquent :
 
-* L&#39;annonce de l&#39;obsolescence vient en premier. Les fonctionnalités obsolètes sont encore disponibles pour les utilisateurs existants, elles ne seront plus améliorées ni documentées.
-* La suppression de fonctionnalités obsolètes aura lieu au plus tôt dans la version suivante. La date de suppression prévue est annoncée sur cette page.
+* L’annonce de l’obsolescence vient en premier. Les fonctionnalités obsolètes sont encore disponibles pour les utilisateurs existants, elles ne seront plus améliorées ni documentées.
+* La suppression de fonctionnalités obsolètes aura lieu au plus tôt dans la version suivante. La date de suppression cible est annoncée sur cette page.
 
-Cette procédure laisse aux clients au moins un cycle de publication pour s&#39;adapter à une nouvelle version ou au successeur d&#39;une fonctionnalité supprimée avant la suppression définitive.
+Cette procédure laisse aux clients au moins un cycle de publication pour s’adapter à une nouvelle version ou au successeur d’une fonctionnalité supprimée avant la suppression définitive.
 
 >[!NOTE]
 >Les versions et nouvelles fonctionnalités d’Adobe Campaign Standard sont répertoriées dans les [Notes de mise à jour](../../rn/using/release-notes.md).
@@ -33,7 +33,7 @@ Cette section répertorie les fonctions et fonctionnalités qui ont été désig
 
 En règle générale, les fonctionnalités qui doivent être supprimées dans une version ultérieure sont définies comme étant obsolètes dans un premier temps et une solution de remplacement est fournie. Ces fonctions et fonctionnalités ne sont plus disponibles pour les nouveaux clients de Campaign Standard ou ne doivent pas être utilisées dans le cadre d&#39;une nouvelle implémentation. Elles sont également supprimées de la documentation du produit.
 
-Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d&#39;envisager de modifier leur implémentation pour utiliser la solution de remplacement proposée. Référez-vous à la version de suppression prévue pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
+Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d&#39;envisager de modifier leur implémentation pour utiliser la solution de remplacement proposée. Référez-vous à la version de suppression cible pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
 
 
 
@@ -45,7 +45,7 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>La prise en charge des SDK Adobe Experience Platform Mobile version 4 a pris fin le 31 août 2021. Si vous utilisez toujours cette version héritée du SDK dans Adobe Campaign Standard, vous devez mettre à jour votre implémentation avec le SDK Adobe Experience Platform <strong>avant fin juin 2024</strong>. </p></br>
+   <td> <p>La prise en charge des SDK Adobe Experience Platform Mobile version 4 a pris fin le 31 août 2021.Si vous utilisez toujours cette version héritée du SDK dans Adobe Campaign Standard, vous devez mettre à jour votre implémentation avec le SDK Adobe Experience Platform <strong>avant fin juin 2024</strong>. </p></br>
    <p>Lisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=fr">cet article</a> pour savoir comment adapter votre implémentation et passer au dernier SDK Experience Platform.</p></br>
    <p><strong>Attention</strong> : le SDK V4 ne sera plus pris en charge dans Campaign Standard à compter de la fin du mois de juin 2024.</p>
   </td> 
@@ -74,7 +74,7 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Utilisateurs et sécurité - Entités géographiques</strong><br /> </th> 
+   <th><strong>Utilisateurs et utilisatrices et sécurité - Entités géographiques</strong><br /></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -139,7 +139,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Standard
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Demandes d’accès à des informations personnelles - API et interface Campaign</strong><br /> </th> 
+   <th><strong>Demandes d’accès à des informations personnelles - API et interface Campaign</strong><br /></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -159,7 +159,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Standard
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> À compter d'avril 2021, la fonctionnalité Optimisation prédictive de l'objet est désactivée.</p><br/>
+   <td> <p>À compter d’avril 2021, la fonctionnalité Optimisation prédictive de l’objet est désactivée.</p><br/>
    <p>Nous vous suggérons d'exploiter les fonctionnalités de messagerie optimisée par IA pour analyser et estimer les taux d'ouverture, les délais d'envoi optimaux et le taux probable d'exécution en fonction des mesures d'engagement historiques. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=fr">En savoir plus</a></p></br>
      </td> 
   </tr> 
@@ -169,7 +169,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Standard
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Score de propension avec Triggers Experience Cloud</strong><br /> </th> 
+   <th><strong>Score de propension avec les Triggers Experience Cloud</strong><br /></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -184,7 +184,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Standard
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>SDK Creative pour Campaign Standard</strong><br /> </th> 
+   <th><strong>SDK Creative pour Campaign Standard</strong><br /></th> 
   </tr> 
  </thead> 
  <tbody> 

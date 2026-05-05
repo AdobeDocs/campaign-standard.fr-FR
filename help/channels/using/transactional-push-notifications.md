@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '1493'
+workflow-type: ht
+source-wordcount: '1504'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez utiliser Adobe Campaign pour envoyer des notifications push transac
 
 >[!NOTE]
 >
->Le canal des notifications push est en option. Veuillez vérifier votre contrat de licence. Pour plus d&#39;informations sur les notifications push standard, voir [À propos des notifications push](../../channels/using/about-push-notifications.md).
+>Le canal des notifications push est en option. Veuillez vérifier votre contrat de licence.Pour plus d&#39;informations sur les notifications push standard, voir [À propos des notifications push](../../channels/using/about-push-notifications.md).
 
 Pour pouvoir envoyer des notifications push transactionnelles, vous devez configurer Adobe Campaign en conséquence. Voir [Configuration d&#39;une application mobile](../../administration/using/configuring-a-mobile-application.md).
 
@@ -39,7 +39,7 @@ Dans ce cas, seules **les données contenues dans l&#39;événement sont utilis�
 
 ### Configuration d&#39;une notification push transactionnelle basée sur un événement {#configuring-event-based-transactional-push-notification}
 
-Pour envoyer une notification push transactionnelle anonyme à tous les utilisateurs qui se sont inscrits pour recevoir des notifications de votre application mobile, vous devez d&#39;abord créer et configurer un événement ciblant les données contenues dans l&#39;événement.
+Pour envoyer une notification push transactionnelle anonyme à toutes les personnes qui se sont inscrites pour recevoir des notifications de votre application mobile, vous devez d’abord créer et configurer un événement ciblant les données contenues dans l’événement.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Pour ce faire, la compagnie enverra une notification push transactionnelle par u
 
    ![](assets/message-center_push_content.png)
 
-   Pour trouver ces champs, cliquez sur le crayon situé en regard d&#39;un élément, cliquez sur **[!UICONTROL Insérer un champ de personnalisation]** et sélectionnez **[!UICONTROL Contexte]** > **[!UICONTROL Événement en temps réel]** > **[!UICONTROL Contexte de l&#39;événement]**.
+   Pour trouver ces champs, cliquez sur le crayon situé en regard d’un élément, cliquez sur **[!UICONTROL Insérer un champ de personnalisation]** et sélectionnez **[!UICONTROL Contexte]** > **[!UICONTROL Événement en temps réel]** > **[!UICONTROL Contexte de l’événement]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -115,9 +115,9 @@ Pour ce faire, la compagnie enverra une notification push transactionnelle par u
 
 Si le jeton d&#39;enregistrement existe, l&#39;utilisateur correspondant reçoit une notification push transactionnelle comprenant le contenu suivant :
 
-*&quot;Bonjour Jeanne Lambert, l&#39;embarquement vient de commencer !  Veuillez vous diriger vers la porte B18.&quot;*
+*&quot;Bonjour Jeanne Lambert, l&#39;embarquement vient de commencer ! Veuillez vous diriger vers la porte B18.&quot;*
 
-## Notifications push transactionnelles ciblant un profil  {#transactional-push-notifications-targeting-a-profile}
+## Notifications push transactionnelles ciblant un profil {#transactional-push-notifications-targeting-a-profile}
 
 Vous pouvez envoyer une notification push transactionnelle **aux profils Adobe Campaign qui se sont abonnés à votre application mobile**. Cette diffusion peut contenir des [champs de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field), tels que le prénom du destinataire, directement récupérés de la base de données Adobe Campaign.
 
@@ -141,7 +141,7 @@ Pour envoyer une notification push transactionnelle aux profils Adobe Campaign 
 
    ![](assets/message-center_push_appfilter.png)
 
-1. Ajoutez des champs à l&#39;événement si vous voulez personnaliser le message transactionnel (voir [Définir les attributs d&#39;événement](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
+1. Ajoutez des champs à l’événement si vous voulez personnaliser le message transactionnel (consultez [Définir les attributs d’événement](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
 
    >[!NOTE]
    >
@@ -216,7 +216,7 @@ Pour modifier ce mapping de ciblage, procédez comme suit :
 
    >[!NOTE]
    >
-   >Pour optimiser le temps et les performances de préparation de la diffusion lors de l&#39;envoi de notifications push transactionnelles **basées sur profil**, utilisez le mapping de ciblage **[!UICONTROL Profil - Événement en temps réel pour les notifications push (mapRtEventAppSubRcp)]**.
+   >Pour optimiser le temps et les performances de préparation de la diffusion lors de l’envoi de notifications push transactionnelles **basées sur profil**, utilisez le mapping de ciblage **[!UICONTROL Profil - Événement en temps réel pour les notifications push (mapRtEventAppSubRcp)]**.
 
    ![](assets/message-center_push_target-mapping_change.png)
 

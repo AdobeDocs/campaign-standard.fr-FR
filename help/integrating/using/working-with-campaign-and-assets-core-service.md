@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '167'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisé
 
    ![](assets/dam_insert_image_dce.png)
 
-1. Dans la fenêtre de sélection qui s&#39;ouvre, sélectionnez une image, puis validez.
+1. Dans la fenêtre de sélection qui s’ouvre, sélectionnez une image, puis validez.
 
    ![](assets/dam_shared_image_selection.png)
 

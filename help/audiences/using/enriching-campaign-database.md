@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '451'
+workflow-type: ht
+source-wordcount: '460'
 ht-degree: 100%
 
 ---
@@ -68,4 +68,4 @@ Pour plus d&#39;informations sur l&#39;utilisation des API, reportez-vous à la 
 
 >[!IMPORTANT]
 >
->Avant d&#39;effectuer une mise à jour ou une création en masse de profils via des appels d&#39;API, vérifiez les limites d&#39;échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#Ressourcesdinfrastructureinformatiqueparniveauxdeprofilsactifs).
+>Avant d&#39;effectuer une mise à jour ou une création en masse de profils via des appels d&#39;API, vérifiez les limites d&#39;échelle correspondant à votre contrat de licence. Pour plus d’informations, consultez [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#RessourcesdinfrastructureinformatiqueparniveauxdeProfilsactifs).

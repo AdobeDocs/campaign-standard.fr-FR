@@ -52,6 +52,6 @@ Le workflow de se présente comme suit :
 
   ![](assets/subscription_activity_example5.png)
 
-* Une activité de [Services d’abonnements](../../automating/using/subscription-services.md) permet de sélectionner le service auquel les profils doivent s’abonner, le champ correspondant à la date d’abonnement et l’origine de l’abonnement.
+* Une activité de [Services d’abonnement](../../automating/using/subscription-services.md) permet de sélectionner le service auquel les profils doivent s’abonner, le champ correspondant à la date d’abonnement et l’origine de l’abonnement.
 
   ![](assets/subscription_activity_example4.png)

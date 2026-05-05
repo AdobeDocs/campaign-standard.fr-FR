@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
-source-wordcount: '374'
+workflow-type: ht
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Tirez profit des [activités marketing](../../start/using/marketing-activities.m
 
 ![](assets/marketing-activities.png)
 
-Les messages peuvent être créés à partir de la liste des activités marketing ou à partir d&#39;un workflow, à l&#39;aide des [activités dédiées](../../automating/using/about-channel-activities.md).
+Les messages peuvent être créés à partir de la liste des activités marketing ou à partir d’un workflow, à l’aide des [activités dédiées](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
@@ -56,15 +56,15 @@ Dans le bloc **[!UICONTROL Contenu]**, concevez et personnalisez le contenu de v
 
 ![](assets/steps-content.png)
 
-## Préparation et test
+## Préparer et tester
 
 [Préparez](../../sending/using/preparing-the-send.md) le message. Ce processus calcule la population cible et prépare le message personnalisé.
 
 ![](assets/steps-prepare.png)
 
-**Vérifiez et testez votre message** avant de l’envoyer à l’aide des fonctionnalités de Campaign Standard : prévisualisation, rendu des emails, révision et bien d’autres. Voir à ce propos [cette section](../../sending/using/previewing-messages.md).
+**Vérifiez et testez votre message** avant de l’envoyer à l’aide des fonctionnalités de Campaign Standard : prévisualisation, rendu des e-mails, relecture et bien d’autres. Pour approfondir vos connaissances sur le sujet, consultez [cette section](../../sending/using/previewing-messages.md).
 
-Utilisez le bloc **[!UICONTROL Planification]** pour définir quand vos messages seront envoyés (voir [Planification des messages](../../sending/using/about-scheduling-messages.md)).
+Utilisez le bloc **[!UICONTROL Planning]** pour définir quand vos messages seront envoyés (voir [Planification des messages](../../sending/using/about-scheduling-messages.md)).
 
 ![](assets/steps-schedule.png)
 

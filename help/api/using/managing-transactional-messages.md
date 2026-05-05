@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '675'
+source-wordcount: '676'
 ht-degree: 100%
 
 ---
@@ -137,7 +137,7 @@ Dans la réponse, le champ &quot;status&quot; vous permet de savoir si l’évé
 
 * **pending** : l’événement est en attente ; il se trouve dans cet état lorsqu’il vient d’être déclenché.
 * **processing** : l’événement est en attente de diffusion ; il est transformé en message et ce message est envoyé.
-* **paused** : le processus d’événement est en pause. L’événement n’est plus traité, mais il est conservé dans une file d’attente, dans la base de données Adobe Campaign. Voir à ce propos [cette section](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
+* **paused** : le processus d’événement est en pause. L’événement n’est plus traité, mais il est conservé dans une file d’attente, dans la base de données Adobe Campaign. Pour plus d’informations, consultez [cette section](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
 * **processed** : l’événement a été traité et le message a bien été envoyé.
 * **ignored** : l’événement a été ignoré par la diffusion, généralement lorsqu’une adresse est en quarantaine.
 * **deliveryFailed** : une erreur de diffusion s’est produite pendant le traitement de l’événement.

@@ -1,5 +1,5 @@
 ---
-title: 'Demandes d''accès à des informations personnelles '
+title: Demandes d'accès à des informations personnelles
 description: Découvrez comment gérer les demandes d'accès à des informations personnelles dans Adobe Campaign Standard
 audience: start
 content-type: reference
@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1636'
+workflow-type: ht
+source-wordcount: '1732'
 ht-degree: 100%
 
 ---
@@ -63,11 +63,11 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
    ![](assets/privacy-namespace-label.png)
 
-1. Si vous souhaitez utiliser un espace de noms du service d&#39;identités existant, sélectionnez **[!UICONTROL Mappage depuis le service d&#39;espace de noms d&#39;identité]**, puis un espace de noms dans la liste **[!UICONTROL Espaces de noms du service d&#39;identités]**.
+1. Si vous souhaitez utiliser un espace de noms du service d’identités existant, sélectionnez **[!UICONTROL Mappage depuis le service d’espace de noms d’identité]**, puis un espace de noms dans la liste **[!UICONTROL Espaces de noms du service d’identités]**.
 
    ![](assets/privacy-map-from-namespace.png)
 
-   Si vous souhaitez créer un espace de noms dans le **[!UICONTROL Service d&#39;identités]** et le mapper dans Campaign, sélectionnez **[!UICONTROL Créer]** et entrez un nom dans le champ **[!UICONTROL Nom de l&#39;espace de noms d&#39;identité.]**
+   Si vous souhaitez créer un espace de noms dans le **[!UICONTROL Service d’identités]** et le mapper dans Campaign, sélectionnez **[!UICONTROL Créer]** et saisissez un nom dans le champ **[!UICONTROL Nom de l’espace de noms d’identité.]**
 
    ![](assets/privacy-create-new-namespace.png)
 
@@ -79,7 +79,7 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
    ![](assets/privacy-namespace-target-mapping.png)
 
-1. Sélectionnez la **[!UICONTROL Clé de réconciliation]**. Il s’agit du champ qui sera utilisé pour identifier le titulaire de données dans la base de données Adobe Campaign.
+1. Choisissez la **[!UICONTROL Clé de réconciliation]**.Il s’agit du champ utilisé pour identifier le ou la titulaire de données dans la base de données Adobe Campaign.
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
@@ -123,7 +123,7 @@ Voici la liste des ressources d&#39;usine qui sont prises en compte lors de l&#3
 * Abonnements des profils (subscriptionRcp)
 * Visiteurs (visitor)
 
-Si vous avez créé des ressources personnalisées ayant un lien vers la ressource de profils (type own), celles-ci sont également prises en compte. Par exemple, si une ressource de transaction est liée à la ressource de profils et si une ressource de détails de transaction est liée à la ressource de transaction, elles sont toutes deux prises en compte.
+Si vous avez créé des ressources personnalisées ayant un lien vers la ressource de profils (type propre), celles-ci sont également prises en compte.Par exemple, si une ressource de transaction est liée à la ressource de profils et si une ressource de détails de transaction est liée à la ressource de transaction, elles sont toutes deux prises en compte.
 
 Reportez-vous également à [ce tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=fr#privacy) sur la modification des ressources personnalisées.
 
@@ -235,7 +235,7 @@ Vous devez ensuite vous assurer de ne jamais vendre à une quelconque tierce par
 
    ![](assets/privacy-ccpa-profile-opt-out.png)
 
-1. Lorsque la valeur du champ est **[!UICONTROL True]**, les informations s&#39;affichent dans les détails du profil.
+1. Lorsque la valeur du champ est **[!UICONTROL True]**, les informations s’affichent dans les détails du profil.
 
    ![](assets/privacy-ccpa-profile-opt-out-true.png)
 
@@ -243,6 +243,6 @@ Vous devez ensuite vous assurer de ne jamais vendre à une quelconque tierce par
 
    ![](assets/privacy-ccpa-profile-configure-list.png)
 
-1. Vous pouvez cliquer sur la colonne afin de trier les destinataires selon les informations d&#39;opt-out.
+1. Vous pouvez cliquer sur la colonne pour trier les destinataires en fonction des informations d’opt-out.
 
    ![](assets/privacy-ccpa-profile-sorting.png)

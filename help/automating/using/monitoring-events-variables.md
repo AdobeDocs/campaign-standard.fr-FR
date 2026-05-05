@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Surveiller des variables d&#39;événements {#monitoring-the-events-variables}
 
-Il est possible de suivre les variables d’événements disponibles dans le workflow, y compris les paramètres externes déclarés. Pour cela, procédez comme suit :
+Il est possible de suivre les variables d’événements disponibles dans le workflow, y compris les paramètres externes déclarés. Pour ce faire, procédez comme suit :
 
 1. Sélectionnez l&#39;activité qui suit l&#39;activité **[!UICONTROL Signal externe]**, puis cliquez sur le bouton **[!UICONTROL Log et tâches]**.
 1. Dans l’onglet **[!UICONTROL Tâches]**, cliquez sur le bouton ![](assets/edit_darkgrey-24px.png).

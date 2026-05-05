@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '2983'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '3017'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
 * **Champs de masques autorisés**
 
-  Les **[!UICONTROL Paramètres d’en-tête des e-mails envoyés]** répertorient les adresses e-mail autorisées que vous pouvez utiliser pour envoyer des e-mails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des rebonds asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).
+  Les **[!UICONTROL Paramètres d’en-tête des e-mails envoyés]** répertorient les adresses e-mail autorisées que vous pouvez utiliser pour envoyer des e-mails à vos destinataires (adresse d’expédition) et leur permettre de renvoyer des réponses automatisées telles que des rebonds asynchrones, des réponses indiquant leur absence, etc. (adresse d’erreur).
 
   Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient entraîner des problèmes de délivrabilité.
 
@@ -70,7 +70,7 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
   Pour plus d’informations sur ce sujet, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
-## Comptes de routage email   {#email-routing-accounts}
+## Comptes de routage email {#email-routing-accounts}
 
 Le compte externe **[!UICONTROL Routage e-mail intégré]** est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 
@@ -127,7 +127,7 @@ The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campa
 The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
 -->
 
-## Liste des propriétés des emails   {#list-of-email-properties}
+## Liste des propriétés des emails {#list-of-email-properties}
 
 Cette section décrit la liste des paramètres disponibles dans l’écran des propriétés d’un email ou d’un modèle d’email.
 
@@ -169,7 +169,7 @@ Les messages qui n’ont pas abouti de manière temporaire font l’objet de rep
 
 Le **paramètre de durée de diffusion** (défini dans la section [Paramètres de la période de validité](#validity-period-parameters)) **configuré dans Campaign sera toujours respecté, mais jusqu’à 3,5 jours seulement**. À ce stade, tout message de la file d’attente des reprises est supprimé de la file d’attente et renvoyé sous forme de rebond. Pour plus d’informations sur les échecs de diffusion, consultez cette [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
-#### Paramètres de format des emails   {#email-format-parameters}
+#### Paramètres de format des emails {#email-format-parameters}
 
 Vous pouvez paramétrer le format des emails envoyés. Trois options sont disponibles :
 
@@ -194,12 +194,12 @@ Si vous activez l’option de mode test SMTP pour un modèle d’e-mail, cette o
 
 >[!IMPORTANT]
 >
->Lorsque cette option est activée pour un email, aucun message n’est envoyé tant qu’elle n’est pas décochée.
+>Lorsque cette option est activée pour un e-mail, aucun message n’est envoyé tant qu’elle n’est pas décochée.
 >Un avertissement s’affiche dans le tableau de bord de l’email ou du modèle d’email.
 
 Pour plus d’informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](#list-of-email-smtp-parameters).
 
-### Paramètres de période de validité   {#validity-period-parameters}
+### Paramètres de période de validité {#validity-period-parameters}
 
 La section **[!UICONTROL Période de validité]** propose les paramètres suivants :
 
@@ -215,7 +215,7 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
 
   >[!IMPORTANT]
   >
-  >**Vous devez définir une valeur allant jusqu’à 3,5 jours.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
+  >**Vous devez définir une valeur allant jusqu’à 3,5 jours.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
   >
   >Le paramètre **[!UICONTROL Durée de diffusion]** ne s’applique pas aux messages transactionnels. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md).
 
@@ -254,11 +254,11 @@ Cliquez sur le bouton à droite du champ qui va être modifié, puis ajoutez le 
 
 L’insertion et l’utilisation du contenu de personnalisation sont présentées dans la documentation [Personnalisation du contenu des emails](../../designing/using/personalization.md).
 
-#### Contexte de ciblage   {#target-context}
+#### Contexte de ciblage {#target-context}
 
 Utilisez le contexte de ciblage pour définir l&#39;ensemble des tables qui seront utilisées pour le ciblage (dans l&#39;écran de définition des audiences) et la personnalisation (définition de champs de personnalisation, dans l&#39;éditeur de contenu HTML) de l&#39;e-mail.
 
-#### Routage  {#routing}
+#### Routage {#routing}
 
 Ce champ indique le mode de routage utilisé. Il référence un compte externe. Par exemple, cela peut être utile si vous souhaitez utiliser un compte externe contenant des paramétrages de branding spécifiques.
 
@@ -266,7 +266,7 @@ Ce champ indique le mode de routage utilisé. Il référence un compte externe. 
 >
 >Les comptes externes sont accessibles via le menu **Administration** > **Paramétrage de l’application** > **Comptes externes**.
 
-#### Préparation  {#preparation}
+#### Préparation {#preparation}
 
 La préparation des messages est présentée dans la section [Valider les messages](../../sending/using/preparing-the-send.md).
 
@@ -292,7 +292,7 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
 
 * **[!UICONTROL Encodage des caractères]** : cochez la case **[!UICONTROL Forcer l’encodage]** si vous souhaitez forcer l’encodage des messages, puis sélectionnez le codage à utiliser.
 * **[!UICONTROL Mails rebonds]** : par défaut, les mails rebonds sont récupérés dans la boîte d’erreur de la plateforme (définie dans l’écran **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration).]** Si vous souhaitez définir une adresse d’erreur spécifique pour un email, saisissez l’adresse dans le champ **[!UICONTROL Adresse des erreurs]**.
-* **[!UICONTROL En-têtes SMTP supplémentaires]** : cette option permet d’ajouter des en-têtes SMTP supplémentaires à vos messages. Le script renseigné dans le champ **[!UICONTROL En-têtes]** doit référencer un en-tête par ligne, sous la forme **nom:value**. Les valeurs sont automatiquement encodées, si nécessaire.
+* **[!UICONTROL En-têtes SMTP supplémentaires]** : cette option permet d’ajouter des en-têtes SMTP supplémentaires à vos messages. Le script saisi dans le champ **[!UICONTROL En-têtes]** doit référencer un en-tête par ligne sous la forme de **nom:value**.Les valeurs sont automatiquement encodées, si nécessaire.
 
   >[!IMPORTANT]
   >

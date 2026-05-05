@@ -48,7 +48,7 @@ Dans cet exemple, vous décidez d&#39;envoyer un email à tous vos abonnés s&#3
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
-1. Ajoutez du contenu à votre email.
+1. Ajoutez du contenu à votre e-mail.
 
    ![](assets/poi_email_content.png)
 

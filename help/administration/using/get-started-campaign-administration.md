@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
-source-wordcount: '636'
+workflow-type: ht
+source-wordcount: '652'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menu Administration</a></p></td>
-<td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Utilisateurs et sécurité</a></p></td>
+<td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Utilisateurs et utilisatrices et sécurité</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Configuration des canaux</a></p></td>
 <td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Paramétrage de l’application</a></p></td></tr>
 </table>
@@ -47,7 +47,7 @@ Voici la liste des différents menus disponibles :
 * [Mesures des clients](../../audiences/using/active-profiles.md) : Adobe Campaign contient un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation.
 * [Outils d&#39;accès à des informations personnelles](../../start/using/privacy-management.md) : ce menu vous permet de créer un accès RGPD, de supprimer les demandes et de tracker leur évolution.
 
-## Utilisateurs et sécurité {#users-security}
+## Utilisateurs et utilisatrices et sécurité {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
@@ -55,7 +55,7 @@ Invitez les utilisateurs à accéder à l’application et à gérer les **group
 
 Campaign standard permet également de surveiller les informations relatives à la sécurité. Vous pouvez récupérer des informations concernant les exports de données effectués par les utilisateurs via l’écran **[!UICONTROL Audits des exports]** et utiliser l’écran **[!UICONTROL Licences]** pour surveiller toutes les licences Campaign installées au sein de votre entreprise, ainsi que différentes informations telles que le numéro de build, la version publiée et les conditions d’utilisation.
 
-En savoir plus :
+En savoir plus:
 
 * [Gestion des utilisateurs](../../administration/using/users-management.md)
 * [Entités organisationnelles](../../administration/using/organizational-units.md)
@@ -74,7 +74,7 @@ Configurez les différents paramètres des **e-mails** : règles de traitement 
 
 Configurez les **applications mobiles** afin de pouvoir envoyer des messages In-App et des notifications push à l’aide des SDK Adobe Experience Platform.
 
-En savoir plus :
+En savoir plus:
 
 * [À propos de la configuration des canaux](../../administration/using/about-channel-configuration.md)
 * [Configuration du canal e-mail](../../administration/using/configuring-email-channel.md)
@@ -91,7 +91,7 @@ Configurez les **comptes externes** qui servent à connecter Adobe Campaign à 
 
 Définissez une ou plusieurs **marques** pour votre organisation et configurez l’envoi de **notifications en temps réel** dans l’application en cas d’activités importantes du système.
 
-En savoir plus :
+En savoir plus:
 
 * [À propos des paramètres de Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Comptes externes](../../administration/using/external-accounts.md)

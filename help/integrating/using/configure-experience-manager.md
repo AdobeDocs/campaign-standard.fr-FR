@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '353'
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Les étapes de configuration d&#39;Adobe Campaign sont les suivants :
 
    ![](assets/aem_3.png)
 
-1. Cliquez sur l’icône **[!UICONTROL Editer les propriétés]**.
+1. Cliquez sur l’icône **[!UICONTROL Modifier les propriétés]**.
 
    ![](assets/aem_4.png)
 

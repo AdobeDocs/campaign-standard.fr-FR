@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1116'
+source-wordcount: '1139'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ En savoir plus dans ces sections :
 * [Découvrir les étapes clés d’implémentation de cette intégration](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [Utiliser l&#39;intégration Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
 
-## Conditions préalables {#self-service-app-prerequisites}
+## Conditions préalables requises {#self-service-app-prerequisites}
 
 Vous devez configurer Microsoft Dynamics 365 et Adobe Campaign Standard pour que l&#39;application d&#39;intégration ait accès à vos données. Cette configuration prendra du temps dans Dynamics 365, Adobe Campaign Standard et Adobe I/O ; toutefois, une fois ces applications configurées, vous pourrez contrôler l&#39;intégration par le biais de l&#39;interface utilisateur de l&#39;application d&#39;intégration en libre-service.
 
@@ -74,7 +74,7 @@ Lorsque vous accédez pour la première fois à l’interface utilisateur, une p
 >
 > Il est normal de recevoir des alertes indiquant qu&#39;il est « impossible de se connecter » à Adobe Campaign Standard ou Microsoft Dynamics 365 si les paramètres de l&#39;application n&#39;ont pas encore été configurés.
 
-Vérifiez que les sélections &quot;ORG&quot; et &quot;INSTANCE&quot; sont celles que vous prévoyez de configurer. Dans le cas contraire, cliquez sur la liste déroulante et sélectionnez l’organisation et l’instance appropriées.
+Vérifiez que les sélections &quot;ORG&quot; et &quot;INSTANCE&quot; sont celles que vous prévoyez de configurer.  Dans le cas contraire, cliquez sur la liste déroulante et sélectionnez l’organisation et l’instance appropriées.
 
 >[!IMPORTANT]
 >
@@ -145,7 +145,7 @@ Les entrées du menu déroulant sont les suivantes :
 
 Des barres de navigation s’affichent en haut de certains écrans lorsque vous naviguez dans l’application.
 
-**Exemple :**
+**Exemple:**
 
 Vous trouverez ci-dessous un exemple à partir de l’écran **[!UICONTROL Modifier le mapping de table]** qui montre les barres de navigation et le titre de la page. Dans cet exemple, vous pouvez cliquer sur le texte **[!UICONTROL Workflows]** ou **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** pour accéder à l&#39;un des écrans précédents. Dans le cas présent, il n’est pas possible de cliquer sur **[!UICONTROL Modifier le mapping de table]** dans les barres de navigation, car il s’agit de l’écran actuel.
 

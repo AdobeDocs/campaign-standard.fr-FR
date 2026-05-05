@@ -57,7 +57,7 @@ Le workflow est constitué comme suit :
 
   ![](assets/deduplication_example2_writer1.png)
 
-  Indiquez les mappings entre les colonnes du fichier dont vous souhaitez insérer les données et les champs de la base depuis l&#39;onglet **[!UICONTROL Champs à mettre à jour]**.
+  Indiquez les mappings entre les colonnes du fichier dont vous souhaitez insérer les données et les champs de la base depuis l’onglet **[!UICONTROL Champs à mettre à jour]**.
 
   ![](assets/deduplication_example2_writer2.png)
 

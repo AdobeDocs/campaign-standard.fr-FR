@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '414'
+source-wordcount: '465'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Avant d&#39;accéder à l&#39;image dans Adobe Campaign, les tâches suivantes d
    L&#39;intégration prend uniquement en charge les images statiques. Le reste du contenu n&#39;est pas personnalisable.
 
 1. Saisissez le nom du &quot;rawbox&quot; défini dans Adobe Target.
-1. Dans Adobe Target, si vous utilisez les autorisations Enterprise, ajoutez la propriété correspondante dans ce champ. Pour plus d&#39;informations sur les autorisations Enterprise Target, consultez [cette page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr). Ce champ est facultatif et n’est pas obligatoire si vous n’utilisez pas les autorisations Enterprise dans Target.
+1. Dans Adobe Target, si vous utilisez les autorisations Enterprise, ajoutez la propriété correspondante dans ce champ. Pour plus d’informations sur les autorisations Target Enterprise, consultez [cette page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr). Ce champ est facultatif et n’est pas obligatoire si vous n’utilisez pas les autorisations Enterprise dans Target.
 1. Dans **[!UICONTROL Paramètres de décision additionnels]**, spécifiez le mapping entre les champs définis dans les segments Adobe Target et les champs d’Adobe Campaign.
 
    Les champs d’Adobe Campaign utilisés doivent avoir été spécifiés au niveau du « rawbox ». Dans cet exemple, définissez différentes expériences en fonction du sexe du destinataire.
@@ -52,6 +52,6 @@ La diffusion contenant l&#39;image dynamique peut maintenant être envoyée. Ses
 
 **Rubriques connexes :**
 
-* [Portail d&#39;Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr)
+* [Portail Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr)
 * [À propos de la conception du contenu d&#39;un email](../../designing/using/designing-content-in-adobe-campaign.md)
 * Vidéo [Personnaliser des images d&#39;email en temps réel](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html)

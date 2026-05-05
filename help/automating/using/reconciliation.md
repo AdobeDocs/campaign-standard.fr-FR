@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Réconciliation]** permet de relier des données non identifiées à des ressources existantes.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Réconciliation]** est essentiellement utilisée à des fins de Data Management et répond à deux cas d&#39;utilisation distincts :
 

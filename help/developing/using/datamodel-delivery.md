@@ -8,8 +8,8 @@ role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '725'
+workflow-type: ht
+source-wordcount: '730'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>advancedParameters</td>
-                  <td>Advanced parameters</td>
+                  <td>Paramètres avancés</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -93,13 +93,13 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>builtIn</td>
-                  <td>Built-in application object</td>
+                  <td>Objet d’application natif</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>campaign (campaignBase)</td>
-                  <td>Campaign</td>
+                  <td>Campagne</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -167,7 +167,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>deliveryProvider (extAccountBase)</td>
-                  <td>Routing</td>
+                  <td>Routage</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -238,16 +238,16 @@ ht-degree: 100%
                   <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Transactional email - emailLightning - 60</li>
+                        <li>E-mail transactionnel - emailLightning - 60</li>
                         <li>Fax - fax - 4</li>
                         <li>Mobile (SMS) - sms - 1</li>
                         <li>Recurring email - emailRefresh - 30</li>
-                        <li>Direct mail - paper - 3</li>
+                        <li>Courrier - papier - 3</li>
                         <li>Phone - phone - 2</li>
                         <li>Other - other - 120</li>
                         <li>Recurring SMS - smsRefresh - 31</li>
                         <li>Mobile application - pushNotification - 40</li>
-                        <li>Transactional SMS - smsLightning - 61</li>
+                        <li>SMS transactionnel - smsLightning - 61</li>
                         <li>Email - email - 0</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -273,13 +273,13 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>iterations</td>
-                  <td>Deliveries</td>
+                  <td>Diffusions</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>job</td>
-                  <td>Job</td>
+                  <td>traitement</td>
+                  <td>Traitement</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
@@ -297,7 +297,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -336,7 +336,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>mapping (deliveryMapping)</td>
-                  <td>Target mapping</td>
+                  <td>Mapping de ciblage</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -354,7 +354,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>messageType</td>
-                  <td>Channel</td>
+                  <td>Canal</td>
                   <td>enumeration (byte) </td>
                   <td>
                      <ul>
@@ -362,7 +362,7 @@ ht-degree: 100%
                         <li>Mobile (SMS) - sms - 1</li>
                         <li>Email - email - 0</li>
                         <li>Phone - phone - 2</li>
-                        <li>Direct mail - paper - 3</li>
+                        <li>Courrier - papier - 3</li>
                         <li>Mobile application - pushNotification - 40</li>
                         <li>Other - other - 120</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
@@ -383,7 +383,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>offerManagement</td>
-                  <td>Offer Management</td>
+                  <td>Gestion des offres</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -479,7 +479,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>state</td>
-                  <td>Status</td>
+                  <td>Statut</td>
                   <td>enumeration (byte) </td>
                   <td>
                      <ul>
@@ -506,8 +506,8 @@ ht-degree: 100%
                   </td>
                </tr>
                <tr>
-                  <td>targets</td>
-                  <td>Delivery target population</td>
+                  <td>cibles</td>
+                  <td>Population cible de diffusion</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -518,14 +518,14 @@ ht-degree: 100%
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
-                  <td>Delivery thumbnail</td>
+                  <td>miniature</td>
+                  <td>Miniature de diffusion</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Delivery</td>
+                  <td>Diffusion</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -549,7 +549,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>triggerMessage</td>
-                  <td>Parameters of the transactional message</td>
+                  <td>Paramètres du message transactionnel</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -561,7 +561,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>workflow (workflowBase)</td>
-                  <td>Targeting workflow</td>
+                  <td>Workflow de ciblage</td>
                   <td>link </td>
                   <td> </td>
                </tr>

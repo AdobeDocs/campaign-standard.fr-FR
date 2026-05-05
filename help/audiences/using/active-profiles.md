@@ -6,8 +6,8 @@ role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
 source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
-workflow-type: tm+mt
-source-wordcount: '267'
+workflow-type: ht
+source-wordcount: '278'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Conformément à votre contrat, chacune de vos instances Campaign est dotée d&#
 
 * Ce rapport est fourni uniquement à titre d&#39;information. Il n&#39;a aucune incidence directe sur la facturation.
 
-Au bas de la page, les dimensions de ciblage sont répertoriées avec le nombre de profils pour chacune d&#39;elles. Les destinataires des messages transactionnels sont associés à la dimension **Anonyme** .
+Au bas de la page, les dimensions de ciblage sont répertoriées avec le nombre de profils pour chacune d’elles. Les destinataires des messages transactionnels sont associés à la dimension **Anonyme** .
 
 >[!NOTE]
 >

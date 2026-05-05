@@ -10,9 +10,9 @@ role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1577'
+ht-degree: 100%
 
 ---
 
@@ -97,10 +97,10 @@ Le tableau ci-après décrit ces identifiants et leur finalité.
 
 | Nom d’affichage | Nom technique | Description | Bonnes pratiques |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>La clé PKey est la clé primaire physique d’une table Adobe Campaign.</li><li>Cet identifiant est généralement unique pour une instance Adobe Campaign spécifique.</li><li>Dans Adobe Campaign Standard, cette valeur n’est pas visible par l’utilisateur final (sauf dans les URL).</li></ul> | <ul><li>Par le biais du [système API](../../api/using/get-started-apis.md), il est possible de récupérer une valeur PKey (qui est une valeur générée/hachée, et non la clé physique).</li><li>Il n’est pas recommandé de l’utiliser à d’autres fins que la récupération, la mise à jour ou la suppression d’enregistrements via l’API.</li></ul> |
-| ID | name ou internalName | <ul><li>Cette information est l&#39;identifiant unique d&#39;un enregistrement dans une table. Cette valeur peut être mise à jour manuellement.</li><li>Cet identifiant conserve sa valeur lorsqu’il est déployé dans une autre instance d’Adobe Campaign. Il doit avoir un nom différent de la valeur générée pour pouvoir être exporté via un package.</li><li>Il ne s’agit pas de la clé primaire actuelle de la table.</li></ul> | <ul><li>N’utilisez pas de caractères spéciaux tels que l’espace «  », le point-virgule « ; » ou le tiret « - ».</li><li>Tous ces caractères seront remplacés par un trait de soulignement « _ » (caractère autorisé). Par exemple, « abc-def » et « abc:def » seront stockés sous la forme de « abc_def » et s&#39;écraseront mutuellement.</li></ul> |
-| Libellé | label | <ul><li>Le libellé est l&#39;identifiant d&#39;entreprise d&#39;un objet ou d&#39;un enregistrement dans Adobe Campaign.</li><li>Cet objet autorise les espaces et les caractères spéciaux.</li><li>Il ne garantit pas le caractère unique d&#39;un enregistrement.</li></ul> | <ul><li>Il est recommandé de déterminer une structure pour les libellés de vos objets.</li><li>Il s&#39;agit de la solution la plus conviviale pour identifier un enregistrement ou un objet pour un utilisateur d&#39;Adobe Campaign.</li></ul> |
-| Identifiant ACS | acsId | <ul><li>Un identifiant supplémentaire peut être généré : l’[identifiant ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Comme la clé PKey ne peut pas être utilisée dans l’interface utilisateur d’Adobe Campaign, il s’agit d’une solution permettant d’obtenir une valeur unique générée lors de l’insertion d’un enregistrement de profil.</li><li>La valeur ne peut être générée automatiquement que si l’option est activée dans la ressource avant qu’un enregistrement ne soit inséré dans Adobe Campaign.</li></ul> | <ul><li>Cet UUID peut être utilisé comme clé de réconciliation.</li><li>Un identifiant ACS généré automatiquement ne peut pas être utilisé comme référence dans un workflow ou dans une définition de package.</li><li>Cette valeur est spécifique à une instance Adobe Campaign.</li></ul> |
+|  | PKey | <ul><li>La clé PKey est la clé primaire physique d’une table Adobe Campaign.</li><li>Cet identifiant est généralement unique pour une instance Adobe Campaign spécifique.</li><li>Dans Adobe Campaign Standard, cette valeur n’est pas visible par les utilisateurs et utilisatrices finaux (sauf dans les URL).</li></ul> | <ul><li>Par le biais du [système API](../../api/using/get-started-apis.md), il est possible de récupérer une valeur PKey (qui est une valeur générée/hachée, et non la clé physique).</li><li>Il n’est pas recommandé de l’utiliser à d’autres fins que la récupération, la mise à jour ou la suppression d’enregistrements via l’API.</li></ul> |
+| ID | name ou internalName | <ul><li>Cette information est l&#39;identifiant unique d&#39;un enregistrement dans une table. Cette valeur peut être mise à jour manuellement.</li><li>Cet identifiant conserve sa valeur lorsqu’il est déployé dans une autre instance d’Adobe Campaign. Il doit avoir un nom différent de la valeur générée pour pouvoir être exporté via un package.</li><li>Il ne s’agit pas de la clé primaire actuelle de la table.</li></ul> | <ul><li>N’utilisez pas de caractères spéciaux tels que l’espace «   », le point-virgule « ; » ou le tiret « - ».</li><li>Tous ces caractères seront remplacés par un trait de soulignement « _ » (caractère autorisé). Par exemple, « abc-def » et « abc:def » seront tous deux stockés sous le nom « abc_def » et s’écraseront mutuellement.</li></ul> |
+| Libellé | label | <ul><li>Le libellé est l’identifiant d’entreprise d’un objet ou d’un enregistrement dans Adobe Campaign.</li><li>Cet objet autorise les espaces et les caractères spéciaux.</li><li>Il ne garantit pas le caractère unique d’un enregistrement.</li></ul> | <ul><li>Il est recommandé de déterminer une structure pour les libellés de vos objets.</li><li>Il s&#39;agit de la solution la plus conviviale pour identifier un enregistrement ou un objet pour un utilisateur d&#39;Adobe Campaign.</li></ul> |
+| Identifiant ACS | acsId | <ul><li>Un identifiant supplémentaire peut être généré : l’[identifiant ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Comme la clé PKey ne peut pas être utilisée dans l’interface d’utilisation d’Adobe Campaign, il s’agit d’une solution permettant d’obtenir une valeur unique générée lors de l’insertion d’un enregistrement de profil.</li><li>La valeur ne peut être générée automatiquement que si l’option est activée dans la ressource avant qu’un enregistrement ne soit inséré dans Adobe Campaign.</li></ul> | <ul><li>Cet UUID peut être utilisé comme clé de réconciliation.</li><li>Un identifiant ACS généré automatiquement ne peut pas être utilisé comme référence dans un workflow ou dans une définition de package.</li><li>Cette valeur est spécifique à une instance Adobe Campaign.</li></ul> |
 
 ### Clés d’identification {#keys}
 
@@ -117,7 +117,7 @@ When an out-of-the-box resource has both an internal auto-generated and an inter
 Lors de la création d’une ressource personnalisée, vous avez deux possibilités :
 
 * Combinaison de clé générée automatiquement et de clé personnalisée interne. Cette option est intéressante si votre clé système est une clé composite ou n&#39;est pas un entier. Les entiers offrent des performances supérieures dans les tables volumineuses et dans la jointure à d’autres tables.
-* Utilisation de la clé primaire comme clé primaire du système externe. Cette solution est généralement préférable, car elle simplifie l’approche d’import et d’export des données, avec une clé cohérente entre les différents systèmes.
+* Utilisation de la clé primaire comme clé primaire du système externe. Cette solution est généralement préférable, car elle simplifie l&#39;approche d&#39;import et d&#39;export des données, avec une clé cohérente entre les différents systèmes.
 
 Les clés d’identification ne doivent pas être utilisées comme référence dans les workflows.
 
@@ -163,7 +163,7 @@ Afin d&#39;optimiser les performances à tout moment, suivez les bonnes pratique
 * Utilisez une ou plusieurs tables de référence plutôt que de dupliquer un champ dans chaque ligne. Lors de l&#39;utilisation de paires clé/valeur, il est préférable de choisir une clé numérique.
 * Une chaîne courte reste acceptable. Si des tables de références sont déjà en place dans un système externe, les réutiliser facilitera l&#39;intégration des données avec Adobe Campaign.
 
-### Relations de type &quot;un à plusieurs&quot;  {#one-to-many-relationships}
+### Relations de type &quot;un à plusieurs&quot; {#one-to-many-relationships}
 
 * La conception des données a un impact sur la convivialité et les fonctionnalités. Si vous concevez votre modèle de données avec de nombreuses relations de type &quot;un à plusieurs&quot;, il devient plus difficile pour les utilisateurs de construire une logique significative dans l&#39;application. Il peut s’avérer difficile pour les spécialistes marketing n’ayant pas de compétences techniques de construire et de comprendre correctement la logique.
 * Qu&#39;une table comporte tous les champs essentiels est une bonne chose car cela facilite la création de requêtes par les utilisateurs. Parfois, pour des raisons de performances, il est aussi judicieux de dupliquer certains champs d’une table à l’autre si cela permet d’éviter une jointure.

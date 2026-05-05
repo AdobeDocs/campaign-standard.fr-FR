@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '613'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Déduplication]** permet de supprimer les doublons dans le ou les résultats des activités entrantes.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Déduplication]** est généralement utilisée à la suite des activités de ciblage ou d&#39;un import de fichier et avant les activités permettant de consommer les données ciblées.
 
@@ -70,11 +70,11 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
      ![](assets/deduplication_2.png)
 
-   * **[!UICONTROL Valeur non vide]** : permet de conserver en priorité les enregistrements pour lesquels la valeur de l&#39;expression sélectionnée n&#39;est pas vide.
+   * **[!UICONTROL Valeur non vide]** : permet de conserver en priorité les enregistrements pour lesquels la valeur de l’expression sélectionnée n’est pas vide.
 
      ![](assets/deduplication_3.png)
 
-   * **[!UICONTROL A partir d&#39;une expression]** : permet de conserver les enregistrements dont la valeur de l&#39;expression renseignée est la plus petite ou la plus grande.
+   * **[!UICONTROL À partir d’une expression]** : permet de conserver les enregistrements dont la valeur de l’expression renseignée est la plus petite ou la plus grande.
 
      ![](assets/deduplication_4.png)
 

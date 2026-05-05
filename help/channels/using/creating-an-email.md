@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '571'
+workflow-type: ht
+source-wordcount: '588'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
    Le tableau de bord de l&#39;email s&#39;affiche alors. Il vous permet de vérifier votre message et de [préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
 
-   Le bouton **[!UICONTROL Editer les propriétés]** dans le coin supérieur droit permet d&#39;éditer les propriétés de l&#39;email. Vous pouvez, par exemple, configurer l&#39;email de sorte que son libellé soit calculé au moment de la préparation de la diffusion. Les paramètres disponibles sont répertoriés dans [cette section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   Le bouton **[!UICONTROL Editer les propriétés]** dans le coin supérieur droit permet d&#39;éditer les propriétés de l&#39;email. Vous pouvez, par exemple, configurer l&#39;email de sorte que son libellé soit calculé au moment de la préparation de la diffusion.  Les paramètres disponibles sont répertoriés dans [cette section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -104,6 +104,6 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
 Cette vidéo montre comment créer un e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/30952?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

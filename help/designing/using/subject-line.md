@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Pour définir le nom de l&#39;expéditeur qui apparaîtra dans l&#39;en-tête de
 
 >[!NOTE]
 >
->Les paramètres d’en-tête ne doivent pas être vides. L’adresse de l’expéditeur est obligatoire pour permettre l’envoi d’un email (norme RFC). Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
+>Les paramètres d’en-tête ne doivent pas être vides. L&#39;adresse de l&#39;expéditeur est obligatoire pour permettre l&#39;envoi d&#39;un email (norme RFC). Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
 
 **Rubriques connexes :**
 

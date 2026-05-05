@@ -10,8 +10,8 @@ role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
 source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
-workflow-type: tm+mt
-source-wordcount: '527'
+workflow-type: ht
+source-wordcount: '531'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,13 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
 
   ![](assets/sending_delivery1.png)
 
-  Le journal contient tous les messages relatifs à la diffusion et aux bons à tirer (BAT). Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Pour plus d&#39;informations, consultez la section [Valider les messages](../../sending/using/previewing-messages.md).
+  Le log contient tous les messages relatifs à la diffusion et aux bons à tirer (BAT). Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Pour plus d&#39;informations, consultez la section [Valider les messages](../../sending/using/previewing-messages.md).
 
-  Vous pouvez exporter le journal en cliquant sur le bouton **[!UICONTROL Exporter la liste]**.
+  Vous pouvez exporter le log en cliquant sur le bouton **[!UICONTROL Exporter la liste]**.
 
   ![](assets/sending_delivery2.png)
 
-* **Logs de tâche** : vous pouvez accéder à une liste des tâches par lots déclenchées par la diffusion, à partir du tableau de bord des messages en sélectionnant **[!UICONTROL Historique des tâches]** de la liste déroulante **[!UICONTROL Résumé]**.
+* **Logs de traitement** : vous pouvez accéder à une liste des traitements par lots déclenchées par la diffusion, à partir du tableau de bord des messages en sélectionnant **[!UICONTROL Historique des traitements]** de la liste déroulante **[!UICONTROL Résumé]**.
 
   Sélectionnez une tâche dans la liste pour afficher les détails de la tâche **[!UICONTROL Traitement par lots]** sélectionnée.
 
@@ -51,7 +51,7 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
 **Rubriques connexes :**
 
 * [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Rapports ](../../reporting/using/about-dynamic-reports.md)
+* [Rapports](../../reporting/using/about-dynamic-reports.md)
 
 ## Logs de diffusion {#delivery-logs}
 
@@ -63,7 +63,7 @@ Pour chaque profil dont l&#39;état est **[!UICONTROL Envoyé]**, la colonne **[
 
 ![](assets/sending_delivery3.png)
 
-Pour accéder aux détails d&#39;un log d’envoi spécifique, cliquez sur l’icône représentant un crayon à droite de la ligne correspondante.
+Pour accéder aux détails d’un log d’envoi spécifique, cliquez sur l’icône représentant un crayon à droite de la ligne correspondante.
 
 ![](assets/sending_access-sending-log.png)
 
@@ -83,6 +83,6 @@ L’onglet **[!UICONTROL Logs d’exclusion]** liste tous les messages qui ont �
 
 ### Causes d&#39;exclusion {#exclusion-causes}
 
-L&#39;onglet **[!UICONTROL Causes d&#39;exclusion]** indique le volume (en nombre de messages) des messages qui ont été exclus de l&#39;envoi à la cible.
+L’onglet **[!UICONTROL Causes d’exclusion]** indique le volume (en nombre de messages) des messages qui ont été exclus de l’envoi à la cible.
 
 ![](assets/sending_delivery5.png)

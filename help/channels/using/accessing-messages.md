@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 830ca459-39c5-4761-a533-b6d345a326fc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '311'
+workflow-type: ht
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Les messages sont accessibles :
 * à partir de la page d&#39;accueil d&#39;Adobe Campaign
 * à partir de la liste des activités marketing
 
-## Accéder aux messages dans une campagne     {#accessing-messages-in-campaigns}
+## Accéder aux messages dans une campagne {#accessing-messages-in-campaigns}
 
 Pour accéder à la liste des activités marketing d&#39;une campagne :
 
@@ -44,7 +44,7 @@ Pour accéder à la liste des activités marketing d&#39;une campagne :
 
    Pour filtrer les messages récurrents, vous pouvez cocher la case correspondante.
 
-## Accéder à la liste des messages     {#accessing-the-message-list}
+## Accéder à la liste des messages {#accessing-the-message-list}
 
 Pour accéder à la liste complète des activités marketing de toutes campagnes confondues, procédez comme suit :
 
@@ -63,7 +63,7 @@ Chaque état d&#39;un message est associé à une couleur, visible sur sa vignet
 * **[!UICONTROL En édition]** (gris) : le message est en édition
 * **[!UICONTROL En cours]** (bleu) : l&#39;envoi du message est en cours
 * **[!UICONTROL Terminé]** (vert) : l&#39;envoi s&#39;est terminé sans erreur
-* **[!UICONTROL En erreur]** (rouge) : l&#39;envoi a été annulé ou une erreur est survenue lors de la préparation ou de l&#39;envoi
+* **[!UICONTROL En erreur]** (rouge) : l’envoi a été annulé ou une erreur est survenue lors de la préparation ou de l’envoi.
 
   >[!NOTE]
   >

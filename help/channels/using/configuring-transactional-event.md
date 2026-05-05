@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1779'
+workflow-type: ht
+source-wordcount: '1797'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ La configuration varie en fonction du [type de message transactionnel](../../cha
 
 Une fois la configuration terminée, l’événement doit être publié. Voir [Publication d’un événement transactionnel](../../channels/using/publishing-transactional-event.md).
 
-## Créer un événement        {#creating-an-event}
+## Créer un événement {#creating-an-event}
 
 Pour commencer, créez l’événement correspondant à vos besoins.
 
@@ -52,7 +52,7 @@ Pour commencer, créez l’événement correspondant à vos besoins.
 >
 >Le nombre d’événements transactionnels peut avoir un impact sur votre plateforme. Pour des performances optimales, veillez à supprimer les événements inutilisés. Pour plus d&#39;informations, consultez la section [Supprimer un événement](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Définir les attributs d’événement        {#defining-the-event-attributes}
+## Définir les attributs d’événement {#defining-the-event-attributes}
 
 Dans la section **[!UICONTROL Champs]**, définissez les attributs qui seront intégrés au contenu de l’événement et qui pourront être utilisés pour personnaliser le message transactionnel.
 
@@ -64,11 +64,11 @@ Les étapes d’ajout et de modification des champs s’effectuent de la même m
 >
 >Si vous souhaitez créer un message transactionnel multilingue, définissez un attribut d’événement supplémentaire avec l’identifiant **[!UICONTROL AC_language]**. Cela s’applique uniquement aux messages transactionnels basés sur un événement. Une fois l’événement publié, les étapes nécessaires pour éditer le contenu d’un message transactionnel multilingue sont les mêmes que pour un email standard multilingue. Voir [Créer un e-mail multilingue](../../channels/using/creating-a-multilingual-email.md).
 
-## Définir des collections de données        {#defining-data-collections}
+## Définir des collections de données {#defining-data-collections}
 
 Vous pouvez ajouter une collection d’éléments au contenu de l’événement, chaque élément comprenant lui-même plusieurs attributs.
 
-Cette collection peut être utilisée dans un email transactionnel pour ajouter des [listes de produits](../../designing/using/using-product-listings.md) au contenu du message, par exemple une liste de produits, avec le prix, le numéro de référence, la quantité, etc. pour chaque produit de la liste.
+Cette collection peut être utilisée dans un e-mail transactionnel pour ajouter des [listes de produits](../../designing/using/using-product-listings.md) au contenu du message, par exemple une liste de produits, avec le prix, le numéro de référence, la quantité, etc., pour chaque produit de la liste.
 
 1. Dans la section **[!UICONTROL Collections]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 
@@ -96,8 +96,8 @@ Voici l’aperçu de l’API pour cet exemple :
 **Rubriques connexes :**
 
 * [Prévisualiser et publier l’événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Utiliser des listes de produits dans un message transactionnel      ](../../designing/using/using-product-listings.md)
-* [Publier un message transactionnel           ](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Utiliser des listes de produits dans un message transactionnel](../../designing/using/using-product-listings.md)
+* [Publier un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Enrichir l’événement {#enriching-the-transactional-message-content}
 
@@ -119,7 +119,7 @@ Pour en savoir plus sur la création et la publication de ressources, voir [cett
 
    ![](assets/message-center_new-enrichment.png)
 
-1. Utilisez le bouton **[!UICONTROL Créer un élément]** pour associer un champ de la ressource sélectionnée à l’un des champs que vous avez ajoutés à l’événement (voir [Définir les attributs d’événement](#defining-the-event-attributes)).
+1. Utilisez le bouton **[!UICONTROL Créer un élément]** pour associer un champ de la ressource sélectionnée à l’un des champs que vous avez ajoutés à l’événement (consultez [Définir les attributs d’événement](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
 
@@ -146,8 +146,8 @@ Une fois l’événement et le message publiés, le lien permettra d’enrichir 
 **Rubriques connexes :**
 
 * [Prévisualiser et publier l’événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Personnaliser un message transactionnel           ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
-* [Publier un message transactionnel           ](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Personnaliser un message transactionnel](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
+* [Publier un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Recherche d’événements transactionnels {#searching-transactional-events}
 
@@ -193,7 +193,7 @@ Pour envoyer un message transactionnel basé sur un événement, vous devez d’
 
 1. Intégrez l&#39;événement dans votre site web (voir [Intégrer le déclenchement d&#39;événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Messages transactionnels basés sur un profil        {#profile-based-transactional-messages}
+### Messages transactionnels basés sur un profil {#profile-based-transactional-messages}
 
 Vous pouvez envoyer des messages transactionnels en fonction des profils client, ce qui vous permet d&#39;appliquer des règles de typologie marketing, d&#39;inclure le lien de désabonnement, d&#39;ajouter le message au rapport de diffusion global et de l&#39;exploiter dans le parcours client.
 

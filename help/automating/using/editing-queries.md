@@ -12,7 +12,7 @@ level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '793'
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Le requêteur se compose d&#39;une **Palette** et d&#39;un **Espace de travail**
 
 ![](assets/query_editor_overview.png)
 
-### Palette    {#palette}
+### Palette {#palette}
 
 La palette, située sur la gauche de l&#39;éditeur, est divisée en deux onglets, composés d&#39;éléments répartis dans des blocs thématiques. Ces onglets sont :
 
@@ -69,7 +69,7 @@ Les requêtes peuvent être définies dans la fenêtre **[!UICONTROL Audience]**
 
      ![](assets/query_editor_audience_definition2.png)
 
-   * pour un **champ** de type date ou date et heure, vous pouvez choisir de définir une date précise, une intervalle entre deux dates précises ou une date ou période relative à la date d&#39;exécution de la requête.
+   * Pour un **champ** de type date ou date et heure, vous pouvez choisir de définir une date précise, un intervalle entre deux dates précises ou une date ou période relative à la date d’exécution de la requête.
 
      ![](assets/query_editor_date_field.png)
 
@@ -78,7 +78,7 @@ Les requêtes peuvent être définies dans la fenêtre **[!UICONTROL Audience]**
 
      ![](assets/query_editor_audience_definition4.png)
 
-   * pour un lien de type **1-1** avec une autre ressource de la base, sélectionnez directement une valeur de la table ciblée.
+   * Pour un lien de type **1-1** avec une autre ressource de la base, sélectionnez directement une valeur de la table ciblée.
 
      ![](assets/query_editor_audience_definition5.png)
 

@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
 source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
-workflow-type: tm+mt
-source-wordcount: '943'
+workflow-type: ht
+source-wordcount: '951'
 ht-degree: 100%
 
 ---
@@ -260,7 +260,7 @@ Pour que le tracking des **[!UICONTROL Impressions]** fonctionne toujours lorsqu
 
 >[!CAUTION]
 >
-> Si une application est fermée, Apple ne l&#39;appelle pas tant qu&#39;elle n&#39;est pas relancée. Vous ne pouvez donc pas savoir quand la notification a été reçue sur iOS. </br>Pour cette raison, le tracking des impressions iOS peut ne pas être précis et ne doit pas être considéré comme fiable.
+> Si une application est fermée, Apple ne l’appelle pas tant qu’elle n’est pas relancée.Vous ne pouvez donc pas savoir à quel moment la notification a été reçue sur iOS.</br>Pour cette raison, le tracking des impressions iOS peut ne pas être précis et ne doit pas être considéré comme fiable.
 
 Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 

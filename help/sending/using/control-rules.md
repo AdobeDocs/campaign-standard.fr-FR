@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '489'
+workflow-type: ht
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
@@ -32,9 +32,9 @@ Un ensemble de règles par défaut garantit les contrôles standard. Le tableau 
 | **[!UICONTROL Test A/B]** | Email | Au début de la personnalisation | Extrait la population d&#39;apprentissage pour une diffusion avec test A/B. |
 | **[!UICONTROL Vérifier la taille de la diffusion]** | Tous | Après le ciblage | Vérifie la taille des messages. |
 | **[!UICONTROL Vérifier que le contenu de l&#39;email n&#39;est pas vide]** | Email | Après le ciblage | Génère une erreur si le contenu du message est vide. |
-| **[!UICONTROL Vérifier le contenu In-App pour le modèle de message de diffusion]** | In-App | Au début de la personnalisation | Vérifie que le contenu/les triggers In-App ne sont pas vides pour le modèle de diffusion. |
-| **[!UICONTROL Vérifier le contenu In-App pour le modèle de profil]** | In-App | Au début de la personnalisation | Vérifie que le contenu/les triggers In-App ne sont pas vides pour le modèle de profil. |
-| **[!UICONTROL Vérifier le contenu In-App pour le modèle d&#39;abonné]** | In-App | Au début de la personnalisation | Vérifie que le contenu/les triggers In-App ne sont pas vides pour le modèle d&#39;abonné. |
+| **[!UICONTROL Vérifier le contenu In-App pour le modèle de message de diffusion]** | In-App | Au début de la personnalisation | Vérifie que le contenu/les déclencheurs In-App ne sont pas vides pour le modèle de diffusion. |
+| **[!UICONTROL Vérifier le contenu In-App pour le modèle de profil]** | In-App | Au début de la personnalisation | Vérifie que le contenu/les déclencheurs In-App ne sont pas vides pour le modèle de profil. |
+| **[!UICONTROL Vérifier le contenu In-App pour le modèle d&#39;abonné]** | In-App | Au début de la personnalisation | Vérifie que le contenu/les déclencheurs In-App ne sont pas vides pour le modèle d&#39;abonné. |
 | **[!UICONTROL Vérifier la taille du BAT]** | Tous | Après le ciblage | Génère un message d’erreur si la population cible du BAT dépasse 100 destinataires. |
 | **[!UICONTROL Vérifier le lien de partage vers les réseaux sociaux]** | Email | Au début de la personnalisation | Vérifie la présence d’un lien vers une page miroir lors de l&#39;inclusion d&#39;un lien de partage vers les réseaux sociaux (ViralLinks) dans le contenu. |
 | **[!UICONTROL Vérifier l’objet]** | Email | Au début de la personnalisation | Vérifie que le sujet et l&#39;adresse de l&#39;expéditeur du message ne contiennent pas de caractères spéciaux, susceptibles de poser des problèmes sur certains agents de messagerie, et vérifie que l&#39;objet du message est bien renseigné. |

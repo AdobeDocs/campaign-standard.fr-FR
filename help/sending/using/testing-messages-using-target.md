@@ -1,6 +1,6 @@
 ---
-title: Test des emails à l’aide des profils ciblés
-description: Découvrez comment tester les emails à l’aide de profils ciblés et d’adresses de substitution.
+title: Test des e-mails à l’aide des profils ciblés
+description: Découvrez comment tester les e-mails à l’aide de profils ciblés et d’adresses de substitution.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
@@ -10,17 +10,17 @@ role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '1606'
+workflow-type: ht
+source-wordcount: '1617'
 ht-degree: 100%
 
 ---
 
-# Test des e-mails à l&#39;aide des profils ciblés {#testing-message-profiles}
+# Test des e-mails à l’aide des profils ciblés {#testing-message-profiles}
 
 ## Vue d&#39;ensemble {#overview}
 
-En plus des [profils de test](../../audiences/using/managing-test-profiles.md), vous pouvez tester un email en vous mettant à la place de l’un des profils ciblés. Cela vous permet d’obtenir une représentation réaliste du message que le profil recevra (champs personnalisés, informations dynamiques et personnalisées, y compris les données additionnelles provenant des workflows...).
+En plus des [profils de test](../../audiences/using/managing-test-profiles.md), vous pouvez tester un e-mail en vous mettant à la place de l’un des profils ciblés. Cela vous permet d’obtenir une représentation réaliste du message que le profil recevra (champs personnalisés, informations dynamiques et personnalisées, y compris les données additionnelles provenant des workflows...).
 
 >[!IMPORTANT]
 >
@@ -29,10 +29,10 @@ En plus des [profils de test](../../audiences/using/managing-test-profiles.md), 
 Les étapes principales sont les suivantes :
 
 1. Configurez votre message, puis lancez la phase de **préparation**.
-1. **Sélectionnez un ou plusieurs profils** parmi les profils ciblés par l’email.
+1. **Sélectionnez un ou plusieurs profils** parmi les profils ciblés par l’e-mail.
 1. Associez à chaque profil une **adresse de substitution** à laquelle les bons à tirer seront envoyés.
 1. (Facultatif) Pour chaque profil, définissez un **préfixe** à ajouter à l’objet du bon à tirer.
-1. **Prévisualisez** dans le concepteur d’e-mail la manière dont l’email s’affichera pour les profils.
+1. **Prévisualisez** dans le concepteur d’e-mail la manière dont l’e-mail s’affichera pour les profils.
 1. Envoyez les bons à tirer.
 
    >[!IMPORTANT]
@@ -63,7 +63,7 @@ Pour utiliser des profils ciblés à des fins de test, vous devez d’abord les 
 
    ![](assets/substitution_recipient_selection.png)
 
-1. Sélectionnez le profil à utiliser pour le test, puis saisissez l’adresse de substitution souhaitée dans le champ **[!UICONTROL Adresse]** et cliquez sur **[!UICONTROL Valider]**. Tous les bons à tirer ciblant le profil seront envoyés à cette adresse email, plutôt qu’à celle définie dans la base de données pour ce profil.
+1. Sélectionnez le profil à utiliser pour le test, puis saisissez l’adresse de substitution souhaitée dans le champ **[!UICONTROL Adresse]** et cliquez sur **[!UICONTROL Valider]**. Tous les bons à tirer ciblant le profil seront envoyés à cette adresse e-mail, plutôt qu’à celle définie dans la base de données pour ce profil.
 
    Si vous souhaitez ajouter un préfixe spécifique à l’objet du bon à tirer, renseignez le champ **[!UICONTROL Préfixe de ligne d’objet]**.
 
@@ -89,7 +89,7 @@ Pour utiliser des profils ciblés à des fins de test, vous devez d’abord les 
 
 1. Une fois que tous les profils et adresses de substitution sont définis, vous pouvez envoyer un bon à tirer pour tester le message. Pour ce faire, cliquez sur le bouton **[!UICONTROL Test]** , puis sélectionnez le type de test à exécuter.
 
-   Notez que si aucun profil de test n’a été ajouté à la cible du message, les options **[!UICONTROL Rendu des emails]** et **[!UICONTROL Bon à tirer + Rendu des emails]** ne sont pas disponibles.  Pour plus d’informations sur l’envoi des bons à tirer, consultez [cette section](../../sending/using/sending-proofs.md).
+   Notez que si aucun profil de test n’a été ajouté à la cible du message, les options **[!UICONTROL Rendu des e-mails]** et **[!UICONTROL Bon à tirer + Rendu des e-mails]** ne sont pas disponibles.  Pour plus d’informations sur l’envoi des bons à tirer, consultez [cette section](../../sending/using/sending-proofs.md).
 
    ![](assets/substitution_send_test.png)
 
@@ -99,7 +99,7 @@ Pour utiliser des profils ciblés à des fins de test, vous devez d’abord les 
 
 ### Import de profils à partir d’une audience {#importing-from-audience}
 
-Campaign Standard vous permet d’importer une audience de profils que vous pouvez utiliser pour les tests. Vous pouvez par exemple envoyer à une adresse email unique un ensemble de messages ciblant différents profils.
+Campaign Standard vous permet d’importer une audience de profils que vous pouvez utiliser pour les tests. Vous pouvez par exemple envoyer à une adresse e-mail unique un ensemble de messages ciblant différents profils.
 
 De plus, si votre audience est déjà configurée avec les colonnes d’adresses et de préfixes, vous pourrez importer ces informations dans l’onglet **[!UICONTROL Substitutions de profil]**. Vous trouverez un exemple d’import d’audience avec des adresses de substitution dans [cette section](#use-case).
 
@@ -117,7 +117,7 @@ Pour importer des profils à utiliser pour les tests à partir d’une audience,
 
    ![](assets/substitution_audience_import.png)
 
-1. Sélectionnez l’audience à utiliser, puis saisissez l’adresse de substitution et le préfixe à utiliser pour les bons à tirer envoyés à l’audience.
+1. Sélectionnez l’audience à utiliser, puis saisissez l’adresse de substitution et le préfixe à utiliser pour les BAT envoyés à l’audience.
 
    >[!NOTE]
    >
@@ -167,7 +167,7 @@ Pour prévisualiser les messages à l’aide de la substitution de profils, proc
 
    ![](assets/substitution_preview.png)
 
-## Cas pratique {#use-case}
+## Cas d’utilisation {#use-case}
 
 Dans ce cas pratique, nous souhaitons envoyer à un ensemble de profils spécifiques une newsletter électronique personnalisée. Avant d’envoyer la newsletter, nous voulons la prévisualiser à l’aide de certains des profils ciblés, et envoyer des bons à tirer aux adresses email internes définies dans un fichier externe.
 
@@ -183,7 +183,7 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 1. Préparez le fichier à importer pour créer l’audience. Dans notre cas, il doit contenir l’adresse de substitution à utiliser pour le bon à tirer, et un préfixe à ajouter à l’objet du bon à tirer.
 
-   Dans cet exemple, l’adresse email « oliver.vaughan@internal.com » recevra un bon à tirer du message ciblant le profil avec l’adresse email « john.doe@mail.com ». Le préfixe « JD » sera ajouté à l’objet du bon à tirer.
+   Dans cet exemple, l’adresse e-mail « oliver.vaughan@internal.com » recevra un bon à tirer du message ciblant le profil avec l’adresse e-mail « john.doe@mail.com ». Le préfixe « JD » sera ajouté à l’objet du bon à tirer.
 
    ![](assets/substitution_uc1.png)
 
@@ -263,14 +263,14 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. Les bons à tirer sont envoyés selon ce qui a été configuré dans l’onglet **[!UICONTROL Substitutions de profil]**.
+1. Les BAT sont envoyés selon ce qui a été configuré dans l’onglet **[!UICONTROL Substitutions de profil]**.
 
    ![](assets/substitution_uc_proofs.png)
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo explique comment tester vos emails à l’aide de la substitution de profil.
+Cette vidéo explique comment tester vos e-mails à l’aide de la substitution de profil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424569?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
-source-wordcount: '1248'
+workflow-type: ht
+source-wordcount: '1254'
 ht-degree: 100%
 
 ---
@@ -29,8 +29,8 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Apach
 ### Correctifs{#rn-fixes}
 
 * Correction d’un problème lié aux rapports planifiés, qui étaient déclenchés une heure avant la planification. (CAMP-51502)
-* Correction d’un problème sur les indicateurs de diffusion dans le tableau de bord Diffusion qui ne correspondait pas aux logs d’envois (nms:broadLogRcp). (CAMP-51127)
-* Correction d’un problème qui empêchait l’extension des ressources personnalisées avec ACS Connector (Prime Offering). (CAMP-51033)
+* Correction d’un problème sur les indicateurs de diffusion dans le tableau de bord Diffusion qui ne correspondait pas aux logs d’envoi (nms:broadLogRcp).(CAMP-51127)
+* Correction d’un problème qui empêchait l’extension des ressources personnalisées avec le connecteur ACS (offre Prime). (CAMP-51033)
 * Amélioration du processus de publication des réponses aux demandes d’accès à des informations personnelles afin d’éviter tout retard. (CAMP-50613)
 
 ## Version 22.2 - Juin 2022 {#june-2022}
@@ -76,7 +76,7 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Apach
 <tbody> 
 <tr> 
 <td>
-<p>Apache Log4j a corrigé les vulnérabilités signalées dans Apache Log4j version 2.17.1. Adobe Campaign Standard utilise Apache Log4j et cette version comprend la version la plus récente dʼApache Log4j, la version 2.17.1. </p>
+<p>Apache Log4j a corrigé les vulnérabilités signalées dans Apache Log4j version 2.17.1.Adobe Campaign Standard utilise Apache Log4j et cette version comprend la version la plus récente dʼApache Log4j, la version 2.17.1. </p>
 </td> 
 </tr> 
 </tbody> 
@@ -91,15 +91,15 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Apach
 * Amélioration du traitement des données de rapport afin d’éviter une surcharge du système. (CAMP-47578)
 * Après lʼenvoi de vos messages in-app, vous pouvez désormais choisir de désactiver votre diffusion. Vous pouvez ainsi supprimer votre diffusion sans perdre aucune donnée de rapport. (CAMP-48469)
 * Pour éviter tout problème, les utilisateurs ne peuvent plus utiliser le même nom pour une colonne de tableau personnalisée que celui utilisé pour la clé primaire automatique dans la base de données, `"<dataType><resourceName>Id"`. (CAMP-49358)
-* Vous pouvez désormais surveiller votre diffusion et effectuer le suivi des logs de tâches dans la nouvelle liste déroulante **Historique des tâches** du tableau de bord de vos messages. [En savoir plus](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
+* Vous pouvez désormais surveiller votre diffusion et effectuer le suivi des logs de traitement dans la nouvelle liste déroulante **Historique des traitements** du tableau de bord de vos messages. [En savoir plus](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Amélioration de la stabilité et de lʼintégrité de la base de données en réduisant le nombre de tuples inactifs, lorsquʼun grand nombre de messages sont envoyés sur tous les canaux au fil du temps. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Des améliorations ont été apportées à MTA (Mail Transfer Agent ) de Campaign, afin de garantir lʼactualisation automatique des connexions à la base de données en cas de panne ou de redémarrage de celle-ci. (CAMP-48063)
 * La nouvelle option de tracking **Utiliser le pixel de tracking en haut de l&#39;e-mail** a été ajoutée aux propriétés de l&#39;e-mail. Elle vous permet de déplacer le pixel de tracking en haut de l&#39;e-mail plutôt qu&#39;en bas. (CAMP-49672)
 
 **Correctifs**
 
-* Correction d’un problème avec lʼoption **Envoyer le rapport maintenant** dans les rapports dynamiques : les tâches de génération de PDF échouaient avec les diffusions à plusieurs variantes. (CAMP-49120)
-* Correction d’un problème qui empêchait les utilisateurs d’actualiser ou de dissocier le contenu Adobe Experience Manager (AEM) de leurs diffusions Adobe Campaign Standard lorsqu’un contenu dupliqué dans AEM partageait la même clé (cq:uuid). (CAMP-49161)
+* Correction d’un problème avec lʼoption **Envoyer le rapport maintenant** dans les rapports dynamiques : les traitements de génération de PDF échouaient avec les diffusions à plusieurs variantes. (CAMP-49120)
+* Correction d’un problème qui empêchait les utilisateurs et utilisatrices d’actualiser ou de dissocier le contenu Adobe Experience Manager (AEM) de leurs diffusions Adobe Campaign Standard lorsqu’un contenu dupliqué dans AEM partageait la même clé (cq:uuid).(CAMP-49161)
 * Correction dʼune erreur lors de lʼaccès à une instance où les pages ne se chargeaient pas, les diffusions ne pouvaient pas être ouvertes ou les modifications en attente ne pouvaient pas être enregistrées. (CAMP-50195)
 * Correction d’un problème en raison duquel les critères dʼalerte de diffusion ne pouvaient pas être ouverts si le champ **Filtre de diffusion** appliqué par ce critère n’était pas rempli. (CAMP-49093)
 * Correction d’un problème lors de la modification du bouton **Secondaire** dans les diffusions in-app qui empêchait la prise en compte des modifications. (CAMP-50250)
@@ -110,7 +110,7 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Apach
 * Correction dʼun problème qui pouvait entraîner lʼéchec de la préparation de lʼe-mail après la suppression dʼun lien vers un contenu AEM. (CAMP-49877)
 * Pour résoudre divers problèmes, le mécanisme de reprise a été amélioré pour les diffusions comprenant du contenu importé dʼune URL. [En savoir plus](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * Correction d’un problème qui se produisait après la création d’un filtre dans une ressource personnalisée, puis son utilisation comme clé de réconciliation dans une page de destination. Si la ressource personnalisée était publiée à nouveau, le filtre était supprimé de la liste des clés de réconciliation disponibles pour la page de destination. (CAMP-49516)
-* Correction d’un problème dans les pages de destination lors de l’utilisation de conditions dynamiques avec des cases à cocher. (CAMP-48604)
+* Correction d’un problème dans les landing pages lors de l’utilisation de conditions dynamiques avec des cases à cocher. (CAMP-48604)
 * Correction d’un problème qui se produisait dans une activité **Requête** lors de l’utilisation de la condition de filtre « En ou avant octobre ». Lorsque vous travailliez à partir dʼune instance réglée sur un fuseau horaire européen, le mois sélectionné pour le filtre affichait septembre au lieu dʼoctobre, en raison dʼun problème lors de la conversion du fuseau horaire. (CAMP-48602)
 * Pour optimiser la délivrabilité, Adobe Campaign envoie désormais les e-mails à l’aide d’un encodage 7 bits au lieu de 8 bits. Cela empêche les relais intermédiaires dʼinvalider la signature DKIM, ce qui pourrait affecter lʼauthenticité des messages. (CAMP-49016)
 * Amélioration des performances lors de la duplication des audiences, afin d’éviter tout problème lors de l’utilisation de grandes audiences. (CAMP-49639)

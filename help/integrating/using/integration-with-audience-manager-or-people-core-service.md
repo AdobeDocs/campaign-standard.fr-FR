@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '827'
+source-wordcount: '866'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 La mise en service et la configuration d&#39;Audience Manager et de People core dans Adobe Campaign se fait en deux étapes : l&#39;[envoi d&#39;une demande à Adobe](#submitting-request-to-adobe), puis la [configuration de l&#39;intégration dans Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
-## Envoi d&#39;une demande à Adobe        {#submitting-request-to-adobe}
+## Envoi d&#39;une demande à Adobe {#submitting-request-to-adobe}
 
 L&#39;intégration d&#39;Audience Manager ou de People core service permet d&#39;importer et exporter des audiences ou des segments dans Adobe Campaign.
 
@@ -30,45 +30,45 @@ Cette intégration doit d’abord être configurée. Pour demander la mise en se
  <tbody> 
   <tr> 
    <td> <strong>Type de demande :</strong><br /> </td> 
-   <td> Configuration de l'intégration AAM/People core service-Campaign </td> 
+   <td>Configurer l’intégration AAM/People Core Service-Campaign</td> 
   </tr> 
   <tr> 
-   <td> <strong>Nom de l'organisation :</strong><br /> </td> 
-   <td> Nom de votre organisation </td> 
+   <td><strong>Nom de l’organisation :</strong><br /></td> 
+   <td>Nom de votre organisation</td> 
   </tr> 
   <tr> 
    <td> <strong>Identifiant de l’organisation IMS</strong><br /> </td> 
-   <td> L’identifiant de votre organisation. <br> Pour trouver l’identifiant de votre organisation, reportez-vous à <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr">cette page</a>.</td> 
+   <td>L’identifiant de votre organisation. <br>Pour trouver l’identifiant de votre organisation, reportez-vous à <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr">cette page</a>.</td> 
   </tr> 
   <tr> 
-   <td> <strong>Environnement :</strong><br /> </td> 
-   <td> Exemple : Production </td> 
+   <td><strong>Environnement :</strong><br /></td> 
+   <td>Exemple : Production</td> 
   </tr> 
   <tr> 
-   <td> <strong>AAM ou People Service</strong><br /> </td> 
-   <td> Exemple : Adobe Audience Manager. Veillez à indiquer à l'équipe de mise en service si vous possédez ou non la licence d'Audience Manager.</td> 
+   <td><strong>AAM ou People Service</strong><br /></td> 
+   <td> Exemple : Adobe Audience Manager. Veillez à indiquer à l’équipe d’approvisionnement si vous possédez ou non la licence d’Audience Manager.</td> 
   </tr> 
   <tr> 
    <td> <strong>Declared ID ou Visitor ID</strong><br /> </td> 
-   <td> Exemple : Declared ID </td> 
+   <td>Exemple : ID déclaré</td> 
   </tr> 
   <tr> 
-   <td> <strong>Informations supplémentaires</strong><br /> </td> 
+   <td><strong>Informations supplémentaires</strong><br /></td> 
    <td> Informations ou commentaires utiles que vous souhaitez communiquer </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Configuration de l&#39;intégration dans Adobe Campaign   {#configuring-the-integration-in-adobe-campaign}
+## Configuration de l&#39;intégration dans Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
 
 Après l&#39;envoi de cette demande, Adobe approvisionne l&#39;intégration et vous contacte pour vous fournir des informations afin de terminer la configuration :
 
 * [Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
-* [Étape 2 : Configuration des sources de données      ](#step-2--configure-the-data-sources)
+* [Étape 2 : Configuration des sources de données](#step-2--configure-the-data-sources)
 * [Étape 3 : Configuration du serveur de tracking Campaign](#step-3--configure-campaign-tracking-server)
 * [Étape 4 : Configuration du service d&#39;identification des visiteurs](#step-4--configure-the-visitor-id-service)
 
-### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign           {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Il nous faut tout d&#39;abord configurer ou vérifier les comptes externes dans Adobe Campaign Ces comptes doivent avoir été configurés par Adobe. De plus, les informations nécessaires ont dû vous être communiquées.
 
@@ -85,7 +85,7 @@ Pour ce faire :
 
 Vos comptes externes sont à présent configurés pour cette intégration.
 
-### Étape 2 : Configuration des sources de données        {#step-2--configure-the-data-sources}
+### Étape 2 : Configuration des sources de données {#step-2--configure-the-data-sources}
 
 Les deux sources de données suivantes ont été créées dans Audience Manager : Adobe Campaign (MID) et Adobe Campaign (DeclaredId). En même temps, ces deux sources de données sont disponibles dans Adobe Campaign :
 
@@ -121,7 +121,7 @@ Pour créer la source de données **[!UICONTROL ID déclaré]** :
 >
 >Le champ **[!UICONTROL AAM Destination ID]** n&#39;est pas obligatoire si vous configurez la data source partagée pour l&#39;[intégration des Triggers Campaign](../../integrating/using/configuring-triggers-in-experience-cloud.md). La **[!UICONTROL priorité]** n’est nécessaire que lors de la configuration de l’intégration de Triggers Campaign. La priorité détermine quelle source de données sera configurée en premier. Il peut s&#39;agit d&#39;un nombre tel que 1 ou 100. Plus la priorité est élevée, plus la préférence est importante lors de la réconciliation.
 
-### Étape 3 : Configuration du serveur de tracking Campaign        {#step-3--configure-campaign-tracking-server}
+### Étape 3 : Configuration du serveur de tracking Campaign {#step-3--configure-campaign-tracking-server}
 
 Pour la configuration de l&#39;intégration avec People Core service ou Audience Manager, il faut également configurer le serveur de tracking Campaign.
 

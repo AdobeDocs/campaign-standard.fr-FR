@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
 ht-degree: 100%
 
@@ -21,4 +21,4 @@ Les mappings de ciblage sont des objets techniques utilisés par Campaign pour d
 
 Les administrateurs peuvent accéder aux mappings de ciblage dans **[!UICONTROL Administration > Paramétrage de l&#39;application > Mappings de ciblage]**.
 
-Vous pouvez créer ou modifier des mappings de ciblage pour répondre à des besoins spécifiques. Dans tous les cas, la dimension de ciblage doit toujours correspondre aux profils (table **[!UICONTROL nms:recipient]**). Pour plus d&#39;informations sur les dimensions de ciblage, consultez [cette page](../../automating/using/query.md#targeting-dimensions-and-resources).
+Vous pouvez créer ou modifier des mappings de ciblage pour répondre à des besoins spécifiques. Dans tous les cas, leur dimension de ciblage doit toujours correspondre à des profils (tableau **[!UICONTROL nms:recipient]**).Pour plus d’informations sur les dimensions de ciblage, consultez [cette page](../../automating/using/query.md#targeting-dimensions-and-resources).

@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '643'
+source-wordcount: '738'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Les informations d&#39;identification de Microsoft Dynamics 365 autorisent l&#39
 
 ### Informations d&#39;identification de l&#39;API Adobe
 
-Les informations d&#39;identification d&#39;Adobe Campaign sont générées à l&#39;aide d&#39;[Adobe I/O](https://www.adobe.io/). Vous devez accéder à l&#39;écran [Configuration d&#39;Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) et suivre les instructions qu&#39;il contient avant de pouvoir renseigner les entrées de cette section.
+Les informations d’identification d’Adobe Campaign sont générées par [Adobe I/O](https://www.adobe.io/). Vous devez accéder à l’écran [Configuration d’Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) et suivre les instructions qu’il contient avant de pouvoir renseigner les entrées de cette section.
 
 * Sélectionnez le type d’authentification Oauth, car l’authentification basée sur JWT est obsolète.
 * L’image ci-après montre en détail le mapping entre Adobe I/O et les entrées de l’écran des paramètres.
@@ -72,7 +72,7 @@ Vous devez spécifier les informations suivantes :
 
 * Les **plages IP** doivent être incluses dans votre configuration SFTP Adobe Campaign. Vous devrez les placer dans la liste autorisée pour que l’intégration puisse utiliser le point d’entrée SFTP.
 
-* L&#39;option **Voulez-vous exporter les logs vers votre serveur SFTP Adobe Campaign ?** vous permet de déterminer si l’intégration génère des informations de journalisation au point d’entrée SFTP. Ces informations peuvent servir au débogage si Adobe Campaign ou Microsoft Dynamics 365 n&#39;affiche pas les informations attendues.
+* L’option **Voulez-vous exporter les logs vers votre serveur SFTP Adobe Campaign ?** vous permet de déterminer si l’intégration génère des informations de journalisation au point d’entrée SFTP.Ces informations peuvent servir au débogage si Adobe Campaign ou Microsoft Dynamics 365 n&#39;affiche pas les informations attendues.
 
 ## Configuration de SFTP dans Adobe Campaign {#ac-control-panel-settings}
 
@@ -82,11 +82,11 @@ Découvrez la gestion SFTP avec le [Panneau de contrôle Campaign](https://expe
 
 * [Gestion de l’espace de stockage SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=fr#installing-ssh-key)
 
-* [Ajout de plages d&#39;adresses IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=fr#sftp-management)
+* [Ajouter des plages d’adresses IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=fr#sftp-management)
 
-* [Gestion des clés](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=fr#sftp-management)
+* [Gérer des clés](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=fr#sftp-management)
 
-* [Connexion à votre serveur SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=fr#sftp-management)
+* [Vous connecter à votre serveur SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=fr#sftp-management)
 
 Une fois la configuration terminée, connectez-vous au serveur SFTP avec la clé privée et créez le répertoire &quot;d365_loads/export&quot;.
 

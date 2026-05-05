@@ -9,8 +9,8 @@ role: Developer
 level: Experienced
 exl-id: ced9a897-47e9-4128-84fb-35660c553cd4
 source-git-commit: 5fef74296a4790102c75e609c270e52d5ead1d58
-workflow-type: tm+mt
-source-wordcount: '195'
+workflow-type: ht
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Vous pouvez filtrer la liste :
 
 * Vous pouvez inclure ou exclure des schémas de données natifs, des pages Web, des filtres et des objets de navigation.
 * Vous pouvez rechercher des objets par leur nom.
-* Vous pouvez filtrer les tâches par lots selon leur statut, leur date de début et leur date de fin.
+* Vous pouvez filtrer les traitements par lots selon leur statut, leur date de début et leur date de fin.
 
 Vous pouvez télécharger la liste affichée dans un fichier au format TXT avec des valeurs séparées par des virgules.
 

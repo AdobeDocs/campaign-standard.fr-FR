@@ -10,15 +10,15 @@ level: Beginner
 hide: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '4695'
+workflow-type: ht
+source-wordcount: '4728'
 ht-degree: 100%
 
 ---
 
 # Notes de mise à jour 2021{#release-notes-2021}
 
-## Version 21.3 - Septembre 2021  {#release-21-3---sept-2021}
+## Version 21.3 - Septembre 2021 {#release-21-3---sept-2021}
 
 Les nouvelles fonctionnalités, améliorations et corrections incluses dans la dernière version de Campaign Standard sont répertoriées ci-dessous.
 
@@ -49,7 +49,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Journal d’audit</strong><br /> </th> 
+<th> <strong>Journal d’audit</strong><br /></th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -131,7 +131,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 * Correction d&#39;une erreur qui se produisait de manière aléatoire lors de l&#39;enregistrement d&#39;un workflow après sa modification. (CAMP-48695)
 * Correction d’un problème qui empêchait de publier des ressources personnalisées en raison du fait que le schéma de données d’un déclencheur restait inchangé même après la suppression de ce dernier. (CAMP-48523)
 * Correction d’un problème qui empêchait le traitement des demandes de feedback loop, car le processus InMail n’était pas en mesure de récupérer les logs de diffusion à mettre à jour. (CAMP-48705)
-* Correction d’un problème qui empêchait de définir correctement les options d’exclusion dans l’activité de workflow **Exclusion**.(CAMP-48355)
+* Correction d’un problème qui empêchait de définir correctement les options d’exclusion dans l’activité de workflow **Exclusion**. (CAMP-48355)
 * Correction d’un problème qui se produisait lorsque les activités d’enrichissement des workflows impliquaient des abonnements ou des désabonnements à un service. Ce problème entraînait un blocage.
 * Correction d’un problème qui empêchait l’exécution des workflows.
 * Correction d’un problème qui empêchait les utilisateurs de renommer ou de supprimer des groupes de sécurité d’usine de l’interface utilisateur.
@@ -227,27 +227,24 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Correction d&#39;un problème qui bloquait certaines diffusions de Journey Orchestration en raison de la non-prise en charge de la date et de l&#39;heure avec une valeur exacte (c&#39;est-à-dire se terminant par 00) envoyés par les événements de Journey Orchestration.
 
-## Version 21.1 - Février 2021               {#release-21-1---february-2021}
+## Version 21.1 - Février 2021 {#release-21-1---february-2021}
 
 **Nouveautés**
 
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Service de retour d'e-mail</strong><br />
- </th> 
+<th> <strong>Service de retour d'e-mail</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>Le service de retour d'e-mail (EFS - Email Feedback Service) est un service évolutif chargé de capturer directement les retours du MTA amélioré, contribuant ainsi à la précision des rapports.
-Cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour toute la clientèle dans les prochaines versions.</p>
+<p>Le service de retour d'e-mail (EFS - Email Feedback Service) est un service évolutif chargé de capturer directement les retours du MTA amélioré, contribuant ainsi à la précision des rapports. Cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour toute la clientèle dans les prochaines versions.</p>
 <ul>
 <li>Toutes les catégories de commentaires sont maintenant capturées pour créer des rapports complets et précis.</li>
 <li>Le calcul de l'indicateur <b>Délivrés</b> est désormais fondé sur les commentaires en temps réel du MTA amélioré, ce qui contribue à l'amélioration de la précision et de la réactivité.</li>
-<li>EFS résout le problème des retards grâce au reporting synchrone des rebonds temporaires.
-</li>
+<li>EFS résout le problème des retards grâce au reporting synchrone des rebonds temporaires.</li>
 </ul>
 <p>Pour plus d’informations, consultez la <a href="../../sending/using/confirming-the-send.md">documentation détaillée</a>.
 </p>
@@ -259,13 +256,13 @@ Cette fonctionnalité est disponible en version Private Beta et sera progressive
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Améliorations de l'intégration Adobe Experience Manager</strong><br /> </th> 
+<th><strong>Améliorations de l’intégration Adobe Experience Manager</strong><br /></th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>L'intégration de Campaign avec Adobe Experience Manager a été améliorée : vous pouvez désormais importer plus facilement du contenu multilingue depuis Adobe Experience Manager. <p>
+<p>L’intégration de Campaign avec Adobe Experience Manager a été améliorée : vous pouvez désormais importer plus facilement du contenu multilingue depuis Adobe Experience Manager.<p>
 <p>Adobe Campaign Standard détecte désormais automatiquement les variantes de langues d'un contenu Adobe Experience Manager, et permet l'importation et la création de variantes en masse. Cette approche simplifie considérablement le nombre d’étapes nécessaires pour créer une campagne multilingue basée sur un contenu Adobe Experience Manager.</p>
 <p>Pour plus d’informations, consultez la <a href="../../integrating/using/creating-multilingual-email-aem.md">documentation détaillée</a>.
 </p>

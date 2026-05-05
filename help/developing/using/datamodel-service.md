@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>builtIn</td>
-                  <td>Built-in application object</td>
+                  <td>Objet d’application natif</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -63,7 +63,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>end</td>
-                  <td>End date</td>
+                  <td>Date de fin</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -93,7 +93,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -117,7 +117,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>messageType</td>
-                  <td>Channel</td>
+                  <td>Canal</td>
                   <td>enumeration (byte) </td>
                   <td>
                      <ul>
@@ -165,7 +165,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Start date</td>
+                  <td>Date de début</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -189,13 +189,13 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>subscriptions</td>
-                  <td>Subscriptions</td>
+                  <td>Abonnements</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetResource</td>
-                  <td>Targeting dimension</td>
+                  <td>Dimension de ciblage</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -206,8 +206,8 @@ ht-degree: 100%
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
-                  <td>Thumbnail</td>
+                  <td>miniature</td>
+                  <td>Miniature</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>

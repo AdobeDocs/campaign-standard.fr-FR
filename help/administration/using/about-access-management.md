@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
 source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: tm+mt
-source-wordcount: '236'
+workflow-type: ht
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Adobe Campaign vous permet de définir et de gérer les permissions attribuées 
 
 >[!IMPORTANT]
 >
->Les entités géographiques sont devenues obsolètes. Voir à ce propos [cette page](../../rn/using/deprecated-features.md).
+>Les entités géographiques sont devenues obsolètes. Pour plus d’informations à ce sujet, consultez cette [page](../../rn/using/deprecated-features.md).
 
 Les rôles, les groupes et les entités organisationnelles peuvent être gérés par l&#39;administrateur fonctionnel de la plateforme, depuis le menu **[!UICONTROL Administration > Utilisateurs &amp; sécurité]**.
 

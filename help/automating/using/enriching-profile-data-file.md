@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '544'
+source-wordcount: '553'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ Le workflow est configuré comme suit :
 
      ![](assets/enrichment_example_workflow6.png)
 
-     Appliquez un tri descendant sur la date de transaction pour être sûr de récupérer les toutes dernières transactions.
+     Appliquez un tri descendant sur la date de transaction pour avoir la certitude de récupérer les toutes dernières transactions.
 
      ![](assets/enrichment_example_workflow7.png)
 
@@ -88,4 +88,4 @@ Le workflow est configuré comme suit :
 
 **Rubrique connexe :**
 
-* [Enrichissement de profils client avec des données externes](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
+* [Enrichissement de profils clientèle avec des données externes](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)

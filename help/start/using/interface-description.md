@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
-workflow-type: tm+mt
-source-wordcount: '1334'
+workflow-type: ht
+source-wordcount: '1344'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Tous les écrans d’Adobe Campaign se composent des éléments suivants :
 
 ![](assets/ux_interface_01.png)
 
-## Page d’accueil   {#home-page}
+## Page d&#39;accueil {#home-page}
 
 La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapide aux principales fonctionnalités d’Adobe Campaign. La liste des capacités figurant dans la page d’accueil de Campaign dépend de vos autorisations et des options configurées pour votre organisation.
 
@@ -41,11 +41,11 @@ La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapi
 * La vignette **[!UICONTROL Créer un message In-App]** permet d’accéder à l’assistant de création In-App. Cet assistant vous permet de sélectionner le type de message In-App que vous voulez créer, ainsi que de définir ses propriétés, son audience et son contenu. Pour plus d&#39;informations, consultez la section [Créer un message In-App](../../channels/using/about-in-app-messaging.md).
 * La vignette **[!UICONTROL Activités marketing]** permet d’accéder à la liste de toutes les activités, tous les programmes et toutes les campagnes, notamment emails, SMS, workflows et landing pages. Vous pouvez ensuite filtrer les objets en effectuant des recherches par nom, date, statut ou type d’activité. Pour plus d&#39;informations, consultez la section [Liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * La vignette **[!UICONTROL Programmes &amp; Campagnes]** permet d’accéder à la liste des programmes dans lesquels vous pouvez créer et gérer vos campagnes. Pour plus d&#39;informations, consultez la section [Liste des programmes](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* La vignette **[!UICONTROL Planning]** permet d’accéder au planning de vos activités marketing, dans lequel vous pouvez consulter les programmes en cours et leur contenu. Pour plus d&#39;informations, consultez la section [Planning](../../start/using/timeline.md).
+* La vignette **[!UICONTROL Chronologie]** permet d’accéder à la chronologie de vos activités marketing, dans lequel vous pouvez consulter les programmes en cours et leur contenu. Pour plus d&#39;informations, consultez la section [Chronologie](../../start/using/timeline.md).
 * La vignette **[!UICONTROL Profils client]** permet d’accéder directement à la liste des profils et de consulter les événements concernant chacun d’entre eux. Pour plus d&#39;informations, consultez la section [Gestion des profils](../../audiences/using/about-profiles.md).
 * La vignette **[!UICONTROL Audiences]** permet d’accéder directement à la liste des audiences. À partir de là, vous pouvez accéder aux audiences existantes et en créer de nouvelles. Pour plus d&#39;informations, consultez la section [Gestion des audiences](../../audiences/using/about-audiences.md).
 
-## Barre supérieure   {#top-bar}
+## Barre supérieure {#top-bar}
 
 Visible sur chaque écran, la barre supérieure vous permet de naviguer entre les fonctionnalités d’Adobe Campaign et d’accéder au profil Adobe connecté, aux notifications, aux solutions Adobe Experience Cloud ainsi qu’à la documentation Campaign.
 
@@ -86,13 +86,13 @@ Le menu avancé s’affiche lorsque vous cliquez sur l’icône **Adobe Campaig
 
 Ce menu permet de naviguer vers des fonctionnalités et paramétrages spécifiques.
 
-### Plans marketing  {#marketing-plans}
+### Plans marketing {#marketing-plans}
 
 L’icône **[!UICONTROL Plans Marketing]** permet d’accéder aux fonctionnalités suivantes :
 
 * **[!UICONTROL Activités marketing]** - pour plus d&#39;informations, consultez la section [Liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * **[!UICONTROL Programmes et Campagnes]** - pour plus d&#39;informations, consultez la section [Liste des programmes](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* **[!UICONTROL Planning]** : pour plus d&#39;informations, consultez la section [Planning](../../start/using/timeline.md).
+* **[!UICONTROL Chronologie]** : pour plus d&#39;informations, consultez la section [Chronologie](../../start/using/timeline.md).
 * **[!UICONTROL Messages transactionnels]**, qui contient les sous-menus **[!UICONTROL Diffusions]** et **[!UICONTROL Configuration des événements]** : pour plus d&#39;informations, consultez la section [Messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md).
 
 ### Profils &amp; audiences {#profiles-e-audiences}
@@ -112,11 +112,11 @@ L’icône **[!UICONTROL Ressources]** permet d’accéder aux fonctionnalités 
 * **[!UICONTROL Blocs de contenu]** : pour plus d&#39;informations, consultez la section [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
 * **[!UICONTROL Modèles et fragments de contenu]** : pour plus d&#39;informations, consultez la section [Modèle de contenu](../../designing/using/using-reusable-content.md#content-templates).
 
-### Administration  {#administration}
+### Administration {#administration}
 
 L’icône **[!UICONTROL Administration]** permet d’accéder aux fonctionnalités avancées qui ne peuvent être utilisées que par un administrateur fonctionnel. Pour plus d&#39;informations, consultez la section [Administration](../../administration/using/get-started-campaign-administration.md).
 
-## Zone centrale   {#central-zone}
+## Zone centrale {#central-zone}
 
 La zone centrale de l’interface utilisateur est une zone dynamique qui contient, par exemple, une liste d’éléments ou un jeu de vignettes. Elle permet de modifier des éléments existants et de créer des ressources.
 
@@ -124,7 +124,7 @@ La zone centrale de l’interface utilisateur est une zone dynamique qui contien
 
 Le contenu et le format d’affichage de la zone centrale peuvent varier :
 
-* Une **liste** qui affiche les différents éléments tels que les programmes, campagnes, profils, etc. Ces éléments peuvent être visualisés dans les modes **[!UICONTROL Carte]** ou **[!UICONTROL Liste]**. Utilisez le bouton de changement de mode pour passer de l’un à l’autre. Chaque élément présente des indicateurs.
+* Une **liste** qui affiche les différents éléments tels que les programmes, campagnes, profils, etc. Pour les consulter, passez en mode **[!UICONTROL Vignette]** ou **[!UICONTROL Liste]**.Utilisez le bouton de changement de mode pour passer de l’un à l’autre. Chaque élément présente des indicateurs.
 
   ![](assets/ux_liste.png)
 
@@ -144,7 +144,7 @@ Le contenu et le format d’affichage de la zone centrale peuvent varier :
 
   ![](assets/ux_workspace.png)
 
-## La barre d&#39;actions  {#action-bar}
+## La barre d&#39;actions {#action-bar}
 
 Selon le type d’écran affiché, une barre contenant les actions correspondantes s&#39;affiche en haut de l&#39;écran.
 

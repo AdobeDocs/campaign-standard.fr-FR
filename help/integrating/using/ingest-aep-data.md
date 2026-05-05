@@ -9,14 +9,14 @@ level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '321'
+source-wordcount: '333'
 ht-degree: 100%
 
 ---
 
 # Ingérer des audiences Adobe Experience Platform dans Campaign {#destinations}
 
-Pour importer des audiences Adobe Experience Platform dans Campaign et les utiliser dans vos workflows, vous devez d&#39;abord connecter Adobe Campaign en tant que **destination** Adobe Experience Platform et le configurer avec le segment à exporter.
+Pour ingérer des audiences Adobe Experience Platform dans Campaign et les utiliser dans vos workflows, vous devez d’abord connecter Adobe Campaign en tant que **destination** Adobe Experience Platform et le configurer avec le segment à exporter.
 
 Une fois la destination configurée, les données sont exportées vers votre emplacement d’enregistrement et vous devez créer un workflow dédié dans Campaign Standard pour les ingérer.
 

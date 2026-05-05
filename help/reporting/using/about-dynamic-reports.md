@@ -1,5 +1,5 @@
 ---
-title: Prise en main des rapports dynamiques
+title: Commencer avec les rapports dynamiques
 description: Avec les rapports dynamiques, placez des variables et des dimensions dans votre environnement de forme libre et analysez les performances de vos campagnes.
 audience: reporting
 content-type: reference
@@ -9,19 +9,19 @@ role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
-workflow-type: tm+mt
-source-wordcount: '835'
+workflow-type: ht
+source-wordcount: '866'
 ht-degree: 100%
 
 ---
 
-# Prise en main des rapports dynamiques {#about-dynamic-reports}
+# Commencer avec les rapports dynamiques {#about-dynamic-reports}
 
-Les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. Grâce à l’interface glisser-déposer, vous pouvez explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
+Les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, comme le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. Grâce à l’interface glisser-déposer, vous pouvez explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
 
 >[!NOTE]
 >
->Seuls les utilisateurs disposant de droits d&#39;administration ou pour lesquels les entités organisationnelles sont définies sur **Tous** peuvent créer ou enregistrer un nouveau rapport. Voir à ce propos cette [section](../../administration/using/users-management.md).
+>Seuls les utilisateurs disposant de droits d&#39;administration ou pour lesquels les entités organisationnelles sont définies sur **Tous** peuvent créer ou enregistrer un nouveau rapport. Pour plus d’informations à ce sujet, consultez cette [section](../../administration/using/users-management.md).
 
 ## Accès aux rapports dynamiques {#accessing-dynamic-reports}
 
@@ -39,7 +39,7 @@ Certains rapports peuvent ne pas être immédiatement disponibles après une dif
 
 Les rapports dynamiques sont divisés en deux catégories :
 
-* les **modèles**, qui peuvent être modifiés après avoir été copiés à l’aide de l’option **Enregistrer sous** (**Projet > Enregistrer sous...**) dans le modèle ;
+* les **modèles**, qui peuvent être modifiés après avoir été copiés à l’aide de l’option **Enregistrer sous** (**Projet > Enregistrer sous.**)dans le modèle ;
 * les **rapports personnalisés** (en bleu), qui peuvent être créés directement en cliquant sur le bouton **Créer un nouveau projet** sur la page d’accueil des **Rapports**.
 
 >[!NOTE]
@@ -50,7 +50,7 @@ Les rapports dynamiques sont divisés en deux catégories :
 
 ## Accord sur l&#39;utilisation des rapports dynamiques {#dynamic-reporting-usage-agreement}
 
-L’accord sur l’utilisation des rapports dynamiques fonctionne comme un consentement pop-up pour le traitement des données. Par défaut, seuls les utilisateurs auxquels sont affectés des droits d&#39;administration peuvent afficher et accepter ou refuser cet accord.
+L’accord sur l’utilisation des rapports dynamiques fonctionne comme un consentement pop-up pour le traitement des données. Par défaut, seuls les utilisateurs et utilisatrices auxquels sont affectés des droits d’administration peuvent afficher et accepter ou refuser cet accord.
 
 Trois options sont disponibles :
 
@@ -58,19 +58,19 @@ Trois options sont disponibles :
 * **[!UICONTROL Accepter]** : lorsque vous acceptez les termes de cet accord, vous autorisez Adobe Campaign à collecter les PII de vos clients et à les transférer au centre de données ou de reporting.
 * **[!UICONTROL Refuser]** : lorsque vous refusez les termes de l&#39;accord, les dimensions de profil ne s&#39;affichent pas dans vos rapports et les PII de vos clients ne sont pas collectées ni envoyées. Notez que dans ce cas, externalID sera toujours collecté et utilisé pour identifier les utilisateurs finaux.
 
-Le tableau ci-dessous indique ce qui se passe après l&#39;acceptation de cet accord selon votre zone géographique.
+Le tableau ci-dessous indique ce qui se passe après l’acceptation de cet accord selon votre zone géographique.
 
 |  | Rapports dynamiques | Connecteur Microsoft Dynamics 365 |
 |---|---|---|
-| Amériques et Asie-Pacifique | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et d&#39;usine (ville, pays/région, état, genre et segments selon l&#39;âge) sont transmises au centre de reporting des Etats-Unis. Pour plus d&#39;informations sur les dimensions de profil, consultez cette [page](../../reporting/using/list-of-components.md) | **Fonctionnalité disponible**. <br>Tous les champs de profil personnalisés et d&#39;usine, ainsi que les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données des Etats-Unis. |
-| EMEA (Europe, Moyen-Orient et Afrique) | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et d&#39;usine (ville, pays/région, état, genre et segments selon l&#39;âge) sont transmises au centre de reporting EMEA. Pour plus d&#39;informations sur les dimensions de profil, consultez cette [page](../../reporting/using/list-of-components.md) | **Fonctionnalité disponible.** <br>Tous les champs de profil personnalisés et d&#39;usine, ainsi que les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données EMEA. Les <br>**[!UICONTROL données de contrôle ]**qui contiennent les données d&#39;enregistrement Adobe I/O et les identifiants des événements utilisateur des clients sont envoyés et stockés dans le centre de données des Etats-Unis. |
+| Amériques et Asie-Pacifique | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et prêtes à l’emploi (c’est-à-dire ville, pays/région, État, genre et segments selon l’âge) sont transmises au centre de reporting des États-Unis. Pour plus d&#39;informations sur les dimensions de profil, consultez cette [page](../../reporting/using/list-of-components.md) | **Fonctionnalité disponible**. <br>Tous les champs de profil personnalisés et d&#39;usine, ainsi que les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données des Etats-Unis. |
+| EMEA (Europe, Moyen-Orient et Afrique) | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et prêtes à l’emploi (c’est-à-dire ville, pays/région, État, genre et segments selon l’âge) sont transmises au centre de reporting EMEA. Pour plus d&#39;informations sur les dimensions de profil, consultez cette [page](../../reporting/using/list-of-components.md) | **Fonctionnalité disponible.**<br>Tous les champs de profil personnalisés et prêts à l’emploi, ainsi que les champs d’événement Adobe Campaign Standard, sont traités dans le centre de données EMEA.Les <br>**[!UICONTROL données de contrôle ]**qui contiennent les données d&#39;enregistrement Adobe I/O et les identifiants des événements utilisateur des clients sont envoyés et stockés dans le centre de données des Etats-Unis. |
 
 Le tableau ci-dessous indique ce qui se passe après le refus de cet accord selon votre zone géographique. Notez que même si vous refusez cet accord, le reporting sur les diffusions et l&#39;intégration de Microsoft Dynamics 365 sera toujours disponible.
 
 | Zone géographique | Rapports dynamiques | Connecteur Microsoft Dynamics 365 |
 |---|---|---|
-| Amériques et Asie-Pacifique | **Fonctionnalité disponible**. <br> Aucune information de profil personnalisée et d&#39;usine n&#39;est transmise au centre de reporting des Etats-Unis, à l&#39;exception d&#39;ExternalID. | **Fonctionnalité disponible**. <br>Aucun champ de profil personnalisé et d&#39;usine n&#39;est envoyé au centre de données des Etats-Unis, à l&#39;exception des champs Identifiant externe et Identifiant du destinataire. <br>Tous les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données des États-Unis, à l&#39;exception de l&#39;ID de la page miroir. <br>Pour plus d&#39;informations sur l&#39;intégration de Microsoft Dynamics 365, consultez cette [page](../../integrating/using/d365-acs-get-started.md). |
-| EMEA (Europe, Moyen-Orient et Afrique) | **Fonctionnalité disponible**. <br>Aucune information de profil personnalisée et d&#39;usine n&#39;est transmise au centre de reporting EMEA, à l&#39;exception d&#39;ExternalID. | **Fonctionnalité disponible.** <br>Aucun champ de profil personnalisé et d&#39;usine n&#39;est envoyé au centre de données EMEA, à l&#39;exception des champs Identifiant externe et Identifiant du destinataire. <br>Tous les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données EMEA, à l&#39;exception de l&#39;ID de la page miroir.  Les <br>**[!UICONTROL données de contrôle ]**qui contiennent les données d&#39;enregistrement Adobe I/O et les identifiants des événements utilisateur des clients sont envoyés et stockés dans le centre de données des Etats-Unis.<br>Pour plus d&#39;informations sur l&#39;intégration de Microsoft Dynamics 365, consultez cette [page](../../integrating/using/d365-acs-get-started.md). |
+| Amériques et Asie-Pacifique | **Fonctionnalité disponible**. <br>Aucune information de profil personnalisée ni d’usine n’est transmise au centre de reporting de la région États-Unis, à l’exception d’ExternalID. | **Fonctionnalité disponible**. <br>Aucun champ de profil personnalisé et d&#39;usine n&#39;est envoyé au centre de données des Etats-Unis, à l&#39;exception des champs Identifiant externe et Identifiant du destinataire. <br>Tous les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données des États-Unis, à l&#39;exception de l&#39;ID de la page miroir. <br>Pour plus d&#39;informations sur l&#39;intégration de Microsoft Dynamics 365, consultez cette [page](../../integrating/using/d365-acs-get-started.md). |
+| EMEA (Europe, Moyen-Orient et Afrique) | **Fonctionnalité disponible**. <br>Aucune information de profil personnalisée et d&#39;usine n&#39;est transmise au centre de reporting EMEA, à l&#39;exception d&#39;ExternalID. | **Fonctionnalité disponible.**<br>Aucun champ de profil personnalisé ni d’usine n’est envoyé au centre de données EMEA, à l’exception des champs Identifiant externe et Identifiant du destinataire.<br>Tous les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données EMEA, à l&#39;exception de l&#39;ID de la page miroir.  Les <br>**[!UICONTROL données de contrôle ]**qui contiennent les données d&#39;enregistrement Adobe I/O et les identifiants des événements utilisateur des clients sont envoyés et stockés dans le centre de données des Etats-Unis.<br>Pour plus d&#39;informations sur l&#39;intégration de Microsoft Dynamics 365, consultez cette [page](../../integrating/using/d365-acs-get-started.md). |
 
 Ce choix n&#39;est pas définitif. Vous pouvez toujours changer d&#39;option en sélectionnant **[!UICONTROL Autoriser le transfert des données de PII vers les Etats-Unis afin d&#39;utiliser le reporting sur les données de profil]** dans **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Options]**.
 

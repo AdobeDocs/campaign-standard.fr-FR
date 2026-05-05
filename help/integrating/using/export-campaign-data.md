@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '504'
+source-wordcount: '542'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Une fois le workflow configuré et les données envoyées à votre emplacement d
 
 >[!NOTE]
 >
->Veuillez noter que nous vous recommandons d’exporter uniquement les données générées par Campaign (par exemple, envois, ouvertures, clics, etc.) vers Adobe Experience Platform. Les données ingérées à partir d’une source tierce (telle que votre CRM) doivent être importées directement dans Adobe Experience Platform.
+>Veuillez noter que nous vous recommandons d’exporter uniquement les données générées par Campaign (par exemple, envois, ouvertures, clics, etc.)vers Adobe Experience Platform.Les données ingérées à partir d’une source tierce (telle que votre CRM) doivent être importées directement dans Adobe Experience Platform.
 
 ## Création d’un workflow d’exportation dans Campaign Standard
 
@@ -56,7 +56,7 @@ Les étapes principales pour connecter votre service de stockage Amazon (S3) ou 
 
 1. Dans le menu **[!UICONTROL Sources]** d’Adobe Experience Platform, créez une connexion vers votre emplacement de stockage :
 
-   * [Création d’une connexion source Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=fr)
+   * [Créer une connexion source Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=fr)
    * [Connecteur Azure Blob](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=fr)
 
    >[!NOTE]

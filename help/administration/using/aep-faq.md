@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
 source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: tm+mt
-source-wordcount: '888'
+workflow-type: ht
+source-wordcount: '995'
 ht-degree: 100%
 
 ---
@@ -29,16 +29,16 @@ Pour plus d’informations sur les notifications push ou les messages In-App, co
 
 Consultez les ressources ci-dessous pour plus d’informations sur le SDK Adobe Experience Platform et l’intégration de Campaign Standard :
 
-* [Vidéo de vue d’ensemble](https://www.adobe.com/fr/experience-platform/launch.html#acpl-mobile-video){target="_blank"} de l’application mobile de Launch
+* [Vidéo de présentation](https://www.adobe.com/fr/experience-platform/launch.html#acpl-mobile-video){target="_blank"} de Launch/des applications mobiles
 * [Guide des conseils et astuces](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf) concernant l’application mobile de Launch
 
-## L’intégration du SDK Adobe Experience Platform est-elle disponible pour Adobe Campaign Standard et Adobe Campaign Classic ?  {#aep-validity}
+## L’intégration du SDK Adobe Experience Platform est-elle disponible pour Adobe Campaign Standard et Adobe Campaign Classic ? {#aep-validity}
 
 Oui, l’intégration de [!DNL Adobe Experience Platform SDK] est disponible pour Adobe Campaign Standard et Adobe Campaign Classic. Vous devez installer l’**[!UICONTROL extension]** correspondante via [!DNL Data Collection UI] pour activer l’intégration.
 
-Pour en savoir plus à ce sujet, consultez cette [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard){target="_blank"}.
+Pour plus d’informations à ce sujet, consultez cette [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard){target="_blank"}.
 
-## Quelles fonctionnalités l’intégration du SDK Adobe Experience Platform facilite-t-elle dans Adobe Campaign ?  {#aep-capabilities}
+## Quelles fonctionnalités l’intégration du SDK Adobe Experience Platform facilite-t-elle dans Adobe Campaign ? {#aep-capabilities}
 
 Consultez le tableau ci-dessous pour en savoir plus sur ces fonctionnalités.
 
@@ -48,7 +48,7 @@ Consultez le tableau ci-dessous pour en savoir plus sur ces fonctionnalités.
 >
 >L’intégration de [!DNL Places] inclut les événements Places qui servent de déclencheurs pour les messages In-App (sans objet pour les notifications push), ce qui permet d’enrichir les profils grâce aux données [!DNL Places] et de gérer les notifications locales. Voir cette [page](../../channels/using/preparing-and-sending-an-in-app-message.md) pour plus d’informations. L’intégration limitée de <br>[!DNL Places] comprend l’enrichissement des profils à l’aide de données [!DNL Places].
 
-## Quel cas pratique l’intégration du SDK Adobe Experience Platform dans Adobe Campaign Standard facilite-t-elle ?  {#aep-use-cases}
+## Quel cas pratique l’intégration du SDK Adobe Experience Platform dans Adobe Campaign Standard facilite-t-elle ? {#aep-use-cases}
 
 Les cas pratiques suivants sont pris en charge :
 
@@ -58,7 +58,7 @@ Les cas pratiques suivants sont pris en charge :
 * Envoyer des messages push et In-App
 * Tracker les interactions de l’utilisateur à l’aide des messages push et In-App et fournir des rapports à ce sujet
 
-## Que dois-je faire pour acquérir un profil mobile dans Campaign ?  {#mobile-profile-campaign}
+## Que dois-je faire pour acquérir un profil mobile dans Campaign ? {#mobile-profile-campaign}
 
 Procédez comme suit :
 
@@ -72,19 +72,19 @@ Procédez comme suit :
    * Les API de SDK suivantes seront également nécessaires. Mettez en œuvre les API Début de cycle de vie et Pause comme décrit [ici](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) pour Android et ici pour iOS.
 1. Configurez une **[!UICONTROL propriété mobile]** dans Adobe Campaign Standard. Appliquez la procédure décrite [ici](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-## Que dois-je faire pour enrichir un profil mobile dans Campaign ?  {#enrich-mobile-profile}
+## Que dois-je faire pour enrichir un profil mobile dans Campaign ? {#enrich-mobile-profile}
 
 Vous devez configurer un postback CollectPII (consultez à ce sujet cette [page](../../administration/using/configuring-rules-launch.md#pii-postback)) et mettre en œuvre l’API CollectPII à partir du SDK (consultez à ce sujet cette [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
 
-## À quelle fréquence un appel CollectPII doit-il être déclenché ?  {#collect-pii}
+## À quelle fréquence un appel CollectPII doit-il être déclenché ? {#collect-pii}
 
 L’objectif de l’appel CollectPII est d’enrichir le profil mobile dans Campaign. Il doit être déclenché chaque fois qu’il existe de nouvelles informations significatives que les clients souhaitent ajouter au profil en fonction de leurs cas pratiques et de leurs besoins commerciaux.
 
-## Les appels CollectPII peuvent-ils être déclenchés en réponse à plusieurs événements de déclenchement ?  {#collect-pii-calls}
+## Les appels CollectPII peuvent-ils être déclenchés en réponse à plusieurs événements de déclenchement ? {#collect-pii-calls}
 
-Oui. En fonction des besoins de votre entreprise, vous pouvez déclencher des appels CollectPII en réponse à la connexion de l’utilisateur à l’application, à l’achat d’un article, d’un événement de cycle de vie ou à l’entrée d’un utilisateur dans une zone de géorepérage, etc. En résumé, il peut s’agir de toute interaction de l’utilisateur avec l’application générant des informations que vous souhaitez utiliser pour l’enrichissement du profil.
+Oui. En fonction des besoins de votre entreprise, vous pouvez déclencher des appels CollectPII en réponse à la connexion de l’utilisateur ou de l’utilisatrice à l’application, à l’achat d’un article, d’un événement de cycle de vie ou à l’entrée d’un utilisateur ou d’une utilisatrice dans une zone de géorepérage, etc. En d’autres termes, l’interaction d’une personne avec l’application qui génère des informations utiles pour l’enrichissement du profil.
 
-## Puis-je simplement déclencher des appels CollectPII en réponse à tous les événements mobiles ?  {#collect-pii-events}
+## Puis-je simplement déclencher des appels CollectPII en réponse à tous les événements mobiles ? {#collect-pii-events}
 
 La fréquence et la conception des appels CollectPII doivent être dictées par les besoins de l’entreprise. Ces appels ne doivent pas être déclenchés sans discernement, car ils créent une charge supplémentaire pour la base de données.
 

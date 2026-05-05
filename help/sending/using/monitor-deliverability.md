@@ -10,15 +10,15 @@ role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '327'
+workflow-type: ht
+source-wordcount: '330'
 ht-degree: 100%
 
 ---
 
 # Surveillance de la délivrabilité{#monitor-deliverability}
 
-Vous trouverez ci-dessous des informations détaillées sur le rapport **[!UICONTROL Débit des diffusions]** ainsi que sur les différents outils de monitoring proposés par Adobe Campaign. Voici quelques instructions supplémentaires pour le suivi de la délivrabilité :
+Vous trouverez ci-dessous des informations détaillées sur le rapport **[!UICONTROL Débit des diffusions]** ainsi que sur les différents outils de surveillance proposés par Adobe Campaign.Voici quelques directives supplémentaires concernant la surveillance de la délivrabilité :
 
 * Vérifiez régulièrement le débit des diffusions pour l’ensemble de la plateforme afin de contrôler qu’il correspond à la configuration d’origine.
 * Vérifiez que les reprises sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
@@ -41,9 +41,9 @@ D’autres rapports sont disponibles, tels que **[!UICONTROL Synthèse de diffus
 
 ## Surveillance des diffusions {#monitoring-deliveries}
 
-Le tableau de bord des messages vous permet d&#39;accéder aux logs de diffusion : **[!UICONTROL Logs d&#39;envoi]**, **[!UICONTROL Logs d&#39;exclusion]**, **[!UICONTROL Causes d&#39;exclusions]**, **[!UICONTROL Logs de tracking]** et **[!UICONTROL URL suivies]**. Ils indiquent le détail de l&#39;envoi, la cible exclue et les raisons de l&#39;exclusion, et fournissent des informations de tracking telles que les ouvertures et les clics.
+Le tableau de bord Message vous donne accès aux logs de diffusion : **[!UICONTROL Envois]**, **[!UICONTROL Exclusions]**, **[!UICONTROL Exclusions appliquées]**, **[!UICONTROL Tracking]** et **[!UICONTROL URL trackées]**.Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
-Pour plus d&#39;informations, consultez la section [Suivre une diffusion](../../sending/using/monitoring-a-delivery.md).
+Pour plus d’informations, consultez la section [Surveiller une diffusion](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 

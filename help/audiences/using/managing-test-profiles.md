@@ -1,5 +1,5 @@
 ---
-title: 'Gestion des profils de test '
+title: Gestion des profils de test
 description: Découvrez comment gérer les profils de test.
 audience: sending
 content-type: reference
@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '459'
+workflow-type: ht
+source-wordcount: '471'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Vous pouvez gérer vos profils de test depuis le menu avancé **[!UICONTROL Prof
 Un profil de test est un profil contenant des informations de contact fictives ou contrôlées par l&#39;expéditeur et pouvant être utilisé dans un message dans les contextes suivants :
 
 * Pour envoyer un **Bon à tirer** : le bon à tirer (BAT) est un message spécifique qui permet de valider le message avant l&#39;envoi de la diffusion finalisée aux destinataires. Un profil de test de type Bon à tirer est chargé de la validation de la diffusion, tant sur son contenu que sur sa forme. Voir [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
-* Pour le **Rendu des emails** : un profil de test de type Rendu des emails est utilisé pour contrôler l&#39;affichage d&#39;un message en fonction de la boîte de messagerie qui le réceptionne. Par exemple : webmail, service de messagerie, mobile, etc. Voir [Rendu des emails](../../sending/using/email-rendering.md).
+* Pour le **Rendu des e-mails** : un profil de test de type Rendu des e-mails est utilisé pour contrôler l’affichage d’un message en fonction de la boîte de messagerie qui le réceptionne. Par exemple : webmail, service de messagerie, mobile, etc. Consultez [Rendu des e-mails](../../sending/using/email-rendering.md).
 
   L&#39;usage **Rendu des emails** est en lecture seule. Des profils de test disposant de cet usage sont disponibles uniquement nativement dans Adobe Campaign.
 
@@ -52,11 +52,11 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
    ![](assets/test_profile_creation_3.png)
 
-1. Sélectionnez l&#39;usage du profil de test.
+1. Sélectionnez l’usage prévu du profil de test.
 
    ![](assets/test_profile_creation_4.png)
 
-1. Renseignez les canaux de contacts **[!UICONTROL Email, Téléphone, Mobile, Application mobile]**, ainsi que l&#39;adresse du profil de test si besoin.
+1. Renseignez les canaux de contacts **[!UICONTROL E-mail, Téléphone, Mobile, Application mobile]**, ainsi que l’adresse du profil de test si besoin.
 
    >[!NOTE]
    >
@@ -76,12 +76,12 @@ Pour éditer un profil de test et consulter les données qui lui sont associées
 
    ![](assets/test_profile_edit.png)
 
-1. Choisissez **[!UICONTROL Enregistrer]** si vous avez saisi des modifications ; ou sélectionnez le nom du profil de test puis **[!UICONTROL Profils de test]** dans la section supérieure de l&#39;écran pour revenir au tableau de bord des profils de test.
+1. Cliquez sur **[!UICONTROL Enregistrer]** si vous avez saisi des modifications ; ou sélectionnez le nom du profil de test puis **[!UICONTROL Profils de test]** dans la section supérieure de l’écran pour revenir au tableau de bord des profils de test.
 
 ## Tutoriel vidéo {#video}
 
 Cette vidéo montre comment créer un profil de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/30595?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

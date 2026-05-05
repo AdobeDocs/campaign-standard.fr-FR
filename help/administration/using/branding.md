@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '1306'
+workflow-type: ht
+source-wordcount: '1357'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Chaque entreprise dispose de directives visuelles et techniques en ce qui concer
 
 Les administrateurs techniques peuvent définir une ou plusieurs marques afin de renseigner de manière centralisée les paramètres qui touchent à l&#39;identité d&#39;une marque, par exemple : le logo de la marque, le domaine d&#39;URL d&#39;accès aux landing pages ainsi que les paramètres du tracking des messages. Avec Adobe Campaign, vous pouvez créer ces marques et les associer à des messages ou des landing pages. Cette configuration est gérée dans des modèles.
 
-## Configuration et utilisation des marques           {#configuring-and-using-brands}
+## Configuration et utilisation des marques {#configuring-and-using-brands}
 
 Le principe général de paramétrage et d&#39;utilisation des marques est le suivant :
 
@@ -32,7 +32,7 @@ Le principe général de paramétrage et d&#39;utilisation des marques est le su
 
 >[!IMPORTANT]
 >
->Les marques ne peuvent pas être créées ni modifiées par des utilisateurs finaux : ces opérations doivent être effectuées par l&#39;administrateur technique Adobe Campaign. Pour toute demande, contactez l&#39;Assistance clientèle Adobe.
+>Les marques ne peuvent pas être créées ni modifiées par des utilisateurs et utilisatrices finaux : ces opérations doivent être effectuées par l’administrateur ou administratrice technique Adobe Campaign. Pour toute demande, contactez l&#39;Assistance clientèle Adobe.
 >
 >Le multi-branding ne peut pas être utilisé dans le contexte des messages transactionnels. Pour plus d&#39;informations, consultez la section [Messages transactionnels et marque](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
 
@@ -107,11 +107,11 @@ Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou
 
 1. **Vérifier les instructions relatives à la délivrabilité** : avant de commencer à utiliser le nouveau domaine, la stratégie doit être discutée avec l&#39;équipe Adobe chargée de la délivrabilité Elle aidera à définir les bonnes pratiques, si une nouvelle affinité doit être créée pour fractionner les adresses IP entre les domaines par exemple, et/ou si un plan de propagation doit être défini. Pour en savoir plus sur les bonnes pratiques en matière de délivrabilité, [consultez cette section](../../sending/using/about-deliverability.md).
 
-## Affectation d&#39;une marque à un email           {#assigning-a-brand-to-an-email}
+## Affectation d&#39;une marque à un email {#assigning-a-brand-to-an-email}
 
 ### Liaison d&#39;une marque à un modèle {#linking-a-brand-to-a-template}
 
-Pour utiliser les paramètres définis pour une marque, elle doit être liée à un modèle de diffusion ou de landing page. Pour ce faire, vous devez créer, ou éditer, un modèle.
+Pour utiliser les paramètres définis pour une marque, elle doit être liée à un modèle de diffusion ou de landing page. Pour ce faire, vous devez créer ou modifier un modèle.
 
 >[!NOTE]
 >
@@ -131,19 +131,19 @@ Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
    ![](assets/branding_05.png)
 
-   Pour visualiser le paramétrage de la marque sélectionnée, cliquez sur l&#39;icône **[!UICONTROL Naviguer vers le détail de l&#39;élément sélectionné]**.
+   Pour visualiser le paramétrage de la marque sélectionnée, cliquez sur l’icône **[!UICONTROL Naviguer vers le détail de l’élément sélectionné]**.
 
    ![](assets/branding_06.png)
 
 1. Validez votre sélection et enregistrez votre modèle.
 
-Votre modèle est lié à la marque. Dans l&#39;éditeur d&#39;email, les éléments comme l&#39;**adresse email de l&#39;expéditeur par défaut**, le **nom de l&#39;expéditeur par défaut** ou le **logo** utiliseront les données paramétrées de la marque.
+Votre modèle est lié à la marque. Dans l’éditeur d’e-mail, les éléments comme l’**adresse e-mail de l’expéditeur ou de l’expéditrice par défaut**, le **nom de l’expéditeur ou de l’expéditrice par défaut** ou le **logo** utiliseront les données paramétrées de la marque.
 
-### Cas pratique de marque           {#branding-use-case}
+### Cas pratique de marque {#branding-use-case}
 
 Dans cet exemple, nous allons créer et utiliser dans un e-mail, une nouvelle marque sur le thème du voyage.
 
-#### Étape 1 : configurer une nouvelle marque           {#configure-a-new-brand}
+#### Étape 1 : configurer une nouvelle marque {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
@@ -161,7 +161,7 @@ Dans cet exemple, nous allons créer et utiliser dans un e-mail, une nouvelle ma
 
 La marque est correctement créée et paramétrée. Elle peut désormais être utilisée par les équipes marketing.
 
-#### Étape 2 : mettre en œuvre une nouvelle marque           {#implement-a-new-brand}
+#### Étape 2 : mettre en œuvre une nouvelle marque {#implement-a-new-brand}
 
 En tant que chargé de diffusion, vous êtes responsable de la création des modèles de diffusion afin d&#39;utiliser la nouvelle marque. Pour ce faire, procédez comme suit :
 
@@ -169,7 +169,7 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
    ![](assets/branding_08.png)
 
-1. Pour lier ce modèle à la marque **Voyages sous les tropiques**, éditez les propriétés du modèle et sélectionnez la marque dans la liste déroulante.
+1. Pour lier ce modèle à la marque **Vacances sous les tropiques**, éditez les propriétés du modèle et sélectionnez la marque dans la liste déroulante.
 
    ![](assets/branding_09.png)
 
@@ -180,7 +180,7 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
    Le modèle de diffusion peut désormais être utilisé pour créer des emails qui seront envoyés à une audience.
 
-#### Étape 3 : utiliser la nouvelle marque dans une diffusion           {#use-the-new-brand-in-a-delivery}
+#### Étape 3 : utiliser la nouvelle marque dans une diffusion {#use-the-new-brand-in-a-delivery}
 
 Pour Créer un e-mail lié à une marque, procédez comme suit :
 
@@ -188,7 +188,7 @@ Pour Créer un e-mail lié à une marque, procédez comme suit :
 
    ![](assets/branding_14.png)
 
-1. Sélectionnez l&#39;activité **[!UICONTROL Email]**, puis choisissez le modèle lié à la nouvelle marque.
+1. Sélectionnez l’activité **[!UICONTROL E-mail]**, puis choisissez le modèle lié à la nouvelle marque.
 
    ![](assets/branding_15.png)
 

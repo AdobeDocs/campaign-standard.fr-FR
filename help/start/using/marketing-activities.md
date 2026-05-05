@@ -10,8 +10,8 @@ role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '500'
+workflow-type: ht
+source-wordcount: '502'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Pour accéder à la liste des activités marketing, sélectionnez le lien **[!UI
 
 >[!NOTE]
 >
->Depuis la page d&#39;accueil, les activités sont également accessibles depuis la vignette **[!UICONTROL Activités marketing]**.
+>Depuis la page d’accueil, les activités sont également accessibles depuis la vignette **[!UICONTROL Activités marketing]**.
 
 ![](assets/marketing_activities.png)
 
@@ -38,7 +38,7 @@ Pour accéder directement au contenu de chaque activité, choisissez un des él�
 
 Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](#creating-a-marketing-activity) pour en savoir plus.
 
-## Icônes et statuts des activités marketing       {#marketing-activity-icons-and-statuses}
+## Icônes et statuts des activités marketing {#marketing-activity-icons-and-statuses}
 
 Dans la zone principale, chaque type d&#39;activité de la liste est caractérisé par une icône :
 
@@ -75,7 +75,7 @@ Les programmes et les campagnes sont présentés dans la section [Programmes et 
 
    ![](assets/marketing_activiy_creation_1.png)
 
-1. Sélectionnez le type d&#39;activité que vous souhaitez créer.
+1. Sélectionnez le type d’activité que vous souhaitez créer.
 
    ![](assets/marketing_activiy_creation_2.png)
 

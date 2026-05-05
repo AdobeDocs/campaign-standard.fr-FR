@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
-workflow-type: tm+mt
-source-wordcount: '893'
+workflow-type: ht
+source-wordcount: '910'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Les étapes de création d&#39;une notification push avec Adobe Campaign sont l
    Par défaut, vous avez le choix entre deux modèles :
 
    * **[!UICONTROL Envoyer un push aux profils Campaign]** : utilisez ce modèle pour cibler les profils CRM Adobe Campaign qui se sont abonnés à votre application mobile et ont choisi de recevoir des notifications push. Vous pouvez insérer des champs de [personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field), tels que le prénom du destinataire, dans votre notification push.
-   * **[!UICONTROL Envoyer un push aux abonnés de l&#39;application]** : utilisez ce modèle pour envoyer une notification push à tous les utilisateurs anonymes ou connus qui ont accepté de recevoir des notifications en provenance de vos applications. Vous pouvez personnaliser ces messages avec les données collectées à partir de votre application mobile.
+   * **[!UICONTROL Envoyer un push aux personnes abonnées à l’application mobile]** : utilisez ce modèle pour envoyer une notification push à toutes les personnes anonymes ou connues qui ont accepté de recevoir des notifications en provenance de votre application. Vous pouvez personnaliser ces messages avec les données collectées à partir de votre application mobile.
 
    Vous pouvez également sélectionner des modèles multilingues. Pour plus d&#39;informations, consultez la section [Création d&#39;une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -103,14 +103,14 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 
    ![](assets/push_send_5.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Exclusions appliquées]** pour afficher le volume des messages exclus.
+1. Cliquez sur l’onglet **[!UICONTROL Exclusions appliquées]** pour afficher le volume des messages exclus.
 
    ![](assets/push_send_7.png)
 
 1. Cliquez maintenant sur **[!UICONTROL Confirmer]** pour commencer à envoyer des notifications push.
 1. Vérifiez le statut de votre diffusion par le biais du tableau de bord du message et des logs. Pour plus d&#39;informations à ce sujet, consultez [Envoi de messages](../../sending/using/confirming-the-send.md) et [Logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-   Dans cet exemple, le tableau de bord du message indique qu&#39;Adobe Campaign a tenté d&#39;envoyer deux notifications push : l&#39;une a été envoyée à l’appareil avec succès, mais l&#39;autre a échoué. Pour savoir pourquoi la diffusion a échoué, cliquez sur le bouton ![](assets/lp_link_properties.png) en bas de la fenêtre **[!UICONTROL Déploiement]**.
+   Dans cet exemple, le tableau de bord du message indique qu’Adobe Campaign a tenté d’envoyer deux notifications push : l’une a été envoyée à l’appareil avec succès, mais l’autre a échoué. Pour savoir pourquoi la diffusion présente des erreurs, cliquez sur le bouton ![](assets/lp_link_properties.png) en bas de la fenêtre **[!UICONTROL Déploiement]**.
 
    ![](assets/push_send_4.png)
 

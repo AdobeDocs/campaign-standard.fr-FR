@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1061'
+workflow-type: ht
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,7 @@ Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]
 
   >[!NOTE]
   >
-  >Le **[!UICONTROL Taux d&#39;ouverture]** et le **[!UICONTROL Taux de clics]** sont mis à jour toutes les heures.
+  >Le **[!UICONTROL Taux d’ouverture]** et le **[!UICONTROL Taux de clics]** sont mis à jour toutes les heures.
 
 ![](assets/sending_delivery.png)
 
@@ -106,7 +106,6 @@ Par conséquent, vous devez attendre la fin de la période de validité pour voi
 
 Grâce à la fonctionnalité Service de retour d&#39;e-mail (EFS - Email Feedback Service), l&#39;état de chaque email est signalé avec précision, car les retours sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
 
-
 >[!IMPORTANT]
 >
 >Le service de retour d’e-mail est actuellement disponible en version Beta.
@@ -115,7 +114,7 @@ Une fois la diffusion lancée, le pourcentage **[!UICONTROL Délivrés]** n&#39;
 
 ![](assets/efs-sending.png)
 
-Les logs de diffusion affichent l&#39;état **[!UICONTROL En attente]** pour chaque adresse ciblée.
+Les logs de diffusion affichent le statut **[!UICONTROL En attente]** pour chaque adresse ciblée.
 
 ![](assets/efs-pending.png)
 
@@ -141,22 +140,21 @@ Lorsque les messages faisant l’objet d’un rebond temporaire sont renvoyés d
 
 Les tableaux ci-après présentent les modifications des KPI et de l&#39;état des logs d&#39;envoi ajoutées par la fonctionnalité EFS.
 
-
 **Avec le service de retour d&#39;e-mail**
 
 | Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
-| Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 0 %</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** commence à 0 %</li></ul> | En attente |
+| Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 0 %.</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** commence à 0 %</li></ul> | En attente |
 | Les messages hard bounce sont renvoyés du MTA amélioré. | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** augmente en conséquence</li></ul> | En échec |
 | Les messages soft bounce sont renvoyés du MTA amélioré. | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** augmente en conséquence</li></ul> | En échec |
-| Les reprises des messages soft bounce sont effectuées avec succès | <ul><li>Le pourcentage **[!UICONTROL Diffusés]** augmente en conséquence</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** diminue en conséquence</li></ul> | Envoyés |
-| Échec des reprises des messages soft bounce | <ul><li> Aucun changement du pourcentage **[!UICONTROL Délivrés]** </li><li> Aucun changement du pourcentage **[!UICONTROL Rebonds + erreurs]** </li></ul> | En échec |
+| Les reprises des messages soft bounce sont effectuées avec succès | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** augmente en conséquence.</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** diminue en conséquence</li></ul> | Envoyés |
+| Échec des reprises des messages soft bounce | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li> Aucun changement du pourcentage **[!UICONTROL Rebonds + erreurs]** </li></ul> | En échec |
 
 **Sans le service de retour d&#39;e-mail**
 
 | Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
-| Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 100 %</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** commence à 0 %</li></ul> | Envoyés |
+| Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 100 %.</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** commence à 0 %</li></ul> | Envoyés |
 | Les messages hard bounce sont renvoyés du MTA amélioré. | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** diminue en conséquence.</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** augmente en conséquence</li></ul> | En échec |
 | Les messages soft bounce sont renvoyés du MTA amélioré. | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li>Aucun changement du pourcentage **[!UICONTROL Rebonds + erreurs]**</li></ul> | Envoyés |
 | Les reprises des messages soft bounce sont effectuées avec succès | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li>Aucun changement du pourcentage **[!UICONTROL Rebonds + erreurs]**</li></ul> | Envoyés |

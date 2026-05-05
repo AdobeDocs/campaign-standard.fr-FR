@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '458'
+workflow-type: ht
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
@@ -23,11 +23,11 @@ Ce cas pratique permet de créer un modèle de concepteur d’e-mail à l’aide
 
 >[!NOTE]
 >
->De la même manière que le mode de compatibilité, un composant HTML est éditable avec des options limitées : vous pouvez uniquement effectuer l’édition locale.
+>De la même manière que le mode de compatibilité, un composant HTML est modifiable avec des options limitées : vous pouvez uniquement effectuer la modification locale.
 
 >[!IMPORTANT]
 >
->Cette section est destinée aux utilisateurs avancés qui sont familiers avec le code HTML.
+>Cette section est destinée aux utilisateurs et utilisatrices avancés qui sont familiers avec le code HTML.
 
 ## Préparer le contenu de vos emails
 
@@ -38,7 +38,7 @@ Ce cas pratique permet de créer un modèle de concepteur d’e-mail à l’aide
 ## Créer votre structure d’email
 
 1. Ouvrez le **[!UICONTROL concepteur d’e-mail]** pour créer un contenu d’email vide.
-1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Pour plus d&#39;informations, consultez la section [Modifier les styles d’un email](../../designing/using/styles.md).
+1. Définissez les attributs de niveau de corps : couleurs d’arrière-plan, largeur, etc. Pour plus d’informations, consultez la section [Modifier les styles d’un e-mail](../../designing/using/styles.md).
 1. Ajoutez autant de composants de structure que vous avez de sections. Pour plus d&#39;informations, consultez la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## Ajouter du contenu HTML

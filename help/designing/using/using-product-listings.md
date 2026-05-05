@@ -1,5 +1,5 @@
 ---
-title: 'Utiliser des listes de produits dans un message transactionnel    '
+title: Utiliser des listes de produits dans un message transactionnel
 description: Découvrez comment utiliser les listes de produits dans un contenu de message transactionnel.
 audience: designing
 content-type: reference
@@ -10,13 +10,13 @@ role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '922'
+workflow-type: ht
+source-wordcount: '944'
 ht-degree: 100%
 
 ---
 
-# Utiliser des listes de produits dans un message transactionnel       {#using-product-listings}
+# Utiliser des listes de produits dans un message transactionnel {#using-product-listings}
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ Vous pouvez également regarder [cette série de vidéos](https://experienceleag
 >
 >Adobe Campaign ne prend pas en charge les listes de produits imbriquées, ce qui signifie que vous ne pouvez pas inclure une liste de produits dans une autre.
 
-## Définir une liste de produits           {#defining-a-product-listing}
+## Définir une liste de produits {#defining-a-product-listing}
 
 Avant de pouvoir utiliser une liste de produits dans un message transactionnel, vous devez définir au niveau de l’événement la liste des produits et les champs de chaque produit de la liste que vous souhaitez afficher. Pour plus d&#39;informations, consultez la section [Définir des collections de données](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
@@ -56,7 +56,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
 
    >[!NOTE]
    >
-   >L’option **[!UICONTROL Colonne]** n’est disponible que lorsque vous utilisez un composant de structure multicolonne (**[!UICONTROL Colonne 2:2]**, **[!UICONTROL Colonne 3:3]** et **[!UICONTROL Colonne 4:4]** ). Lors de l’édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d’informations sur la sélection de composants de structure, voir [Définir la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >L’option **[!UICONTROL Column]** n’est disponible que lors de l’utilisation d’un composant de structure à plusieurs colonnes (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** et **[!UICONTROL 4:4 column]**).Lors de l’édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d’informations sur la sélection de composants de structure, voir [Définir la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Sélectionnez la collection de données que vous avez créée lors de la configuration de l’événement associé au message transactionnel. Elle se trouve sous le nœud **[!UICONTROL Contexte]** > **[!UICONTROL Evénement temps réel]** > **[!UICONTROL Contexte de l’événement]**.
 
@@ -74,7 +74,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
    >
    >Si vous souhaitez que les éléments de votre liste s’affichent verticalement (**[!UICONTROL Colonne]**), le nombre maximal d’éléments est limité en fonction du composant de structure sélectionné (2, 3 ou 4 colonnes). Pour plus d’informations sur la sélection de composants de structure, consultez la section [Editer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-## Remplir la liste de produits           {#populating-the-product-listing}
+## Remplir la liste de produits {#populating-the-product-listing}
 
 Pour afficher une liste des produits provenant de l’événement associé à l’email transactionnel, suivez les étapes ci-dessous.
 

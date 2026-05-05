@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: tm+mt
-source-wordcount: '1227'
+workflow-type: ht
+source-wordcount: '1297'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->L’implémentation des notifications push doit être réalisée par des utilisateurs experts. Si vous avez besoin d’aide, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Le canal Notification push est une fonctionnalité en option. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l’activer.
+>L’implémentation des notifications push doit être réalisée par des utilisateurs experts. Si vous avez besoin d’aide, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Le canal Notification push est une fonctionnalité en option. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l&#39;activer.
 
 Adobe Campaign vous permet d’envoyer des notifications push personnalisées et segmentées à des appareils mobiles iOS et Android.
 
@@ -32,13 +32,13 @@ Cette ressource doit être étendue pour collecter les données que vous avez l�
 
 Dans Adobe Campaign, deux types de notification push sont disponibles :
 
-* **[!UICONTROL Les notifications de type Alerte/Message/Badge]** vous permettent d’envoyer des messages texte standard avec des contenus supplémentaires (son, badge, lien profond, etc.) définissables dans la section **[!UICONTROL Options avancées]**.
+* Les notifications de type **[!UICONTROL Alerte/Message/Badge]** vous permettent d’envoyer des messages texte standard avec des contenus supplémentaires (son, badge, lien profond, etc.)que vous pouvez définir dans la section **[!UICONTROL Options avancées]**.
 
   Ces types de notification permettent d’ajouter un titre et un message dans lequel l’utilisation des champs de personnalisation est possible. Pour personnaliser votre message, veillez à sélectionner le modèle **[!UICONTROL Diffuser par notification push (vers profils)]**.
 
 * **[!UICONTROL Les notifications de type Notification silencieuse]** sont utilisées pour avertir de façon silencieuse l’application sans message ni contenu pour l’utilisateur final. Un cas pratique classique de ce type de message est d’avertir l’application de la disponibilité de contenu à télécharger depuis le serveur.
 
-Certaines configurations spécifiques peuvent être paramétrées pour définir le comportement des notifications. Voir à ce propos [cette section](../../channels/using/customizing-a-push-notification.md).
+Certaines configurations spécifiques peuvent être paramétrées pour définir le comportement des notifications. Pour plus d’informations, consultez [cette section](../../channels/using/customizing-a-push-notification.md).
 
 >[!NOTE]
 >
@@ -76,24 +76,24 @@ Avant d’envoyer les notifications push, vous devez effectuer les opérations s
 
 ## FAQ sur les notifications push {#push-faq}
 
-### Quelles seraient les recommandations utiles en ce qui concerne les ressources pour en savoir plus sur le canal push ?  {#resource-push}
+### Quelles seraient les recommandations utiles en ce qui concerne les ressources pour en savoir plus sur le canal push ? {#resource-push}
 
 Consultez les ressources ci-dessous :
 
 * [Tutoriels vidéos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=fr)
 * [Documentation du produit](../../channels/using/about-push-notifications.md)
 * Configuration à l’aide de la [documentation](../../administration/using/configuring-a-mobile-application.md) du SDK AEP
-* [Page de la communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=fr)
+* [Page de la communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
-### Que dois-je faire pour acquérir un jeton push dans Campaign ?  {#push-token-acquisition}
+### Que dois-je faire pour acquérir un jeton push dans Campaign ? {#push-token-acquisition}
 
-Vérifiez que l’équipe chargée de l’approvisionnement a terminé l’approvisionnement du canal push dans Adobe Campaign Standard. Mettez en œuvre l’API setPushIdentifier à partir du SDK. Pour plus d’informations à ce propos, consultez cette [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
+Vérifiez que l’équipe chargée de l’approvisionnement a terminé l’approvisionnement du canal push dans Adobe Campaign Standard. Mettez en œuvre l’API setPushIdentifier à partir du SDK. Pour plus d’informations à ce sujet, consultez cette [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
 
-### Une fois que je dispose d’un jeton push et d’un ECID dans Campaign, que dois-je faire pour envoyer une notification push ?  {#sending-push}
+### Une fois que je dispose d’un jeton push et d’un ECID dans Campaign, que dois-je faire pour envoyer une notification push ? {#sending-push}
 
 Les clients doivent fournir un certificat push valide au format .pem pour envoyer une notification push. Vous n’avez pas besoin d’un mot de passe pour ce certificat.
 
-### Que faire si je dispose d’un certificat .p12 au lieu d’un certificat .pem ?  {#certificates}
+### Que faire si je dispose d’un certificat .p12 au lieu d’un certificat .pem ? {#certificates}
 
 Vous pouvez convertir un certificat .p12 en certificat .pem en exécutant la commande ci-dessous dans un terminal. Plusieurs ressources en ligne sont également disponibles pour les instructions de conversion.
 
@@ -101,19 +101,19 @@ Vous pouvez convertir un certificat .p12 en certificat .pem en exécutant la com
 openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 ```
 
-### Comment savoir si le téléchargement du certificat a réussi ?  {#certificate-upload}
+### Comment savoir si le téléchargement du certificat a réussi ? {#certificate-upload}
 
 Le message suivant s’affiche.
 
 ![](assets/faq_2.png)
 
-### Puis-je télécharger simultanément des certificats Production et Sandbox pour l’application iOS (s/o pour Android) ?  {#prod-sandbox-certificate}
+### Puis-je télécharger simultanément des certificats Production et Sandbox pour l’application iOS (s/o pour Android) ? {#prod-sandbox-certificate}
 
 Non, les applications fonctionnent en mode sandbox ou de production et leur mode ne peut pas être changé (c’est-à-dire sandbox en application de production) une fois configurées. Nous vous recommandons de tester d’abord votre application en mode sandbox, puis de passer en mode de production.
 
 Pour passer en mode de production, vous devez créer une autre application. Veillez également à ne pas cocher la case sandbox et à télécharger un certificat de production.
 
-### Puis-je télécharger simultanément les informations d’identification iOS et Android ?  {#ios-android-credentials}
+### Puis-je télécharger simultanément les informations d’identification iOS et Android ? {#ios-android-credentials}
 
 Oui, Campaign prend en charge les deux plateformes en même temps et vous permet de télécharger des informations d’identification pour les deux plates-formes.
 
@@ -139,7 +139,7 @@ Veuillez faire une demande d&#39;Assistance clientèle.
 
 Les développeurs d’application mobile doivent gérer la prise en charge des fichiers multimédia dans l’application. Parfois, la bande passante du réseau peut également empêcher le rendu d’un fichier multimédia. Reportez-vous à cette [page](../../administration/using/image-push-notification.md) pour des pointeurs additionnels.
 
-### Que dois-je faire pour activer le reporting push dans Campaign ?  {#push-reporting-enable}
+### Que dois-je faire pour activer le reporting push dans Campaign ? {#push-reporting-enable}
 
 Procédez comme suit :
 
@@ -148,13 +148,13 @@ Procédez comme suit :
 
 Vous trouverez des instructions plus détaillées sur cette [page](../../administration/using/push-tracking.md).
 
-### Quels rapports sont disponibles pour le canal push ?  {#push-report-available}
+### Quels rapports sont disponibles pour le canal push ? {#push-report-available}
 
 Un rapport d’usine est disponible dans Adobe Campaign pour le canal push. Consultez cette [documentation](../../reporting/using/push-notification-report.md).
 
 Consultez cette [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) pour comprendre comment est calculée chaque mesure push.
 
-### Les liens profonds sont-ils pris en charge dans les messages push et In-App ?  {#deeplink-push}
+### Les liens profonds sont-ils pris en charge dans les messages push et In-App ? {#deeplink-push}
 
 Oui, les liens profonds sont pris en charge dans les messages push. Les liens profonds doivent inclure les éléments suivants :
 

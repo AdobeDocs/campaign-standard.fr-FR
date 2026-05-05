@@ -10,8 +10,8 @@ role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
-source-wordcount: '815'
+workflow-type: ht
+source-wordcount: '822'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Pour prendre en compte les modifications apportées au modèle de données et po
 >
 >Les ressources personnalisées sont automatiquement actualisées lors des mises à jour automatiques effectuées par Adobe.
 
-## Publier une ressource personnalisée    {#publishing-a-custom-resource}
+## Publier une ressource personnalisée {#publishing-a-custom-resource}
 
 Pour appliquer les modifications apportées aux ressources, vous devez effectuer une mise à jour de la base de données.
 
@@ -72,7 +72,7 @@ Pour appliquer les modifications apportées aux ressources, vous devez effectuer
 
    ![](assets/schema_extension_31.png)
 
-## Publier une ressource avec l&#39;extension de l&#39;API    {#publishing-a-resource-with-api-extension}
+## Publier une ressource avec l&#39;extension de l&#39;API {#publishing-a-resource-with-api-extension}
 
 Vous pouvez créer l&#39;API Profile and Services dans les cas suivants :
 
@@ -99,7 +99,7 @@ Les informations contenues dans l&#39;onglet sont divisées en trois sections :
 
 ![](assets/extendpandsapi_diff.png)
 
-L&#39;analyse des différences est une étape obligatoire, car la publication modifiera le comportement de l&#39;API et aura probablement un effet en cascade sur le développement environnant.
+L’analyse des différences est une étape obligatoire, car la publication modifiera le comportement de l’API et aura probablement un effet en cascade sur le développement environnant.
 
 >[!NOTE]
 >

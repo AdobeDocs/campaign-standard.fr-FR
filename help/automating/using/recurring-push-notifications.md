@@ -31,7 +31,7 @@ Pour créer le workflow, procédez comme suit :
 
    >[!NOTE]
    >
-   >Par défaut, le fuseau horaire sélectionné est celui défini dans les propriétés du workflow (voir [Construire un workflow](../../automating/using/building-a-workflow.md)).
+   >Par défaut, le fuseau horaire sélectionné est celui défini dans les propriétés du workflow (consultez [Construire un workflow](../../automating/using/building-a-workflow.md)).
 
    ![](assets/wkf_push_example_5.png)
 

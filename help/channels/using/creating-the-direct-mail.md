@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
-workflow-type: tm+mt
-source-wordcount: '663'
+workflow-type: ht
+source-wordcount: '668'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ La création d&#39;une diffusion courrier est très similaire à celle d&#39;un 
 
    ![](assets/direct_mail_19.png)
 
-1. Une fois que vous avez défini le contenu, l&#39;audience et la date de contact de la diffusion, cliquez sur le bouton **[!UICONTROL Préparer]** dans le tableau de bord de la diffusion.
+1. Une fois que vous avez défini le contenu, l’audience et la date de contact de la diffusion, cliquez sur le bouton **[!UICONTROL Préparer]** dans le tableau de bord de la diffusion.
 
    ![](assets/direct_mail_16.png)
 
@@ -84,7 +84,7 @@ La création d&#39;une diffusion courrier est très similaire à celle d&#39;un 
 
    ![](assets/direct_mail_18.png)
 
-   Le fichier complet peut être téléchargé en local dans la partie gauche de l&#39;écran. Le téléchargement du fichier génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d&#39;informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
+   Le fichier complet peut être téléchargé en local dans la partie gauche de l&#39;écran. Le téléchargement du fichier génère une entrée de log dans le menu **[!UICONTROL Audits des exports]**. Pour plus d&#39;informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
 
    >[!NOTE]
    >

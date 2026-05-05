@@ -6,7 +6,7 @@ role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Les étapes principales de ce cas pratique sont les suivantes :
 Rubriques connexes :
 
 * [Création ou extension de la ressource](../../developing/using/creating-or-extending-the-resource.md)
-* [Définir les clés d&#39;identification      ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Définir les clés d&#39;identification](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [API REST Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Etape 1 : configurer la clé d&#39;identification{#step-1-configure-the-identification-key}
@@ -35,22 +35,22 @@ Rubriques connexes :
 >[!NOTE]
 > Les concepts globaux lors de la configuration des clés d&#39;identification sont présentés dans [cette section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. Avant de configurer la clé d&#39;identification, vérifiez que la ressource a été étendue avec les champs souhaités et qu&#39;elle a été publiée. Voir à ce propos [cette section](../../developing/using/creating-or-extending-the-resource.md).
+1. Avant de configurer la clé d&#39;identification, vérifiez que la ressource a été étendue avec les champs souhaités et qu&#39;elle a été publiée. Pour plus d’informations, consultez [cette section](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Accédez au menu **[!UICONTROL Administration]** / **[!UICONTROL Développement]** / **[!UICONTROL Ressources personnalisées]**, puis ouvrez la ressource **[!UICONTROL Profil]**.
 
    ![](assets/uc_idkey1.png)
 
-1. Dans la section **[!UICONTROL Clés d&#39;identification]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
+1. Dans la section **[!UICONTROL Clés d’identification]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 
    ![](assets/uc_idkey2.png)
 
-1. Ajoutez les deux champs personnalisés &quot;Identifiant CRM&quot; et &quot;Catégorie&quot;, puis cliquez sur **[!UICONTROL Confirmer]**.
+1. Ajoutez les deux champs personnalisés « Identifiant CRM » et « Catégorie », puis cliquez sur **[!UICONTROL Confirmer]**.
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Si vous souhaitez afficher les deux champs personnalisés dans l&#39;interface du profil, configurez l&#39;onglet **[!UICONTROL Définition des écrans]**. Voir à ce propos [cette section](../../developing/using/configuring-the-screen-definition.md).
+   > Si vous souhaitez afficher les deux champs personnalisés dans l&#39;interface du profil, configurez l&#39;onglet **[!UICONTROL Définition des écrans]**. Pour plus d’informations, consultez [cette section](../../developing/using/configuring-the-screen-definition.md).
 
 1. Vous pouvez maintenant configurer la définition de filtre pour pouvoir appeler la ressource à l&#39;aide de sa clé d&#39;identification.
 
@@ -65,15 +65,15 @@ Rubriques connexes :
 
    ![](assets/uc_idkey4.png)
 
-1. Placez dans l&#39;espace de travail le tableau contenant les champs utilisés dans la clé d&#39;identification.
+1. Placez dans l’espace de travail le tableau contenant les champs utilisés dans la clé d’identification.
 
    ![](assets/uc_idkey5.png)
 
-1. Sélectionnez le premier champ utilisé dans la clé d&#39;identification (&quot;Identifiant CRM&quot;), puis activez l&#39;option **[!UICONTROL Définir des paramètres]**.
+1. Sélectionnez le premier champ utilisé dans la clé d’identification (« Identifiant CRM »), puis activez l’option **[!UICONTROL Définir des paramètres]**.
 
    ![](assets/uc_idkey6.png)
 
-1. Dans la section **[!UICONTROL Conditions de filtrage]**, conservez l&#39;opérateur **[!UICONTROL Egal]** , puis définissez le nom du paramètre et cliquez sur le signe plus pour le créer.
+1. Dans la section **[!UICONTROL Conditions de filtrage]**, conservez l’opérateur **[!UICONTROL Égal]**, puis définissez le nom du paramètre et cliquez sur le signe plus pour le créer.
 
    ![](assets/uc_idkey7.png)
 

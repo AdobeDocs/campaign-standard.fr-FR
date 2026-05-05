@@ -8,8 +8,8 @@ role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '578'
+workflow-type: ht
+source-wordcount: '595'
 ht-degree: 100%
 
 ---
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Préparation et test</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Envoi, surveillance et tracking</a></p></td>
+<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Préparer et tester</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Envoyer, surveiller et suivre</a></p></td>
 <td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Indications relatives à la délivrabilité</a></p></td></tr>
 </table>
 
-Une fois la cible définie et le contenu d’un message créé, vous devez préparer et tester le contenu, la personnalisation, le rendu et la configuration de vos diffusions. Vous pouvez ainsi vous assurer que tout est correct avant d’envoyer le message à la cible principale. Pour ce faire, un certain nombre de fonctionnalités sont disponibles, notamment les aperçus, les BAT, les tests de l’objet d’un email et le rendu des emails.
+Une fois la cible définie et le contenu d’un message créé, vous devez préparer et tester le contenu, la personnalisation, le rendu et la configuration de vos diffusions. Vous pouvez ainsi vous assurer que tout est correct avant d’envoyer le message à la cible principale. Pour ce faire, un certain nombre de fonctionnalités sont disponibles, notamment les aperçus, les BAT, les tests de l’objet d’un e-mail et le rendu des e-mails.
 
 Une fois les campagnes marketing exécutées et les différents messages envoyés, surveillez-les à l’aide de logs pour vérifier le succès de votre opération et récupérez les informations de tracking des destinataires.
 
@@ -31,7 +31,7 @@ Enfin, appuyez-vous sur les indications et les outils relatifs à la délivrabil
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment envoyer un email de test, préparer et envoyer une diffusion email en vidéo](#video)
 
-## Préparation et test {#prepare-test-send}
+## Préparer et tester {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
@@ -43,7 +43,7 @@ Utilisez les fonctionnalités de planification de Campaign pour définir quand v
 
 Utilisez des **typologies** pour vérifier, au cours de la préparation, si votre message est valide et répond à vos critères de qualité par le biais de règles de fatigue, de contrôle et de ciblage. Vous pouvez, par exemple, vérifier que vos emails contiennent toujours un objet ou exclure les destinataires du message qui se sont désabonnés.
 
-En savoir plus :
+En savoir plus:
 
 * [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
@@ -52,7 +52,7 @@ En savoir plus :
 * [Planification de l&#39;envoi des messages](../../sending/using/about-scheduling-messages.md)
 * [À propos des typologies et des règles de typologie](../../sending/using/about-typology-rules.md)
 
-## Envoi, surveillance et tracking {#send-track-messages}
+## Envoyer, surveiller et suivre {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
@@ -60,9 +60,9 @@ Une fois votre message prêt, vous pouvez vérifier les logs et les rapports d�
 
 **Trackez le comportement** des destinataires des messages en utilisant des cookies de session et permanents. Vous pourrez ainsi récupérer les informations de tracking (URL cliquées, pages miroir, messages ouverts...).
 
-Vous pouvez aussi paramétrer Adobe Campaign pour **conserver une copie des emails** envoyés depuis votre plateforme via Email BCC. Activez cette fonctionnalité notamment si votre entreprise doit archiver tous les emails sortants à des fins de conformité.
+Vous pouvez aussi paramétrer Adobe Campaign pour **conserver une copie des emails** envoyés depuis votre plateforme via Email BCC. Activez cette fonctionnalité notamment si votre entreprise doit archiver tous les e-mails sortants à des fins de conformité.
 
-En savoir plus :
+En savoir plus:
 
 * [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md)
 * [Tracker les messages](../../sending/using/tracking-messages.md)
@@ -77,26 +77,26 @@ En savoir plus :
 
 La délivrabilité permet de mesurer le succès des campagnes atteignant la boîte de réception de vos destinataires sans bounces ou sans être marqués comme spam.
 
-Campaign Standard met à votre disposition plusieurs **outils de délivrabilité** pour améliorer le nombre de messages correctement diffusés : rapports de débit de diffusion, optimisation de l’heure d’envoi, prévisualisation des messages, rendu des emails, gestion des quarantaines, etc.
+Campaign Standard met à votre disposition plusieurs **outils de délivrabilité** pour améliorer le nombre de messages correctement diffusés : rapports de débit de diffusion, optimisation de l’heure d’envoi, prévisualisation des messages, rendu des e-mails, gestion des quarantaines, etc.
 
-En savoir plus :
+En savoir plus:
 
 * [À propos de la délivrabilité](../../sending/using/about-deliverability.md)
 * [Surveillance de la délivrabilité](../../sending/using/monitor-deliverability.md)
-* [Guide des bonnes pratiques relatives à la délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr)
+* [Guide des bonnes pratiques relatives à la délivrabilité Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr)
 * [Contrôle du débit des diffusions](../../reporting/using/delivery-throughput.md)
 
-## Ressources supplémentaires
+## Autres ressources
 
 * [Conception d’emails de test A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Prise en main des messages](../../channels/using/key-steps-to-send-a-message.md)
-* [Bonnes pratiques relatives à la diffusion](../../sending/using/delivery-best-practices.md)
+* [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
 * [Ajouter une population témoin](../../sending/using/control-group.md)
 
 ## Tutoriel vidéo {#video}
 
 Cette vidéo montre comment envoyer un email de test, préparer puis envoyer une diffusion email avec Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/30236?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

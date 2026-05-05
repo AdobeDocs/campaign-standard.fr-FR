@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 995da330-6c86-444b-86b2-61d887f37db4
 source-git-commit: 7247fe596494690ac0676196fbb72c6139aeb0c7
-workflow-type: tm+mt
-source-wordcount: '827'
+workflow-type: ht
+source-wordcount: '830'
 ht-degree: 100%
 
 ---
@@ -42,11 +42,11 @@ Pour attribuer le rôle **Utilisateur ou utilisatrice MC** à votre groupe de s
 
    ![](assets/event_access_1.png)
 
-1. Sélectionner le **[!UICONTROL Rôle]** Utilisateur/utilisatrice MC et cliquez sur **[!UICONTROL Confirmer]**.
+1. Sélectionnez le **[!UICONTROL Rôle]** Utilisateur ou utilisatrice MC et cliquez sur **[!UICONTROL Confirmer]**.
 
    >[!IMPORTANT]
    >
-   > Procédez avec précaution lorsque vous attribuez le rôle Utilisateur/utilisatrice MC aux opérateurs, car cela leur permet de dépublier des événements.
+   > Procédez avec précaution lorsque vous attribuez le rôle Utilisateur ou utilisatrice MC aux opérateurs et opératrices, car cela leur permet de dépublier des événements.
 
    ![](assets/event_access_2.png)
 
@@ -70,7 +70,7 @@ Les personnes appartenant à ce **[!UICONTROL groupe de sécurité]** peuvent al
 
 ## Dupliquer des événements transactionnels {#duplicate-transactional-events}
 
-Un utilisateur ou une utilisatrice avec le **groupe de sécurité** d’Administration<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> peut désormais dupliquer une configuration d’événement si l’événement a été **publié**.
+Un utilisateur ou une utilisatrice avec le **groupe de sécurité** d’administration<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> peut désormais dupliquer une configuration d’événement si l’événement a été **publié**.
 
 En outre, les utilisateurs et utilisatrices qui ne sont pas administrateurs ou administratrices et qui ont été affectés au rôle **Utilisateur ou utilisatrice MC** peuvent désormais accéder aux configurations d’événement, mais leur autorisation de duplication est déterminée par l’**entité organisationnelle** à laquelle ils appartiennent. Si la personne actuelle et celle qui a créé l’événement appartiennent à la même hiérarchie d’entité organisationnelle, la duplication est autorisée.
 

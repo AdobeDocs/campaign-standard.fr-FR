@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '225'
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -22,9 +22,9 @@ Points d’entrée disponibles des API REST d’Adobe Campaign :
 
 * **/profileAndServices** : permet d’interagir avec les champs d’usine. Les champs étendus ne sont pas accessibles par ce point d’entrée.
 * **/profileAndServicesExt** : permet d’interagir avec les champs personnalisés ajoutés lors de l’extension des ressources personnalisées Profile ou Services. Pour plus d’informations sur les ressources personnalisées, reportez-vous à [cette section](../../api/using/custom-resources.md).
-* **/&lt;transactionalAPI>** : permet d’interagir avec l’API des messages transactionnels (le nom du point d’entrée de l’API des messages transactionnels dépend de la configuration de votre instance). Voir à ce propos [cette section](../../api/using/managing-transactional-messages.md).
-* **/workflow/exécution** : permet d’interagir avec les workflows. Voir à ce propos [cette section](../../api/using/controlling-a-workflow.md).
-* **/privacy/privacyTool** : permet d’interagir avec l’API de confidentialité pour permettre le traitement automatique des demandes d’accès aux informations personnelles. Voir à ce propos [cette section](../../api/using/creating-a-privacy-request.md).
+* **/&lt;transactionalAPI>** : permet d’interagir avec l’API des messages transactionnels (le nom du point d’entrée de l’API des messages transactionnels dépend de la configuration de votre instance). Pour plus d’informations, consultez [cette section](../../api/using/managing-transactional-messages.md).
+* **/workflow/exécution** : permet d’interagir avec les workflows. Pour plus d’informations, consultez [cette section](../../api/using/controlling-a-workflow.md).
+* **/privacy/privacyTool** : permet d’interagir avec l’API de confidentialité pour permettre le traitement automatique des demandes d’accès aux informations personnelles. Pour plus d’informations, consultez [cette section](../../api/using/creating-a-privacy-request.md).
 * **/history** : permet de récupérer l’historique marketing des profils. Pour plus d’informations sur les profils de clients intégrés dans Campaign, reportez-vous à la [documentation de Campaign](https://helpx.adobe.com/fr/campaign/standard/audiences/using/integrated-customer-profile.html).
 
 Par défaut, les principales ressources disponibles pour les API **profileAndServices** et **profileAndServicesExt** sont les suivantes :

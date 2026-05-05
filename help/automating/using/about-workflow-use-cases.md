@@ -10,14 +10,14 @@ role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '233'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
 
 # À propos des cas pratiques de workflows {#about-workflow-use-cases}
 
-Cette section présente différents cas d’utilisation utilisant des fonctionnalités de workflows dans Campaign.
+Cette section présente différents cas pratiques utilisant des fonctionnalités de workflows dans Campaign.
 
 Vous pourrez ainsi découvrir les différents contextes d’utilisation des workflows pour répondre à vos besoins.
 

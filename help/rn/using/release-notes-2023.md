@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 5817c4d2-4788-4695-bf9a-ec04cc042190
 source-git-commit: 30e96494dd7fa3313601e48deeec8ef98dcdce85
-workflow-type: tm+mt
-source-wordcount: '458'
+workflow-type: ht
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 100%
    * L’application a été améliorée pour les utilisateurs et utilisatrices d’écrans tactiles.
    * La couleur de plusieurs éléments de l’interface a été modifiée afin d’améliorer la visibilité.
 
-### Autres changements  {#e-rn-changes}
+### Autres changements {#e-rn-changes}
 
 * Ajout du **Workflow de création d’enrichissement de rapports** prêt à l’emploi. Une fois que vous avez importé un mapping de ciblage d’une instance à une autre, il vous suffit d’exécuter le workflow pour importer les entrées d’enrichissement de rapports correspondantes. (CAMP-52452)
 

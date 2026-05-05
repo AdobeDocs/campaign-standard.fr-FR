@@ -9,8 +9,8 @@ feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
-source-wordcount: '482'
+workflow-type: ht
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Pour commencer à envoyer des messages In-App sur des applications mobiles en ut
 
 1. Pour tirer parti des cas pratiques mobiles dans Adobe Campaign Standard avec une application SDK Experience Cloud, une application mobile doit être créée dans l’interface utilisateur de collecte de données et configurée dans Adobe Campaign. Pour consulter le guide détaillé, reportez-vous à cette [page](../../administration/using/configuring-a-mobile-application.md).
 
-1. Une fois la configuration effectuée, vous pouvez préparer votre message in-app. Pour plus d&#39;informations à ce propos, Voir à ce propos consultez [cette page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
+1. Une fois la configuration effectuée, vous pouvez préparer votre message in-app. Pour plus d’informations à ce sujet, consultez cette [page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
 1. Vous pouvez ensuite décider d&#39;envoyer un [message in-app](../../channels/using/customizing-an-in-app-message.md) ou de [personnaliser un type de message de notification locale](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
 
@@ -41,7 +41,7 @@ Pour commencer à envoyer des messages In-App sur des applications mobiles en ut
 * [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
 * [Guide de Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
-## Gestion des champs de profil mobile avec des données personnelles et sensibles          {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## Gestion des champs de profil mobile avec des données personnelles et sensibles {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
 Dans Adobe Campaign, les données d’attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
 
@@ -51,7 +51,7 @@ Pour permettre une personnalisation plus sécurisée de vos messages In-App, les
 
 >[!NOTE]
 >
->Si une implémentation existe avec une extension de ressource personnalisée sur cette table, nous vous conseillons de libeller les champs de manière adéquate avant de les utiliser pour la personnalisation des messages In-App.
+>Si une implémentation existe avec une extension de ressource personnalisée sur cette table, nous vous conseillons de libeller les champs de manière adéquate avant de les utiliser pour la personnalisation des messages in-app.
 
 ![](assets/in_app_personal_data_2.png)
 

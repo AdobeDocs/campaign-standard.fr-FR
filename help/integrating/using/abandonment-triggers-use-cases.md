@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1023'
+source-wordcount: '1027'
 ht-degree: 100%
 
 ---
@@ -25,17 +25,17 @@ Cette section détaille divers cas pratiques qui peuvent être implémentés via
 
 >[!NOTE]
 >
->Les cas pratiques décrits dans cette section sont basés sur l&#39;Identifiant du visiteur Experience Cloud. Ils peuvent également être mis en œuvre avec le Declared ID Experience Cloud. Les identifiants de type Declared ID hachés et chiffrés sont également pris en charge. Vous pouvez envoyer des emails/SMS à un profil qui n&#39;existe pas dans Campaign en déchiffrant directement l&#39;adresse e-mail/le numéro de mobile chiffrés. Dans ce cas, il n&#39;est toutefois pas possible d&#39;effectuer une personnalisation avec les données de profil.
+>Les cas pratiques décrits dans cette section sont basés sur l&#39;Identifiant du visiteur Experience Cloud. Ils peuvent également être mis en œuvre avec le Declared ID Experience Cloud. Les identifiants de type Declared ID hachés et chiffrés sont également pris en charge. Vous pouvez envoyer des e-mails/SMS à un profil qui n’existe pas dans Campaign en déchiffrant directement l’adresse e-mail/le numéro de mobile chiffrés. Dans ce cas, il n&#39;est toutefois pas possible d&#39;effectuer une personnalisation avec les données de profil.
 
-## Conditions requises    {#pre-requisites}
+## Conditions requises {#pre-requisites}
 
 Afin de pouvoir mettre en œuvre ces cas pratiques, vous devez avoir accès aux solutions/Core Services suivants :
 
 * Adobe Campaign
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Applications mobiles, Select ou Standard.
 * Core Service Triggers Experience Cloud
-* Core Service DTM Experience Cloud
-* Identifiant du visiteur Experience Cloud et Core Service People Experience Cloud
+* Core Service DTM Experience Cloud
+* Identifiant du visiteur ou de la visiteuse Experience Cloud et Core Service People Experience Cloud
 
 Il vous faudra également un site web opérationnel.
 
@@ -45,13 +45,13 @@ Pour plus d&#39;informations, consultez [Configuration des solutions et services
 
 Dans ce cas pratique, nous allons créer un déclencheur simple qui se déclenchera à chaque fois qu&#39;un client abandonnera sa visite sur le site Web. Cet exemple part du principe que vous avez configuré DTM pour collecter et envoyer des données vers Adobe Marketing, et que tous vos événements sont déjà créés.
 
-### Création d&#39;un trigger Experience Cloud  {#creating-an-experience-cloud-trigger}
+### Création d&#39;un trigger Experience Cloud {#creating-an-experience-cloud-trigger}
 
 1. Sélectionnez **[!UICONTROL Gérer les Triggers]** dans le menu Experience Cloud Activation Core Service.
 
    ![](assets/trigger_uc_browse_1.png)
 
-1. Choisissez un type de déclencheur (**[!UICONTROL Abandon]**, dans ce cas pratique).
+1. Choisissez un type de déclencheur (**[!UICONTROL Abandon]**, dans ce cas d’utilisation).
 
    ![](assets/trigger_uc_browse_2.png)
 
@@ -74,7 +74,7 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dan
 
    ![](assets/trigger_uc_browse_5.png)
 
-1. Sélectionnez le canal **[!UICONTROL Email]** et la dimension de ciblage **[!UICONTROL Evénement temps réel]**, puis cliquez sur **[!UICONTROL Créer]**.
+1. Sélectionnez le canal **[!UICONTROL E-mail]** et la dimension de ciblage **[!UICONTROL Événement temps réel]**, puis cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/trigger_uc_browse_6bis.png)
 
@@ -92,13 +92,13 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dan
 
    ![](assets/trigger_uc_browse_0.png)
 
-### Exécuter le scénario    {#running-the-scenario}
+### Exécuter le scénario {#running-the-scenario}
 
 1. Ce cas pratique commence par un email initial envoyé à votre audience avec Adobe Campaign.
 
    ![](assets/trigger_uc_browse_9.png)
 
-1. Le destinataire ouvre l&#39;email.
+1. La personne destinataire ouvre l’e-mail.
 
    ![](assets/trigger_uc_browse_10.png)
 
@@ -110,7 +110,7 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dan
 
    ![](assets/trigger_uc_browse_12.png)
 
-1. À tout moment, vous pouvez vérifier les logs Experience Cloud pour voir combien de fois le déclencheur s&#39;est lancé.
+1. À tout moment, vous pouvez vérifier les logs Experience Cloud pour voir combien de fois le déclencheur s’est lancé.
 
    ![](assets/trigger_uc_browse_13.png)
 
@@ -118,11 +118,11 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dan
 
    ![](assets/trigger_uc_browse_14.png)
 
-## Déclencheur d&#39;abandon de recherche    {#search-abandonment-trigger}
+## Déclencheur d&#39;abandon de recherche {#search-abandonment-trigger}
 
 Dans ce cas pratique, nous allons créer un déclencheur pour reprendre contact avec des visiteurs ayant visité notre site Web de réservation de voyages et qui, ayant cherché une destination sans trouver de résultats pertinents, n&#39;ont rien réservé. Le processus général est le même que pour le cas pratique précédent (voir [Déclencheur d&#39;abandon de navigation](#browse-abandonment-trigger)). Ici, nous allons nous focaliser sur la personnalisation de l&#39;email de remarketing.
 
-### Création d&#39;un trigger Experience Cloud  {#creating-an-experience-cloud-trigger-1}
+### Création d&#39;un trigger Experience Cloud {#creating-an-experience-cloud-trigger-1}
 
 Suivez les étapes décrites dans le cas pratique précédent pour créer le déclencheur Experience Cloud. Voir [Créer un déclencheur Experience Cloud](#creating-an-experience-cloud-trigger). La différence principale est la définition du déclencheur.
 
@@ -141,15 +141,15 @@ La section **[!UICONTROL Inclure les métadonnées]** vous permet de transférer
 
    ![](assets/trigger_uc_search_3.png)
 
-1. Dans cet exemple, nous avons choisi d&#39;inclure le terme de recherche de la destination dans l&#39;objet de l&#39;email et dans le corps de l&#39;émail.
+1. Dans cet exemple, nous avons choisi d’inclure le terme de recherche de la destination dans l’objet de l’e-mail et dans le corps de l’e-mail.
 
    ![](assets/trigger_uc_search_4.png)
 
-1. Lors de la sélection d&#39;un champ de personnalisation, cherchez les métadonnées de la payload dans la table **Evénement transactionnel** (rtEvent) puis dans la sous-table **Contexte de l&#39;événement** (ctx).
+1. Lors de la sélection d’un champ de personnalisation, cherchez les métadonnées de la payload dans la table **Événement transactionnel** (rtEvent), puis dans la sous-table **Contexte de l’événement** (ctx).
 
    ![](assets/trigger_uc_search_5.png)
 
-### Exécuter le scénario    {#running-the-scenario-1}
+### Exécuter le scénario {#running-the-scenario-1}
 
 1. Le visiteur se rend sur un site Web de réservation de voyages et lance une recherche pour une destination. Dans cet exemple, le visiteur cherche un voyage au Japon mais ne trouve aucun résultat. C&#39;est pour nous l&#39;occasion de contacter le visiteur pour lui recommander un projet de voyage alternatif.
 

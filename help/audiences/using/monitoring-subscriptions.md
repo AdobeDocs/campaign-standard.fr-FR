@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Vous disposez de plusieurs options pour contrôler les inscriptions et désinscr
 * Affichez un rapport détaillant l’évolution des abonnements et des désabonnements dans les **Rapports** du service. Voir [Rapports du service](#service-reports).
 * Recherchez la liste des services auxquels une personne a souscrit depuis son **Profil**. Voir [Historique des événements liés à un profil](#history-of-events-linked-to-a-profile).
 
-## Tableau de bord du service    {#service-dashboard}
+## Tableau de bord du service {#service-dashboard}
 
 Pour visualiser la liste des personnes inscrites à un service :
 
@@ -36,7 +36,7 @@ Pour visualiser la liste des personnes inscrites à un service :
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Applications mobiles    {#subscription-history}
+## Applications mobiles {#subscription-history}
 
 Pour consulter l&#39;historique des inscriptions et des désinscriptions au service :
 
@@ -46,7 +46,7 @@ Pour consulter l&#39;historique des inscriptions et des désinscriptions au serv
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Rapports du service    {#service-reports}
+## Rapports du service {#service-reports}
 
 Pour afficher un rapport présentant l&#39;évolution des inscriptions et des désinscriptions :
 
@@ -56,11 +56,11 @@ Pour afficher un rapport présentant l&#39;évolution des inscriptions et des d�
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. Le rapport **Synthèse du service** présente le nombre d&#39;inscrits, l&#39;évolution globale des inscriptions et une courbe d&#39;évolution dans le temps.
+1. Le rapport **Synthèse du service** présente le nombre d’inscriptions, leur évolution globale et une courbe d’évolution dans le temps.
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Historique des événements liés à un profil    {#history-of-events-linked-to-a-profile}
+## Historique des événements liés à un profil {#history-of-events-linked-to-a-profile}
 
 Pour connaître la liste des services auxquels un contact s&#39;est abonné, vous pouvez consulter son historique marketing. Pour plus d&#39;informations, consultez la section [Profil client intégré](../../audiences/using/integrated-customer-profile.md).
 

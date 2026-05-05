@@ -8,13 +8,13 @@ role: Developer
 level: Experienced
 exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
 ht-degree: 100%
 
 ---
 
-# Campagne (nms:campaign)
+# Campaign (nms:campaign)
 
 ## Description de l&#39;objet
 
@@ -39,7 +39,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>builtIn</td>
-                  <td>Built-in application object</td>
+                  <td>Objet d’application natif</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -69,7 +69,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>end</td>
-                  <td>End date</td>
+                  <td>Date de fin</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -93,7 +93,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -150,13 +150,13 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Start date</td>
+                  <td>Date de début</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>status</td>
-                  <td>Status</td>
+                  <td>Statut</td>
                   <td>enumeration (byte) </td>
                   <td>
                      <ul>
@@ -174,14 +174,14 @@ ht-degree: 100%
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
-                  <td>Thumbnail</td>
+                  <td>miniature</td>
+                  <td>Miniature</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Campaign</td>
+                  <td>Campagne</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>

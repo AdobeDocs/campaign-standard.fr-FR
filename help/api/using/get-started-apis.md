@@ -11,7 +11,7 @@ level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '223'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -38,10 +38,10 @@ Grâce aux API d’Adobe Campaign Standard, vous avez accès aux fonctionnalit
 
 >[!NOTE]
 >
->Avant d’effectuer des appels aux API, vérifiez les limites de taille correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#RessourcesdinfrastructureinformatiqueparniveauxdeProfilsactifs).
+>Avant d’effectuer des appels aux API, vérifiez les limites de taille correspondant à votre contrat de licence. Pour plus d’informations, consultez [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#RessourcesdinfrastructureinformatiqueparniveauxdeProfilsactifs).
 
 Pour utiliser les API de Campaign Standard, vous devez disposer d’un compte Adobe I/O. Il s’agit d’une première étape obligatoire pour découvrir les fonctionnalités des API.
-Voir à ce propos [cette section](../../api/using/setting-up-api-access.md).
+Pour plus d’informations, consultez [cette section](../../api/using/setting-up-api-access.md).
 
 Les API fournies utilisent des **concepts standard** avec une interface REST et des payloads JSON.
 
@@ -51,4 +51,4 @@ Les API fournies utilisent des **concepts standard** avec une interface REST et 
 
 Tous les points d’entrée sont décrits en détail dans cette documentation avec les notions générales que vous devez connaître pour manipuler les API, les informations de référence complètes relatives aux API, des exemples de code et des guides de démarrage rapide.
 
-S’il manque quelque chose ou si une information semble incorrecte, posez une question à la [communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=fr).
+S’il manque quelque chose ou si une information semble incorrecte, posez une question à la [communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
