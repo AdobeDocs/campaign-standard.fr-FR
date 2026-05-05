@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Adobe Campaign permet d’affecter un ensemble de rôles à vos utilisateurs afin de définir la partie de l’interface à laquelle ils ont accès.
 
-Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
 
 Les administrateurs peuvent gérer les utilisateurs depuis Admin Console. Les utilisateurs sont ensuite automatiquement synchronisés avec Adobe Campaign. Pour plus d’informations, consultez la documentation relative à [Admin Console](https://helpx.adobe.com/fr/enterprise/using/users.html).
 
@@ -35,7 +35,7 @@ Pour accéder à l&#39;interface de gestion des utilisateurs à partir d&#39;Ado
 
 * Vidéo [Gérer les autorisations utilisateur](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=fr)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
-* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
 
 ## Type d’utilisateurs {#type-of-users}
 
