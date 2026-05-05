@@ -89,6 +89,6 @@ Une fois l&#39;envoi terminé, vous pouvez commencer à mesurer l&#39;impact de 
 
 Cette vidéo montre comment créer une diffusion SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31327/?captions=fre_fr&quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
