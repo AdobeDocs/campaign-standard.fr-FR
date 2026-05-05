@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '828'
+workflow-type: ht
+source-wordcount: '830'
 ht-degree: 100%
 
 ---
@@ -98,7 +98,7 @@ Toutes les options de style sont disponibles dans la vue mobile. Les paramètres
    >
    >La seule exception concerne les paramètres de **[!UICONTROL style intégré]**. Toute modification des paramètres de style intégré est également appliquée à la vue de poste de travail standard.
 
-1. Toute autre modification apportée à la structure ou au contenu de l&#39;email, telle que des modifications de texte, le téléchargement d&#39;une nouvelle image, l&#39;ajout d&#39;un nouveau composant, etc. est également appliquée à la vue standard.
+1. Toute autre modification apportée à la structure ou au contenu de l’e-mail, telle que des modifications de texte, le chargement d’une nouvelle image, l’ajout d’un nouveau composant, etc. est également appliquée à la vue standard.
 
    Par exemple, passez en vue mobile, modifiez du texte et remplacez une image.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Modèles de messages multilingues {#multilingual-messages-template}
 
-Un modèle multilingue est un modèle spécifique qui permet de gérer les messages multilingues. Ce type de modèle est disponible pour les **** emails et SMS **et peut être utilisé en mode autonome, dans un workflow ou dans une diffusion récurrente.**
+Un modèle multilingue est un modèle spécifique qui permet de gérer les messages multilingues. Ce type de modèle est disponible pour les **e-mails** et **SMS** et peut être utilisé en mode autonome, dans un workflow ou dans une diffusion récurrente.
 
 Dans les modèles multilingues, la gestion des langues repose sur les variantes. **Chaque variante représente une langue**. Il est possible de configurer jusqu&#39;à 40 variantes dans Adobe Campaign Standard.
 

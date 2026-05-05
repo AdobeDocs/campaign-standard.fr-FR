@@ -31,7 +31,7 @@ Le cycle de vie d’un workflow comporte trois grandes étapes, chacune d’elle
 
 * **Terminé** (vert)
 
-  Un workflow est terminé lorsqu’il n’a plus de tâche en cours ou lorsque l’exécution de l’instance a explicitement été arrêtée.
+  Un workflow est terminé lorsqu’il n’a plus de tâche en cours ou quand un opérateur ou une opératrice a explicitement mis fin à l’instance.
 
 Une fois qu’il a été démarré, un workflow peut également se voir attribuer deux autres statuts :
 

@@ -10,8 +10,8 @@ role: Developer
 level: Experienced
 exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '681'
+workflow-type: ht
+source-wordcount: '683'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Dans l&#39;onglet **[!UICONTROL Définition des écrans]**, vous pouvez :
 * Personnaliser la manière dont sera présentée la liste des éléments constituant la ressource
 * Définir l&#39;affichage du détail de chaque élément de la ressource
 
-## Permettre l&#39;accès depuis le menu de navigation     {#enabling-access-from-the-navigation-menu}
+## Permettre l&#39;accès depuis le menu de navigation {#enabling-access-from-the-navigation-menu}
 
 Si vous souhaitez que votre ressource dispose d&#39;un écran dédié, vous pouvez la rendre accessible depuis le menu de navigation.
 
@@ -61,7 +61,7 @@ La section **[!UICONTROL Configuration de liste]** de la définition des écrans
 
 L&#39;écran de présentation de la ressource est maintenant défini.
 
-## Définir la configuration de l&#39;écran de détail     {#defining-the-detail-screen-configuration}
+## Définir la configuration de l&#39;écran de détail {#defining-the-detail-screen-configuration}
 
 La section **[!UICONTROL Configuration de l&#39;écran de détail]** de la définition des écrans vous permet de définir les colonnes et les informations qui seront affichées dans l&#39;écran de détail de chaque élément de la ressource.
 
@@ -88,7 +88,7 @@ La section **[!UICONTROL Configuration de l&#39;écran de détail]** de la défi
 
 L&#39;écran de détail de la ressource est maintenant défini.
 
-## Section Actions sur les données     {#actions-on-data-section}
+## Section Actions sur les données {#actions-on-data-section}
 
 Ces paramètres permettent d&#39;afficher une barre de contrôle dans l&#39;écran de la ressource personnalisée. Trois options sont disponibles :
 

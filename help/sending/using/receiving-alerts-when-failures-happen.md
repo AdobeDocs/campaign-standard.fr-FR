@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '2305'
+workflow-type: ht
+source-wordcount: '2312'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ Si vous souhaitez envoyer des notifications selon des critères spécifiques à 
 
 Désormais, dès qu&#39;une diffusion répond aux critères définis dans ce tableau de bord, une notification d&#39;alerte est envoyée aux groupes d&#39;utilisateurs indiqués.
 
-## Critères des alertes de diffusion        {#delivery-alerting-criteria}
+## Critères des alertes de diffusion {#delivery-alerting-criteria}
 
 ### À propos des critères des alertes de diffusion {#about-alerting-criteria}
 
@@ -101,7 +101,7 @@ Pour accéder aux critères des alertes de diffusion, cliquez sur **[!UICONTROL 
 Les critères suivants peuvent être utilisés dans les tableaux de bord des alertes de diffusion :
 
 * **[!UICONTROL Diffusions en échec]** : toute diffusion planifiée sur une période définie, ayant un statut en erreur.
-* **[!UICONTROL Diffusions avec préparation en échec]** : toute diffusion modifiée pendant une période définie pour laquelle l&#39;étape de préparation (calcul de la cible et génération du contenu) n&#39;a pas réussi. Pour plus d&#39;informations, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Diffusions avec préparation en échec]** : toute diffusion modifiée pendant une période définie pour laquelle l’étape de préparation (calcul de la cible et génération du contenu) n’a pas réussi. Pour plus d&#39;informations, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
 * **[!UICONTROL Diffusion avec taux de rebonds temporaires incorrect]** : toute diffusion planifiée sur une période définie, ayant au moins le statut **[!UICONTROL En cours]** et dont le taux de rebonds temporaires est supérieur à un pourcentage défini.
 * **[!UICONTROL Diffusion avec taux de rebonds définitifs incorrect]** : toute diffusion planifiée sur une période définie, ayant au moins le statut **[!UICONTROL En cours]** et dont le taux de rebonds définitifs est supérieur à un pourcentage défini.
 * **[!UICONTROL Diffusions avec un état de démarrage en attente long]** : toute diffusion planifiée sur une période définie, ayant le statut **[!UICONTROL Démarrage en attente]** pendant une durée supérieure à celle spécifiée. Le statut **[!UICONTROL Démarrage en attente]** signifie que les messages n&#39;ont pas encore été pris en compte par le système.
@@ -122,7 +122,7 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 
   ![](assets/delivery-alerting_notification_colums.png)
 
-* **[!UICONTROL Type d&#39;alerte]**, c&#39;est-à-dire le libellé et la couleur qui apparaîtront en regard du critère de diffusion dans la synthèse de la notification.
+* **[!UICONTROL Type d’alerte]**, c’est-à-dire le libellé et la couleur qui apparaîtront en regard du critère de diffusion dans la synthèse de la notification.
 
   ![](assets/delivery-alerting_notification_labels.png)
 
@@ -134,9 +134,9 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 
 * [Envois](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Fréquence des alertes](#alerting-frequency)
-* [Icônes et statuts des activités marketing      ](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Icônes et statuts des activités marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Créer un critère d&#39;alerte de diffusion        {#creating-a-delivery-alerting-criterion}
+### Créer un critère d&#39;alerte de diffusion {#creating-a-delivery-alerting-criterion}
 
 Vous pouvez créer des critères d&#39;alerte de diffusion en fonction de vos besoins.
 
@@ -155,7 +155,7 @@ Pour cela, vous devez d&#39;abord étendre la ressource **Diffusion** et ajouter
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. Editez la définition du nouveau filtre : dans la fenêtre **[!UICONTROL Définition des filtres]**, placez l&#39;élément **[!UICONTROL Statut]** dans l&#39;espace de travail et sélectionnez **[!UICONTROL Terminé]** en tant que condition de filtre.
+1. Éditez la définition du nouveau filtre : dans la fenêtre **[!UICONTROL Définition des filtres]**, placez l’élément **[!UICONTROL Statut]** dans l’espace de travail et sélectionnez **[!UICONTROL Terminé]** en tant que condition de filtre.
 
    ![](assets/delivery-alerting_filter-status.png)
 
@@ -180,7 +180,7 @@ Une fois créés, ces critères peuvent être ajoutés, ainsi que d&#39;autres c
 
 [Ajouter ou étendre une ressource](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Paramètres des alertes de diffusion        {#delivery-alerting-parameters}
+## Paramètres des alertes de diffusion {#delivery-alerting-parameters}
 
 ### Paramètres des critères {#criteria-parameters}
 
@@ -217,7 +217,7 @@ Vous pouvez changer ce paramètre dans le menu **[!UICONTROL Administration]** 
 >
 >Cette option s&#39;applique à tous les tableaux de bord définis dans Adobe Campaign. Vous ne pouvez pas définir une fréquence spécifique pour chaque tableau de bord.
 
-## Motifs des alertes de diffusion        {#delivery-alerting-reasons}
+## Motifs des alertes de diffusion {#delivery-alerting-reasons}
 
 La fonctionnalité **Alertes de diffusion** maintient automatiquement informés tous les utilisateurs actifs d&#39;Adobe Campaign en ce qui concerne le statut d&#39;exécution des diffusions, par email ou par le biais d&#39;un tableau de bord.
 
@@ -267,7 +267,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
    * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [À propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * D&#39;une manière générale, améliorez autant que possible la délivrabilité. Consultez la documentation détaillé d&#39;Adobe Campaign relative à la [délivrabilité](../../sending/using/about-deliverability.md) et contactez votre administrateur Adobe Campaign pour obtenir de l&#39;aide.
 
-* **[!UICONTROL Diffusions avec un état de démarrage en attente long]** : cette alerte indique généralement un problème au niveau du MTA (Message Transfer Agent). Le processus d&#39;exécution attend la disponibilité de certaines ressources. Le MTA n&#39;a peut-être pas été démarré.
+* **[!UICONTROL Diffusions avec un état de démarrage en attente long]** : cette alerte indique généralement un problème au niveau du MTA (Message Transfer Agent). Le processus d’exécution attend la disponibilité de certaines ressources.Le MTA n’a peut-être pas été démarré.
 
   **[!UICONTROL Diffusions avec faible débit]** : il s&#39;agit encore une fois d&#39;un problème de délivrabilité qui signale que le MTA est trop lent.
 

@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '426'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
@@ -81,14 +81,14 @@ Dans la page **[!UICONTROL Produits]**, sélectionnez votre instance Campaign et
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Développeurs]**.
+1. Cliquez sur l’onglet **[!UICONTROL Développeurs et développeuses]**.
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter un développeur]**.
 
-1. Entrez le nom ou l&#39;email de l&#39;utilisateur que vous voulez ajouter. Sélectionnez le résultat correspondant à l’utilisateur.
+1. Entrez le nom ou l&#39;email de l&#39;utilisateur que vous voulez ajouter.  Sélectionnez le résultat correspondant à l’utilisateur.
 
    Si c’est la première fois que l’utilisateur est ajouté à l’organisation, saisissez des détails.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour valider.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer.

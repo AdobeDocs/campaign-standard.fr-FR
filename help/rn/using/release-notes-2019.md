@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '7679'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '7898'
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 99%
 * Correction d’un problème en raison duquel l’état d’une diffusion pouvait être &quot;Démarrage en attente&quot; même si la diffusion était terminée. (CAMP-35355)
 * Correction d’un problème qui empêchait l’affichage des logs des workflows après activation, puis désactivation des logs SQL.
 
-## Version 19.3 - Juillet 2019                {#release-19-3---july-2019}
+## Version 19.3 - Juillet 2019 {#release-19-3---july-2019}
 
 **Nouveautés**
 
@@ -148,12 +148,12 @@ ht-degree: 99%
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th> Description<br /> </th> 
+   <th>Description<br /></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Activité API externe (version Beta publique)<br /> </td> 
+   <td>Activité API externe (version bêta publique)<br /></td> 
    <td> <p>Pour accroître la personnalisation, l’activité API externe permet de récupérer des données provenant de systèmes externes dans un workflow via un appel API REST. Les points d’entrée REST peuvent être un système de gestion client, le Runtime Adobe I/O Runtime ou un point d’entrée REST Adobe Experience Cloud (par exemple, Data Platform, Target, Analytics, Campaign).</p><p>Cette fonctionnalité est actuellement en version Beta publique.</p><p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=fr">vidéo de procédure</a>.</p></td> 
   </tr> 
   <tr> 
@@ -243,7 +243,6 @@ ht-degree: 99%
 * Correction d’un problème qui empêchait, lors de la création d’un profil, d’enregistrer le champ « Code pays/zone géographique » s’il était sélectionné dans la boîte de dialogue.
 * Correction de plusieurs problèmes qui se produisaient lors de l’utilisation du modèle d’import de courrier (updateQuarantinesDeliveryLogsDirectMail).
 * Correction d’un problème lié à l’Intégration avec Assets on Demand.
-
 * Correction d’un problème qui se produisait lors de la réalisation d’un zoom avant dans la vue Chronologie. (CAMP-33628)
 * Correction d’un problème qui empêchait l’envoi instantané des BAT pour les e-mails avec une date et une heure planifiées. (CAMP-33723)
 * Correction d’un problème lié aux messages transactionnels qui générait des logs d’erreur lors de la déconnexion d’un utilisateur. (CAMP-31698)
@@ -252,7 +251,7 @@ ht-degree: 99%
 * Correction d’un problème de sécurité qui endommageait le contenu d’un email lorsque l’objet contenait plusieurs lignes.
 
 
-## Version 19.2.7 - Juillet 2019                {#release-19-2-7---july-2019}
+## Version 19.2.7 - Juillet 2019 {#release-19-2-7---july-2019}
 
 **Améliorations**
 
@@ -286,7 +285,7 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
 * Correction d’un problème qui empêchait l’utilisateur d’enrichir le contenu d’un message transactionnel avec des informations de la ressource Service. (CAMP-33707)
 * Correction d’un problème lié aux landing pages de liste bloquée qui se produisait lors du désabonnement des profils d’un service.
 
-## Version 19.2 - Mai 2019  {#release-19-2---may-2019}
+## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
 
 **Nouveautés**
 
@@ -294,12 +293,12 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th> Description<br /> </th> 
+   <th>Description<br /></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Panneau de contrôle<br /> </td> 
+   <td>Panneau de contrôle<br /></td> 
    <td> <p>Pour accroître l’efficacité de votre travail en tant qu’utilisateur administrateur, vous pouvez facilement surveiller la capacité de vos instances et gérer leurs paramètres (à commencer par la gestion des serveurs SFTP).</p><p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=fr">vidéo de procédure</a>.</p></td> 
   </tr> 
   <tr> 
@@ -390,7 +389,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui entraînait la désactivation du workflow de délivrabilité s’il ne se terminait pas correctement.
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer ou de planifier des rapports. (CAMP-31133)
 
-## Version 19.1.3 - Mars 2019                 {#release-19-1-3---march-2019}
+## Version 19.1.3 - Mars 2019 {#release-19-1-3---march-2019}
 
 **Améliorations du concepteur d’e-mail**
 
@@ -404,7 +403,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui empêchait l’édition des règles de typologie. (CAMP-31750)
 * Correction d’un problème lié au processus inMail qui pouvait s’arrêter de manière inattendue. (CAMP-31238)
 
-## Version 19.1 - Février 2019               {#release-19-1---february-2019}
+## Version 19.1 - Février 2019 {#release-19-1---february-2019}
 
 **Nouveautés**
 
@@ -412,20 +411,20 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th> Description<br /> </th> 
+   <th>Description<br /></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Améliorations du reporting du canal push<br /> </td> 
+   <td>Améliorations du reporting du canal push<br /></td> 
    <td> <p>Plusieurs améliorations ont été apportées au reporting du canal push afin de mesurer l’engagement des utilisateurs de manière plus intuitive. Avec cette version, la liste des mesures du canal push compte désormais trois mesures différentes : Impressions, Clics, Ouvertures (ouverture de l’application). Celles-ci vous permettent de mesurer et d’analyser plus efficacement l’interaction des utilisateurs avec les notifications push. Nous normalisons également la définition et la mise en œuvre de ces mesures. Le rapport intégré relatif aux notifications push a également été amélioré. Il comporte désormais des visualisations et des mesures couramment utilisées.</p><p> Pour plus d'informations, consultez la <a href="../../reporting/using/push-notification-report.md">documentation détaillée</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Intégration de Launch pour les applications mobiles<br /> </td> 
-   <td> <p>Cette version contient l’intégration d’Adobe Campaign avec les versions de disponibilité générale des extensions Android et iOS pour Adobe Campaign Standard dans les SDK Adobe Experience Platform Launch et Mobile. Ces extensions prennent en charge la messagerie push, la messagerie In-App et les mises à jour des profils des applications mobiles.</p><p> Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.</p> </td> 
+   <td>Intégration de Launch pour les applications mobiles<br /></td> 
+   <td> <p>Cette version contient l’intégration d’Adobe Campaign avec les versions de disponibilité générale des extensions Android et iOS pour Adobe Campaign Standard dans les SDK Adobe Experience Platform Launch et Mobile. Ces extensions prennent en charge la messagerie push, la messagerie In-App et les mises à jour des profils des applications mobiles.</p><p> Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Messagerie In-App mobile<br /> </td> 
+   <td>Messagerie in-app mobile<br /></td> 
    <td> <p>Cette version contient la version de disponibilité générale du canal In-App dans Campaign. D’un point de vue fonctionnel, les ajouts les plus importants à la version Beta sont les rapports dynamiques pour le canal In-App et l’établissement d’une liaison sécurisée entre le SDK Mobile et MCIAS (service de messagerie In-App Experience Cloud qui fournit les règles In-App au SDK). L’établissement d’une liaison sécurisée garantit que les données PII de vos utilisateurs ne tombent pas entre des mains malveillantes. Il permet également de préserver la confidentialité de l’utilisateur sur un appareil partagé en effaçant le cache des messages chaque fois que l’utilisateur se déconnecte.</p><p>Pour plus d’informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a> et le <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=fr">tutoriel In-App</a> dédié.</p> </td> 
   </tr> 
   <tr> 
@@ -433,7 +432,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
    <td> <p>Les capacités de workflow suivantes ont été ajoutées :</p> 
     <ul> 
      <li> Vous pouvez maintenant copier-coller des activités au sein d’un workflow ou d’un autre à partir d’une même instance de Campaign. Ainsi, vous pouvez facilement dupliquer un workflow entier ou des activités spécifiques, tout en conservant les paramètres initialement définis. Pour plus d’informations, consultez la <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">documentation détaillée</a>. (CAMP-20014) </li> 
-     <li> Lors de l’utilisation de l’activité <strong>Chargement de fichier</strong>, vous pouvez maintenant ajouter un horodatage au nom du fichier contenant les enregistrements rejetés. Pour plus d'informations, consultez la <a href="../../automating/using/load-file.md#configuration">documentation détaillée</a>. </li> 
+     <li>Lors de l’utilisation de l’activité <strong>Chargement de fichier</strong>, vous pouvez maintenant ajouter un horodatage au nom du fichier contenant les enregistrements rejetés.Pour plus d’informations, consultez la <a href="../../automating/using/load-file.md#configuration">documentation détaillée</a>.</li> 
      <li> Les activités <strong>Requête</strong> et <strong>Segmentation</strong> permettent désormais d’activer une transition sortante si les activités ne récupèrent aucune donnée. </li> 
     </ul> </td> 
   </tr> 
@@ -510,7 +509,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui entraînait une différence entre les profils ciblés lors de la création d’une diffusion In-App et ceux affichés dans le tableau de bord de la diffusion. (CAMP-28722)
 * Correction d’un problème lié à l’intégration de Campaign avec Assets Core Service qui empêchait la sélection d’une ressource partagée dans un email.
 
-## Version 19.0 - Janvier 2019               {#release-19-0---january-2019}
+## Version 19.0 - Janvier 2019 {#release-19-0---january-2019}
 
 **Nouveautés**
 
@@ -519,16 +518,16 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th> Description<br /> </th> 
+   <th>Description<br /></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Disponibilité générale du concepteur d’e-mail<br /> </td> 
+   <td>Disponibilité générale du concepteur d’e-mail<br /></td> 
    <td> <p>Le nouveau concepteur d’e-mail intuitif (anciennement Creative Designer) est passé à la phase de disponibilité générale. Il prend maintenant en charge toutes les fonctionnalités de l’ancien éditeur de contenu, notamment :</p> 
     <ul> 
      <li> Utilisation des <a href="../../integrating/using/adding-target-dynamic-content.md">images dynamiques d’Adobe Target</a> </li> 
-     <li> Possibilité de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a> </li> 
+     <li>Possibilité de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a></li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">Modèles de contenu d’usine</a> entièrement compatibles </li> 
     </ul> 
     <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d'informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr">page</a>.</p> </td> 
@@ -542,12 +541,12 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
    <td> <p>Vous pouvez maintenant basculer vers une vue mobile dédiée lors de l’édition du contenu d’un email. Vous pouvez ainsi affiner le responsive design d’un e-mail en éditant séparément toutes les options de style pour l’affichage mobile, (adapter les marges, réduire la taille des polices, changer de couleur d’arrière-plan, etc.).</p><p> Pour plus d'informations, consultez la <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">documentation détaillée</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Améliorations de la messagerie In-App (Beta)<br /> </td> 
-   <td> <p>La fonctionnalité Messagerie In-App (Beta) a été améliorée avec l'ajout des capacités suivantes :</p> 
+   <td>Améliorations de la messagerie in-app (version bêta)<br /></td> 
+   <td> <p>La fonctionnalité Messagerie in-app (version bêta) a été améliorée avec l’ajout des capacités suivantes :</p> 
     <ul> 
      <li> Compatibilité du canal In-App (version bêta) avec le RGPD </li> 
-     <li> Intégration avec les API Analytics pour peupler les listes déroulantes des Triggers </li> 
-     <li> Aspect intuitif et description des modèles de diffusion </li> 
+     <li>Intégration avec les API Analytics pour peupler les listes déroulantes des Triggers</li> 
+     <li>Aspect intuitif et description des modèles de diffusion</li> 
      <li> Améliorations apportées à l’interface de création du point de vue de la convivialité </li> 
     </ul> <p>Pour plus d'informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a>.</p> </td> 
   </tr> 

@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Rendez-vous]** permet de synchroniser plusieurs branches d&#39;exécution d&#39;un workflow.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Rendez-vous]** ne déclenche sa transition sortante qu&#39;une fois toutes les transitions entrantes activées, c&#39;est-à-dire quand toutes les activités précédentes sont terminées.
 
@@ -38,7 +38,7 @@ L&#39;activité **[!UICONTROL Rendez-vous]** ne déclenche sa transition sortant
 1. Sélectionnez l&#39;ensemble principal à conserver dans la transition sortante. Si vous ne choisissez aucun ensemble, la population transmise en sortie de l&#39;activité est aléatoire.
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Exemple  {#example}
+## Exemple {#example}
 
 L&#39;exemple suivant montre l&#39;exécution de deux branches d&#39;un workflow avant qu&#39;elles ne se rejoignent avec l&#39;activité **[!UICONTROL Rendez-vous]**. L&#39;extraction de fichier ne pourra avoir lieu que lorsque les trois transitions entrantes de l&#39;activité **[!UICONTROL Rendez-vous]** seront activées.
 

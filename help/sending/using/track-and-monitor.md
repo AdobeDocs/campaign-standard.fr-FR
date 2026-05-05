@@ -10,15 +10,15 @@ role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '435'
+ht-degree: 100%
 
 ---
 
 # Tracker et suivre vos diffusions {#track-and-monitor}
 
-Vous avez cliqué sur le bouton Envoyer ? Voyons maintenant ce qui se passe. Une fois la diffusion envoyée, Adobe Campaign vous permet de conserver une trace des messages envoyés et de découvrir la réaction des destinataires face à votre diffusion. Vous pourrez ainsi améliorer les prochains envois et optimiser vos prochaines campagnes.
+Vous avez cliqué sur le bouton Envoyer ?Voyons ce qui se passe.Une fois la diffusion envoyée, Adobe Campaign vous permet de conserver une trace des messages envoyés et de découvrir la réaction des destinataires face à votre diffusion. Vous pourrez ainsi améliorer les prochains envois et optimiser vos prochaines campagnes.
 
 ## Surveillance des diffusions {#monitoring-deliveries}
 
@@ -36,9 +36,9 @@ Pour plus d&#39;informations, consultez la section [Suivre une diffusion](../../
 
 ## Tracking {#tracking-deliveries}
 
-Pour mieux connaître le comportement de vos profils ciblés, vous pouvez suivre leur réaction à une diffusion : réception, ouverture, clics sur des liens, désabonnements, etc. Reportez-vous à l&#39;onglet **Logs de tracking** de la diffusion.
+Pour mieux connaître le comportement de vos profils ciblés, vous pouvez suivre leur réaction à une diffusion : réception, ouverture, clics sur des liens, désabonnements, etc. Consultez l’onglet **Logs de tracking** de la diffusion.
 
-**Conseil** : le tracking des messages est activé par défaut. Pour paramétrer les URL, sélectionnez l&#39;option Afficher les URL dans la section inférieure de l&#39;assistant de diffusion. Pour chaque URL du message, vous pouvez choisir d’activer ou non le tracking.
+**Conseil** : le tracking des messages est activé par défaut. Pour configurer les URL, sélectionnez l’option Afficher les URL dans la section inférieure de l’assistant de diffusion.Pour chaque URL du message, vous pouvez choisir d’activer ou non le tracking.
 
 Pour plus d&#39;informations, reportez-vous à la section [Messages de tracking](../../sending/using/tracking-messages.md) et à la description des [Indicateurs de tracking](../../reporting/using/tracking-indicators.md).
 
@@ -62,9 +62,9 @@ Pour plus d’informations, consultez la section [Rapport Hot clicks](../../repo
 
 * Supprimez les diffusions qui ne sont plus nécessaires et les destinataires inactifs de la base pour conserver la qualité des adresses.
 
-* N&#39;essayez pas de planifier des diffusions volumineuses ensemble. 5 à 10 minutes sont nécessaires pour répartir la charge uniformément sur le système.
+* N’essayez pas de planifier des diffusions volumineuses ensemble.5 à 10 minutes sont nécessaires pour répartir la charge uniformément sur le système.
 
 **Rubriques connexes :**
 
 * [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Rapports &#x200B;](../../reporting/using/about-dynamic-reports.md)
+* [Rapports](../../reporting/using/about-dynamic-reports.md)

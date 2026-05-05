@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1049'
+workflow-type: ht
+source-wordcount: '1053'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Les principes de base de la personnalisation sont présentés dans [cette sectio
 
 Vérifiez que le contenu de votre message est correctement conçu pour éviter les erreurs généralement liées à la personnalisation.
 
-Vous pouvez ajouter manuellement du contenu dynamique pour afficher différents éléments à vos destinataires selon les conditions définies au moyen de l&#39;éditeur d&#39;expression. Lorsque vous ajoutez du contenu dynamique, vous devez toujours laisser une variante par défaut pour les destinataires qui ne répondent pas aux conditions sélectionnées.
+Vous pouvez ajouter manuellement du contenu dynamique pour afficher différents éléments à vos destinataires selon les conditions définies au moyen de l’éditeur d’expression.Lors de l’ajout de contenu dynamique, vous devez toujours laisser une variante par défaut pour les destinataires qui ne remplissent pas les conditions sélectionnées.
 Pour plus d&#39;informations sur les contenu dynamique, consultez [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 **Conseils** : prévisualisez votre e-mail avec différents profils de test pour vous assurer que le contenu dynamique est correctement paramétré.
@@ -64,11 +64,11 @@ Incluez toujours un lien de page miroir. La partie supérieure de l&#39;e-mail c
 
 ### Lien de désabonnement
 
-Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire fonctionnel. Découvrez les consignes relatives aux liens de désabonnement [dans cette section](../../designing/using/personalization.md#about-targeting-dimension).
+Le lien de désinscription est essentiel.Il doit être visible et valide, et le formulaire doit être fonctionnel.Découvrez les consignes relatives aux liens de désabonnement [dans cette section](../../designing/using/personalization.md#about-targeting-dimension).
 
 Par défaut, une [règle de typologie](../../sending/using/control-rules.md) de contrôle vérifie au moment de l&#39;analyse du message qu&#39;un lien d&#39;opt-out est bien présent dans le contenu d&#39;une diffusion et génère un avertissement en cas d&#39;absence.
 
-**Conseil** : comme une erreur humaine est toujours possible, vérifiez du début à la fin le bon fonctionnement du lien de désabonnement avant chaque envoi. Par exemple, lors de l&#39;envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que la valeur du champ Ne plus contacter cette personne est changée en Oui.
+**Conseil** : comme une erreur humaine est toujours possible, vérifiez que le lien d’exclusion (opt-out) fonctionne correctement avant chaque envoi.Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que le champ Ne plus contacter cette personne est sur Oui.
 
 Découvrez comment insérer un lien d&#39;opt-out [dans cette section](../../designing/using/personalization.md#adding-a-content-block).
 
@@ -100,7 +100,7 @@ Adobe recommande de conserver la valeur par défaut de la taille maximale de mes
 
 Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications). Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
-La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
+La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM.Notez que l’insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l’encodage GSM.Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
 En savoir plus dans [cette section](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Conseils** :

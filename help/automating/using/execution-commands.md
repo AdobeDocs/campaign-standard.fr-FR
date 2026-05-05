@@ -1,5 +1,5 @@
 ---
-title: 'Commandes d’exécution    '
+title: Commandes d’exécution
 description: Découvrez comment utiliser les commandes d’exécution des workflows.
 audience: automating
 content-type: reference
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ---
 
-# Commandes d’exécution        {#execution-commands}
+# Commandes d’exécution {#execution-commands}
 
 Les icônes de la barre d’actions permettent de lancer, de tracker et de modifier l’exécution d’un workflow. Voir [La barre d’actions](../../automating/using/workflow-interface.md#action-bar).
 

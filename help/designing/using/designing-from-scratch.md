@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
-workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1268'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Pour éditer la structure d’un email :
 
    ![](assets/email_designer_structure.png)
 
-1. Déposez les composants de structure dont vous avez besoin pour former votre email.
+1. Déposez les composants de structure dont vous avez besoin pour former votre e-mail.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -65,13 +65,13 @@ Pour éditer la structure d’un email :
 
    >[!NOTE]
    >
-   >Les colonnes empilées ne sont pas compatibles avec tous les programmes de messagerie. Lorsqu’elles ne sont pas prises en charge, les colonnes ne sont pas empilées.
+   >Les colonnes empilées ne sont pas compatibles avec tous les programmes de messagerie.Lorsqu’elles ne sont pas prises en charge, les colonnes ne sont pas empilées.
    >
    >Une fois qu’ils ont été placés dans l’email, vous ne pouvez pas déplacer ni supprimer vos composants, à moins qu’un composant de contenu ou un fragment ne soit déjà placé à l’intérieur.
 
 1. Plusieurs composants de structure constitués d’une ou de plusieurs colonnes sont disponibles.
 
-   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10).Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -81,7 +81,7 @@ Pour éditer la structure d’un email :
 
 Lorsque la structure est définie, vous pouvez ajouter des fragments de contenu et des composants à votre email.
 
-## Utilisation d’un pré-en-tête  {#preheader}
+## Utilisation d’un pré-en-tête {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -94,11 +94,11 @@ Sélectionnez la zone de modification du **[!UICONTROL pré-en-tête]** et rense
 
 ![](assets/email_designer_preheader.png)
 
-Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou un **[!UICONTROL champ de personnalisation]** dans le contenu du pré-en-tête.
+Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou des **[!UICONTROL champs de personnalisation]** dans le contenu du pré-en-tête.
 
 >[!NOTE]
 >
->Le pré-en-tête n’est pas compatible avec tous les programmes de messagerie. Lorsqu’il n’est pas pris en charge, le pré-en-tête ne s’affiche pas.
+>Le pré-en-tête n’est pas compatible avec tous les programmes de messagerie.Lorsqu’il n’est pas pris en charge, le pré-en-tête ne s’affiche pas.
 
 ## Utilisation des composants de contenu {#about-content-components}
 
@@ -162,7 +162,7 @@ Insérez le composant vidéo dans un composant de structure de votre email et sa
 
 >[!NOTE]
 >
->Remarque : la vidéo n’est pas compatible avec tous les programmes de messagerie. Lorsqu’elle n’est pas prise en charge, la version de secours est affichée.
+>Remarque : la vidéo n’est pas compatible avec tous les programmes de messagerie.Lorsqu’elle n’est pas prise en charge, la version de secours est affichée.
 
 ### Image
 
@@ -179,7 +179,7 @@ Utilisez ce composant pour insérer des liens vers des pages de réseaux sociaux
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Paramètres du carrousel"
->abstract="Découvrez comment insérer et configurer un carrousel dans votre contenu. Notez que le carrousel ne fonctionne pas sur tous les clients de messagerie et qu’une image de remplacement s&#39;affichera s’il n’est pas pris en charge."
+>abstract="Découvrez comment insérer et configurer un carrousel dans votre contenu.Notez que le carrousel ne fonctionne pas sur tous les clients de messagerie et qu’une image de remplacement s’affichera s’il n’est pas pris en charge."
 
 1. Placez le composant **[!UICONTROL Carrousel]** à l’intérieur d’un composant de structure.
 1. Parcourez votre ordinateur pour sélectionner des images.

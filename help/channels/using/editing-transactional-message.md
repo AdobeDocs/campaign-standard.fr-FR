@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '675'
+workflow-type: ht
+source-wordcount: '687'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Pour accéder au message transactionnel que vous avez créé :
 
 Vous pouvez également accéder directement à un message transactionnel via le lien situé dans la zone latérale gauche de l’écran de configuration de l’événement correspondant. Voir [Prévisualisation et publication de l&#39;événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
-## Personnaliser un message transactionnel            {#personalizing-a-transactional-message}
+## Personnaliser un message transactionnel {#personalizing-a-transactional-message}
 
 Pour modifier et personnaliser un message transactionnel, procédez comme suit.
 

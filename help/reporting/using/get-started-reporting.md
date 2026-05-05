@@ -9,8 +9,8 @@ role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
-workflow-type: tm+mt
-source-wordcount: '365'
+workflow-type: ht
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -34,9 +34,9 @@ Les rapports dynamiques sont constitués de rapports entièrement personnalisabl
 
 Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
 
-**Gérez vos rapports dynamiques** grâce à différentes fonctionnalités : vous pouvez actualiser les données en temps réel, imprimer vos rapports ou les exporter au format CSV. Vous pouvez également partager vos rapports avec des utilisateurs de Campaign Standard par le biais d’emails ponctuels ou récurrents.
+**Gérez vos rapports dynamiques** grâce à différentes fonctionnalités : vous pouvez actualiser les données en temps réel, imprimer vos rapports ou les exporter en tant que fichiers CSV. Vous pouvez également partager vos rapports avec des utilisateurs de Campaign Standard par le biais d’emails ponctuels ou récurrents.
 
-En savoir plus :
+En savoir plus:
 
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 * [Interface de reporting](../../reporting/using/reporting-interface.md)
@@ -49,7 +49,7 @@ Campaign Standard est fourni avec un ensemble de **rapports dynamiques prêts �
 
 **Combinez différents composants** (dimensions, mesures et segments, périodes) pour créer vos propres rapports ou personnaliser des rapports en version usine.
 
-En savoir plus :
+En savoir plus:
 
 * [Liste des composants](../../reporting/using/list-of-components.md)
 * [Calcul des indicateurs](../../reporting/using/indicator-calculation.md)
@@ -65,7 +65,7 @@ Effectuez un glisser-déposer d’**éléments de visualisation** pour ajouter d
 
 Créez des rapports à partir des **données de profil personnalisé** créées lors de l’extension de la ressource de Profil et des **rapports basés sur des segments** définis dans les workflows de ciblage.
 
-En savoir plus :
+En savoir plus:
 
 * [Ajouter des panneaux](../../reporting/using/adding-panels.md)
 * [Ajouter des visualisations](../../reporting/using/adding-visualizations.md)
@@ -73,7 +73,7 @@ En savoir plus :
 * [Création d&#39;une dimension de profil personnalisé](../../reporting/using/creating-a-custom-profile-dimension.md)
 * [Création d&#39;un rapport à partir de segments de workflow](../../reporting/using/creating-a-report-workflow-segment.md)
 
-## Ressources supplémentaires
+## Autres ressources
 
 * [Export des logs](../../automating/using/exporting-logs.md)
 * [À propos de l&#39;intégration Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)

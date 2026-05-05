@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '965'
+source-wordcount: '1046'
 ht-degree: 100%
 
 ---
@@ -20,21 +20,21 @@ ht-degree: 100%
 
 Découvrez comment configurer l’intégration de Microsoft Dynamics 365 et activer vos données CRM lors d’une communication cross-canal avec Adobe Campaign Standard.
 
-## Présentation
+## Vue d&#39;ensemble
 
 La description générale de l&#39;intégration d&#39;Adobe Campaign Standard avec Microsoft Dynamics 365 est présentée dans [cette page](../../integrating/using/d365-acs-get-started.md).
 
 Plusieurs applications devront être configurées pour activer l&#39;intégration. Cependant, cet article se concentre sur les étapes requises dans Dynamics 365.
 
-## Conditions préalables
+## Conditions préalables requises
 
-Avant d’exécuter les étapes de configuration préalable à l’intégration décrites dans ce document, vous devez avoir déjà configuré l’instance Microsoft Dynamics 365 de votre entreprise et disposer d’un accès administrateur. Si ce n’est pas le cas, vous devrez contacter le service clientèle de Microsoft pour terminer la mise en service de Dynamics 365.
+Avant d’exécuter les étapes de configuration préalable à l’intégration décrites dans ce document, vous devez avoir déjà configuré l’instance Microsoft Dynamics 365 de votre entreprise et disposer d’un accès administrateur.  Si ce n’est pas le cas, vous devrez contacter le service clientèle de Microsoft pour terminer la mise en service de Dynamics 365.
 
 Si vous configurez l’intégration pour les environnements d’évaluation et de production, vous devez exécuter les étapes ci-dessous pour vos instances d’évaluation et de production Dynamics 365. Quelques instructions ci-dessous varient légèrement selon que vous configurez une instance d’évaluation ou de production Dynamics 365 (par exemple, pour l’instance de production, sélectionnez « prod » pour `<stage or prod>`).
 
 ## Configuration de l’application et des autorisations
 
-Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifier auprès de votre instance Microsoft Dynamics 365 par le biais des API Web afin de publier les événements d’expérience Campaign Standard sur la vue de calendrier de l’interface de Microsoft Dynamics 365.
+Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifier auprès de votre instance Microsoft Dynamics 365 par le biais des API Web afin de publier les événements d’expérience Campaign Standard sur la vue chronologique de l’interface de Microsoft Dynamics 365.
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
@@ -42,7 +42,7 @@ Les principales étapes sont décrites dans la vidéo suivante :
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
-### Enregistrement d’une nouvelle application   {#register-a-new-app}
+### Enregistrement d’une nouvelle application {#register-a-new-app}
 
 1. Avec votre identifiant d’administrateur ou d’administratrice, connectez-vous à [portal.azure.com](https://portal.azure.com){target="_blank"}.
 
@@ -104,7 +104,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
 
    Pour plus d’informations sur la création d’un utilisateur d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
-1. Cliquez sur l’icône de l’utilisateur et téléchargez une icône Adobe Campaign ; il s’agit de l’icône qui s’affiche dans la vue de calendrier lorsque de nouveaux événements Adobe apparaissent dans Dynamics 365.
+1. Cliquez sur l’icône de l’utilisateur et téléchargez une icône Adobe Campaign ; il s’agit de l’icône qui s’affiche dans la vue chronologique lorsque de nouveaux événements Adobe apparaissent dans Dynamics 365.
 
 1. Ouvrez la liste des rôles utilisateur en cliquant sur **[!UICONTROL GÉRER LES RÔLES]** dans le ruban supérieur.
 
@@ -112,7 +112,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
 
 1. Cliquez sur le bouton **[!UICONTROL OK]**.
 
-### Obtention de l’identifiant du tenant   {#get-the-tenant-id}
+### Obtention de l’identifiant du tenant {#get-the-tenant-id}
 
 Suivez les instructions [de cette page](https://docs.microsoft.com/fr-fr/onedrive/find-your-office-365-tenant-id) pour trouver votre identifiant de tenant.  Vous aurez besoin de cet identifiant lors de la configuration préalable à l’intégration dans l’outil d’intégration.
 

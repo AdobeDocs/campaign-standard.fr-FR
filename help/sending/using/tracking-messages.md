@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
-workflow-type: tm+mt
-source-wordcount: '495'
+workflow-type: ht
+source-wordcount: '506'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Grâce à ses fonctionnalités de tracking, Adobe Campaign permet de tracker le 
 
 Ainsi, vous pouvez informer les utilisateurs de vos sites soumis au tracking web via une zone de demande de consentement (par exemple en surimpression de la page) proposant une case à cocher pour autoriser l&#39;utilisation de cookies, ou afficher une bannière en haut de la première page visitée, etc. Les fenêtres de type pop-up sont à éviter car elles sont souvent bloquées par les navigateurs.
 
-Les informations de tracking sont disponibles pour chaque contact de votre base de données dans des **[!UICONTROL profils client intégrés]**. Voir à ce propos [cette section](../../audiences/using/integrated-customer-profile.md).
+Les informations de tracking sont disponibles pour chaque contact de votre base de données dans des **[!UICONTROL profils client intégrés]**. Pour plus d’informations, consultez [cette section](../../audiences/using/integrated-customer-profile.md).
 
 Adobe Campaign utilise deux types de cookies :
 
@@ -54,12 +54,12 @@ Le tracking avec Adobe Campaign Standard vous permet d’accéder aux fonction
 <td>Tracking email</td>
 <td>Tracking Push</td>
 <td>Tracked URLs</td>
-<td>Logs de tracking</td>
+<td>Tracking logs</td>
 <td>Rapport de tracking</td>
 </tr>
 </table>
 
-## Logs de tracking      {#tracking-logs}
+## Tracking logs {#tracking-logs}
 
 L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les informations de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les informations de tracking de cet onglet sont mises à jour toutes les 10 minutes.
 
@@ -88,7 +88,7 @@ Dans la colonne **[!UICONTROL Type]**, les valeurs possibles sont :
 
 Pour plus d’informations sur l’insertion de liens de tracking, consultez [cette page](../../designing/using/links.md#inserting-a-link).
 
-Le rapport **[!UICONTROL Indicateurs de tracking]** contient les indicateurs clés de tracking du comportement une fois les emails reçus. Pour plus d&#39;informations, consultez la section, consultez cette [page](../../reporting/using/tracking-indicators.md).
+Le rapport **[!UICONTROL Indicateurs de tracking]** contient les indicateurs clés de tracking du comportement une fois les e-mails reçus. Pour plus d’informations à ce sujet, consultez cette [page](../../reporting/using/tracking-indicators.md).
 
 ## Tracked URLs {#tracked-urls}
 

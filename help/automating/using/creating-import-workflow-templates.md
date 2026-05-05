@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1307'
+source-wordcount: '1308'
 ht-degree: 100%
 
 ---
@@ -40,8 +40,7 @@ Cet exemple montre comment pré-paramétrer un workflow qui pourra être réutil
 
 1. Configurez l’activité **[!UICONTROL Chargement de fichier]** :
 
-   * Définissez la structure attendue en téléchargeant un fichier exemple. Le fichier exemple ne doit contenir que quelques lignes mais toutes les colonnes nécessaires pour l’import. Vérifiez et éditez le format du fichier pour vous assurer que le type de chaque colonne est paramétré correctement : texte, date, nombre entier, etc.
-Par exemple :
+   * Définissez la structure attendue du fichier en chargeant un exemple de fichier.Il ne doit contenir que quelques lignes, mais toutes les colonnes nécessaires à l’import doivent y figurer.Vérifiez et modifiez le format du fichier pour vous assurer que le type de chaque colonne est correctement défini : texte, date, entier, etc. Par exemple :
 
      ```
      lastname;firstname;birthdate;email;crmID
@@ -63,9 +62,9 @@ Par exemple :
 
    ![](assets/import_template_example2.png)
 
-1. Configurez l’activité **[!UICONTROL Segmentation]** pour récupérer les destinataires réconciliés dans une transition, ainsi que les destinataires qui n’ont pas pu être réconciliés mais qui disposent de suffisamment de données dans une autre transition.
+1. Configurez l’activité **[!UICONTROL Segmentation]** pour récupérer les personnes destinataires réconciliées dans une transition, ainsi que les personnes destinataires qui n’ont pas pu être réconciliées mais qui disposent de suffisamment de données dans une autre transition.
 
-   La transition des destinataires réconciliés peut alors être utilisée pour mettre à jour la base de données. La transition des destinataires inconnus peut servir à créer de nouvelles entrées de destinataires dans la base de données si un ensemble d’informations minimum est disponible dans le fichier.
+   La transition des personnes destinataires réconciliées peut alors être utilisée pour mettre à jour la base de données.La transition des personnes destinataires inconnues peut servir à créer de nouvelles entrées de destinataires dans la base de données si un ensemble d’informations minimum est disponible dans le fichier.
 
    Les destinataires ne pouvant pas être réconciliés et ne disposant pas de suffisamment de données sont sélectionnés dans une transition sortante complémentaire et peuvent être exportés dans un fichier séparé ou tout simplement ignorés.
 
@@ -83,7 +82,7 @@ Par exemple :
 
 1. Configurez l’activité **[!UICONTROL Mise à jour de données]** située après la première transition sortante de l’activité **[!UICONTROL Segmentation]** paramétrée précédemment.
 
-   * Sélectionnez **[!UICONTROL Mise à jour]** comme **[!UICONTROL Type d’opération]**, puisque la transition entrante contient uniquement des destinataires déjà présents dans la base de données.
+   * Sélectionnez **[!UICONTROL Mise à jour]** comme **[!UICONTROL Type d&#39;opération]**, puisque la transition entrante contient uniquement des destinataires déjà présents dans la base de données.
    * Dans l’onglet **[!UICONTROL Identification]**, sélectionnez **[!UICONTROL En utilisant des critères de réconciliation]** et définissez une clé entre la **[!UICONTROL Dimension à mettre à jour]**, Profils dans le cas présent, et le lien créé dans l’activité **[!UICONTROL Réconciliation]**. Dans cet exemple, le champ personnalisé **Identifiant dans le CRM** est utilisé.
 
      ![](assets/import_template_example6.png)
@@ -102,12 +101,12 @@ Par exemple :
 
      ![](assets/import_template_example4.png)
 
-   * Dans cet exemple, le champ email est utilisé pour trouver les profils uniques. Vous pouvez utiliser n’importe quel champ dont vous êtes sûr qu’il est rempli et qu’il fait partie d’une combinaison unique.
+   * Dans cet exemple, le champ d’e-mail est utilisé pour trouver les profils uniques.Vous pouvez utiliser n’importe quel champ dont vous avez la certitude qu’il est rempli et qu’il fait partie d’une combinaison unique.
    * Sélectionnez une **[!UICONTROL Méthode de déduplication]**. Dans ce cas, l’application décide automatiquement quels enregistrements conserver en cas de doublons.
 
    ![](assets/import_template_example7.png)
 
-1. Configurez l’activité **[!UICONTROL Mise à jour de données]** située après l’activité **[!UICONTROL Déduplication]** paramétrée précédemment.
+1. Configurez l&#39;activité **[!UICONTROL Mise à jour de données]** située après l&#39;activité **[!UICONTROL Déduplication]** paramétrée précédemment.
 
    * Sélectionnez **[!UICONTROL Ajouter uniquement]** comme **[!UICONTROL Type d’opération]**, puisque la transition entrante contient uniquement des profils non présents dans la base de données.
    * Dans l’onglet **[!UICONTROL Identification]**, sélectionnez **[!UICONTROL En utilisant des critères de réconciliation]** et définissez une clé entre la **[!UICONTROL Dimension à mettre à jour]**, Profils dans le cas présent, et le lien créé dans l’activité **[!UICONTROL Réconciliation]**. Dans cet exemple, le champ personnalisé **Identifiant dans le CRM** est utilisé.

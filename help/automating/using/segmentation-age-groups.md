@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '208'
+source-wordcount: '210'
 ht-degree: 100%
 
 ---
@@ -33,11 +33,11 @@ Le workflow est constitué des éléments suivants :
 
   ![](assets/wkf_segment_example_3.png)
 
-   * un filtrage sur l&#39;âge permettant de définir la tranche d&#39;âge du segment
+   * un filtre sur l’âge permettant de définir la tranche d’âge du segment ;
 
      ![](assets/wkf_segment_new_segment.png)
 
-   * une limitation de type **[!UICONTROL Tirage aléatoire]** associé à une limite de **[!UICONTROL Taille maximale]** avec pour valeur 100.
+   * une limitation de type **[!UICONTROL Échantillonnage aléatoire]** associé à une limite de **[!UICONTROL Taille maximale]** avec pour valeur 100.
 
      ![](assets/wkf_segment_example_1.png)
 

@@ -10,15 +10,15 @@ role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: tm+mt
-source-wordcount: '1077'
+workflow-type: ht
+source-wordcount: '1083'
 ht-degree: 100%
 
 ---
 
 # Création et mise à jour des informations de profil en fonction des données d&#39;application mobile
 
-## Vue d’ensemble
+## Vue d&#39;ensemble
 
 Cette page décrit les étapes d&#39;élaboration d&#39;un workflow qui crée/met à jour les données de profil après l&#39;envoi par une application mobile de données de collecte de PII, selon une planification.
 
@@ -46,7 +46,7 @@ Pour pouvoir créer ou mettre à jour la ressource Profil avec des données de P
 
 Dans cet exemple, la section **[!UICONTROL Champs]** reflète les données de PII envoyées par l&#39;application mobile. La section **[!UICONTROL Lien vers les profils]** indique le champ utilisé pour associer les données de PII aux données de profil, où **cusEmail** est associé à **@email**.
 
-L&#39;association des données de profil lors de l&#39;extension de la ressource **[!UICONTROL Abonnements à une application]** est en LECTURE SEULE. Elle est utilisée pour la réconciliation. Le profil doit être entré dans le système avec les données nécessaires pour réconcilier le profil avec les données de PII. Dans notre cas, une adresse email pour le profil doit correspondre à un email provenant de la collecte des PII pour que la réconciliation se produise :
+Le mapping des données de profil lors de l’extension de la ressource **[!UICONTROL Abonnements à une application]** est en LECTURE SEULE. Elle est utilisée pour la réconciliation. Le profil doit être entré dans le système avec les données nécessaires pour réconcilier le profil avec les données de PII. Dans notre cas, une adresse email pour le profil doit correspondre à un email provenant de la collecte des PII pour que la réconciliation se produise :
 
 * La collecte des PII est reçue d’une application mobile pour une utilisatrice dont le prénom est « Jane », le nom « Doe » et l’adresse e-mail janedoe@doe.com.
 * Les données de profil doivent exister séparément (par exemple, les données doivent être saisies manuellement ou provenir déjà d’une autre ressource) où l’adresse e-mail du profil est janedoe@doe.com.
@@ -92,11 +92,11 @@ Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréq
 
    ![](assets/update_profile3.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Cible]**, faites glisser le filtre **[!UICONTROL Application mobile]**, puis sélectionnez le nom d&#39;une application mobile.
+1. Dans l’onglet **[!UICONTROL Cible]**, faites glisser le filtre **[!UICONTROL Application mobile]**, puis sélectionnez le nom d’une application mobile.
 
    ![](assets/update_profile4.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Données traitées]**, sélectionnez **[!UICONTROL Utiliser un champ de date]**, puis ajoutez le champ **[!UICONTROL Dernière modification (lastModified)]** en tant que **[!UICONTROL Chemin d&#39;accès au champ de date]**.
+1. Dans l’onglet **[!UICONTROL Données traitées]**, sélectionnez **[!UICONTROL Utiliser un champ de date]**, puis ajoutez le champ **[!UICONTROL Dernière modification (lastModified)]** en tant que **[!UICONTROL Chemin d’accès au champ de date]**.
 
    ![](assets/update_profile5.png)
 
@@ -106,15 +106,15 @@ Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréq
 
    ![](assets/update_profile_createelement.png)
 
-1. Dans le champ **[!UICONTROL Source]**, sélectionnez un champ de la table appSubscrsiptionRcp en tant que champ de réconciliation. Il peut s’agir de l’e-mail du profil, de crmId, de marketingCloudId, etc. Dans cet exemple, utilisez le champ « Email (cusEmail) ».
+1. Dans le champ **[!UICONTROL Source]**, sélectionnez un champ de la table appSubscrsiptionRcp en tant que champ de réconciliation.Il peut s’agir de l’e-mail du profil, de crmId, de marketingCloudId, etc. Dans cet exemple, utilisez le champ « Email (cusEmail) ».
 
-1. Dans le champ **[!UICONTROL Destination]**, sélectionnez un champ dans la table des profils pour réconcilier les données de la table appSubscriptionRcp. Il peut s&#39;agir de l&#39;email du profil ou d&#39;un champ étendu tel que crmId, marketingCloudId, etc. Dans cet exemple, nous devons sélectionner le champ &quot;Email (email)&quot; pour l&#39;associer au champ &quot;Email (cusEmail)&quot; de la table appSubscriptionRcp.
+1. Dans le champ **[!UICONTROL Destination]**, sélectionnez un champ dans la table des profils pour réconcilier les données de la table appSubscriptionRcp.Il peut s’agir de l’adresse e-mail du profil ou de tout autre champ étendu tel que crmId, marketingCloudId, etc. Dans cet exemple, nous devons sélectionner le champ « Email (email) » pour l’associer au champ « Email (cusEmail) » de la table appSubscriptionRcp.
 
    ![](assets/update_profile7.png)
 
 1. Dans l&#39;onglet **[!UICONTROL Champs à mettre à jour]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**, puis associez les champs provenant de la table appSubscriptionRcp (champ **[!UICONTROL Source]**) aux champs à mettre à jour dans la table des profils (champ **[!UICONTROL Destination]**).
 
-1. Dans le champ **[!UICONTROL Activé si]**, ajoutez une expression pour que le champ correspondant dans la table des profils ne soit mis à jour que si le champ source contient une valeur. Pour cela, sélectionnez le champ dans la liste, puis ajoutez l&#39;expression &quot;!=&#39;&#39;&quot; (si le champ Source est `[target/@cusEmail]` dans l&#39;éditeur d&#39;expression, veillez à saisir `[target/@cusEmail] != ''"`).
+1. Dans le champ **[!UICONTROL Activé si]**, ajoutez une expression pour que le champ correspondant dans la table des profils ne soit mis à jour que si le champ source contient une valeur. Pour ce faire, sélectionnez le champ dans la liste, puis ajoutez l’expression « !=&#39;&#39; » (si le champ Source est `[target/@cusEmail]` dans l’éditeur d’expression, veillez à saisir `[target/@cusEmail] != ''"`).
 
    ![](assets/update_profile8.png)
 

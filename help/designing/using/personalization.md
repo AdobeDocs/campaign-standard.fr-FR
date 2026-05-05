@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
-workflow-type: tm+mt
-source-wordcount: '2753'
+workflow-type: ht
+source-wordcount: '2773'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Le champ peut être personnalisé. Pour cela, vous pouvez ajouter des champs de 
 
 >[!NOTE]
 >
->Les paramètres d’en-tête ne doivent pas être vides. L’adresse de l’expéditeur est obligatoire pour permettre l’envoi d’un email (norme RFC). Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
+>Les paramètres d’en-tête ne doivent pas être vides. L&#39;adresse de l&#39;expéditeur est obligatoire pour permettre l&#39;envoi d&#39;un email (norme RFC). Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
 
 ## Personnaliser une URL {#personalizing-urls}
 
@@ -79,7 +79,7 @@ Le nom du champ apparaît dans l&#39;éditeur et est surligné.
 
 ![](assets/email_perso_field_3.png)
 
-Une fois la personnalisation générée (lors de la prévisualisation et de la préparation de l&#39;email, par exemple), ce champ est remplacé par la valeur qui correspond au profil ciblé.
+Une fois la personnalisation générée (lors de la prévisualisation et de la préparation de l’e-mail, par exemple), ce champ est remplacé par la valeur qui correspond au profil ciblé.
 
 >[!NOTE]
 >
@@ -217,7 +217,7 @@ Cette option est uniquement proposée pour les éléments suivants : ADDRESS, B
 
 L&#39;éditeur d&#39;expression est présenté dans la section [Edition avancée d&#39;expressions](../../automating/using/editing-queries.md#about-query-editor).
 
-Ces conditions adoptent la syntaxe des expressions XTK (par exemple : **context.profile.email !=&#39;&#39;** ou **context.profile.status=&#39;0&#39;**). Par défaut, tous les champs sont visibles.
+Ces conditions adoptent la syntaxe des expressions XTK (par exemple : **context.profile.email !=&quot;** ou **context.profile.status=&#39;0&#39;**).Par défaut, tous les champs sont visibles.
 
 >[!NOTE]
 >
@@ -239,7 +239,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 
    ![](assets/dynamic_content_2.png)
 
-   La section **[!UICONTROL Contenu dynamique]** s&#39;affiche dans la palette de gauche.
+   La section **[!UICONTROL Contenu dynamique]** s’affiche dans la palette de gauche.
 
    ![](assets/dynamic_content_3.png)
 
@@ -261,7 +261,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 
    ![](assets/dynamic_content_6.png)
 
-1. Une fois que toutes les conditions sont définies, définissez l&#39;ordre de priorité dans lequel la condition sera appliquée et enregistrez vos modifications.
+1. Une fois que toutes les conditions sont définies, définissez l’ordre de priorité dans lequel la condition sera appliquée et enregistrez vos modifications.
 
    ![](assets/dynamic_content_7.png)
 
@@ -271,7 +271,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 
    ![](assets/dynamic_content_8.png)
 
-   Les destinataires âgés de 18 à 25 ans verront la nouvelle image.
+   Les personnes destinataires âgées de 18 à 25 ans verront la nouvelle image.
 
    ![](assets/dynamic_content_10.png)
 
@@ -281,7 +281,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 
    Par exemple, vous ajouter une image différente qui sera affichée pour les personnes de 26 à 35 ans.
 
-1. Procédez de la même manière pour tout autre élément de votre email que vous souhaitez afficher de manière dynamique. Il peut s&#39;agir d&#39;un texte, d&#39;un bouton, d&#39;un fragment, etc. Enregistrez vos modifications.
+1. Procédez de la même manière pour tout autre élément de votre email que vous souhaitez afficher de manière dynamique. Il peut s’agir d’un texte, d’un bouton, d’un fragment, etc. Enregistrez vos modifications.
 
 >[!CAUTION]
 >
@@ -292,7 +292,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 * [Envoi d&#39;un bon à tirer](../../sending/using/sending-proofs.md)
 * [Édition avancée d&#39;expressions](../../automating/using/editing-queries.md#about-query-editor)
 
-### Ordre de priorité           {#order-of-priority}
+### Ordre de priorité {#order-of-priority}
 
 Lorsque vous définissez un contenu dynamique dans l&#39;éditeur d&#39;expression, l&#39;ordre de priorité est défini de la manière suivante :
 
@@ -345,11 +345,11 @@ Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont para
 
    ![](assets/delivery_content_48.png)
 
-1. Modifiez son libellé puis sélectionnez le champ **[!UICONTROL Age]** depuis le nœud **[!UICONTROL Profil]**.
+1. Modifiez son libellé puis sélectionnez le champ **[!UICONTROL Âge]** depuis le nœud **[!UICONTROL Profil]**.
 
    ![](assets/delivery_content_49.png)
 
-1. Sélectionnez l&#39;opérateur **Supérieur ou égal à** puis entrez **18** pour créer l&#39;expression **égal ou plus de 18 ans**.
+1. Sélectionnez l’opérateur **Supérieur ou égal à** puis saisissez **18** pour créer l’expression **égal ou plus de 18 ans**.
 
    ![](assets/delivery_content_50.png)
 
@@ -373,7 +373,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont para
 
 Vos contenus dynamiques sont correctement paramétrés.
 
-### Paramétrer le texte           {#configuring-text}
+### Paramétrer le texte {#configuring-text}
 
 Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétrés comme suit :
 
@@ -385,7 +385,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 
    ![](assets/delivery_content_53.png)
 
-1. Dans la liste qui s&#39;affiche à l&#39;écran, sélectionnez le champ **[!UICONTROL Prénom]** et validez.
+1. Dans la liste qui s’affiche à l’écran, sélectionnez le champ **[!UICONTROL Prénom]** et confirmez.
 
    ![](assets/delivery_content_54.png)
 
@@ -403,7 +403,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 
 Vos champs de personnalisation sont correctement insérés dans le contenu dynamique choisi.
 
-### Prévisualiser l&#39;email           {#previewing-emails}
+### Prévisualiser l&#39;email {#previewing-emails}
 
 La prévisualisation permet de vérifier que les champs de personnalisation et les contenus dynamiques sont paramétrés correctement avant d&#39;envoyer les **[!UICONTROL Bons à tirer]**. Différents profils de test qui correspondent aux cibles de l&#39;email peuvent être sélectionnés lors de la prévisualisation.
 

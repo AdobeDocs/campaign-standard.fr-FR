@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 26616ecc-a009-485c-b13d-d4e0c23969f2
 source-git-commit: 85f3a3d8fe9e41eaa78fac955bc2d0f3f3d2c35e
-workflow-type: tm+mt
-source-wordcount: '490'
+workflow-type: ht
+source-wordcount: '516'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 À compter de cette version, les informations d’identification du compte de service (JWT) étant abandonnées par Adobe, les intégrations sortantes de Campaign aux solutions et applications d’Adobe dépendent désormais des informations d’identification OAuth serveur à serveur. Adobe effectuera la migration JWT vers OAuth pour vos intégrations sortantes, telles que l’intégration Campaign-Analytics ou Triggers Experience Cloud.
 
-Si vous avez implémenté des intégrations entrantes avec Campaign et si vous utilisez des [API Campaign](../../api/using/get-started-apis.md), vous devez migrer votre compte technique comme indiqué dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Les informations d’identification de compte de service (JWT) existantes continueront à fonctionner jusqu’au **27 janvier 2025**.
+Si vous avez implémenté des intégrations entrantes pour Campaign, et si vous utilisez les [API Campaign](../../api/using/get-started-apis.md), vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}.Les informations d’identification de compte de service (JWT) existantes continueront à fonctionner jusqu’au **27 janvier 2025**.
 
 ### Correctifs {#summer-24-rn-fixes}
 

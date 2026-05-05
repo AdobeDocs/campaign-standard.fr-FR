@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1424'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Une adresse email ou un numéro de téléphone peut être mis en quarantaine, pa
 
 Dans tous les cas, la mise en quarantaine répond à des règles précises qui sont décrites dans cette [section](#conditions-for-sending-an-address-to-quarantine).
 
-### Optimiser votre diffusion par le biais des mises en quarantaine       {#optimizing-your-delivery-through-quarantines}
+### Optimiser votre diffusion par le biais des mises en quarantaine {#optimizing-your-delivery-through-quarantines}
 
 Les profils dont l&#39;adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d&#39;erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
@@ -51,7 +51,7 @@ La quarantaine et la liste bloquée ne s’appliquent pas au même objet :
 
 <!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages. Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
-## Identifier les adresses en quarantaine  {#identifying-quarantined-addresses}
+## Identifier les adresses en quarantaine {#identifying-quarantined-addresses}
 
 Les adresses en quarantaine peuvent être affichées pour une diffusion spécifique ou l&#39;ensemble de la plateforme.
 
@@ -59,13 +59,13 @@ Les adresses en quarantaine peuvent être affichées pour une diffusion spécifi
 If you need to remove an address from quarantine, contact your technical administrator.
 -->
 
-### Identifier les adresses en quarantaine pour une diffusion  {#identifying-quarantined-addresses-for-a-delivery}
+### Identifier les adresses en quarantaine pour une diffusion {#identifying-quarantined-addresses-for-a-delivery}
 
 Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans l’onglet **[!UICONTROL Exclus]** du tableau de bord des diffusions (voir [cette section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Pour plus d’informations sur la préparation des diffusions, consultez [cette section](../../sending/using/preparing-the-send.md).
 
 ![](assets/exclusion_logs.png)
 
-### Identifier les adresses en quarantaine pour l’ensemble de la plateforme       {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identifier les adresses en quarantaine pour l’ensemble de la plateforme {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Les administrateurs peuvent accéder à la liste détaillée des adresses e-mail en quarantaine pour l’ensemble de la plateforme depuis le menu **[!UICONTROL Administration > Canaux > Quarantaines > Adresses]**.
 
@@ -89,11 +89,11 @@ Pour modifier une entrée, cliquez sur la ligne correspondante et modifiez les c
 
 ![](assets/quarantines-edit.png)
 
-Pour ajouter manuellement une entrée, utilisez le bouton **[!UICONTROL Créer]** .
+Pour ajouter manuellement une entrée, utilisez le bouton **[!UICONTROL Créer]**.
 
 ![](assets/quarantines-create-button.png)
 
-Définissez l’adresse (ou le numéro de téléphone, etc.) et le type de canal. Vous pouvez définir un statut pour figurer dans la liste de quarantaine et un motif d’erreur. Vous avez également la possibilité d’indiquer la date d’erreur, le nombre d’erreurs et de saisir le texte d’erreur. Si nécessaire, sélectionnez la dernière diffusion envoyée à l&#39;adresse dans la liste déroulante.
+Définissez l’adresse (ou le numéro de téléphone, etc.)et le type de canal.Vous pouvez définir un statut pour figurer dans la liste de quarantaine et un motif d’erreur. Vous avez également la possibilité d’indiquer la date d’erreur, le nombre d’erreurs et de saisir le texte d’erreur. Si nécessaire, sélectionnez la dernière diffusion envoyée à l&#39;adresse dans la liste déroulante.
 
 ![](assets/quarantines-create-last-delivery.png)
 
@@ -149,7 +149,7 @@ En fonction du calendrier de l&#39;incident, voici les instructions recommandée
 
 Une fois que vous disposez de la liste des destinataires concernés, ajoutez une activité **[!UICONTROL Mise à jour de données]** pour définir le statut de leur adresse e-mail sur **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le workflow **[!UICONTROL Nettoyage de la base de données]**. Vous pouvez également les supprimer uniquement de la table de quarantaine.
 
-## Conditions de mise en quarantaine d&#39;une adresse  {#conditions-for-sending-an-address-to-quarantine}
+## Conditions de mise en quarantaine d&#39;une adresse {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign gère les quarantaines selon le type de diffusion en échec et la raison affectée pendant la qualification des messages d’erreur (voir [Types de diffusion en échec et raisons](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) et [Qualification des e-mails rejetés](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
 
@@ -166,7 +166,7 @@ Si un utilisateur qualifie un email comme du spam ([système de gestion des plai
 
 >[!NOTE]
 >
->La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu’elles ne soient pas reciblées ultérieurement.
+>La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses e-mail en minuscules, de telle sorte qu&#39;elles ne soient pas reciblées ultérieurement.
 
 Dans la liste des adresses mises en quarantaine (voir [Identifier les adresses mises en quarantaine pour l’ensemble de la plateforme](#identifying-quarantined-addresses-for-the-entire-platform)), le champ **[!UICONTROL Raison de l’erreur]** indique pourquoi l’adresse sélectionnée a été mise en quarantaine.
 

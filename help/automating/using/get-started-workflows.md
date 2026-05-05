@@ -11,7 +11,7 @@ level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '506'
+source-wordcount: '520'
 ht-degree: 100%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Activités de workflow</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Cas pratiques</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrage des données</a></p></td>
-<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Import/export des données</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Activités de workflows</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Cas d’utilisation</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Filtrer des données</a></p></td>
+<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Importer/exporter des données</a></p></td></tr>
 </table>
 
-Adobe Campaign propose un environnement graphique qui permet de construire des processus complexes englobant segmentation, exécution de campagnes, manipulation de fichiers, validations, etc. Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
+Adobe Campaign propose un environnement graphique complet, afin de vous permettre de concevoir des processus complexes, y compris la segmentation, l’exécution de campagnes, le traitement de fichiers, etc. Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d’importer ses enregistrements dans la base de données Adobe Campaign.
 
 Les workflows peuvent intervenir dans différents contextes, par exemple :
 
@@ -37,7 +37,7 @@ Les workflows peuvent intervenir dans différents contextes, par exemple :
 >
 > Adobe recommande à ses clients de ne pas exécuter plus de 20 workflows actifs simultanément ainsi que de hiérarchiser et d&#39;étaler l&#39;exécution des workflows dans le temps. Pour en savoir plus, consultez les bonnes pratiques disponibles sur [cette page](../../automating/using/best-practices-workflows.md).
 
-## Activités de workflow {#workflow-activities}
+## Activités de workflows {#workflow-activities}
 
 Différentes activités sont à votre disposition pour vous aider à concevoir vos workflows.
 
@@ -47,25 +47,25 @@ Avec les [activités d’exécution](../../automating/using/about-execution-acti
 
 Enfin, les [activités de data Management](../../automating/using/about-data-management-activities.md) permettent de manipuler les données contenues dans votre base de données.
 
-En savoir plus :
+En savoir plus:
 
 * [Construire un workflow](../../automating/using/building-a-workflow.md)
 * [Exécuter un workflow](../../automating/using/about-workflow-execution.md)
 * [Bonnes pratiques relatives aux workflows](../../automating/using/best-practices-workflows.md)
 
-## Filtrage des données {#filter-data}
+## Filtrer des données {#filter-data}
 
 Utilisez le **requêteur** pour filtrer les données de votre base de données et créer une population afin de cibler plus efficacement vos destinataires. Le requêteur permet de mettre en œuvre différentes actions dans Campaign Standard : créer des audiences de type Requête, définir des cibles de diffusion ou des populations dans les activités de workflow.
 
 Le requêteur contient des **règles et des filtres prédéfinis** pour accélérer et faciliter le filtrage. Cependant, vous pouvez également utiliser des fonctionnalités **avancées d’édition d’expressions**. Vous pouvez ainsi saisir manuellement des conditions et utiliser des fonctions pour créer vos propres règles.
 
-En savoir plus :
+En savoir plus:
 
 * [Édition de requêtes](../../automating/using/editing-queries.md)
 * [Édition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
-## Import/export des données {#import-export-data}
+## Importer/exporter des données {#import-export-data}
 
 Campaign Standard propose plusieurs **fonctionnalités de data Management** pour importer et exporter des données.
 
@@ -79,7 +79,7 @@ Utilisez les [packages](../../automating/using/managing-packages.md) pour échan
 
 Enfin, l’[export de listes](../../automating/using/exporting-lists.md) permet d’exporter des listes issues de Campaign Standard, par exemple la liste des profils de test, la liste des adresses email mises en quarantaine, etc.
 
-En savoir plus :
+En savoir plus:
 
 * [Import et export de données](../../automating/using/about-data-import-and-export.md)
 * [Cas pratique : export/import de ressources personnalisées](../../automating/using/exporting-importing-custom-resources.md)

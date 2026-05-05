@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '889'
+workflow-type: ht
+source-wordcount: '894'
 ht-degree: 100%
 
 ---
@@ -104,7 +104,7 @@ Pour ce faire, procédez comme suit :
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l&#39;aide du bouton **[!UICONTROL Afficher la source]**.
+   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l’aide du bouton **[!UICONTROL Afficher la source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -128,7 +128,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/lp_uncheck-mandatory.png)
 
-1. Pour ajouter d&#39;autres cases à cocher permettant de s&#39;abonner à d&#39;autres services, répétez les étapes ci-dessus autant de fois que nécessaire.
+1. Pour ajouter d’autres cases à cocher permettant de s’abonner à d’autres services, répétez les étapes ci-dessus autant de fois que nécessaire.
 
    ![](assets/lp_multiple-checkboxes.png)
 
@@ -152,7 +152,7 @@ Pour insérer et configurer cette case à cocher, procédez comme suit :
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l&#39;aide du bouton **[!UICONTROL Afficher la source]**.
+   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l’aide du bouton **[!UICONTROL Afficher la source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -180,7 +180,7 @@ Pour insérer et configurer cette case à cocher, procédez comme suit :
 
    ![](assets/lp_agreement_message.png)
 
-   Ce texte s&#39;affiche sous forme d&#39;avertissement si l&#39;utilisateur ne coche pas la case avant d&#39;envoyer le formulaire.
+   Ce texte s’affiche sous forme d’avertissement si l’utilisateur ou l’utilisatrice ne coche pas la case avant d’envoyer le formulaire.
 
    >[!NOTE]
    >

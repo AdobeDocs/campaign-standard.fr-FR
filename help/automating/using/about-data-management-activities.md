@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: b780704c-210b-4cab-9016-91726a86de6d
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '129'
+source-wordcount: '131'
 ht-degree: 100%
 
 ---
@@ -31,6 +31,6 @@ La section **[!UICONTROL Data Management (ETL)]** fournit les activités suivant
 * [Transfert de fichier](../../automating/using/transfer-file.md)
 * [Réconciliation](../../automating/using/reconciliation.md)
 * [Extraction de fichier](../../automating/using/extract-file.md)
-* [Services d&#39;abonnements](../../automating/using/subscription-services.md)
+* [Services d’inscriptions](../../automating/using/subscription-services.md)
 
 Les activités **[!UICONTROL Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l’efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).

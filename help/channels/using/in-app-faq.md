@@ -9,15 +9,15 @@ feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: tm+mt
-source-wordcount: '644'
+workflow-type: ht
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
 
 # FAQ sur les messages In-App {#in-app-faq}
 
-## Quelles sont les suggestions de ressources utiles pour en savoir plus sur le canal In-App dans Adobe Campaign Standard ?  {#resources-inapp}
+## Quelles sont les recommandations de ressources utiles pour en savoir plus sur le canal In-App dans Adobe Campaign Standard ? {#resources-inapp}
 
 Consultez les ressources ci-dessous :
 
@@ -25,7 +25,7 @@ Consultez les ressources ci-dessous :
 * [Article de blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Page de la communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=fr)
 
-## Quel est l’objectif des API des extensions Campaign setLinkageField et resetLinkageField ?  {#extensions-apis}
+## Quel est l’objectif des API des extensions Campaign setLinkageField et resetLinkageField ? {#extensions-apis}
 
 Puisque les messages In-App sont extraits par le SDK de Campaign, nous voulons fournir un mécanisme sécurisé pour nous assurer que les messages In-App contenant des données de PII ne tombent pas entre des mains malveillantes. À ce titre, nous avons mis en place le mécanisme suivant pour assurer la diffusion sécurisée des messages vers l&#39;appareil :
 
@@ -36,19 +36,19 @@ Puisque les messages In-App sont extraits par le SDK de Campaign, nous voulons f
 * Ils doivent vider les messages In-App stockés sur l’appareil et resetLinkagefields lorsque l’utilisateur se déconnecte de l’application à l’aide de resetLinkageField. Ainsi, si un autre utilisateur se connecte à l’application, il ne voit pas les messages destinés à l’utilisateur précédent.
 * Reportez-vous aux [API SDK Mobile](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) pour mettre en œuvre ce mécanisme de sécurité côté client.
 
-## Que dois-je faire pour activer le reporting In-App Campaign ?  {#enable-inapp-reporting}
+## Que dois-je faire pour activer le reporting In-App Campaign ? {#enable-inapp-reporting}
 
 Vous devez configurer le postback de tracking In-App. Les instructions se trouvent [ici](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
 Pour mettre en œuvre le tracking des notifications locales, reportez-vous à cette [page](../../administration/using/local-tracking.md).
 
-## Quels rapports sont disponibles pour le canal In-App ?  {#report-inapp}
+## Quels rapports sont disponibles pour le canal In-App ? {#report-inapp}
 
 Un rapport d’usine est disponible dans Adobe Campaign pour le canal In-App. Consultez cette [documentation](../../reporting/using/in-app-report.md).
 
 Consultez cette [page](../../reporting/using/indicator-calculation.md#in-app-delivery) pour comprendre comment est calculée chaque mesure In-App.
 
-## Prenez-vous en charge des variantes de contenu multilingues pour In-App similaires à push ?  {#multilingual-inapp}
+## Prenez-vous en charge des variantes de contenu multilingues pour In-App similaires à push ? {#multilingual-inapp}
 
 Aucun modèle multilingue n’est actuellement disponible pour les messages In-App.
 
@@ -56,7 +56,7 @@ Cependant, si l’objectif est d’envoyer un message In-App dans une langue aut
 
 ![](assets/faq_inapp.png)
 
-## Les champs de personnalisation Campaign peuvent-ils être ajoutés au code HTML personnalisé ?  {#custom-html-inapp}
+## Les champs de personnalisation Campaign peuvent-ils être ajoutés au code HTML personnalisé ? {#custom-html-inapp}
 
 Non, cela n’est pas encore pris en charge.
 
@@ -64,18 +64,18 @@ Non, cela n’est pas encore pris en charge.
 
 Pour les messages d’alerte, au moins un bouton Ignorer (un bouton principal ou secondaire doit avoir une action Ignorer) est requis. Sinon, il est possible d’enregistrer le message mais il ne sera pas reçu.
 
-## Si le son personnalisé iOS des notifications locales n’est pas lu, le son par défaut sera-t-il lu à la place ?  {#local-notification-sound}
+## Si le son personnalisé iOS des notifications locales n’est pas lu, le son par défaut sera-t-il lu à la place ? {#local-notification-sound}
 
 Pour le son personnalisé sur iOS, vous devez fournir un nom de fichier avec son extension lors de la création d’une notification locale (par exemple, sound.caf). Si cette extension n&#39;est pas indiquée, le son par défaut est utilisé.
 
-## Les URL de lien profond sont-elles prises en charge dans les messages In-App ?  {#inapp-deeplinks}
+## Les URL de lien profond sont-elles prises en charge dans les messages In-App ? {#inapp-deeplinks}
 
 Oui, les URL de lien profond sont prises en charge dans les messages In-App. Les liens profonds doivent inclure les éléments suivants :
 
 * Un langage indiquant que le tracking des diffusions doit être désactivé pour que les URL de lien profond fonctionnent.
 * Apflyer avec Branch en tant que partenaires pouvant effectuer le tracking de liens profonds. Pour plus d&#39;informations sur l&#39;intégration de Branch et Adobe Campaign Standard, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
-## Un message In-App peut-il être déclenché lorsque l’utilisateur lance l’application à partir d’une notification push ?  {#inapp-push-trigger}
+## Un message In-App peut-il être déclenché lorsque l’utilisateur lance l’application à partir d’une notification push ? {#inapp-push-trigger}
 
 Oui, ces messages sont aussi appelés des messages en daisy chain. Suivez les étapes suivantes :
 

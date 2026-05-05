@@ -5,9 +5,9 @@ user-guide-description: Documentation produit pour Adobe Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation de Campaign Standard
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '1796'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 94%
       + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [Calendrier des versions](rn/using/release-planning.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
-   + {hide-from-toc}[Problème de signature des URL suivies](rn/using/tracked-urls.md)
+   + {hide-from-toc}[Problème de signature des URL trackées](rn/using/tracked-urls.md)
    + {hide-from-toc}[Dernières mises à jour de la documentation](rn/using/documentation-updates.md)
 + Prise en main {#getting-started}
    + [À propos d&#39;Adobe Campaign Standard](start/using/about-campaign-standard.md)
@@ -46,7 +46,7 @@ ht-degree: 94%
    + Confidentialité {#privacy}
       + [Confidentialité et consentement](start/using/privacy.md)
       + [Gestion de la confidentialité](start/using/privacy-management.md)
-      + [Demandes d&#39;accès à des informations personnelles &#x200B;](start/using/privacy-requests.md)
+      + [Demandes d&#39;accès à des informations personnelles](start/using/privacy-requests.md)
       + [FAQ sur la confidentialité](start/using/privacy-faq.md)
    + {hide-from-toc}[Options d’aide et de support](support.md)
 + Profils et audiences {#profiles-and-audiences}
@@ -98,7 +98,7 @@ ht-degree: 94%
       + [À propos des SMS](channels/using/about-sms-messages.md)
       + [Créer un SMS](channels/using/creating-an-sms-message.md)
       + [Personnaliser un SMS](channels/using/personalizing-sms-messages.md)
-      + [Gérer les SMS entrants](channels/using/managing-incoming-sms.md)
+      + [Gestion des SMS entrants](channels/using/managing-incoming-sms.md)
       + [À propos de la conception du contenu d&#39;un SMS et d&#39;une notification push](channels/using/about-sms-and-push-content-design.md)
       + [Interface de l&#39;éditeur de contenu de SMS et de notification push](channels/using/sms-and-push-content-editor-interface.md)
       + [Définir un texte dynamique](channels/using/defining-dynamic-text.md)
@@ -183,7 +183,7 @@ ht-degree: 94%
    + Contrôler les messages {#monitoring-messages}
       + [Contrôler une diffusion](sending/using/monitoring-a-delivery.md)
       + [Recevoir des alertes en cas d&#39;échec](sending/using/receiving-alerts-when-failures-happen.md)
-      + [Présentation des échecs de diffusion](sending/using/understanding-delivery-failures.md)
+      + [Comprendre les échecs de diffusion](sending/using/understanding-delivery-failures.md)
       + [Comprendre la gestion des quarantaines](sending/using/understanding-quarantine-management.md)
    + Gestion de la délivrabilité {#managing-deliverability}
       + [À propos de la délivrabilité](sending/using/about-deliverability.md)
@@ -230,7 +230,7 @@ ht-degree: 94%
       + [Création d&#39;un rapport à partir de segments de workflow](reporting/using/creating-a-report-workflow-segment.md)
 + Intégration à d’autres solutions {#integrating-with-adobe-cloud}
    + [Commencer avec les intégrations de Campaign](integrating/using/get-started-campaign-integrations.md)
-   + Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
+   + Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
       + [À propos de l&#39;intégration Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Configuration de l&#39;intégration Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Création d&#39;un contenu d&#39;e-mail dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
@@ -244,9 +244,9 @@ ht-degree: 94%
       + [À propos de l&#39;intégration Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Configurer l&#39;intégration Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensions et mesures de Campaign dans Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign et Audience Manager ou People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign et Audience Manager ou People Core Service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [À propos de l&#39;intégration Campaign-Audience Manager ou People core service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [&#x200B; Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/integration-with-audience-manager-or-people-core-service.md)
+      + [Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Résolution des problèmes](integrating/using/troubleshooting.md)
       + [Partage d&#39;audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Utilisation de Campaign et Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
@@ -260,12 +260,12 @@ ht-degree: 94%
       + [Utiliser les déclencheurs dans Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Test de vos déclencheurs](integrating/using/testing-your-triggers.md)
       + [Cas pratiques de déclencheurs d’abandon](integrating/using/abandonment-triggers-use-cases.md)
-   + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+   + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Prise en main de l&#39;intégration de Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Bonnes pratiques et limites](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Configuration de Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
       + [Configuration de Campaign et d&#39;Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
-      + Configuration de l’application d’intégration {#configure-integration-tool}
+      + Configurer l’application d’intégration {#configure-integration-tool}
          + [Prise en main de l&#39;application d&#39;intégration](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
          + [Accès à l&#39;application d&#39;intégration](integrating/using/d365-acs-self-service-app-control-access.md)
          + [Connecter les systèmes à l&#39;application d&#39;intégration](integrating/using/d365-acs-self-service-app-settings.md)
@@ -273,8 +273,8 @@ ht-degree: 94%
          + [Mappage des données entre Microsoft Dynamics 365 et Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
          + [Migration des informations d’identification de JWT vers OAuth serveur à serveur](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [Utiliser l&#39;intégration Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
-   + Campaign et Adobe Experience Platform {#adobe-experience-platform}
-      + [Prise en main des sources et des destinations](integrating/using/get-started-sources-destinations.md)
+   + Campaign et Adobe Experience Platform {#adobe-experience-platform}
+      + [Commencer avec les sources et les destinations](integrating/using/get-started-sources-destinations.md)
       + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrating/using/ingest-aep-data.md)
       + [Exporter des données de Campaign vers Adobe Experience Platform](integrating/using/export-campaign-data.md)
 + Gestion des processus et des données {#managing-processes-and-data}
@@ -323,9 +323,9 @@ ht-degree: 94%
       + [À propos des activités des canaux](automating/using/about-channel-activities.md)
       + [Diffusion e-mail](automating/using/email-delivery.md)
       + [Diffusion SMS](automating/using/sms-delivery.md)
-      + [Diffusion notification push](automating/using/push-notification-delivery.md)
+      + [Diffusion Notification push](automating/using/push-notification-delivery.md)
       + [Diffusion courrier](automating/using/direct-mail-delivery.md)
-      + [Diffusion In-App](automating/using/in-app-delivery.md)
+      + [Diffusion in-app](automating/using/in-app-delivery.md)
    + Activités de gestion des données {#data-management-activities}
       + [À propos des activités de Data Management](automating/using/about-data-management-activities.md)
       + [Mise à jour de données](automating/using/update-data.md)
@@ -426,7 +426,7 @@ ht-degree: 94%
    + [Instructions de surveillance](administration/using/monitoring-guidelines.md)
    + [Journal d&#39;audit](administration/using/audit.md)
    + [Directives de configuration](administration/using/about-configuration-guidelines.md)
-   + Utilisateurs et sécurité {#users-and-security}
+   + Utilisateurs et utilisatrices et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
       + [Gestion des utilisateurs](administration/using/users-management.md)
       + [Entités organisationnelles](administration/using/organizational-units.md)
@@ -437,7 +437,7 @@ ht-degree: 94%
    + Configuration des canaux {#configuring-channels}
       + [À propos de la configuration des canaux](administration/using/about-channel-configuration.md)
       + [Configuration du canal e-mail](administration/using/configuring-email-channel.md)
-      + {hide-from-toc}[Mettre à jour la qualification des bounces après une panne du FAI](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[Mettre à jour la qualification des rebonds après une panne d’un FAI](administration/using/update-bounce-qualification.md)
       + [Configuration d&#39;une application mobile](administration/using/configuring-a-mobile-application.md)
    + Configuration des canaux mobiles {#configuring-mobile}
       + [Mise en œuvre du suivi des notifications push](administration/using/push-tracking.md)

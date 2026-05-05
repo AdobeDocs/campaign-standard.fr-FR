@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: af849377-686f-45b3-bf6e-5069a8966987
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '386'
+workflow-type: ht
+source-wordcount: '389'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Avant de publier une landing page, vous devez effectuer des tests : valider l&#39;exécution, configurer l&#39;accès et définir la fin de vie de la landing page. Ces étapes sont des pré-requis et doivent être exécutées avec précaution.
 
-## Tester la landing page        {#testing-the-landing-page-}
+## Tester la landing page {#testing-the-landing-page-}
 
 Comme la landing page aura un impact sur votre plateforme et les données, vous devez tester soigneusement son exécution. Pour cela :
 
@@ -45,7 +45,7 @@ Vous pouvez également générer la miniature de la landing page depuis cet écr
 >
 >Pour afficher l’aperçu de la landing page dans l’interface utilisateur de Campaign, l’URL du serveur applicatif doit être sécurisée. Dans ce cas, utilisez https:// plutôt que http:// pour configurer cette URL lors de la [configuration de votre marque](../../administration/using/branding.md#configuring-and-using-brands).
 
-## Configurer les paramètres de validité        {#setting-up-validity-parameters}
+## Configurer les paramètres de validité {#setting-up-validity-parameters}
 
 Avant de procéder à la publication, il est vivement recommandé, pour des raisons de sécurité et de performances de la plateforme, de définir une date d&#39;expiration dans les propriétés de la landing page. A la date choisie, la landing page est automatiquement dépubliée. Pour cela :
 
@@ -53,7 +53,7 @@ Avant de procéder à la publication, il est vivement recommandé, pour des rais
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Configurez la date et l’heure d’expiration dans la section **[!UICONTROL Publication]** : la landing page est automatiquement dépubliée à la date spécifiée et n’est donc plus disponible. 
+1. Configurez la date et l’heure d’expiration dans la section **[!UICONTROL Publication]** : la landing page est automatiquement dépubliée à la date spécifiée et n’est donc plus disponible.
 
    Vous pouvez sélectionner le fuseau horaire à prendre en compte pour cette date et cette heure.
 
@@ -65,7 +65,7 @@ Avant de procéder à la publication, il est vivement recommandé, pour des rais
 >
 >Vous pouvez également définir une date et une heure de déploiement : la landing page sera alors automatiquement publiée à la date spécifiée.
 
-## Publier une landing page        {#publishing-a-landing-page}
+## Publier une landing page {#publishing-a-landing-page}
 
 Lorsque vous publiez une landing page, elle est mise en ligne et devient accessible aux visiteurs.
 

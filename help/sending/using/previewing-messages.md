@@ -9,21 +9,21 @@ role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
-source-wordcount: '649'
+workflow-type: ht
+source-wordcount: '662'
 ht-degree: 100%
 
 ---
 
 # Aperçu des diffusions {#previewing-messages}
 
-## Prévisualiser l&#39;email           {#previewing-emails}
+## Prévisualiser l&#39;email {#previewing-emails}
 
 Campaign Standard vous permet de prévisualiser les messages avant l’envoi, afin de vérifier leur personnalisation et la manière dont vos destinataires les verront.
 
 La prévisualisation des messages est effectuée à l’aide de **profils de test** que vous ajoutez à la cible du message.
 
-Pour les **emails**, Campaign Standard permet de prévisualiser les messages à l’aide de profils ciblés plutôt que de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Pour plus d’informations, voir [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md).
+Pour les **emails**, Campaign Standard permet de prévisualiser les messages à l’aide de profils ciblés plutôt que de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Pour plus d’informations, voir [Test des e-mails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md).
 
 Pour prévisualiser un message à l’aide des profils de test, procédez comme suit :
 
@@ -45,10 +45,10 @@ Pour prévisualiser un message à l’aide des profils de test, procédez comme 
 
    ![](assets/sending_preview_edit.png)
 
-**Rubriques connexes** 
+**Rubriques connexes :**
 
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
-* [Test des e-mails à l&#39;aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
+* [Test des e-mails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
 * [Envoi d&#39;un bon à tirer](../../sending/using/sending-proofs.md)
 
 ## Prévisualiser des SMS {#previewing-sms}
@@ -123,7 +123,7 @@ Pour prévisualiser un message In-App à l&#39;aide de profils de test, procéde
 
    ![](assets/in_app_preview.png)
 
-1. Pour prévisualiser votre message In-App à l’aide de profils de test, cliquez sur **[!UICONTROL Aperçu]**.
+1. Pour prévisualiser votre message in-app à l’aide de profils de test, cliquez sur **[!UICONTROL Aperçu]**.
 
    ![](assets/in_app_preview_2.png)
 

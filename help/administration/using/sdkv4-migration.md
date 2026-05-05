@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
 source-git-commit: 620ae1adc6f804e90c10daeb5fa4df42ce106885
-workflow-type: tm+mt
-source-wordcount: '1393'
+workflow-type: ht
+source-wordcount: '1408'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 # Comment migrer votre application mobile du SDK v4 vers le SDK Adobe Experience Platform {#sdkv4-migration}
 
 
-La prise en charge des SDK Adobe Experience Platform Mobile version 4 a pris fin le 31 août 2021. Si vous utilisez toujours cette version héritée du SDK, vous devez mettre à jour votre implémentation au SDK Adobe Experience Platform **avant fin juin 2024**. Découvrez comment migrer vers le SDK Adobe Experience Platform dans cet article.
+La prise en charge des SDK Adobe Experience Platform Mobile version 4 a pris fin le 31 août 2021.Si vous utilisez toujours cette version héritée du SDK, vous devez mettre à jour votre implémentation au SDK Adobe Experience Platform **avant fin juin 2024**. Découvrez comment migrer vers le SDK Adobe Experience Platform dans cet article.
 
 >[!IMPORTANT]
 >
@@ -106,26 +106,26 @@ R : Seule l&#39;application éligible de votre **[!UICONTROL entité organisati
 
 ![](assets/aep_v4_6.png)
 
-### Q : Pourquoi l’application SDK Adobe Experience Platform avec le statut de propriété Configuré ne peut-elle pas être utilisée pour la migration ?  {#property-status}
+### Q : Pourquoi l’application SDK Adobe Experience Platform avec le statut de propriété Configuré ne peut-elle pas être utilisée pour la migration ? {#property-status}
 
 R : Le processus de migration conserve les abonnés et les attributs du SDK v4. Il conserve uniquement les informations liées à la balise provenant de l’application SDK Adobe Experience Platform. Les abonnés et autres données provenant de l’application SDK Adobe Experience Platform sont perdus. Pour éviter toute perte de données, seules les applications SDK Adobe Experience Platform dotées du **[!UICONTROL statut de propriété]** **[!UICONTROL Prêt pour configuration]** peuvent être migrées.
 
-### Q : Après la migration, où puis-je trouver mon ancienne application mobile SDK v4 ?  {#v4-app-not-visible}
+### Q : Après la migration, où puis-je trouver mon ancienne application mobile SDK v4 ? {#v4-app-not-visible}
 
 R : L’application mobile après la migration est visible depuis le menu avancé **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (SDK Adobe Experience Platform)]**.
 
-### Q : Après la migration, où puis-je trouver mon application SDK Adobe Experience Platform nouvellement créée ?  {#aep-not-visible}
+### Q : Après la migration, où puis-je trouver mon application SDK Adobe Experience Platform nouvellement créée ? {#aep-not-visible}
 
 R : L’application SDK Adobe Experience Platform nouvellement créée utilisée pour la migration n’existe pas en tant qu’application distincte. Seule l’application SDK v4 migrée est disponible.
 
-### Q : Si l’entité organisationnelle de l’application mobile SDK v4 est définie sur A (fille de l’entité organisationnelle TOUS) et que le SDK Adobe Experience Platform est défini sur TOUS, Comment puis-je migrer mon application mobile ?  {#v4-org-unit}
+### Q : Si l’entité organisationnelle de l’application mobile SDK v4 est définie sur A (fille de l’entité organisationnelle TOUS) et que le SDK Adobe Experience Platform est défini sur TOUS, Comment puis-je migrer mon application mobile ? {#v4-org-unit}
 
 R : Les administrateurs de l&#39;**[!UICONTROL entité organisationnelle]** TOUS disposent des droits pour gérer les deux applications mobiles et sont chargés de la migration.
 
-### Q : Si l’entité organisationnelle de l’application mobile SDK v4 est définie sur A et que l’application SDK Adobe Experience Platform est définie sur B (sœur de l’entité organisationnelle A), Comment puis-je migrer mon application mobile ?  {#aep-org-unit}
+### Q : Si l’entité organisationnelle de l’application mobile SDK v4 est définie sur A et que l’application SDK Adobe Experience Platform est définie sur B (sœur de l’entité organisationnelle A), Comment puis-je migrer mon application mobile ? {#aep-org-unit}
 
 R : L’application SDK Adobe Experience Platform étant la ressource d’une **[!UICONTROL entité organisationnelle]** sœur, l’application mobile n&#39;est pas visible pour les utilisateurs de l’**[!UICONTROL entité organisationnelle]** A. L’application mobile est disponible pour les administrateurs de l’**[!UICONTROL entité organisationnelle]** TOUS, mais nous ne recommandons pas à ces administrateurs de migrer l’application mobile.
-ans ce cas, vous devez déplacer vos applications mobiles vers la même **[!UICONTROL entité organisationnelle]** ou dans une **[!UICONTROL entité organisationnelle]** avec un lien parent.
+Dans ce cas, vous devez déplacer vos applications mobiles vers la même **[!UICONTROL entité organisationnelle]** ou dans une **[!UICONTROL entité organisationnelle]** avec un lien parent.
 Pour plus d&#39;informations sur les **[!UICONTROL entités organisationnelles]**, veuillez consulter cette [section](../../administration/using/organizational-units.md).
 
 ### Q : Dans la page Application mobile SDK Adobe Experience Platform (migrée depuis votre application mobile v4), sous la liste déroulante Paramètres du canal push, aucune information comme le nom/la date de téléchargement n’est affichée pour la clé Android ou le certificat iOS {#no-information-v5}

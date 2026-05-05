@@ -21,7 +21,6 @@ ht-degree: 100%
 1. Exécutez une requête GET sur la clé PKey du profil pour récupérer l’URL **geoUnit** .
 1. Exécutez une requête GET sur l’URL pour récupérer plus de détails sur l’entité géographique.
 
-
 <br/>
 
 ***Exemple de requête***

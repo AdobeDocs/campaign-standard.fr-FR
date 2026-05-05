@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Voici l&#39;exemple d&#39;un SMS contenant des champs de personnalisation qui, s
 
 **Bonjour &lt;Prénom> &lt;Nom>, de nouveaux produits sont disponibles. Venez les découvrir en magasin !**
 
-* Pour un destinataire nommé &#39;Jean Dupont&#39;, aucun caractère spécial n&#39;étant présent, Adobe Campaign choisira l&#39;encodage GSM qui autorise jusqu&#39;à 160 caractères par SMS. Le message sera donc envoyé en une seule partie.
+* Pour un destinataire nommé « Jean Dupont », aucun caractère spécial n’étant présent, Adobe Campaign choisira l’encodage GSM qui autorise jusqu’à 160 caractères par SMS. Le message sera donc envoyé en une seule partie.
 * Pour un destinataire nommé &#39;Raphaël Laforêt&#39;, les caractères &#39;ë&#39; et &#39;ê&#39; ne peuvent pas être encodés en GSM. Selon le paramétrage choisi pour la translittération, Adobe Campaign a le choix entre deux comportements :
 
    * Si la translittération est autorisée, &#39;ë&#39; et &#39;ê&#39; seront remplacés par &#39;e&#39;, ce qui permet d&#39;utiliser l&#39;encodage GSM et autorise 160 caractères dans le SMS. Ce message sera envoyé en un seul SMS, mais il sera légèrement altéré.
@@ -38,11 +38,11 @@ Voici l&#39;exemple d&#39;un SMS contenant des champs de personnalisation qui, s
 
 >[!IMPORTANT]
 >
->Vérifiez la loi en vigueur dans votre pays concernant la modification de l&#39;adresse de l&#39;expéditeur. Vérifiez également auprès de votre fournisseur de service SMS s&#39;il propose cette fonctionnalité.
+>Vérifiez la loi en vigueur dans votre pays concernant la modification de l&#39;adresse de l&#39;expéditeur. Vérifiez également auprès de votre fournisseur de service SMS s’il propose cette fonctionnalité.
 
-L&#39;option **[!UICONTROL De]** vous permet de personnaliser le nom de l&#39;émetteur du SMS à l&#39;aide d&#39;une chaîne de caractères. C&#39;est le nom qui s&#39;affichera dans le champ correspondant à l&#39;expéditeur du SMS sur le téléphone mobile du destinataire.
+L’option **[!UICONTROL De]** vous permet de personnaliser le nom de la personne qui envoie le SMS à l’aide d’une chaîne de caractères. C’est le nom qui s’affichera dans le champ correspondant à l’expéditeur ou l’expéditrice du SMS sur le téléphone mobile de la personne destinataire.
 
-Si ce champ est vide, c&#39;est le numéro source renseigné dans le compte externe qui sera utilisé. Si aucun numéro source n&#39;y figure, c&#39;est le numéro court qui sera utilisé. Le compte externe spécifique aux diffusions SMS est présenté dans la section [Définir un routage SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+Si ce champ est vide, c’est le numéro source renseigné dans le compte externe qui sera utilisé.Si aucun numéro source n’y figure, c’est le numéro court qui sera utilisé.Le compte externe spécifique aux diffusions SMS est présenté dans la section [Définir un routage SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
 ![](assets/sms_creation_8.png)
 

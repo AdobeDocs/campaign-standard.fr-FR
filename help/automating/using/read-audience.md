@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Lecture d&#39;audience]** permet de récupérer une audience existante et de l&#39;affiner en y appliquant des conditions de filtrage supplémentaires.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Lecture d&#39;audience]** est une version simplifiée de l&#39;activité **[!UICONTROL Requête]**, conçue pour les cas où l&#39;on souhaite simplement sélectionner une audience existante.
 

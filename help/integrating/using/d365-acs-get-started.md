@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '874'
+source-wordcount: '881'
 ht-degree: 100%
 
 ---
@@ -74,7 +74,7 @@ Détails de l’organigramme (mise en correspondance avec les étapes ci-dessus)
 * **Étape 2** - L’offre d’intégration standard est gratuite pour tous les clients, toutefois, des coûts supplémentaires peuvent s’appliquer en fonction de vos besoins. En savoir plus sur [les bonnes pratiques et limitations](../../integrating/using/d365-acs-notices-and-recommendations.md). Une nouvelle commande client (SO) devra être signée afin de tirer parti de l&#39;intégration si elle n&#39;était pas incluse dans la commande client d&#39;origine.
 * **Étape 3** - Exécuter les étapes préalables à l’intégration pour Dynamics 365 et Campaign. Voir [Configurer cette intégration](#configure-this-integration).
 * **Étape 4** - L’équipe chargée de l&#39;intégration d&#39;Adobe vous donnera accès à l&#39;interface utilisateur (IU) de l&#39;application d&#39;intégration.
-* **Étape 5** - Vous pourrez configurer les mappings de données, les remplacements, les filtres, etc. Vous pourrez aussi tester votre intégration depuis l&#39;interface utilisateur de l&#39;application d&#39;intégration.
+* **Étape 5** - Vous pourrez configurer les mappings de données, les remplacements, les filtres, etc. et tester votre intégration dans l’UI de l’application d’intégration.
 
   >[!IMPORTANT]
   >

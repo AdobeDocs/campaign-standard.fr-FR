@@ -11,7 +11,7 @@ level: Experienced
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '197'
+source-wordcount: '217'
 ht-degree: 100%
 
 ---
@@ -77,4 +77,4 @@ Pour plus d’informations sur l’extension du modèle de données, voir la doc
 
 * [Notions de modèle de données](../../developing/using/data-model-concepts.md)
 * [Étendre l’API](../../developing/using/about-extending-the-api.md)
-* [Définir les liens avec d’autres ressources](https://helpx.adobe.com/fr/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [Définition de liens avec d’autres ressources](https://helpx.adobe.com/fr/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

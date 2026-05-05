@@ -7,15 +7,15 @@ role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
-source-wordcount: '1088'
+workflow-type: ht
+source-wordcount: '1150'
 ht-degree: 100%
 
 ---
 
 # Présentation de la structure de la payload des notifications push {#push-payload}
 
- Adobe Campaign vous permet d’envoyer des notifications push personnalisées et segmentées sur les appareils mobiles iOS et Android vers les applications mobiles (app mobiles).
+Adobe Campaign vous permet d’envoyer des notifications push personnalisées et segmentées sur les appareils mobiles iOS et Android vers les applications mobiles (app mobiles).
 
 Chaque notification push reçue sur une application mobile comporte des informations utilisées par l’application pour afficher la notification push en cas d’envoi d’une notification push d’alerte, et probablement pour effectuer d’autres calculs, en particulier si une notification push silencieuse est envoyée.
 
@@ -31,7 +31,7 @@ Ce document décrit la structure de la payload reçue dans une application mobil
 
 Cette section décrit la structure d’un exemple de payload pour diverses plateformes mobiles et décrit les principaux attributs qu’elle contient. Il s’agit de la structure de la payload reçue dans le code de l’application mobile dans le gestionnaire d’événement qui indique qu’une notification push a été reçue.
 
-Les attributs de payload et leurs valeurs varient en fonction des configurations fournies dans les options avancées de notification push. Cette section fournit également un mappage entre ces configurations dans l’interface utilisateur Campaign Standard et les attributs dans la payload afin de clarifier la façon dont la payload changera lors de la configuration d’une option dans Campaign Standard.
+Les attributs de payload et leurs valeurs varient en fonction des configurations fournies dans les options avancées de notification push. Cette section fournit également un mapping entre ces configurations dans l’interface d’utilisation de Campaign Standard et les attributs dans la payload afin de clarifier la façon dont la payload changera lors de la configuration d’une option dans Campaign Standard.
 
 ### Pour l’application mobile iOS {#payload-structure-ios}
 
@@ -199,21 +199,21 @@ Pour comprendre les aspects d’une payload Android, consultez la section [Conce
 >
 >La prise en charge des messages de notification dans la payload Android a été supprimée en janvier 2018 afin de permettre la réactivation de l’application et la transmission du contrôle à l’application mobile sans que l’utilisateur ait à interagir avec l’application.
 
-### Mappage entre les configurations Campaign Standard et les attributs de payload {#mapping-payload}
+### Mapping entre les configurations Campaign Standard et les attributs de payload {#mapping-payload}
 
 | Configuration Campaign | Attribut concerné dans iOS | Attribut concerné dans Android | Description |
 |:-:|:-:|:-:|:-:|
 | Titre du message <br>Corps du message | alerte → titre <br> alerte → corps | titre <br>corps | Ces données contiennent des détails du message d’alerte.<br>Le titre et les clés de corps fournissent le contenu de l’alerte. |
 | Jouer un son | sound | sound | Son personnalisé à jouer avec l’alerte. |
 | Valeur du badge | badge | badge | Valeur entière à utiliser pour marquer l’icône de l’application. |
-| Ajouter un lien profond  | uri | NA | Un lien profond vous permet d&#39;amener directement les utilisateurs à un contenu situé dans l&#39;application (au lieu d&#39;ouvrir une page de navigateur Web). |
+| Ajouter un lien profond | uri | NA | Un lien profond vous permet d&#39;amener directement les utilisateurs à un contenu situé dans l&#39;application (au lieu d&#39;ouvrir une page de navigateur Web). |
 | Catégorie | category | category | Pour afficher des actions personnalisées avec une notification à distance. <br>La clé de catégorie permet au système d’afficher les actions pour cette catégorie sous forme de boutons dans l’interface d’alerte. |
 | Champs personnalisés | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Toute donnée personnalisée que vous souhaitez envoyer à votre application. |
-| URL de contenu multimédia (images, gif, fichiers audio et vidéo)<br>(Applicable uniquement pour iOS 10 ou version ultérieure) | media-attachement-url | NA | URL de vos fichiers multimédia pour ajouter du contenu enrichi à votre notification. <br>Lorsque vous fournissez une valeur pour cette URL, le drapeau de contenu mutable est automatiquement envoyé dans le payload. <br> (Uniquement applicable pour iOS 10 ou version ultérieure) |
+| URL de contenu multimédia (images, gif, fichiers audio et vidéo)<br>(Applicable uniquement pour iOS 10 ou version ultérieure) | media-attachement-url | NA | URL de vos fichiers multimédia pour ajouter du contenu enrichi à votre notification. <br>Lorsque vous fournissez une valeur pour cette URL, le drapeau de contenu mutable est automatiquement envoyé dans la payload. <br>(Uniquement applicable pour iOS 10 ou version ultérieure) |
 | Contenu mutable <br> (Applicable uniquement pour iOS 10 ou version ultérieure) | mutable-content | NA | L’extension du service de notification dans votre application « intercepte » toutes les notifications distantes avec la clé de contenu mutable et vous permet de gérer/manipuler le contenu de la payload de requête, qui peut ensuite être utilisée pour personnaliser la notification. Cette fonctionnalité permet notamment de télécharger et d’afficher plusieurs médias, de déchiffrer toutes les données chiffrées présentes dans la payload push. Vous trouverez plus d’informations dans [Modification de la payload d’une notification à distance](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Uniquement applicable pour iOS 10 ou version ultérieure) |
 | Contenu disponible | content-available | NA | La sélection de cette option permet de réactiver une application iOS lorsqu’elle est en arrière-plan/suspendue. La réactivation implique que l’application s’exécute en arrière-plan et que le gestionnaire d’événement approprié responsable de la réception de la payload des données de notification push obtient un contrôle et peut utiliser les données pour effectuer n’importe quel calcul, y compris, mais sans s’y limiter, la création d’une notification push personnalisée et l’affichage de cette dernière. Pour plus d’informations, reportez-vous à la section [Mise en éveil d’une application avec la diffusion d&#39;une notification](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL de contenu multimédia (fichiers image)<br>(Applicable uniquement pour Android) | NA | media-attachement-url | URL de vos fichiers image pour ajouter du contenu enrichi à votre notification. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valeurs de broadlogId et deliveryId.<br>Ces attributs sont requis si votre application souhaite appeler un postback de suivi pour effectuer le suivi du moment où l’utilisateur a cliqué sur/ouvert la notification push. Ces informations sont calculées et envoyées en interne par le serveur applicatif, sans intervention de l’utilisateur.<br>Vous trouverez des informations sur les postbacks sur cette [page](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
+| NA | _mId<br>_dId | _mId <br>_dId | Valeurs de broadlogId et deliveryId.<br>Ces attributs sont requis si votre application souhaite appeler un postback de suivi pour effectuer le suivi du moment où la personne a cliqué sur/ouvert la notification push.Ces informations sont calculées et envoyées en interne par le serveur applicatif, sans intervention de l’utilisateur.<br>Vous trouverez des informations sur les postbacks sur cette [page](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Comment récupérer les informations de payload dans le code d’application mobile {#payload-information}
 

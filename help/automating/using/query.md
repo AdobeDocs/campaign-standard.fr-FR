@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1878'
+source-wordcount: '1881'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ L’activité utilise le requêteur, dont le fonctionnement est détaillé dans 
 * [Exemples de requêtes](../../automating/using/query-samples.md)
 * [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n’ayant pas ouvert l’email](../../automating/using/workflow-cross-channel-retargeting.md)
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas d’utilisation type :
 
@@ -40,7 +40,7 @@ L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas 
 * enrichissement de données de toute table de la base Adobe Campaign
 * export des données.
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Requête]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent. Par défaut, l’activité est pré-paramétrée pour rechercher des profils.
@@ -104,7 +104,7 @@ Par défaut, la dimension de ciblage et la ressource sont définies pour cibler 
 
 Pour plus d’informations à ce sujet, reportez-vous à ce cas pratique : [Utiliser des ressources différentes des dimensions de ciblage](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Enrichir des données  {#enriching-data}
+## Enrichir des données {#enriching-data}
 
 L’onglet **[!UICONTROL Données additionnelles]** des activités **[!UICONTROL Requête]**, **[!UICONTROL Requête incrémentale]** et **[!UICONTROL Enrichissement]** permet d’enrichir les données ciblées et de les transmettre aux activités suivantes du workflow, où elles pourront être exploitées. Il est notamment possible d’ajouter :
 
@@ -126,7 +126,7 @@ Après avoir ajouté des données additionnelles, vous pouvez appliquer un nivea
 
 Vous trouverez dans [cette section](../../automating/using/personalizing-email-with-additional-data.md) un cas pratique de la personnalisation d’un email contenant des données supplémentaires.
 
-### Ajouter un champ simple        {#adding-a-simple-field}
+### Ajouter un champ simple {#adding-a-simple-field}
 
 En ajoutant un champ simple comme donnée additionnelle, celui-ci devient directement visible dans la transition sortante de l’activité. Cela permet par exemple de vérifier que les données issues de la requête sont celles souhaitées.
 
@@ -139,7 +139,7 @@ En ajoutant un champ simple comme donnée additionnelle, celui-ci devient direct
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Ajouter un agrégat        {#adding-an-aggregate}
+### Ajouter un agrégat {#adding-an-aggregate}
 
 Les agrégats permettent de calculer des valeurs à partir de champs de la dimension de ciblage ou de champs des dimensions liées à la dimension de ciblage. Par exemple : la moyenne des achats réalisés par un profil.
 Lorsque vous utilisez l’agrégat avec une requête, sa fonction peut revenir à zéro ce qui est alors considéré comme NULL. Utilisez l’onglet **[!UICONTROL Affiner la cible]** de votre requête pour filtrer la valeur agrégée :

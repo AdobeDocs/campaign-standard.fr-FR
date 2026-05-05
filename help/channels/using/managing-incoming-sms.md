@@ -1,5 +1,5 @@
 ---
-title: Gérer les SMS entrants
+title: Gestion des SMS entrants
 description: Découvrez comment gérer les SMS STOP et stocker les SMS entrants dans Adobe Campaign.
 audience: channels
 content-type: reference
@@ -10,13 +10,13 @@ role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
 source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
-workflow-type: tm+mt
-source-wordcount: '724'
+workflow-type: ht
+source-wordcount: '728'
 ht-degree: 100%
 
 ---
 
-# Gérer les SMS entrants{#managing-incoming-sms}
+# Gestion des SMS entrants{#managing-incoming-sms}
 
 ## Gérer les SMS STOP {#managing-stop-sms}
 
@@ -57,7 +57,7 @@ Pour ce faire :
    * L&#39;action **[!UICONTROL Supprimer de la quarantaine]** retire de la quarantaine le numéro de téléphone du profil.
    * L&#39;action **[!UICONTROL Aucune]** permet d&#39;envoyer uniquement le message aux destinataires sans effectuer d&#39;action.
 
-   Par exemple, dans la configuration ci-dessous, si les destinataires envoient le mot-clé &quot;STOP&quot;, ils reçoivent automatiquement une confirmation de désinscription et leur numéro de téléphone est mis en quarantaine, avec le statut **[!UICONTROL Sur liste bloquée]**. Ce statut se rapporte uniquement au numéro de téléphone. Le profil n&#39;est pas placé sur la liste bloquée afin que l&#39;utilisateur puisse continuer à recevoir des e-mails.
+   Par exemple, dans la configuration ci-dessous, si les destinataires envoient le mot-clé &quot;STOP&quot;, ils reçoivent automatiquement une confirmation de désinscription et leur numéro de téléphone est mis en quarantaine, avec le statut **[!UICONTROL Sur liste bloquée]**. Ce statut se rapporte uniquement au numéro de téléphone. Le profil n’est pas placé sur la liste bloquée afin que l’utilisateur puisse continuer à recevoir des e-mails.
 
    ![](assets/sms_mo.png)
 
@@ -69,7 +69,7 @@ Les destinataires peuvent maintenant être automatiquement désabonnés de vos m
 
 Au besoin, ces SMS entrants peuvent être stockés. Voir à ce propos cette [section](#storing-incoming-sms).
 
-## Stocker les SMS entrants  {#storing-incoming-sms}
+## Stocker les SMS entrants {#storing-incoming-sms}
 
 Dans le compte externe **[!UICONTROL Routage des SMS par SMPP]**, vous pouvez choisir de stocker les messages entrants, par exemple lorsqu&#39;un abonné répond &quot;STOP&quot; à un message SMS afin d&#39;être retiré de la liste des destinataires.
 
@@ -83,7 +83,7 @@ Pour ce faire :
 
    ![](assets/sms_config_mo_2.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Activités marketing]**, cliquez sur **[!UICONTROL Créer]**, puis sélectionnez **[!UICONTROL Workflow]**.
+1. Dans l’onglet **[!UICONTROL Activités marketing]**, cliquez sur **[!UICONTROL Créer]**, puis sélectionnez **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
@@ -94,7 +94,7 @@ Pour ce faire :
 
    ![](assets/sms_config_mo_4.png)
 
-1. Ensuite, dans l&#39;onglet **[!UICONTROL Cible]**, placez la règle **[!UICONTROL Attributs de SMS entrants]**.
+1. Ensuite, dans l’onglet **[!UICONTROL Cible]**, placez la règle **[!UICONTROL Attributs de SMS entrants]**.
 
    ![](assets/sms_config_mo_5.png)
 

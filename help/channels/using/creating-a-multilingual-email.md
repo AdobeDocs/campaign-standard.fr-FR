@@ -1,6 +1,6 @@
 ---
 title: Création d’un e-mail multilingue
-description: Suivez ces étapes pour Création d’un e-mail multilingue qui cible des destinataires avec des préférences linguistiques différentes.
+description: Suivez ces étapes pour créer un e-mail multilingue qui cible des destinataires avec des préférences linguistiques différentes.
 audience: channels
 content-type: reference
 topic-tags: email-messages
@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
-workflow-type: tm+mt
-source-wordcount: '289'
+workflow-type: ht
+source-wordcount: '290'
 ht-degree: 100%
 
 ---

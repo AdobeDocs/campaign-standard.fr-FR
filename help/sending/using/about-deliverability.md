@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '697'
+workflow-type: ht
+source-wordcount: '849'
 ht-degree: 100%
 
 ---
@@ -86,7 +86,7 @@ Certains fournisseurs d&#39;accès Internet considèrent automatiquement les ema
 
 Voir à ce propos les sections suivantes :
 
-* [Présentation des échecs de diffusion](../../sending/using/understanding-delivery-failures.md)
+* [Comprendre les échecs de diffusion](../../sending/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 * [Quarantaine et liste bloquée](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 

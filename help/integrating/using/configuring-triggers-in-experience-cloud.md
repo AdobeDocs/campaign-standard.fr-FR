@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '849'
+source-wordcount: '857'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ L&#39;équipe Adobe aura besoin des informations suivantes pour activer les déc
 * Identifiant de l’organisation
 * Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
 
-## Configuration des solutions et services      {#configuring-solutions-and-services}
+## Configuration des solutions et services {#configuring-solutions-and-services}
 
 Afin de pouvoir utiliser cette fonction, vous devez avoir accès aux solutions/core services suivants :
 
@@ -38,11 +38,11 @@ Afin de pouvoir utiliser cette fonction, vous devez avoir accès aux solutions/c
 
   ![](assets/trigger_uc_prereq_1.png)
 
-* Core Service DTM Experience Cloud
+* Core Service DTM Experience Cloud
 
   ![](assets/trigger_uc_prereq_2.png)
 
-* Identifiant du visiteur Experience Cloud et Core Service People Experience Cloud
+* Identifiant du visiteur ou de la visiteuse Experience Cloud et Core Service People Experience Cloud
 
   ![](assets/trigger_uc_prereq_3.png)
 
@@ -56,7 +56,7 @@ Il vous faudra également un site web opérationnel.
 
 Pour suivre ces cas pratiques, vous devez configurer [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) et [Campaign](#configuring-triggers-and-aliases-in-campaign).
 
-### Configurer Experience Cloud DTM Core Service  {#configuring-experience-cloud-dtm-core-service}
+### Configurer Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
 
 1. Dans le DTM (Dynamic Tag Management) Core Service DTM Experience Cloud, activez l&#39;Identifiant Experience Cloud et Adobe Analytics pour les pages de votre site web.
 
@@ -66,7 +66,7 @@ Pour suivre ces cas pratiques, vous devez configurer [Experience Cloud DTM Core 
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Configurer Experience Cloud People Core Service  {#configuring-experience-cloud-people-core-service}
+### Configurer Experience Cloud People Core Service {#configuring-experience-cloud-people-core-service}
 
 L&#39;alias référencé précédemment dans DTM doit être créé dans le Core Service People Experience Cloud via un Attribut Client. Veillez à en créer un nouveau et à référencer le même alias DTM dans le code d&#39;intégration (« visitorid », par exemple).
 
@@ -76,7 +76,7 @@ L&#39;alias référencé précédemment dans DTM doit être créé dans le Core 
 >
 >Cet Attribut client sera utilisé dans la Data source dans Adobe Campaign (étape suivante).
 
-### Configurer les déclencheurs et les alias dans Campaign    {#configuring-triggers-and-aliases-in-campaign}
+### Configurer les déclencheurs et les alias dans Campaign {#configuring-triggers-and-aliases-in-campaign}
 
 1. Vérifiez que les **[!UICONTROL déclencheurs Experience Cloud]** sont visibles sur votre instance Adobe Campaign Standard. Si ce n’est pas le cas, contactez les administrateurs Adobe Campaign.
 
@@ -90,7 +90,7 @@ L&#39;alias référencé précédemment dans DTM doit être créé dans le Core 
    >
    >Vous pouvez réconcilier vos déclencheurs pour les utilisateurs anonymes et enregistrés. Pour les utilisateurs anonymes, le profil doit exister dans Adobe Campaign et un email a déjà été envoyé à l&#39;utilisateur. Pour cela, la configuration d&#39;identifiant de visiteur suffit. Toutefois, si vous souhaitez réconcilier des déclencheurs pour les utilisateurs enregistrés, vous devez paramétrer la source de données ID déclaré. Pour en savoir plus, consultez [Configuration de la source de données](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
-## Création d&#39;un trigger dans l&#39;interface d&#39;Experience Cloud  {#creating-a-trigger-in-the-experience-cloud-interface}
+## Création d&#39;un trigger dans l&#39;interface d&#39;Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
 Un déclencheur Adobe Experience Cloud doit être créé pour pouvoir l&#39;utiliser dans Campaign.
 

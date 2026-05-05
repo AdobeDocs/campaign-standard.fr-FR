@@ -66,7 +66,7 @@ Vous pouvez maintenant cliquer sur **[!UICONTROL Démarrer l&#39;export]**.
 
 ![](assets/cusresources_export4.png)
 
-Le package généré est disponible dans le dossier Téléchargements. Le nom du fichier zip est généré aléatoirement. Vous pouvez le renommer.
+Le package généré est disponible dans le dossier Téléchargements.Le nom du fichier zip est généré de manière aléatoire.Vous pouvez le renommer.
 
 ## Exporter les données {#exporting-the-data}
 
@@ -98,7 +98,7 @@ Vous pouvez maintenant cliquer sur **[!UICONTROL Démarrer l&#39;export]**.
 
 ![](assets/cusresources_exportdata5.png)
 
-Le package généré est disponible dans le dossier Téléchargements. Le nom du fichier zip est généré aléatoirement. Vous pouvez le renommer.
+Le package généré est disponible dans le dossier Téléchargements.Le nom du fichier zip est généré de manière aléatoire.Vous pouvez le renommer.
 
 ## Importer la structure {#importing-the-structure}
 
@@ -106,7 +106,7 @@ Le package généré est disponible dans le dossier Téléchargements. Le nom du
 
 1. Connectez-vous à l&#39;**instance cible** sur laquelle vous voulez importer les packages qui viennent d&#39;être créés.
 1. Accédez au menu **[!UICONTROL Administration]** / **[!UICONTROL Déploiement]** / **[!UICONTROL Imports de package]** pour créer un nouveau package afin d&#39;importer le fichier résultant du premier export.
-1. Glissez / déposez le **fichier structure** dans la zone prévue. Les formats acceptés sont ZIP ou XML.
+1. Glissez / déposez le **fichier structure** dans la zone prévue. Les formats acceptés sont ZIP ou XML.Les formats acceptés sont ZIP ou XML.
 
    ![](assets/cusresources_import2.png)
 
@@ -132,7 +132,7 @@ De la même manière, l&#39;étape se découpe en deux parties: l&#39;import du 
 ### Importer le package {#importing-the-data-package}
 
 1. Accédez au menu **[!UICONTROL Administration]** / **[!UICONTROL Déploiement]** / **[!UICONTROL Imports de package]** pour créer un nouveau package afin d&#39;importer le fichier contenant les données.
-1. Glissez / déposez le fichier des données dans la zone prévue. Les formats acceptés sont ZIP ou XML.
+1. Glissez/déposez le fichier des données dans la zone prévue.Les formats acceptés sont ZIP ou XML.
 1. Modifiez le libellé, par exemple « Import de données », puis cliquez sur **[!UICONTROL Enregistrer]**.
 1. Cliquez sur **[!UICONTROL Démarrer l&#39;import]**.
 

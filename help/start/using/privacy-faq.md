@@ -14,8 +14,8 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
-source-wordcount: '812'
+workflow-type: ht
+source-wordcount: '824'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Adobe ne fournit pas de conseils juridiques. Nous vous recommandons donc de vous
 
 **Obtention du consentement**
 
-* Établissez régulièrement la liste de tous les points de contact utilisés pour la capture des données afin de garantir votre conformité avec le RGPD (tenez compte de la langue, du mécanisme d’obtention du consentement et des journaux de consentements, par exemple).
+* Établissez régulièrement la liste de tous les points de contact utilisés pour la capture des données afin de garantir votre conformité avec le RGPD (tenez compte de la langue, du mécanisme d’obtention du consentement et l’historique du consentement, par exemple).
 
 * Vérifiez que tous les emails marketing comprennent un lien de désabonnement.
 
@@ -71,9 +71,9 @@ Adobe ne fournit pas de conseils juridiques. Nous vous recommandons donc de vous
 
 * Vérifiez que chaque utilisateur d’Adobe Campaign dispose des droits d’accès nécessaires pour exécuter ses tâches, mais qu’il ne dispose d’aucun autre droit pour effectuer d’autres tâches.
 
-## Préserver l’interaction client {#preserve-user-engagement}
+## Préserver l’engagement client {#preserve-user-engagement}
 
-**Comment les contrôleurs de données peuvent-ils obtenir le consentement avec un minimum d’impact sur l’interaction client ?**
+**Comment les contrôleurs de données peuvent-ils obtenir le consentement avec un minimum d’impact sur l’engagement client ?**
 
 Dans les cas où le consentement est nécessaire pour certaines activités de commercialisation, le consentement du consommateur doit être actif (l’absence de réponse ne peut valoir consentement, pas d’utilisation de cases pré-cochées). Le consentement ne doit pas non plus être groupé, ni être conditionné à l’offre de services.
 
@@ -103,7 +103,7 @@ En tant que contrôleur de données, vous avez la possibilité de personnaliser 
 
 **Quel est l’impact de la suppression des logs de tracking et de diffusion sur les rapports ?**
 
-Dans Adobe Campaign, les rapports reposent sur des indicateurs calculés grâce aux données agrégées issues des logs de diffusion et de tracking. Par conséquent, la suppression de ces logs ne doit pas avoir d’incidence sur les mesures affichées dans les rapports.
+Dans Adobe Campaign, les rapports reposent sur des indicateurs calculés à partir des données agrégées issues des logs de diffusion et de tracking.Par conséquent, la suppression des logs individuels ne doit pas avoir d’incidence sur les mesures affichées dans les rapports.
 
 ## Réimporter les données {#re-import-data}
 

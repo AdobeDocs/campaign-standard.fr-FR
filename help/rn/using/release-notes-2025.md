@@ -1,18 +1,18 @@
 ---
-title: Notes de mise à jour 2025
-description: Cette page répertorie toutes les versions 2025 d’Adobe Campaign Standard.
+title: Notes de mise à jour (2025)
+description: Cette page répertorie toutes les versions d’Adobe Campaign Standard publiées en 2025.
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89114
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
-workflow-type: tm+mt
+exl-id: 9046db34-f610-4721-b6eb-92334149366d
+source-git-commit: 4e39100c19fa7bd943b16e3ed87b8c2d82bdf814
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
 ---
 
-# Notes de mise à jour 2025 {#release-notes-2025}
+# Notes de mise à jour (2025) {#release-notes-2025}
 
 ## Version 25.2 - Version d’été 2025 {#summer-25}
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 * Amélioration de la gestion de l’épuisement de la séquence pour améliorer la fiabilité du système. (CAMP-57281)
 * Mises à jour générales pour la stabilisation du produit. (CAMP-57339)
-* Amélioration des rapports dynamiques pour une meilleure robustesse et une réduction des incohérences des données. (CAMP-58157)
+* Amélioration des rapports dynamiques pour une meilleure robustesse et une réduction des incohérences des données.(CAMP-58157)
 * Correction d’un problème en raison duquel les menus déroulants n’affichaient pas correctement le retour à la ligne du texte. (CAMP-57360)
 * Mise à jour de la fonctionnalité de création de rapports pour empêcher les utilisateurs et utilisatrices d’interroger les données datant de plus de 2 ans. (CAMP-59262)
 
@@ -58,4 +58,3 @@ ht-degree: 100%
 * Correction d’un problème de performances du processus de facturation (CAMP-56796)
 * Correction d’un problème de codage HTML avec le caractère `>` sur les pages web JSSP (CAMP-56497)
 * Correction d’un problème dans les rapports dynamiques lors de l’utilisation de l’option **Afficher sur les lignes sélectionnées** (CAMP-55895)
-

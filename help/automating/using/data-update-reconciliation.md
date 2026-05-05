@@ -38,10 +38,10 @@ L&#39;exemple suivant illustre un workflow permettant de créer une audience de 
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* une activité de [Réconciliation](../../automating/using/reconciliation.md) permettant d&#39;associer chaque colonne du fichier chargé à une colonne de la dimension des profils. Les enregistrements du fichier ne pouvant pas être identifiés (données manquantes, type de données incompatible, etc.) sont ignorés afin de préserver l&#39;intégrité des données de l&#39;audience finale.
+* une activité de [Réconciliation](../../automating/using/reconciliation.md) permettant d&#39;associer chaque colonne du fichier chargé à une colonne de la dimension des profils. Les enregistrements de fichiers non identifiables (données manquantes, type de données incompatible, etc.)sont ignorés pour préserver l’intégrité des données d’audience finales.
 
   ![](assets/identification_example1.png)
 
-* une activité de [Sauvegarde d&#39;audience](../../automating/using/save-audience.md) permettant d&#39;enregistrer l&#39;audience de profils.
+* Une activité de [Sauvegarde d’audience](../../automating/using/save-audience.md) permettant d’enregistrer l’audience de profils.
 
   ![](assets/identification_example3.png)

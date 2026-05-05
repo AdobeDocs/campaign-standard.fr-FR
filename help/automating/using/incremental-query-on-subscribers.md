@@ -25,11 +25,11 @@ Le workflow est construit de la manière suivante :
 
 ![](assets/incremental_query_example1.png)
 
-* Un [Planificateur](../../automating/using/scheduler.md), afin que le workflow s’exécute chaque lundi à 6h.
+* Une activité [Planificateur](../../automating/using/scheduler.md), afin que le workflow s’exécute chaque lundi à 6 h.
 
   ![](assets/incremental_query_example2.png)
 
-* Une [Requête incrémentale](../../automating/using/incremental-query.md), permettant de cibler tous les abonnés actuels lors de la première exécution, puis uniquement les nouveaux abonnés de la semaine lors des exécutions suivantes.
+* Une activité [Requête incrémentale](../../automating/using/incremental-query.md), permettant de cibler toutes les personnes abonnés actuelles lors de la première exécution, puis uniquement les nouvelles personnes abonnées de la semaine lors des exécutions suivantes.
 
   ![](assets/incremental_query_example3.png)
 

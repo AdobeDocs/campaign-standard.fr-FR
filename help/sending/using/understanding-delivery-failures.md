@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '1337'
+workflow-type: ht
+source-wordcount: '1403'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 * [À propos des processus d&#39;opt-in et d&#39;opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 * [Rebonds](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability)
 
-## Identifier les diffusions en échec pour un message    {#identifying-delivery-failures-for-a-message}
+## Identifier les diffusions en échec pour un message {#identifying-delivery-failures-for-a-message}
 
 Une fois une diffusion envoyée, l’onglet **[!UICONTROL Envois]** (voir [cette section](../../sending/using/monitoring-a-delivery.md#sending-logs)) permet de consulter le statut de la diffusion pour chaque profil ainsi que le type d’échec et la raison associés (voir [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons)).
 
@@ -45,11 +45,11 @@ Une fois une diffusion envoyée, l’onglet **[!UICONTROL Envois]** (voir [cette
 
 Un rapport d’usine dédié est également disponible. Ce rapport présente l’ensemble des erreurs relatives aux rebonds définitifs et temporaires survenues lors des diffusions ainsi que le traitement automatique des rebonds. Pour plus d’informations, consultez [cette section](../../reporting/using/bounce-summary.md).
 
-## Types de diffusion en échec et raisons    {#delivery-failure-types-and-reasons}
+## Types de diffusion en échec et raisons {#delivery-failure-types-and-reasons}
 
 Trois types d’erreur sont liés à une diffusion en échec :
 
-* **Hard** : une erreur de type &quot;hard&quot; indique une adresse invalide. Il s’agit d’un message d’erreur indiquant explicitement que l’adresse est invalide, par exemple : &quot;Utilisateur inconnu&quot;.
+* **Hard** : une erreur de type « hard » indique une adresse non valide.Il s’agit d’un message d’erreur indiquant explicitement que l’adresse est invalide, par exemple : « Utilisateur inconnu ou utilisatrice inconnue ».
 * **Soft** : il s&#39;agit d&#39;une erreur qui peut être temporaire, ou qui n&#39;a pas pu être qualifiée, par exemple : &quot;Domaine invalide&quot; ou &quot;Boîte pleine&quot;.
 * **Ignoré** : il s&#39;agit d&#39;une erreur que l&#39;on sait temporaire, par exemple &quot;Out of office&quot;, ou d&#39;une erreur technique, par exemple si l&#39;expéditeur est de type &quot;postmaster&quot;.
 
@@ -57,7 +57,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 | Libellé de l&#39;erreur | Type d&#39;erreur | Description |
 | ---------|----------|---------|
-| **[!UICONTROL Utilisateur inconnu]** | Hard | L&#39;adresse n&#39;existe pas. Aucune autre diffusion ne sera envoyée pour ce profil. |
+| **[!UICONTROL Utilisateur inconnu]** | Hard | L’adresse n’existe pas.Aucune nouvelle tentative de diffusion ne sera effectuée pour ce profil. |
 | **** | Hard | L&#39;adresse a été mise en quarantaine. |
 | **[!UICONTROL Inatteignable]** | Soft/Hard | Une erreur s’est produite dans la chaîne de diffusion du message (domaine temporairement inatteignable, par exemple). Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
 | **[!UICONTROL Adresse vide]** | Hard | L’adresse n’est pas définie. |
@@ -69,7 +69,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 | **[!UICONTROL Adresse sur liste bloquée]** | Hard | L’adresse a été ajoutée à la liste bloquée au moment de l’envoi. |
 | **[!UICONTROL Compte désactivé]** | Soft/Hard | Lorsque le Fournisseur d’Accès Internet (FAI) détecte une inactivité prolongée, il peut fermer le compte de l’utilisateur, ce qui rend les diffusions vers son adresse impossibles. Le type d’erreur Soft ou Hard dépend du type d’erreur reçu : si le compte est temporairement désactivé en raison d’une inactivité de 6 mois et qu’il peut toujours être activé, le statut **[!UICONTROL En erreur]** sera affecté et la diffusion sera de nouveau envoyée. Si l’erreur a reçu des signaux indiquant que le compte est définitivement désactivé, il sera mis directement en quarantaine. |
 | **[!UICONTROL Non connecté]** | Ignoré | Le téléphone portable du profil est éteint ou n’est pas connecté au réseau au moment de l’envoi du message. |
-| **[!UICONTROL Domaine invalide]** | Soft | Le domaine de l&#39;adresse email est erroné ou n&#39;existe plus. Ce profil sera ciblé de nouveau jusqu&#39;à ce que le nombre d&#39;erreurs atteigne 5. Une fois ce chiffre atteint, l&#39;enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée. |
+| **[!UICONTROL Domaine invalide]** | Soft | Le domaine de l’adresse e-mail est incorrect ou n’existe plus.Ce profil sera ciblé de nouveau jusqu’à ce que le nombre d’erreurs atteigne 5. Ensuite, l’enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée. |
 | **[!UICONTROL Texte trop long]** | Ignoré | Le nombre de caractères du SMS dépasse la limite autorisée. Pour plus d&#39;informations, consultez la section [Encodage, longueur et translittération des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Caractère non pris en charge par le codage]** | Ignoré | Le message SMS contient un ou plusieurs caractères qui ne sont pas pris en charge par le codage. &amp;Pour plus d’informations à ce sujet, consultez la section [Table des caractères - Norme GSM](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
@@ -78,7 +78,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 * [Rebonds définitifs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#hard-bounces)
 * [Rebonds temporaires](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#soft-bounces)
 
-## Reprises après une diffusion temporairement en échec     {#retries-after-a-delivery-temporary-failure}
+## Reprises après une diffusion temporairement en échec {#retries-after-a-delivery-temporary-failure}
 
 Si un message est en échec en raison d’une erreur temporaire, les reprises seront effectuées pendant la durée de la diffusion. Pour plus d’informations sur les types d’erreurs, voir [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons).
 
@@ -90,9 +90,9 @@ Pour modifier la durée d’une diffusion, accédez aux paramètres avancés de 
 
 >[!IMPORTANT]
 >
->**Le paramètre**[!UICONTROL  Durée de diffusion ]**dans vos diffusions Campaign n’est désormais utilisé que s’il est défini sur 3,5 jours ou moins.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
+>**Le paramètre**[!UICONTROL  Durée de diffusion ]**dans vos diffusions Campaign n’est désormais utilisé que s’il est défini sur 3,5 jours ou moins.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 
-Par exemple, si vous souhaitez que les reprises d’une diffusion s’arrêtent après un jour, vous pouvez définir la durée de la diffusion sur **1j**. Les messages de la file d’attente des nouvelles reprises seront alors supprimés après un jour.
+Par exemple, si vous souhaitez que les reprises d’une diffusion s’arrêtent après un jour, vous pouvez définir la durée de la diffusion sur **1 j**. Les messages de la file d’attente des nouvelles reprises seront alors supprimés après un jour.
 
 >[!NOTE]
 >
@@ -103,12 +103,12 @@ MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).
 -->
 
-## Erreurs synchrones et asynchrones    {#synchronous-and-asynchronous-errors}
+## Erreurs synchrones et asynchrones {#synchronous-and-asynchronous-errors}
 
 Une diffusion peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
 * **Erreur synchrone** : le serveur distant contacté par le serveur de diffusion Adobe Campaign a retourné immédiatement un message d’erreur. L’envoi de la diffusion au serveur du profil n’est pas autorisé.
-* **Erreur asynchrone** : un e-mail ayant fait l’objet d’un rebond ou un SR a été renvoyé plus tard par le serveur de réception. Les erreurs asynchrones peuvent se produire jusqu’à une semaine après l’envoi d’une diffusion.
+* **Erreur asynchrone** : un e-mail rejeté ou un SR est renvoyé plus tard par le serveur de réception.Les erreurs asynchrones peuvent se produire jusqu’à une semaine après l’envoi d’une diffusion.
 
 ## Qualification des e-mails rejetés {#bounce-mail-qualification}
 

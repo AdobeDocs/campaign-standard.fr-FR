@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '229'
+workflow-type: ht
+source-wordcount: '239'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Ces modèles sont proposés par défaut lors de la création d&#39;une nouvelle 
 
 ![](assets/lp_creation_1.png)
 
-Pour accéder aux modèles, cliquez sur le logo Adobe Campaign dans le coin supérieur gauche et sélectionnez **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de landing page]**.
+Pour accéder aux modèles, cliquez sur le logo Adobe Campaign dans le coin supérieur gauche et sélectionnez **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de page de destination]**.
 
 >[!NOTE]
 >

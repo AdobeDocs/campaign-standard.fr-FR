@@ -31,7 +31,7 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** permet de mettre à j
 
 Cette activité permet également d&#39;exporter des profils en tant qu&#39;audience/segment Adobe Experience Cloud. Cela permet par la suite de pouvoir exploiter ces audiences dans d&#39;autres solutions Adobe Experience Cloud. Pour plus d&#39;informations sur les audiences partagées, voir [Utilisation de Campaign et People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement utilisée afin de conserver des groupes de population calculés dans le même workflow, en les convertissant en audiences réutilisables.
 
@@ -78,7 +78,7 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement u
 
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Exemple  {#example}
+## Exemple {#example}
 
 Le workflow défini dans cet exemple illustre la mise à jour régulière d&#39;une audience à partir d&#39;un ciblage :
 
@@ -88,6 +88,6 @@ Le workflow défini dans cet exemple illustre la mise à jour régulière d&#39;
 
 ![](assets/save_audience_example_1.png)
 
-L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est paramétrée comme suit :
+L’activité **[!UICONTROL Sauvegarde d’audience]** est paramétrée comme suit :
 
 ![](assets/save_audience_example_2.png)

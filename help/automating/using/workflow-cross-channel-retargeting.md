@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '384'
+source-wordcount: '391'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Vous pouvez envoyer un email à des clients et ensuite un SMS à ceux qui n&#39;
 1. Saisissez les propriétés de l&#39;email et cliquez sur **[!UICONTROL Suivant]**.
 1. Pour créer la mise en page de votre e-mail, cliquez sur **[!UICONTROL Utiliser le concepteur d’e-mail]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
-1. Personnalisez votre email avec des offres spécifiques à chaque emplacement. Pour plus d&#39;informations, consultez la section décrivant la [conception d&#39;un email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Personnalisez votre email avec des offres spécifiques à chaque emplacement.Pour plus d&#39;informations, consultez la section décrivant la [conception d&#39;un email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre mise en page.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

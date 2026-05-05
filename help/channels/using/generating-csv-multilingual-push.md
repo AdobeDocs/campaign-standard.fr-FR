@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '1030'
+workflow-type: ht
+source-wordcount: '1040'
 ht-degree: 100%
 
 ---
@@ -34,8 +34,8 @@ Le téléchargement d’un fichier CSV pour générer du contenu à diffuser est
 1. isContentAvailable
 1. isMutableContent
 1. customFields
-1. locale
-1. language
+1. Paramètres régionaux
+1. Langue
 1. silentPush
 
 Consultez l’exemple de fichier CSV en cliquant sur **[!UICONTROL Télécharger un fichier d’exemple]** dans la fenêtre **[!UICONTROL Gérer les variantes de contenu]**. Voir à ce propos cette [section](../../channels/using/creating-a-multilingual-push-notification.md).
@@ -44,8 +44,8 @@ Consultez l’exemple de fichier CSV en cliquant sur **[!UICONTROL Télécharger
 * **Champs personnalisés** : utilisez le format JSON pour les champs personnalisés, par exemple `{"key1":"value1","key2":"value2"}`. Pour obtenir un exemple de champs personnalisés, reportez-vous au fichier d’exemple ci-dessus.
 * **isContentAvailable** : drapeau pour la vérification de Contenu disponible, la valeur 1 impliquant true, la valeur 0 impliquant false. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
 * **isMutableContent** : drapeau pour le Contenu mutable, la valeur 1 impliquant true, la valeur 0 impliquant false. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
-* **locale** : le paramètre régional est le champ des variantes de langue, par ex. « en_us » pour l’anglais américain et « fr_fr » pour le français de France.
-* **language** : nom de la langue associée au paramètre régional. Par exemple, si le paramètre régional est « en_us », le nom de la langue doit être « Anglais - États-Unis ».
+* **locale** : locale est le champ des variantes de langue, par ex. « en_us » pour l’anglais américain et « fr_fr » pour le français de France.
+* **language** : nom de la langue associée aux paramètres régionaux. Par exemple, si les paramètres régionaux sont définis sur « en_us », le nom de la langue doit être « Anglais - États-Unis ».
 * **silentPush** : drapeau pour le type de notification push. S’il s’agit d’une notification push classique, la valeur doit être 0. S’il s’agit d’une notification push silencieuse, la valeur doit être 1. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
 
 ## Contraintes et instructions relatives à la création d’un fichier CSV {#constraints-guideline-csv}
@@ -54,7 +54,7 @@ Consultez l’exemple de fichier CSV en cliquant sur **[!UICONTROL Télécharger
 Vous devez inclure le nom de chaque colonne dans le fichier CSV. Si vous n’utilisez aucune colonne pour le contenu, laissez-la vide.
 
 **Les colonnes « locale » et « language » sont obligatoires et la valeur est unique pour chaque ligne.**
-Une valeur vide pour cette colonne entraînera un échec de téléchargement de fichier.
+Une valeur vide pour cette colonne entraînera un échec de chargement de fichier.
 
 **L’ordre des colonnes est important**. L’ordre des colonnes dans le fichier téléchargé doit respecter le même format que le fichier d’exemple.
 
@@ -94,11 +94,11 @@ Dans le conteneur span, il existe deux attributs obligatoires :
 
 ![](assets/multilingual_push_2.png)
 
-## Paramètre régional et noms de langue {#locale-language-names}
+## Paramètres régionaux et noms de langue {#locale-language-names}
 
 Les langues prises en charge sont les suivantes :
 
-| Paramètre régional | Langue |
+| Paramètres régionaux | Langue |
 |:-:|:-:|
 | af_za | Afrikaans - Afrique du Sud |
 | sq_al | Albanais - Albanie |

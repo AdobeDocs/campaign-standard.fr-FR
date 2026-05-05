@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
 source-git-commit: 64da7ac09e1b0fbf13ba1e563b6dc7be995b1640
-workflow-type: tm+mt
-source-wordcount: '542'
+workflow-type: ht
+source-wordcount: '544'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Le **[!UICONTROL journal d&#39;audit]** comprend trois composants :
 
 * **Journal d&#39;audit des workflows** : consultez les activités et les dernières modifications apportées aux workflows, ainsi que l’état de vos workflows, tel que :
 
-   * Créé
+   * Created
    * Modifié
    * Supprimé
    * Démarrage du workflow
@@ -88,7 +88,7 @@ Pour accéder au journal d&#39;audit de votre instance :
 
 >[!NOTE]
 >
-> Seuls les administrateurs fonctionnels peuvent activer ou désactiver le journal d’audit. Pour en savoir plus à ce sujet, consultez cette [page](../../administration/using/users-management.md#functional-administrators).
+> Seuls les administrateurs fonctionnels peuvent activer ou désactiver le journal d’audit. Pour plus d’informations à ce sujet, consultez cette [page](../../administration/using/users-management.md#functional-administrators).
 
 Le journal d’audit peut être facilement activé ou désactivé pour une activité spécifique.
 
@@ -107,11 +107,11 @@ Pour ce faire :
 
      >[!NOTE]
      >
-     >Si l’option **[!UICONTROL XtkAudit_Enable_All]** est définie sur 0, la fonction **[!UICONTROL Journal d’audit]** sera complètement désactivée, indépendamment des autres valeurs d’option individuelles.
+     >Si l’option **[!UICONTROL XtkAudit_Enable_All]** est définie sur 0, la fonction **[!UICONTROL Journal d’audit]** sera complètement désactivée, indépendamment des autres valeurs d’option individuelles.
 
    ![](assets/audit-trail_5.png)
 
-1. Dans la page **[!UICONTROL Options]**, définissez la **[!UICONTROL valeur (entier)]** sur 0 si vous souhaitez désactiver le **[!UICONTROL Journal d’audit]** ou sur 1 pour l’activer.
+1. Dans la page **[!UICONTROL Options]**, définissez la **[!UICONTROL valeur (entier)]** sur 0 si vous souhaitez désactiver le **[!UICONTROL Journal d’audit]** ou sur 1 pour l’activer.
 
    ![](assets/audit-trail_6.png)
 

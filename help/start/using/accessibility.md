@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '648'
+workflow-type: ht
+source-wordcount: '661'
 ht-degree: 100%
 
 ---
@@ -29,11 +29,11 @@ Adobe Campaign Standard offre des fonctionnalités qui rendent plus accessible
 
 L’interface utilisateur d’Adobe Campaign Standard s’efforce de fournir un contraste suffisant dans l’application afin de garantir une expérience d’affichage accessible aux utilisateurs présentant une faible vision ou des défauts de vision des couleurs.
 
-* Le texte et les en-têtes de grande taille ont été améliorés pour atteindre un rapport de contraste de 3:1.
+* Le texte volumineux et les en-têtes ont été améliorés pour obtenir un rapport de contraste de 3:1.
 
   ![](assets/accessibility_2.png)
 
-* Le contenu de l’aide et le corps de texte de l’application ont été mis à jour pour respecter un rapport de contraste de 4,5:1.
+* Le contenu d’aide et le corps de texte de l’application ont été mis à jour pour respecter un rapport de contraste de 4,5:1.
 
 * Les icônes de mise en pause et d’annulation des workflows ont été mises à jour afin d’améliorer le contraste entre les couleurs d’arrière-plan et de premier plan.
 
@@ -49,7 +49,7 @@ L’interface utilisateur d’Adobe Campaign Standard facilite l’interaction
 
   ![](assets/accessibility_3.png)
 
-* Le contenu qui s’affiche au survol ou au focus peut être ignoré par l’utilisateur et n’obscurcit aucun autre contenu.
+* Le contenu qui s’affiche au survol ou au focus peut être ignoré par l’utilisateur ou l’utilisatrice et n’obscurcit aucun autre contenu.
 
   ![](assets/accessibility_4.png)
 

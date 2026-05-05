@@ -12,7 +12,7 @@ level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '883'
+source-wordcount: '878'
 ht-degree: 100%
 
 ---
@@ -72,7 +72,7 @@ Certains raccourcis sont activés uniquement au niveau de l’espace de travail�
 
 ![](assets/workflow_workspace.png)
 
-## La barre d&#39;actions  {#action-bar}
+## La barre d&#39;actions {#action-bar}
 
 En fonction des éléments sélectionnés dans l’espace de travail ou du statut d’exécution du workflow, les boutons disponibles dans la barre d’actions peuvent différer.
 
@@ -114,7 +114,7 @@ Lorsqu’une activité est sélectionnée, des boutons d’actions rapides appar
 
 <img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copier la sélection]**<br/>Copie l’activité sélectionnée.
 
-<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Ouvrir les options avancées de l’activité]**<br/>Ouvre les options avancées de l’activité de diffusion email ou SMS sélectionnée.
+<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Ouvrir les options avancées de l’activité]**<br/>Ouvre les options avancées de l’activité de diffusion e-mail ou SMS sélectionnée.
 
 <img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Exécution normale]**<br/>Réactive la sélection après qu’elle a été marquée comme en pause ou désactivée.
 
@@ -164,4 +164,4 @@ Cette vidéo montre comment créer un workflow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/31326?captions=fre_fr&quality=12)
 
-D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

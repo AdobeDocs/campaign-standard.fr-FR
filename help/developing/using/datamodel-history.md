@@ -8,8 +8,8 @@ role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '1347'
+workflow-type: ht
+source-wordcount: '1348'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>blackListPostalMail</td>
-                  <td>No longer contact by direct mail</td>
+                  <td>Ne plus contacter par courrier</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -255,8 +255,8 @@ ht-degree: 100%
                   <td> </td>
                </tr>
                <tr>
-                  <td>thumbnail</td>
-                  <td>Thumbnail</td>
+                  <td>miniature</td>
+                  <td>Miniature</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>

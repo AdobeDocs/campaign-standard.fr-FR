@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '5272'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '5444'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 ![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du Panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
 
-## Version 20.4 - Octobre 2020        {#release-20-4---october-2020}
+## Version 20.4 - Octobre 2020 {#release-20-4---october-2020}
 
 **Nouveautés**
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Vous pouvez désormais utiliser des <strong>Populations témoins</strong> pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Vous pourrez ensuite comparer les comportements de la population cible qui a reçu le message et ceux des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pourrez également cibler une population témoin dans les prochaines campagnes.
+  <td> <p>Vous pouvez désormais utiliser des <strong>Populations témoins</strong> pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Vous pourrez ensuite comparer le comportement de la population cible qui a reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pourrez également cibler une population témoin dans les prochaines campagnes.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../../sending/using/control-group.md">documentation détaillée</a> et visualisez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=fr">vidéo pratique</a>.
 </p>
@@ -45,7 +45,7 @@ ht-degree: 99%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>API externe - Prise en charge OAuth</strong><br /> </th> 
+<th><strong>API externe - Prise en charge OAuth</strong><br /></th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -62,7 +62,7 @@ ht-degree: 99%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Intégration de l’IA dédiée au parcours</strong><br /> </th> 
+<th><strong>Intégration de l’IA dédiée au parcours</strong><br /></th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -98,7 +98,7 @@ ht-degree: 99%
 * Correction d’un problème qui survenait lors du téléchargement de contenus à partir d’un fichier HTML joint. Une fois le message envoyé à une adresse Gmail, la page CSS n’était pas appliquée, ce qui provoquait un problème de rendu. (CAMP-44085)
 * Correction d’un problème qui empêchait la mise à jour des fragments de contenu précédemment utilisés dans un message lorsqu’ils étaient modifiés directement dans le modèle de contenu. (CAMP-43973)
 * Correction d’un problème avec la barre de recherche **Fragments**. Lors de la recherche d’un fragment existant, la barre de recherche n’affichait aucun résultat. (CAMP-44223)
-* Correction d’un problème lié aux barres de recherche **Blocs de contenu** et **Fragments**. Lors de l’utilisation de l’une des barres de recherche, les résultats ne s’affichaient que si vous cliquiez sur **Afficher plus de résultats...**. (CAMP-44205)
+* Correction d’un problème lié aux barres de recherche **Blocs de contenu** et **Fragments**. Lors de l’utilisation de l’une des barres de recherche, les résultats ne s’affichaient que si vous cliquiez sur **Afficher plus de résultats…**. (CAMP-44205)
 * Correction d’un problème qui empêchait l’application du remplissage entre le texte et les images dans Microsoft Outlook. (CAMP-45370)
 * Correction d’un problème lors de la duplication d’un fragment. Après avoir dupliqué le fragment, il manquait des lignes HTML dans le fragment d’origine. (CAMP-45207)
 * Correction d’une erreur qui provoquait des problèmes de rendu dans Microsoft Outlook. (CAMP-44749)
@@ -141,7 +141,7 @@ ht-degree: 99%
 * Correction d’un problème qui empêchait l’affichage des pourcentages des rapports de hot clicks lors de l’importation de contenu à partir d’une URL. (CAMP-44468)
 * Correction d’un problème qui pouvait afficher une erreur de temporisation lors de la sélection d’un profil à utiliser dans le contexte de la substitution de profil. (CAMP-44746)
 * Correction d’un problème en raison duquel les instances ne fonctionnaient pas après le déploiement de ressources personnalisées contenant des définitions de liens incorrectes. (CAMP-44406)
-* Correction d’un problème en raison duquel des entités liées vides (typologies, marques, etc.) étaient créées après avoir copié et collé une diffusion dans un modèle de campagne. (CAMP-44765)
+* Correction d’un problème qui créait des entités liées vides (typologies, marques, etc.)après avoir copié et collé une diffusion dans un modèle de campagne.(CAMP-44765)
 * Correction d’un problème qui empêchait l’envoi de BAT en raison d’une gestion incorrecte des tables de préparation de diffusion en cas de blocage de la base de données ou de redémarrage simple de la base de données sur Azure.
 * Correction d’un problème qui pouvait empêcher de supprimer des liens avec du contenu Experience Manager dans une diffusion configurée avec du contenu multilingue. (CAMP-44029)
 * Correction d’un problème dans les rapports dynamiques qui pouvait afficher un message d’erreur lors de la tentative de filtrage des dimensions.  (CAMP-43097)
@@ -187,7 +187,7 @@ ht-degree: 99%
 
 
 
-## Version 20.3 - Mai 2020                {#release-20-3---may-2020}
+## Version 20.3 - Mai 2020 {#release-20-3---may-2020}
 
 **Nouveautés**
 
@@ -291,7 +291,7 @@ ht-degree: 99%
 
 ![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du Panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
 
-## Version 20.2 - Avril 2020                {#release-20-2---april-2020}
+## Version 20.2 - Avril 2020 {#release-20-2---april-2020}
 
 **Nouveautés**
 
@@ -304,7 +304,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Le connecteur de stockage Blob de Microsoft Azure peut maintenant être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow <strong>Transfert de fichier</strong>. </p>
-    <p>Pour plus d'informations, consultez la <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">documentation détaillée</a>.</p>
+    <p>Pour plus d’informations, consultez la <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">documentation détaillée</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -318,7 +318,7 @@ ht-degree: 99%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Outre les profils de test, vous pouvez maintenant tester vos emails sur des profils ciblés réels. Vous obtenez ainsi une représentation exacte du message que le profil recevra : champs personnalisés, informations dynamiques et personnalisées, notamment des données additionnelles provenant des workflows, etc. </p>
+   <td> <p>Outre les profils de test, vous pouvez maintenant tester vos e-mails sur des profils ciblés réels.Vous obtenez ainsi une représentation exacte du message que le profil recevra : champs personnalisés, informations dynamiques et personnalisées, notamment des données additionnelles provenant des workflows, etc. </p>
     <p>Pour plus d’informations, consultez la <a href="../../sending/using/testing-messages-using-target.md">documentation détaillée</a> et regardez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=fr">vidéo de tutoriel</a>. </p>
    </td> 
   </tr> 
@@ -376,15 +376,15 @@ ht-degree: 99%
 * Correction d’un problème qui se produisait dans les workflows lors de l’exécution d’une activité avec plusieurs transitions entrantes.
 * Correction d’un problème qui empêchait les utilisateurs standard d’utiliser les inscriptions à une application comme dimension cible dans une requête de workflow ou une diffusion. (CAMP-37618)
 
-## Version 20.1.4 - Février 2020               {#release-20-1-4---february-2020}
+## Version 20.1.4 - Février 2020 {#release-20-1-4---february-2020}
 
 * Correction d’un problème lors de l’ouverture d’une activité **Lecture d’audience** sur des workflows existants. (CAMP-41002)
 
-## Version 20.1.3 - Février 2020               {#release-20-1-3---february-2020}
+## Version 20.1.3 - Février 2020 {#release-20-1-3---february-2020}
 
 * Correction d’un problème de régression introduit dans la version 20.1 par CAMP-39273 pour les clients qui utilisaient la faille. CAMP-39273 a été annulé.
 
-## Version 20.1.2 - Février 2020               {#release-20-1-2---february-2020}
+## Version 20.1.2 - Février 2020 {#release-20-1-2---february-2020}
 
 **Améliorations du concepteur d’e-mail**
 
@@ -392,7 +392,7 @@ ht-degree: 99%
 * Correction d’un problème qui entraînait l’ajout d’un espace lors de l’utilisation de contenu dynamique. (CAMP-40605)
 * Correction d’un problème lors de la configuration d’un modèle d’email transactionnel. (CAMP-40604)
 
-## Version 20.1 - Février 2020               {#release-20-1---february-2020}
+## Version 20.1 - Février 2020 {#release-20-1---february-2020}
 
 **Nouveautés**
 
@@ -405,7 +405,7 @@ ht-degree: 99%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Experience Platform Data Connector est maintenant intégré avec Adobe Campaign Standard. Vous pouvez rendre vos données Campaign disponibles sur Adobe Experience Platform en mappant les données XTK (données ingérées dans Campaign) sur le modèle de données Adobe Experience Platform (XDM). </p>
+   <td> <p>Le connecteur de données Adobe Experience Platform est maintenant intégré avec Adobe Campaign Standard.Vous pouvez rendre vos données Campaign disponibles sur Adobe Experience Platform en mappant les données XTK (données ingérées dans Campaign) sur le modèle de données Adobe Experience Platform (XDM). </p>
     <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure.</p>
    </td> 
   </tr> 

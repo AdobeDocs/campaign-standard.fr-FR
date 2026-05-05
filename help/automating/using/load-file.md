@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1528'
+source-wordcount: '1532'
 ht-degree: 100%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Chargement de fichier]** permet d&#39;importer les données d&#39;un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l&#39;utilisation d&#39;une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 La façon dont les données seront extraites est définie lors du paramétrage de l’activité. Le fichier à charger peut par exemple être une liste de contacts.
 
-Vous pouvez ainsi effectuer les actions suivantes :
+Vous pouvez ainsi :
 
 * utiliser la structure du fichier pour l&#39;appliquer aux données d&#39;un autre fichier (récupéré grâce à l&#39;activité **[!UICONTROL Transfert de fichier]**) ou,
 * utiliser la structure et les données du fichier pour les importer dans Adobe Campaign.
@@ -90,9 +90,9 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d’abord, vo
 
    L&#39;onglet **[!UICONTROL Définition des colonnes]** vous permet de définir précisément la structure des données de chaque colonne pour importer des données qui ne contiennent pas d&#39;erreur (grâce à la gestion des nulls par exemple) et les faire correspondre aux types pré-existants de la base Adobe Campaign pour des opérations ultérieures.
 
-   Vous pouvez par exemple modifier le libellé d&#39;une colonne, sélectionner son type (chaîne, nombre entier, date, etc.) ou encore définir le traitement des erreurs.
+   Vous pouvez par exemple modifier le libellé d’une colonne, sélectionner son type (chaîne, nombre entier, date, etc.)ou encore définir le traitement des erreurs.
 
-   Pour plus d’informations, consultez [Format des colonnes](#column-format).
+   Pour plus d’informations, consultez la section [Format des colonnes](#column-format).
 
    ![](assets/wkf_file_loading4.png)
 
@@ -112,7 +112,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d’abord, vo
 
    >[!NOTE]
    >
-   >L&#39;option **[!UICONTROL Ajoutez la date et l&#39;heure au nom du fichier]** permet d&#39;ajouter un horodatage au nom du fichier contenant les rejets.
+   >L’option **[!UICONTROL Ajoutez la date et l’heure au nom du fichier]** permet d’ajouter un horodatage au nom du fichier contenant les rejets.
 
    ![](assets/wkf_file_loading_keeprejects.png)
 
@@ -149,7 +149,7 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
 * **[!UICONTROL Remapping des valeurs]** : ce champ est disponible uniquement dans la configuration des détails d’une colonne. Il permet de transformer certaines valeurs lors de l&#39;import. Par exemple, vous pouvez transformer « trois » en « 3 ».
 * **[!UICONTROL Traitement des erreurs]** : permet de définir le comportement en cas d&#39;erreur.
 
-   * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le log d&#39;exécution du workflow. 
+   * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le log d&#39;exécution du workflow.
    * **[!UICONTROL Rejeter la ligne]** : la ligne entière n&#39;est pas traitée.
    * **[!UICONTROL Utiliser une valeur par défaut]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**.
    * **[!UICONTROL Utiliser une valeur par défaut en cas d’absence de remapping]** : remplace la valeur causant l’erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si un remapping a été défini pour la valeur en erreur (voir option **[!UICONTROL Remapping des valeurs]** ci-dessus).
@@ -157,7 +157,7 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
 
   >[!NOTE]
   >
-  >**[!UICONTROL Le Traitement des erreurs]** concerne les erreurs au niveau des valeurs renseignées dans le fichier importé. Par exemple, un mauvais type de données rencontré (&quot;quatre&quot; en toutes lettres pour une colonne de type &quot;Nombre entier&quot;), une chaîne contenant plus de caractères que le nombre maximum autorisé, une date avec les mauvais séparateurs, etc. En revanche, cette option ne concerne pas les erreurs générées par la gestion des valeurs vides.
+  >Le **[!UICONTROL Traitement des erreurs]** concerne les erreurs au niveau des valeurs renseignées dans le fichier importé.Par exemple, un mauvais type de données rencontré (« quatre » en toutes lettres pour une colonne de type « Nombre entier »), une chaîne contenant plus de caractères que le nombre maximum autorisé, une date avec les mauvais séparateurs, etc. Toutefois, cette option ne s’applique pas aux erreurs dues à une gestion de valeurs vides.
 
 * **[!UICONTROL Valeur par défaut]** : permet de spécifier la valeur par défaut en fonction du choix concernant le traitement des erreurs.
 * **[!UICONTROL Gestion des valeurs vides]** : permet d&#39;indiquer comment gérer les valeurs vides rencontrées lors du chargement des données.

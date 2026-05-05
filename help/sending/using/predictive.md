@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
-workflow-type: tm+mt
-source-wordcount: '1112'
+workflow-type: ht
+source-wordcount: '1126'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Adobe Campaign offre deux nouveaux modèles de machine learning : **optimisat
 
 * **L’optimisation de l’heure d’envoi prédictive** estime la meilleure heure d’envoi pour chaque profil de destinataire en ce qui concerne les ouvertures d’e-mails ou les clics et les ouvertures de messages push. Pour chaque profil de destinataire, les scores indiquent la meilleure heure d’envoi pour chaque jour de la semaine et le jour de la semaine le plus approprié à l’envoi afin d’obtenir les meilleurs résultats.
 
-* **Score prédictif de l’engagement** : estime la probabilité qu’un(e) destinataire interagisse avec un message, ainsi que la probabilité de se désinscrire dans les 7 jours suivant l’envoi du prochain e-mail. Les probabilités sont divisées en compartiments en fonction du niveau d’engagement estimé pour votre contenu : élevé, moyen ou faible. Ces modèles fournissent également le rang centile du risque de désabonnement pour les clients, afin de comprendre où se situe le rang d’un certain client par rapport aux autres.
+* **Score prédictif de l’engagement** : estime la probabilité qu’un(e) destinataire interagisse avec un message, ainsi que la probabilité de se désinscrire dans les 7 jours suivant l’envoi du prochain e-mail. Les probabilités sont divisées en compartiments en fonction du niveau d’engagement estimé pour votre contenu : élevé, moyen ou faible. Ces modèles fournissent également le rang percentile du risque de désabonnement pour les clients, afin de comprendre où se situe le rang d’un certain client par rapport aux autres.
 
 ## Optimisation de l’heure d’envoi prédictive{#predictive-send-time}
 
@@ -45,7 +45,7 @@ Dans le modèle d’optimisation de l’heure d’envoi prédictive, il existe d
 
 Détails de la sortie
 
-* Calcule la meilleure heure d’envoi de l’e-mail pendant les 7 jours de la semaine avec des intervalles d’une heure (p. ex. : 9 h, 10 h, 11 h).
+* Calcule la meilleure heure d’envoi d’un e-mail au cours des 7 jours de la semaine avec des intervalles d’une heure (par exemple : 9 :00, 10 :00, 11 :00).
 * Le modèle indique le meilleur jour de la semaine et la meilleure heure de la journée.
 * Chaque heure optimale est calculée deux fois : une fois pour maximiser le taux d’ouverture et une fois pour maximiser le taux de clics
 * 16 champs sont proposés (14 pour les jours de la semaine et 2 pour toute la semaine) :
@@ -103,9 +103,9 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 ## Score prédictif de l&#39;engagement {#predictive-scoring}
 
-Le score prédictif de l’engagement estime la probabilité qu’un(e) destinataire interagisse avec un message, ainsi que la probabilité de se désinscrire dans les 7 jours suivant l’envoi du prochain e-mail.
+Le score prédictif de l’engagement estime la probabilité qu’un destinataire interagisse avec un message, ainsi que la probabilité de se désinscrire dans les 7 jours suivant l’envoi du prochain e-mail.
 
-Les probabilités sont divisées en compartiments en fonction du niveau d’engagement estimé pour votre contenu : élevé, moyen ou faible. Ces modèles fournissent également le rang centile du risque de désabonnement pour les clients, afin de comprendre où se situe le rang d’un certain client par rapport aux autres.
+Les probabilités sont divisées en compartiments en fonction du niveau d’engagement estimé pour votre contenu : élevé, moyen ou faible. Ces modèles fournissent également le rang percentile du risque de désabonnement pour les clients, afin de comprendre où se situe le rang d’un certain client par rapport aux autres.
 
 Le score prédictif de l’engagement vous permet de :
 
@@ -118,7 +118,7 @@ Ce modèle utilise plusieurs scores pour indiquer :
 * **Score d’engagement avec ouverture/Score d’engagement avec clic** : cette valeur correspond à la probabilité qu’un abonné interagisse avec un message spécifique (ouverture ou clic). Les valeurs sont comprises entre 0,0 et 1,0.
 * **Probabilité de désabonnement** : cette valeur correspond à la probabilité pour le destinataire de se désabonner d’un canal email après l’ouverture d’un email. Les valeurs sont comprises entre 0,0 et 1,0.
 * **Niveau de rétention** : cette valeur classe les utilisateurs et utilisatrices en trois niveaux : bas, moyen et élevé. Élevé indique que l’utilisateur est susceptible de rester fidèle à la marque et faible indique qu’il est susceptible de se désabonner.
-* **Rang centile de rétention** : profil classé en termes de probabilité de désabonnement. Les valeurs sont comprises entre 0,0 et 1,0. Par exemple, si le rang de pourcentage de rétention est de 0,953, ce destinataire est plus susceptible de rester fidèle à la marque et moins susceptible de se désabonner que 95,3 % de tous les destinataires.
+* **Rang percentile de rétention** : profil classé en termes de probabilité de désabonnement. Les valeurs sont comprises entre 0,0 et 1,0.Par exemple, si le rang de pourcentage de rétention est de 0,953, cette personne destinataire est plus susceptible de rester fidèle à la marque et moins susceptible de se désabonner que 95,3 % de toutes les personnes destinataires.
 
 >[!NOTE]
 >

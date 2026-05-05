@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ L&#39;éditeur de contenu de SMS et de notification push comporte deux sections 
 1. La **barre d&#39;actions** regroupe les options générales de la page. Vous pouvez insérer des champs de personnalisation ou des blocs de contenu, ajouter du texte conditionnel et prévisualiser le contenu de votre SMS grâce à celle-ci. Voir [Barre d&#39;actions de l&#39;éditeur de contenu de SMS et de notification push](#sms-and-push-content-editor-action-bar).
 1. La **zone d&#39;édition** de l&#39;écran permet de saisir directement le SMS et de sélectionner l&#39;endroit où vous souhaitez insérer une personnalisation. Voir [Modes d&#39;édition du contenu d&#39;un SMS et d&#39;une notification push](#sms-and-push-content-edition-modes).
 
-## Barre d&#39;actions de l&#39;éditeur de contenu de SMS et de notification push     {#sms-and-push-content-editor-action-bar}
+## Barre d&#39;actions de l&#39;éditeur de contenu de SMS et de notification push {#sms-and-push-content-editor-action-bar}
 
 La barre d&#39;actions contient différents boutons permettant d&#39;agir sur le contenu en cours de création.
 
@@ -31,52 +31,52 @@ La barre d&#39;actions contient différents boutons permettant d&#39;agir sur le
  <thead> 
   <tr> 
    <th> Icône<br /> </th> 
-   <th> Nom du bouton<br /> </th> 
-   <th> Channel<br /> </th> 
-   <th> Description<br /> </th> 
+   <th>Nom du bouton<br /></th> 
+   <th>Canal<br /></th> 
+   <th>Description<br /></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Aperçu</span> <br /> </td> 
-   <td> SMS uniquement<br /> </td> 
-   <td> Permet de visualiser le rendu de l'email pour un destinataire. Voir <a href="../../sending/using/previewing-messages.md">Prévisualiser le message</a>.<br /> </td> 
+   <td><img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /></td> 
+   <td><span class="uicontrol">Aperçu</span> <br /></td> 
+   <td>SMS uniquement<br /></td> 
+   <td>Permet de visualiser le rendu de l’e-mail pour une personne destinataire.Consultez <a href="../../sending/using/previewing-messages.md">Prévisualiser des message</a>.<br /></td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Annuler</span> <br /> </td> 
-   <td> SMS et notifications push<br /> </td> 
-   <td> Annule la dernière action effectuée.<br /> </td> 
+   <td><img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /></td> 
+   <td><span class="uicontrol">Annuler</span> <br /></td> 
+   <td>SMS et notifications push<br /></td> 
+   <td>Annule la dernière action effectuée.<br /></td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/redo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Rétablir</span> <br /> </td> 
-   <td> SMS et notifications push<br /> </td> 
-   <td> Rétablit la dernière action que vous avez annulée.<br /> </td> 
+   <td><img height="21px" src="assets/redo_darkgrey-24px.png" /> <br /></td> 
+   <td><span class="uicontrol">Rétablir</span> <br /></td> 
+   <td>SMS et notifications push<br /></td> 
+   <td>Rétablit la dernière action que vous avez annulée.<br /></td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Insérer un champ de personnalisation</span> <br /> </td> 
-   <td> SMS et notifications push<br /> </td> 
-   <td> Permet d'ajouter un champ de la base de données dans le contenu. Voir <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Insertion d’un champ de personnalisation</a>.<br /> </td> 
+   <td><img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /></td> 
+   <td><span class="uicontrol">Insérer un champ de personnalisation</span> <br /></td> 
+   <td>SMS et notifications push<br /></td> 
+   <td>Permet d’ajouter un champ de la base de données dans le contenu.Consultez <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Insertion d’un champ de personnalisation</a>.<br /></td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Insérer un bloc de contenu</span> <br /> </td> 
-   <td> SMS et notifications push<br /> </td> 
-   <td> Permet d'insérer un bloc de personnalisation dans le contenu. Voir <a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">Ajouter un bloc de contenu</a>.<br />. </td> 
+   <td><img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /></td> 
+   <td><span class="uicontrol">Insérer un bloc de contenu</span> <br /></td> 
+   <td>SMS et notifications push<br /></td> 
+   <td>Permet d’insérer un bloc de personnalisation dans le contenu.Consultez <a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">Ajouter un bloc de contenu</a>.<br />.</td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Activer le texte dynamique</span> <br /> </td> 
-   <td> SMS et notifications push<br /> </td> 
-   <td> Permet d'insérer du texte dynamique dans le contenu. Voir <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Définir un texte dynamique</a>.<br />. </td> 
+   <td><img height="21px" src="assets/dynamiccontent_24px.png" /> <br /></td> 
+   <td><span class="uicontrol">Activer le texte dynamique</span> <br /></td> 
+   <td>SMS et notifications push<br /></td> 
+   <td>Permet d’insérer du texte dynamique dans le contenu.Consultez <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Définir un texte dynamique</a>.<br />.</td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Désactiver le texte dynamique</span> <br /> </td> 
-   <td> SMS et notifications push<br /> </td> 
+   <td><img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /></td> 
+   <td><span class="uicontrol">Désactiver le texte dynamique</span> <br /></td> 
+   <td>SMS et notifications push<br /></td> 
    <td> Permet de supprimer le texte dynamique.<br /> </td> 
   </tr> 
  </tbody> 

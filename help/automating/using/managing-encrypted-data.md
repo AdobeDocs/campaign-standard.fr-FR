@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '917'
+source-wordcount: '963'
 ht-degree: 100%
 
 ---
@@ -42,9 +42,9 @@ Une fois la demande traitée, les commandes de chiffrement/déchiffrement seront
 * [Chargement de fichier](../../automating/using/load-file.md)
 * [Extraction de fichier](../../automating/using/extract-file.md)
 
-## Cas pratique : import de données chiffrées à l&#39;aide d&#39;une clé générée par le Panneau de contrôle {#use-case-gpg-decrypt}
+## Cas d’utilisation : import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle {#use-case-gpg-decrypt}
 
-Dans ce cas pratique, nous allons créer un workflow afin d’importer des données chiffrées dans un système externe, à l’aide d’une clé générée dans le Panneau de contrôle.
+Dans ce cas d’utilisation, nous allons créer un workflow afin d’importer des données chiffrées dans un système externe, à l’aide d’une clé générée dans le Panneau de contrôle.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -52,7 +52,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Utilisez le Panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr#decrypting-data).
 
-   * La clé publique sera partagée avec le système externe. Ce dernier l’utilisera pour chiffrer les données à envoyer à Campaign.
+   * La clé publique sera partagée avec le système externe. Ce dernier l&#39;utilisera pour chiffrer les données à envoyer à Campaign.
    * Campaign utilisera la clé privée pour déchiffrer les données chiffrées entrantes.
 
    ![](assets/gpg_generate.png)
@@ -82,11 +82,11 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    ![](assets/gpg_load.png)
 
-1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration de l’activité.
+1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration de l&#39;activité.
 
 1. Vous pouvez maintenant exécuter le workflow.
 
-## Cas pratique : chiffrement et export de données à l&#39;aide d&#39;une clé installée sur le Panneau de contrôle {#use-case-gpg-encrypt}
+## Cas d’utilisation : chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle {#use-case-gpg-encrypt}
 
 Dans ce cas d’utilisation, nous allons créer un workflow pour chiffrer et exporter des données à l’aide d’une clé installée sur le Panneau de contrôle.
 
@@ -106,7 +106,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
    * Activité **[!UICONTROL Extraction de fichier]** : chiffre et extrait les données dans un fichier.
    * **[!UICONTROL Transfert de fichier]** : transfère le fichier contenant les données chiffrées vers un serveur SFTP.
 
-1. Configurez l’activité **[!UICONTROL Requête]** pour qu’elle cible les données de votre choix dans la base de données. Voir à ce propos [cette section](../../automating/using/query.md).
+1. Configurez l&#39;activité **[!UICONTROL Requête]** pour qu&#39;elle cible les données de votre choix dans la base de données. Pour plus d’informations, consultez [cette section](../../automating/using/query.md).
 
 1. Ouvrez l’activité **[!UICONTROL Extraction de fichier]**, puis configurez-la selon vos besoins (fichier de sortie, colonnes, format, etc.). Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../automating/using/extract-file.md).
 

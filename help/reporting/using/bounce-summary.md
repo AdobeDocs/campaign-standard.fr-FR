@@ -10,8 +10,8 @@ role: Leader
 level: Intermediate
 exl-id: 03ea2f20-959c-497e-bd71-4e77132d712e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '290'
+workflow-type: ht
+source-wordcount: '294'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Le tableau **Raisons des rebonds** contient les données disponibles pour les ty
 
   >[!NOTE]
   >
-  >Ce type d’envoi ne concerne que les diffusions sur les canaux mobiles.
+  >Ce type d’erreur ne concerne que les diffusions sur les canaux mobiles.
 
 * **[!UICONTROL Refusé]** : type d’erreur générée lorsqu’une adresse est refusée par le fournisseur d’accès Internet (FAI). Par exemple, lorsqu’une règle de sécurité a été appliquée par un logiciel anti-spam.
 

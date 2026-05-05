@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '778'
+workflow-type: ht
+source-wordcount: '789'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ Planifiez, coordonnez et orchestrez des campagnes cross-canal.
 
 **Tirez parti des workflows** pour orchestrer et automatiser vos campagnes. [Prise en main des processus et de la gestion des données](../../automating/using/get-started-workflows.md)
 
-## Créer et envoyer des messages  {#design-send}
+## Créer et envoyer des messages {#design-send}
 
 <img width="60px" alt="conditions" src="assets/icon_send.svg"/>
 
@@ -53,9 +53,9 @@ Créez et envoyez vos messages sur différents canaux de communication en ligne 
 
 **Utilisez les canaux de communication de Campaign** pour diffuser vos campagnes marketing vers les bons destinataires : emails, SMS, notifications push, messages In-App, courrier, landing pages. Gagnez du temps et améliorez la cohérence de votre stratégie de messagerie en créant des modèles pour tous les types de messages (messages transactionnels, récurrents, multilingues). Effectuez des tests A/B et retenez l’attention de votre audience grâce à la personnalisation et aux fonctionnalités de contenu dynamique. [Prise en main des canaux de communication](../../channels/using/get-started-communication-channels.md)
 
-**Utilisez le concepteur d’e-mail de Campaign** pour créer des emails attrayants et personnalisés. Créez des emails intégralement ou réutilisez des fragments ou des modèles de contenus intégrés pour les concevoir au format HTML optimisé pour le responsive design. [Prise en main de la conception du contenu des emails](../../designing/using/designing-content-in-adobe-campaign.md)
+**Utilisez le concepteur d’e-mail de Campaign** pour créer des e-mails attrayants et personnalisés. Créez des e-mails intégralement ou réutilisez des fragments ou des modèles de contenu intégrés pour les concevoir au format HTML optimisé pour le responsive design. [Prise en main de la conception du contenu des emails](../../designing/using/designing-content-in-adobe-campaign.md)
 
-**Analysez et vérifiez le contenu de vos messages** avant de les envoyer, grâce aux différentes fonctionnalités de test, notamment les aperçus, les BAT, les tests d’objet des emails et le rendu des emails. Assurez-vous de diffuser les messages au bon moment en optimisant leur heure d’envoi (planification, gestion des fuseaux horaires). [Prise en main du test et de l’envoi de messages](../../sending/using/get-started-sending-messages.md)
+**Analysez et vérifiez le contenu de vos messages** avant de les envoyer, à l’aide de plusieurs fonctionnalités de test telles que l’aperçu, les BAT, les tests d’objet des e-mails, le rendu des e-mails, etc. Assurez-vous que vos messages sont diffusés au bon moment en optimisant leur heure d’envoi (planification, gestion des fuseaux horaires).[Prise en main du test et de l’envoi de messages](../../sending/using/get-started-sending-messages.md)
 
 ## Tracker l’impact des campagnes {#track-impact-campaigns}
 
@@ -66,7 +66,7 @@ Une fois les campagnes marketing exécutées et les différents messages envoyé
 **Surveillez les diffusions** envoyées. Consultez et exportez des logs détaillés concernant vos diffusions. Récupérez des informations sur leur statut pour chaque destinataire, les messages exclus de la cible et de nombreuses autres mesures.
 Utilisez la fonction d’alerte de diffusion pour suivre les succès ou les échecs des diffusions à l’aide de notifications par email. Vous souhaitez en savoir plus ? [Prise en main de la surveillance des messages](../../sending/using/monitoring-a-delivery.md)
 
-**Trackez le comportement des destinataires de vos diffusions**. Tirez parti des cookies de session et des cookies permanents pour récupérer les informations de tracking de tous les contacts contenus dans votre base de données. Surveillez les informations de tracking des diffusions (URL cliquées, pages miroir, messages ouverts...) à l’aide de logs et de rapports dédiés. [Prise en main du tracking des messages](../../sending/using/tracking-messages.md)
+**Trackez le comportement des destinataires de vos diffusions**. Tirez parti des cookies de session et des cookies permanents pour récupérer les informations de tracking de tous les contacts contenus dans votre base de données. Surveillez les informations de tracking des diffusions (URL cliquées, pages miroir, messages ouverts…)à l’aide de logs et de rapports dédiés.[Prise en main du tracking des messages](../../sending/using/tracking-messages.md)
 
 **Utilisez les rapports dynamiques** pour définir des mesures spécifiques liées à votre message ou à votre campagne. Entièrement personnalisables et créés en temps réel, les rapports dynamiques donnent accès aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. Grâce à l’interface glisser-déposer, vous pouvez explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires. [Prise en main de la création de rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 

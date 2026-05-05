@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '563'
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Plusieurs modèles spécifiques à Adobe Campaign sont disponibles. Vous devez 
 
 Par défaut, deux modèles prédéfinis permettent de créer des contenus d&#39;email pour Adobe Campaign.
 
-* **[!UICONTROL Adobe Campaign Email]** : ce modèle contient du contenu standard que vous pouvez personnaliser. Vous pouvez choisir entre Adobe Campaign Email (AC6.1) et Adobe Campaign Email (ACS).
+* **[!UICONTROL Adobe Campaign Email]** : ce modèle contient du contenu standard que vous pouvez personnaliser.Vous pouvez choisir entre Adobe Campaign Email (AC6.1) et Adobe Campaign Email (ACS).
 * **[!UICONTROL Page d&#39;importateur]** : ce modèle permet d&#39;importer un fichier ZIP comportant un fichier HTML dont vous pourrez personnaliser le contenu.
 
 1. Dans Adobe Experience Manager, créez une **[!UICONTROL page]**.

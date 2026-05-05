@@ -10,8 +10,8 @@ role: Developer
 level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '1817'
+workflow-type: ht
+source-wordcount: '1819'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>additionalData</td>
-         <td>Additional data</td>
+         <td>Données additionnelles</td>
          <td>collection </td>
          <td> </td>
       </tr>
@@ -59,7 +59,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>builtIn</td>
-         <td>Built-in application object</td>
+         <td>Objet d’application natif</td>
          <td>boolean </td>
          <td> </td>
       </tr>
@@ -71,7 +71,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>campaign (campaignBase)</td>
-         <td>Campaign</td>
+         <td>Campagne</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -286,8 +286,8 @@ ht-degree: 100%
          <td> </td>
       </tr>
       <tr>
-         <td>job</td>
-         <td>Job</td>
+         <td>traitement</td>
+         <td>Traitement</td>
          <td>collection </td>
          <td> </td>
       </tr>
@@ -299,7 +299,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>label</td>
-         <td>Label</td>
+         <td>Libellé</td>
          <td>string (128)</td>
          <td> </td>
       </tr>
@@ -344,7 +344,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>messageActionDelivery (deliveryMCTemplateBase)</td>
-         <td>Transactional message</td>
+         <td>Message transactionnel</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -442,7 +442,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>state</td>
-         <td>Status</td>
+         <td>Statut</td>
          <td>enumeration (byte) </td>
          <td>
             <ul>
@@ -456,7 +456,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>targetResource</td>
-         <td>Targeting dimension</td>
+         <td>Dimension de ciblage</td>
          <td>string (255)</td>
          <td> </td>
       </tr>
@@ -473,8 +473,8 @@ ht-degree: 100%
          <td> </td>
       </tr>
       <tr>
-         <td>thumbnail</td>
-         <td>Thumbnail</td>
+         <td>miniature</td>
+         <td>Miniature</td>
          <td>string (255)</td>
          <td> </td>
       </tr>

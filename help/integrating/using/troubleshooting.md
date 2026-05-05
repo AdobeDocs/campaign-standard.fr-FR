@@ -35,7 +35,7 @@ Dans ce cas, vérifiez que les éléments suivants sont correctement configurés
 
   La **[!UICONTROL Priorité]** est utilisée lorsque plusieurs data sources sont définies. Elle décide quelle data source sera utilisée pour la mise en correspondance avec l&#39;alias reçu dans l&#39;ordre défini. La **[!UICONTROL Priorité]** n’est nécessaire que pour l’implémentation de Triggers.
 
-  Vérifiez que la clé de réconciliation est correcte. C&#39;est la valeur hachée/chiffrée de ce champ qui est utilisée pour exporter et importer les audiences.
+  Vérifiez que la clé de réconciliation est correcte. C’est la valeur hachée/chiffrée de ce champ qui est utilisée pour exporter et importer les audiences.
 
   En cas de hachage ou de chiffrement de l&#39;identifiant Declared ID, vérifiez que les mêmes paramètres/algorithmes de chiffrement sont utilisés sur votre site Web.
 
@@ -49,4 +49,4 @@ Dans ce cas, vérifiez que les éléments suivants sont correctement configurés
 
   Les audiences Experience Cloud peuvent ne pas être partagées parce que le workflow technique s&#39;est arrêté ou est en pause. Accédez au workflow **[!UICONTROL Importer une audience partagée]** en cliquant directement sur l&#39;option **[!UICONTROL Afficher l&#39;audience partagée]** dans votre Data source.
 
-Il est possible que certaines données soient manquantes lors du partage d&#39;une audience via People core service ou lors de l&#39;import d&#39;une audience. Seuls les enregistrements dont l&#39;identifiant (&#39;Visitor ID&#39; ou &#39;Declared ID&#39;) a pu être réconcilié avec la dimension des profils sont transférés. Les identifiants provenant des segments de People core service non reconnus par Adobe Campaign ne sont pas importés.
+Il est possible que certaines données soient manquantes lors du partage d’une audience via People Core Service ou lors de l’import d’une audience.Seuls les enregistrements dont l’identifiant (« Visitor ID » ou « Declared ID ») a pu être réconcilié avec la dimension des profils sont transférés.Les identifiants provenant des segments de People Core Service non reconnus par Adobe Campaign ne sont pas importés.

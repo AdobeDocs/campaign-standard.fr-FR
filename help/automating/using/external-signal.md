@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Signal externe]** déclenche un workflow lorsque certaines conditions sont remplies dans un autre workflow ou un appel de l&#39;API REST.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Signal externe]** permet d&#39;organiser et d&#39;orchestrer différents processus qui composent un même parcours client dans différents workflows. Elle permet de démarrer un workflow à partir d&#39;un autre, supportant ainsi des parcours client plus complexes tout en améliorant le contrôle et la réactivité en cas de problèmes.
 
@@ -52,7 +52,7 @@ Lors de la configuration d&#39;un signal externe, il est important de commencer 
 1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
 1. Editez le libellé de l&#39;activité. Le libellé est requis lors de la configuration du workflow source qui déclenche le **[!UICONTROL Signal externe]**.
 
-   Si vous voulez appeler le workflow avec des paramètres, utilisez la zone **[!UICONTROL Paramètres]** pour les déclarer. Voir à ce propos [cette page](../../automating/using/declaring-parameters-external-signal.md).
+   Si vous voulez appeler le workflow avec des paramètres, utilisez la zone **[!UICONTROL Paramètres]** pour les déclarer. Pour plus d’informations, consultez [cette page](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -72,9 +72,9 @@ Lors de la configuration d&#39;un signal externe, il est important de commencer 
 
 1. Dans l&#39;onglet **[!UICONTROL Signal externe]** de l&#39;activité **[!UICONTROL Fin]**, sélectionnez le workflow de destination et l&#39;activité **[!UICONTROL Signal externe]** à déclencher dans ce workflow.
 
-   Lorsque vous configurez une activité **[!UICONTROL Fin]** pour qu&#39;elle déclenche un autre workflow, un symbole signal supplémentaire vient s&#39;ajouter à son icône.
+   Lorsque vous configurez une activité **[!UICONTROL Fin]** pour qu’elle déclenche un autre workflow, un symbole signal supplémentaire vient s’ajouter à son icône.
 
-   Si vous voulez appeler le workflow avec des paramètres, utilisez la zone **[!UICONTROL Paramètres et valeurs]**. Voir à ce propos [cette page](../../automating/using/defining-parameters-calling-workflow.md).
+   Si vous voulez appeler le workflow avec des paramètres, utilisez la zone **[!UICONTROL Paramètres et valeurs]**. Pour plus d’informations, consultez [cette page](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 

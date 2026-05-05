@@ -11,9 +11,9 @@ level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '792'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 * Le mapping d’usine n’est disponible que pour les champs fournis par défaut dans Campaign Standard. Pour ingérer tous les champs et ressources personnalisés, chaque client doit définir son propre mapping.
 
-* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. La durée de l’intervalle est de 15 minutes. Cette valeur peut être modifiée à l’aide des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr).
+* Le connecteur de données Adobe Experience Platform transmet les données de profil par le biais de la plateforme toutes les 15 minutes.Cette valeur peut être modifiée à l’aide des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr).
 
 * Un ingénieur de données peut publier, modifier et suspendre le mapping entre Campaign et Adobe Experience Platform.
 
@@ -53,7 +53,7 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 * Toutes les mises à jour de profil, y compris les opt-in/opt-out à des canaux, font partie de la mise à jour par lot.
 
-* Toute modification du schéma Adobe Campaign Standard ou XDM doit être remappée manuellement. 
+* Toute modification du schéma Adobe Campaign Standard ou XDM doit être remappée manuellement.
 
 * Le log de tracking et les données de Broadlog sont automatiquement ingérés dans Adobe Experience Platform en tant qu’événements d’expérience. Cette ingestion est diffusée en temps réel vers Adobe Experience Platform.
 

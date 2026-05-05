@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
-source-wordcount: '2710'
+workflow-type: ht
+source-wordcount: '2724'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Si vous disposez de plusieurs comptes, procédez comme suit pour isoler le compt
 1. Activez un compte externe.
 1. Essayez de reproduire le problème.
 1. Si le problème initial n&#39;apparaît pas toujours, effectuez un nombre raisonnable de tentatives avant de conclure.
-1. Si le problème n&#39;apparaît pas avec ce compte unique, désactivez-le et redémarrez l&#39;étape 2 sur le compte suivant.
+1. Si le problème napparaît pas avec ce compte unique, désactivez-le et redémarrez létape 2 sur le compte suivant.
 
 Une fois que vous avez vérifié chaque compte individuellement, il existe 2 scénarios possibles :
 
@@ -40,12 +40,12 @@ Une fois que vous avez vérifié chaque compte individuellement, il existe 2 sc�
   Vous avez un conflit entre les comptes. Comme nous l&#39;avons déjà mentionné, Adobe Campaign traite les comptes individuellement, mais le fournisseur peut les traiter comme un compte unique.
 
    * Vous utilisez des combinaisons nom d&#39;utilisateur / mot de passe différentes entre tous vos comptes.
-Vous devrez contacter le fournisseur pour qu&#39;il diagnostique les conflits potentiels de son côté.
+Vous devrez contacter le fournisseur pour qu’il diagnostique les conflits potentiels de son côté.
 
    * Certains comptes externes partagent la même combinaison nom d&#39;utilisateur / mot de passe.
-Le fournisseur n&#39;a aucun moyen de savoir de quel compte externe provient le `BIND PDU`, de sorte qu&#39;il traite toutes les connexions à partir de plusieurs comptes comme une seule. Il se peut qu&#39;il ait redirigé les MO et SR de manière aléatoire sur les deux comptes, ce qui a provoqué des problèmes.
-Si le fournisseur prend en charge plusieurs codes courts pour le même nom d&#39;utilisateur / mot de passe, vous devrez leur demander où placer ce numéro court dans le `BIND PDU`. Notez que cette information doit être placée dans le `BIND PDU` et non dans `SUBMIT_SM`, puisque le `BIND PDU` est le seul endroit qui permettra d&#39;utiliser correctement les MO de routage.
-Consultez la section [Informations dans chaque type de PDU](../../administration/using/sms-protocol.md#information-pdu) ci-dessus pour savoir quel champ est disponible dans le `BIND PDU`, en général vous ajoutez le numéro court dans `address_range`, mais cela nécessite une assistance spéciale de la part du fournisseur. Contactez-le pour savoir comment il s&#39;attend à acheminer de manière indépendante plusieurs numéros courts.
+Le fournisseur n’a aucun moyen de savoir de quel compte externe provient le `BIND PDU`, de sorte qu’il traite toutes les connexions à partir de plusieurs comptes comme une seule.Il se peut qu&#39;il ait redirigé les MO et SR de manière aléatoire sur les deux comptes, ce qui a provoqué des problèmes.
+Si le fournisseur prend en charge plusieurs codes courts pour la même combinaison de nom d’utilisateur ou d’utilisatrice et de mot de passe, vous devrez lui demander où placer ce numéro court dans le `BIND PDU`.Notez que cette information doit être placée dans le `BIND PDU` et non dans `SUBMIT_SM`, puisque le `BIND PDU` est le seul endroit qui permettra d&#39;utiliser correctement les MO de routage.
+Consultez la section [Informations dans chaque type de PDU](../../administration/using/sms-protocol.md#information-pdu) ci-dessus pour savoir quel champ est disponible dans le `BIND PDU`. En général, il convient d’ajouter le numéro court dans `address_range`, mais cela nécessite une assistance spéciale de la part du fournisseur.Contactez-le pour savoir comment il s&#39;attend à acheminer de manière indépendante plusieurs numéros courts.
 Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le même compte externe.
 
 ## Problème avec un compte externe en général {#external-account-issues}
@@ -65,7 +65,7 @@ Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le m
   ```
 
 * Recherchez (dans le répertoire /postupgrade) si le système a été mis à niveau et quand.
-* Déterminez si des packages affectant les SMS ont pu être mis à jour récemment (/var/log/dpkg.log).
+* Déterminez si des packages affectant les SMS ont pu être mis à niveau récemment (/var/log/dpkg.log).
 
 ## Problème lors de la connexion au fournisseur {#issue-provider}
 
@@ -85,19 +85,19 @@ Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le m
 
 Une connexion est considérée comme instable si l&#39;une des situations suivantes se produit :
 
-* Le redémarrage du MTA réparera temporairement les problèmes. Cela signifie qu&#39;une connexion instable déclenche le ralentissement du MTA sur Adobe Campaign Standard, et que le redémarrage du MTA efface le ralentissement. Cela se reproduira jusqu&#39;à ce que la cause première soit trouvée.
+* Le redémarrage du MTA réparera temporairement les problèmes. Cela signifie quune connexion instable déclenche le ralentissement du MTA sur Adobe Campaign Standard, et que le redémarrage du MTA efface le ralentissement. Cela se reproduira jusqu&#39;à ce que la cause première soit trouvée.
 
 * Le fournisseur envoie `UNBIND PDU`.
 
 * `enquire_link` expire, soit du côté d&#39;Adobe Campaign, soit du côté du fournisseur. Dans ce cas, `ENQUIRE_LINK_RESP` peut s&#39;afficher avec un code d&#39;erreur non nul.
 
-* Il y a beaucoup de `BIND PDU`.Il ne doit pas y en avoir plus de quelques-uns durant une journée, selon le nombre de connexions. L&#39;apparition de plusieurs PDU BIND par heure doit attirer l&#39;attention.
+* Il y a beaucoup de `BIND PDU`.Il ne doit pas y en avoir plus de quelques-uns durant une journée, selon le nombre de connexions.L&#39;apparition de plusieurs PDU BIND par heure doit attirer l&#39;attention.
 
 Comment résoudre les problèmes de stabilité de connexion :
 
 * Les connexions instables sont rarement la cause première, il s&#39;agit souvent du résultat d&#39;un autre problème qui déclenche une déconnexion. Il est prioritaire d&#39;identifier la cause première.
 
-* Activez les traces SMPP de verbose. Vous aurez besoin d&#39;elles pour voir ce qui se passe au redémarrage de la connexion.
+* Activez les traces SMPP de verbose. Vous aurez besoin delles pour voir ce qui se passe au redémarrage de la connexion.
 
 * Si le fournisseur envoie `BIND PDU`, il se peut qu&#39;il y ait un problème. Demandez à votre fournisseur pourquoi `UNBING` est envoyé.
 
@@ -111,7 +111,7 @@ Comment résoudre les problèmes de stabilité de connexion :
 
 * Vérifiez que la connexion est stable. Une connexion SMPP doit rester active pendant au moins une heure en continu. Pour plus d&#39;informations, consultez la section [Problème de connexion instable](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
-* Si le redémarrage du MTA entraîne l&#39;envoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Pour plus d&#39;informations, consultez la section [Problème de connexions instables](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
+* Si le redémarrage du MTA entraîne lenvoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Pour plus d&#39;informations, consultez la section [Problème de connexions instables](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
 * Vérifiez que le broadlog est présent et que son statut est correct avec les dates correctes. Si ce n&#39;est pas le cas, il peut s&#39;agir d&#39;un problème de préparation de diffusion ou de diffusion.
 
@@ -173,7 +173,7 @@ Si vous avez tout corrigé, mais que des SR non valides figurent toujours dans l
 
 ## Problème lors de la préparation de la diffusion sans exclure les destinataires mis en quarantaine (mis en quarantaine par la fonction de réponse automatique) {#issue-delivery-preparation}
 
-* Vérifiez que le format du numéro de téléphone est exactement le même dans le tableau de quarantaine et dans le log de diffusion. Si ce n&#39;est pas le cas, consultez cette [section](../../administration/using/sms-protocol.md#automatic-reply) si vous rencontrez des problèmes avec le préfixe plus du format de numéro de téléphone international.
+* Vérifiez que le format du numéro de téléphone est exactement le même dans la table de quarantaine et dans le log de diffusion.  Si ce n&#39;est pas le cas, consultez cette [section](../../administration/using/sms-protocol.md#automatic-reply) si vous rencontrez des problèmes avec le préfixe plus du format de numéro de téléphone international.
 
 * Vérifiez les numéros courts. Des exclusions peuvent se produire si le numéro court du destinataire est identique à celui défini dans le compte externe ou s&#39;il est vide (vide = tout numéro court). Si un seul numéro court est utilisé pour l&#39;ensemble de l&#39;instance Adobe Campaign, il est plus facile de laisser tous les champs de **numéro court** vides.
 

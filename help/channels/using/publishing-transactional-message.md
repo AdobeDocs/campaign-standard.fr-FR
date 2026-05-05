@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '680'
+workflow-type: ht
+source-wordcount: '684'
 ht-degree: 100%
 
 ---
@@ -33,9 +33,9 @@ Le graphique ci-dessous illustre le processus de publication de messages transac
 ![](assets/message-center_pub-process.png)
 
 **Rubriques connexes :**
-* [Publier un message transactionnel           ](#publishing-a-transactional-message)
+* [Publier un message transactionnel](#publishing-a-transactional-message)
 * [Mettre en pause un message transactionnel](#suspending-a-transactional-message-publication)
-* [Dépublier un message transactionnel           ](#unpublishing-a-transactional-message)
+* [Dépublier un message transactionnel](#unpublishing-a-transactional-message)
 * [Publication d&#39;un événement](../../channels/using/publishing-transactional-event.md)
 
 <!--
@@ -88,7 +88,7 @@ Once you have created one or more specific test profiles and saved your transact
 The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.
 -->
 
-## Publier un message transactionnel            {#publishing-a-transactional-message}
+## Publier un message transactionnel {#publishing-a-transactional-message}
 
 Une fois que vous avez validé et testé le message transactionnel, vous pouvez le publier. Cliquez sur le bouton **[!UICONTROL Publier]**.
 
@@ -105,7 +105,7 @@ Pour accéder aux rapports relatifs à votre message transactionnel, utilisez le
 * [Tester un message transactionnel](../../channels/using/testing-transactional-message.md)
 * [Intégrer le déclenchement de l&#39;événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## Suspendre la publication d’un message transactionnel            {#suspending-a-transactional-message-publication}
+## Suspendre la publication d’un message transactionnel {#suspending-a-transactional-message-publication}
 
 Vous pouvez suspendre la publication de votre message transactionnel en utilisant le bouton **[!UICONTROL Mettre en pause]**, afin de modifier les données contenues dans le message par exemple. Les événements ne sont alors plus traités, mais ils sont conservés dans une file d&#39;attente, dans la base de données Adobe Campaign.
 
@@ -115,7 +115,7 @@ Les événements placés dans la file d’attente sont conservés pendant une p�
 
 Lorsque vous cliquez sur **[!UICONTROL Reprendre]**, tous les événements placés dans la file d’attente sont envoyés (à condition qu’ils n’aient pas expiré). Ils contiennent alors les modifications effectuées tant que la publication du modèle était suspendue.
 
-## Dépublier un message transactionnel            {#unpublishing-a-transactional-message}
+## Dépublier un message transactionnel {#unpublishing-a-transactional-message}
 
 Cliquez sur **[!UICONTROL Dépublier]** pour annuler la publication du message transactionnel. L’événement correspondant est également dépublié, ce qui supprime de l’API REST la ressource correspondant à l’événement précédemment créé.
 

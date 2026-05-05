@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '917'
+source-wordcount: '924'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Pour plus d&#39;informations sur les workflows et les différents canaux disponi
 * [Présentation des workflows](../../automating/using/get-started-workflows.md)
 * [Découvrir les canaux de communication](../../channels/using/get-started-communication-channels.md)
 
-## Créer un workflow        {#creating-workflow}
+## Créer un workflow {#creating-workflow}
 
 Afin d&#39;envoyer deux diffusions différentes à un groupe donné, vous devez tout d&#39;abord définir votre cible.
 
@@ -53,8 +53,8 @@ Insérez une activité Requête dans votre workflow afin de cibler les profils q
 1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Ciblage]**, effectuez un glisser-déposer d’une activité [Requête](../../automating/using/query.md).
 1. Double-cliquez sur l&#39;activité.
 1. Dans l’onglet **[!UICONTROL Cible]**, parcourez les raccourcis et sélectionnez l’une de vos [audiences](../../audiences/using/about-audiences.md).
-1. Déplacez le raccourci dans la zone d&#39;édition. En fonction du type de raccourci sélectionné, une fenêtre s&#39;affiche.
-1. Paramétrez les éléments de ciblage puis validez votre requête.
+1. Faites glisser le raccourci dans la zone d’édition.En fonction du type de raccourci sélectionné, une fenêtre s’affiche.
+1. Paramétrez les éléments de ciblage, puis validez votre requête.
 
 ![](assets/wkf_segment_query.png)
 
@@ -78,11 +78,11 @@ Pour configurer la première transition (Email) :
 
    ![](assets/wkf_segment_properties.png)
 
-1. Sélectionnez l’**[!UICONTROL email]** du profil comme critère de filtrage.
+1. Sélectionnez l’**[!UICONTROL e-mail]** du profil comme critère de filtrage.
 
    ![](assets/wkf_segment_email.png)
 
-1. Dans la nouvelle fenêtre qui s’affiche à l’écran, sélectionnez l’opérateur **[!UICONTROL N’est pas vide]** .
+1. Dans la nouvelle fenêtre qui s’affiche à l’écran, sélectionnez l’opérateur **[!UICONTROL N’est pas vide]**.
 
    ![](assets/wkf_segment_email_not_empty.png)
 

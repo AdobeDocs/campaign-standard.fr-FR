@@ -12,7 +12,7 @@ level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '2224'
+source-wordcount: '2278'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Les principales caractéristiques de cette activité sont les suivantes :
 
 ### Remarques concernant la compatibilité descendante {#from-beta-to-ga}
 
-Avec la version 20.4 de Campaign Standard, la limite de taille des données des données de réponse http et les mécanismes de sécurisation de timeout de réponse ont été abaissés afin de s’aligner sur les bonnes pratiques - voir [Limites et mécanismes de sécurisation](#guardrails). Ces modifications de mécanismes de sécurisation ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
+Avec la version 20.4 de Campaign Standard, la limite de taille des données des données de réponse http et les mécanismes de sécurisation de délai d’expiration de réponse ont été abaissés afin de s’aligner sur les bonnes pratiques - voir [Limites et mécanismes de sécurisation](#guardrails). Ces modifications de mécanismes de sécurisation ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
 
 Lorsque vous remplacez les activités d’API externe, ajoutez la nouvelle activité d’API externe au workflow, copiez manuellement les détails de la configuration, puis supprimez l’ancienne activité.
 
@@ -52,7 +52,7 @@ Lorsque vous remplacez les activités d’API externe, ajoutez la nouvelle activ
 Les mécanismes de sécurisation suivants s’appliquent à cette activité :
 
 * Limite de taille des données de réponse http de 5 Mo (remarque : il s’agit d’une modification par rapport à la limite de 50 Mo de la version précédente)
-* Le timeout des demandes est de 1 minute (remarque : il s’agit d’une modification par rapport au timeout de 10 minutes de la version précédente.)
+* Le délai d’expiration des demandes est de 1 minute (remarque : il s’agit d’une modification par rapport au délai d’expiration de 10 minutes de la version précédente.)
 * Les redirections HTTP ne sont pas autorisées
 * Les URL autres que HTTPS sont rejetées
 * L’en-tête de demande &quot;Accept: application/json&quot; et l’en-tête de réponse &quot;Content-Type: application/json&quot; sont autorisés
@@ -74,7 +74,7 @@ Placez une activité **[!UICONTROL API externe]** dans votre workflow et ouvrez 
 ### Mapping entrant
 
 Le mapping entrant est un tableau temporaire généré par une activité entrante précédente qui sera affichée et envoyée sous forme de code JSON dans l’interface utilisateur.
-Selon ce tableau temporaire, l’utilisateur peut apporter des modifications aux données entrantes.
+Selon ce tableau temporaire, l’utilisateur ou l’utilisatrice peut apporter des modifications aux données entrantes.
 
 ![](assets/externalAPI-inbound.png)
 
@@ -172,37 +172,37 @@ Ces messages de log sont utilisés pour consigner des informations sur les point
  <thead> 
   <tr> 
    <th> Format du message<br /> </th> 
-   <th> Exemple<br /> </th> 
+   <th>Exemple<br /></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Appel de l’URL d’API ’%s’.</td> 
-   <td> <p>Appel de l’URL d’API ’https://example.com/api/v1/web-coupon?count=2’.</p></td> 
+   <td>Appel de l’URL d’API « %s ».</td> 
+   <td> <p>Appel de l’URL d’API « https://example.com/api/v1/web-coupon?count=2 ».</p></td> 
   </tr> 
   <tr> 
    <td> Nouvelle tentative de l’URL d’API ’%s’ en raison de %s en %d ms, tentative %d.</td> 
-   <td> <p>Nouvelle tentative de l’URL d’API ’https://example.com/api/v1/web-coupon?count=0’ en raison de HTTP - 401 en 2364 ms, tentative 2.</p></td>
+   <td> <p>Nouvelle tentative de l’URL d’API « https://example.com/api/v1/web-coupon?count=0 » en raison de HTTP - 401 en 2364 ms, tentative 2.</p></td>
   </tr> 
   <tr> 
    <td> Transfert du contenu depuis ’%s’(%s / %s).</td> 
-   <td> <p>Transfert du contenu depuis ’https://example.com/api/v1/web-coupon?count=2’ (1234/1234).</p></td> 
+   <td> <p>Transfert du contenu depuis « https://example.com/api/v1/web-coupon?count=2 » (1234/1234).</p></td> 
   </tr>
   <tr> 
    <td> Utilisation du jeton d’accès mis en cache pour l’identifiant de fournisseur ‘%s’.</td> 
-   <td> <p>Utilisation du jeton d’accès mis en cache pour l’identifiant de fournisseur ‘EXT25’. Remarque : EXT25 est l’identifiant (ou le nom) du compte externe. </p></td> 
+   <td> <p>Utilisation du jeton d’accès mis en cache pour l’identifiant de fournisseur « EXT25 ».Remarque : EXT25 est l’identifiant (ou le nom) du compte externe. </p></td> 
   </tr>
   <tr> 
-   <td> Jeton d’accès récupéré sur le serveur pour l’identifiant de fournisseur ‘%s’.</td> 
+   <td>Jeton d’accès récupéré sur le serveur pour l’identifiant de fournisseur « %s ».</td> 
    <td> <p>Jeton d’accès récupéré sur le serveur pour l’identifiant de fournisseur ‘EXT25’. Remarque : EXT25 est l’identifiant (ou le nom) du compte externe.</p></td> 
   </tr>
   <tr> 
    <td> Actualisation du jeton d’accès OAuth en raison d’une erreur (HTTP : ‘%d’).</td> 
-   <td> <p>Actualisation du jeton d’accès OAuth en raison d’une erreur (HTTP : ‘401’).</p></td> 
+   <td> <p>Actualisation du jeton d’accès OAuth en raison d’une erreur (HTTP : « 401 »).</p></td> 
   </tr>
   <tr> 
    <td> Erreur lors de l’actualisation du jeton d’accès OAuth (erreur : ‘%d’). </td> 
-   <td> <p>Erreur lors de l’actualisation du jeton d’accès OAuth (erreur : ‘404’).</p></td> 
+   <td> <p>Erreur lors de l’actualisation du jeton d’accès OAuth (erreur : « 404 »).</p></td> 
   </tr>
   <tr> 
    <td> Impossible de récupérer le jeton d’accès OAuth à l’aide du compte externe spécifié pour la tentative %d, nouvelle tentative en %d ms.</td> 
@@ -219,35 +219,35 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
  <thead> 
   <tr> 
    <th> Code - Format du message<br /> </th> 
-   <th> Exemple<br /> </th> 
+   <th>Exemple<br /></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 - Le corps de la demande d’API a dépassé la limite (limite : ’%d’).</td> 
-   <td> <p>Le corps de la demande d’API a dépassé la limite (limite : ’5242880’).</p></td> 
+   <td>WKF-560250 - Le corps de la demande d’API a dépassé la limite (limite : « %d »).</td> 
+   <td> <p>Le corps de la demande d’API a dépassé la limite (limite : « 5242880 »).</p></td> 
   </tr> 
   <tr> 
    <td> WKF-560239 - La réponse de l’API a dépassé la limite (limite : ’%d’).</td> 
-   <td> <p>La réponse de l’API a dépassé la limite (limite : ’5242880’).</p></td> 
+   <td> <p>La réponse de l’API a dépassé la limite (limite : « 5242880 »).</p></td> 
   </tr> 
   <tr> 
    <td> WKF-560245 - L’URL de l’API n’a pas pu être analysée (erreur : ’%d’).</td> 
-   <td> <p>L’URL de l’API n’a pas pu être analysée (erreur : -2010’).</p>
+   <td> <p>L’URL de l’API n’a pas pu être analysée (erreur : « -2010 »).</p>
    <p> Remarque : cette erreur est consignée lorsque l’URL d’API échoue aux règles de validation.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’%s’).</td> 
+   <td>WKF-560244 - L’hôte d’URL de l’API ne doit pas être « localhost » ni un littéral d’adresse IP (hôte d’URL : « %s »).</td> 
    <td> <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’localhost’).</p>
     <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’192.168.0.5’).</p>
     <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’[2001]’).</p></td>
   </tr> 
   <tr> 
    <td> WKF-560238 - L’URL d’API doit être une URL (https) sécurisée (URL demandée : ’%s’).</td> 
-   <td> <p>L’URL d’API doit être une URL (https) sécurisée (URL demandée : ’https://example.com/api/v1/web-coupon?count=2’).</p></td> 
+   <td> <p>L’URL d’API doit être une URL sécurisée (https) (URL demandée : « https://example.com/api/v1/web-coupon?count=2 »).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 - Echec de la création du JSON du corps de la demande. Erreur lors de l’ajout de ’%s’.</td> 
+   <td> WKF-560249 - Echec de la création du JSON du corps de la demande. Erreur lors de l’ajout de « %s ».</td> 
    <td> <p>Echec de la création du JSON du corps de la demande. Erreur lors de l’ajout de ’params’.</p>
     <p>Echec de la création du JSON du corps de la demande. Erreur lors de l’ajout de ’data’.</p></td>
   </tr> 
@@ -257,8 +257,8 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
    <p> Remarque : cette erreur est consignée lorsque la clé d’en-tête personnalisée échoue à la validation selon les <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>.</p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 - La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : ’%s’).</td> 
-   <td> <p>La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : ’Accept’).</p></td> 
+   <td>WKF-560248 - La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : « %s »).</td> 
+   <td> <p>La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : « Accept »).</p></td> 
   </tr> 
   <tr> 
    <td> WKF-560247 - La valeur de l’en-tête HTTP est incorrecte (valeur de l’en-tête : ‘%s’).</td> 
@@ -267,7 +267,7 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
   </tr> 
   <tr> 
    <td> WKF-560240 - La propriété ’%s’ de la payload JSON est incorrecte.</td> 
-   <td> <p>La propriété ’blah’ de la payload JSON est incorrecte.</p></td>
+   <td> <p>La propriété « blah » de la payload JSON est incorrecte.</p></td>
   </tr> 
   <tr>
    <td> WKF-560241 - Elément JSON incorrect ou format inacceptable.</td> 
@@ -282,11 +282,11 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
   </tr>
   <tr> 
    <td> WKF-560278 - « Erreur lors de l’initialisation de l’aide OAuth (erreur : ‘%d’) ».</td> 
-   <td> <p>Cette erreur indique que l’activité n’a pas pu initialiser l’aide interne OAuth2.0, en raison d’une erreur lors de l’utilisation des attributs configurés dans le compte externe pour initialiser l’aide.</p></td>
+   <td> <p>Cette erreur indique que l’activité n’a pas pu initialiser l’aide interne OAuth2.0 en raison d’une erreur lors de l’utilisation des attributs configurés dans le compte externe pour initialiser l’aide.</p></td>
   </tr>
   <tr> 
    <td> WKF-560279 - « La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : ‘%s’). »</td> 
-   <td> <p>Ce message d’avertissement (pas d’erreur) indique que le compte externe OAuth 2.0 a été configuré pour ajouter des informations d’identification en tant qu’en-tête HTTP, mais que la clé d’en-tête utilisée n’est pas autorisée car il s’agit d’une clé d’en-tête réservée.</p></td>
+   <td> <p>Ce message d’avertissement (pas d’erreur) indique que le compte externe OAuth 2.0 a été configuré pour ajouter des informations d’identification en tant qu’en-tête HTTP, mais que la clé d’en-tête utilisée n’est pas autorisée, car il s’agit d’une clé d’en-tête réservée.</p></td>
   </tr>
   <tr> 
    <td> WKF-560280 - Le compte externe de l’identifiant ‘%s’ est introuvable.</td> 

@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
-source-wordcount: '814'
+workflow-type: ht
+source-wordcount: '840'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Reprenons l’exemple présenté dans la section [Principe de fonctionnement des
 
 Vous souhaitez envoyer un rappel à tous les clients ayant reçu la notification d’abandon de panier, mais ne l’ayant pas ouverte au bout de trois jours. Chaque client concerné recevra alors un message de relance basé sur les mêmes données que celles utilisées dans le premier email qui a été envoyé.
 
-## Configuration d’un événement pour envoyer un message de relance        {#configuring-an-event-to-send-a-follow-up-message}
+## Configuration d’un événement pour envoyer un message de relance {#configuring-an-event-to-send-a-follow-up-message}
 
 Pour envoyer un message de rappel, vous devez d’abord configurer en conséquence l’événement correspondant au message transactionnel déjà reçu.
 
@@ -36,7 +36,7 @@ Pour envoyer un message de rappel, vous devez d’abord configurer en conséquen
 
 Une fois la publication effectuée, un message transactionnel et un modèle de diffusion de relance associés au nouvel événement sont automatiquement créés. Les étapes pour envoyer le message de rappel sont présentées dans [cette section](#sending-a-follow-up-message).
 
-## Accéder aux messages de relance       {#accessing-the-follow-up-messages}
+## Accéder aux messages de relance {#accessing-the-follow-up-messages}
 
 Pour gérer un événement dans un workflow, un modèle de diffusion est nécessaire. Le [message transactionnel](../../channels/using/editing-transactional-message.md) créé lors de la publication de l&#39;événement ne peut cependant pas être utilisé comme modèle. Vous devez donc créer un modèle de diffusion de relance spécifique qui prend en charge ce type d&#39;événement et qui peut être utilisé comme modèle dans un workflow.
 
@@ -84,15 +84,15 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Accédez à l’onglet **[!UICONTROL Cible]** de l’activité et effectuez un glisser-déposer de l’élément **[!UICONTROL Logs de diffusion]** de la palette vers l’espace de travail.
+1. Accédez à l’onglet **[!UICONTROL Cible]** de l’activité et effectuez un glisser-déposer de l’élément **[!UICONTROL Logs de diffusion (logs)]** de la palette vers l’espace de travail.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Sélectionnez **[!UICONTROL Existe]** pour cibler tous les clients ayant reçu l’email.
+   Sélectionnez **[!UICONTROL Existe]** pour cibler tous les clientes et clients ayant reçu l’e-mail.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. Déplacez l’élément **[!UICONTROL Logs de tracking (tracking)]** de la palette vers l’espace de travail, puis sélectionnez **[!UICONTROL N&#39;existe pas]** pour cibler tous les clients qui n’ont pas ouvert l’email.
+1. Déplacez l’élément **[!UICONTROL Logs de tracking (tracking)]** de la palette vers l’espace de travail, puis sélectionnez **[!UICONTROL N’existe pas]** pour cibler tous les clientes et clients qui n’ont pas ouvert l’e-mail.
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
@@ -116,7 +116,7 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-template.png)
 
-1. Dans le contenu du message de relance, vous pouvez utiliser le contenu de l&#39;événement en ajoutant des champs de personnalisation.
+1. Dans le contenu du message de relance, vous pouvez utiliser le contenu de l’événement en ajoutant des champs de personnalisation.
 
    ![](assets/message-center_follow-up-content.png)
 

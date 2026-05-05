@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '402'
+workflow-type: ht
+source-wordcount: '411'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ Par exemple, pour créer un profil directement dans l&#39;interface utilisateur,
    ![](assets/profile_creation1.png)
 
    * Les informations de contact, telles que nom, prénom, genre, date de naissance, photo, préférence linguistique (pour les [emails multilingues](../../channels/using/creating-a-multilingual-email.md)) permettent de personnaliser davantage les diffusions.
-   * Le **[!UICONTROL Fuseau horaire]** du profil est utilisé pour envoyer des diffusions en fonction du fuseau horaire du profil. Voir à ce propos cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * Le **[!UICONTROL Fuseau horaire]** du profil est utilisé pour envoyer des diffusions en fonction du fuseau horaire du profil. Pour plus d’informations à ce sujet, consultez cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
    * La catégorie **[!UICONTROL Canaux]**, qui contient les adresses email, les numéros de téléphone portable et les informations d&#39;opt-out, indique sur quel canal le profil est accessible.
 
      >[!NOTE]
@@ -70,6 +70,6 @@ Le profil est ajouté à la liste.
 
 Cette vidéo montre comment importer des profils avec un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/31328?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/31328?captions=fre_fr&quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

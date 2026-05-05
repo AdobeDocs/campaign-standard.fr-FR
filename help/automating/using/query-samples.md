@@ -1,5 +1,5 @@
 ---
-title: 'Exemples de requêtes '
+title: Exemples de requêtes
 description: Cette section présente un cas pratique d’utilisation d’une activité de Requête.
 audience: automating
 content-type: reference
@@ -12,12 +12,12 @@ level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '369'
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
 
-# Exemples de requêtes     {#query-samples}
+# Exemples de requêtes {#query-samples}
 
 Cette section présente un cas pratique d’utilisation d’une activité de **[!UICONTROL Requête]**. Pour plus d’informations sur l’utilisation d’une activité de **[!UICONTROL Requête]**, consultez [cette section](../../automating/using/query.md).
 
@@ -27,17 +27,17 @@ L’exemple qui suit montre une activité de requête configurée pour cibler le
 
 ![](assets/query_sample_1.png)
 
-## Ciblage des attributs d’emails      {#targeting-on-email-attributes}
+## Ciblage des attributs d’emails {#targeting-on-email-attributes}
 
 L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont le domaine d’adresse électronique est « orange.co.uk ».
 
 ![](assets/query_sample_emaildomain.png)
 
-L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont l’adresse électronique a été fournie.
+L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont l’adresse e-mail a été fournie.
 
 ![](assets/query_sample_emailnotempty.png)
 
-## Ciblage de profils dont c’est l’anniversaire      {#targeting-profiles-whose-birthday-is-today}
+## Ciblage de profils dont c’est l’anniversaire {#targeting-profiles-whose-birthday-is-today}
 
 L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont c’est l’anniversaire.
 
@@ -93,7 +93,7 @@ L’exemple qui suit montre une activité de requête configurée pour filtrer l
 
    ![](assets/query_sample_7days2.png)
 
-## Ciblage des profils ayant cliqué sur un lien spécifique      {#targeting-profiles-who-clicked-a-specific-link-}
+## Ciblage des profils ayant cliqué sur un lien spécifique {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. Faites glisser le filtre **[!UICONTROL Tracking (tracking)]** dans votre requête.
 

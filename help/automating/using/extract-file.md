@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Extraction de fichier]** permet d&#39;exporter des données présentes dans Adobe Campaign sous la forme d&#39;un fichier externe.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 La façon dont les données seront extraites est définie lors du paramétrage de l&#39;activité.
 
@@ -58,7 +58,7 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
    ![](assets/wkf_data_export2.png)
 
-   Une nouvelle fenêtre s&#39;affiche.
+   Une nouvelle fenêtre s’affiche.
 
    ![](assets/wkf_data_export3.png)
 
@@ -82,4 +82,4 @@ La façon dont les données seront extraites est définie lors du paramétrage d
    >Si vous souhaitez extraire des données dans un fichier CSV avec un codage spécifique, sélectionnez d’abord le format de sortie « Texte ». Sélectionnez l’encodage que vous souhaitez dans la liste déroulante, puis modifiez le format de sortie en « CSV (Excel) ».
 
 1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez l&#39;option **[!UICONTROL Ne pas générer de fichier si la transition entrante est vide]** pour éviter de créer et télécharger des fichiers vides sur les serveurs SFTP si la transition entrante est vide.
-1. Validez le paramétrage de l’activité et enregistrez le workflow.
+1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.

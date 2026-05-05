@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Diffusion notification push{#push-notification-delivery}
+# Diffusion Notification push{#push-notification-delivery}
 
 ## Description {#description}
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 L&#39;activité **[!UICONTROL Notification push]** permet de paramétrer l&#39;envoi d&#39;une notification push dans un workflow. Cette notification peut être unique et n’être envoyée qu’une seule fois ou être récurrente.
 
 * **Les notifications envoyées une seule fois sont des diffusions standard de notification push sur des applications mobiles, envoyées une seule fois.**
-* **Les notifications récurrentes permettent d’envoyer plusieurs fois sur une période définie une même notification push à des cibles différentes.** Vous pouvez agréger les diffusions par période afin d’obtenir des rapports adaptés.
+* Les notifications **récurrentes** permettent d’envoyer plusieurs fois sur une période définie une même notification push d’application mobile à des cibles différentes. Vous pouvez agréger les diffusions par période afin d’obtenir des rapports adaptés.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Notification push]** est généralement utilisée afin d&#39;automatiser l&#39;envoi d&#39;une notification push à une cible calculée dans le même workflow.
 
@@ -73,7 +73,7 @@ Lorsque vous ouvrez à nouveau l&#39;activité par la suite, vous accédez au ta
 
 Par défaut, le démarrage d&#39;un workflow de diffusion déclenche uniquement la préparation des messages. L&#39;envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l&#39;option **[!UICONTROL Demander confirmation avant d&#39;envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques         {#remarks}
+## Remarques {#remarks}
 
 Les diffusions créées à partir d&#39;un workflow sont accessibles dans la liste des activités marketing de l&#39;application. Vous pouvez visualiser l&#39;état d&#39;exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé de la notification push vous permettent d&#39;accéder directement aux éléments liés (workflow, campagne, etc.).
 

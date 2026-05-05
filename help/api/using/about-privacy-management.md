@@ -5,8 +5,8 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
-workflow-type: tm+mt
-source-wordcount: '107'
+workflow-type: ht
+source-wordcount: '109'
 ht-degree: 100%
 
 ---

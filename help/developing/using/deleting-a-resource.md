@@ -9,8 +9,8 @@ role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '250'
+workflow-type: ht
+source-wordcount: '260'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Pour réinitialiser et supprimer une ressource publiée :
 
    ![](assets/schema_extension_uc26.png)
 
-1. Cliquez sur **[!UICONTROL Ok]**.
+1. Cliquez sur **[!UICONTROL OK]**.
 
    >[!IMPORTANT]
    >
@@ -47,7 +47,7 @@ Pour réinitialiser et supprimer une ressource publiée :
 
 1. Publiez la ressource. Pour obtenir des étapes plus détaillées, consultez la section [Publier une ressource personnalisée](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   La ressource passe en mode **En création** et son statut d&#39;activation est **[!UICONTROL Désactivé]**.
+   La ressource passe en mode **En création** et son statut d’activation est **[!UICONTROL Inactif]**.
 
 1. En mode **[!UICONTROL Liste]**, cochez la ressource à supprimer puis cliquez sur l&#39;icône ![](assets/delete_darkgrey-24px.png)**[!UICONTROL Supprimer l&#39;élément]**.
 

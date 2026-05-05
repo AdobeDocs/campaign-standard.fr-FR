@@ -9,8 +9,8 @@ feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
-source-wordcount: '1315'
+workflow-type: ht
+source-wordcount: '1382'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Dans Adobe Campaign, trois types de messages In-App sont disponibles :
 
 ![](assets/diagram_inapp.png)
 
-## Préparation de votre message In-App {#preparing-your-in-app-message}
+## Préparation de votre message in-app {#preparing-your-in-app-message}
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign s
 
    ![](assets/inapp_creating.png)
 
-1. Sélectionnez un modèle adéquat en fonction de vos besoins en matière de ciblage d&#39;audience.
+1. Sélectionnez un modèle adéquat en fonction de vos besoins en matière de ciblage d’audience.
 
    ![](assets/inapp_creating_2.png)
 
@@ -70,7 +70,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign s
 
    ![](assets/inapp_creating_8.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Triggers]**, placez l&#39;événement qui déclenchera votre message. En choisissant un trigger, vous choisissez une action effectuée par les utilisateurs qui entraînera l&#39;affichage du message in-app.
+1. Dans l&#39;onglet **[!UICONTROL Triggers]**, placez l&#39;événement qui déclenchera votre message. En choisissant un déclencheur, vous choisissez une action effectuée par les utilisateurs qui entraînera l’affichage du message in-app.
 
    Quatre catégories d&#39;événements sont disponibles :
 
@@ -98,11 +98,11 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign s
 
    ![](assets/inapp_creating_7.png)
 
-1. Si vous utilisez un trigger **[!UICONTROL Places]**, des données contextuelles de Places, des métadonnées personnalisées de Places ou un type d&#39;événement Places seront automatiquement renseignés d&#39;après l&#39;ensemble des bibliothèques et leurs points d&#39;intérêt créés dans Adobe Places.
+1. Si vous utilisez un déclencheur **[!UICONTROL Places]**, des données contextuelles de Places, des métadonnées personnalisées de Places ou un type d’événement Places seront automatiquement renseignés d’après l’ensemble des bibliothèques et leurs points d’intérêt créés dans Adobe Places.
 
-   Notez que ce trigger sera appliqué sur l&#39;appareil uniquement pour les points ciblés des bibliothèques sélectionnées dans l&#39;extension Places dans l’interface utilisateur de collecte de données. Pour plus d&#39;informations sur l&#39;extension Places et son installation, consultez cette [documentation](https://developer.adobe.com/client-sdks/solution/places).
+   Notez que ce déclencheur sera appliqué sur l’appareil uniquement pour les points ciblés des bibliothèques sélectionnées dans l’extension Places dans l’interface utilisateur de collecte de données. Pour plus d&#39;informations sur l&#39;extension Places et son installation, consultez cette [documentation](https://developer.adobe.com/client-sdks/solution/places).
 
-1. Dans l&#39;onglet **[!UICONTROL Fréquence et durée]**, sélectionnez la fréquence du trigger, la date de début et de fin, le jour de la semaine et l&#39;heure du jour auxquels le message in-app sera actif.
+1. Dans l’onglet **[!UICONTROL Fréquence et durée]**, sélectionnez la fréquence du déclencheur, la date de début et de fin, le jour de la semaine et l’heure du jour auxquels le message in-app sera actif.
 
    ![](assets/inapp_creating_5.png)
 
@@ -149,11 +149,11 @@ Une fois que la préparation de votre diffusion est terminée et que les étapes
 
    ![](assets/inapp_sending_5.png)
 
-1. Cliquez sur **[!UICONTROL Confirmer]** pour commencer l&#39;envoi de votre message in-app.
+1. Cliquez sur **[!UICONTROL Confirmer]** pour commencer l’envoi de votre message in-app.
 
    ![](assets/inapp_sending_6.png)
 
-1. Vérifiez le statut de votre diffusion par le biais du tableau de bord du message et des logs. Voir à ce propos cette [section](../../sending/using/monitoring-a-delivery.md).
+1. Vérifiez le statut de votre diffusion par le biais du tableau de bord du message et des logs. Pour plus d’informations à ce sujet, consultez cette [section](../../sending/using/monitoring-a-delivery.md).
 
    **[!UICONTROL Les chiffres des KPI Délivrés]** et **[!UICONTROL Envoyés]** reposent sur les éléments envoyés avec succès par Campaign au service de diffusion des messages. Ces KPI ne constituent pas une indication du nombre d&#39;appareils mobiles ayant reçu ou téléchargé le message avec succès depuis le service de diffusion des messages.
 

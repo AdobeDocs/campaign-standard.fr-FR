@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
-source-wordcount: '440'
+workflow-type: ht
+source-wordcount: '445'
 ht-degree: 100%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 ## Quelle est la différence entre les blocs de contenu et les fragments de contenu ?
 
-Les blocs de contenu et les fragments de contenu sont des éléments de contenu réutilisables communs à plusieurs emails. Ils sont utilisés pour assurer la cohérence entre les emails et pour optimiser/standardiser leur création. Les différences entre les blocs de contenu et les fragments de contenu concernent le niveau de personnalisation possible.
+Les blocs de contenu et les fragments de contenu sont des éléments de contenu réutilisables communs à plusieurs e-mails. Ils sont utilisés pour assurer la cohérence entre les emails et pour optimiser/standardiser leur création. Les différences entre les blocs de contenu et les fragments de contenu concernent le niveau de personnalisation possible.
 
 * Les blocs de contenu sont constitués de code HTML pur, inséré manuellement (il s’agit de code source direct, créé à l’aide d’une interface utilisateur dépourvue de convivialité). Bien qu’ils s’adressent aux personnes expérimentées en HTML, ces blocs de contenu permettent un niveau de personnalisation impossible dans les fragments de contenu.
 
-* Les fragments de contenu sont des éléments visuels de contenu créés à l&#39;aide du concepteur d’e-mail avec son interface utilisateur conviviale. Cependant, il n’est pas possible de personnaliser ce contenu. Si une personnalisation est nécessaire, elle ne peut être réalisée que par le biais de blocs de contenu.
+* Les fragments de contenu sont des éléments visuels de contenu créés à l’aide du concepteur d’e-mail avec son interface d’utilisation conviviale. Cependant, il n’est pas possible de personnaliser ce contenu. Si une personnalisation est nécessaire, elle ne peut être réalisée que par le biais de blocs de contenu.
 
 ## Comment ajouter une marge intérieure à un élément de la structure HTML ?
 

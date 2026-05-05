@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '1302'
+workflow-type: ht
+source-wordcount: '1318'
 ht-degree: 100%
 
 ---
@@ -120,7 +120,7 @@ Pour récupérer du contenu au moment de la préparation d&#39;une diffusion, pr
 
    ![](assets/email_designer_importfromurl2.png)
 
-1. Le contenu de l&#39;URL s&#39;affiche en lecture seule dans l&#39;éditeur.
+1. Le contenu de l’URL s’affiche en lecture seule dans l’éditeur.
 
    >[!CAUTION]
    >
@@ -128,7 +128,7 @@ Pour récupérer du contenu au moment de la préparation d&#39;une diffusion, pr
 
 1. Pour prévisualiser le contenu de l&#39;URL récupéré, ouvrez le message une fois qu&#39;il a été créé, puis cliquez sur le bouton **[!UICONTROL Prévisualiser]**.
 
-Il est possible de personnaliser l&#39;URL distante à partir de laquelle le contenu sera récupéré. Pour cela, procédez comme suit :
+Il est possible de personnaliser l&#39;URL distante à partir de laquelle le contenu sera récupéré. Pour ce faire, procédez comme suit :
 
 1. Cliquez sur le libellé de l&#39;email en haut de l&#39;écran pour accéder à l&#39;onglet **[!UICONTROL Propriétés]** du concepteur d’e-mail.
 1. Recherchez le champ **[!UICONTROL URL distante]**.
@@ -186,7 +186,7 @@ Ce cas pratique présente comment convertir rapidement un email HTML en composan
 
 >[!CAUTION]
 >
->Cette section est destinée aux utilisateurs avancés qui sont familiers avec le code HTML.
+>Cette section est destinée aux utilisateurs et utilisatrices avancés qui sont familiers avec le code HTML.
 
 >[!NOTE]
 >
@@ -219,7 +219,7 @@ Si tel n&#39;est pas le cas, divisez les différents blocs de votre code HTML. P
 Une fois tous vos blocs identifiés, répétez la procédure suivante dans le concepteur d’e-mail pour chaque section de votre email existant :
 
 1. Ouvrez le concepteur d’e-mail pour créer un contenu d’email vide.
-1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Pour plus d&#39;informations, consultez la section [Modifier les styles d’un email](../../designing/using/styles.md).
+1. Définissez les attributs de niveau de corps : couleurs d’arrière-plan, largeur, etc. Pour plus d’informations, consultez la section [Modifier les styles d’un e-mail](../../designing/using/styles.md).
 1. Ajoutez un composant de structure. Pour plus d&#39;informations, consultez la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Ajoutez un composant HTML. Pour plus d&#39;informations, consultez la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copiez votre code HTML et collez-le dans ce composant.

@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -36,8 +36,8 @@ L&#39;intégration prend en charge deux types d&#39;identifiants Adobe Experienc
 
   L’identifiant sera ensuite reconnu par les autres applications Adobe Marketing Cloud partageant le même CNAME.
 
-* **Declared ID** : ce type d’identifiant permet de réconcilier tout type de données provenant de la base de données Adobe Campaign. Dans Adobe Campaign, il est représenté sous la forme d’une clé de réconciliation prédéfinie. Lors de l’échange de données, les identifiants de la base de données Adobe Campaign sont hachés. Ces identifiants hachés sont ensuite comparés aux identifiants hachés de l’audience Adobe Marketing Cloud impliquée dans l’import ou l’export.
-  <br>Cette intégration prend en charge les identifiants Declared ID standard, hachés et chiffrés.
+* **Declared ID** : ce type d’identifiant permet de réconcilier tout type de données provenant de la base de données Adobe Campaign. Dans Adobe Campaign, il est représenté sous la forme d’une clé de réconciliation prédéfinie. Lors de l’échange de données, les identifiants de la base de données Adobe Campaign sont hachés.Ces identifiants hachés sont ensuite comparés aux identifiants hachés de l’audience Adobe Marketing Cloud impliquée dans l’import ou l’export.
+  <br>Cette intégration prend en charge les identifiants déclarés standard, hachés et chiffrés.
 
   >[!NOTE]
   >

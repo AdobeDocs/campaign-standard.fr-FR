@@ -9,8 +9,8 @@ role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '591'
+workflow-type: ht
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ Adobe Campaign crée des profils client complets en temps réel, ce qui vous per
 
 **Les audiences sont des listes de profils créées selon un critère spécifique ou un ensemble de critères.** Grâce aux workflows et au requêteur, vous avez la possibilité de construire les audiences qui seront ciblées par vos campagnes marketing, selon les informations dont vous disposez sur elles, leurs activités et leur historique marketing. Vous pouvez ainsi filtrer les profils d’inscrits, échantillonner ou créer des audiences cibles sur un nombre illimité de critères.
 
-En savoir plus :
+En savoir plus:
 
 * [À propos des profils](../../audiences/using/about-profiles.md)
 * [Profils actifs](../../audiences/using/active-profiles.md)
@@ -68,7 +68,7 @@ Fournir des **liens de désabonnement** dans vos messages permet l’ajout de pr
 >
 >Vous devez respecter la [politique d’utilisation acceptable d’Adobe Campaign](https://www.adobe.com/fr/legal/terms/aup.html).
 
-En savoir plus :
+En savoir plus:
 
 * [À propos des abonnements](../../audiences/using/about-subscriptions.md)
 * [À propos des processus d&#39;opt-in et d&#39;opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

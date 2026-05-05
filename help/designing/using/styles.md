@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
-workflow-type: tm+mt
-source-wordcount: '1075'
+workflow-type: ht
+source-wordcount: '1077'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Dans le concepteur d’e-mail, lorsque vous sélectionnez un élément, plusieurs options spécifiques au type de contenu sélectionné s&#39;affichent dans le volet **[!UICONTROL Paramètres]**. Vous pouvez utiliser ces options pour changer facilement le style de votre email.
 
-## Sélectionner un élément        {#selecting-an-element}
+## Sélectionner un élément {#selecting-an-element}
 
 Pour sélectionner un élément dans l&#39;interface du Concepteur d&#39;email, vous pouvez :
 
@@ -44,7 +44,7 @@ Pour sélectionner une colonne, vous pouvez également procéder comme suit :
 
 Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment-and-padding).
 
-## Ajuster les paramètres de style        {#adjusting-style-settings}
+## Ajuster les paramètres de style {#adjusting-style-settings}
 
 1. Sélectionnez un élément dans votre email. Pour plus d&#39;informations, consultez la section [Sélectionner un élément](#selecting-an-element).
 1. Ajustez les paramètres selon vos besoins. Chaque élément sélectionné offre un ensemble différent de paramètres.
@@ -89,11 +89,11 @@ Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez
 
   ![](assets/des_text_alignment.png)
 
-* L&#39;**Alignement horizontal** peut être appliqué au texte, aux images et aux boutons, mais pas aux composants **[!UICONTROL Diviseur]** et **[!UICONTROL Social]** à l&#39;heure actuelle.
+* L’**Alignement horizontal** peut être appliqué au texte, aux images et aux boutons, mais pas aux composants **[!UICONTROL Diviseur]** et **[!UICONTROL Social]** à l’heure actuelle.
 
   ![](assets/des_horizontal_alignment.png)
 
-* Pour définir l&#39;**alignement vertical**, sélectionnez une colonne au sein d&#39;un composant de structure et choisissez une option dans le volet Paramètres.
+* Pour définir l’**alignement vertical**, sélectionnez une colonne au sein d’un composant de structure et choisissez une option dans le volet Paramètres.
 
   ![](assets/des_set_vertical_alignment.png)
 
@@ -102,7 +102,7 @@ Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Paramètres d’arrière-plan"
->abstract="Le concepteur d’e-mail vous permet de personnaliser la couleur de fond ou l&#39;image d&#39;arrière-plan de votre contenu. Notez que l&#39;image d&#39;arrière-plan n&#39;est pas prise en charge par tous les clients de messagerie."
+>abstract="Le concepteur d’e-mail vous permet de personnaliser la couleur de fond ou l’image d’arrière-plan de votre contenu.Notez que l’image d’arrière-plan n’est pas prise en charge par tous les clients de messagerie."
 
 Lorsqu’il s’agit de définir des arrière-plans dans le concepteur d’e-mail, Adobe a les recommandations suivantes :
 
@@ -167,7 +167,7 @@ Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#3
 
    ![](assets/des_adjusting_padding.png)
 
-1. Procédez de façon similaire pour ajuster l&#39;alignement et la marge intérieure des autres colonnes.
+1. Procédez de façon similaire pour ajuster l’alignement et la marge intérieure des autres colonnes.
 
    ![](assets/des_adjusting_columns.png)
 
@@ -183,7 +183,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le co
 
    ![](assets/stylelinks-selecttext.png)
 
-1. Pour sélectionner le contexte de navigation dans lequel votre lien sera ouvert, sélectionnez un attribut de **[!UICONTROL Cible]**.
+1. Pour sélectionner le contexte de navigation dans lequel votre lien sera ouvert, sélectionnez une **[!UICONTROL Cible]**.
 
    ![](assets/stylelinks-target.png)
 
@@ -197,7 +197,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le co
 
 1. Enregistrez vos modifications.
 
-## Ajouter des attributs de style intégrés        {#adding-inline-styling-attributes}
+## Ajouter des attributs de style intégrés {#adding-inline-styling-attributes}
 
 Dans l&#39;interface du Concepteur d&#39;email, lorsque vous sélectionnez un élément et affichez ses paramètres dans le volet latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 

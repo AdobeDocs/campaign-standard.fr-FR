@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '417'
+workflow-type: ht
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Les audiences peuvent être définies au moment de la création du message via l
 
 1. Si nécessaire, vous pouvez définir une population témoin à l’aide de l’onglet correspondant. Vous pourrez ainsi retirer certains profils de votre cible afin qu’ils ne reçoivent pas le message. Pour plus d’informations, voir [Ajout d’une population témoin](../../sending/using/control-group.md).
 
-1. Vous pouvez également utiliser des adresses de substitution pour obtenir une représentation exacte du message que le profil recevra.  Pour plus d’informations, voir [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md).
+1. Vous pouvez également utiliser des adresses de substitution pour obtenir une représentation exacte du message que le profil recevra.  Pour plus d’informations, voir [Test des e-mails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md).
 
 Le bloc des audiences est mis à jour et affiche qu’une cible ainsi que des profils de test ont été sélectionnés pour cet email.
 

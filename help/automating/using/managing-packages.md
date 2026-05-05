@@ -12,7 +12,7 @@ level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1112'
+source-wordcount: '1122'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Les étapes d’export d’un package sont présentées dans la section [Export 
 >
 >Il n’est pas possible de modifier la définition de ces deux packages. En revanche, ces derniers contiennent toujours les données disponibles les plus à jour. Vous pouvez [créer vos propres packages](#creating-a-package) pour exporter des éléments spécifiques.
 
-### Création de package     {#creating-a-package}
+### Création de package {#creating-a-package}
 
 Pour exporter des jeux de données spécifiques, vous devez créer un package.
 
@@ -71,7 +71,7 @@ Pour créer un package, vous devez disposer des droits d’administration.
 
    ![](assets/packages_18.png)
 
-1. Dans l’onglet **[!UICONTROL Définition de l’export]**, utilisez le bouton **[!UICONTROL Créer un élément]** pour sélectionner les ressources que vous souhaitez exporter.
+1. Dans l’onglet **[!UICONTROL Contenu de l’export]**, utilisez le bouton **[!UICONTROL Créer un élément]** pour sélectionner les ressources que vous souhaitez exporter.
 
    ![](assets/packages_2.png)
 
@@ -95,7 +95,7 @@ Pour créer un package, vous devez disposer des droits d’administration.
 
 Votre package est maintenant créé et prêt à être exporté.
 
-### Export d’un package     {#exporting-a-package}
+### Export d’un package {#exporting-a-package}
 
 L’export d’un package vous permet d’enregistrer un état spécifique d’une ressource que vous pourrez réimporter ultérieurement sur une même instance ou sur une autre instance.
 
@@ -139,7 +139,7 @@ L’onglet **[!UICONTROL Logs d’exécution]** répertorie toutes les étapes d
 >
 >Ces éléments sont accessibles en lecture seule.
 
-### Import d’un package     {#importing-a-package}
+### Import d’un package {#importing-a-package}
 
 Un administrateur peut importer manuellement un package issu d’un export réalisé au préalable à partir d’une instance Adobe Campaign. Pour plus d&#39;informations, consultez la section [Exports de package](#package-exports).
 

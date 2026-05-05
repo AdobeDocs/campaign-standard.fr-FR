@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1017'
 ht-degree: 100%
 
@@ -24,11 +24,11 @@ Cette section décrit la création d&#39;une audience de type **Requête**. Vous
 
 A partir de la liste des audiences, vous pouvez créer des audiences en réalisant des requêtes sur les profils Adobe Campaign ou en important une audience Adobe Experience Cloud.
 
-1. Accédez à la liste des audiences via le menu **[!UICONTROL Audiences]**.
+1. Accédez à la liste des audiences via le menu ou la vignette **[!UICONTROL Audiences]**.
 
    ![](assets/audiences_query_1.png)
 
-1. Sélectionnez **[!UICONTROL Créer]** pour accéder à l&#39;écran de création d&#39;audience.
+1. Sélectionnez **[!UICONTROL Créer]** pour accéder à l’écran de création d’audience.
 
    ![](assets/audiences_query.png)
 
@@ -37,7 +37,7 @@ A partir de la liste des audiences, vous pouvez créer des audiences en réalisa
 
    ![](assets/audience_type_selection.png)
 
-1. Sélectionnez alors la **[!UICONTROL Dimension de ciblage]** que vous souhaitez utiliser pour filtrer vos clients. Chaque audience est constituée d&#39;une seule dimension de ciblage. Par exemple, vous ne pouvez pas créer d&#39;audience composée de deux profils, de profils de test et d&#39;abonnés. Pour plus d&#39;informations sur les dimensions de ciblage, consultez [cette page](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Sélectionnez alors la **[!UICONTROL Dimension de ciblage]** que vous souhaitez utiliser pour filtrer vos clients. Chaque audience est constituée d&#39;une seule dimension de ciblage. Par exemple, vous ne pouvez pas créer d&#39;audience composée de deux profils, de profils de test et d&#39;abonnés. Pour plus d’informations sur les dimensions de ciblage, consultez [cette page](../../automating/using/query.md#targeting-dimensions-and-resources).
 1. Créez la requête pour définir la population de l&#39;audience. Consultez la section concernant l&#39;[édition de requêtes](../../automating/using/editing-queries.md).
 1. Cliquez sur le bouton **[!UICONTROL Créer]** pour enregistrer votre audience.
 
@@ -75,7 +75,7 @@ Pour créer une audience de type **Liste**, les étapes sont les suivantes :
 
    ![](assets/audiences_list_4.png)
 
-## Création d&#39;une audience de type Fichier     {#creating-file-audiences}
+## Création d&#39;une audience de type Fichier {#creating-file-audiences}
 
 Cette section décrit la création d&#39;une audience de type **Fichier** à l&#39;aide d&#39;un import de fichier dans un workflow. Vous pouvez également créer des audiences à partir d&#39;un ciblage dans un [workflow](../../automating/using/get-started-workflows.md) ou via une requête depuis le menu **[!UICONTROL Audiences]** de l&#39;application.
 
@@ -97,7 +97,7 @@ Pour créer une audience de type **Fichier**, les étapes sont les suivantes :
 
    ![](assets/audience_files_3.png)
 
-## Création d&#39;audiences de type Experience Cloud     {#creating-experience-cloud-audiences}
+## Création d&#39;audiences de type Experience Cloud {#creating-experience-cloud-audiences}
 
 Adobe Campaign vous permet d&#39;échanger et de partager des audiences avec Adobe Experience Cloud. Une audience de type **Experience Cloud** est directement importée depuis People core service dans Adobe Campaign à l&#39;aide du workflow technique **[!UICONTROL Importer une audience partagée]**.
 
@@ -122,7 +122,7 @@ La modification d&#39;une audience dépend de son type :
 * Pour modifier une audience de type **Liste** ou de type **Fichier**, éditez le workflow à partir duquel elle a été créée et modifiez l&#39;activité de **[!UICONTROL Sauvegarde d&#39;audience]**. Démarrez le workflow pour que l&#39;audience soit modifiée.
 * Pour éditer une audience de type **Experience Cloud**, consultez la section [Importer/exporter des audiences avec l&#39;intégration de People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
 
-## Supprimer une audience     {#deleting-audiences}
+## Supprimer une audience {#deleting-audiences}
 
 Deux méthodes permettent de supprimer une ou plusieurs audiences. Vous pouvez tout d&#39;abord ajouter une date d&#39;expiration à votre audience.
 
@@ -133,7 +133,7 @@ Pour ce faire :
 
    ![](assets/audience_delete_2.png)
 
-1. Dans le champ **[!UICONTROL Expire le]**, ajoutez une date d&#39;expiration à votre audience.
+1. Dans le champ **[!UICONTROL Expire le]**, ajoutez une date d’expiration à votre audience.
 
    ![](assets/audience_delete_3.png)
 

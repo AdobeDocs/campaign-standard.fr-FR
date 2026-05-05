@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '904'
+source-wordcount: '908'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Les emails uniques sont des emails standard, envoyés une seule fois.
 
 Les emails récurrents permettent d&#39;envoyer plusieurs fois sur une période définie un même email à des cibles différentes. Vous pouvez agréger les diffusions par période afin d’obtenir des rapports adaptés.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Diffusion Email]** est généralement utilisée afin d&#39;automatiser l&#39;envoi d&#39;un email à une cible calculée dans le même workflow.
 
@@ -75,7 +75,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 1. Par défaut, l&#39;activité de **[!UICONTROL Diffusion Email]** ne possède aucune transition sortante. Si vous souhaitez ajouter une transition sortante à votre activité de **[!UICONTROL Diffusion Email]**, accédez à l&#39;onglet **[!UICONTROL Général]** des options avancées de l&#39;activité (bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l&#39;activité) puis cochez l&#39;une des options suivantes :
 
    * **[!UICONTROL Ajouter une transition sortante sans la population]** : permet de générer une transition sortante contenant la même population que la transition entrante.
-   * **[!UICONTROL Ajouter une transition sortante avec la population]** : permet de générer une transition sortante contenant la population à qui l&#39;email a été envoyé. La population ciblée exclue pendant la préparation de la diffusion (quarantaine, adresses email non valides, etc.) est exclue de cette transition.
+   * **[!UICONTROL Ajouter une transition sortante avec la population]** : permet de générer une transition sortante contenant la population à qui l&#39;email a été envoyé. Les personnes membres ciblées exclues pendant la préparation de la diffusion (quarantaine, e-mails non valides, etc.)sont exclues de cette transition.
 
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
@@ -83,7 +83,7 @@ Lorsque vous ouvrez à nouveau l&#39;activité par la suite, vous accédez au ta
 
 Par défaut, le démarrage d&#39;un workflow de diffusion déclenche uniquement la préparation des messages. L&#39;envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l&#39;option **[!UICONTROL Demander confirmation avant d&#39;envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques         {#remarks}
+## Remarques {#remarks}
 
 Les diffusions créées à partir d&#39;un workflow sont accessibles dans la liste des activités marketing de l&#39;application. Vous pouvez visualiser l&#39;état d&#39;exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé de l&#39;email vous permettent d&#39;accéder directement aux éléments liés (workflow, campagne, diffusion parente dans le cas d&#39;un email récurrent).
 

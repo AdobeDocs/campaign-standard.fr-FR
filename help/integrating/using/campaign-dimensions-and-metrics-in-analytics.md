@@ -26,33 +26,33 @@ Les **[!UICONTROL dimensions]** de Campaign qui figurent dans Analytics sont ré
  <thead> 
   <tr> 
    <th> Dimension<br /> </th> 
-   <th> Définition<br /> </th> 
+   <th>Définition<br /></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Identifiant de la campagne<br /> </td> 
-   <td> Nom interne de la campagne affiché dans Campaign<br /> </td> 
+   <td>Identifiant de la campagne<br /></td> 
+   <td>Nom interne de la campagne affiché dans Campaign<br /></td> 
   </tr> 
   <tr> 
-   <td> Libellé de la campagne<br /> </td> 
-   <td> Libellé de la campagne affiché dans Campaign<br /> </td> 
+   <td>Libellé de la campagne<br /></td> 
+   <td>Libellé de la campagne affiché dans Campaign<br /></td> 
   </tr> 
   <tr> 
-   <td> Identifiant de la diffusion<br /> </td> 
-   <td> Nom interne de la diffusion affiché dans Campaign.<br /> Par exemple, DM1 est une diffusion récurrente planifiée pour envoyer des diffusions enfants toutes les semaines. Les diffusions DM2, DM3 et DM4 sont envoyées les trois premières semaines. La dimension Identifiant de la diffusion affiche ensuite les résultats de chaque diffusion, à savoir DM1 à DM4. <br /> </td> 
+   <td>Identifiant de la diffusion<br /></td> 
+   <td>Nom interne de la diffusion affiché dans Campaign<br />Par exemple, DM1 est une diffusion récurrente planifiée pour envoyer des diffusions enfants toutes les semaines.Les diffusions DM2, DM3 et DM4 sont envoyées les trois premières semaines.La dimension Identifiant de la diffusion affiche ensuite les résultats de chaque diffusion, à savoir DM1 à DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Libellé de la diffusion<br /> </td> 
-   <td> Libellé de la diffusion affiché dans Campaign<br /> </td> 
+   <td>Libellé de la diffusion<br /></td> 
+   <td>Libellé de la diffusion affiché dans Campaign<br /></td> 
   </tr> 
   <tr> 
-   <td> Identifiant de la diffusion exécutée<br /> </td> 
-   <td> Nom interne de la diffusion affiché dans Campaign. Cette dimension concerne uniquement la diffusion en cours d'exécution dans Campaign.<br /> Par exemple, DM1 est une diffusion récurrente planifiée pour envoyer des diffusions enfants toutes les semaines. Les diffusions DM2, DM3 et DM4 sont envoyées les trois premières semaines. La dimension Identifiant de la diffusion exécutée affiche ensuite les résultats des diffusions exécutées, à savoir les diffusions enfants DM2, DM3 et DM4. <br /> </td> 
+   <td>Identifiant de la diffusion exécutée<br /></td> 
+   <td>Nom interne de la diffusion affiché dans Campaign.Cette dimension concerne uniquement la diffusion en cours d’exécution dans Campaign.<br />Par exemple, DM1 est une diffusion récurrente planifiée pour envoyer des diffusions enfants toutes les semaines.Les diffusions DM2, DM3 et DM4 sont envoyées les trois premières semaines.La dimension Identifiant de la diffusion exécutée affiche ensuite les résultats des diffusions exécutées, à savoir les diffusions enfants DM2, DM3 et DM4. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Libellé de la diffusion exécutée<br /> </td> 
-   <td> Libellé de la diffusion affiché dans Campaign. Cette dimension concerne uniquement la diffusion en cours d'exécution dans Campaign.<br /> </td> 
+   <td>Libellé de la diffusion exécutée<br /></td> 
+   <td>Libellé de la diffusion affiché dans Campaign.Cette dimension concerne uniquement la diffusion en cours d'exécution dans Campaign.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,40 +63,40 @@ Les **[!UICONTROL mesures]** de Campaign qui figurent dans Analytics sont réper
  <thead> 
   <tr> 
    <th> Mesure<br /> </th> 
-   <th> Définition<br /> </th> 
+   <th>Définition<br /></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Ont cliqué<br /> </td> 
-   <td> Nombre de clics sur un contenu dans une diffusion.<br /> </td> 
+   <td>Cliqués<br /></td> 
+   <td>Nombre de clics sur un contenu dans une diffusion.<br /></td> 
   </tr> 
   <tr> 
-   <td> Delivrés<br /> </td> 
-   <td> Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.<br /> </td> 
+   <td>Délivrés<br /></td> 
+   <td>Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.<br /></td> 
   </tr> 
   <tr> 
-   <td> Ayant ouvert<br /> </td> 
-   <td> Nombre d'ouvertures d'un message dans une diffusion.<br /> </td> 
+   <td>Ouverts<br /></td> 
+   <td>Nombre d’ouvertures d’un message dans une diffusion.<br /></td> 
   </tr> 
   <tr> 
-   <td> Envoyés<br /> </td> 
-   <td> Nombre total d’envois pour la diffusion.<br /> </td> 
+   <td>Envoyés<br /></td> 
+   <td>Nombre total d’envois pour la diffusion.<br /></td> 
   </tr> 
   <tr> 
-   <td> Total de bounces<br /> </td> 
-   <td> Nombre total d'erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br /> </td> 
+   <td>Total de rebonds<br /></td> 
+   <td>Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br /></td> 
   </tr> 
   <tr> 
-   <td> Ouvertures uniques<br /> </td> 
-   <td> Nombre de destinataires ayant ouvert la diffusion.<br /> </td> 
+   <td>Ouvertures uniques<br /></td> 
+   <td>Nombre de destinataires ayant ouvert la diffusion.<br /></td> 
   </tr> 
   <tr> 
-   <td> Clics uniques<br /> </td> 
-   <td> Nombre de destinataires ayant cliqué sur un contenu dans une diffusion.<br /> </td> 
+   <td>Clics uniques<br /></td> 
+   <td>Nombre de destinataires ayant cliqué sur un contenu dans une diffusion.<br /></td> 
   </tr> 
   <tr> 
-   <td> Désabonnement<br /> </td> 
+   <td>Désabonnement<br /></td> 
    <td> Nombre de clics sur le lien de désabonnement.<br /> </td> 
   </tr> 
  </tbody> 

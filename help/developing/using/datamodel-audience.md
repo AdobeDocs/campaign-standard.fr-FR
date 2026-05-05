@@ -8,8 +8,8 @@ role: Developer
 level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
-source-wordcount: '214'
+workflow-type: ht
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
-                  <td>Data schema</td>
+                  <td>Schéma de données</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -105,7 +105,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>Do not historize this job</td>
+                  <td>Ne pas conserver l’historique de ce traitement</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -153,7 +153,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -226,7 +226,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>where</td>
-                  <td>Query definition</td>
+                  <td>Définition de la requête</td>
                   <td>item </td>
                   <td> </td>
                </tr>

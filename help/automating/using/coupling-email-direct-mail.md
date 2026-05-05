@@ -27,7 +27,7 @@ Voici un exemple de modèle de courrier qui peut être utilisé.
 
 ![](assets/direct_mail_9.png)
 
-Voici un exemple de workflow qui mélange les canaux Courrier et Email.
+Voici un exemple de workflow qui mélange les canaux Courrier et E-mail.
 
 ![](assets/direct_mail_10.png)
 

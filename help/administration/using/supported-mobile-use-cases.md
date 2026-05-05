@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: tm+mt
-source-wordcount: '870'
+workflow-type: ht
+source-wordcount: '1024'
 ht-degree: 100%
 
 ---
@@ -110,7 +110,7 @@ public void onResume() {
 
 ### Avec iOS {#send-push-token-ios}
 
-Sous iOS, le [!DNL Experience Platform SDK] suivant est nécessaire :
+Sous iOS, l’[!DNL Experience Platform SDK] suivante est nécessaire :
 
 * **[!UICONTROL setPushIdentifier]** <br>Pour plus d’informations, voir la section [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
@@ -257,7 +257,7 @@ Vous devez créer des règles pour le postback de tracking des notifications pus
 
 ### Avec iOS {#track-user-push-ios}
 
-Sous iOS, le [!DNL Experience Platform SDK] suivant est nécessaire :
+Sous iOS, l’[!DNL Experience Platform SDK] suivante est nécessaire :
 
 * **[!UICONTROL trackAction]**. Pour plus d’informations, voir la section [Tracker les actions de l’application](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
@@ -275,7 +275,8 @@ if (deliveryId != nil && broadlogId != nil) {
 
 Sous Android, le [!DNL Experience Platform SDK] suivant est nécessaire :
 
-* **[!UICONTROL trackAction]** Pour plus d’informations, voir la section [Tracker les actions de l’application](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
+* **[!UICONTROL trackAction]**
+Pour plus d’informations, consultez la section [Suivre les actions de l’application](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Voici un exemple de mise en œuvre pour ce cas pratique avec Android :
 
@@ -290,7 +291,7 @@ MobileCore.trackAction("tracking", contextData);
 
 ### Avec iOS {#custom-event-inapp-ios}
 
-Sous iOS, le [!DNL Experience Platform SDK] suivant est nécessaire :
+Sous iOS, l’[!DNL Experience Platform SDK] suivante est nécessaire :
 
 * **[!UICONTROL trackAction]**. Pour plus d’informations, voir la section [Tracker les actions de l’application](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
@@ -302,9 +303,10 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 
 ### Avec Android {#custom-event-inapp-android}
 
-Sous Android, le [!DNL Experience Platform SDK] suivant est nécessaire :
+Sous Android, l’[!DNL Experience Platform SDK] suivante est nécessaire :
 
-* **[!UICONTROL trackAction]** Pour plus d’informations, voir la section [Tracker les actions de l’application](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
+* **[!UICONTROL trackAction]**
+Pour plus d’informations, consultez la section [Suivre les actions de l’application](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Voici un exemple de mise en œuvre pour ce cas pratique avec Android :
 

@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
-source-wordcount: '977'
+workflow-type: ht
+source-wordcount: '981'
 ht-degree: 100%
 
 ---
@@ -27,11 +27,11 @@ Cette fonctionnalité utilise les préférences linguistiques indiquées dans le
 
 Pour utiliser les variantes de contenus multilingues pour votre diffusion de notification push, suivez ces étapes :
 
-* [Etape 1 : téléchargement d&#39;une variante de contenu multilingue     ](#step-1--upload-multilingual-content-variant)
-* [Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues     ](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [Etape 3 : envoi et analyse de la diffusion de notification push multilingue     ](#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [Etape 1 : téléchargement d&#39;une variante de contenu multilingue](#step-1--upload-multilingual-content-variant)
+* [Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [Etape 3 : envoi et analyse de la diffusion de notification push multilingue](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Etape 1 : téléchargement d&#39;une variante de contenu multilingue      {#step-1--upload-multilingual-content-variant}
+## Etape 1 : téléchargement d&#39;une variante de contenu multilingue {#step-1--upload-multilingual-content-variant}
 
 Avant de personnaliser votre notification push multilingue, vous devez télécharger les variantes de contenus dans un modèle de diffusion multilingue et créer la diffusion.
 
@@ -50,7 +50,7 @@ Avant de personnaliser votre notification push multilingue, vous devez télécha
 
 1. Dans la fenêtre **[!UICONTROL Audiences]**, déposez vos requêtes pour affiner votre audience.
 
-   Les requêtes ajoutées dépendent du modèle sélectionné : si vous avez choisi le modèle **[!UICONTROL Envoyer des notifications push multilingues aux profils Campaign]**, vous pouvez interroger les destinataires connus de votre application mobile. Si vous avez sélectionné en revanche le modèle **[!UICONTROL Envoyer des notifications push multilingues aux abonnés de l&#39;application]**, vous pouvez interroger tous les abonnés d&#39;une application spécifique qui ont accepté de recevoir des notifications.
+   Les requêtes ajoutées dépendent du modèle sélectionné : si vous avez choisi le modèle **[!UICONTROL Envoyer des notifications push multilingues aux profils Campaign]**, vous pouvez interroger les destinataires connus de votre application mobile. Si vous avez sélectionné en revanche le modèle **[!UICONTROL Envoyer des notifications push multilingues aux abonnés de l’application]**, vous pouvez interroger tous les abonnés d’une application spécifique qui ont accepté de recevoir des notifications.
    >[!NOTE]
    >
    >Si vous ciblez des audiences avec des langues spécifiques, vous devez répertorier toutes les langues ciblées dans votre fichier CSV.
@@ -80,7 +80,7 @@ Avant de personnaliser votre notification push multilingue, vous devez télécha
 
 Vous pouvez maintenant commencer à personnaliser votre notification push multilingue.
 
-## Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues      {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 Après avoir téléchargé le fichier comportant les variantes de contenus, vous pouvez prévisualiser différentes variantes depuis la diffusion de la notification push.
 
@@ -108,7 +108,7 @@ Vous avez également la possibilité de créer et éditer des variantes supplém
 
 La diffusion de la notification push multilingue est prête à l&#39;envoi.
 
-## Etape 3 : envoi et analyse de la diffusion de notification push multilingue      {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Etape 3 : envoi et analyse de la diffusion de notification push multilingue {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Les notifications push avec des variantes de contenus multilingues peuvent être maintenant envoyées à vos utilisateurs.
 
@@ -117,7 +117,7 @@ Les notifications push avec des variantes de contenus multilingues peuvent être
 
    ![](assets/multivariant_push_12.png)
 
-1. Une fois la notification push envoyée, cliquez sur l&#39;icône **[!UICONTROL Rapports]** puis sur **[!UICONTROL Rapports dynamiques]** pour analyser le succès de votre diffusion.
+1. Une fois la notification push envoyée, cliquez sur l’icône **[!UICONTROL Rapports]** puis sur **[!UICONTROL Rapports dynamiques]** pour analyser le succès de votre diffusion.
 
    ![](assets/multivariant_push_13.png)
 

@@ -10,8 +10,8 @@ role: Leader
 level: Intermediate
 exl-id: d6ddc022-16ad-438b-8c6e-fc6abc704f09
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '225'
+workflow-type: ht
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Chaque tableau est représenté par des nombres et des graphiques de synthèse. 
 Le tableau **Statistiques de diffusion** contient les données disponibles pour les emails envoyés, telles que :
 
 * **[!UICONTROL Traités/envoyés]** : nombre total d&#39;envois pour la diffusion.
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés. Les erreurs remontées (rebonds) sont prises en compte. Cependant, les plaintes (déclarations comme spam) et les messages d&#39;absence de type &quot;absent du bureau&quot; ne sont pas pris en compte.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés. Les erreurs soulevées (rebonds) sont prises en compte.Cependant, les plaintes (déclarations comme spam) et les messages d&#39;absence de type &quot;absent du bureau&quot; ne sont pas pris en compte.
 * **[!UICONTROL Rebonds + erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des rebonds par rapport au nombre total de messages envoyés.
 
 Le tableau **Open and clicks** contient les données disponibles concernant l&#39;activité des destinataires pour chaque diffusion, telles que :

@@ -11,12 +11,12 @@ level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1077'
+source-wordcount: '1078'
 ht-degree: 100%
 
 ---
 
-# Cas pratique {#use-case}
+# Cas d’utilisation {#use-case}
 
 Le cas pratique ci-dessous vous présente comment appeler un workflow avec des paramètres au sein de vos workflows.
 
@@ -34,7 +34,7 @@ Pour mettre en place ce cas pratique, vous devez réaliser les actions ci-dessou
 
 Avant de configurer les workflows, vous devez créer les workflows 1 et 2 avec une activité **[!UICONTROL Signal externe]** dans chacun d’eux. Ce faisant, vous pourrez cibler ces activités Signal lors de l’appel des workflows.
 
-## Etape 1 : configurer l’appel API       {#step-1--configuring-the-api-call}
+## Etape 1 : configurer l’appel API {#step-1--configuring-the-api-call}
 
 Effectuez un appel API pour déclencher le workflow 1 avec des paramètres. Pour plus d’informations sur la syntaxe de l’appel API, consultez la [documentation des API REST Campaign Standard](../../api/using/triggering-a-signal-activity.md).
 
@@ -59,7 +59,7 @@ Dans notre cas, nous souhaitons appeler le workflow avec les paramètres ci-dess
 -d } 
 ```
 
-## Etape 2 : configurer le workflow 1       {#step-2--configuring-workflow-1}
+## Etape 2 : configurer le workflow 1 {#step-2--configuring-workflow-1}
 
 Le workflow 1 sera créé tel que ci-dessous :
 
@@ -79,7 +79,7 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
    ![](assets/extsignal_uc1.png)
 
-1. Ajoutez une activité **[!UICONTROL Transfert de fichier]** afin d’importer des données dans la base de données. Pour cela, faites glisser et déposez l’activité, ouvrez-la, puis sélectionnez l’onglet **[!UICONTROL Protocole]**.
+1. Ajoutez une activité **[!UICONTROL Transfert de fichier]** pour importer des données dans la base de données.Pour cela, faites glisser et déposez l’activité, ouvrez-la, puis sélectionnez l’onglet **[!UICONTROL Protocole]**.
 1. Sélectionnez l’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**, puis utilisez le paramètre **fileToTarget** comme fichier à transférer :
 
    ```
@@ -128,9 +128,9 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
    ![](assets/extsignal_uc7.png)
 
-Le workflow 1 est configuré, et vous pouvez maintenant créer le workflow 2. Voir à ce propos [cette section](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
+Le workflow 1 est configuré, et vous pouvez maintenant créer le workflow 2. Pour plus d’informations, consultez [cette section](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
-## Etape 3 : configurer le workflow 2       {#step-3--configuring-workflow-2}
+## Etape 3 : configurer le workflow 2 {#step-3--configuring-workflow-2}
 
 Le workflow 2 sera créé tel que ci-dessous :
 
@@ -187,6 +187,6 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
    ![](assets/extsignal_uc14.png)
 
-## Exécuter les workflows       {#executing-the-workflows}
+## Exécuter les workflows {#executing-the-workflows}
 
 Une fois les workflows créés, vous pouvez les exécuter. Assurez-vous que les deux workflows sont démarrés avant d’effectuer l’appel API.

@@ -5,14 +5,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
-source-wordcount: '577'
+workflow-type: ht
+source-wordcount: '584'
 ht-degree: 100%
 
 ---
 
 
-# Créer et envoyer des messages 
+# Créer et envoyer des messages
 
 <table>
 <tr>
@@ -34,7 +34,7 @@ ht-degree: 100%
 </tr>
 <tr>
 <td>Concevoir vos diffusions</td>
-<td>Créer des diffusions</td>
+<td>Création de diffusions</td>
 <td>Personnaliser et rendre vos diffusions dynamiques</td>
 <td>Tracker et surveiller vos diffusions</td>
 <td>Configurer des rapports</td>
@@ -52,7 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 * xxxx
 * xxxx
 
-## Créer des diffusions
+## Création de diffusions
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
@@ -69,14 +69,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 Retenez l’attention de vos clients et améliorez vos taux de réponses grâce à une personnalisation évoluée du contenu et des en-têtes des messages selon leur profil, leurs préférences et leur activité. Toutes les informations concernant vos clients sont centralisées dans Adobe Campaign et vous pouvez leur proposer des messages au contenu adapté, sur les différents canaux.
 
-Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, proposer des expériences personnalisées et augmenter les taux d’ouverture et de conversion. Les messages cross-canal diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. Ces différentes façons peuvent être associées à des critères en fonction des profils. Vous pouvez ainsi effectuer les actions suivantes :
+Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, proposer des expériences personnalisées et augmenter les taux d’ouverture et de conversion. Les messages cross-canal diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. Ces différentes façons peuvent être associées à des critères en fonction des profils. Vous pouvez ainsi :
 
 * insérer des [champs de personnalisation dynamiques](../../designing/using/personalization.md#inserting-a-personalization-field) dans vos messages ;
 * insérer des [blocs de personnalisation prédéfinis](../../designing/using/personalization.md#adding-a-content-block) ;
 * [personnaliser l&#39;expéditeur](../../designing/using/subject-line.md) d&#39;un email ou d&#39;un SMS ;
 * [Personnaliser l’objet d’un email](../../designing/using/subject-line.md)
 * créer du [contenu conditionnel dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [sur une landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) ;
-* insérer du [texte dynamique](../../channels/using/defining-dynamic-text.md) dans un SMS ou une notification push.
+* Insérer du [texte dynamique](../../channels/using/defining-dynamic-text.md) dans un SMS ou une notification push.
 
 ![](assets/delivery_content_43.png)
 

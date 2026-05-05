@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
 source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Pour utiliser un profil de test comme piège, il doit être inclus dans l’audi
 
 >[!NOTE]
 >
->Contrairement aux profils de test utilisés pour les [bons à tirer](../../sending/using/sending-proofs.md) ou le [rendu des emails](../../sending/using/email-rendering.md), le message est envoyé simultanément à la cible principale et aux profils de test utilisés comme pièges.
+>Contrairement aux profils de test utilisés pour les [bons à tirer](../../sending/using/sending-proofs.md) ou le [rendu des e-mails](../../sending/using/email-rendering.md), le message est envoyé simultanément à la cible principale et aux profils de test utilisés comme pièges.
 
 Lors de la définition de l’audience d’un message :
 

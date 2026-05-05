@@ -25,13 +25,13 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Exclusion]** permet d&#39;exclure des éléments d&#39;une population selon certains critères.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Exclusion]** est essentiellement utilisée afin de réaliser un filtrage supplémentaire sur les populations des transitions entrantes.
 
 Un ensemble principal est défini parmi les transitions entrantes. Les membres des autres transitions entrantes sont exclus de l&#39;ensemble principal. La transition sortante de l&#39;activité d&#39;exclusion contient uniquement les membres de l&#39;ensemble principal non rencontrés dans les autres transitions entrantes.
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Exclusion]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
@@ -44,7 +44,7 @@ Un ensemble principal est défini parmi les transitions entrantes. Les membres d
 1. Si besoin, gérez les [Transitions](../../automating/using/activity-properties.md) de l&#39;activité afin d&#39;accéder à des options avancées sur la population transmise en sortie.
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Exemple  {#example}
+## Exemple {#example}
 
 L&#39;exemple suivant montre le paramétrage de deux activités de requête visant à filtrer les profils de la base Adobe Campaign dont l&#39;âge est compris entre 18 et 27 ans et dont l&#39;adresse email n&#39;est pas valide. Ceux dont l&#39;email n&#39;est pas valide sont ensuite exclus du premier ensemble. Cela permet par exemple d&#39;envoyer un email par la suite.
 

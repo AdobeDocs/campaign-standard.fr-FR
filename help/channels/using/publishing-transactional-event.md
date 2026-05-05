@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
 source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: tm+mt
-source-wordcount: '628'
+workflow-type: ht
+source-wordcount: '631'
 ht-degree: 100%
 
 ---
@@ -74,7 +74,7 @@ Avant de pouvoir utiliser l’événement, vous devez le prévisualiser et le pu
 
 Les événements (au format JSON) sont répertoriés du plus récent au plus ancien. Cette liste vous permet de vérifier des données telles que le contenu ou le statut d’un événement, à des fins de contrôle et de correction d’erreurs.
 
-## Dépublier un événement       {#unpublishing-an-event}
+## Dépublier un événement {#unpublishing-an-event}
 
 Le bouton **[!UICONTROL Dépublier]** permet d’annuler la publication de l’événement, ce qui supprime de l’API REST la ressource correspondant à l’événement précédemment créé.
 

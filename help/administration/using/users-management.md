@@ -7,8 +7,8 @@ role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '1226'
+workflow-type: ht
+source-wordcount: '1282'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,7 @@ Les administrateurs fonctionnels sont les utilisateurs pouvant accéder aux part
 >
 >Seuls les administrateurs fonctionnels, avec un rôle d’**[!UICONTROL administration]** et un accès aux entités **Toutes**, peuvent accéder aux logs d’envoi, aux logs de messages, aux logs de tracking, aux logs d’exclusion, aux logs de proposition et aux logs d’abonnement. Un utilisateur autre qu’administrateur peut cibler ces logs mais en commençant par une table liée (profils, diffusion).
 
-Les administrateurs fonctionnels sont les seuls utilisateurs ayant accès au menu **[!UICONTROL Administration]** dans l’interface Adobe Campaign. Etant donné que ces utilisateurs doivent accéder à des ressources techniques, des rôles plus avancés doivent leur être attribués, tels que les rôles d’usine **[!UICONTROL Administration]** et **[!UICONTROL Datamodel]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Administrateurs]**. Voir à ce propos cette [section](../../administration/using/list-of-roles.md).
+Les administrateurs fonctionnels sont les seuls utilisateurs ayant accès au menu **[!UICONTROL Administration]** dans l’interface Adobe Campaign. Etant donné que ces utilisateurs doivent accéder à des ressources techniques, des rôles plus avancés doivent leur être attribués, tels que les rôles d’usine **[!UICONTROL Administration]** et **[!UICONTROL Datamodel]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Administrateurs]**. Pour plus d’informations à ce sujet, consultez cette [section](../../administration/using/list-of-roles.md).
 
 Voici les principales tâches qu’ils peuvent effectuer :
 
@@ -73,11 +73,11 @@ Voici les principales tâches qu’ils peuvent effectuer :
 * [Exporter et importer des packages de données](../../automating/using/managing-packages.md) : échangez des ressources entre différentes instances Adobe Campaign par le biais de fichiers structurés au format XML.
 * [Exporter des logs](../../automating/using/exporting-logs.md) et [définir des modèles d’import](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
-### Utilisateurs experts             {#advanced-users}
+### Utilisateurs experts {#advanced-users}
 
 Les utilisateurs experts sont des utilisateurs marketing qui effectuent les tâches les plus techniques dans Adobe Campaign. Ils préconfigurent tous les éléments utilisés par les marketeurs pour envoyer et contrôler leurs diffusions.
 
-Ce type d’utilisateur requiert des rôles plus généraux que les administrateurs fonctionnels, mais doit néanmoins être en mesure d’effectuer certaines opérations techniques. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Export]**, **[!UICONTROL Import générique]** ou **[!UICONTROL Workflow]**. Voir à ce propos cette [section](../../administration/using/list-of-roles.md).
+Ce type d’utilisateur requiert des rôles plus généraux que les administrateurs fonctionnels, mais doit néanmoins être en mesure d’effectuer certaines opérations techniques. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Export]**, **[!UICONTROL Import générique]** ou **[!UICONTROL Workflow]**. Pour plus d’informations à ce sujet, consultez cette [section](../../administration/using/list-of-roles.md).
 
 Voici les principales tâches qu’ils peuvent effectuer :
 
@@ -87,13 +87,13 @@ Voici les principales tâches qu’ils peuvent effectuer :
 * [Utiliser l’édition avancée d’expressions](../../automating/using/editing-queries.md#about-query-editor) : utilisez des fonctions avancées pour manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 * [Exporter des listes](../../automating/using/exporting-lists.md) et [importer des données à l’aide de modèles d’import existants](../../automating/using/importing-data-with-import-templates.md).
 
-### Utilisateurs de base             {#basic-users}
+### Utilisateurs de base {#basic-users}
 
-Grâce à l’administrateur fonctionnel et aux utilisateurs experts, les spécialistes marketing peuvent personnaliser, diffuser et contrôler leurs campagnes sans se soucier de la configuration technique. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Préparer des diffusions]**, **[!UICONTROL Workflow]** et **[!UICONTROL Démarrer des diffusions]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Utilisateurs standard]**. Voir à ce propos cette [section](../../administration/using/list-of-roles.md).
+Grâce à l’administrateur fonctionnel et aux utilisateurs experts, les spécialistes marketing peuvent personnaliser, diffuser et contrôler leurs campagnes sans se soucier de la configuration technique. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Préparer des diffusions]**, **[!UICONTROL Workflow]** et **[!UICONTROL Démarrer des diffusions]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Utilisateurs standard]**. Pour plus d’informations à ce sujet, consultez cette [section](../../administration/using/list-of-roles.md).
 
 Voici les principales tâches qu’ils peuvent effectuer :
 
-* [Gérer les programmes et campagnes](../../start/using/programs-and-campaigns.md) : créez des campagnes marketing incluant différents types d’activités (emails, SMS, notifications push, workflows, landing pages).
+* [Gérer les programmes et campagnes](../../start/using/programs-and-campaigns.md) : créez des campagnes marketing incluant différents types d’activités (e-mails, SMS, notifications push, workflows, landing pages).
 * Gérer les [profils](../../audiences/using/about-profiles.md) et les [profils de test](../../audiences/using/managing-test-profiles.md) : gérez les destinataires identifiés et les profils de test que vos diffusions cibleront. Ajoutez des informations comme le prénom, le nom, les coordonnées, les abonnements, les emails, etc.
 * [Créer et envoyer des messages](../../sending/using/confirming-the-send.md) : créez votre message, sélectionnez l’audience, définissez le contenu du message et ses éléments de personnalisation, envoyez les bons à tirer puis le message final à votre audience.
 * [Créer et publier des landing pages](../../channels/using/getting-started-with-landing-pages.md) : créez et gérez un ensemble de services que vous souhaitez proposer à vos clients, comme des formulaires d’inscription ou de désinscription.
@@ -114,7 +114,7 @@ Pour ajouter un utilisateur à votre instance, vous devez d’abord le créer da
 
    ![](assets/create_user_2.png)
 
-1. Dans l’onglet **[!UICONTROL Détails de l’utilisateur]**, renseignez les détails de l’utilisateur, tels que l’adresse email, le prénom et le nom.
+1. Dans l’onglet **[!UICONTROL Détails de l’utilisateur ou de l’utilisatrice]**, renseignez les détails de l’utilisateur ou de l’utilisatrice, tels que l’adresse e-mail, le prénom et le nom.
 
    ![](assets/create_user_3.png)
 
@@ -140,7 +140,7 @@ Vous pourrez ensuite vérifier si votre utilisateur a été correctement synchro
 
    >[!NOTE]
    >
-   >Les groupes de sécurité peuvent uniquement être supprimés ou ajoutés à un utilisateur dans l’Admin Console.
+   >Les groupes de sécurité peuvent uniquement être supprimés ou ajoutés à un utilisateur ou une utilisatrice dans l’Admin Console.
 
    ![](assets/create_user_6.png)
 
@@ -156,6 +156,6 @@ Votre utilisateur peut maintenant utiliser Adobe Campaign Standard.
 
 Cette vidéo montre comment gérer les droits d’accès des utilisateurs.
 
->[!VIDEO](https://video.tv.adobe.com/v/36024?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/36024?captions=fre_fr&quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

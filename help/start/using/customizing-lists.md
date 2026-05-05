@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Vous pouvez également configurer les colonnes affichées pour une liste. Pour a
 
    ![](assets/export_list_mode_switch.png)
 
-1. Accédez à la fenêtre de configuration de la liste à l&#39;aide du bouton ![](assets/columnsettings.png) de la barre d&#39;actions.
+1. Accédez à la fenêtre de configuration de la liste à l’aide du bouton ![](assets/columnsettings.png) de la barre d’actions.
 
    ![](assets/list_configuration1.png)
 

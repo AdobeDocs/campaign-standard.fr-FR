@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '1346'
+source-wordcount: '1441'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Votre application mobile doit déjà être configurée dans Adobe Campaign Standard à l&#39;aide du SDK Adobe Experience Platform. Pour obtenir les étapes détaillées, reportez-vous à cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
+>Votre application mobile doit déjà être configurée dans Adobe Campaign Standard à l&#39;aide du SDK Adobe Experience Platform. Pour obtenir les étapes détaillées, reportez-vous à cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 Les applications mobiles utilisées pour collecter les données de localisation doivent être configurées par un **administrateur** dans l&#39;interface d&#39;Adobe Campaign.
 
@@ -158,7 +158,7 @@ Vous devez avoir accès à Adobe Analytics pour effectuer la configuration ci-ap
      ```
 
    * Définissez **Type de contenu** sur **[!UICONTROL application/json]**.
-   * Dans la section **Quelles balises de données déclenchent le postback ?**, sélectionnez **[!UICONTROL campaign.test]** et **[!UICONTROL existe]**.
+   * Dans la section **Quelles balises de données déclenchent le postback ?**, sélectionnez **[!UICONTROL campaign.test]** et **[!UICONTROL existe]**.
    * Cliquez sur **[!UICONTROL Enregistrer et activer]**.
 
 >[!NOTE]
@@ -202,7 +202,7 @@ Pour accéder aux applications créées dans Adobe Campaign :
 
 Une liste des abonnés de l&#39;application est également affichée dans l&#39;onglet **[!UICONTROL Abonnés à l&#39;application mobile]**. Les abonnés correspondent à tous les utilisateurs qui ont installé l&#39;application sur leur appareil mobile. Les profils de la base de données Adobe Campaign sont identifiés par un jeton d&#39;enregistrement.
 
-## Accéder aux données de localisation collectées       {#accessing-collected-location-data}
+## Accéder aux données de localisation collectées {#accessing-collected-location-data}
 
 Une fois la configuration terminée, les données de points ciblés collectées sont répertoriées dans l&#39;onglet **[!UICONTROL Lieux]** de chaque profil. Pour accéder à la liste :
 

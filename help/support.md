@@ -8,8 +8,8 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: tm+mt
-source-wordcount: '492'
+workflow-type: ht
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
     <tr>
         <td><img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Problèmes courants et bonnes pratiques</a></p></td>
         <td><img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px"><p><a href="#control-panel">Panneau de contrôle Campaign</a></p></td>
-        <td><img src="start/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Demande d’aide</a></p></td>
+        <td><img src="start/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Demander de l’aide</a></p></td>
     </tr>
 </table>
 
@@ -107,10 +107,10 @@ Dans le Panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP
 Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus :
 
 * [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr#subdomains-and-certificates)
-* [Configuration d&#39;un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr#subdomains-and-certificates)
-* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#subdomains-and-certificates)
+* [Configurer un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr#subdomains-and-certificates)
+* [Surveiller les certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#subdomains-and-certificates)
 
-## Demande d’aide
+## Demander de l’aide
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
@@ -124,6 +124,6 @@ Rejoignez la communauté Campaign : cherchez des réponses à une question exis
 
 La création d’un ticket vous permet de contacter l’équipe du Service clientèle d’Adobe pour tout problème lié à vos produits Adobe. La console Adobe Admin Console vous permettra de discuter avec le Service clientèle d&#39;Adobe pour résoudre vos problèmes.
 
-Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
+Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).

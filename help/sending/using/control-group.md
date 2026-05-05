@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
-workflow-type: tm+mt
-source-wordcount: '1447'
+workflow-type: ht
+source-wordcount: '1449'
 ht-degree: 100%
 
 ---
@@ -64,7 +64,7 @@ Dans la section **[!UICONTROL Extraction de la cible]**, sélectionnez l’une d
 
   ![](assets/control-group-keep-first-records.png)
 
-  Il peut être intéressant de définir une population témoin qui inclut les profils qui font quelques achats ou des achats fréquents et de comparer leur comportement à celui des destinataires contactés.
+  Il peut être intéressant de définir une population témoin qui inclut les profils qui font quelques achats ou des achats fréquents et de comparer leur comportement à celui des personnes destinataires contactées.
 
 >[!NOTE]
 >
@@ -171,7 +171,7 @@ Pour savoir quels profils ont été supprimés de la cible après l’envoi du m
 
 ### Utilisation des logs de population témoin {#using-logs}
 
-Une fois la diffusion envoyée, vous pouvez utiliser les logs de diffusion pour filtrer les profils qui n’ont pas reçu le message. Suivez les étapes ci-dessous :
+Une fois la diffusion envoyée, vous pouvez utiliser les logs de diffusion pour filtrer les profils qui n’ont pas reçu le message. Procédez comme suit :
 
 1. Créez un workflow. Les étapes détaillées pour créer un workflow sont présentées dans la section [Création d’un workflow](../../automating/using/building-a-workflow.md).
 1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Ciblage]**, effectuez un glisser-déposer d’une activité [Requête](../../automating/using/query.md).
@@ -198,7 +198,7 @@ Vous pouvez ensuite exporter les données des logs à l’aide d’une activité
 
 ### Ciblage de la population témoin {#targeting-control-group}
 
-Pour effectuer un ciblage basé sur les profils qui n’ont pas reçu le message, vous pouvez également utiliser les logs de diffusion. Suivez les étapes ci-dessous :
+Pour effectuer un ciblage basé sur les profils qui n’ont pas reçu le message, vous pouvez également utiliser les logs de diffusion. Procédez comme suit :
 
 1. Créez un workflow. Les étapes détaillées pour créer un workflow sont présentées dans la section [Création d’un workflow](../../automating/using/building-a-workflow.md).
 1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Ciblage]**, effectuez un glisser-déposer d’une activité [Requête](../../automating/using/query.md).

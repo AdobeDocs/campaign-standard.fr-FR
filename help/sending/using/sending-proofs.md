@@ -10,8 +10,8 @@ role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '611'
+workflow-type: ht
+source-wordcount: '613'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Il existe deux types de destinataires de bons à tirer :
   >
   >Pour pouvoir envoyer un bon à tirer, des profils de test doivent être inclus dans l’audience de votre message.
 
-* Les **profils de substitution** vous permettent de vous mettre à la place de l’un des profils ciblés et d’obtenir une représentation exacte du message que le profil recevra. Pour plus d’informations, voir [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md).
+* Les **profils de substitution** vous permettent de vous mettre à la place de l’un des profils ciblés et d’obtenir une représentation exacte du message que le profil recevra. Pour plus d’informations, voir [Test des e-mails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md).
 
   >[!NOTE]
   >
@@ -52,15 +52,15 @@ Pour envoyer des bons à tirer, procédez comme suit :
 
 1. Sélectionnez le type de BAT que vous souhaitez utiliser :
 
-   * **[!UICONTROL Rendu des emails]** : sélectionnez cette option pour tester la réception de votre message en fonction des boîtes de messagerie ciblées. Pour plus d’informations, voir [Rendu des emails](../../sending/using/email-rendering.md).
+   * **[!UICONTROL Rendu des emails]** : sélectionnez cette option pour tester la réception de votre message en fonction des boîtes de messagerie ciblées. Pour plus d’informations, voir [Rendu des e-mails](../../sending/using/email-rendering.md).
    * **[!UICONTROL Bon à tirer]** : sélectionnez cette option pour tester le message avant son envoi à la cible principale. Les destinataires du BAT sont chargés de la validation de la diffusion, tant sur son contenu que sur sa forme.
-   * **[!UICONTROL Bon à tirer + Rendu des emails]** : cette option regroupe les deux options précédentes.
+   * **[!UICONTROL Bon à tirer + Rendu des e-mails]** : cette option regroupe les deux options précédentes.
 
    ![](assets/bat_select1.png)
 
    >[!NOTE]
    >
-   >Le rendu des emails est disponible avec les profils de test uniquement. Si aucun profil de test n’a été ajouté au message, seule l’option **[!UICONTROL Bon à tirer]** peut être sélectionnée.
+   >Le rendu des e-mails est disponible avec les profils de test uniquement. Si aucun profil de test n’a été ajouté au message, seule l’option **[!UICONTROL Bon à tirer]** peut être sélectionnée.
 
 1. Validez votre choix.
 
@@ -68,15 +68,15 @@ Pour envoyer des bons à tirer, procédez comme suit :
 
    ![](assets/bat_select2.png)
 
-1. Vous pouvez consulter les BAT depuis la liste déroulante **[!UICONTROL Bons à tirer]**.
+1. Vous pouvez consulter les BAT depuis la liste déroulante **[!UICONTROL BAT]**.
 
    ![](assets/bat_view.png)
 
-1. Sélectionnez un BAT pour accéder à son résumé. Pour un email, si vous avez sélectionné l’option **rendu des emails** lors du choix des BAT, l’icône **[!UICONTROL Accéder au rendu des emails]** est affichée à droite du libellé du BAT. Voir [Rendu des emails](../../sending/using/email-rendering.md).
+1. Sélectionnez un BAT pour accéder à son résumé. Pour un e-mail, si vous avez sélectionné l’option **Rendu des e-mails** lors du choix des BAT, l’icône **[!UICONTROL Accéder au rendu des e-mails]** est affichée à droite du libellé du BAT. Voir [Rendu des emails](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 
-En fonction des remarques des personnes qui reçoivent le BAT, vous serez amené à modifier le contenu de la diffusion. Une fois vos modifications effectuées, vous devez relancer la préparation de l’email puis envoyer à nouveau un BAT. Chaque nouveau BAT est accessible depuis le bouton **[!UICONTROL Afficher les bons à tirer]**.
+En fonction des remarques des personnes qui reçoivent le BAT, vous serez amené à modifier le contenu de la diffusion. Une fois vos modifications effectuées, vous devez redémarrer la préparation de l’e-mail puis envoyer à nouveau un BAT. Chaque nouveau BAT est accessible depuis le bouton **[!UICONTROL Afficher les bons à tirer]**.
 
 Vous devez envoyer autant de BAT que nécessaire jusqu’à ce que le contenu de votre diffusion soit finalisé. Dès lors, vous pouvez envoyer la diffusion à la cible principale et clore le cycle de validation.
 
@@ -95,7 +95,7 @@ Pour masquer le numéro du bon à tirer dans la ligne d’objet, activez l’opt
 
 >[!NOTE]
 >
->Si vous souhaitez masquer l’intégralité du préfixe du bon à tirer, laissez vide le champ **[!UICONTROL Préfixe de ligne d’objet]**.
+>Si vous souhaitez masquer l’intégralité du préfixe du BAT, laissez vide le champ **[!UICONTROL Préfixe de ligne d’objet]**.
 
 ![](assets/proof-prefix-configuration.png)
 
@@ -104,7 +104,7 @@ Pour masquer le numéro du bon à tirer dans la ligne d’objet, activez l’opt
 **Rubrique connexe :**
 
 * Vidéo [Envoyer un test, préparer un email et l’envoyer](../../sending/using/get-started-sending-messages.md#video)
-* [Test des e-mails à l&#39;aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
+* [Test des e-mails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
 * [Configuration du canal e-mail](../../administration/using/configuring-email-channel.md)

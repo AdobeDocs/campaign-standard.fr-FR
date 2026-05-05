@@ -51,7 +51,7 @@ Le workflow de se présente comme suit :
 
    ![](assets/enrichment_example4.png)
 
-1. Si vous souhaitez vérifier que les données sont correctement transmises en sortie de l’activité, lancez une première fois le workflow (sans l’activité de **[!UICONTROL Diffusion Email]**) et ouvrez la transition sortante de la requête.
+1. Si vous souhaitez vérifier que les données sont correctement transmises en sortie de l’activité, lancez une première fois le workflow (sans l’activité de **[!UICONTROL Diffusion e-mail]**) et ouvrez la transition sortante de la requête.
 
    ![](assets/enrichment_example5.png)
 

@@ -10,8 +10,8 @@ role: Developer
 level: Experienced
 exl-id: 342911c5-0746-4205-b380-be195b9cb82a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '571'
+workflow-type: ht
+source-wordcount: '572'
 ht-degree: 100%
 
 ---
@@ -55,7 +55,7 @@ Pour cela, vous devez étendre la ressource **[!UICONTROL Profiles]** et défini
 
    ![](assets/custom_resource_filter-definition_ex_edit-rule.png)
 
-1. Combinez cette règle à une autre règle précisant que la date doit être comprise dans une plage correspondant aux trois derniers mois.
+1. Combinez cette règle à une autre règle précisant que la date doit être comprise dans une plage correspondant aux trois derniers mois.
 
    ![](assets/custom_resource_filter-definition_example.png)
 
@@ -77,7 +77,7 @@ Lors de la création d&#39;un email, ils pourront ainsi facilement définir leur
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 
-Il leur suffira de saisir le montant souhaité dans la boîte de dialogue qui s&#39;affiche au lieu d&#39;effectuer eux-mêmes le paramétrage.
+Il leur suffira de saisir le montant souhaité dans la boîte de dialogue qui s’affiche au lieu d’effectuer elles-mêmes le paramétrage.
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 

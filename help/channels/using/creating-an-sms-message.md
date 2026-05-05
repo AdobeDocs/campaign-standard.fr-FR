@@ -10,8 +10,8 @@ role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
-source-wordcount: '560'
+workflow-type: ht
+source-wordcount: '574'
 ht-degree: 100%
 
 ---
@@ -89,6 +89,6 @@ Une fois l&#39;envoi terminé, vous pouvez commencer à mesurer l&#39;impact de 
 
 Cette vidéo montre comment créer une diffusion SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/31327/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/31327/?captions=fre_fr&quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Une fois connectés, les utilisateurs standard verront apparaître la fenêtre s
 
 ![](assets/license_2.png)
 
-Un administrateur doit lire et accepter les nouvelles conditions d&#39;utilisation dans les 30 jours suivant l&#39;installation de la version. Pour ce faire, il doit cocher la case **[!UICONTROL J&#39;accepte les dispositions de licence]** avant de cliquer sur **[!UICONTROL Confirmer]**.
+Une personne chargée de l’administration doit lire et accepter les nouvelles conditions d’utilisation dans les 30 jours suivant l’installation de la version. Pour ce faire, elle doit cocher la case **[!UICONTROL J’accepte les dispositions de licence]** avant de cliquer sur **[!UICONTROL Confirmer]**.
 
 ![](assets/license_3.png)
 

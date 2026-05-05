@@ -1,5 +1,5 @@
 ---
-title: 'Vue d’ensemble '
+title: Vue d'ensemble
 description: Cette section explique dans le détail comment appeler un workflow avec des paramètres externes.
 audience: automating
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Vue d’ensemble {#calling-a-workflow-with-external-parameters}
+# Vue d&#39;ensemble {#calling-a-workflow-with-external-parameters}
 
 Campaign Standard vous permet d&#39;appeler un workflow avec des paramètres (un nom d&#39;audience à cibler, un nom de fichier à importer, un contenu de message, etc.). De cette façon, vous pouvez facilement intégrer vos automatisations Campaign avec votre système externe.
 

@@ -12,7 +12,7 @@ level: Intermediate
 exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: ht
-source-wordcount: '537'
+source-wordcount: '538'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Mise à jour de données]** permet de mettre à jour en masse les champs de la base de données.
 
-## Contexte d&#39;utilisation  {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **Mise à jour de données** peut notamment être utilisée suite à un import de fichier, afin d&#39;insérer les données récupérées dans la base de données Adobe Campaign. Plusieurs options permettent de personnaliser la mise à jour des données.
 
@@ -46,7 +46,7 @@ L&#39;activité **Mise à jour de données** peut notamment être utilisée suit
      Cochez la case **[!UICONTROL Générer une transition sortante pour les rejets]** si les données importées comportent certains enregistrements déjà présents en base afin d&#39;éviter toute erreur.
 
    * **[!UICONTROL Mettre à jour]** : mettre à jour des données des enregistrements déjà présents en base uniquement.
-   * **[!UICONTROL Supprimer]** : supprimer des données.
+   * **[!UICONTROL Supprimer]** : supprimez des données.
 
    >[!NOTE]
    >
@@ -73,4 +73,4 @@ L&#39;activité **Mise à jour de données** peut notamment être utilisée suit
 
    Si vous avez sélectionné **[!UICONTROL Ajouter uniquement]** et que les données importées peuvent comporter des enregistrements déjà présents en base, cochez la case **[!UICONTROL Générer une transition sortante pour les rejets]** afin d&#39;éviter toute erreur.
 
-1. Validez le paramétrage de l’activité et enregistrez le workflow.
+1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
