@@ -5,16 +5,21 @@ audience: administration
 role: Admin
 level: Experienced
 exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
-source-wordcount: '278'
+TQID: https://experienceleague.adobe.com/2cbAwBajFSjeqpJIpg-PQwPxEcv2DKgeNKvwl-ixxBE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 278
 ht-degree: 100%
 
 ---
 
 # Envoi de notifications internes{#sending-internal-notifications}
 
-Adobe Campaign vous permet de recevoir directement dans l&#39;application des notifications concernant des activités système importantes. Les notifications en temps réel maintiennent les parties concernées informées et permettent d’agir immédiatement et directement dans l’application en fonction des notifications d’activité.Pour les équipes, il en résulte une meilleure agilité, une plus grande efficacité et une exécution des campagnes sans accrocs.
+Adobe Campaign vous permet de recevoir directement dans l&#39;application des notifications concernant des activités système importantes. Les notifications en temps réel maintiennent les parties concernées informées et permettent aux utilisateurs d’agir immédiatement et directement dans l’application en fonction des notifications d’activité. Pour les équipes, il en résulte une meilleure agilité, une plus grande efficacité et une exécution des campagnes sans accrocs.
 
 ![](assets/pulse_3.png)
 

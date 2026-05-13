@@ -8,9 +8,15 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '736'
+TQID: https://experienceleague.adobe.com/XaVuaudJPbGKggzoSPMc-LP1e1YJ6EvVCnEn87PjE0c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 736
 ht-degree: 100%
 
 ---
@@ -60,56 +66,56 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-
  <thead> 
   <tr> 
    <th> </th> 
-   <th>Concepteur d’e-mail<br /></th> 
-   <th>Experience Manager<br /></th> 
-   <th>Dreamweaver<br /></th> 
+   <th> Concepteur d’e-mail<br /> </th> 
+   <th> Experience Manager<br /> </th> 
+   <th> Dreamweaver<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Commencer à partir d’un e-mail vide</strong><br /></td> 
-   <td>Pris en charge<br /></td> 
-   <td>Pris en charge<br /></td> 
-   <td>Pris en charge<br /></td> 
+   <td> <strong>Commencer à partir d’un e-mail vide</strong><br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
   </tr> 
   <tr> 
-   <td><strong>Ecrire du code HTML</strong><br /></td> 
-   <td>Pris en charge<br /></td> 
-   <td>Pas pris en charge<br /></td> 
-   <td>Pris en charge<br /></td> 
+   <td> <strong>Ecrire du code HTML</strong><br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Pas pris en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
   </tr> 
   <tr> 
-   <td><strong>Mettre à jour le code HTML</strong><br /></td> 
-   <td>Uniquement à l’intérieur d’un composant HTML<br /></td> 
-   <td>Pas pris en charge<br /></td> 
-   <td>Pris en charge<br /></td> 
+   <td> <strong>Mettre à jour le code HTML</strong><br /> </td> 
+   <td> Uniquement à l’intérieur d’un composant HTML<br /> </td> 
+   <td> Pas pris en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
   </tr> 
   <tr> 
-   <td><strong>Personnalisation de base</strong><br /></td> 
-   <td>Pris en charge<br /></td> 
-   <td>Pris en charge<br /></td> 
-   <td>Pris en charge<br /></td> 
+   <td> <strong>Personnalisation de base</strong><br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
   </tr> 
   <tr> 
-   <td><strong>Personnalisation avancée</strong><br /></td> 
-   <td>Pris en charge<br /></td> 
-   <td>Pas pris en charge<br /></td> 
-   <td>Pas pris en charge<br /></td> 
+   <td> <strong>Personnalisation avancée</strong><br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Pas pris en charge<br /> </td> 
+   <td> Pas pris en charge<br /> </td> 
   </tr> 
   <tr> 
-   <td><strong>BAT/Prévisualisation</strong><br /></td> 
-   <td>Pris en charge<br /></td> 
-   <td>Prévisualisation dans AEM<br />BAT dans Campaign<br /></td> 
-   <td>Prévisualisation et BAT dans Campaign<br /></td> 
+   <td> <strong>BAT/Prévisualisation</strong><br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Prévisualisation dans AEM<br />BAT dans Campaign<br /> </td> 
+   <td> Prévisualisation et BAT dans Campaign<br /> </td> 
   </tr> 
   <tr> 
-   <td><strong>Listes de produits</strong><br /></td> 
-   <td>Pris en charge dans les e-mails transactionnels<br /></td> 
-   <td>Pas pris en charge<br /></td> 
-   <td>Pas pris en charge<br /></td> 
+   <td> <strong>Listes de produits</strong><br /> </td> 
+   <td> Pris en charge dans les e-mails transactionnels<br /> </td> 
+   <td> Pas pris en charge<br /> </td> 
+   <td> Pas pris en charge<br /> </td> 
   </tr> 
   <tr> 
-   <td><strong>Avantages</strong><br /></td> 
+   <td> <strong>Avantages</strong><br /> </td> 
    <td> 
      <p>- Création facile d’emails grâce aux opérations de glisser-déposer</p>
      <p>- Fonctionnalités similaires à celles de l’ancien éditeur de contenu</p>
@@ -139,14 +145,14 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-
    <td> Contenu dynamique non pris en charge<br /> </td> 
   </tr> 
   <tr> 
-   <td><strong>Audience</strong><br /></td> 
-   <td>Les spécialistes marketing qui souhaitent conserver la possibilité d’utiliser des composants HTML avec des fonctionnalités de glisser-déposer.<br /></td> 
-   <td>Les spécialistes marketing qui utilisent déjà Experience Manager et qui souhaitent utiliser des modèles d’e-mail standard avec peu de personnalisation.<br /></td> 
-   <td>Les développeurs et développeuses qui souhaitent coder des contenus d’e-mail et s’intégrer directement avec Adobe Campaign.<br /></td> 
+   <td> <strong>Audience</strong><br /> </td> 
+   <td> Les spécialistes marketing qui souhaitent conserver la possibilité d’utiliser des composants HTML avec des fonctionnalités de glisser-déposer.<br /> </td> 
+   <td> Les spécialistes marketing qui utilisent déjà Experience Manager et qui souhaitent utiliser des modèles d’e-mail standard avec peu de personnalisation.<br /> </td> 
+   <td> Les développeurs et développeuses qui souhaitent coder des contenus d’e-mail et s’intégrer directement avec Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
-   <td><strong>Pour en savoir plus</strong><br /></td> 
-   <td>Consultez <a href="../../designing/using/designing-content-in-adobe-campaign.md">À propos du concepteur d’e-mail</a>.<br /></td> 
+   <td> <strong>Pour en savoir plus</strong><br /> </td> 
+   <td> Consultez <a href="../../designing/using/designing-content-in-adobe-campaign.md">À propos du concepteur d’e-mail</a>.<br /> </td> 
    <td> Voir <a href="../../integrating/using/integrating-with-experience-manager.md">Intégration avec Experience Manager</a>.<br /> </td> 
    <td> Consultez la section <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
   </tr> 
@@ -157,6 +163,6 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-
 
 Cette vidéo montre comment créer et modifier du contenu pour Adobe Campaign Standard à l’aide de Dreamweaver.
 
->[!VIDEO](https://video.tv.adobe.com/v/37569?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

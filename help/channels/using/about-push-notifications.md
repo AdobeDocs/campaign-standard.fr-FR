@@ -9,9 +9,16 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: ht
-source-wordcount: '1297'
+TQID: https://experienceleague.adobe.com/xwmywhEboE06iVgZJo2DTSqg2f1F1XHEAHGKjkKoqC4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e739ee2b-6228-412e-878f-45de0791417d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1297
 ht-degree: 100%
 
 ---
@@ -32,7 +39,7 @@ Cette ressource doit être étendue pour collecter les données que vous avez l�
 
 Dans Adobe Campaign, deux types de notification push sont disponibles :
 
-* Les notifications de type **[!UICONTROL Alerte/Message/Badge]** vous permettent d’envoyer des messages texte standard avec des contenus supplémentaires (son, badge, lien profond, etc.)que vous pouvez définir dans la section **[!UICONTROL Options avancées]**.
+* Les notifications de type **[!UICONTROL Alerte/Message/Badge]** vous permettent d’envoyer des messages texte standard avec des contenus supplémentaires (son, badge, lien profond, etc.) que vous pouvez définir dans la section **[!UICONTROL Options avancées]**.
 
   Ces types de notification permettent d’ajouter un titre et un message dans lequel l’utilisation des champs de personnalisation est possible. Pour personnaliser votre message, veillez à sélectionner le modèle **[!UICONTROL Diffuser par notification push (vers profils)]**.
 
@@ -83,7 +90,7 @@ Consultez les ressources ci-dessous :
 * [Tutoriels vidéos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=fr)
 * [Documentation du produit](../../channels/using/about-push-notifications.md)
 * Configuration à l’aide de la [documentation](../../administration/using/configuring-a-mobile-application.md) du SDK AEP
-* [Page de la communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=fr)
+* [Page de la communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Que dois-je faire pour acquérir un jeton push dans Campaign ? {#push-token-acquisition}
 

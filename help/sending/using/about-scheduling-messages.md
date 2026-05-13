@@ -8,9 +8,13 @@ context-tags: delivery,schedule,back
 feature: Send Time Optimization
 role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '314'
+TQID: https://experienceleague.adobe.com/N0t5qvKiceoZEekhToXAk1PfNe1HE22vAaobLr32oME
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 314
 ht-degree: 100%
 
 ---
@@ -35,7 +39,7 @@ Les propriétés de **[!UICONTROL Planning]** permettent de définir les options
 
   L&#39;envoi peut être préparé et confirmé, mais les messages ne seront envoyés qu&#39;à la date et à l&#39;heure sélectionnées. Les étapes de préparation et de confirmation de l&#39;envoi sont présentées dans les sections [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md) et [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md).
 
-  La liste déroulante **[!UICONTROL Fuseau horaire de la date de contact]** vous permet de modifier le fuseau horaire pris en compte pour l&#39;heure d&#39;envoi. Par exemple, si vous saisissez 9:00 dans le champ **[!UICONTROL Démarrer l’envoi le]** et sélectionnez Bruxelles, Copenhague, Madrid, Paris (GMT+1) dans la liste déroulante **[!UICONTROL Fuseau horaire de la date de contact]**, l’ensemble des destinataires recevra le message à 9:00, heure de Paris.Par conséquent, une personne destinataire située à Moscou (GMT+3) recevra le message à 11:00, heure de Moscou.
+  La liste déroulante **[!UICONTROL Fuseau horaire de la date de contact]** vous permet de modifier le fuseau horaire pris en compte pour l&#39;heure d&#39;envoi. Par exemple, si vous saisissez 9:00 dans le champ **[!UICONTROL Démarrer l’envoi le]** et sélectionnez Bruxelles, Copenhague, Madrid, Paris (GMT+1) dans la liste déroulante **[!UICONTROL Fuseau horaire de la date de contact]**, l’ensemble des destinataires recevra le message à 9:00, heure de Paris. Par conséquent, une personne destinataire située à Moscou (GMT+3) recevra le message à 11:00, heure de Moscou.
 
   Si vous souhaitez confirmer manuellement l&#39;envoi définitif des messages, cochez l&#39;option **[!UICONTROL Demander une confirmation avant l&#39;envoi des messages]**. Cette option est activée par défaut.
 

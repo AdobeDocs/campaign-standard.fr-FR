@@ -6,9 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: ht
-source-wordcount: '1024'
+TQID: https://experienceleague.adobe.com/sIwJVutJ9iO9GIKSPquL5LOKVqkj34x3LTaI072C8V4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1024
 ht-degree: 100%
 
 ---
@@ -125,7 +130,7 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 ### Avec Android {#send-push-token-android}
 
-Sous Android, le [!DNL Experience Platform SDK] suivant est nécessaire :
+Sous Android, l’[!DNL Experience Platform SDK] suivante est nécessaire :
 
 * **[!UICONTROL setPushIdentifier]** <br>Pour plus d’informations, voir la section [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
@@ -273,7 +278,7 @@ if (deliveryId != nil && broadlogId != nil) {
 
 ### Avec Android {#track-user-push-android}
 
-Sous Android, le [!DNL Experience Platform SDK] suivant est nécessaire :
+Sous Android, l’[!DNL Experience Platform SDK] suivante est nécessaire :
 
 * **[!UICONTROL trackAction]**
 Pour plus d’informations, consultez la section [Suivre les actions de l’application](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).

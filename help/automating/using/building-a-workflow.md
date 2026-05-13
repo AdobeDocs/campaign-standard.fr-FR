@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '1001'
+TQID: https://experienceleague.adobe.com/8i3WYf4v5Xh6Ih7YWT71OxHJfAd-6aUqUDcP2RjY1NI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1001
 ht-degree: 100%
 
 ---
@@ -112,7 +119,7 @@ Pour construire le diagramme :
 
 Une fois vos activités de workflow reliées, vous pouvez personnaliser les transitions entre elles avec le **libellé** de votre choix. Pour cela, double-cliquez sur la transition pour accéder à ses propriétés.
 
-De plus, les activités **[!UICONTROL Ciblage]** et **[!UICONTROL Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l’efficacité des campagnes marketing. Pour plus d’informations, consultez [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
+De plus, les activités **[!UICONTROL Ciblage]** et **[!UICONTROL Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l’efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Cas pratiques de workflow :**
 
@@ -136,6 +143,6 @@ Par défaut, les activités ne sont pas définies et ne traiteront pas correctem
 
 Cette vidéo montre comment créer un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/31326?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

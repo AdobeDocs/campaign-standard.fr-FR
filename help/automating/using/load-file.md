@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '1532'
+TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1532
 ht-degree: 100%
 
 ---
@@ -90,7 +94,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d’abord, vo
 
    L&#39;onglet **[!UICONTROL Définition des colonnes]** vous permet de définir précisément la structure des données de chaque colonne pour importer des données qui ne contiennent pas d&#39;erreur (grâce à la gestion des nulls par exemple) et les faire correspondre aux types pré-existants de la base Adobe Campaign pour des opérations ultérieures.
 
-   Vous pouvez par exemple modifier le libellé d’une colonne, sélectionner son type (chaîne, nombre entier, date, etc.)ou encore définir le traitement des erreurs.
+   Vous pouvez par exemple modifier le libellé d’une colonne, sélectionner son type (chaîne, nombre entier, date, etc.) ou encore définir le traitement des erreurs.
 
    Pour plus d’informations, consultez la section [Format des colonnes](#column-format).
 
@@ -116,7 +120,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d’abord, vo
 
    ![](assets/wkf_file_loading_keeprejects.png)
 
-1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
+1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
 Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les logs pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d’informations sur les logs de workflows, reportez-vous à [cette section](../../automating/using/monitoring-workflow-execution.md).
 
@@ -157,7 +161,7 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
 
   >[!NOTE]
   >
-  >Le **[!UICONTROL Traitement des erreurs]** concerne les erreurs au niveau des valeurs renseignées dans le fichier importé.Par exemple, un mauvais type de données rencontré (« quatre » en toutes lettres pour une colonne de type « Nombre entier »), une chaîne contenant plus de caractères que le nombre maximum autorisé, une date avec les mauvais séparateurs, etc. Toutefois, cette option ne s’applique pas aux erreurs dues à une gestion de valeurs vides.
+  >Le **[!UICONTROL Traitement des erreurs]** concerne les erreurs au niveau des valeurs renseignées dans le fichier importé. Par exemple, un mauvais type de données rencontré (« quatre » en toutes lettres pour une colonne de type « Nombre entier »), une chaîne contenant plus de caractères que le nombre maximum autorisé, une date avec les mauvais séparateurs, etc. Toutefois, cette option ne s’applique pas aux erreurs dues à une gestion de valeurs vides.
 
 * **[!UICONTROL Valeur par défaut]** : permet de spécifier la valeur par défaut en fonction du choix concernant le traitement des erreurs.
 * **[!UICONTROL Gestion des valeurs vides]** : permet d&#39;indiquer comment gérer les valeurs vides rencontrées lors du chargement des données.

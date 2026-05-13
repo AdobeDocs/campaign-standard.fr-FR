@@ -9,9 +9,16 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
-workflow-type: ht
-source-wordcount: '996'
+TQID: https://experienceleague.adobe.com/vveKWyxi6u44BmNqzEVeMwPvtvP8uWhAI-4UMD2CnVU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: d3b34fea-a110-482f-adb2-aae8d686bac8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 996
 ht-degree: 100%
 
 ---
@@ -20,9 +27,9 @@ ht-degree: 100%
 
 Un message transactionnel est une communication individuelle et unique envoyée en temps réel à un utilisateur par un prestataire tel qu&#39;un site web. Il est particulièrement attendu, car il contient des informations importantes que le destinataire souhaite vérifier ou confirmer.
 
-* **Quelle est la date d’échéance ?** Ce message contenant des informations importantes, l’utilisateur ou l’utilisatrice s’attend à ce qu’il soit envoyé en temps réel.Le délai entre le déclenchement de l’événement et l’arrivée du message doit donc être très court.
+* **Quelle est la date d’échéance ?** Ce message contenant des informations importantes, l’utilisateur ou l’utilisatrice s’attend à ce qu’il soit envoyé en temps réel. Le délai entre le déclenchement de l’événement et l’arrivée du message doit donc être très court.
 
-* **Pourquoi est-ce important ?** En général, un message transactionnel bénéficie d’un taux d’ouverture élevé.Il doit donc être soigneusement conçu, car il peut avoir un impact important sur le comportement des clientes et clients dans la mesure où il définit la relation clientèle.
+* **Pourquoi est-ce important ?** En général, un message transactionnel bénéficie d’un taux d’ouverture élevé. Il doit donc être soigneusement conçu, car il peut avoir un impact important sur le comportement des clientes et clients dans la mesure où il définit la relation clientèle.
 
 * **Par exemple ?** Il peut s’agir d’un message de bienvenue après la création d’un compte, d’une confirmation qu’une commande a été expédiée, d’une facture, d’un message confirmant un changement de mot de passe ou d’une notification après qu’un client ou une cliente a consulté votre site web, etc.
 

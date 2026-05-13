@@ -9,16 +9,21 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: ht
-source-wordcount: '330'
+TQID: https://experienceleague.adobe.com/e185wubn3YVJGYrzxDtT6CquM1hojLGStmxbsvtV0oE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 330
 ht-degree: 100%
 
 ---
 
 # Surveillance de la délivrabilité{#monitor-deliverability}
 
-Vous trouverez ci-dessous des informations détaillées sur le rapport **[!UICONTROL Débit des diffusions]** ainsi que sur les différents outils de surveillance proposés par Adobe Campaign.Voici quelques directives supplémentaires concernant la surveillance de la délivrabilité :
+Vous trouverez ci-dessous des informations détaillées sur le rapport **[!UICONTROL Débit des diffusions]** ainsi que sur les différents outils de surveillance proposés par Adobe Campaign. Voici quelques directives supplémentaires concernant la surveillance de la délivrabilité :
 
 * Vérifiez régulièrement le débit des diffusions pour l’ensemble de la plateforme afin de contrôler qu’il correspond à la configuration d’origine.
 * Vérifiez que les reprises sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
@@ -41,7 +46,7 @@ D’autres rapports sont disponibles, tels que **[!UICONTROL Synthèse de diffus
 
 ## Surveillance des diffusions {#monitoring-deliveries}
 
-Le tableau de bord Message vous donne accès aux logs de diffusion : **[!UICONTROL Envois]**, **[!UICONTROL Exclusions]**, **[!UICONTROL Exclusions appliquées]**, **[!UICONTROL Tracking]** et **[!UICONTROL URL trackées]**.Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
+Le tableau de bord Message vous donne accès aux logs de diffusion : **[!UICONTROL Envois]**, **[!UICONTROL Exclusions]**, **[!UICONTROL Exclusions appliquées]**, **[!UICONTROL Tracking]** et **[!UICONTROL URL trackées]**. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
 Pour plus d’informations, consultez la section [Surveiller une diffusion](../../sending/using/monitoring-a-delivery.md).
 

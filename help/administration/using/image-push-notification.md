@@ -6,9 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: ht
-source-wordcount: '446'
+TQID: https://experienceleague.adobe.com/dQyZVT7Q5Fdh4IdjkSGn0yEd8JmIUCPAN6qDjgYbdjo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 446
 ht-degree: 100%
 
 ---

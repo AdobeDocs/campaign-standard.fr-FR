@@ -8,9 +8,14 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: ht
-source-wordcount: '730'
+TQID: https://experienceleague.adobe.com/ThX9BHPlbOlav6-5z8P1ruwSc2-phnvnkqjLaSZO3Fs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 730
 ht-degree: 100%
 
 ---
@@ -46,7 +51,7 @@ Ces règles d’exclusion permettent d’éviter toute mise en liste bloquée li
 
 >[!NOTE]
 >
->Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués.Seul le nombre des personnes destinataires exclues est indiqué dans les logs d’analyse de diffusion.
+>Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre des personnes destinataires exclues est indiqué dans les logs d’analyse de diffusion.
 
 ## Créer une règle de filtrage {#creating-a-filtering-rule}
 

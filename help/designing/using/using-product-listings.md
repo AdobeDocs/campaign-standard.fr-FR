@@ -9,9 +9,14 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '944'
+TQID: https://experienceleague.adobe.com/dkHLMJ1OU3-chsOAaZbooc0tbLI8dmNENuUnEApEVS8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 944
 ht-degree: 100%
 
 ---
@@ -56,7 +61,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
 
    >[!NOTE]
    >
-   >L’option **[!UICONTROL Column]** n’est disponible que lors de l’utilisation d’un composant de structure à plusieurs colonnes (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** et **[!UICONTROL 4:4 column]**).Lors de l’édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d’informations sur la sélection de composants de structure, voir [Définir la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >L’option **[!UICONTROL Column]** n’est disponible que lors de l’utilisation d’un composant de structure à plusieurs colonnes (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** et **[!UICONTROL 4:4 column]**). Lors de l’édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d’informations sur la sélection de composants de structure, voir [Définir la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Sélectionnez la collection de données que vous avez créée lors de la configuration de l’événement associé au message transactionnel. Elle se trouve sous le nœud **[!UICONTROL Contexte]** > **[!UICONTROL Evénement temps réel]** > **[!UICONTROL Contexte de l’événement]**.
 

@@ -9,9 +9,13 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: ht
-source-wordcount: '1083'
+TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1083
 ht-degree: 100%
 
 ---
@@ -106,9 +110,9 @@ Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréq
 
    ![](assets/update_profile_createelement.png)
 
-1. Dans le champ **[!UICONTROL Source]**, sélectionnez un champ de la table appSubscrsiptionRcp en tant que champ de réconciliation.Il peut s’agir de l’e-mail du profil, de crmId, de marketingCloudId, etc. Dans cet exemple, utilisez le champ « Email (cusEmail) ».
+1. Dans le champ **[!UICONTROL Source]**, sélectionnez un champ de la table appSubscrsiptionRcp en tant que champ de réconciliation. Il peut s’agir de l’e-mail du profil, de crmId, de marketingCloudId, etc. Dans cet exemple, utilisez le champ « Email (cusEmail) ».
 
-1. Dans le champ **[!UICONTROL Destination]**, sélectionnez un champ dans la table des profils pour réconcilier les données de la table appSubscriptionRcp.Il peut s’agir de l’adresse e-mail du profil ou de tout autre champ étendu tel que crmId, marketingCloudId, etc. Dans cet exemple, nous devons sélectionner le champ « Email (email) » pour l’associer au champ « Email (cusEmail) » de la table appSubscriptionRcp.
+1. Dans le champ **[!UICONTROL Destination]**, sélectionnez un champ dans la table des profils pour réconcilier les données de la table appSubscriptionRcp. Il peut s’agir de l’adresse e-mail du profil ou de tout autre champ étendu tel que crmId, marketingCloudId, etc. Dans cet exemple, nous devons sélectionner le champ « Email (email) » pour l’associer au champ « Email (cusEmail) » de la table appSubscriptionRcp.
 
    ![](assets/update_profile7.png)
 

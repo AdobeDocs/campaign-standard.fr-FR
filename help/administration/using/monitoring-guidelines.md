@@ -6,9 +6,14 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '514'
+TQID: https://experienceleague.adobe.com/4hy5-pubF9F2FDQGaC7GF-BfMHqMDykC4mtypRc-zsk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 514
 ht-degree: 100%
 
 ---
@@ -38,7 +43,7 @@ Les workflows techniques sont des opérations ou traitements programmés pour s�
 
 **Panneau de contrôle**
 
-Le Panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : administrer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, surveiller l’utilisation des profils actifs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance.[En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr).
+Le Panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : administrer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, surveiller l’utilisation des profils actifs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [En savoir plus](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr).
 
 >[!NOTE]
 >

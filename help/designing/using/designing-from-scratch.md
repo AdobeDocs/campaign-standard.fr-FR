@@ -8,9 +8,14 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
-workflow-type: ht
-source-wordcount: '1268'
+TQID: https://experienceleague.adobe.com/RK13F3Nw-2wxI9rKip-XKDJ3xi0hgpwI-F1uGcKoFKM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1268
 ht-degree: 100%
 
 ---
@@ -30,7 +35,7 @@ Voici les principales étapes pour créer entièrement un contenu d’email à l
 1. Prévisualisez l’email.
 1. Enregistrez votre contenu et traitez votre message après avoir vérifié que vous avez défini une audience et correctement planifié l’envoi.
 
-Vous pouvez également regarder cette [vidéo de présentation](https://video.tv.adobe.com/v/330100/?captions=fre_fr&autoplay=true&hidetitle=true).
+Vous pouvez également regarder cette [vidéo de présentation](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -65,13 +70,13 @@ Pour éditer la structure d’un email :
 
    >[!NOTE]
    >
-   >Les colonnes empilées ne sont pas compatibles avec tous les programmes de messagerie.Lorsqu’elles ne sont pas prises en charge, les colonnes ne sont pas empilées.
+   >Les colonnes empilées ne sont pas compatibles avec tous les programmes de messagerie. Lorsqu’elles ne sont pas prises en charge, les colonnes ne sont pas empilées.
    >
    >Une fois qu’ils ont été placés dans l’email, vous ne pouvez pas déplacer ni supprimer vos composants, à moins qu’un composant de contenu ou un fragment ne soit déjà placé à l’intérieur.
 
 1. Plusieurs composants de structure constitués d’une ou de plusieurs colonnes sont disponibles.
 
-   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10).Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -98,7 +103,7 @@ Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL conten
 
 >[!NOTE]
 >
->Le pré-en-tête n’est pas compatible avec tous les programmes de messagerie.Lorsqu’il n’est pas pris en charge, le pré-en-tête ne s’affiche pas.
+>Le pré-en-tête n’est pas compatible avec tous les programmes de messagerie. Lorsqu’il n’est pas pris en charge, le pré-en-tête ne s’affiche pas.
 
 ## Utilisation des composants de contenu {#about-content-components}
 
@@ -162,7 +167,7 @@ Insérez le composant vidéo dans un composant de structure de votre email et sa
 
 >[!NOTE]
 >
->Remarque : la vidéo n’est pas compatible avec tous les programmes de messagerie.Lorsqu’elle n’est pas prise en charge, la version de secours est affichée.
+>Remarque : la vidéo n’est pas compatible avec tous les programmes de messagerie. Lorsqu’elle n’est pas prise en charge, la version de secours est affichée.
 
 ### Image
 

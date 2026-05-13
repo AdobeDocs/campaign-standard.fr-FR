@@ -6,9 +6,15 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '1282'
+TQID: https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: a2002dba-5e37-4dff-8e04-1cc3ec73558cid: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875fid: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e739ee2b-6228-412e-878f-45de0791417d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1282
 ht-degree: 100%
 
 ---
@@ -19,7 +25,7 @@ ht-degree: 100%
 
 Adobe Campaign permet d’affecter un ensemble de rôles à vos utilisateurs afin de définir la partie de l’interface à laquelle ils ont accès.
 
-Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
+Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Les administrateurs peuvent gérer les utilisateurs depuis Admin Console. Les utilisateurs sont ensuite automatiquement synchronisés avec Adobe Campaign. Pour plus d’informations, consultez la documentation relative à [Admin Console](https://helpx.adobe.com/fr/enterprise/using/users.html).
 
@@ -35,7 +41,7 @@ Pour accéder à l&#39;interface de gestion des utilisateurs à partir d&#39;Ado
 
 * Vidéo [Gérer les autorisations utilisateur](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=fr)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
-* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
+* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## Type d’utilisateurs {#type-of-users}
 
@@ -156,6 +162,6 @@ Votre utilisateur peut maintenant utiliser Adobe Campaign Standard.
 
 Cette vidéo montre comment gérer les droits d’accès des utilisateurs.
 
->[!VIDEO](https://video.tv.adobe.com/v/36024?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

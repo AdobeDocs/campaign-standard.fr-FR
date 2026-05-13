@@ -10,9 +10,12 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '1107'
+TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1107
 ht-degree: 100%
 
 ---
@@ -133,81 +136,81 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
  <thead> 
   <tr> 
    <th> Opérateur<br /> </th> 
-   <th>Syntaxe standard<br /></th> 
-   <th>Syntaxe JavaScript <br /></th> 
-   <th>Description<br /></th> 
-   <th>Exemple<br /></th> 
+   <th> Syntaxe standard<br /> </th> 
+   <th> Syntaxe JavaScript <br /> </th> 
+   <th> Description<br /> </th> 
+   <th> Exemple<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td><span class="uicontrol">Égal à</span> <br /></td> 
-   <td>=<br /></td> 
-   <td>==<br /></td> 
-   <td>La première valeur doit être rigoureusement identique à la seconde valeur.<br /></td> 
-   <td><strong>@lastName = Martin</strong> récupère les profils dont le nom est « Martin », avec les seuls caractères indiqués.<br /></td> 
+   <td> <span class="uicontrol">Égal à</span> <br /> </td> 
+   <td> =<br /> </td> 
+   <td> ==<br /> </td> 
+   <td> La première valeur doit être rigoureusement identique à la seconde valeur.<br /> </td> 
+   <td> <strong>@lastName = Martin</strong> récupère les profils dont le nom est « Martin », avec les seuls caractères indiqués.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="uicontrol">Supérieur à</span> <br /></td> 
-   <td>&gt;<br /></td> 
-   <td>&gt;<br /></td> 
-   <td>La première valeur doit être strictement supérieure à la seconde valeur.<br /></td> 
-   <td><strong>@age &gt; 50</strong> récupère les profils dont l’âge est supérieur à « 50 », donc « 51 », « 52 », etc.<br /></td> 
+   <td> <span class="uicontrol">Supérieur à</span> <br /> </td> 
+   <td> &gt;<br /> </td> 
+   <td> &gt;<br /> </td> 
+   <td> La première valeur doit être strictement supérieure à la seconde valeur.<br /> </td> 
+   <td> <strong>@age &gt; 50</strong> récupère les profils dont l’âge est supérieur à « 50 », donc « 51 », « 52 », etc.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="uicontrol">Inférieur à</span> <br /></td> 
-   <td>&lt;<br /></td> 
-   <td>&lt;<br /></td> 
-   <td>La première valeur doit être strictement inférieure à la seconde valeur.<br /></td> 
-   <td><strong>@created &lt; DaysAgo(100)</strong> récupère tous les profils créés dans la base de données il y a moins de 100 jours.<br /></td> 
+   <td> <span class="uicontrol">Inférieur à</span> <br /> </td> 
+   <td> &lt;<br /> </td> 
+   <td> &lt;<br /> </td> 
+   <td> La première valeur doit être strictement inférieure à la seconde valeur.<br /> </td> 
+   <td> <strong>@created &lt; DaysAgo(100)</strong> récupère tous les profils créés dans la base de données il y a moins de 100 jours.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="uicontrol">Supérieur ou égal à</span> <br /></td> 
-   <td>&gt;=<br /></td> 
-   <td>&gt;=<br /></td> 
-   <td>La première valeur doit être supérieure ou égale à la seconde valeur.<br /></td> 
-   <td><strong>@age &gt;= 30</strong> récupère les profils âgés de 30 ans et plus.<br /></td> 
+   <td> <span class="uicontrol">Supérieur ou égal à</span> <br /> </td> 
+   <td> &gt;=<br /> </td> 
+   <td> &gt;=<br /> </td> 
+   <td> La première valeur doit être supérieure ou égale à la seconde valeur.<br /> </td> 
+   <td> <strong>@age &gt;= 30</strong> récupère les profils âgés de 30 ans et plus.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="uicontrol">Inférieur ou égal à</span> <br /></td> 
-   <td>&lt;=<br /></td> 
-   <td>&lt;=<br /></td> 
-   <td>La première valeur doit être inférieure ou égale à la seconde valeur.<br /></td> 
-   <td><strong>@age &lt;= 60</strong> récupère les profils âgés de 60 ans ou moins.<br /></td> 
+   <td> <span class="uicontrol">Inférieur ou égal à</span> <br /> </td> 
+   <td> &lt;=<br /> </td> 
+   <td> &lt;=<br /> </td> 
+   <td> La première valeur doit être inférieure ou égale à la seconde valeur.<br /> </td> 
+   <td> <strong>@age &lt;= 60</strong> récupère les profils âgés de 60 ans ou moins.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="uicontrol">Différentes </span> <br /></td> 
-   <td>!=<br /></td> 
-   <td>!=<br /></td> 
-   <td>La première valeur doit être différente de la seconde valeur.<br /></td> 
-   <td><strong>@language != English</strong> récupère les profils n’étant pas définis comme anglophones.<br /></td> 
+   <td> <span class="uicontrol">Différentes </span> <br /> </td> 
+   <td> !=<br /> </td> 
+   <td> !=<br /> </td> 
+   <td> La première valeur doit être différente de la seconde valeur.<br /> </td> 
+   <td> <strong>@language != English</strong> récupère les profils n’étant pas définis comme anglophones.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="uicontrol">Contient</span> <br /></td> 
-   <td>IN<br /></td> 
-   <td>N/A<br /></td> 
-   <td>La première valeur doit contenir la seconde valeur.<br /></td> 
-   <td> <strong>@domain IN mail</strong>. Ici, tous les noms de domaine comportant la valeur « mail » sont renvoyés en résultat.Par conséquent, le nom de domaine 'gmail.com' fera partie des résultats retournés.<br /> </td> 
+   <td> <span class="uicontrol">Contient</span> <br /> </td> 
+   <td> IN<br /> </td> 
+   <td> N/A<br /> </td> 
+   <td> La première valeur doit contenir la seconde valeur.<br /> </td> 
+   <td> <strong>@domain IN mail</strong>. Ici, tous les noms de domaine comportant la valeur « mail » sont renvoyés en résultat. Par conséquent, le nom de domaine 'gmail.com' fera partie des résultats retournés.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="uicontrol">Comme</span> <br /></td> 
-   <td>LIKE<br /></td> 
-   <td>N/A<br /></td> 
-   <td><span class="uicontrol">Comme</span> est quasiment identique à l’opérateur <span class="uicontrol">Contient</span>.Il permet d’insérer un caractère joker <span class="uicontrol">%</span> dans la valeur recherchée.<br /></td> 
-   <td><strong>@lastName LIKE Mart%n</strong>.Ici, le caractère <strong>%</strong> de substitution sert de « joker » afin de retrouver le nom « Martin » dans le cas hypothétique où l’orthographe d’une valeur n’est pas certaine.<br /></td> 
+   <td> <span class="uicontrol">Comme</span> <br /> </td> 
+   <td> LIKE<br /> </td> 
+   <td> N/A<br /> </td> 
+   <td> <span class="uicontrol">Comme</span> est quasiment identique à l’opérateur <span class="uicontrol">Contient</span>. Il permet d’insérer un caractère joker <span class="uicontrol">%</span> dans la valeur recherchée.<br /> </td> 
+   <td> <strong>@lastName LIKE Mart%n</strong>. Ici, le caractère <strong>%</strong> de substitution sert de « joker » afin de retrouver le nom « Martin » dans le cas hypothétique où l’orthographe d’une valeur n’est pas certaine.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="uicontrol">Pas comme</span> <br /></td> 
-   <td>NOT<br /></td> 
-   <td>N/A<br /></td> 
-   <td> Similaire à <span class="uicontrol">Comme</span>. Permet de ne pas obtenir la valeur renseignée.La valeur renseignée doit ici aussi comporter le caractère joker <span class="uicontrol">%</span>.<br /> </td> 
-   <td><strong>@lastName NOT Smi%h</strong>.Ici, les personnes destinataires répondant au nom de « Smi%h » (donc Smith, etc.)ne sont pas renvoyées en tant que résultat.<br /></td> 
+   <td> <span class="uicontrol">Pas comme</span> <br /> </td> 
+   <td> NOT<br /> </td> 
+   <td> N/A<br /> </td> 
+   <td> Similaire à <span class="uicontrol">Comme</span>. Permet de ne pas obtenir la valeur renseignée. La valeur renseignée doit ici aussi comporter le caractère joker <span class="uicontrol">%</span>.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. Ici, les personnes destinataires répondant au nom de « Smi%h » (donc Smith, etc.) ne sont pas renvoyées en tant que résultat.<br /> </td> 
   </tr> 
   <tr> 
-   <td><span class="uicontrol">Est vide</span> <br /></td> 
-   <td>IS NULL<br /></td> 
-   <td>N/A<br /></td> 
-   <td>La première valeur doit correspondre à une valeur vide.<br /></td> 
+   <td> <span class="uicontrol">Est vide</span> <br /> </td> 
+   <td> IS NULL<br /> </td> 
+   <td> N/A<br /> </td> 
+   <td> La première valeur doit correspondre à une valeur vide.<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong> permet de retrouver tous les profils dont le numéro de téléphone portable n'est pas renseigné.<br /> </td> 
   </tr> 
  </tbody> 

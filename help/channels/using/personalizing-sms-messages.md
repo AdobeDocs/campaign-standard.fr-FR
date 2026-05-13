@@ -9,9 +9,14 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '435'
+TQID: https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 435
 ht-degree: 100%
 
 ---
@@ -42,7 +47,7 @@ Voici l&#39;exemple d&#39;un SMS contenant des champs de personnalisation qui, s
 
 L’option **[!UICONTROL De]** vous permet de personnaliser le nom de la personne qui envoie le SMS à l’aide d’une chaîne de caractères. C’est le nom qui s’affichera dans le champ correspondant à l’expéditeur ou l’expéditrice du SMS sur le téléphone mobile de la personne destinataire.
 
-Si ce champ est vide, c’est le numéro source renseigné dans le compte externe qui sera utilisé.Si aucun numéro source n’y figure, c’est le numéro court qui sera utilisé.Le compte externe spécifique aux diffusions SMS est présenté dans la section [Définir un routage SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+Si ce champ est vide, c’est le numéro source renseigné dans le compte externe qui sera utilisé. Si aucun numéro source n’y figure, c’est le numéro court qui sera utilisé. Le compte externe spécifique aux diffusions SMS est présenté dans la section [Définir un routage SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
 ![](assets/sms_creation_8.png)
 

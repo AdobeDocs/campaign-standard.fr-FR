@@ -10,9 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '2278'
+TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 2278
 ht-degree: 100%
 
 ---
@@ -172,12 +178,12 @@ Ces messages de log sont utilisés pour consigner des informations sur les point
  <thead> 
   <tr> 
    <th> Format du message<br /> </th> 
-   <th>Exemple<br /></th> 
+   <th> Exemple<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Appel de l’URL d’API « %s ».</td> 
+   <td> Appel de l’URL d’API « %s ».</td> 
    <td> <p>Appel de l’URL d’API « https://example.com/api/v1/web-coupon?count=2 ».</p></td> 
   </tr> 
   <tr> 
@@ -190,10 +196,10 @@ Ces messages de log sont utilisés pour consigner des informations sur les point
   </tr>
   <tr> 
    <td> Utilisation du jeton d’accès mis en cache pour l’identifiant de fournisseur ‘%s’.</td> 
-   <td> <p>Utilisation du jeton d’accès mis en cache pour l’identifiant de fournisseur « EXT25 ».Remarque : EXT25 est l’identifiant (ou le nom) du compte externe. </p></td> 
+   <td> <p>Utilisation du jeton d’accès mis en cache pour l’identifiant de fournisseur « EXT25 ». Remarque : EXT25 est l’identifiant (ou le nom) du compte externe. </p></td> 
   </tr>
   <tr> 
-   <td>Jeton d’accès récupéré sur le serveur pour l’identifiant de fournisseur « %s ».</td> 
+   <td> Jeton d’accès récupéré sur le serveur pour l’identifiant de fournisseur « %s ».</td> 
    <td> <p>Jeton d’accès récupéré sur le serveur pour l’identifiant de fournisseur ‘EXT25’. Remarque : EXT25 est l’identifiant (ou le nom) du compte externe.</p></td> 
   </tr>
   <tr> 
@@ -219,12 +225,12 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
  <thead> 
   <tr> 
    <th> Code - Format du message<br /> </th> 
-   <th>Exemple<br /></th> 
+   <th> Exemple<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>WKF-560250 - Le corps de la demande d’API a dépassé la limite (limite : « %d »).</td> 
+   <td> WKF-560250 - Le corps de la demande d’API a dépassé la limite (limite : « %d »).</td> 
    <td> <p>Le corps de la demande d’API a dépassé la limite (limite : « 5242880 »).</p></td> 
   </tr> 
   <tr> 
@@ -237,7 +243,7 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
    <p> Remarque : cette erreur est consignée lorsque l’URL d’API échoue aux règles de validation.</p></td>
   </tr> 
   <tr>
-   <td>WKF-560244 - L’hôte d’URL de l’API ne doit pas être « localhost » ni un littéral d’adresse IP (hôte d’URL : « %s »).</td> 
+   <td> WKF-560244 - L’hôte d’URL de l’API ne doit pas être « localhost » ni un littéral d’adresse IP (hôte d’URL : « %s »).</td> 
    <td> <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’localhost’).</p>
     <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’192.168.0.5’).</p>
     <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’[2001]’).</p></td>
@@ -257,7 +263,7 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
    <p> Remarque : cette erreur est consignée lorsque la clé d’en-tête personnalisée échoue à la validation selon les <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>.</p></td> 
   </tr>
  <tr> 
-   <td>WKF-560248 - La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : « %s »).</td> 
+   <td> WKF-560248 - La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : « %s »).</td> 
    <td> <p>La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : « Accept »).</p></td> 
   </tr> 
   <tr> 
@@ -310,7 +316,7 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
   </tr>
   <tr> 
    <td> CRL-290200 - Informations d’identification incomplètes/incorrectes.</td> 
-   <td> <p>Ce message d’erreur s’affiche sur l’écran de l’interface utilisateur des comptes externes lors de sa configuration d’OAuth. Elle indique que les informations d’identification sont incorrectes ou qu’il manque d’autres informations d’identification requises pour se connecter au serveur d’authentification.
+   <td> <p>Ce message d’erreur s’affiche sur l’écran de l’interface utilisateur des comptes externes lors de la configuration d’OAuth. Elle indique que les informations d’identification sont incorrectes ou qu’il manque d’autres informations d’identification requises pour se connecter au serveur d’authentification.
 </p></td>
   </tr>
  </tbody> 

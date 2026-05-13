@@ -8,9 +8,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: ht
-source-wordcount: '799'
+TQID: https://experienceleague.adobe.com/sBjTFd0Su7In8xai4J8cp5QAsAh6pOVOf4OVAijQmXo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 799
 ht-degree: 100%
 
 ---
@@ -45,7 +50,7 @@ Avec Adobe Campaign Standard, vous pouvez envoyer des diffusions mobiles par l
     <div>
     <p><strong>Configuration d’une application mobile à l’aide des SDK Adobe Experience Platform</strong></p>
     </div>
-    <p>Pour envoyer des messages in-app et des notifications push, les applications mobiles doivent être configurées dans Adobe Campaign en utilisant les SDK Adobe Experience Platform. </br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Cliquez ici</strong></a> pour en savoir davantage.</p>
+    <p>Pour envoyer des messages in-app et des notifications push, les applications mobiles doivent être configurées dans Adobe Campaign en utilisant les SDK Adobe Experience Platform. </br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Cliquez ici</strong></a> pour en savoir plus.</p>
     <br>
   </td>
   <td>

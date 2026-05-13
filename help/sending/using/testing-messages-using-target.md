@@ -9,9 +9,14 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '1617'
+TQID: https://experienceleague.adobe.com/52Xrj9jJWTlTtIrIqTt-Fhc4V-lRNfjfGDRiHv5dgUs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1617
 ht-degree: 100%
 
 ---
@@ -271,6 +276,6 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 Cette vidéo explique comment tester vos e-mails à l’aide de la substitution de profil.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424569?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

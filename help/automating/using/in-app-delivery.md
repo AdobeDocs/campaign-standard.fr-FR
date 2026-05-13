@@ -9,9 +9,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '811'
+TQID: https://experienceleague.adobe.com/fk0D9lHTMGS6deq5PqwzmrZeLexPDqSiVcaeJ4YJrq8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663adda
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 811
 ht-degree: 100%
 
 ---
@@ -41,11 +47,11 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
    * La dimension de ciblage doit être définie sur **[!UICONTROL abonnements à une application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** pour le modèle **[!UICONTROL Cibler les utilisateurs et utilisatrices en fonction de leur profil mobile (in-app)]**.
 
 1. Placez une activité **[!UICONTROL Diffusion In-App]** dans votre workflow.
-1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
+1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
 
    >[!NOTE]
    >
-   >Les propriétés générales et les options avancées de l’activité (et non de la diffusion elle-même) sont disponibles à l’aide du bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l’activité.
+   >Les propriétés générales et les options avancées de l&#39;activité (et non de la diffusion elle-même) sont disponibles à l&#39;aide du bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l&#39;activité.
 
    ![](assets/wkf_in_app_3.png)
 
@@ -67,7 +73,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 
    ![](assets/wkf_in_app_5.png)
 
-1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
+1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
 Lorsque vous ouvrez à nouveau l&#39;activité par la suite, vous accédez au tableau de bord du message in-app. Seul son contenu reste modifiable.
 

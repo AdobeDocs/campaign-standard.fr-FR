@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '908'
+TQID: https://experienceleague.adobe.com/HRzEDtHhZR88rvKjYSJOqmu1u9gEQGLtul0W86XajCM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 908
 ht-degree: 100%
 
 ---
@@ -75,7 +79,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 1. Par défaut, l&#39;activité de **[!UICONTROL Diffusion Email]** ne possède aucune transition sortante. Si vous souhaitez ajouter une transition sortante à votre activité de **[!UICONTROL Diffusion Email]**, accédez à l&#39;onglet **[!UICONTROL Général]** des options avancées de l&#39;activité (bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l&#39;activité) puis cochez l&#39;une des options suivantes :
 
    * **[!UICONTROL Ajouter une transition sortante sans la population]** : permet de générer une transition sortante contenant la même population que la transition entrante.
-   * **[!UICONTROL Ajouter une transition sortante avec la population]** : permet de générer une transition sortante contenant la population à qui l&#39;email a été envoyé. Les personnes membres ciblées exclues pendant la préparation de la diffusion (quarantaine, e-mails non valides, etc.)sont exclues de cette transition.
+   * **[!UICONTROL Ajouter une transition sortante avec la population]** : permet de générer une transition sortante contenant la population à qui l&#39;email a été envoyé. Les personnes membres ciblées exclues pendant la préparation de la diffusion (quarantaine, e-mails non valides, etc.) sont exclues de cette transition.
 
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 

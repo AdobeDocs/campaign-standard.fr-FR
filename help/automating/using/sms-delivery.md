@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '829'
+TQID: https://experienceleague.adobe.com/lDbKhs6o4XJq5JWQfZltEv5iUV7zeNkR8r0evemqEvQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 829
 ht-degree: 100%
 
 ---
@@ -43,7 +47,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 ## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Diffusion SMS]** dans votre workflow.
-1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
+1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
 
    >[!NOTE]
    >
@@ -62,7 +66,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 1. Par défaut, l&#39;activité de **[!UICONTROL Diffusion SMS]** ne possède aucune transition sortante. Si vous souhaitez ajouter une transition sortante à votre activité de **[!UICONTROL Diffusion par SMS]**, accédez à l’onglet **[!UICONTROL Général]** des options avancées de l’activité (bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l’activité), puis cochez l’une des options suivantes :
 
    * **[!UICONTROL Ajouter une transition sortante sans la population]** : permet de générer une transition sortante contenant la même population que la transition entrante.
-   * **[!UICONTROL Ajouter une transition sortante avec la population]** : permet de générer une transition sortante contenant la population à qui le SMS a été envoyé. Les personnes membres ciblées exclues pendant la préparation de la diffusion (quarantaine, numéros non valides, etc.)sont exclues de cette transition.
+   * **[!UICONTROL Ajouter une transition sortante avec la population]** : permet de générer une transition sortante contenant la population à qui le SMS a été envoyé. Les personnes membres ciblées exclues pendant la préparation de la diffusion (quarantaine, numéros non valides, etc.) sont exclues de cette transition.
 
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 

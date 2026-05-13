@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '372'
+TQID: https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 372
 ht-degree: 100%
 
 ---
@@ -49,4 +54,4 @@ Dans ce cas, vérifiez que les éléments suivants sont correctement configurés
 
   Les audiences Experience Cloud peuvent ne pas être partagées parce que le workflow technique s&#39;est arrêté ou est en pause. Accédez au workflow **[!UICONTROL Importer une audience partagée]** en cliquant directement sur l&#39;option **[!UICONTROL Afficher l&#39;audience partagée]** dans votre Data source.
 
-Il est possible que certaines données soient manquantes lors du partage d’une audience via People Core Service ou lors de l’import d’une audience.Seuls les enregistrements dont l’identifiant (« Visitor ID » ou « Declared ID ») a pu être réconcilié avec la dimension des profils sont transférés.Les identifiants provenant des segments de People Core Service non reconnus par Adobe Campaign ne sont pas importés.
+Il est possible que certaines données soient manquantes lors du partage d’une audience via People Core Service ou lors de l’import d’une audience. Seuls les enregistrements dont l’identifiant (« Visitor ID » ou « Declared ID ») a pu être réconcilié avec la dimension des profils sont transférés. Les identifiants provenant des segments de People Core Service non reconnus par Adobe Campaign ne sont pas importés.

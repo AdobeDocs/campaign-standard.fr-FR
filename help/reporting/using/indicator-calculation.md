@@ -8,9 +8,15 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '786'
+TQID: https://experienceleague.adobe.com/QgkQth22239fJIEoh5DWlTkx9ptFo7DpziHH0hLRt-U
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 786
 ht-degree: 100%
 
 ---
@@ -29,196 +35,196 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  <thead> 
   <tr> 
    <th> <strong>Libellé</strong> <br /> </th> 
-   <th><strong>Nom du champ</strong> <br /></th> 
-   <th><strong>Formule de calcul de l’indicateur</strong> <br /></th> 
-   <th><strong>Commentaires</strong><br /></th> 
+   <th> <strong>Nom du champ</strong> <br /> </th> 
+   <th> <strong>Formule de calcul de l’indicateur</strong> <br /> </th> 
+   <th> <strong>Commentaires</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Compte désactivé<br /></td> 
-   <td>@disabled<br /></td> 
-   <td>count(@failureReason=4)<br /></td> 
+   <td> Compte désactivé<br /> </td> 
+   <td> @disabled<br /> </td> 
+   <td> count(@failureReason=4)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Sur la liste bloquée<br /></td> 
-   <td>@blacklisted<br /></td> 
-   <td>count(@failureReason=8, @failureType=2)<br /></td> 
+   <td> Sur la liste bloquée<br /> </td> 
+   <td> @blacklisted<br /> </td> 
+   <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Taux sur la liste bloquée<br /></td> 
-   <td>@rateBlacklisted<br /></td> 
-   <td>@blacklisted/@sent<br /></td> 
-   <td>Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /></td> 
+   <td> Taux sur la liste bloquée<br /> </td> 
+   <td> @rateBlacklisted<br /> </td> 
+   <td> @blacklisted/@sent<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr> 
   <tr> 
-   <td>Rebonds + erreurs<br /></td> 
-   <td>@Bounces<br /></td> 
-   <td>count(@status=2)<br /></td> 
+   <td> Rebonds + erreurs<br /> </td> 
+   <td> @Bounces<br /> </td> 
+   <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Taux de rebond + erreurs<br /></td> 
-   <td>@rateBounces<br /></td> 
-   <td>@bounces/@sent<br /></td> 
+   <td> Taux de rebond + erreurs<br /> </td> 
+   <td> @rateBounces<br /> </td> 
+   <td> @bounces/@sent<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Clic<br /></td> 
-   <td>@clicks<br /></td> 
-   <td>count(@trackingUrlType=1 or 10 or 11)<br /></td> 
+   <td> Clic<br /> </td> 
+   <td> @clicks<br /> </td> 
+   <td> count(@trackingUrlType=1 or 10 or 11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Taux de clics<br /></td> 
-   <td>@clickthrough<br /></td> 
-   <td>@uniqueclicks/@delivered<br /></td> 
-   <td>Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /></td> 
+   <td> Taux de clics<br /> </td> 
+   <td> @clickthrough<br /> </td> 
+   <td> @uniqueclicks/@delivered<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Délivrés<br /></td> 
-   <td>@delivered<br /></td> 
-   <td>count(@status=1)<br /></td> 
+   <td> Délivrés<br /> </td> 
+   <td> @delivered<br /> </td> 
+   <td> count(@status=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Taux de délivrabilité<br /></td> 
-   <td>@rateDelivered<br /></td> 
-   <td>@delivered/@sent<br /></td> 
-   <td>Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /></td> 
+   <td> Taux de délivrabilité<br /> </td> 
+   <td> @rateDelivered<br /> </td> 
+   <td> @delivered/@sent<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr> 
   <tr> 
-   <td>Rebonds définitifs<br /></td> 
-   <td>@hardBounces<br /></td> 
-   <td>count(@failureType=2 AND @failureReason=8)<br /></td> 
+   <td> Rebonds définitifs<br /> </td> 
+   <td> @hardBounces<br /> </td> 
+   <td> count(@failureType=2 AND @failureReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Taux de rebonds définitifs<br /></td> 
-   <td>@rateHardBounces<br /></td> 
-   <td>@hardBounces/@sent<br /></td> 
-   <td>Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /></td> 
+   <td> Taux de rebonds définitifs<br /> </td> 
+   <td> @rateHardBounces<br /> </td> 
+   <td> @hardBounces/@sent<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr> 
   <tr> 
-   <td>Domaine invalide<br /></td> 
-   <td>@invalidDomain<br /></td> 
-   <td>count(@failureReason=2)<br /></td> 
+   <td> Domaine invalide<br /> </td> 
+   <td> @invalidDomain<br /> </td> 
+   <td> count(@failureReason=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Boîte pleine<br /></td> 
-   <td>@mailBoxFull<br /></td> 
-   <td>count(@failureReason=5)<br /></td> 
+   <td> Boîte pleine<br /> </td> 
+   <td> @mailBoxFull<br /> </td> 
+   <td> count(@failureReason=5)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Page miroir<br /></td> 
-   <td>@mirrorPage<br /></td> 
-   <td>count(@trackingUrlType=6)<br /></td> 
-   <td>Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /></td> 
+   <td> Page miroir<br /> </td> 
+   <td> @mirrorPage<br /> </td> 
+   <td> count(@trackingUrlType=6)<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Taux de page miroir<br /></td> 
-   <td>@rateMirrorPage<br /></td> 
-   <td>@mirrorPage/@delivered<br /></td> 
+   <td> Taux de page miroir<br /> </td> 
+   <td> @rateMirrorPage<br /> </td> 
+   <td> @mirrorPage/@delivered<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Non connecté<br /></td> 
-   <td>@notConnected<br /></td> 
-   <td>count(@failureReason=6)<br /></td> 
+   <td> Non connecté<br /> </td> 
+   <td> @notConnected<br /> </td> 
+   <td> count(@failureReason=6)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Ouvertures<br /></td> 
-   <td>@uniqueOpens<br /></td> 
-   <td>count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /></td> 
+   <td> Ouvertures<br /> </td> 
+   <td> @uniqueOpens<br /> </td> 
+   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Taux d’ouverture<br /></td> 
-   <td>@rateOpens<br /></td> 
-   <td>@opens/@delivered<br /></td> 
-   <td>Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /></td> 
+   <td> Taux d’ouverture<br /> </td> 
+   <td> @rateOpens<br /> </td> 
+   <td> @opens/@delivered<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Quarantaine<br /></td> 
-   <td>@quarantine<br /></td> 
-   <td>isQuarantine=true<br /></td> 
+   <td> Quarantaine<br /> </td> 
+   <td> @quarantine<br /> </td> 
+   <td> isQuarantine=true<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Taux de mise en quarantaine<br /></td> 
-   <td>@rateQuarantine<br /></td> 
-   <td>@quarantine/@sent<br /></td> 
-   <td>Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /></td> 
+   <td> Taux de mise en quarantaine<br /> </td> 
+   <td> @rateQuarantine<br /> </td> 
+   <td> @quarantine/@sent<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr>
   <tr> 
-   <td>Rejetés<br /></td> 
-   <td>@rejected<br /></td> 
-   <td>count(@failureReason=20, @failureType=2)<br /></td> 
+   <td> Rejetés<br /> </td> 
+   <td> @rejected<br /> </td> 
+   <td> count(@failureReason=20, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Taux de rejet<br /></td> 
-   <td>@rateRejected<br /></td> 
-   <td>@rejected/@sent<br /></td> 
-   <td>Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /></td> 
+   <td> Taux de rejet<br /> </td> 
+   <td> @rateRejected<br /> </td> 
+   <td> @rejected/@sent<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr> 
   <tr> 
-   <td>Traités/envoyés<br /></td> 
-   <td>@sent<br /></td> 
-   <td>@delivered + @bounces<br /></td> 
+   <td> Traités/envoyés<br /> </td> 
+   <td> @sent<br /> </td> 
+   <td> @delivered + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Rebond temporaire<br /></td> 
-   <td>@softBounces<br /></td> 
-   <td>count(@failureType=1)<br /></td> 
+   <td> Rebond temporaire<br /> </td> 
+   <td> @softBounces<br /> </td> 
+   <td> count(@failureType=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Taux de rebonds temporaires<br /></td> 
-   <td>@rateSoftBounces<br /></td> 
-   <td>@softBounces/@sent<br /></td> 
-   <td>Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /></td> 
+   <td> Taux de rebonds temporaires<br /> </td> 
+   <td> @rateSoftBounces<br /> </td> 
+   <td> @softBounces/@sent<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr> 
   <tr> 
-   <td>Clics uniques<br /></td> 
+   <td> Clics uniques<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. Pour plus d’informations à ce propos, consultez cet <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=fr#unique-open-clicks-no-match">exemple</a>.<br /></td> 
+   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. Pour plus d’informations à ce propos, consultez cet <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=fr#unique-open-clicks-no-match">exemple</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Ouvertures uniques<br /></td> 
-   <td>@uniqueopens<br /></td> 
-   <td>unique(@trackingUrlType=1,2,3,6,10,11)<br /></td> 
+   <td> Ouvertures uniques<br /> </td> 
+   <td> @uniqueopens<br /> </td> 
+   <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Inatteignable <br /></td> 
-   <td>@unreachable<br /></td> 
-   <td>count(@failureReason=3)<br /></td> 
+   <td> Inatteignable <br /> </td> 
+   <td> @unreachable<br /> </td> 
+   <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Désabonnement<br /></td> 
-   <td>@unsubscribes<br /></td> 
-   <td>count(@trackingUrlType=3)<br /></td> 
+   <td> Désabonnement<br /> </td> 
+   <td> @unsubscribes<br /> </td> 
+   <td> count(@trackingUrlType=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Taux de désabonnement<br /></td> 
-   <td>@rateUnsubscribes<br /></td> 
-   <td>@unsubscribes/@delivered<br /></td> 
-   <td>Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /></td> 
+   <td> Taux de désabonnement<br /> </td> 
+   <td> @rateUnsubscribes<br /> </td> 
+   <td> @unsubscribes/@delivered<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Utilisateur inconnu ou utilisatrice inconnue<br /></td> 
-   <td>@unknownUser<br /></td> 
-   <td>count(@failureReason=1)<br /></td> 
+   <td> Utilisateur inconnu ou utilisatrice inconnue<br /> </td> 
+   <td> @unknownUser<br /> </td> 
+   <td> count(@failureReason=1)<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
@@ -230,69 +236,69 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  <thead> 
   <tr> 
    <th> <strong>Libellé</strong> <br /> </th> 
-   <th><strong>Nom du champ</strong> <br /></th> 
-   <th><strong>Formule de calcul de l’indicateur</strong> <br /></th> 
+   <th> <strong>Nom du champ</strong> <br /> </th> 
+   <th> <strong>Formule de calcul de l’indicateur</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Traités/envoyés<br /></td> 
-   <td>@sent<br /></td> 
-   <td>@count(status=sent)<br /></td> 
+   <td> Traités/envoyés<br /> </td> 
+   <td> @sent<br /> </td> 
+   <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td>Delivrés<br /></td> 
-   <td>@delivered<br /></td> 
-   <td>@count(status=delivered)<br /></td> 
+   <td> Délivrés<br /> </td> 
+   <td> @delivered<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td>Taux de délivrabilité<br /></td> 
-   <td>@rateDelivered<br /></td> 
-   <td>(@delivered/@sent)*100<br /></td> 
+   <td> Taux de délivrabilité<br /> </td> 
+   <td> @rateDelivered<br /> </td> 
+   <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td>Taux de rebond + erreurs<br /></td> 
-   <td>@rateBounces<br /></td> 
-   <td>(@delivered/@sent)*100<br /></td> 
+   <td> Taux de rebond + erreurs<br /> </td> 
+   <td> @rateBounces<br /> </td> 
+   <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td>Ouvertures<br /></td> 
-   <td>@opens<br /></td> 
-   <td>@count(status=open)<br /></td> 
+   <td> Ouvertures<br /> </td> 
+   <td> @opens<br /> </td> 
+   <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
-   <td>Taux d’ouverture<br /></td> 
-   <td>@rateOpens<br /></td> 
-   <td>(@opens/@delivered)*100<br /></td> 
+   <td> Taux d’ouverture<br /> </td> 
+   <td> @rateOpens<br /> </td> 
+   <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td>Ouvertures uniques<br /></td> 
+   <td> Ouvertures uniques<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Les ouvertures uniques sont calculées à l'aide des concepts ThetaSketch de RecipientIds uniques. Pour plus d’informations à ce propos, consultez cet <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=fr#unique-open-clicks-no-match">exemple</a>.<br /></td> 
+   <td> Les ouvertures uniques sont calculées à l'aide des concepts ThetaSketch de RecipientIds uniques. Pour plus d’informations à ce propos, consultez cet <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=fr#unique-open-clicks-no-match">exemple</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Impressions<br /></td> 
-   <td>@impressions<br /></td> 
-   <td>@count(status=delivered)<br /></td> 
+   <td> Impressions<br /> </td> 
+   <td> @impressions<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td>Impressions uniques<br /></td> 
-   <td>@uniqueimpressions<br /></td> 
-   <td>@unique(@count(status=view))<br /></td> 
+   <td> Impressions uniques<br /> </td> 
+   <td> @uniqueimpressions<br /> </td> 
+   <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
-   <td>Clic<br /></td> 
-   <td>@clicks<br /></td> 
-   <td>@count(status=interact)<br /></td> 
+   <td> Clic<br /> </td> 
+   <td> @clicks<br /> </td> 
+   <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td>Clics uniques<br /></td> 
+   <td> Clics uniques<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. Pour plus d’informations à ce propos, consultez cet <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=fr#unique-open-clicks-no-match">exemple</a>.<br /></td> 
+   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. Pour plus d’informations à ce propos, consultez cet <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=fr#unique-open-clicks-no-match">exemple</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Taux de clics<br /></td> 
-   <td>@clickthrough<br /></td> 
+   <td> Taux de clics<br /> </td> 
+   <td> @clickthrough<br /> </td> 
    <td> (@interact/@delivered)*100<br /> </td> 
   </tr> 
  </tbody> 
@@ -304,70 +310,70 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  <thead> 
   <tr> 
    <th> <strong>Libellé</strong> <br /> </th> 
-   <th><strong>Nom du champ</strong> <br /></th> 
-   <th><strong>Formule de calcul de l’indicateur</strong> <br /></th> 
-   <th><strong>Commentaires</strong><br /></th> 
+   <th> <strong>Nom du champ</strong> <br /> </th> 
+   <th> <strong>Formule de calcul de l’indicateur</strong> <br /> </th> 
+   <th> <strong>Commentaires</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Traités/envoyés<br /></td> 
-   <td>@sent<br /></td> 
-   <td>@count(status=sent)<br /></td> 
-   <td>sent=delivered<br /></td> 
+   <td> Traités/envoyés<br /> </td> 
+   <td> @sent<br /> </td> 
+   <td> @count(status=sent)<br /> </td> 
+   <td> sent=delivered<br /> </td> 
   </tr> 
   <tr> 
-   <td>Délivrés<br /></td> 
-   <td>@delivered<br /></td> 
-   <td>@count(status=delivered)<br /></td> 
-   <td>delivered=sent<br /></td> 
+   <td> Délivrés<br /> </td> 
+   <td> @delivered<br /> </td> 
+   <td> @count(status=delivered)<br /> </td> 
+   <td> delivered=sent<br /> </td> 
   </tr> 
   <tr> 
-   <td>Impressions<br /></td> 
-   <td>@impressions<br /></td> 
-   <td>@count(status=view) ou @count(status=button 1 click + button 2 click + dismissals)<br /></td> 
+   <td> Impressions<br /> </td> 
+   <td> @impressions<br /> </td> 
+   <td> @count(status=view) ou @count(status=button 1 click + button 2 click + dismissals)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Impressions uniques<br /></td> 
-   <td>@uniqueimpressions<br /></td> 
-   <td>@unique(@count(status=view))<br /></td> 
-   <td>Pour le modèle <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Campaign (inAppProfile)</span>, utilisateur ou utilisatrice = Identifiant de la personne destinataire.<br />Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs et utilisatrices d’une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Mobile (inApp)</span>, utilisateur ou utilisatrice = Identifiant MC ou équivalent qui représente une combinaison unique d’utilisateur ou d’utilisatrice, d’application mobile et d’appareil.<br /></td> 
+   <td> Impressions uniques<br /> </td> 
+   <td> @uniqueimpressions<br /> </td> 
+   <td> @unique(@count(status=view))<br /> </td> 
+   <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Campaign (inAppProfile)</span>, utilisateur ou utilisatrice = Identifiant de la personne destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs et utilisatrices d’une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Mobile (inApp)</span>, utilisateur ou utilisatrice = Identifiant MC ou équivalent qui représente une combinaison unique d’utilisateur ou d’utilisatrice, d’application mobile et d’appareil.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Clics in-app <br /></td> 
-   <td>@inappclicks<br /></td> 
-   <td>@count (status=click)<br /></td> 
+   <td> Clics in-app <br /> </td> 
+   <td> @inappclicks<br /> </td> 
+   <td> @count (status=click)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Clics in-app uniques<br /></td> 
-   <td>@uniqueinapp<br /></td> 
-   <td>@unique(@count (status=clicks))<br /></td> 
-   <td>Pour le modèle <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Campaign (inAppProfile)</span>, utilisateur ou utilisatrice = Identifiant de la personne destinataire.<br />Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs et utilisatrices d’une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Mobile (inApp)</span>, utilisateur ou utilisatrice = Identifiant MC ou équivalent qui représente une combinaison unique d’utilisateur ou d’utilisatrice, d’application mobile et d’appareil.<br /></td> 
+   <td> Clics in-app uniques<br /> </td> 
+   <td> @uniqueinapp<br /> </td> 
+   <td> @unique(@count (status=clicks))<br /> </td> 
+   <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Campaign (inAppProfile)</span>, utilisateur ou utilisatrice = Identifiant de la personne destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs et utilisatrices d’une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Mobile (inApp)</span>, utilisateur ou utilisatrice = Identifiant MC ou équivalent qui représente une combinaison unique d’utilisateur ou d’utilisatrice, d’application mobile et d’appareil.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Taux de clics in-app<br /></td> 
-   <td>@inappclickthrough<br /></td> 
-   <td>Total des clics sur le bouton 1 ou le bouton 2/total des impressions x 100<br /></td> 
+   <td> Taux de clics in-app<br /> </td> 
+   <td> @inappclickthrough<br /> </td> 
+   <td> Total des clics sur le bouton 1 ou le bouton 2/total des impressions x 100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Rejet in-app<br /></td> 
-   <td>@dismissal<br /></td> 
-   <td>@count (status=close)<br /></td> 
+   <td> Rejet in-app<br /> </td> 
+   <td> @dismissal<br /> </td> 
+   <td> @count (status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Rejets in-app uniques<br /></td> 
-   <td>@uniquedismissal<br /></td> 
-   <td>@unique(@count (status=close))<br /></td> 
-   <td>Pour le modèle <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Campaign (inAppProfile)</span>, utilisateur ou utilisatrice = Identifiant de la personne destinataire.<br />Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs et utilisatrices d’une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Mobile (inApp)</span>, utilisateur ou utilisatrice = Identifiant MC ou équivalent qui représente une combinaison unique d’utilisateur ou d’utilisatrice, d’application mobile et d’appareil.<br /></td> 
+   <td> Rejets in-app uniques<br /> </td> 
+   <td> @uniquedismissal<br /> </td> 
+   <td> @unique(@count (status=close))<br /> </td> 
+   <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Campaign (inAppProfile)</span>, utilisateur ou utilisatrice = Identifiant de la personne destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs et utilisatrices d’une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs et utilisatrices en fonction de leur profil Mobile (inApp)</span>, utilisateur ou utilisatrice = Identifiant MC ou équivalent qui représente une combinaison unique d’utilisateur ou d’utilisatrice, d’application mobile et d’appareil.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Taux de rejet in-app<br /></td> 
-   <td>@dismissalrate<br /></td> 
-   <td>Total fermetures/total impressions x 100<br /></td> 
+   <td> Taux de rejet in-app<br /> </td> 
+   <td> @dismissalrate<br /> </td> 
+   <td> Total fermetures/total impressions x 100<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 

@@ -6,9 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 620ae1adc6f804e90c10daeb5fa4df42ce106885
-workflow-type: ht
-source-wordcount: '1408'
+TQID: https://experienceleague.adobe.com/Xq6Jl-yj32NitaJw6OPSbiRf0unmeCXVkAMfvecMAUs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1408
 ht-degree: 100%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 100%
 # Comment migrer votre application mobile du SDK v4 vers le SDK Adobe Experience Platform {#sdkv4-migration}
 
 
-La prise en charge des SDK Adobe Experience Platform Mobile version 4 a pris fin le 31 août 2021.Si vous utilisez toujours cette version héritée du SDK, vous devez mettre à jour votre implémentation au SDK Adobe Experience Platform **avant fin juin 2024**. Découvrez comment migrer vers le SDK Adobe Experience Platform dans cet article.
+La prise en charge des SDK Adobe Experience Platform Mobile version 4 a pris fin le 31 août 2021. Si vous utilisez toujours cette version héritée du SDK, vous devez mettre à jour votre implémentation au SDK Adobe Experience Platform **avant fin juin 2024**. Découvrez comment migrer vers le SDK Adobe Experience Platform dans cet article.
 
 >[!IMPORTANT]
 >

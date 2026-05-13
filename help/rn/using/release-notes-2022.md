@@ -5,9 +5,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '1254'
+TQID: https://experienceleague.adobe.com/XeyIUqddLskoYUTD8zF1emb99O6HoL0gJrJlbX4V438
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1254
 ht-degree: 100%
 
 ---
@@ -29,7 +34,7 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Apach
 ### Correctifs{#rn-fixes}
 
 * Correction d’un problème lié aux rapports planifiés, qui étaient déclenchés une heure avant la planification. (CAMP-51502)
-* Correction d’un problème sur les indicateurs de diffusion dans le tableau de bord Diffusion qui ne correspondait pas aux logs d’envoi (nms:broadLogRcp).(CAMP-51127)
+* Correction d’un problème sur les indicateurs de diffusion dans le tableau de bord Diffusion qui ne correspondait pas aux logs d’envoi (nms:broadLogRcp). (CAMP-51127)
 * Correction d’un problème qui empêchait l’extension des ressources personnalisées avec le connecteur ACS (offre Prime). (CAMP-51033)
 * Amélioration du processus de publication des réponses aux demandes d’accès à des informations personnelles afin d’éviter tout retard. (CAMP-50613)
 
@@ -76,7 +81,7 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Apach
 <tbody> 
 <tr> 
 <td>
-<p>Apache Log4j a corrigé les vulnérabilités signalées dans Apache Log4j version 2.17.1.Adobe Campaign Standard utilise Apache Log4j et cette version comprend la version la plus récente dʼApache Log4j, la version 2.17.1. </p>
+<p>Apache Log4j a corrigé les vulnérabilités signalées dans Apache Log4j version 2.17.1. Adobe Campaign Standard utilise Apache Log4j et cette version comprend la version la plus récente dʼApache Log4j, la version 2.17.1. </p>
 </td> 
 </tr> 
 </tbody> 
@@ -99,7 +104,7 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Apach
 **Correctifs**
 
 * Correction d’un problème avec lʼoption **Envoyer le rapport maintenant** dans les rapports dynamiques : les traitements de génération de PDF échouaient avec les diffusions à plusieurs variantes. (CAMP-49120)
-* Correction d’un problème qui empêchait les utilisateurs et utilisatrices d’actualiser ou de dissocier le contenu Adobe Experience Manager (AEM) de leurs diffusions Adobe Campaign Standard lorsqu’un contenu dupliqué dans AEM partageait la même clé (cq:uuid).(CAMP-49161)
+* Correction d’un problème qui empêchait les utilisateurs et utilisatrices d’actualiser ou de dissocier le contenu Adobe Experience Manager (AEM) de leurs diffusions Adobe Campaign Standard lorsqu’un contenu dupliqué dans AEM partageait la même clé (cq:uuid). (CAMP-49161)
 * Correction dʼune erreur lors de lʼaccès à une instance où les pages ne se chargeaient pas, les diffusions ne pouvaient pas être ouvertes ou les modifications en attente ne pouvaient pas être enregistrées. (CAMP-50195)
 * Correction d’un problème en raison duquel les critères dʼalerte de diffusion ne pouvaient pas être ouverts si le champ **Filtre de diffusion** appliqué par ce critère n’était pas rempli. (CAMP-49093)
 * Correction d’un problème lors de la modification du bouton **Secondaire** dans les diffusions in-app qui empêchait la prise en compte des modifications. (CAMP-50250)

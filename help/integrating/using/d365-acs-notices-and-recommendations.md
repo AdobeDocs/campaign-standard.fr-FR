@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '2585'
+TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 2585
 ht-degree: 100%
 
 ---
@@ -28,7 +33,7 @@ L&#39;intégration peut être facultativement configurée pour émettre des appe
 
 Cette intégration est conçue pour transférer des données d&#39;utilisateur final entre Microsoft Dynamics 365 et Adobe Campaign Standard. Ces données comprennent des informations personnelles si elles sont contenues dans vos données d&#39;utilisateur final.  En tant qu’entité de contrôle de données, votre société est tenue de se conformer aux lois et règlements en matière de confidentialité applicables à votre collection et à votre utilisation des données personnelles.
 
-Cette intégration a pour but de transférer les données des utilisateurs et utilisatrices finaux (notamment les informations personnelles, lesquelles sont dans les données des utilisateurs et utilisatrices finaux) entre Microsoft Dynamics 365 et Adobe Campaign Standard.En tant qu’entité de contrôle de données, votre société est tenue de se conformer aux lois et règlements en matière de confidentialité applicables à votre collection et à votre utilisation des données personnelles.
+Cette intégration a pour but de transférer les données des utilisateurs et utilisatrices finaux (notamment les informations personnelles, lesquelles sont dans les données des utilisateurs et utilisatrices finaux) entre Microsoft Dynamics 365 et Adobe Campaign Standard. En tant qu’entité de contrôle de données, votre société est tenue de se conformer aux lois et règlements en matière de confidentialité applicables à votre collection et à votre utilisation des données personnelles.
 
 L’intégration n’émet pas de demandes de suppression relatives aux informations personnelles des titulaires de données (RGPD, par exemple) et ne traitent pas d’autres demandes d’accès à des informations personnelles (à l’exception du processus d’opt-out). Lorsque vous traitez des demandes d&#39;accès à des informations personnelles, vous devez le faire indépendamment dans Microsoft Dynamics 365 et Campaign (via Adobe Experience Platform Privacy Service).
 
@@ -127,7 +132,7 @@ Si vous vous trouvez dans les régions EMEA ou APAC, certaines de vos données s
 
 >[!IMPORTANT]
 >
->Certaines actions de votre part (par exemple, l’ingestion initiale des enregistrements, la relecture des données d’enregistrement, etc.)peuvent entraîner une charge volumineuse d’enregistrements ingérés à partir de Microsoft Dynamics 365 vers votre instance Adobe Campaign.Pour réduire le risque de problèmes de performances, il est recommandé d’arrêter tous les processus Campaign (par exemple, aucune activité marketing, aucune exécution de workflows, etc.)jusqu’à ce que la charge volumineuse d’enregistrements ait été ingérée dans Campaign.
+>Certaines actions de votre part (par exemple, l’ingestion initiale des enregistrements, la relecture des données d’enregistrement, etc.) peuvent entraîner une charge volumineuse d’enregistrements ingérés à partir de Microsoft Dynamics 365 vers votre instance Adobe Campaign. Pour réduire le risque de problèmes de performances, il est recommandé d’arrêter tous les processus Campaign (par exemple, aucune activité marketing, aucune exécution de workflows, etc.) jusqu’à ce que la charge volumineuse d’enregistrements ait été ingérée dans Campaign.
 
 ### Entités personnalisées
 

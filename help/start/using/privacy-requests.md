@@ -8,9 +8,15 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: ht
-source-wordcount: '1732'
+TQID: https://experienceleague.adobe.com/aLCKnFhj-MsnIUA0AQ-LcCAlcjqkCejKiosCGrtamJg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1732
 ht-degree: 100%
 
 ---
@@ -79,7 +85,7 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
    ![](assets/privacy-namespace-target-mapping.png)
 
-1. Choisissez la **[!UICONTROL Clé de réconciliation]**.Il s’agit du champ utilisé pour identifier le ou la titulaire de données dans la base de données Adobe Campaign.
+1. Choisissez la **[!UICONTROL Clé de réconciliation]**. Il s’agit du champ utilisé pour identifier le ou la titulaire de données dans la base de données Adobe Campaign.
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
@@ -123,7 +129,7 @@ Voici la liste des ressources d&#39;usine qui sont prises en compte lors de l&#3
 * Abonnements des profils (subscriptionRcp)
 * Visiteurs (visitor)
 
-Si vous avez créé des ressources personnalisées ayant un lien vers la ressource de profils (type propre), celles-ci sont également prises en compte.Par exemple, si une ressource de transaction est liée à la ressource de profils et si une ressource de détails de transaction est liée à la ressource de transaction, elles sont toutes deux prises en compte.
+Si vous avez créé des ressources personnalisées ayant un lien vers la ressource de profils (type propre), celles-ci sont également prises en compte. Par exemple, si une ressource de transaction est liée à la ressource de profils et si une ressource de détails de transaction est liée à la ressource de transaction, elles sont toutes deux prises en compte.
 
 Reportez-vous également à [ce tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=fr#privacy) sur la modification des ressources personnalisées.
 

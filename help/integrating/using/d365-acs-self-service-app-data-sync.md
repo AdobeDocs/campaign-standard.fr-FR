@@ -10,9 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '2021'
+TQID: https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 2021
 ht-degree: 100%
 
 ---
@@ -56,7 +61,7 @@ Voici une description de chacune des colonnes de la table :
 
      >[!IMPORTANT]
      >
-     > Il est vivement recommandé d’arrêter le workflow d’intégration lors de la publication de modifications dans Adobe Campaign Standard ou Microsoft Dynamics 365.Les modifications applicables comprennent des mises à jour de ressources/entités (et de leurs champs associés), de liens, de colonnes d’identifiant, etc., qui sont actuellement utilisés par l’intégration.
+     > Il est vivement recommandé d’arrêter le workflow d’intégration lors de la publication de modifications dans Adobe Campaign Standard ou Microsoft Dynamics 365. Les modifications applicables comprennent des mises à jour de ressources/entités (et de leurs champs associés), de liens, de colonnes d’identifiant, etc., qui sont actuellement utilisés par l’intégration.
      >
 
 ## Créer un mapping {#add-a-new-mapping}
@@ -174,7 +179,7 @@ Si le nom du champ, la comparaison et la valeur sont vrais pour un enregistremen
 
 Vous pouvez choisir comment ces filtres sont évalués en définissant l’entrée libellée **[!UICONTROL Sélectionner l’opérateur de comparaison de filtre]**.  Si vous choisissez **Et**, tous les filtres doivent être vrais pour qu’un enregistrement soit propagé vers Campaign. Si vous sélectionnez **Ou**, l’enregistrement est propagé si l’un d’eux est évalué comme vrai.
 
-L’option **[!UICONTROL Voulez-vous supprimer les enregistrements dans Adobe Campaign Standard qui seront filtrés à partir de Microsoft Dynamics 365 ?]** contrôle si vous souhaitez que les enregistrements qui ont été filtrés soient supprimés de Campaign.Si vous sélectionnez **Non**, les enregistrements resteront dans Adobe Campaign. Sélectionnez **Oui** pour qu’ils soient supprimés par la logique d’intégration.
+L’option **[!UICONTROL Voulez-vous supprimer les enregistrements dans Adobe Campaign Standard qui seront filtrés à partir de Microsoft Dynamics 365 ?]** contrôle si vous souhaitez que les enregistrements qui ont été filtrés soient supprimés de Campaign. Si vous sélectionnez **Non**, les enregistrements resteront dans Adobe Campaign. Sélectionnez **Oui** pour qu’ils soient supprimés par la logique d’intégration.
 
 >[!NOTE]
 >
@@ -185,9 +190,9 @@ L’option **[!UICONTROL Voulez-vous supprimer les enregistrements dans Adobe C
 
 Vous pouvez configurer les options supplémentaires suivantes lors de la configuration d’un mapping :
 
-* Définissez l’option **[!UICONTROL Appliquer les suppressions dans Microsoft Dynamics 365 vers Campaign ?]** sur **Oui**, si vous souhaitez propager les suppressions effectuées dans Microsoft Dynamics 365 vers le champ correspondant dans Adobe Campaign (en fonction du mapping du nom de champ).Sélectionnez **Non** pour ignorer les suppressions dans Microsoft Dynamics 365.
+* Définissez l’option **[!UICONTROL Appliquer les suppressions dans Microsoft Dynamics 365 vers Campaign ?]** sur **Oui**, si vous souhaitez propager les suppressions effectuées dans Microsoft Dynamics 365 vers le champ correspondant dans Adobe Campaign (en fonction du mapping du nom de champ). Sélectionnez **Non** pour ignorer les suppressions dans Microsoft Dynamics 365.
 
-* Définissez l’option **[!UICONTROL Utiliser les valeurs techniques dans les listes de sélection Microsoft Dynamics 365 ?]** sur **Non** si vous souhaitez propager vers Campaign la valeur d’affichage associée à une liste de sélections Microsoft Dynamics 365.Sélectionnez **Oui** pour propager la valeur technique.
+* Définissez l’option **[!UICONTROL Utiliser les valeurs techniques dans les listes de sélection Microsoft Dynamics 365 ?]** sur **Non** si vous souhaitez propager vers Campaign la valeur d’affichage associée à une liste de sélections Microsoft Dynamics 365. Sélectionnez **Oui** pour propager la valeur technique.
 
 ## Synchroniser les événements marketing Campaign vers Microsoft Dynamics 365
 

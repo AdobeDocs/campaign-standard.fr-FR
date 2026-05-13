@@ -9,9 +9,13 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '470'
+TQID: https://experienceleague.adobe.com/uSoAvkY4kGrVnzSmHbgj1gd4YKPFFzSBC-4maW-9VEw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 470
 ht-degree: 100%
 
 ---
@@ -65,6 +69,6 @@ Une fois qu&#39;un service a été créé, vous pouvez commencer à le promouvoi
 
 Cette vidéo montre comment créer un service et gérer ses abonnements.
 
->[!VIDEO](https://video.tv.adobe.com/v/30956?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

@@ -10,9 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '496'
+TQID: https://experienceleague.adobe.com/In2Pa0ur5bnsNUXl2Z0x4hVARQRy2FV2RmvpPnm5XGw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 496
 ht-degree: 100%
 
 ---
@@ -29,7 +34,7 @@ Pour cet exemple, des [ressources personnalisées](../../developing/using/data-m
 
 L’objectif est d’envoyer un email aux profils pour lesquels au moins une transaction a été enregistrée. Via cet email, les clients recevront un rappel de la dernière transaction qu’ils ont effectuée ainsi que diverses informations récapitulatives sur l’ensemble de leurs transactions : nombre de produits achetés, total dépensé, rappel du nombre de points fidélité acquis.
 
-Le workflow de se présente comme suit :
+Le workflow se présente comme suit :
 
 ![](assets/enrichment_example1.png)
 

@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '866'
+TQID: https://experienceleague.adobe.com/sMZXN72QxsfToyw4zzhtbET6DvR9W9iXy2rTy-tCH5Y
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 866
 ht-degree: 100%
 
 ---
@@ -28,7 +33,7 @@ L&#39;import des audiences/segments depuis People core service dans Adobe Campa
 1. Depuis la barre d&#39;actions, sélectionnez **[!UICONTROL Créer]** pour accéder à l&#39;écran de création d&#39;une audience.
 1. Indiquez le libellé de la nouvelle audience.
 1. Paramétrez le **[!UICONTROL Type]** de l&#39;audience sur **[!UICONTROL Experience Cloud]** afin d&#39;indiquer que l&#39;audience en cours de création est une audience importée depuis People core service.
-1. Depuis le champ **[!UICONTROL Nom de l&#39;audience partagée]**, sélectionnez l&#39;audience à importer. Seuls les segments peuvent être importés.Les données granulaires, notamment les paires clé-valeur, les caractéristiques et les règles, ne sont pas prises en charge.
+1. Depuis le champ **[!UICONTROL Nom de l&#39;audience partagée]**, sélectionnez l&#39;audience à importer. Seuls les segments peuvent être importés. Les données granulaires, notamment les paires clé-valeur, les caractéristiques et les règles, ne sont pas prises en charge.
 
    ![](assets/aam_import_audience.png)
 
@@ -42,7 +47,7 @@ L&#39;import des audiences/segments depuis People core service dans Adobe Campa
 
    L&#39;audience est ensuite importée à l&#39;aide d&#39;un workflow technique. Elle est composée des enregistrements dont l&#39;identifiant (Visitor ID ou Declared ID) a pu être réconcilié avec la dimension des profils. Les identifiants provenant des segments de People Core Service non reconnus par Adobe Campaign ne sont pas importés.
 
-Votre audience est maintenant importée dans votre base de données Adobe Campaign. Le processus d’import met entre 24 et 36 heures pour se synchroniser lorsque les segments sont importés directement à partir de People Core Service ou d’Audience Manager.Au terme de cette période, vous pourrez trouver et utiliser votre nouvelle audience dans Adobe Campaign.
+Votre audience est maintenant importée dans votre base de données Adobe Campaign. Le processus d’import met entre 24 et 36 heures pour se synchroniser lorsque les segments sont importés directement à partir de People Core Service ou d’Audience Manager. Au terme de cette période, vous pourrez trouver et utiliser votre nouvelle audience dans Adobe Campaign.
 
 >[!NOTE]
 >
@@ -76,7 +81,7 @@ Il peut être réalisé dans un nouveau workflow par les utilisateurs connectés
 1. Validez la configuration de l&#39;activité et enregistrez votre workflow.
 1. Démarrez votre workflow pour exporter votre audience. La synchronisation entre Adobe Campaign et People core service peut prendre plusieurs heures.
 
-La synchronisation entre Adobe Campaign et People Core Service peut prendre entre 24 et 36 heures.Au terme de cette période, vous pouvez accéder à votre nouvelle audience dans People Core Service et la réutiliser dans d’autres solutions Adobe Experience Cloud.Pour plus d&#39;informations sur l&#39;utilisation d&#39;une audience partagée Adobe Campaign dans Adobe People core service, consultez cette [documentation](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=fr).
+La synchronisation entre Adobe Campaign et People Core Service peut prendre entre 24 et 36 heures. Au terme de cette période, vous pouvez accéder à votre nouvelle audience dans People Core Service et la réutiliser dans d’autres solutions Adobe Experience Cloud. Pour plus d&#39;informations sur l&#39;utilisation d&#39;une audience partagée Adobe Campaign dans Adobe People core service, consultez cette [documentation](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=fr).
 
 **Rubriques connexes :**
 

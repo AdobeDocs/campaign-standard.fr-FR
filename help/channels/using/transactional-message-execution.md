@@ -9,9 +9,13 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '761'
+TQID: https://experienceleague.adobe.com/D4-ExbGPm1p4iWBL1msW5P3-K2xeE6Gg6byZDl6WqPI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 761
 ht-degree: 100%
 
 ---
@@ -47,7 +51,7 @@ Lorsqu’un événement est déclenché, il est affecté à une diffusion d’ex
 >
 >Un événement reporté n’apparaît pas dans les logs d’envoi de messages transactionnels, car il n’est pas encore assigné à une diffusion d’exécution.
 
-Par exemple, l’événement ne pouvait pas être assigné à une diffusion d’exécution en raison d’un contenu incorrect, d’un problème de droits d’accès ou de branding, d’une erreur détectée lors de l’application des règles de typologie, etc. Dans ce cas, vous pouvez mettre le message en pause, le modifier pour corriger le problème, puis le publier à nouveau.Le système de reprise l’assignera ensuite à une nouvelle diffusion d’exécution.
+Par exemple, l’événement ne pouvait pas être assigné à une diffusion d’exécution en raison d’un contenu incorrect, d’un problème de droits d’accès ou de branding, d’une erreur détectée lors de l’application des règles de typologie, etc. Dans ce cas, vous pouvez mettre le message en pause, le modifier pour corriger le problème, puis le publier à nouveau. Le système de reprise l’assignera ensuite à une nouvelle diffusion d’exécution.
 
 ### Processus de reprise de l’envoi d’un message {#message-sending-retry-process}
 

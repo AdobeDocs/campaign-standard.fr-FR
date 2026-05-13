@@ -9,9 +9,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '454'
+TQID: https://experienceleague.adobe.com/PPDlvoeHKNpeLfYe4qYFq7mzQUb3oR7XkrMK-jQFpmY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 454
 ht-degree: 100%
 
 ---
@@ -37,7 +43,7 @@ La section **[!UICONTROL Ciblage]** fournit les activités suivantes :
 * [Déduplication](../../automating/using/deduplication.md)
 * [Enrichissement](../../automating/using/enrichment.md)
 
-Les activités **[!UICONTROL Ciblage]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l’efficacité des campagnes marketing. Pour plus d’informations, consultez [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
+Les activités **[!UICONTROL Ciblage]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l’efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 ## Sélectionner les données {#selecting-data}
 
@@ -49,7 +55,7 @@ Vous pouvez sélectionner les données à l&#39;aide des activités suivantes :
 
 ## Segmentation des données {#segmenting-data}
 
-Adobe Campaign permet de traiter des ensembles de données entrantes.Il est ainsi possible de regrouper plusieurs populations, d’en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles.
+Adobe Campaign permet de traiter des ensembles de données entrantes. Il est ainsi possible de regrouper plusieurs populations, d’en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles.
 
 * L&#39;activité **[!UICONTROL Union]** permet de regrouper le résultat de plusieurs activités dans une même cible. Pour plus d&#39;informations, consultez la section [Union](../../automating/using/union.md).
 * L&#39;activité **[!UICONTROL Intersection]** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l&#39;activité. Pour plus d&#39;informations, consultez la section [Intersection](../../automating/using/intersection.md).

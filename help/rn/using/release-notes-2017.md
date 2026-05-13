@@ -5,9 +5,16 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
-source-wordcount: '4688'
+TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 4688
 ht-degree: 100%
 
 ---
@@ -22,17 +29,17 @@ ht-degree: 100%
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th>Description<br /></th> 
+   <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Gestion de la fatigue<br /></td> 
-   <td>La gestion de la fatigue permet de créer des règles de fatigue pour gérer la sur-sollicitation des profils en matière de communications.Bien que les règles de fatigue soient faciles à créer, elles sont extrêmement flexibles, avec des fonctionnalités telles que le comptage des messages sur plusieurs canaux (y compris les messages transactionnels), le comptage de diffusions spécifiques uniquement ou l’application de règles à des profils spécifiques.<br />Pour plus d’informations, consultez la <a href="../../sending/using/fatigue-rules.md">documentation détaillée</a>.<br /></td> 
+   <td> Gestion de la fatigue<br /> </td> 
+   <td> La gestion de la fatigue permet de créer des règles de fatigue pour gérer la sur-sollicitation des profils en matière de communications. Bien que les règles de fatigue soient faciles à créer, elles sont extrêmement flexibles, avec des fonctionnalités telles que le comptage des messages sur plusieurs canaux (y compris les messages transactionnels), le comptage de diffusions spécifiques uniquement ou l’application de règles à des profils spécifiques.<br /> Pour plus d’informations, consultez la <a href="../../sending/using/fatigue-rules.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Création de contenu : import depuis une URL<br /></td> 
-   <td> L’import depuis une URL permet de récupérer rapidement votre contenu créatif à partir d’un site web afin de créer des emails pour n’importe quelle diffusion. Vous pouvez en outre rationaliser votre processus de création en permettant à des tiers de partager du contenu directement via une URL. Le contenu importé peut être utilisé de manière flexible dans le cadre d’une diffusion unique ou au niveau des modèles, ce qui garantit la cohérence de la marque pour toutes les campagnes associées, qu’il s’agisse de messages basés sur un workflow ou transactionnels, et comprenant des tests A/B ou multivariés. L’import depuis une URL convertit et effectue automatiquement le tracking de tous les liens afin de surveiller les performances des e-mails via les rapports dynamiques.<br />Pour plus d’informations, consultez la <a href="../../designing/using/using-existing-content.md">documentation détaillée</a>.<br /> </td> 
+   <td> Création de contenu : import depuis une URL<br /> </td> 
+   <td> L’import depuis une URL permet de récupérer rapidement votre contenu créatif à partir d’un site web afin de créer des emails pour n’importe quelle diffusion. Vous pouvez en outre rationaliser votre processus de création en permettant à des tiers de partager du contenu directement via une URL. Le contenu importé peut être utilisé de manière flexible dans le cadre d’une diffusion unique ou au niveau des modèles, ce qui garantit la cohérence de la marque pour toutes les campagnes associées, qu’il s’agisse de messages basés sur un workflow ou transactionnels, et comprenant des tests A/B ou multivariés. L’import depuis une URL convertit et effectue automatiquement le tracking de tous les liens afin de surveiller les performances des e-mails via les rapports dynamiques.<br /> Pour plus d’informations, consultez la <a href="../../designing/using/using-existing-content.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,7 +50,7 @@ _Plateforme_
 
 * Correction d’une erreur qui empêchait la décompression correcte des fichiers compressés volumineux.
 * La sécurité a été renforcée dans la gestion des marques. La modification du nom d’une marque et de l’adresse de l’expéditeur est maintenant réservée aux administrateurs techniques Adobe.
-* Pour renforcer la sécurité, le contenu généré par l’utilisateur ou l’utilisatrice (images, pages miroir, pages de destination, etc.)ne peut plus être pris en charge par le domaine adobe.com.Vous devez maintenant utiliser obligatoirement votre propre domaine pour gérer ces ressources via l’utilisation des marques.
+* Pour renforcer la sécurité, le contenu généré par l’utilisateur ou l’utilisatrice (images, pages miroir, pages de destination, etc.) ne peut plus être pris en charge par le domaine adobe.com. Vous devez maintenant utiliser obligatoirement votre propre domaine pour gérer ces ressources via l’utilisation des marques.
 * Correction d’une erreur d’interface lors de l’affichage et du filtrage des activités marketing.
 * Correction d’une erreur qui empêchait la mise à jour des champs de date d’abonnement avec un appel d’API REST POST.
 
@@ -101,21 +108,21 @@ _Ressources personnalisées_
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th>Description<br /></th> 
+   <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Bibliothèque de modèles d’e-mail<br /></td> 
-   <td> Cette version propose dix-huit nouveaux modèles réactifs, proposés dans deux thèmes attrayants : Astro et Feather. Ces modèles personnalisables, indépendants du secteur, peuvent être utilisés immédiatement.Ils comprennent du contenu pour diverses utilisations afin que vos campagnes marketing par e-mail soient conçues de façon attrayante et diffusées plus rapidement et plus efficacement que jamais.<br />Pour plus d’informations, consultez la <a href="../../designing/using/using-reusable-content.md#content-templates">documentation détaillée</a>.<br /></td> 
+   <td> Bibliothèque de modèles d’e-mail<br /> </td> 
+   <td> Cette version propose dix-huit nouveaux modèles réactifs, proposés dans deux thèmes attrayants : Astro et Feather. Ces modèles personnalisables, indépendants du secteur, peuvent être utilisés immédiatement. Ils comprennent du contenu pour diverses utilisations afin que vos campagnes marketing par e-mail soient conçues de façon attrayante et diffusées plus rapidement et plus efficacement que jamais.<br /> Pour plus d’informations, consultez la <a href="../../designing/using/using-reusable-content.md#content-templates">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Rapports dynamiques avec les données de profil<br /></td> 
-   <td> Le reporting dynamique offre des rapports métier en temps réel entièrement personnalisables. Dans cette version, une amélioration apportée aux rapports dynamiques offre un accès aux données de profil, ce qui permet d’effectuer des analyses démographiques par dimension de profil (genre, ville, code postal et âge) en plus des données fonctionnelles des campagnes par e-mail comme les ouvertures et les clics.Avec la même interface intuitive de type glisser-déposer, il n’a jamais été aussi simple de déterminer les performances de votre campagne par e-mail pour les segments clientèle les plus importants.<br />Pour plus d’informations, consultez la <a href="../../reporting/using/about-dynamic-reports.md">documentation détaillée</a>.<br /> </td> 
+   <td> Rapports dynamiques avec les données de profil<br /> </td> 
+   <td> Le reporting dynamique offre des rapports métier en temps réel entièrement personnalisables. Dans cette version, une amélioration apportée aux rapports dynamiques offre un accès aux données de profil, ce qui permet d’effectuer des analyses démographiques par dimension de profil (genre, ville, code postal et âge) en plus des données fonctionnelles des campagnes par e-mail comme les ouvertures et les clics. Avec la même interface intuitive de type glisser-déposer, il n’a jamais été aussi simple de déterminer les performances de votre campagne par e-mail pour les segments clientèle les plus importants.<br /> Pour plus d’informations, consultez la <a href="../../reporting/using/about-dynamic-reports.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Inscription en masse avec l’origine et la date<br /></td> 
-   <td>Grâce à l’amélioration apportée à l’inscription en masse, vous pouvez désormais stocker les informations d’inscription (origine et date) directement dans la base de données d’Adobe Campaign Standard par le biais de l’activité Services d’inscription d’un workflow.<br />Pour plus d’informations, consultez la <a href="../../automating/using/subscription-services.md">documentation détaillée</a>.<br /> </td> 
+   <td> Inscription en masse avec l’origine et la date<br /> </td> 
+   <td> Grâce à l’amélioration apportée à l’inscription en masse, vous pouvez désormais stocker les informations d’inscription (origine et date) directement dans la base de données d’Adobe Campaign Standard par le biais de l’activité Services d’inscription d’un workflow.<br /> Pour plus d’informations, consultez la <a href="../../automating/using/subscription-services.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -173,33 +180,33 @@ _Profils et audiences_
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th>Description<br /></th> 
+   <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Diffusions e-mail et SMS multilingues<br /></td> 
-   <td>Définissez et exécutez des diffusions e-mail et SMS en une seule vague à partir des préférences linguistiques de vos clientes et clients segmentés automatiquement.Créez des rapports sur les performances de chaque diffusion en affinant par langue et par niveau individuel.<br />De plus en plus d’entreprises doivent relever le défi que constitue la diffusion de contenu dans plusieurs langues à mesure qu’elles se développent au niveau local et international.Ainsi, la rationalisation de la diffusion de messages traduits est au cœur d’une stratégie de communication clientèle efficace pour les entreprises multinationales, les entreprises implantées dans des pays multilingues et les entreprises qui souhaitent personnaliser davantage leur contenu au niveau linguistique, quel que soit le lieu d’implantation de leurs clientes et clients.Pour plus d’informations, consultez la <a href="../../channels/using/creating-a-multilingual-email.md">documentation détaillée</a>.<br /> </td> 
+   <td> Diffusions e-mail et SMS multilingues<br /> </td> 
+   <td> Définissez et exécutez des diffusions e-mail et SMS en une seule vague à partir des préférences linguistiques de vos clientes et clients segmentés automatiquement. Créez des rapports sur les performances de chaque diffusion en affinant par langue et par niveau individuel.<br /> De plus en plus d’entreprises doivent relever le défi que constitue la diffusion de contenu dans plusieurs langues à mesure qu’elles se développent au niveau local et international. Ainsi, la rationalisation de la diffusion de messages traduits est au cœur d’une stratégie de communication clientèle efficace pour les entreprises multinationales, les entreprises implantées dans des pays multilingues et les entreprises qui souhaitent personnaliser davantage leur contenu au niveau linguistique, quel que soit le lieu d’implantation de leurs clientes et clients. Pour plus d’informations, consultez la <a href="../../channels/using/creating-a-multilingual-email.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Notifications Adobe Campaign<br /></td> 
-   <td>Recevez des notifications sur les activités système importantes directement dans Adobe Campaign Standard.Par exemple, vous recevrez une notification de l’avancement de vos diffusions en cours ou des erreurs au sein d’un workflow.<br />Les notifications en temps réel maintiennent les parties concernées informées et permettent d’agir immédiatement et directement dans l’application en fonction des notifications d’activité.Pour les équipes, il en résulte une meilleure agilité, une plus grande efficacité et une exécution des campagnes sans accrocs. Pour plus d’informations, consultez la <a href="../../administration/using/sending-internal-notifications.md">documentation détaillée</a>.<br /> </td> 
+   <td> Notifications Adobe Campaign<br /> </td> 
+   <td> Recevez des notifications sur les activités système importantes directement dans Adobe Campaign Standard. Par exemple, vous recevrez une notification de l’avancement de vos diffusions en cours ou des erreurs au sein d’un workflow.<br /> Les notifications en temps réel maintiennent les parties concernées informées et permettent d’agir immédiatement et directement dans l’application en fonction des notifications d’activité. Pour les équipes, il en résulte une meilleure agilité, une plus grande efficacité et une exécution des campagnes sans accrocs. Pour plus d’informations, consultez la <a href="../../administration/using/sending-internal-notifications.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Alertes de diffusion<br /></td> 
-   <td>En plus de visualiser les notifications directement dans Adobe Campaign Standard, Adobe Campaign propose également un système d’alerte par e-mail, qui déclenche l’envoi d’alertes par e-mail aux utilisateurs et utilisatrices ou aux membres externes afin de les informer d’activités système importantes.Créez, gérez et recevez des alertes et des tableaux de bord personnalisables pour suivre les performances des diffusions.<br />Les alertes de diffusion d’Adobe Campaign accroissent l’efficacité en maintenant automatiquement informés tous les utilisateurs et utilisatrices actifs d’Adobe Campaign en ce qui concerne le statut d’exécution des diffusions, par e-mail ou par le biais d’un tableau de bord.Pour plus d’informations, consultez la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentation détaillée</a>.<br /></td> 
+   <td> Alertes de diffusion<br /> </td> 
+   <td> En plus de visualiser les notifications directement dans Adobe Campaign Standard, Adobe Campaign propose également un système d’alerte par e-mail, qui déclenche l’envoi d’alertes par e-mail aux utilisateurs et utilisatrices ou aux membres externes afin de les informer d’activités système importantes. Créez, gérez et recevez des alertes et des tableaux de bord personnalisables pour suivre les performances des diffusions.<br /> Les alertes de diffusion d’Adobe Campaign accroissent l’efficacité en maintenant automatiquement informés tous les utilisateurs et utilisatrices actifs d’Adobe Campaign en ce qui concerne le statut d’exécution des diffusions, par e-mail ou par le biais d’un tableau de bord. Pour plus d’informations, consultez la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Identifiant déclaré chiffré dans les sources de données<br /></td> 
-   <td>Envoyez des déclencheurs E-mail et SMS sans avoir besoin d’un profil existant dans Campaign à l’aide d’informations de contact chiffrées (adresse e-mail ou numéro de téléphone) sous forme d’identifiant déclaré.Dans la mesure où les identifiants déclarés chiffrés peuvent être décodés par Adobe Campaign Standard, Campaign peut désormais créer des profils marketing lors de la réception d’audiences d’autres solutions Experience Cloud contenant des contacts jusqu’alors inconnus.<br />Ciblez votre clientèle et des prospects inconnus en temps réel par e-mail et SMS pour à la fois accroître la fidélité de votre clientèle actuelle et acquérir une nouvelle clientèle.Tirez pleinement parti des données des cookies propriétaires (depuis Adobe Audience Manager*) une fois les prospects authentifiés et exploitez ces informations dans Adobe Campaign. <br /> * Adobe Audience Manager est requis.Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /></td> 
+   <td> Identifiant déclaré chiffré dans les sources de données<br /> </td> 
+   <td> Envoyez des déclencheurs E-mail et SMS sans avoir besoin d’un profil existant dans Campaign à l’aide d’informations de contact chiffrées (adresse e-mail ou numéro de téléphone) sous forme d’identifiant déclaré. Dans la mesure où les identifiants déclarés chiffrés peuvent être décodés par Adobe Campaign Standard, Campaign peut désormais créer des profils marketing lors de la réception d’audiences d’autres solutions Experience Cloud contenant des contacts jusqu’alors inconnus.<br /> Ciblez votre clientèle et des prospects inconnus en temps réel par e-mail et SMS pour à la fois accroître la fidélité de votre clientèle actuelle et acquérir une nouvelle clientèle. Tirez pleinement parti des données des cookies propriétaires (depuis Adobe Audience Manager*) une fois les prospects authentifiés et exploitez ces informations dans Adobe Campaign. <br /> * Adobe Audience Manager est requis. Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Partage des KPI de Campaign vers Analytics<br /></td> 
-   <td>Partagez des données sur les campagnes avec Adobe Analytics afin de comparer les mesures de marketing par e-mail issues de Campaign à d’autres efforts de marketing et de publicité en analysant le comportement de conversion avant et après clic.<br />Effectuez directement le suivi des performances générales et découvrez des synergies avec des programmes externes dans Analytics.Appliquez les conclusions tirées de cette vue consolidée à vos campagnes ; améliorez ainsi les taux de conversion, de clics publicitaires et d’ouvertures et optimisez votre chiffre d’affaires et les performances globales de la campagne.<br />Adobe Analytics est requis.Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-analytics-integration.md">documentation détaillée</a>.<br /></td> 
+   <td> Partage des KPI de Campaign vers Analytics<br /> </td> 
+   <td> Partagez des données sur les campagnes avec Adobe Analytics afin de comparer les mesures de marketing par e-mail issues de Campaign à d’autres efforts de marketing et de publicité en analysant le comportement de conversion avant et après clic.<br /> Effectuez directement le suivi des performances générales et découvrez des synergies avec des programmes externes dans Analytics. Appliquez les conclusions tirées de cette vue consolidée à vos campagnes ; améliorez ainsi les taux de conversion, de clics publicitaires et d’ouvertures et optimisez votre chiffre d’affaires et les performances globales de la campagne.<br /> Adobe Analytics est requis. Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-analytics-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Canal Courrier - Retour à l’expéditeur ou à l’expéditrice<br /></td> 
-   <td>Les échanges de fichiers plats avec les fournisseurs de courrier intégrant les informations de retour à l’expéditeur ou à l’expéditrice sont désormais pris en charge.Cette amélioration du canal Courrier permet d’exclure les adresses postales correspondantes des communications futures.<br />Les spécialistes du marketing savent ainsi si une adresse est incorrecte, peuvent interagir avec la clientèle à travers d’autres canaux ou l’inciter à mettre à jour son adresse postale.Comme plus aucun courrier n’est envoyé à des adresses incorrectes, les dépenses marketing inutiles sont également réduites.<br />Le canal Courrier est disponible en tant que canal additionnel.Pour plus d’informations, consultez la <a href="../../channels/using/return-to-sender.md">documentation détaillée</a>.<br /> </td> 
+   <td> Canal Courrier - Retour à l’expéditeur ou à l’expéditrice<br /> </td> 
+   <td> Les échanges de fichiers plats avec les fournisseurs de courrier intégrant les informations de retour à l’expéditeur ou à l’expéditrice sont désormais pris en charge. Cette amélioration du canal Courrier permet d’exclure les adresses postales correspondantes des communications futures.<br /> Les spécialistes du marketing savent ainsi si une adresse est incorrecte, peuvent interagir avec la clientèle à travers d’autres canaux ou l’inciter à mettre à jour son adresse postale. Comme plus aucun courrier n’est envoyé à des adresses incorrectes, les dépenses marketing inutiles sont également réduites.<br /> Le canal Courrier est disponible en tant que canal additionnel. Pour plus d’informations, consultez la <a href="../../channels/using/return-to-sender.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -249,17 +256,17 @@ _Workflows_
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th>Description<br /></th> 
+   <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Canal Courrier<br /></td> 
-   <td> Reconnectez avec les fondamentaux de la communication grâce au premier canal off-line d’Adobe Campaign Standard : le courrier. Le canal Courrier vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux dans le cadre de vos campagnes cross-canal.Utilisez le canal Courrier pour relancer votre clientèle et lui proposer une expérience unique qui la conduira vers votre application, site web ou magasin.<br />Pour plus d’informations, consultez la <a href="../../channels/using/about-direct-mail.md">documentation détaillée</a>.<br /> </td> 
+   <td> Canal Courrier<br /> </td> 
+   <td> Reconnectez avec les fondamentaux de la communication grâce au premier canal off-line d’Adobe Campaign Standard : le courrier. Le canal Courrier vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux dans le cadre de vos campagnes cross-canal. Utilisez le canal Courrier pour relancer votre clientèle et lui proposer une expérience unique qui la conduira vers votre application, site web ou magasin.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/about-direct-mail.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>E-mail Cci<br /></td> 
-   <td> E-mail Cci donne la possibilité de conserver les e-mails spécifiques envoyés à chaque destinataire, permettant ainsi à la marque de les archiver. En ajoutant une adresse e-mail en « copie cachée » (Cci) à tous les e-mails, les clientes et clients Adobe Campaign Standard peuvent conserver une copie exacte de chaque email.Il s’agit d’une obligation juridique courante dans le secteur financier. De plus, cette fonctionnalité se révèle utile pour aider les centres de service clientèle lors de la résolution de conflits en temps réel.<br />Pour plus d’informations, consultez la <a href="../../sending/using/archiving.md">documentation détaillée</a>.<br /> </td> 
+   <td> E-mail Cci<br /> </td> 
+   <td> E-mail Cci donne la possibilité de conserver les e-mails spécifiques envoyés à chaque destinataire, permettant ainsi à la marque de les archiver. En ajoutant une adresse e-mail en « copie cachée » (Cci) à tous les e-mails, les clientes et clients Adobe Campaign Standard peuvent conserver une copie exacte de chaque email. Il s’agit d’une obligation juridique courante dans le secteur financier. De plus, cette fonctionnalité se révèle utile pour aider les centres de service clientèle lors de la résolution de conflits en temps réel.<br /> Pour plus d’informations, consultez la <a href="../../sending/using/archiving.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -296,29 +303,29 @@ _Notifications push_
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th>Description<br /></th> 
+   <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Des capacités d’édition d’images enrichies grâce au Creative SDK<br /></td> 
-   <td>Grâce au Creative SDK, vous avez désormais accès à un ensemble complet de fonctionnalités afin d’améliorer vos images directement dans l’éditeur de contenu lors de l’édition des e-mails ou des pages de destination.<br />Cette fonctionnalité ne nécessite pas l’achat de solutions Creative Cloud supplémentaires.<br />Pour plus d’informations, consultez la <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentation détaillée</a>.<br /></td> 
+   <td> Des capacités d’édition d’images enrichies grâce au Creative SDK<br /> </td> 
+   <td> Grâce au Creative SDK, vous avez désormais accès à un ensemble complet de fonctionnalités afin d’améliorer vos images directement dans l’éditeur de contenu lors de l’édition des e-mails ou des pages de destination.<br /> Cette fonctionnalité ne nécessite pas l’achat de solutions Creative Cloud supplémentaires.<br /> Pour plus d’informations, consultez la <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Notifications push transactionnelles<br /></td> 
-   <td>Le canal des applications mobiles a été ajouté aux fonctionnalités des messages transactionnels d’Adobe Campaign.Trois canaux sont désormais pris en charge pour les messages transactionnels : e-mail, SMS et notifications push.<br />Pour plus d’informations, consultez la <a href="../../channels/using/transactional-push-notifications.md">documentation détaillée</a>.<br /></td> 
+   <td> Notifications push transactionnelles<br /> </td> 
+   <td> Le canal des applications mobiles a été ajouté aux fonctionnalités des messages transactionnels d’Adobe Campaign. Trois canaux sont désormais pris en charge pour les messages transactionnels : e-mail, SMS et notifications push.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/transactional-push-notifications.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Notifications push récurrentes<br /></td> 
-   <td>Vous pouvez désormais configurer des notifications push récurrentes dans un workflow.Vous pouvez les utiliser dans les cas où les utilisateurs et utilisatrices s’attendent à recevoir des mises à jour récurrentes, comme des rappels hebdomadaires, pour découvrir des nouveaux contenus ou des promotions.<br />Pour plus d’informations, consultez la <a href="../../automating/using/push-notification-delivery.md">documentation détaillée</a>.<br /></td> 
+   <td> Notifications push récurrentes<br /> </td> 
+   <td> Vous pouvez désormais configurer des notifications push récurrentes dans un workflow. Vous pouvez les utiliser dans les cas où les utilisateurs et utilisatrices s’attendent à recevoir des mises à jour récurrentes, comme des rappels hebdomadaires, pour découvrir des nouveaux contenus ou des promotions.<br /> Pour plus d’informations, consultez la <a href="../../automating/using/push-notification-delivery.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Connecteur Amazon Simple Storage Service (S3)<br /></td> 
-   <td>Le connecteur Amazon Simple Storage Service (S3) peut désormais être utilisé pour importer ou exporter des données depuis ou vers Adobe Campaign.Il peut être configuré dans une activité de workflow.La configuration s’effectue dans un compte externe.<br />Pour plus d’informations, consultez la <a href="../../administration/using/external-accounts.md">documentation détaillée</a>.<br /></td> 
+   <td> Connecteur Amazon Simple Storage Service (S3)<br /> </td> 
+   <td> Le connecteur Amazon Simple Storage Service (S3) peut désormais être utilisé pour importer ou exporter des données depuis ou vers Adobe Campaign. Il peut être configuré dans une activité de workflow. La configuration s’effectue dans un compte externe.<br /> Pour plus d’informations, consultez la <a href="../../administration/using/external-accounts.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver en ligne<br /> </td> 
-   <td> L’intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne désormais avec la dernière version officielle de Dreamweaver (17.0.2).<br />Cela nécessite l’installation de l’extension d’intégration Adobe Campaign.Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
+   <td> L’intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne désormais avec la dernière version officielle de Dreamweaver (17.0.2).<br /> Cela nécessite l’installation de l’extension d’intégration Adobe Campaign. Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -381,56 +388,56 @@ _Notifications push_
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th>Description<br /></th> 
+   <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Rapports dynamiques<br /></td> 
-   <td> Le reporting dynamique offre une nouvelle génération de rapports en temps réel, orientés métier et entièrement personnalisables. Cette fonctionnalité, qui se base sur des tableaux croisés dynamiques visuels et sur des graphiques, vous permet de positionner des variables et des dimensions afin d’analyser l’efficacité de vos campagnes marketing.Les rapports dynamiques vous permettent également de créer vos propres rapports de gestion et de les sauvegarder pour une utilisation ultérieure.<br />Pour plus d’informations, consultez la <a href="../../reporting/using/about-dynamic-reports.md">documentation détaillée</a>.<br /></td> 
+   <td> Rapports dynamiques<br /> </td> 
+   <td> Le reporting dynamique offre une nouvelle génération de rapports en temps réel, orientés métier et entièrement personnalisables. Cette fonctionnalité, qui se base sur des tableaux croisés dynamiques visuels et sur des graphiques, vous permet de positionner des variables et des dimensions afin d’analyser l’efficacité de vos campagnes marketing. Les rapports dynamiques vous permettent également de créer vos propres rapports de gestion et de les sauvegarder pour une utilisation ultérieure.<br /> Pour plus d’informations, consultez la <a href="../../reporting/using/about-dynamic-reports.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td>Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes par e-mail avec des solutions Adobe.<br />Vous pouvez modifier les e-mails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br />Pour la version initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta.Si vous souhaitez l’activer, contactez AC-DW-integration@adobe.com.<br />Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /></td> 
+   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes par e-mail avec des solutions Adobe.<br /> Vous pouvez modifier les e-mails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la version initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Si vous souhaitez l’activer, contactez AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Optimisation manuelle de l’heure d’envoi<br /></td> 
-   <td>Vous pouvez à présent définir manuellement une heure d’envoi personnalisée par destinataire, au niveau de la diffusion ou via un workflow.<br />Deux nouvelles options sont disponibles : <br />
+   <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
+   <td> Vous pouvez à présent définir manuellement une heure d’envoi personnalisée par destinataire, au niveau de la diffusion ou via un workflow.<br /> Deux nouvelles options sont disponibles : <br /> 
     <ul> 
-     <li>Toutes les personnes destinataires reçoivent le message avec la prise en compte de leur fuseau horaire.</li> 
-     <li>Chaque destinataire reçoit le message à une date et une heure calculées selon une formule.</li> 
-    </ul>Pour plus d’informations, consultez la <a href="../../sending/using/optimizing-the-sending-time.md">documentation détaillée</a>.<br /></td> 
+     <li> Toutes les personnes destinataires reçoivent le message avec la prise en compte de leur fuseau horaire. </li> 
+     <li> Chaque destinataire reçoit le message à une date et une heure calculées selon une formule. </li> 
+    </ul> Pour plus d’informations, consultez la <a href="../../sending/using/optimizing-the-sending-time.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Nouvelles fonctionnalités des notifications push<br /></td> 
-   <td>Le canal des notifications push a été enrichi de plusieurs nouvelles fonctionnalités :<br />
+   <td> Nouvelles fonctionnalités des notifications push<br /> </td> 
+   <td> Le canal des notifications push a été enrichi de plusieurs nouvelles fonctionnalités :<br /> 
     <ul> 
-     <li>Nouvelle interface de création</li> 
-     <li>Notifications silencieuses</li> 
-     <li>Notification push interactive</li> 
-     <li>Prise en charge de contenus riches</li> 
-     <li>Calcul de la taille de la payload</li> 
-    </ul>Pour plus d’informations, consultez la <a href="../../channels/using/about-push-notifications.md">documentation détaillée</a>.<br /></td> 
+     <li> Nouvelle interface de création </li> 
+     <li> Notifications silencieuses </li> 
+     <li> Notification push interactive </li> 
+     <li> Prise en charge de contenus riches </li> 
+     <li> Calcul de la taille de la payload </li> 
+    </ul> Pour plus d’informations, consultez la <a href="../../channels/using/about-push-notifications.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Workflows : nouvelle activité Signal<br /></td> 
-   <td>Déclenchez un workflow à partir d’un autre workflow grâce à la nouvelle activité <span class="uicontrol">Signal</span>.<br />La possibilité de démarrer un workflow à partir d’un autre vous permet désormais de prendre en charge des parcours clientèle plus complexes.Vous pouvez mieux suivre les parcours clientèle et intervenir en cas de problèmes.<br />Plusieurs activités de workflow ont été mises à jour :<br />
+   <td> Workflows : nouvelle activité Signal<br /> </td> 
+   <td> Déclenchez un workflow à partir d’un autre workflow grâce à la nouvelle activité <span class="uicontrol">Signal</span>.<br /> La possibilité de démarrer un workflow à partir d’un autre vous permet désormais de prendre en charge des parcours clientèle plus complexes. Vous pouvez mieux suivre les parcours clientèle et intervenir en cas de problèmes.<br /> Plusieurs activités de workflow ont été mises à jour :<br /> 
     <ul> 
-     <li>Activité <span class="uicontrol">Fin</span> : un nouvel onglet vous permet de spécifier un workflow à déclencher une fois l’exécution de cette activité terminée.</li> 
-     <li>Activité <span class="uicontrol">Mise à jour de données</span> : utilisez la nouvelle transition sortante vide pour ajouter une activité <strong>Fin</strong> qui déclenchera un autre workflow.Les transitions sortantes vides ne contiennent pas de données et n’occupent pas d’espace inutilement sur le système.</li> 
-    </ul>Pour plus d’informations, consultez la <a href="../../automating/using/external-signal.md">documentation détaillée</a>.<br /></td> 
+     <li> Activité <span class="uicontrol">Fin</span> : un nouvel onglet vous permet de spécifier un workflow à déclencher une fois l’exécution de cette activité terminée. </li> 
+     <li> Activité <span class="uicontrol">Mise à jour de données</span> : utilisez la nouvelle transition sortante vide pour ajouter une activité <strong>Fin</strong> qui déclenchera un autre workflow. Les transitions sortantes vides ne contiennent pas de données et n’occupent pas d’espace inutilement sur le système. </li> 
+    </ul> Pour plus d’informations, consultez la <a href="../../automating/using/external-signal.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Workflows : nouvelle activité Lecture d’audience<br /></td> 
-   <td>Démarrez votre processus de ciblage avec une audience existante qui peut être facilement sélectionnée et affinée dans une même activité.<br />Pour plus d’informations, consultez la <a href="../../automating/using/read-audience.md">documentation détaillée</a>.<br /></td> 
+   <td> Workflows : nouvelle activité Lecture d’audience<br /> </td> 
+   <td> Démarrez votre processus de ciblage avec une audience existante qui peut être facilement sélectionnée et affinée dans une même activité.<br /> Pour plus d’informations, consultez la <a href="../../automating/using/read-audience.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Données de points ciblés<br /></td> 
-   <td> Les données de points ciblés sont une intégration entre Adobe Campaign et Adobe Analytics pour Mobile. Il est possible de collecter des données sur localisations mobiles d’un utilisateur - appelées <strong>points ciblés</strong> - lorsque celui-ci ouvre l’application d’une marque. Celle-ci peut alors utiliser les workflows Adobe Campaign pour envoyer des messages personnalisés en fonction de la localisation de ses clients. Ce canal utilise le SDK des services essentiels Mobile.<br />Notez que l’utilisation de cette fonctionnalité requiert Analytics pour Mobile, une solution payante.<br />Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentation détaillée</a>.<br /></td> 
+   <td> Données de points ciblés<br /> </td> 
+   <td> Les données de points ciblés sont une intégration entre Adobe Campaign et Adobe Analytics pour Mobile. Il est possible de collecter des données sur localisations mobiles d’un utilisateur - appelées <strong>points ciblés</strong> - lorsque celui-ci ouvre l’application d’une marque. Celle-ci peut alors utiliser les workflows Adobe Campaign pour envoyer des messages personnalisés en fonction de la localisation de ses clients. Ce canal utilise le SDK des services essentiels Mobile.<br /> Notez que l’utilisation de cette fonctionnalité requiert Analytics pour Mobile, une solution payante.<br /> Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>API REST<br /></td> 
-   <td>Les ressources liées, à n’importe quel niveau, aux ressources de profils ou de services, sont à présent disponibles dans l’API.<br />Pour plus d’informations, consultez la <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">documentation détaillée</a>.<br /> </td> 
+   <td> API REST<br /> </td> 
+   <td> Les ressources liées, à n’importe quel niveau, aux ressources de profils ou de services, sont à présent disponibles dans l’API.<br /> Pour plus d’informations, consultez la <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -464,34 +471,34 @@ _Workflows_
  <thead> 
   <tr> 
    <th> Fonctionnalités<br /> </th> 
-   <th>Description<br /></th> 
+   <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Export des logs pour un reporting externe<br /></td> 
-   <td>Exportez des logs tels que les logs de diffusion et de tracking pour les traiter dans les outils de reporting et de Business Intelligence de votre choix.Vous pouvez utiliser des workflows simples avec des requêtes incrémentales pour automatiser des exports réguliers des nouveaux logs.<br />En plus de la disponibilité des ressources de log dans le sélecteur de ressources, des améliorations ont été apportées aux activités <a href="../../automating/using/incremental-query.md">Requête incrémentale</a> et <a href="../../automating/using/extract-file.md">Extraction de fichier</a> :<br />
+   <td> Export des logs pour un reporting externe<br /> </td> 
+   <td> Exportez des logs tels que les logs de diffusion et de tracking pour les traiter dans les outils de reporting et de Business Intelligence de votre choix. Vous pouvez utiliser des workflows simples avec des requêtes incrémentales pour automatiser des exports réguliers des nouveaux logs.<br /> En plus de la disponibilité des ressources de log dans le sélecteur de ressources, des améliorations ont été apportées aux activités <a href="../../automating/using/incremental-query.md">Requête incrémentale</a> et <a href="../../automating/using/extract-file.md">Extraction de fichier</a> :<br /> 
     <ul> 
-     <li>L’activité <span class="uicontrol">Requête incrémentale</span> permet désormais d’utiliser un champ date pour récupérer des données mises à jour ou nouvelles.Auparavant, tous les résultats des exécutions précédentes étaient automatiquement exclus, même s’ils avaient été mis à jour depuis la dernière exécution.</li> 
-     <li>L’activité <span class="uicontrol">Extraction de fichier</span> peut désormais exporter des libellés pour les valeurs d’énumération à la place d’identifiants.</li> 
-    </ul>Ces activités sont disponibles pour les administrateurs et administratrices qui ont un accès à toutes les entités organisationnelles et géographiques.<br />Pour plus d’informations sur l’export des logs, consultez la <a href="../../automating/using/exporting-logs.md">documentation détaillée</a>.<br /></td> 
+     <li> L’activité <span class="uicontrol">Requête incrémentale</span> permet désormais d’utiliser un champ date pour récupérer des données mises à jour ou nouvelles. Auparavant, tous les résultats des exécutions précédentes étaient automatiquement exclus, même s’ils avaient été mis à jour depuis la dernière exécution. </li> 
+     <li> L’activité <span class="uicontrol">Extraction de fichier</span> peut désormais exporter des libellés pour les valeurs d’énumération à la place d’identifiants. </li> 
+    </ul> Ces activités sont disponibles pour les administrateurs et administratrices qui ont un accès à toutes les entités organisationnelles et géographiques.<br /> Pour plus d’informations sur l’export des logs, consultez la <a href="../../automating/using/exporting-logs.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>Capacités marketing des messages transactionnels<br /></td> 
-   <td>Les personnes chargées du marketing peuvent désormais envoyer des messages transactionnels selon les profils marketing des clientes et clients.Elles peuvent ainsi :<br />
+   <td> Capacités marketing des messages transactionnels<br /> </td> 
+   <td> Les personnes chargées du marketing peuvent désormais envoyer des messages transactionnels selon les profils marketing des clientes et clients. Elles peuvent ainsi :<br /> 
     <ul> 
-     <li>appliquer des règles de typologie marketing telles que <span class="uicontrol">Adresse sur liste bloquée</span> ;</li> 
-     <li>inclure le lien de désinscription dans les messages ;</li> 
-     <li>ajouter les messages transactionnels au reporting de diffusion globale ;</li> 
-     <li>utiliser les messages transactionnels dans le parcours clientèle.</li> 
-    </ul>Pour plus d’informations, consultez la <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">documentation détaillée</a>.<br /></td> 
+     <li> appliquer des règles de typologie marketing telles que <span class="uicontrol">Adresse sur liste bloquée</span> ; </li> 
+     <li> inclure le lien de désinscription dans les messages ; </li> 
+     <li> ajouter les messages transactionnels au reporting de diffusion globale ; </li> 
+     <li> utiliser les messages transactionnels dans le parcours clientèle. </li> 
+    </ul> Pour plus d’informations, consultez la <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td>API des messages transactionnels<br /></td> 
-   <td>L’API des messages transactionnels est maintenant disponible, ce qui facilite son utilisation et sa surveillance :<br />
+   <td> API des messages transactionnels<br /> </td> 
+   <td> L’API des messages transactionnels est maintenant disponible, ce qui facilite son utilisation et sa surveillance :<br /> 
     <ul> 
-     <li>Vous pouvez tirer parti des capacités de surveillance et de reporting de la plateforme Adobe Developer.</li> 
-     <li>L’authentification est désormais effectuée en utilisant l’authentification basée sur les jetons adobe.io plutôt que le placement sur liste autorisée des adresses IP, ce qui simplifie le processus de sécurité.</li> 
+     <li> Vous pouvez tirer parti des capacités de surveillance et de reporting de la plateforme Adobe Developer. </li> 
+     <li> L’authentification est désormais effectuée en utilisant l’authentification basée sur les jetons adobe.io plutôt que le placement sur liste autorisée des adresses IP, ce qui simplifie le processus de sécurité. </li> 
      <li> Toutes les API sont désormais intégrées sur une seule plateforme, ce qui facilite plus que jamais l’ajout des fonctionnalités de messages transactionnels à votre intégration si vous prenez déjà en charge l’API Profile &amp; Services. </li> 
     </ul> </td> 
   </tr> 

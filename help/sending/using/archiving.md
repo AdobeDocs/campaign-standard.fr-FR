@@ -8,9 +8,14 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '378'
+TQID: https://experienceleague.adobe.com/azrQgfcyinGmbmazAdX8-9zBVYqew1j3DS4sb2FaU-4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 378
 ht-degree: 100%
 
 ---
@@ -29,10 +34,10 @@ Une fois la fonctionnalité activée, vous devez activer Email BCC depuis l’o
 
 ## Recommandations et limitations {#recommendations-and-limitations}
 
-* Cette fonctionnalité est facultative.Vérifiez votre contrat de licence et contactez votre chargé de compte pour l&#39;activer.
+* Cette fonctionnalité est en option. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l&#39;activer.
 * L’adresse en Cci de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
 * Vous ne pouvez utiliser qu’une seule adresse email en Cci.
-* Seuls les e-mails envoyés sont pris en compte,les rebonds ne le sont pas.
+* Seuls les e-mails envoyés sont pris en compte, les rebonds ne le sont pas.
 * Pour des raisons de confidentialité, les emails en Cci doivent être traités dans un système d&#39;archivage capable de stocker en toute sécurité les informations d&#39;identification personnelles (PII).
 * Lors de la création d’un modèle de diffusion, l’option Email BCC n’est pas activée par défaut, même si elle a été achetée. Vous devez l’activer manuellement dans chaque modèle de diffusion où vous souhaitez l’utiliser.
 
