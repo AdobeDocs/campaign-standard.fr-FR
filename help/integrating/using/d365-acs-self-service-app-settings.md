@@ -9,9 +9,18 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '738'
+TQID: https://experienceleague.adobe.com/PRwXxoE4v-Nn8gLT-7-2hbEe3IOiXT2dXTylTwHcmGs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 738
 ht-degree: 100%
 
 ---
@@ -72,7 +81,7 @@ Vous devez spécifier les informations suivantes :
 
 * Les **plages IP** doivent être incluses dans votre configuration SFTP Adobe Campaign. Vous devrez les placer dans la liste autorisée pour que l’intégration puisse utiliser le point d’entrée SFTP.
 
-* L’option **Voulez-vous exporter les logs vers votre serveur SFTP Adobe Campaign ?** vous permet de déterminer si l’intégration génère des informations de journalisation au point d’entrée SFTP.Ces informations peuvent servir au débogage si Adobe Campaign ou Microsoft Dynamics 365 n&#39;affiche pas les informations attendues.
+* L’option **Voulez-vous exporter les logs vers votre serveur SFTP Adobe Campaign ?** vous permet de déterminer si l’intégration génère des informations de journalisation au point d’entrée SFTP. Ces informations peuvent servir au débogage si Adobe Campaign ou Microsoft Dynamics 365 n&#39;affiche pas les informations attendues.
 
 ## Configuration de SFTP dans Adobe Campaign {#ac-control-panel-settings}
 

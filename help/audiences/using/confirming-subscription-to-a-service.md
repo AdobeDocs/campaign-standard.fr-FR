@@ -8,9 +8,18 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
-source-wordcount: '1422'
+TQID: https://experienceleague.adobe.com/ztI-eJdW855g7S99FTujQ6RyRm3iRF0ApASHNi3a6Pk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1422
 ht-degree: 100%
 
 ---
@@ -168,7 +177,7 @@ Les étapes de conception du message transactionnel sont présentées dans cette
 
 1. Dans le menu avancé **[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Services]** (via le logo Adobe Campaign), créez un service.
 1. Accédez à la section **[!UICONTROL Propriétés du service]**, accessible via le bouton ![](assets/edit_darkgrey-24px.png) du tableau de bord du service.
-1. Renseignez le champ **[!UICONTROL Libellé du service]**. Ce libellé s&#39;affichera dans le message de confirmation et dans la landing page d&#39;abonnement.
+1. Renseignez le champ **[!UICONTROL Libellé du service.]** Ce libellé s&#39;affichera dans le message de confirmation et dans la landing page d&#39;abonnement.
 1. Cliquez sur **[!UICONTROL Confirmer]** et enregistrez le service.
 
 ### Étape 3 : création et configuration de la landing page {#step-3--create-and-configure-the-landing-page}

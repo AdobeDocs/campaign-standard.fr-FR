@@ -10,9 +10,18 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '1322'
+TQID: https://experienceleague.adobe.com/tl7zyRjRGu9XFjQbPnubDvwqTY-HV7DDPDfOdiKHSi4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1322
 ht-degree: 100%
 
 ---
@@ -146,10 +155,10 @@ Le protocole Blob Microsoft Azure permet d’accéder à l’objet Blob situé s
 ### Configuration avec des fichiers présents sur le serveur Adobe Campaign {#files-server-configuration-wf}
 
 Le protocole **[!UICONTROL Fichier(s) présent(s) sur le serveur Adobe Campaign]** correspond au référentiel contenant le ou les fichiers à récupérer.
-Les métacaractères ou caractères génériques (par exemple &#42; ou ?)peuvent être utilisés pour filtrer les fichiers.
+Les métacaractères ou caractères génériques (par exemple &#42; ou ?) peuvent être utilisés pour filtrer les fichiers.
 
 Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique.]**
-L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer.Pour plus d’informations, consultez [cette page](../../automating/using/customizing-workflow-external-parameters.md).
+L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer. Pour plus d’informations, consultez [cette page](../../automating/using/customizing-workflow-external-parameters.md).
 
 Veuillez noter que le chemin doit être relatif au répertoire d’espace de stockage du serveur Adobe Campaign. Les fichiers se trouvent dans le répertoire **sftp&lt;nomdevotreinstance>/**. Il est également impossible de parcourir les niveaux de répertoires supérieurs à l’espace de stockage.
 

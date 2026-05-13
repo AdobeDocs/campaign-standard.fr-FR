@@ -9,9 +9,20 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: ht
-source-wordcount: '413'
+TQID: https://experienceleague.adobe.com/3qM5opRzD4u8HV5PALkfERzsLnWx1AsLuaDs8frG-Ic
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 413
 ht-degree: 100%
 
 ---
@@ -24,7 +35,7 @@ Avant d’envoyer votre message, vérifiez également que les paramètres et la 
 
 ## Pourquoi la validation est-elle essentielle ? {#validation-is-key}
 
-Avant d’envoyer une diffusion, vous devez vous assurer que vos destinataires recevront le message que vous souhaitez réellement leur envoyer.Pour cela, vous devez valider le contenu du message et les paramètres de diffusion.
+Avant d’envoyer une diffusion, vous devez vous assurer que vos destinataires recevront le message que vous souhaitez réellement leur envoyer. Pour cela, vous devez valider le contenu du message et les paramètres de diffusion.
 
 Cette étape vous permet de détecter les éventuelles erreurs et de les corriger avant l’envoi à la cible principale.
 
@@ -34,13 +45,13 @@ Les étapes de validation d&#39;une diffusion sont présentées [dans cette sect
 
 Avant d&#39;appuyer sur le bouton **[!UICONTROL Envoyer]**, vérifiez que l&#39;affichage de votre message sera optimal sur divers clients web, webmails et appareils.
 
-Pour permettre cette opération, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié.Vous pouvez ainsi prévisualiser le message envoyé dans les différents contextes de réception.
+Pour permettre cette opération, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez ainsi prévisualiser le message envoyé dans les différents contextes de réception.
 
 **Conseils** :
 
 * Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception : webmail, service de messagerie, mobile, etc.
 
-* Les fonctionnalités de rendu des e-mails sont essentielles pour déterminer si vos campagnes par e-mail réussissent à passer les filtres des principaux FAI (fournisseurs d’accès Internet) et services de messagerie web.Ces outils envoient une copie de pré-contrôle d’un e-mail à un réseau de boîtes de réception de test, afin de vérifier comment le message s’affichera, ou sera rendu, sur ces services.Ils peuvent également inclure des rapports et des options de correction de code qui vous aident à identifier et à corriger rapidement les erreurs, afin d’améliorer la délivrabilité.
+* Les fonctionnalités de rendu des e-mails sont essentielles pour déterminer si vos campagnes par e-mail réussissent à passer les filtres des principaux FAI (fournisseurs d’accès Internet) et services de messagerie web. Ces outils envoient une copie de pré-contrôle d’un e-mail à un réseau de boîtes de réception de test, afin de vérifier comment le message s’affichera, ou sera rendu, sur ces services. Ils peuvent également inclure des rapports et des options de correction de code qui vous aident à identifier et à corriger rapidement les erreurs, afin d’améliorer la délivrabilité.
 
 En savoir plus [dans cette section](../../sending/using/email-rendering.md).
 

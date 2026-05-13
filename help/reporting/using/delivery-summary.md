@@ -9,9 +9,18 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: d6ddc022-16ad-438b-8c6e-fc6abc704f09
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '228'
+TQID: https://experienceleague.adobe.com/eOl8qtG35wbnRyT8mGh7n-2-UdujsCKV1jF3iBsCPZM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 228
 ht-degree: 100%
 
 ---
@@ -27,7 +36,7 @@ Chaque tableau est représenté par des nombres et des graphiques de synthèse. 
 Le tableau **Statistiques de diffusion** contient les données disponibles pour les emails envoyés, telles que :
 
 * **[!UICONTROL Traités/envoyés]** : nombre total d&#39;envois pour la diffusion.
-* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés. Les erreurs soulevées (rebonds) sont prises en compte.Cependant, les plaintes (déclarations comme spam) et les messages d&#39;absence de type &quot;absent du bureau&quot; ne sont pas pris en compte.
+* **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés. Les erreurs remontées (rebonds) sont prises en compte. Cependant, les plaintes (déclarations comme spam) et les messages d&#39;absence de type &quot;absent du bureau&quot; ne sont pas pris en compte.
 * **[!UICONTROL Rebonds + erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des rebonds par rapport au nombre total de messages envoyés.
 
 Le tableau **Open and clicks** contient les données disponibles concernant l&#39;activité des destinataires pour chaque diffusion, telles que :

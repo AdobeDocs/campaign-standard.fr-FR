@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '615'
+TQID: https://experienceleague.adobe.com/dkAPwzqgld7-LbCyzuz24CnRMjmepFIxG6F0HRBuh8c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 615
 ht-degree: 100%
 
 ---
@@ -45,7 +52,7 @@ Il est ainsi conseillé de faire en sorte qu&#39;une déduplication ne possède 
 Pour paramétrer une déduplication, vous devez renseigner son libellé, la méthode et les critères de déduplication, ainsi que les options relatives au résultat.
 
 1. Placez une activité **[!UICONTROL Déduplication]** dans votre workflow.
-1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
+1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
 
    ![](assets/deduplication_1.png)
 

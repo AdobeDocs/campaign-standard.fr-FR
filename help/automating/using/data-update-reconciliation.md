@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '128'
+TQID: https://experienceleague.adobe.com/cEXfESw1LZcrQVlLsgrlDB8J2aGz4zCoSUrIAshECo0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 128
 ht-degree: 100%
 
 ---
@@ -38,7 +45,7 @@ L&#39;exemple suivant illustre un workflow permettant de créer une audience de 
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* une activité de [Réconciliation](../../automating/using/reconciliation.md) permettant d&#39;associer chaque colonne du fichier chargé à une colonne de la dimension des profils. Les enregistrements de fichiers non identifiables (données manquantes, type de données incompatible, etc.)sont ignorés pour préserver l’intégrité des données d’audience finales.
+* une activité de [Réconciliation](../../automating/using/reconciliation.md) permettant d&#39;associer chaque colonne du fichier chargé à une colonne de la dimension des profils. Les enregistrements de fichiers non identifiables (données manquantes, type de données incompatible, etc.) sont ignorés pour préserver l’intégrité des données d’audience finales.
 
   ![](assets/identification_example1.png)
 

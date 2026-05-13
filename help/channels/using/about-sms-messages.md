@@ -9,9 +9,18 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
-source-wordcount: '287'
+TQID: https://experienceleague.adobe.com/d0IcWAf5j-JUAKKeC84Fxm-mZsfuMJ2k6GmhQfdQeFk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 287
 ht-degree: 100%
 
 ---
@@ -24,7 +33,7 @@ Adobe Campaign permet de distribuer des messages SMS (Short Message Service).
 >
 >Le canal SMS est un composant additionnel. Veuillez vérifier votre accord de licence.
 
-Pour les SMS, vous pouvez créer, modifier et personnaliser des messages au format texte uniquement.Vous pouvez également prévisualiser les SMS avant leur envoi.
+Pour les SMS, vous pouvez créer, modifier et personnaliser des messages au format texte uniquement. Vous pouvez également prévisualiser les SMS avant leur envoi.
 
 La longueur des messages SMS est limitée à 160 caractères si l&#39;encodage GSM est utilisé, à 70 caractères seulement si le message est rédigé en Unicode. Par ailleurs, certains caractères spéciaux peuvent avoir une influence sur la longueur du message. Pour en savoir plus, consultez la section [Encodage des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 

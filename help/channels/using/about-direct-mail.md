@@ -9,22 +9,33 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '464'
+TQID: https://experienceleague.adobe.com/8VXdc-QOidRcDvgr5vMn-5bxHKYO6TnZS80FDsuA-GU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 464
 ht-degree: 100%
 
 ---
 
 # À propos du courrier{#about-direct-mail}
 
-Courrier est un canal hors ligne qui vous permet de personnaliser et de générer un fichier externe à partager avec vos opérateurs de courrier.Il vous donne la possibilité de combiner les canaux en ligne et hors ligne dans vos parcours clientèle.
+Courrier est un canal hors ligne qui vous permet de personnaliser et de générer un fichier externe à partager avec vos opérateurs de courrier. Il vous donne la possibilité de combiner les canaux en ligne et hors ligne dans vos parcours clientèle.
 
 >[!NOTE]
 >
->Cette fonctionnalité est facultative.Veuillez vérifier votre contrat de licence.Le rôle **[!UICONTROL Export]** est requis pour utiliser le canal Courrier. Veuillez contacter votre administrateur.
+>Cette fonctionnalité est facultative. Veuillez vérifier votre contrat de licence. Le rôle **[!UICONTROL Export]** est requis pour utiliser le canal Courrier. Veuillez contacter votre administrateur.
 
-Les canaux en ligne vous permettent de créer vos messages (e-mail, SMS, diffusion d’applications mobiles, etc.)et de les envoyer à votre audience directement depuis Adobe Campaign.Avec les canaux hors ligne, c’est différent.Lors de la préparation d’une diffusion courrier, Adobe Campaign génère un fichier comprenant tous les profils ciblés et les informations de contact sélectionnées (adresse postale, par exemple).Vous pourrez ensuite envoyer ce fichier à votre fournisseur de courrier qui se chargera de l’envoi.
+Les canaux en ligne vous permettent de créer vos messages (e-mail, SMS, diffusion d’applications mobiles, etc.) et de les envoyer à votre audience directement depuis Adobe Campaign. Avec les canaux hors ligne, c’est différent. Lors de la préparation d’une diffusion courrier, Adobe Campaign génère un fichier comprenant tous les profils ciblés et les informations de contact sélectionnées (adresse postale, par exemple). Vous pourrez ensuite envoyer ce fichier à votre fournisseur de courrier qui se chargera de l’envoi.
 
 La section ci-après décrit comment créer et gérer une diffusion courrier ponctuelle. Vous avez également la possibilité d&#39;inclure une activité de type courrier dans un workflow pour orchestrer des campagnes qui associent des canaux on-line et off-line. Voir à ce propos le guide [Workflows](../../automating/using/get-started-workflows.md).
 

@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
-source-wordcount: '999'
+TQID: https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 999
 ht-degree: 100%
 
 ---
@@ -35,7 +42,7 @@ L’activité **[!UICONTROL Segmentation]** permet de créer un ou plusieurs seg
 
 ## Contexte d&#39;utilisation {#context-of-use}
 
-L’activité **[!UICONTROL Segmentation]** est généralement placée après les activités de ciblage (requête, intersection, union, exclusion, etc.)afin de définir la population standard à partir de laquelle les segments sont formés.
+L’activité **[!UICONTROL Segmentation]** est généralement placée après les activités de ciblage (requête, intersection, union, exclusion, etc.) afin de définir la population standard à partir de laquelle les segments sont formés.
 
 **Rubriques connexes :**
 

@@ -9,9 +9,18 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: ht
-source-wordcount: '838'
+TQID: https://experienceleague.adobe.com/XHdVIRoy03LIXLHPLXexhNG2hg2JJYnwglQLUc6i2WU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 838
 ht-degree: 100%
 
 ---
@@ -38,9 +47,9 @@ Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de dispos
 
 * Une adresse erronée peut causer un refus de la part du serveur receveur. Vous devez vous assurer qu’une adresse correcte est bien renseignée.
 
-* L’adresse doit identifier explicitement l’expéditeur ou l’expéditrice.Le domaine doit appartenir à l’expéditeur ou à l’expéditrice et être enregistré en son nom.
+* L’adresse doit identifier explicitement l’expéditeur ou l’expéditrice. Le domaine doit appartenir à l’expéditeur ou à l’expéditrice et être enregistré en son nom.
 
-* Adobe recommande de créer des comptes e-mail qui correspondent aux adresses indiquées pour les diffusions et les réponses.Parlez-en avec l’administrateur ou l’administratrice de votre messagerie.
+* Adobe recommande de créer des comptes e-mail qui correspondent aux adresses indiquées pour les diffusions et les réponses. Parlez-en avec l’administrateur ou l’administratrice de votre messagerie.
 
 Dans la section **[!UICONTROL Paramètres avancés]** des propriétés d’un modèle d’e-mail, le champ **[!UICONTROL De (adresse e-mail)]** correspond à l’adresse de l’expéditeur ou de l’expéditrice.
 
@@ -50,7 +59,7 @@ Le domaine de l&#39;adresse doit être identique au sous-domaine que vous avez c
 
 Les champs **[!UICONTROL Répondre à]** correspondent à l&#39;adresse email et au nom utilisés pour les réponses.
 
-**Conseil** : Adobe recommande toutefois d’utiliser une adresse réelle existante, comme l’assistance clientèle de votre marque.Ainsi, si une personne destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
+**Conseil** : Adobe recommande toutefois d’utiliser une adresse réelle existante, comme l’assistance clientèle de votre marque. Ainsi, si une personne destinataire envoie une réponse, l’assistance clientèle sera en mesure de la traiter.
 
 Pour modifier le nom de l’expéditeur ou de l’expéditrice qui apparaîtra dans l’en-tête des messages envoyés, accédez à l’onglet **[!UICONTROL Propriétés]** de la page d’accueil du concepteur d’e-mail (accessible par le biais de l’icône Accueil) et cliquez sur le bloc **[!UICONTROL Nom de l’expéditeur ou de l’expéditrice par défaut]**.
 
@@ -64,11 +73,11 @@ Pour plus d&#39;informations sur la personnalisation du nom de l&#39;expéditeur
 
 ## Personnaliser le nom de l&#39;expéditeur de SMS
 
-Dans la section **Paramètres avancés** des propriétés d’un modèle de SMS, l’option **De** vous permet de personnaliser le nom de la personne qui envoie le SMS à l’aide d’une chaîne de caractères.C’est le nom qui s’affichera dans le champ correspondant à l’expéditeur ou l’expéditrice du SMS sur le téléphone mobile de la personne destinataire.
+Dans la section **Paramètres avancés** des propriétés d’un modèle de SMS, l’option **De** vous permet de personnaliser le nom de la personne qui envoie le SMS à l’aide d’une chaîne de caractères. C’est le nom qui s’affichera dans le champ correspondant à l’expéditeur ou l’expéditrice du SMS sur le téléphone mobile de la personne destinataire.
 
-Si ce champ est vide, c’est le numéro source renseigné dans le compte externe qui sera utilisé.Si aucun numéro source n’y figure, c’est le numéro court qui sera utilisé.Pour plus d’informations, consultez la section [Configuration des SMS](../../administration/using/configuring-sms-channel.md).
+Si ce champ est vide, c’est le numéro source renseigné dans le compte externe qui sera utilisé. Si aucun numéro source n’y figure, c’est le numéro court qui sera utilisé. Pour plus d’informations, consultez la section [Configuration des SMS](../../administration/using/configuring-sms-channel.md).
 
-**Conseil** : vérifiez la loi en vigueur dans votre pays concernant la modification de l’adresse d’expédition.Vérifiez également auprès de votre fournisseur de service SMS s’il propose cette fonctionnalité.
+**Conseil** : vérifiez la loi en vigueur dans votre pays concernant la modification de l’adresse d’expédition. Vérifiez également auprès de votre fournisseur de service SMS s’il propose cette fonctionnalité.
 
 ## Configurer une population témoin
 
@@ -80,13 +89,13 @@ Une typologie contient les règles de vérification qui sont appliquées lors de
 
 Dans la section **[!UICONTROL Paramètres avancés]** > **[!UICONTROL Préparation]** des propriétés du modèle, changez la typologie par défaut en fonction de vos besoins.
 
-Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité.Celles-ci sont définies dans le fichier de configuration de l’instance.Contactez votre administrateur ou administratrice Adobe Campaign.
+Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Celles-ci sont définies dans le fichier de configuration de l’instance. Contactez votre administrateur ou administratrice Adobe Campaign.
 
 Pour plus d’informations sur les typologies, consultez [cette section](../../sending/using/managing-typologies.md).
 
 ## Associer une marque à un modèle
 
-Les paramètres des e-mails envoyés relatifs à l’identité d’une marque (le logo de la marque et l’adresse d’expédition, par exemple) sont gérés de manière centralisée dans Adobe Campaign.Vous pouvez créer une ou plusieurs marques et les associer à des modèles de diffusion.
+Les paramètres des e-mails envoyés relatifs à l’identité d’une marque (le logo de la marque et l’adresse d’expédition, par exemple) sont gérés de manière centralisée dans Adobe Campaign. Vous pouvez créer une ou plusieurs marques et les associer à des modèles de diffusion.
 
 Pour plus d&#39;informations sur l&#39;utilisation et la configuration des marques dans Adobe Campaign, voir Marques.
 

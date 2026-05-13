@@ -8,9 +8,18 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
-workflow-type: ht
-source-wordcount: '2773'
+TQID: https://experienceleague.adobe.com/q4g-LFCqxGuz-d400R4m7GZ-d74L6iCzWBF6at8xjIE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 2773
 ht-degree: 100%
 
 ---
@@ -217,7 +226,7 @@ Cette option est uniquement proposée pour les éléments suivants : ADDRESS, B
 
 L&#39;éditeur d&#39;expression est présenté dans la section [Edition avancée d&#39;expressions](../../automating/using/editing-queries.md#about-query-editor).
 
-Ces conditions adoptent la syntaxe des expressions XTK (par exemple : **context.profile.email !=&quot;** ou **context.profile.status=&#39;0&#39;**).Par défaut, tous les champs sont visibles.
+Ces conditions adoptent la syntaxe des expressions XTK (par exemple : **context.profile.email !=&quot;** ou **context.profile.status=&#39;0&#39;**). Par défaut, tous les champs sont visibles.
 
 >[!NOTE]
 >

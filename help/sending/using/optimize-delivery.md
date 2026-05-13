@@ -9,9 +9,19 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
-workflow-type: ht
-source-wordcount: '767'
+TQID: https://experienceleague.adobe.com/w2qeBwrGka2XfN76lvkL7fjdAErUcHdxNvF7Jb6KYIk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 767
 ht-degree: 100%
 
 ---
@@ -20,7 +30,7 @@ ht-degree: 100%
 
 Avant même de commencer à créer des diffusions, vous pouvez prendre des mesures pour sécuriser et optimiser le processus d&#39;envoi en amont.
 
-La section suivante présente les bonnes pratiques et les procédures recommandées pour optimiser la configuration d’Adobe Campaign.Le respect de ces pratiques réduit les problèmes en aval.
+La section suivante présente les bonnes pratiques et les procédures recommandées pour optimiser la configuration d’Adobe Campaign. Le respect de ces pratiques réduit les problèmes en aval.
 
 ## Performances de la plateforme
 
@@ -74,7 +84,7 @@ Lorsque vous commencez à envoyer des emails sur une nouvelle plateforme, vous p
 
 ## Mécanisme de double opt-in {#double-opt-in}
 
-Pour éviter d’envoyer des messages à des adresses non valides, limiter les communications abusives et améliorer la réputation de l’entité expéditrice, Adobe recommande de mettre en place un mécanisme de double opt-in pour la confirmation post-abonnement.Cela permet de s’assurer que les destinataires s’abonnent intentionnellement.
+Pour éviter d’envoyer des messages à des adresses non valides, limiter les communications abusives et améliorer la réputation de l’entité expéditrice, Adobe recommande de mettre en place un mécanisme de double opt-in pour la confirmation post-abonnement. Cela permet de s’assurer que les destinataires s’abonnent intentionnellement.
 
 Les détails de la mise en œuvre de ce mécanisme sont décrits dans [cette section](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 

@@ -8,9 +8,21 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
-workflow-type: ht
-source-wordcount: '1126'
+TQID: https://experienceleague.adobe.com/fDzmrslmo3YdV0vVeGlC2SOWdATbYlUyGD6C-kLbSMY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1126
 ht-degree: 100%
 
 ---
@@ -118,7 +130,7 @@ Ce modèle utilise plusieurs scores pour indiquer :
 * **Score d’engagement avec ouverture/Score d’engagement avec clic** : cette valeur correspond à la probabilité qu’un abonné interagisse avec un message spécifique (ouverture ou clic). Les valeurs sont comprises entre 0,0 et 1,0.
 * **Probabilité de désabonnement** : cette valeur correspond à la probabilité pour le destinataire de se désabonner d’un canal email après l’ouverture d’un email. Les valeurs sont comprises entre 0,0 et 1,0.
 * **Niveau de rétention** : cette valeur classe les utilisateurs et utilisatrices en trois niveaux : bas, moyen et élevé. Élevé indique que l’utilisateur est susceptible de rester fidèle à la marque et faible indique qu’il est susceptible de se désabonner.
-* **Rang percentile de rétention** : profil classé en termes de probabilité de désabonnement. Les valeurs sont comprises entre 0,0 et 1,0.Par exemple, si le rang de pourcentage de rétention est de 0,953, cette personne destinataire est plus susceptible de rester fidèle à la marque et moins susceptible de se désabonner que 95,3 % de toutes les personnes destinataires.
+* **Rang percentile de rétention** : profil classé en termes de probabilité de désabonnement. Les valeurs sont comprises entre 0,0 et 1,0. Par exemple, si le rang de pourcentage de rétention est de 0,953, cette personne destinataire est plus susceptible de rester fidèle à la marque et moins susceptible de se désabonner que 95,3 % de toutes les personnes destinataires.
 
 >[!NOTE]
 >

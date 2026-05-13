@@ -8,9 +8,20 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
-workflow-type: ht
-source-wordcount: '1166'
+TQID: https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1166
 ht-degree: 100%
 
 ---
@@ -23,7 +34,7 @@ Vous pouvez également définir une formule pour envoyer le message à chaque de
 
 Par exemple, vous pouvez utiliser l&#39;optimisation de l&#39;heure d&#39;envoi lors de l&#39;installation d&#39;une nouvelle plate-forme.
 
-Lorsque vous envoyez des e-mails à l’aide d’une nouvelle plateforme, rien n’est plus suspect pour un FAI (fournisseur d’accès internet) que les adresses IP qui ne sont pas reconnues.Si des e-mails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
+Lorsque vous envoyez des e-mails à l’aide d’une nouvelle plateforme, rien n’est plus suspect pour un FAI (fournisseur d’accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
 
 Pour éviter d&#39;être bloqué par les FAI, vous pouvez augmenter progressivement les volumes envoyés en les répartissant sur plusieurs périodes. Cela permet d’entamer la phase de démarrage en douceur et de réduire le nombre total d’adresses invalides.
 
@@ -41,7 +52,7 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
    * Remplissez le champ **[!UICONTROL Code segment]** : saisissez manuellement la date et l&#39;heure d&#39;envoi du message.
 
-     Par exemple, vous souhaitez envoyer le premier lot le 1er juin à 10:00 GMT+1.Utilisez le format suivant : **`YYYY-MM-DD hh:mm:ss+tz`**.
+     Par exemple, vous souhaitez envoyer le premier lot le 1er juin à 10:00 GMT+1. Utilisez le format suivant : **`YYYY-MM-DD hh:mm:ss+tz`**.
 
      ![](assets/send-time_opt_segment_configuration.png)
 
@@ -117,10 +128,10 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
    * Définissez les codes segment comme suit :
 
-      * 8:00 - 10:00 : **0**.Le message sera envoyé au premier trimestre de la population cible à 8:00 (date de contact).
-      * 10:00 - 12:00 : **2**.Le message sera envoyé au deuxième trimestre de la population cible à 10:00 (date de contact + 2 heures).
-      * 14:00 - 16:00 : **6**.Le centre d’appel étant fermé entre 12:00 et 14:00, le message sera envoyé au troisième trimestre de la population cible à 14:00 (date de contact + 6 heures).
-      * 16:00 - 18:00 : **8**.Le message sera envoyé au dernier trimestre de la population cible à 16:00 (date de contact + 8 heures).
+      * 8:00 - 10:00 : **0**. Le message sera envoyé au premier trimestre de la population cible à 8:00 (date de contact).
+      * 10:00 - 12:00 : **2**. Le message sera envoyé au deuxième trimestre de la population cible à 10:00 (date de contact + 2 heures).
+      * 14:00 - 16:00 : **6**. Le centre d’appel étant fermé entre 12:00 et 14:00, le message sera envoyé au troisième trimestre de la population cible à 14:00 (date de contact + 6 heures).
+      * 16:00 - 18:00 : **8**. Le message sera envoyé au dernier trimestre de la population cible à 16:00 (date de contact + 8 heures).
 
      >[!NOTE]
      >

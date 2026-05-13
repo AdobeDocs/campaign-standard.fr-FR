@@ -8,9 +8,17 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '1049'
+TQID: https://experienceleague.adobe.com/r55Y65MfV0YNU5XLTeD3e--ZlHlcqUxH88HV2o3qec0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1049
 ht-degree: 100%
 
 ---
@@ -92,7 +100,7 @@ Pour des raisons de sécurité et de performances de la plateforme, il est vivem
 
 >[!NOTE]
 >
->Vos modifications ne sont effectives que pour la page de destination en cours d’édition.Si vous souhaitez les appliquer à d’autres pages de destination, vous pouvez les effectuer dans un modèle dédié et créer d’autres pages de destination à partir de ce modèle.
+>Vos modifications ne sont effectives que pour la page de destination en cours d’édition. Si vous souhaitez les appliquer à d’autres pages de destination, vous pouvez les effectuer dans un modèle dédié et créer d’autres pages de destination à partir de ce modèle.
 
 ## Etape 3 - Concevoir la landing page {#design-the-landing-page}
 
@@ -124,11 +132,11 @@ Pour plus d’informations sur le test d’une landing page, reportez-vous à [c
 
 Une fois les tests terminés, vous pouvez publier la landing page via le bouton **[!UICONTROL Publier]** de la barre d’actions du tableau de bord. Un bloc de suivi indique la progression et le statut de la publication.
 
-La publication de la page de destination permet de la rendre accessible en ligne.Une fois publiée, vous pouvez toujours la mettre à jour : pour cela, vous devez la publier de nouveau après chaque modification.Vous pouvez également dépublier une page de destination à tout moment afin qu’elle ne soit plus accessible.
+La publication de la page de destination permet de la rendre accessible en ligne. Une fois publiée, vous pouvez toujours la mettre à jour : pour cela, vous devez la publier de nouveau après chaque modification. Vous pouvez également dépublier une page de destination à tout moment afin qu’elle ne soit plus accessible.
 
 ![](assets/lp-steps6.png)
 
-Une fois publiée, votre page de destination est prête à être utilisée.Vous pouvez alors mettre en place différents mécanismes permettant d’y accéder afin d’acquérir de nouveaux profils dans votre base de données ou d’obtenir des informations complémentaires sur les profils existants.
+Une fois publiée, votre page de destination est prête à être utilisée. Vous pouvez alors mettre en place différents mécanismes permettant d’y accéder afin d’acquérir de nouveaux profils dans votre base de données ou d’obtenir des informations complémentaires sur les profils existants.
 
 Pour plus d’informations sur la publication d’une landing page, reportez-vous à [cette section](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
 

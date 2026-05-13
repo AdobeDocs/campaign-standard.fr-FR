@@ -6,9 +6,23 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
-source-wordcount: '1878'
+TQID: https://experienceleague.adobe.com/V4W1ZeT4iyA7SJXdVH-MQJLiJQN9WYGu-aghFFpj32c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1878
 ht-degree: 100%
 
 ---
@@ -27,7 +41,7 @@ Vous pouvez configurer les types de comptes externes suivants :
 * Adobe Analytics. Pour plus d’informations, consultez [cette section](../../integrating/using/configure-campaign-analytics-integration.md).
 * reCAPTCHA Google. Pour plus d’informations, consultez [cette section](#google-recaptcha-external-account).
 * Stockage Blob Microsoft Azure. Pour plus d’informations, consultez [cette section](#microsoft-azure-external-account).
-* OAuth 2.0Pour plus d’informations, consultez [cette section](#oauth-account).
+* OAuth 2.0 Pour plus d’informations, consultez [cette section](#oauth-account).
 
 >[!NOTE]
 >
@@ -37,9 +51,9 @@ Les comptes externes peuvent être configurés par les administrateurs depuis le
 
 ## Création d&#39;un compte externe {#creating-an-external-account}
 
-Un ensemble de comptes externes prédéfinis est livré avec Adobe Campaign.Pour configurer des connexions avec des systèmes externes comme des serveurs FTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes.
+Un ensemble de comptes externes prédéfinis est livré avec Adobe Campaign. Pour configurer des connexions avec des systèmes externes comme des serveurs FTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes.
 
-Les comptes externes sont utilisés par les processus techniques comme les workflows techniques ou de campagne.Lors de la configuration d’un transfert de fichier dans un workflow ou d’un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
+Les comptes externes sont utilisés par les processus techniques comme les workflows techniques ou de campagne. Lors de la configuration d’un transfert de fichier dans un workflow ou d’un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
 
 1. Cliquez sur le bouton **[!UICONTROL Créer]**.
 1. Saisissez un libellé. Le libellé et l’identifiant seront utilisés lors de la sélection des comptes externes dans les workflows.
@@ -64,15 +78,15 @@ Pour un compte externe SFTP, indiquez les informations suivantes :
 
 ### Recommandations relatives au serveur SFTP hébergé par Adobe {#adobe-hosted-sftp-server-recommendations}
 
-Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers sont stockés sur un serveur SFTP hébergé, fourni par Adobe.Ce SFTP est conçu en tant qu’espace de stockage temporaire sur lequel vous pouvez contrôler la conservation et la suppression des fichiers.
+Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers sont stockés sur un serveur SFTP hébergé, fourni par Adobe. Ce SFTP est conçu en tant qu’espace de stockage temporaire sur lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
-Lorsqu’il n’est pas correctement utilisé ou suivi, cet espace peut rapidement remplir l’espace physique disponible sur le serveur et entraîner de graves problèmes.Cela peut entraîner une perte ou une corruption de données sur votre plateforme.
+Lorsqu’il n’est pas correctement utilisé ou suivi, cet espace peut rapidement remplir l’espace physique disponible sur le serveur et entraîner de graves problèmes. Cela peut entraîner une perte ou une corruption de données sur votre plateforme.
 
 Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques suivantes :
 
 * Conservez le minimum de données possible.
 * Évitez l’expiration du mot de passe en utilisant l’authentification basée sur une clé. Seuls les formats **OpenSSH** et **SSH2** sont pris en charge. Il vous faudra fournir la clé publique à l’assistance d’Adobe pour qu’elle soit transférée sur le serveur Campaign.
-* Ne conservez les données que le temps nécessaire.Le délai maximal est de 15 jours.
+* Ne conservez les données que le temps nécessaire. Le délai maximal est de 15 jours.
 * Utilisez des workflows pour supprimer correctement les données (gérez la conservation depuis les workflows utilisant les données).
 * Utilisez des batchs dans les téléchargements SFTP ainsi que dans les workflows.
 * Gérez les erreurs/exceptions.

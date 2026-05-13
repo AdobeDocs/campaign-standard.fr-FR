@@ -6,9 +6,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
-source-wordcount: '8714'
+TQID: https://experienceleague.adobe.com/KaN9nMAWXIbyhlv6AzJXrsjfGz-ZJG3zWbaLanmddDQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 8714
 ht-degree: 100%
 
 ---
@@ -74,7 +85,7 @@ Un SMS contient plus d&#39;informations que de texte. Voici une liste de ce que 
 
 ## Protocole SMPP {#smpp-protocol}
 
-Adobe Campaign Standard prend en charge le protocole SMPP version 3.4.Il s’agit d’un protocole répandu qui permet d’envoyer des SMS à un fournisseur (SMSC) et de recevoir des SMS ainsi que des accusés de réception.Consultez à ce sujet la [documentation SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+Adobe Campaign Standard prend en charge le protocole SMPP version 3.4. Il s’agit d’un protocole répandu qui permet d’envoyer des SMS à un fournisseur (SMSC) et de recevoir des SMS ainsi que des accusés de réception. Consultez à ce sujet la [documentation SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 L&#39;équipement réseau côté fournisseur SMS est souvent appelé SMSC.
 
@@ -500,7 +511,7 @@ Exemple de transmission avec une fenêtre maximale de 4 :
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-La fenêtre permet d’augmenter le débit lorsque la liaison réseau présente une latence élevée.La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n&#39;attend jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
+La fenêtre permet d’augmenter le débit lorsque la liaison réseau présente une latence élevée.  La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n&#39;attend jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
 Si la fenêtre est trop grande, vous pouvez envoyer plus de messages en double en cas de problème de connexion. En outre, la plupart des fournisseurs ont une limite très stricte pour la fenêtre et refusent les messages qui dépassent la limite.
 
 Comment calculer la formule optimale de la fenêtre d&#39;émission :
@@ -547,7 +558,7 @@ Pour plus d&#39;informations, consultez la section [Encodage de texte SMS](../..
 
 Ce paramètre permet de définir un mapping de codage personnalisé différent de la spécification. Vous pourrez déclarer une liste d&#39;encodages, ainsi que leur valeur `data_coding`.
 
-Le MTA tentera d&#39;effectuer un encodage en utilisant le premier de la liste. S’il échoue, il tente d’utiliser le prochain encodage de la liste, etc. Si aucun encodage ne peut être utilisé pour encoder le message, une erreur se produit.Une fois l&#39;encodage trouvé, le MTA crée le `SUBMIT_SM PDU` avec le texte encodé et le champ `data_coding` défini avec la valeur spécifiée dans le tableau.
+Le MTA tentera d&#39;effectuer un encodage en utilisant le premier de la liste. S’il échoue, il tente d’utiliser le prochain encodage de la liste, etc. Si aucun encodage ne peut être utilisé pour encoder le message, une erreur se produit. Une fois l&#39;encodage trouvé, le MTA crée le `SUBMIT_SM PDU` avec le texte encodé et le champ `data_coding` défini avec la valeur spécifiée dans le tableau.
 
 L&#39;ordre des éléments du tableau est important : les encodages sont des tentatives de haut en bas. Placez l&#39;encodage le moins cher ou le plus recommandé en haut de la liste, puis choisissez des encodages de plus en plus chers.
 
@@ -652,7 +663,7 @@ Indique le format de l&#39;ID renvoyé dans le champ `message_id` du `SUBMIT_SM_
 
 * **Nombre décimal** : l&#39;ID doit être un nombre décimal au format ASCII. Les espaces de début et de fin et les zéros de début sont supprimés lorsque ce paramètre est utilisé.
 
-* **Nombre hexadécimal** : l’ID doit être un nombre hexadécimal au format ASCII, sans 0x au début ni h à la fin.L’ID est ensuite converti en nombre décimal avant d’être stocké dans la base de données.
+* **Nombre hexadécimal** : l’ID doit être un nombre hexadécimal au format ASCII, sans 0x au début ni h à la fin. L’ID est ensuite converti en nombre décimal avant d’être stocké dans la base de données.
 
 * **Chaîne hexadécimale** : l&#39;ID doit être un texte encodé en ASCII qui est lui-même une chaîne d&#39;octets encodés en hexadécimal. Par exemple, dans le PDU, vous trouverez `0x34 0x31 0x34 0x32 0x34 0x33`, qui se traduit par &quot;414243&quot; en ASCII. Cette chaîne est alors décodée sous la forme d&#39;une chaîne hexadécimale d&#39;octets et vous obtenez &quot;ABC&quot; en conséquence : vous stockerez l&#39;ID &quot;ABC&quot; dans la base de données.
 
@@ -831,15 +842,15 @@ Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile p
 ### Tester votre SMS {#test}
 
 * **Envoyer un SMS avec toutes sortes de caractères**
-Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d’envoyer des messages avec les caractères les plus variés possible.Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
+Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d’envoyer des messages avec les caractères les plus variés possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
 
 * **Vérifier que les SR sont correctement traités.**
-Le SMS doit être marqué comme reçu dans le log de diffusion.Le log de diffusion ne doit pas rencontrer de problème et se présenter comme suit :
+Le SMS doit être marqué comme reçu dans le log de diffusion. Le log de diffusion ne doit pas rencontrer de problème et se présenter comme suit :
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de diffusion ne doit jamais contenir **SR Generic** sur les environnements de production.
 
 * **Vérifier que les MO sont traités.**
-Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.),essayez de procéder à des tests.Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
+Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.), essayez de procéder à des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
 Archivez le log auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` réussi (command_status=0).
 
 ### Vérifier les PDU {#check-pdus}
@@ -852,7 +863,7 @@ Cette étape est nécessaire lors de la connexion avec un fournisseur qui n&#39;
 
 Vérifiez que les `BIND_* PDUs` sont correctement envoyés. La chose la plus importante à vérifier est que le fournisseur renvoie toujours un `BIND_*_RESP PDUs` (command_status = 0) réussi.
 
-Vérifiez qu’il n’y ait pas trop de `BIND_* PDU`.S’il y en a trop, cela peut indiquer que la connexion est instable.Pour plus d&#39;informations, consultez la section [Problèmes liés aux connexions instables](../../administration/using/sms-protocol.md#issues-unstable-connection).
+Vérifiez qu’il n’y ait pas trop de `BIND_* PDU`. S’il y en a trop, cela peut indiquer que la connexion est instable. Pour plus d&#39;informations, consultez la section [Problèmes liés aux connexions instables](../../administration/using/sms-protocol.md#issues-unstable-connection).
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 

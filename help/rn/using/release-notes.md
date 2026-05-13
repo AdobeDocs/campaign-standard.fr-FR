@@ -5,13 +5,24 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f06902aaa2fd6b5efbf15ad535a9794bb56775d4
-workflow-type: ht
-source-wordcount: '232'
+TQID: https://experienceleague.adobe.com/aZU5QXkuaOW5pN6kdHSfJ2aIJsbSMwlfqRi3XcNX9eI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 232
 ht-degree: 100%
 
 ---
-
 
 # Dernières notes de mise à jour {#latest-release}
 
@@ -36,12 +47,12 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ### Autres correctifs {#26-2-fixes}
 
-* Amélioration des rapports dynamiques pour une meilleure robustesse et une réduction des incohérences des données.(CAMP-58964)
-* Amélioration du mécanisme de connexion IMS pour une meilleure fiabilité.(CAMP-59418)
-* Amélioration de l’intégration du contenu AEM avec une meilleure gestion des URL pour les requêtes paginées.(CAMP-59540)
-* Ajout de la prise en charge de la saisie par mot de passe dans l’écran Options avec hachage automatique.(CAMP-60206)
-* Correction d’un problème en raison duquel les workflows temporaires utilisaient des identifiants de séquence incorrects.(CAMP-59824)
-* Correction d’un problème qui entraînait des erreurs lors de la récupération du contenu de la campagne AEM.(CAMP-59926)
+* Amélioration des rapports dynamiques pour une meilleure robustesse et une réduction des incohérences des données. (CAMP-58964)
+* Amélioration du mécanisme de connexion IMS pour une meilleure fiabilité. (CAMP-59418)
+* Amélioration de l’intégration du contenu AEM avec une meilleure gestion des URL pour les requêtes paginées. (CAMP-59540)
+* Ajout de la prise en charge de la saisie par mot de passe dans l’écran Options avec hachage automatique. (CAMP-60206)
+* Correction d’un problème en raison duquel les workflows temporaires utilisaient des identifiants de séquence incorrects. (CAMP-59824)
+* Correction d’un problème qui entraînait des erreurs lors de la récupération du contenu de la campagne AEM. (CAMP-59926)
 
 ## Version 26.1 (disponibilité limitée) {#26.1}
 
@@ -56,9 +67,9 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ### Autres correctifs {#26-1-fixes}
 
-* Amélioration des rapports dynamiques pour une meilleure robustesse et une réduction des incohérences des données.(CAMP-58964)
-* Amélioration du mécanisme de connexion IMS pour une meilleure fiabilité.(CAMP-59418)
-* Amélioration de l’intégration du contenu AEM avec une meilleure gestion des URL pour les requêtes paginées.(CAMP-59540)
-* Ajout de la prise en charge de la saisie par mot de passe dans l’écran Options avec hachage automatique.(CAMP-60206)
-* Correction d’un problème en raison duquel les workflows temporaires utilisaient des identifiants de séquence incorrects.(CAMP-59824)
-* Correction d’un problème qui entraînait des erreurs lors de la récupération du contenu de la campagne AEM.(CAMP-59926)
+* Amélioration des rapports dynamiques pour une meilleure robustesse et une réduction des incohérences des données. (CAMP-58964)
+* Amélioration du mécanisme de connexion IMS pour une meilleure fiabilité. (CAMP-59418)
+* Amélioration de l’intégration du contenu AEM avec une meilleure gestion des URL pour les requêtes paginées. (CAMP-59540)
+* Ajout de la prise en charge de la saisie par mot de passe dans l’écran Options avec hachage automatique. (CAMP-60206)
+* Correction d’un problème en raison duquel les workflows temporaires utilisaient des identifiants de séquence incorrects. (CAMP-59824)
+* Correction d’un problème qui entraînait des erreurs lors de la récupération du contenu de la campagne AEM. (CAMP-59926)
