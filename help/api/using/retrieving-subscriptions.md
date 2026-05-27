@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
 source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Exécutez une requête GET pour récupérer le service.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-La requête renvoie l’URL des abonnements du service.
+Elle renvoie l’URL des abonnements du service.
 
 ```
   {
