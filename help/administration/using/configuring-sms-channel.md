@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 100%
 
@@ -88,183 +88,183 @@ Vous pouvez si vous le souhaitez autoriser la translittération des caractères 
 
 La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM.
 
-* Lorsque la translittération est **autorisée**, chaque caractère non pris en charge est remplacé par un caractère GSM lors de l’envoi du message.Par exemple, la lettre « ë » est remplacée par « e ».Le message est donc légèrement modifié, mais la limite de caractères reste la même.
-* Lorsque la translittération **n’est pas autorisée**, chaque message contenant des caractères non pris en charge est envoyé au format binaire (Unicode) : tous les caractères sont transmis tels quels.Or les SMS utilisant l’encodage Unicode sont limités à 70 caractères (ou 67 caractères par SMS pour les messages envoyés en plusieurs parties).Si le nombre de caractères maximal est dépassé, plusieurs messages sont alors envoyés, ce qui peut générer des coûts supplémentaires.
+* Lorsque la translittération est **autorisée**, chaque caractère non pris en charge est remplacé par un caractère GSM lors de l’envoi du message. Par exemple, la lettre « ë » est remplacée par « e ». Le message est donc légèrement modifié, mais la limite de caractères reste la même.
+* Lorsque la translittération **n’est pas autorisée**, chaque message contenant des caractères non pris en charge est envoyé au format binaire (Unicode) : tous les caractères sont transmis tels quels. Or les SMS utilisant l’encodage Unicode sont limités à 70 caractères (ou 67 caractères par SMS pour les messages envoyés en plusieurs parties). Si le nombre de caractères maximal est dépassé, plusieurs messages sont alors envoyés, ce qui peut générer des coûts supplémentaires.
 
 >[!IMPORTANT]
 >
 >L’insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l’encodage GSM. Un exemple de contenu est proposé dans la section [Personnaliser un SMS](../../channels/using/personalizing-sms-messages.md).
 
-Par défaut, la translittération des caractères est désactivée.Si vous souhaitez que tous les caractères de vos SMS soient conservés, pour ne pas altérer les noms propres par exemple, il est recommandé de ne pas activer cette option.
+Par défaut, la translittération des caractères est désactivée. Si vous souhaitez que tous les caractères de vos SMS soient conservés, pour ne pas altérer les noms propres par exemple, il est recommandé de ne pas activer cette option.
 
 En revanche, si vos SMS contiennent beaucoup de caractères générant des messages Unicode, vous pouvez choisir d&#39;activer cette option afin de limiter le coût de vos envois.
 
 ### Tables des caractères - Norme GSM {#table-of-characters---gsm-standard}
 
-Cette section présente les caractères pris en compte par la norme GSM.Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères.Pour en savoir plus, consultez la section [Encodage, longueur et translittération des SMS](#sms-encoding--length-and-transliteration).
+Cette section présente les caractères pris en compte par la norme GSM. Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères. Pour en savoir plus, consultez la section [Encodage, longueur et translittération des SMS](#sms-encoding--length-and-transliteration).
 
 **Caractères simples**
 
 <table> 
  <tbody> 
   <tr> 
-   <td>@<br /></td> 
-   <td><img height="21px" src="assets/delta.png" /> <br /></td> 
-   <td>SP<br /></td> 
-   <td>0<br /></td> 
-   <td>¡<br /></td> 
-   <td>P<br /></td> 
-   <td>¿<br /></td> 
-   <td>P<br /></td> 
+   <td> @<br /> </td> 
+   <td> <img height="21px" src="assets/delta.png" /> <br /> </td> 
+   <td> SP<br /> </td> 
+   <td> 0<br /> </td> 
+   <td> ¡<br /> </td> 
+   <td> P<br /> </td> 
+   <td> ¿<br /> </td> 
+   <td> P<br /> </td> 
   </tr> 
   <tr> 
-   <td>£<br /></td> 
-   <td>_<br /></td> 
-   <td>!<br /></td> 
-   <td>1<br /></td> 
-   <td>A<br /></td> 
-   <td>Q<br /></td> 
-   <td>a<br /></td> 
-   <td>q<br /></td> 
+   <td> £<br /> </td> 
+   <td> _<br /> </td> 
+   <td> !<br /> </td> 
+   <td> 1<br /> </td> 
+   <td> A<br /> </td> 
+   <td> Q<br /> </td> 
+   <td> a<br /> </td> 
+   <td> q<br /> </td> 
   </tr> 
   <tr> 
-   <td>$<br /></td> 
-   <td><img height="21px" src="assets/phi.png" /> <br /></td> 
-   <td>"<br /></td> 
-   <td>2<br /></td> 
-   <td>B<br /></td> 
-   <td>R<br /></td> 
-   <td>b<br /></td> 
-   <td>r<br /></td> 
+   <td> $<br /> </td> 
+   <td> <img height="21px" src="assets/phi.png" /> <br /> </td> 
+   <td> "<br /> </td> 
+   <td> 2<br /> </td> 
+   <td> B<br /> </td> 
+   <td> R<br /> </td> 
+   <td> b<br /> </td> 
+   <td> r<br /> </td> 
   </tr> 
   <tr> 
-   <td>¥<br /></td> 
-   <td><img height="21px" src="assets/gamma.png" /> <br /></td> 
-   <td>#<br /></td> 
-   <td>3<br /></td> 
-   <td>C<br /></td> 
-   <td>S<br /></td> 
-   <td>c<br /></td> 
-   <td>s<br /></td> 
+   <td> ¥<br /> </td> 
+   <td> <img height="21px" src="assets/gamma.png" /> <br /> </td> 
+   <td> #<br /> </td> 
+   <td> 3<br /> </td> 
+   <td> C<br /> </td> 
+   <td> S<br /> </td> 
+   <td> c<br /> </td> 
+   <td> s<br /> </td> 
   </tr> 
   <tr> 
-   <td>è<br /></td> 
-   <td><img height="21px" src="assets/delta.png" /> <br /></td> 
-   <td>¤<br /></td> 
-   <td>4<br /></td> 
-   <td>D<br /></td> 
-   <td>T<br /></td> 
-   <td>d<br /></td> 
-   <td>t<br /></td> 
+   <td> è<br /> </td> 
+   <td> <img height="21px" src="assets/delta.png" /> <br /> </td> 
+   <td> ¤<br /> </td> 
+   <td> 4<br /> </td> 
+   <td> D<br /> </td> 
+   <td> T<br /> </td> 
+   <td> d<br /> </td> 
+   <td> t<br /> </td> 
   </tr> 
   <tr> 
-   <td>é<br /></td> 
-   <td><img height="21px" src="assets/omega.png" /> <br /></td> 
-   <td>%<br /></td> 
-   <td>5<br /></td> 
-   <td>E<br /></td> 
-   <td>U<br /></td> 
-   <td>e<br /></td> 
-   <td>u<br /></td> 
+   <td> é<br /> </td> 
+   <td> <img height="21px" src="assets/omega.png" /> <br /> </td> 
+   <td> %<br /> </td> 
+   <td> 5<br /> </td> 
+   <td> E<br /> </td> 
+   <td> U<br /> </td> 
+   <td> e<br /> </td> 
+   <td> u<br /> </td> 
   </tr> 
   <tr> 
-   <td>ù<br /></td> 
-   <td><img height="21px" src="assets/pi.png" /> <br /></td> 
-   <td>&amp;<br /></td> 
-   <td>6<br /></td> 
-   <td>F<br /></td> 
-   <td>V<br /></td> 
-   <td>f<br /></td> 
-   <td>v<br /></td> 
+   <td> ù<br /> </td> 
+   <td> <img height="21px" src="assets/pi.png" /> <br /> </td> 
+   <td> &amp;<br /> </td> 
+   <td> 6<br /> </td> 
+   <td> F<br /> </td> 
+   <td> V<br /> </td> 
+   <td> f<br /> </td> 
+   <td> v<br /> </td> 
   </tr> 
   <tr> 
-   <td>ì<br /></td> 
-   <td><img height="21px" src="assets/psi.png" /> <br /></td> 
-   <td>'<br /></td> 
-   <td>7<br /></td> 
-   <td>G<br /></td> 
-   <td>W<br /></td> 
-   <td>g<br /></td> 
-   <td>w<br /></td> 
+   <td> ì<br /> </td> 
+   <td> <img height="21px" src="assets/psi.png" /> <br /> </td> 
+   <td> '<br /> </td> 
+   <td> 7<br /> </td> 
+   <td> G<br /> </td> 
+   <td> W<br /> </td> 
+   <td> g<br /> </td> 
+   <td> w<br /> </td> 
   </tr> 
   <tr> 
-   <td>ò<br /></td> 
-   <td><img height="21px" src="assets/sigma.png" /> <br /></td> 
-   <td>(<br /></td> 
-   <td>8<br /></td> 
-   <td>H<br /></td> 
-   <td>X<br /></td> 
-   <td>h<br /></td> 
-   <td>x<br /></td> 
+   <td> ò<br /> </td> 
+   <td> <img height="21px" src="assets/sigma.png" /> <br /> </td> 
+   <td> (<br /> </td> 
+   <td> 8<br /> </td> 
+   <td> H<br /> </td> 
+   <td> X<br /> </td> 
+   <td> h<br /> </td> 
+   <td> x<br /> </td> 
   </tr> 
   <tr> 
-   <td>Ç<br /></td> 
-   <td><img height="21px" src="assets/theta.png" /> <br /></td> 
-   <td>)<br /></td> 
-   <td>9</td> 
-   <td>I<br /></td> 
-   <td>Y<br /></td> 
-   <td>i<br /></td> 
-   <td>y<br /></td> 
+   <td> Ç<br /> </td> 
+   <td> <img height="21px" src="assets/theta.png" /> <br /> </td> 
+   <td> )<br /> </td> 
+   <td> 9 </td> 
+   <td> I<br /> </td> 
+   <td> Y<br /> </td> 
+   <td> i<br /> </td> 
+   <td> y<br /> </td> 
   </tr> 
   <tr> 
-   <td>LF<br /></td> 
-   <td><img height="21px" src="assets/xi.png" /> <br /></td> 
-   <td>*<br /></td> 
-   <td>:<br /></td> 
-   <td>J<br /></td> 
-   <td>Z<br /></td> 
-   <td>j<br /></td> 
-   <td>z<br /></td> 
+   <td> LF<br /> </td> 
+   <td> <img height="21px" src="assets/xi.png" /> <br /> </td> 
+   <td> *<br /> </td> 
+   <td> :<br /> </td> 
+   <td> J<br /> </td> 
+   <td> Z<br /> </td> 
+   <td> j<br /> </td> 
+   <td> z<br /> </td> 
   </tr> 
   <tr> 
-   <td>Ø<br /></td> 
-   <td>ESC<br /></td> 
-   <td>+<br /></td> 
-   <td>;<br /></td> 
-   <td>K<br /></td> 
-   <td>Ä<br /></td> 
-   <td>k<br /></td> 
-   <td>ä<br /></td> 
+   <td> Ø<br /> </td> 
+   <td> ESC<br /> </td> 
+   <td> +<br /> </td> 
+   <td> ;<br /> </td> 
+   <td> K<br /> </td> 
+   <td> Ä<br /> </td> 
+   <td> k<br /> </td> 
+   <td> ä<br /> </td> 
   </tr> 
   <tr> 
-   <td>ø<br /></td> 
-   <td>Æ<br /></td> 
-   <td>,<br /></td> 
-   <td>&lt;<br /></td> 
-   <td>L<br /></td> 
-   <td>Ö<br /></td> 
-   <td>l<br /></td> 
-   <td>ö<br /></td> 
+   <td> ø<br /> </td> 
+   <td> Æ<br /> </td> 
+   <td> ,<br /> </td> 
+   <td> &lt;<br /> </td> 
+   <td> L<br /> </td> 
+   <td> Ö<br /> </td> 
+   <td> l<br /> </td> 
+   <td> ö<br /> </td> 
   </tr> 
   <tr> 
-   <td>CR<br /></td> 
-   <td>æ<br /></td> 
-   <td>-<br /></td> 
-   <td>=</td> 
-   <td>M<br /></td> 
-   <td>Ñ<br /></td> 
-   <td>m<br /></td> 
-   <td>ñ<br /></td> 
+   <td> CR<br /> </td> 
+   <td> æ<br /> </td> 
+   <td> -<br /> </td> 
+   <td> = </td> 
+   <td> M<br /> </td> 
+   <td> Ñ<br /> </td> 
+   <td> m<br /> </td> 
+   <td> ñ<br /> </td> 
   </tr> 
   <tr> 
-   <td>Å<br /></td> 
-   <td>ß<br /></td> 
-   <td>.<br /></td> 
-   <td>&gt;<br /></td> 
-   <td>N<br /></td> 
-   <td>Ü<br /></td> 
-   <td>n<br /></td> 
-   <td>ü<br /></td> 
+   <td> Å<br /> </td> 
+   <td> ß<br /> </td> 
+   <td> .<br /> </td> 
+   <td> &gt;<br /> </td> 
+   <td> N<br /> </td> 
+   <td> Ü<br /> </td> 
+   <td> n<br /> </td> 
+   <td> ü<br /> </td> 
   </tr> 
   <tr> 
-   <td>å<br /></td> 
-   <td>É<br /></td> 
-   <td>/<br /></td> 
-   <td>?<br /></td> 
-   <td>O<br /></td> 
-   <td>§<br /></td> 
-   <td>o<br /></td> 
+   <td> å<br /> </td> 
+   <td> É<br /> </td> 
+   <td> /<br /> </td> 
+   <td> ?<br /> </td> 
+   <td> O<br /> </td> 
+   <td> §<br /> </td> 
+   <td> o<br /> </td> 
    <td> à<br /> </td> 
   </tr> 
  </tbody> 
@@ -288,7 +288,7 @@ CR : retour chariot (Carriage Return)
 >
 >Ces options permettent d’adapter le connecteur à une utilisation avec un SMSC non standard (par exemple qui ne suit pas exactement les spécificités du protocole SMPP 3.4) ou avec des exigences d’encodage spécifiques ; seuls les utilisateurs et utilisatrices experts peuvent les configurer.
 
-Lors de l’envoi d’un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte.Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu’il est possible de mettre dans un SMS dépend de l’encodage.
+Lors de l’envoi d’un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte. Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu’il est possible de mettre dans un SMS dépend de l’encodage.
 
 Le champ **[!UICONTROL DATA_CODING]** permet à Adobe Campaign de signaler au SMS-C l’encodage utilisé.
 
@@ -311,7 +311,7 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
 
   L’ordre de déclaration est important : il est recommandé d’ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
 
-  Ne déclarez que les encodages que vous souhaitez utiliser.Si certains encodages fournis par le SMS-C ne correspondent pas à votre utilisation, ne les déclarez pas dans la liste.
+  Ne déclarez que les encodages que vous souhaitez utiliser. Si certains encodages fournis par le SMS-C ne correspondent pas à votre utilisation, ne les déclarez pas dans la liste.
 
   ![](assets/sms_data_coding1.png)
 
