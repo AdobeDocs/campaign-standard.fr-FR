@@ -212,4 +212,4 @@ Le composant carrousel n’est pas compatible avec tous les programmes de messag
 - [Sélectionner une audience dans un message](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Planification de l&#39;envoi des messages](../../sending/using/about-scheduling-messages.md)
 - [Prévisualiser un message](../../sending/using/previewing-messages.md)
-- [Rendu des e-mails](../../sending/using/email-rendering.md)
+- [Rendu des emails](../../sending/using/email-rendering.md)
