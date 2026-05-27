@@ -144,6 +144,6 @@ Pour plus d’informations sur la publication d’une landing page, reportez-vou
 
 Cette vidéo montre comment créer et modifier une landing page.
 
->[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36633?captions=fre_fr&quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
