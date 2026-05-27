@@ -5,7 +5,7 @@ user-guide-description: Documentation produit pour Adobe Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation de Campaign Standard
 source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ ht-degree: 100%
       + [À propos des SMS](channels/using/about-sms-messages.md)
       + [Créer un SMS](channels/using/creating-an-sms-message.md)
       + [Personnaliser un SMS](channels/using/personalizing-sms-messages.md)
-      + [Gestion des SMS entrants](channels/using/managing-incoming-sms.md)
+      + [Gérer les SMS entrants](channels/using/managing-incoming-sms.md)
       + [À propos de la conception du contenu d&#39;un SMS et d&#39;une notification push](channels/using/about-sms-and-push-content-design.md)
       + [Interface de l&#39;éditeur de contenu de SMS et de notification push](channels/using/sms-and-push-content-editor-interface.md)
       + [Définir un texte dynamique](channels/using/defining-dynamic-text.md)
@@ -323,7 +323,7 @@ ht-degree: 100%
       + [À propos des activités des canaux](automating/using/about-channel-activities.md)
       + [Diffusion e-mail](automating/using/email-delivery.md)
       + [Diffusion SMS](automating/using/sms-delivery.md)
-      + [Diffusion Notification push](automating/using/push-notification-delivery.md)
+      + [Diffusion notification push](automating/using/push-notification-delivery.md)
       + [Diffusion courrier](automating/using/direct-mail-delivery.md)
       + [Diffusion in-app](automating/using/in-app-delivery.md)
    + Activités de gestion des données {#data-management-activities}
