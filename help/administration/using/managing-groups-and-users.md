@@ -7,15 +7,10 @@ role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 TQID: https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1063
@@ -35,7 +30,7 @@ Les groupes de sécurité sont des ensembles d&#39;utilisateurs qui partagent le
 
 Les utilisateurs doivent toujours être rattachés à un groupe de sécurité Cela vous permettra de leur attribuer des rôles et des entités organisationnelles spécifiques. Si vous souhaitez restreindre les accès d’un utilisateur, ne l’ajoutez pas dans le groupe des **[!UICONTROL Utilisateurs standard]**, car celui-ci est rattaché à **[!UICONTROL toute]** l’entité organisationnelle.
 
-Pour plus d’informations sur les rôles, le tableau de la page suivante reprend les différentes opérations possibles en fonction du ou des rôle des l’utilisateur : [Autorisations dans Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
+Pour plus d’informations sur les rôles, le tableau de la page suivante reprend les différentes opérations possibles en fonction du ou des rôle des l’utilisateur : [Autorisations dans Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Les groupes de sécurité par défaut sont :
 
