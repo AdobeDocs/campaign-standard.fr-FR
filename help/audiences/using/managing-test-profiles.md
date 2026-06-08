@@ -91,6 +91,6 @@ Pour éditer un profil de test et consulter les données qui lui sont associées
 
 Cette vidéo montre comment créer un profil de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30595?captions=fre_fr&quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
