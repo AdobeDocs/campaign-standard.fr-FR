@@ -11,15 +11,12 @@ role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
 TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 391
+workflow-type: ht
+source-wordcount: 381
 ht-degree: 100%
 
 ---
@@ -78,7 +75,7 @@ Vous pouvez envoyer un email à des clients et ensuite un SMS à ceux qui n&#39;
 1. Pour créer la mise en page de votre SMS, cliquez sur **[!UICONTROL concepteur d’e-mail]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
 1. Personnalisez votre SMS avec des offres spécifiques à chaque emplacement.
-Pour plus d’informations, voir la section [Conception d’un SMS](../../channels/using/creating-an-sms-message.md).
+Pour plus d’informations, consultez la section [Conception d’un SMS](../../channels/using/creating-an-sms-message.md).
 1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre mise en page.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

@@ -11,15 +11,12 @@ role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 TQID: https://experienceleague.adobe.com/rja9hRgWDhDnLMNIYwt28rtxJrPyYnuwOa2XKR23uKA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1881
+workflow-type: ht
+source-wordcount: 1842
 ht-degree: 100%
 
 ---
@@ -148,8 +145,8 @@ En ajoutant un champ simple comme donnée additionnelle, celui-ci devient direct
 
 ### Ajouter un agrégat {#adding-an-aggregate}
 
-Les agrégats permettent de calculer des valeurs à partir de champs de la dimension de ciblage ou de champs des dimensions liées à la dimension de ciblage. Par exemple : la moyenne des achats réalisés par un profil.
-Lorsque vous utilisez l’agrégat avec une requête, sa fonction peut revenir à zéro ce qui est alors considéré comme NULL. Utilisez l’onglet **[!UICONTROL Affiner la cible]** de votre requête pour filtrer la valeur agrégée :
+Les agrégats permettent de calculer les valeurs à partir des champs de la dimension de ciblage ou des champs des dimensions liées à la dimension de ciblage. Par exemple : le montant moyen acheté par un profil.
+Lors de l’utilisation de l’agrégat avec la requête, sa fonction peut revenir à zéro, qui est alors considéré comme NUL. Utilisez l’onglet **[!UICONTROL Filtrage de sortie]** de votre requête pour filtrer la valeur agrégée :
 
 * si vous voulez des valeurs nulles, vous devez filtrer sur **[!UICONTROL est Null]**.
 * si vous ne souhaitez pas de valeurs nulles, filtrez sur **[!UICONTROL n’est pas Null]**.

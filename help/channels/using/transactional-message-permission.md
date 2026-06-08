@@ -10,17 +10,12 @@ role: User
 level: Intermediate
 exl-id: 995da330-6c86-444b-86b2-61d887f37db4
 TQID: https://experienceleague.adobe.com/mO3RyLftfTtksp6J4waIdBBWIpPqozhU6TIVXT99Tfs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 830
 ht-degree: 100%
 
@@ -52,11 +47,11 @@ Pour attribuer le rôle **Utilisateur ou utilisatrice MC** à votre groupe de s
 
    ![](assets/event_access_1.png)
 
-1. Sélectionnez le **[!UICONTROL Rôle]** Utilisateur ou utilisatrice MC et cliquez sur **[!UICONTROL Confirmer]**.
+1. Sélectionner le **[!UICONTROL Rôle]** Utilisateur/utilisatrice MC et cliquez sur **[!UICONTROL Confirmer]**.
 
    >[!IMPORTANT]
    >
-   > Procédez avec précaution lorsque vous attribuez le rôle Utilisateur ou utilisatrice MC aux opérateurs et opératrices, car cela leur permet de dépublier des événements.
+   > Procédez avec précaution lorsque vous attribuez le rôle Utilisateur/utilisatrice MC aux opérateurs, car cela leur permet de dépublier des événements.
 
    ![](assets/event_access_2.png)
 

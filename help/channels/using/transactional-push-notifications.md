@@ -10,16 +10,12 @@ role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
 TQID: https://experienceleague.adobe.com/iL7T6x6t2hi3QAw5osARvnBAqTPTXsFnLBCAq4H1B0k
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1504
 ht-degree: 100%
 
@@ -94,7 +90,7 @@ Pour ce faire, la compagnie enverra une notification push transactionnelle par u
 
    ![](assets/message-center_push_content.png)
 
-   Pour trouver ces champs, cliquez sur le crayon situé en regard d’un élément, cliquez sur **[!UICONTROL Insérer un champ de personnalisation]** et sélectionnez **[!UICONTROL Contexte]** > **[!UICONTROL Événement en temps réel]** > **[!UICONTROL Contexte de l’événement]**.
+   Pour trouver ces champs, cliquez sur le crayon situé en regard d&#39;un élément, cliquez sur **[!UICONTROL Insérer un champ de personnalisation]** et sélectionnez **[!UICONTROL Contexte]** > **[!UICONTROL Événement en temps réel]** > **[!UICONTROL Contexte de l&#39;événement]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -150,7 +146,7 @@ Pour envoyer une notification push transactionnelle aux profils Adobe Campaign 
 
    ![](assets/message-center_push_appfilter.png)
 
-1. Ajoutez des champs à l’événement si vous voulez personnaliser le message transactionnel (consultez [Définir les attributs d’événement](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
+1. Ajoutez des champs à l&#39;événement si vous voulez personnaliser le message transactionnel (voir [Définir les attributs d&#39;événement](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
 
    >[!NOTE]
    >
@@ -225,7 +221,7 @@ Pour modifier ce mapping de ciblage, procédez comme suit :
 
    >[!NOTE]
    >
-   >Pour optimiser le temps et les performances de préparation de la diffusion lors de l’envoi de notifications push transactionnelles **basées sur profil**, utilisez le mapping de ciblage **[!UICONTROL Profil - Événement en temps réel pour les notifications push (mapRtEventAppSubRcp)]**.
+   >Pour optimiser le temps et les performances de préparation de la diffusion lors de l&#39;envoi de notifications push transactionnelles **basées sur profil**, utilisez le mapping de ciblage **[!UICONTROL Profil - Événement en temps réel pour les notifications push (mapRtEventAppSubRcp)]**.
 
    ![](assets/message-center_push_target-mapping_change.png)
 

@@ -9,18 +9,13 @@ role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 TQID: https://experienceleague.adobe.com/uEAfmHvm5tpDoCp9nEQeveyH0oBvmP24IvkUy73QPSw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1254
 ht-degree: 100%
 
@@ -72,7 +67,7 @@ Pour créer et configurer cette landing page, vous devez :
 
    ![](assets/optin_confirmlp_design.png)
 
-1. Adaptez le contenu de la page de confirmation pour informer vos personnes abonnées qu’elles sont maintenant inscrites.
+1. Adaptez le contenu de la page de confirmation pour informer vos abonnés qu&#39;ils sont maintenant inscrits.
 
    ![](assets/optin_confimlp_page2.png)
 
@@ -154,7 +149,7 @@ Pour créer et configurer cette landing page, vous devez :
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Personnalisez la page de confirmation pour informer les nouvelles personnes abonnées qu’elles doivent valider leur abonnement.
+1. Personnalisez la page de confirmation pour informer les nouveaux abonnés qu’ils doivent valider leur abonnement.
 
    ![](assets/optin_acquisition_page2.png)
 

@@ -10,16 +10,12 @@ role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 TQID: https://experienceleague.adobe.com/p8VXPIBMiH5wLdLlD0aIoOmZPzKtxq0oT-tb8BG8kAk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1027
 ht-degree: 100%
 
@@ -60,7 +56,7 @@ Dans ce cas pratique, nous allons créer un déclencheur simple qui se déclench
 
    ![](assets/trigger_uc_browse_1.png)
 
-1. Choisissez un type de déclencheur (**[!UICONTROL Abandon]**, dans ce cas d’utilisation).
+1. Choisissez un type de déclencheur (**[!UICONTROL Abandon]**, dans ce cas pratique).
 
    ![](assets/trigger_uc_browse_2.png)
 
@@ -83,7 +79,7 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dan
 
    ![](assets/trigger_uc_browse_5.png)
 
-1. Sélectionnez le canal **[!UICONTROL E-mail]** et la dimension de ciblage **[!UICONTROL Événement temps réel]**, puis cliquez sur **[!UICONTROL Créer]**.
+1. Sélectionnez le canal **[!UICONTROL Email]** et la dimension de ciblage **[!UICONTROL Evénement temps réel]**, puis cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/trigger_uc_browse_6bis.png)
 
@@ -107,7 +103,7 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dan
 
    ![](assets/trigger_uc_browse_9.png)
 
-1. La personne destinataire ouvre l’e-mail.
+1. Le destinataire ouvre l&#39;email.
 
    ![](assets/trigger_uc_browse_10.png)
 
@@ -119,7 +115,7 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dan
 
    ![](assets/trigger_uc_browse_12.png)
 
-1. À tout moment, vous pouvez vérifier les logs Experience Cloud pour voir combien de fois le déclencheur s’est lancé.
+1. À tout moment, vous pouvez vérifier les logs Experience Cloud pour voir combien de fois le déclencheur s&#39;est lancé.
 
    ![](assets/trigger_uc_browse_13.png)
 
@@ -150,11 +146,11 @@ La section **[!UICONTROL Inclure les métadonnées]** vous permet de transférer
 
    ![](assets/trigger_uc_search_3.png)
 
-1. Dans cet exemple, nous avons choisi d’inclure le terme de recherche de la destination dans l’objet de l’e-mail et dans le corps de l’e-mail.
+1. Dans cet exemple, nous avons choisi d&#39;inclure le terme de recherche de la destination dans l&#39;objet de l&#39;email et dans le corps de l&#39;émail.
 
    ![](assets/trigger_uc_search_4.png)
 
-1. Lors de la sélection d’un champ de personnalisation, cherchez les métadonnées de la payload dans la table **Événement transactionnel** (rtEvent), puis dans la sous-table **Contexte de l’événement** (ctx).
+1. Lors de la sélection d&#39;un champ de personnalisation, cherchez les métadonnées de la payload dans la table **Evénement transactionnel** (rtEvent) puis dans la sous-table **Contexte de l&#39;événement** (ctx).
 
    ![](assets/trigger_uc_search_5.png)
 

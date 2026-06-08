@@ -9,17 +9,13 @@ role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1040
+workflow-type: ht
+source-wordcount: 1001
 ht-degree: 100%
 
 ---
@@ -59,11 +55,11 @@ Consultez l’exemple de fichier CSV en cliquant sur **[!UICONTROL Télécharger
 
 ## Contraintes et instructions relatives à la création d’un fichier CSV {#constraints-guideline-csv}
 
-**Le nom de chaque colonne est fixe**.
+**Le nom de chaque colonne est défini**.
 Vous devez inclure le nom de chaque colonne dans le fichier CSV. Si vous n’utilisez aucune colonne pour le contenu, laissez-la vide.
 
-**Les colonnes « locale » et « language » sont obligatoires et la valeur est unique pour chaque ligne.**
-Une valeur vide pour cette colonne entraînera un échec de chargement de fichier.
+**Les colonnes « paramètre régional » et « langue » sont obligatoires et la valeur est unique pour chaque ligne.**
+Une valeur vide pour cette colonne entraîne l’échec du chargement du fichier.
 
 **L’ordre des colonnes est important**. L’ordre des colonnes dans le fichier téléchargé doit respecter le même format que le fichier d’exemple.
 

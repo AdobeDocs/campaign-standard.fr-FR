@@ -10,16 +10,12 @@ role: Developer
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
 TQID: https://experienceleague.adobe.com/-MOTkG1XRoqVckcmiFoUgFZK2Ae47h86Y6nGrSM-CGs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 835
 ht-degree: 100%
 
@@ -99,7 +95,7 @@ Pour plus d’informations sur l’utilisation de cette activité, consultez [ce
 
 ![](assets/extsignal_activities_query.png)
 
-Activités **[!UICONTROL Canaux]** : personnalisez des diffusions en fonction de variables d’événements.
+**[!UICONTROL Activités Canaux]** : personnalisez des diffusions en fonction de variables d’événements.
 
 >[!NOTE]
 >
@@ -138,7 +134,7 @@ Les variables d’événements déclarées sont à présent disponibles dans la 
 
 >[!NOTE]
 >
->Cette action peut être réalisée à partir de n’importe quelle activité qui vous permet de définir un code segment, par exemple des activités **[!UICONTROL Requête]** ou **[!UICONTROL Segmentation]**.
+>Cette action peut être réalisée à partir de n’importe quelle activité qui vous permet de définir un code segment, tel que des activités **[!UICONTROL Requête]** ou **[!UICONTROL Segmentation]**.
 
 ![](assets/extsignal_activities_segment.png)
 

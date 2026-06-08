@@ -11,14 +11,11 @@ role: Developer
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
 TQID: https://experienceleague.adobe.com/eSWqj-qyCQkrDNHl-7Pc6It5oBFHSBNG3-F0aoNiRYY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 442
 ht-degree: 100%
 
@@ -88,7 +85,7 @@ Dans la page **[!UICONTROL Produits]**, sélectionnez votre instance Campaign et
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Développeurs et développeuses]**.
+1. Cliquez sur l’onglet **[!UICONTROL Développeurs]**.
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 

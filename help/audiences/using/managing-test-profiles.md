@@ -10,16 +10,12 @@ role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 TQID: https://experienceleague.adobe.com/csDw0anKGvAW22BcB5p0Rb1bHYA2NvdWpLVIWtZrC98
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 471
 ht-degree: 100%
 
@@ -61,11 +57,11 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
    ![](assets/test_profile_creation_3.png)
 
-1. Sélectionnez l’usage prévu du profil de test.
+1. Sélectionnez l&#39;usage du profil de test.
 
    ![](assets/test_profile_creation_4.png)
 
-1. Renseignez les canaux de contacts **[!UICONTROL E-mail, Téléphone, Mobile, Application mobile]**, ainsi que l’adresse du profil de test si besoin.
+1. Renseignez les canaux de contacts **[!UICONTROL Email, Téléphone, Mobile, Application mobile]**, ainsi que l&#39;adresse du profil de test si besoin.
 
    >[!NOTE]
    >
@@ -91,6 +87,6 @@ Pour éditer un profil de test et consulter les données qui lui sont associées
 
 Cette vidéo montre comment créer un profil de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/30595?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

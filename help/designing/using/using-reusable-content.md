@@ -9,19 +9,14 @@ role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 TQID: https://experienceleague.adobe.com/OyHSlh5OPs1dt0kA67RYrb4beKDelLNfWGK4iB0GP54
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1899
+workflow-type: ht
+source-wordcount: 1886
 ht-degree: 100%
 
 ---
@@ -158,7 +153,7 @@ Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que 
 
 Cette vidéo montre comment créer votre propre modèle.
 
->[!VIDEO](https://video.tv.adobe.com/v/37585?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
@@ -169,8 +164,8 @@ D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https
 >title="À propos des fragments"
 >abstract="Un fragment est un bloc de contenu réutilisable pouvant être référencé dans un ou plusieurs emails."
 
-Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
-Il se trouve dans l’interface sous **Ressources** > **Modèles et fragments de contenu**.
+Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails.
+Vous pouvez en trouver dans l’interface sous **Ressources** > **Fragments de contenu et modèles**.
 
 Pour optimiser les fragments dans le Concepteur d&#39;email :
 
@@ -195,11 +190,11 @@ Pour définir le contenu de votre email, vous pouvez ajouter des éléments de c
 
    ![](assets/email_designer_fragmentsearch.png)
 
-1. Déposez un composant de contenu ou un fragment depuis la palette dans un composant de structure de l’e-mail.
+1. Déposez un composant de contenu ou un fragment depuis la palette dans un composant de structure de l&#39;email.
 
    ![](assets/email_designer_addfragment.png)
 
-   Une fois un élément ajouté à l’e-mail, il peut être déplacé à l’intérieur du composant de structure ou vers un autre composant de structure de l’e-mail.
+   Une fois un élément ajouté à l&#39;email, il peut être déplacé à l&#39;intérieur du composant de structure ou vers un autre composant de structure de l&#39;email.
 
    ![](assets/email_designer_movefragment.png)
 
@@ -264,11 +259,11 @@ Lorsque vous éditez un email avec le concepteur d’e-mail, vous pouvez enregis
 * Vous pouvez uniquement sélectionner des structures adjacentes.
   <!-- - You cannot select an empty structure.-->
 
-1. Lors de la modification d’un e-mail dans le concepteur d’e-mail, sélectionnez **[!UICONTROL Enregistrer en tant que fragment]** dans la barre d’outils principale.
+1. Lors de l&#39;édition d&#39;un email dans le concepteur d’e-mail, sélectionnez **[!UICONTROL Enregistrer en tant que fragment]** dans la barre d&#39;outils principale.
 
    ![](assets/email_designer_save-as-fragment.png)
 
-1. Dans l’espace de travail, sélectionnez les structures qui composeront le fragment.
+1. Dans l&#39;espace de travail, sélectionnez les structures qui composeront le fragment.
 
    ![](assets/email_designer_save-as-fragment_select.png)
 
@@ -287,7 +282,7 @@ Lorsque vous éditez un email avec le concepteur d’e-mail, vous pouvez enregis
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. Pour utiliser le nouveau fragment, ouvrez n’importe quel contenu d’e-mail et sélectionnez-le dans la liste des fragments.
+1. Pour utiliser le nouveau fragment, ouvrez n&#39;importe quel contenu d&#39;email et sélectionnez-le dans la liste des fragments.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
@@ -323,11 +318,11 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/des_loading_compatible_fragment_1.png)
 
-1. Ajoutez des composants d’image et de texte à votre structure.
+1. Ajoutez des composants d&#39;image et de texte à votre structure.
 
    ![](assets/des_loading_compatible_fragment_2.png)
 
-1. Chargez l’image correspondante, saisissez votre texte et ajustez les paramètres.
+1. Téléchargez l&#39;image correspondante, saisissez votre texte et ajustez les paramètres.
 
    ![](assets/des_loading_compatible_fragment_3.png)
 

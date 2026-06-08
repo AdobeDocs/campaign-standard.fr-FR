@@ -11,24 +11,15 @@ role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 TQID: https://experienceleague.adobe.com/WawqBqpb7YnKbppo9-qkZ8agDBJ-ybjJOV305F-5t0w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1260
+workflow-type: ht
+source-wordcount: 1033
 ht-degree: 100%
 
 ---
@@ -43,8 +34,8 @@ Avec Adobe Campaign, vous pouvez configurer tous les types de workflows pour ef
 
 ## Attribution d&#39;un nom{#naming}
 
-Pour faciliter le dépannage des workflows, Adobe conseille de les nommer et de les libeller explicitement. Renseignez le champ Description du workflow pour résumer le processus à exécuter afin que l&#39;opérateur puisse facilement le comprendre.
-Si le workflow fait partie d&#39;un processus impliquant d&#39;autres workflows, vous pouvez utiliser des chiffres lors de la saisie d&#39;un libellé pour les classer clairement.
+Pour faciliter la résolution des problèmes de workflow, Adobe recommande de nommer et de libeller explicitement vos workflows. Renseignez le champ de description du workflow pour résumer le processus à effectuer afin que l’opérateur ou l’opératrice puisse facilement le comprendre.
+Si le workflow fait partie d’un processus impliquant plusieurs workflows, vous pouvez utiliser des nombres lors de la saisie d’un libellé afin de les classer clairement.
 
 Par exemple :
 
@@ -76,8 +67,8 @@ Avant de démarrer un workflow, [!DNL Campaign Standard] vérifie si la mémoire
 
 ### Fréquence
 
-Un workflow ne peut pas être exécuté automatiquement plus souvent qu&#39;une fois toutes les dix minutes.
-La Fréquence de répétition de l&#39;activité ne peut pas être inférieure à 10 minutes, Si la fréquence de répétition est paramétrée sur 0 (également valeur par défaut), cette option n&#39;est pas prise en compte et le workflow s&#39;exécute selon la fréquence d&#39;exécution définie.
+Un workflow ne peut pas s’exécuter automatiquement plus d’une fois toutes les dix minutes.
+La fréquence de répétition de l’activité ne peut pas être inférieure à 10 minutes. Si la fréquence de répétition est paramétrée sur 0 (également valeur par défaut), cette option n’est pas prise en compte et le workflow s’exécute selon la fréquence d’exécution définie.
 
 ### Workflows en pause
 
@@ -142,13 +133,13 @@ Pour plus d&#39;informations, voir [Appeler un workflow avec des paramètres ext
 
 ## Export de packages{#exporting-packages}
 
-Pour exporter des packages, les ressources exportées ne doivent pas contenir d&#39;identifiants par défaut. Il est donc obligatoire de modifier les identifiants des ressources exportables en s&#39;éloignant des modèles livrés par Adobe Campaign Standard.
-Pour plus d&#39;informations, consultez [Gestion des packages](../../automating/using/managing-packages.md).
+Pour exporter des packages, les ressources exportées ne doivent pas contenir d’identifiants par défaut. Il est donc obligatoire de modifier les identifiants des ressources exportables en s’éloignant des modèles livrés par Adobe Campaign Standard.
+Pour plus d’informations, consultez [Gestion des packages](../../automating/using/managing-packages.md).
 
 ## Export de listes{#exporting-lists}
 
-L&#39;option d&#39;export de liste permet d&#39;exporter un maximum de 100 000 lignes par défaut et est définie par l&#39;option **Nms_ExportListLimit**. Cette option peut être gérée par l&#39;administrateur fonctionnel, sous **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Options]**.
-Pour plus d&#39;informations, consultez [Export de listes](../../automating/using/exporting-lists.md).
+L’option d’export de liste permet d’exporter un maximum de 100 000 lignes par défaut et est définie par l’**option Nms_ExportListLimit**. Cette option peut être gérée par la personne chargée de l’administration fonctionnelle, sous **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Options]**.
+Pour plus d’informations, consultez [Export de listes](../../automating/using/exporting-lists.md).
 
 ## Résolution des problèmes{#workflow-troubleshooting}
 
@@ -156,9 +147,9 @@ Adobe Campaign propose divers logs pour mieux comprendre les problèmes liés a
 
 ### Utilisation des logs de workflow{#using-workflow-logs}
 
-Vous pouvez accéder aux logs de workflow pour surveiller l&#39;exécution de vos activités. Ils répertorient par ordre chronologique les opérations réalisées et les erreurs d&#39;exécution. L&#39;onglet Logs contient l&#39;historique de l&#39;exécution de toutes les activités ou de celles sélectionnées.
-L’onglet Tâches permet de voir le séquencement de l’exécution des activités. Pour obtenir plus d&#39;informations sur une activité, cliquez sur une tâche.
-Pour plus d&#39;informations, consultez [Surveiller l&#39;exécution des workflows](../../automating/using/monitoring-workflow-execution.md).
+Vous pouvez accéder aux logs de workflow pour surveiller l’exécution de vos activités. Ils répertorient par ordre chronologique les opérations réalisées et les erreurs d’exécution. L’onglet Logs affiche l’historique de l’exécution de toutes les activités sélectionnées ou de certaines d’entre elles.
+L’onglet Tâches permet de voir le séquencement de l’exécution des activités. Pour obtenir plus d’informations sur une activité, cliquez sur une tâche.
+Pour plus d’informations, consultez [Surveillance de l’exécution des workflows](../../automating/using/monitoring-workflow-execution.md).
 
 #### Résolution des problèmes liés aux activités Data Management{#troubleshooting-data-management-activities}
 
@@ -176,13 +167,13 @@ La requête est affichée dans la colonne **[!UICONTROL Message]** des logs.
 
 ### Utilisation des logs de diffusion{#using-delivery-logs}
 
-Les logs de diffusion permettent de surveiller le succès de vos diffusions. Les logs d&#39;exclusion renvoient les messages exclus lors de la préparation de l&#39;envoi. Les logs d&#39;envoi indiquent l&#39;état de la diffusion pour chaque profil.
-Pour plus d&#39;informations, voir [Comprendre les diffusions en échec](../../sending/using/understanding-delivery-failures.md).
+Les logs de diffusion permettent de surveiller le succès de vos diffusions. Les logs d’exclusion renvoient des messages exclus lors de la préparation de l’envoi. Les logs d’envoi fournissent le statut de la diffusion pour chaque profil.
+Pour plus d’informations, consultez [Comprendre les diffusions en échec](../../sending/using/understanding-delivery-failures.md).
 
 ### Utilisation des alertes de diffusion{#delivery-alerting}
 
-La fonctionnalité Alertes de diffusion est un système de gestion des alertes qui permet à un groupe d&#39;utilisateurs de recevoir automatiquement des notifications contenant des informations sur l&#39;exécution de leurs diffusions.
-Pour plus d&#39;informations, consultez [Alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md).
+La fonctionnalité Alertes de diffusion est un système de gestion des alertes qui permet à un groupe d’utilisateurs et d’utilisatrices de recevoir automatiquement des notifications contenant des informations sur l’exécution de leurs diffusions.
+Pour plus d’informations, consultez [Alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 **Rubriques connexes :**
 

@@ -9,20 +9,12 @@ feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 TQID: https://experienceleague.adobe.com/608lVGbr-umlPJM4t-eV2qhW6Vpypx3deu9oKf-b0iU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1382
 ht-degree: 100%
 
@@ -43,7 +35,7 @@ Dans Adobe Campaign, trois types de messages In-App sont disponibles :
 
 ![](assets/diagram_inapp.png)
 
-## Préparation de votre message in-app {#preparing-your-in-app-message}
+## Préparation de votre message In-App {#preparing-your-in-app-message}
 
 >[!CAUTION]
 >
@@ -61,7 +53,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign s
 
    ![](assets/inapp_creating.png)
 
-1. Sélectionnez un modèle adéquat en fonction de vos besoins en matière de ciblage d’audience.
+1. Sélectionnez un modèle adéquat en fonction de vos besoins en matière de ciblage d&#39;audience.
 
    ![](assets/inapp_creating_2.png)
 
@@ -162,7 +154,7 @@ Une fois que la préparation de votre diffusion est terminée et que les étapes
 
    ![](assets/inapp_sending_5.png)
 
-1. Cliquez sur **[!UICONTROL Confirmer]** pour commencer l’envoi de votre message in-app.
+1. Cliquez sur **[!UICONTROL Confirmer]** pour commencer l&#39;envoi de votre message in-app.
 
    ![](assets/inapp_sending_6.png)
 

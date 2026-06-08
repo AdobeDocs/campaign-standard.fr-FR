@@ -6,18 +6,13 @@ role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 TQID: https://experienceleague.adobe.com/sOXv3QMAjOt2gadC9uDyaZA8SVVfoXspzpJ8NOZQkzQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 617
 ht-degree: 100%
 
@@ -52,11 +47,11 @@ Rubriques connexes :
 
    ![](assets/uc_idkey1.png)
 
-1. Dans la section **[!UICONTROL Clés d’identification]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
+1. Dans la section **[!UICONTROL Clés d&#39;identification]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 
    ![](assets/uc_idkey2.png)
 
-1. Ajoutez les deux champs personnalisés « Identifiant CRM » et « Catégorie », puis cliquez sur **[!UICONTROL Confirmer]**.
+1. Ajoutez les deux champs personnalisés &quot;Identifiant CRM&quot; et &quot;Catégorie&quot;, puis cliquez sur **[!UICONTROL Confirmer]**.
 
    ![](assets/uc_idkey3.png)
 
@@ -76,15 +71,15 @@ Rubriques connexes :
 
    ![](assets/uc_idkey4.png)
 
-1. Placez dans l’espace de travail le tableau contenant les champs utilisés dans la clé d’identification.
+1. Placez dans l&#39;espace de travail le tableau contenant les champs utilisés dans la clé d&#39;identification.
 
    ![](assets/uc_idkey5.png)
 
-1. Sélectionnez le premier champ utilisé dans la clé d’identification (« Identifiant CRM »), puis activez l’option **[!UICONTROL Définir des paramètres]**.
+1. Sélectionnez le premier champ utilisé dans la clé d&#39;identification (&quot;Identifiant CRM&quot;), puis activez l&#39;option **[!UICONTROL Définir des paramètres]**.
 
    ![](assets/uc_idkey6.png)
 
-1. Dans la section **[!UICONTROL Conditions de filtrage]**, conservez l’opérateur **[!UICONTROL Égal]**, puis définissez le nom du paramètre et cliquez sur le signe plus pour le créer.
+1. Dans la section **[!UICONTROL Conditions de filtrage]**, conservez l&#39;opérateur **[!UICONTROL Egal]** , puis définissez le nom du paramètre et cliquez sur le signe plus pour le créer.
 
    ![](assets/uc_idkey7.png)
 

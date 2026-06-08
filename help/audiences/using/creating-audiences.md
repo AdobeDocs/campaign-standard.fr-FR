@@ -10,14 +10,11 @@ role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 TQID: https://experienceleague.adobe.com/ezjnDdGh2ZoRmrZN088QgZQh1NAtsequFpjK9VH6alk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1017
 ht-degree: 100%
 
@@ -35,7 +32,7 @@ A partir de la liste des audiences, vous pouvez créer des audiences en réalisa
 
    ![](assets/audiences_query_1.png)
 
-1. Sélectionnez **[!UICONTROL Créer]** pour accéder à l’écran de création d’audience.
+1. Sélectionnez **[!UICONTROL Créer]** pour accéder à l&#39;écran de création d&#39;audience.
 
    ![](assets/audiences_query.png)
 
@@ -140,7 +137,7 @@ Pour ce faire :
 
    ![](assets/audience_delete_2.png)
 
-1. Dans le champ **[!UICONTROL Expire le]**, ajoutez une date d’expiration à votre audience.
+1. Dans le champ **[!UICONTROL Expire le]**, ajoutez une date d&#39;expiration à votre audience.
 
    ![](assets/audience_delete_3.png)
 

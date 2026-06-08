@@ -7,17 +7,12 @@ role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 TQID: https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1063
 ht-degree: 100%
 
@@ -35,7 +30,7 @@ Les groupes de sécurité sont des ensembles d&#39;utilisateurs qui partagent le
 
 Les utilisateurs doivent toujours être rattachés à un groupe de sécurité Cela vous permettra de leur attribuer des rôles et des entités organisationnelles spécifiques. Si vous souhaitez restreindre les accès d’un utilisateur, ne l’ajoutez pas dans le groupe des **[!UICONTROL Utilisateurs standard]**, car celui-ci est rattaché à **[!UICONTROL toute]** l’entité organisationnelle.
 
-Pour plus d’informations sur les rôles, le tableau de la page suivante reprend les différentes opérations possibles en fonction du ou des rôle des l’utilisateur : [Autorisations dans Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
+Pour plus d’informations sur les rôles, le tableau de la page suivante reprend les différentes opérations possibles en fonction du ou des rôle des l’utilisateur : [Autorisations dans Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Les groupes de sécurité par défaut sont :
 
@@ -73,7 +68,7 @@ Pour commencer, vous devez assigner l&#39;un des groupes d&#39;usine à vos util
 
    ![](assets/ootb_security_group_2.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** et suivez les mêmes procédures afin d’assigner le groupe de sécurité d’usine **[!UICONTROL Utilisateurs et utilisatrices standard]** à votre nouvel utilisateur ou nouvelle utilisatrice.
+1. Cliquez sur **[!UICONTROL Enregistrer]** et suivez les mêmes procédures afin d&#39;assigner le groupe de sécurité d&#39;usine **[!UICONTROL Utilisateurs standard]** à votre nouvel utilisateur.
 
    ![](assets/ootb_security_group_3.png)
 
@@ -90,7 +85,7 @@ Une fois vos deux utilisateurs associés aux groupes de sécurité d&#39;usine *
 
    >[!NOTE]
    >
-   >Si la syntaxe ci-dessus semble ne pas fonctionner avec une instance plus ancienne, elle doit être remplacée par **[!UICONTROL Campaign - nom de l’instance - Identifiant du groupe de sécurité]**.
+   >Si la syntaxe ci-dessus semble ne pas fonctionner avec une instance plus ancienne, elle doit être remplacée par **[!UICONTROL Campaign - nom de l&#39;instance - Identifiant du groupe de sécurité]**.
 
    ![](assets/manage_security_group_1.png)
 
@@ -134,7 +129,7 @@ L&#39;utilisateur Administrateur doit créer le jeu de groupes de sécurité uti
 
    >[!NOTE]
    >
-   >Si vous attribuez un groupe de sécurité d’usine à vos utilisateurs et utilisatrices, vous devez réinitialiser l’entité organisationnelle.
+   >Si vous attribuez un groupe de sécurité d’usine à vos utilisateurs, vous devez réinitialiser l’entité organisationnelle.
 
    ![](assets/manage_security_group_6.png)
 
@@ -143,7 +138,7 @@ L&#39;utilisateur Administrateur doit créer le jeu de groupes de sécurité uti
 
    ![](assets/manage_security_group_7.png)
 
-Vos utilisateurs et utilisatrices sont maintenant affectés à un groupe de sécurité et peuvent se connecter à Adobe Campaign.
+Vos utilisateurs sont maintenant affectés à un groupe de sécurité et peuvent se connecter à Adobe Campaign.
 
 >[!IMPORTANT]
 >

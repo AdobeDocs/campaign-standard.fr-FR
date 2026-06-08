@@ -11,14 +11,11 @@ role: Developer
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
 TQID: https://experienceleague.adobe.com/NHN4AQinVIJsssfzhHhC6uKbcRBRPXq1h-ZZg8UIWkQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 484
 ht-degree: 100%
 
@@ -65,7 +62,7 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
    ![](assets/wkf_data_export2.png)
 
-   Une nouvelle fenêtre s’affiche.
+   Une nouvelle fenêtre s&#39;affiche.
 
    ![](assets/wkf_data_export3.png)
 

@@ -7,18 +7,13 @@ role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 TQID: https://experienceleague.adobe.com/dQyZVT7Q5Fdh4IdjkSGn0yEd8JmIUCPAN6qDjgYbdjo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 446
+workflow-type: ht
+source-wordcount: 405
 ht-degree: 100%
 
 ---
@@ -50,7 +45,7 @@ Pour parfaire votre notification push, Adobe Campaign vous permet d&#39;accéde
 1. Dans la page de contenu de la notification push, accédez à la section **[!UICONTROL Options avancées]**.
 
 1. Saisissez l’URL de votre fichier dans le champ **[!UICONTROL URL du contenu multimédia enrichi]**.
-À partir d’iOS 10, vous pouvez insérer des fichiers image, gif, audio et vidéo.
+Pour iOS 10 ou supérieur, vous pouvez insérer des fichiers image, gif, audio et vidéo.
 
    ![](assets/push_notif_advanced_6.png)
 

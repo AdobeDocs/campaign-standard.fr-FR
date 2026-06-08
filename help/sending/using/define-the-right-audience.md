@@ -10,17 +10,13 @@ role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
 TQID: https://experienceleague.adobe.com/keRwWGnvoXbhg4XhReRZzSF1L9x93BbNu8YhBWtUoNM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 518
+workflow-type: ht
+source-wordcount: 490
 ht-degree: 100%
 
 ---
@@ -57,8 +53,8 @@ Pour envoyer des messages aux abonnés d&#39;une newsletter, vous pouvez directe
 
 ## Bons à tirer, profils de test et populations témoins {#proofs-test-control-groups}
 
-Pour tester votre diffusion, utilisez des bons à tirer avant l&#39;envoi à la cible principale.
-Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes d&#39;envoi des BAT sont présentées [dans cette section](../../sending/using/sending-proofs.md).
+Pour tester votre diffusion, utilisez des BAT avant de l’envoyer à la cible principale.
+Veillez à sélectionner les personnes destinataires du BAT appropriées, car elles valident la forme et le contenu du message. Les étapes d’envoi de BAT sont présentées [dans cette section](../../sending/using/sending-proofs.md).
 
 En savoir plus sur les profils de test [dans cette section](../../audiences/using/managing-test-profiles.md).
 

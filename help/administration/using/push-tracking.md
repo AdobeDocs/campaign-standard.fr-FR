@@ -7,16 +7,12 @@ role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
 TQID: https://experienceleague.adobe.com/tSPkfU35NbnvlF8s39rDKPbyrLFm8uKx7jvU4ZyB1hw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 951
+workflow-type: ht
+source-wordcount: 927
 ht-degree: 100%
 
 ---
@@ -94,8 +90,8 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Comment mettre en œuvre le suivi des clics {#push-click-tracking-android}
 
-Pour le tracking des clics, vous devez envoyer la valeur « 2 » pour l&#39;action lors de l&#39;appel des fonctions `collectMessageInfo()` ou `trackAction()`.
-Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
+Pour le suivi des clics, vous devez envoyer la valeur « 2 » pour l’action lors de l’appel des fonctions `collectMessageInfo()` ou `trackAction()`.
+Pour suivre les clics, deux scénarios doivent être traités :
 
 * L’utilisateur voit la notification, mais l’efface.
 * L’utilisateur voit la notification et clique dessus pour la transformer en un suivi d’ouverture.
@@ -340,7 +336,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Comment mettre en œuvre le suivi des clics {#push-click-tracking-iOS}
 
-Pour le tracking des clics, vous devez envoyer la valeur « 2 » pour l&#39;action lors de l&#39;appel des fonctions `collectMessageInfo()` ou `trackAction()`.
+Pour le suivi des clics, vous devez envoyer la valeur « 2 » pour l’action lors de l’appel des fonctions `collectMessageInfo()` ou `trackAction()`.
 Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```

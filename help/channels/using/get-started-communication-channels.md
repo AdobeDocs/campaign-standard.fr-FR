@@ -9,25 +9,15 @@ role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 TQID: https://experienceleague.adobe.com/DsdeXlYu0S43vbf7VAUk0Nr9HfYDvjzCdfSu-ODCrXU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: ede6e1ec-9279-415e-b828-a09735018d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: d3b34fea-a110-482f-adb2-aae8d686bac8id: d7be2b01-dc9c-40f7-aace-a151707504edid: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: ede6e1ec-9279-415e-b828-a09735018d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 537
+workflow-type: ht
+source-wordcount: 484
 ht-degree: 100%
 
 ---
@@ -39,11 +29,11 @@ ht-degree: 100%
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">Concepts globaux</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">Canaux de communication</a></p></td>
 <td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">Messages transactionnels</a></p></td>
-<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Pages de destination</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
 </table>
 
-Adobe Campaign vous permet de lancer, de mesurer et d&#39;automatiser des campagnes sur chaque canal.
-L&#39;harmonisation de tous vos canaux marketing n&#39;est pas un impossible. Avec l&#39;aide d’Adobe Campaign, vous pouvez importer les données client de différents systèmes, appareils et canaux, dans un seul et même profil. Ensuite, lancez des campagnes pertinentes et opportunes qui répondent aux besoins de vos clients aux bons endroits et de la bonne manière lors de leur parcours client.
+Adobe Campaign vous permet de lancer, de mesurer et d’automatiser des campagnes sur chaque canal.
+L’harmonisation de tous vos canaux marketing n’est pas une tâche impossible. Avec l’aide d’Adobe Campaign, vous pouvez importer les données des clientes et clients de différents systèmes, appareils et canaux dans un seul profil. Ensuite, lancez des campagnes opportunes et pertinentes qui rencontrent vos clientes et clients au bon endroit et de la bonne manière tout au long de leur parcours clientèle.
 
 ## Concepts globaux {#global-concepts}
 

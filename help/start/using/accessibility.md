@@ -9,18 +9,13 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 TQID: https://experienceleague.adobe.com/tRlMSUm-bynVDmN2YClSdIvfWmwmh-9sNublU2wFnpo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 661
 ht-degree: 100%
 
@@ -60,7 +55,7 @@ L’interface utilisateur d’Adobe Campaign Standard facilite l’interaction
 
   ![](assets/accessibility_3.png)
 
-* Le contenu qui s’affiche au survol ou au focus peut être ignoré par l’utilisateur ou l’utilisatrice et n’obscurcit aucun autre contenu.
+* Le contenu qui s’affiche au survol ou au focus peut être ignoré par l’utilisateur et n’obscurcit aucun autre contenu.
 
   ![](assets/accessibility_4.png)
 

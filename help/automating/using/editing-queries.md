@@ -11,12 +11,10 @@ role: Developer
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 TQID: https://experienceleague.adobe.com/s3em827G4rbFW4oJicP0iQC5PPUqsVWFBoofC3c094Q
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 803
 ht-degree: 100%
 
@@ -74,7 +72,7 @@ Les requêtes peuvent être définies dans la fenêtre **[!UICONTROL Audience]**
 
      ![](assets/query_editor_audience_definition2.png)
 
-   * Pour un **champ** de type date ou date et heure, vous pouvez choisir de définir une date précise, un intervalle entre deux dates précises ou une date ou période relative à la date d’exécution de la requête.
+   * pour un **champ** de type date ou date et heure, vous pouvez choisir de définir une date précise, une intervalle entre deux dates précises ou une date ou période relative à la date d&#39;exécution de la requête.
 
      ![](assets/query_editor_date_field.png)
 
@@ -83,7 +81,7 @@ Les requêtes peuvent être définies dans la fenêtre **[!UICONTROL Audience]**
 
      ![](assets/query_editor_audience_definition4.png)
 
-   * Pour un lien de type **1-1** avec une autre ressource de la base, sélectionnez directement une valeur de la table ciblée.
+   * pour un lien de type **1-1** avec une autre ressource de la base, sélectionnez directement une valeur de la table ciblée.
 
      ![](assets/query_editor_audience_definition5.png)
 

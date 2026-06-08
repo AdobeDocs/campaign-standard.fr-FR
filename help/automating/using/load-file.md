@@ -11,14 +11,11 @@ role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1532
 ht-degree: 100%
 
@@ -119,11 +116,11 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d’abord, vo
 
    >[!NOTE]
    >
-   >L’option **[!UICONTROL Ajoutez la date et l’heure au nom du fichier]** permet d’ajouter un horodatage au nom du fichier contenant les rejets.
+   >L&#39;option **[!UICONTROL Ajoutez la date et l&#39;heure au nom du fichier]** permet d&#39;ajouter un horodatage au nom du fichier contenant les rejets.
 
    ![](assets/wkf_file_loading_keeprejects.png)
 
-1. Validez le paramétrage de l’activité et enregistrez le workflow.
+1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
 Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les logs pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d’informations sur les logs de workflows, reportez-vous à [cette section](../../automating/using/monitoring-workflow-execution.md).
 

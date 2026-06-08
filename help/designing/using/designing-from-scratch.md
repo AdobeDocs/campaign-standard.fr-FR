@@ -9,16 +9,12 @@ role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 TQID: https://experienceleague.adobe.com/RK13F3Nw-2wxI9rKip-XKDJ3xi0hgpwI-F1uGcKoFKM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1268
 ht-degree: 100%
 
@@ -39,7 +35,7 @@ Voici les principales étapes pour créer entièrement un contenu d’email à l
 1. Prévisualisez l’email.
 1. Enregistrez votre contenu et traitez votre message après avoir vérifié que vous avez défini une audience et correctement planifié l’envoi.
 
-Vous pouvez également regarder cette [vidéo de présentation](https://video.tv.adobe.com/v/330100/?captions=fre_fr&autoplay=true&hidetitle=true).
+Vous pouvez également regarder cette [vidéo de présentation](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -66,7 +62,7 @@ Pour éditer la structure d’un email :
 
    ![](assets/email_designer_structure.png)
 
-1. Déposez les composants de structure dont vous avez besoin pour former votre e-mail.
+1. Déposez les composants de structure dont vous avez besoin pour former votre email.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -103,7 +99,7 @@ Sélectionnez la zone de modification du **[!UICONTROL pré-en-tête]** et rense
 
 ![](assets/email_designer_preheader.png)
 
-Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou des **[!UICONTROL champs de personnalisation]** dans le contenu du pré-en-tête.
+Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou un **[!UICONTROL champ de personnalisation]** dans le contenu du pré-en-tête.
 
 >[!NOTE]
 >

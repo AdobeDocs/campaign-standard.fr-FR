@@ -8,20 +8,13 @@ role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 TQID: https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: b5852c32-876b-41ae-92a7-9f588865ae52
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1357
 ht-degree: 100%
 
@@ -144,7 +137,7 @@ Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
    ![](assets/branding_05.png)
 
-   Pour visualiser le paramétrage de la marque sélectionnée, cliquez sur l’icône **[!UICONTROL Naviguer vers le détail de l’élément sélectionné]**.
+   Pour visualiser le paramétrage de la marque sélectionnée, cliquez sur l&#39;icône **[!UICONTROL Naviguer vers le détail de l&#39;élément sélectionné]**.
 
    ![](assets/branding_06.png)
 
@@ -182,7 +175,7 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
    ![](assets/branding_08.png)
 
-1. Pour lier ce modèle à la marque **Vacances sous les tropiques**, éditez les propriétés du modèle et sélectionnez la marque dans la liste déroulante.
+1. Pour lier ce modèle à la marque **Voyages sous les tropiques**, éditez les propriétés du modèle et sélectionnez la marque dans la liste déroulante.
 
    ![](assets/branding_09.png)
 
@@ -201,7 +194,7 @@ Pour Créer un e-mail lié à une marque, procédez comme suit :
 
    ![](assets/branding_14.png)
 
-1. Sélectionnez l’activité **[!UICONTROL E-mail]**, puis choisissez le modèle lié à la nouvelle marque.
+1. Sélectionnez l&#39;activité **[!UICONTROL Email]**, puis choisissez le modèle lié à la nouvelle marque.
 
    ![](assets/branding_15.png)
 

@@ -6,27 +6,15 @@ role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 TQID: https://experienceleague.adobe.com/S430SyqHAam2JE4LQppJUy3xuEdS6lw1qGQE9viVCS8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b631758a-142d-425f-b9aa-f756d85cb979id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1045
+workflow-type: ht
+source-wordcount: 998
 ht-degree: 100%
 
 ---
@@ -93,7 +81,7 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Utilisateurs et utilisatrices et sécurité - Entités géographiques</strong><br /> </th> 
+   <th> <strong>Utilisateurs et sécurité - Entités géographiques</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -178,7 +166,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Standard
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> À compter d’avril 2021, la fonctionnalité Optimisation prédictive de l’objet est désactivée.</p><br/>
+   <td> <p> À compter d'avril 2021, la fonctionnalité Optimisation prédictive de l'objet est désactivée.</p><br/>
    <p>Nous vous suggérons d'exploiter les fonctionnalités de messagerie optimisée par IA pour analyser et estimer les taux d'ouverture, les délais d'envoi optimaux et le taux probable d'exécution en fonction des mesures d'engagement historiques. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=fr">En savoir plus</a></p></br>
      </td> 
   </tr> 
@@ -188,13 +176,12 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Standard
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Score de propension avec les Triggers Experience Cloud</strong><br /> </th> 
+   <th> <strong>Score de propension avec Triggers Experience Cloud</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Le <b>score de propension</b> a été retiré des Triggers Adobe Experience Cloud. Cette option a donc été supprimée d’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d'enrichissement, nous vous recommandons de les mettre à jour afin de récupérer les dernières modifications et de republier les déclencheurs existants. Pour plus d'informations, voir la section <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=fr">Publication d'un déclencheur dans Campaign</a>.
-</p></br>
+   <td> <p>Le <b>score de propension</b> a été désactivé dans les déclencheurs Adobe Experience Cloud Triggers. Par conséquent, cette option a été supprimée d’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d’enrichissement, nous vous recommandons de mettre à jour les schémas afin de récupérer les dernières modifications et de republier les déclencheurs existants. Pour plus d’informations, consultez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=fr">Publication d’un déclencheur dans Campaign</a>.</p></br>
    </td> 
   </tr> 
  </tbody> 

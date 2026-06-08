@@ -11,17 +11,13 @@ role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 TQID: https://experienceleague.adobe.com/tl7zyRjRGu9XFjQbPnubDvwqTY-HV7DDPDfOdiKHSi4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1322
+workflow-type: ht
+source-wordcount: 1299
 ht-degree: 100%
 
 ---
@@ -92,7 +88,7 @@ Avec ce protocole, vous pouvez choisir l&#39;option **[!UICONTROL Utiliser des p
 
 ![](assets/wkf_file_transfer_03.png)
 
-Vous pouvez également choisir l&#39;option **[!UICONTROL Configuration rapide]**. Il suffit de saisir l’URL dans le champ URL.
+Vous pouvez également choisir l’option **[!UICONTROL Configuration rapide]**. Il suffit de saisir l’URL dans le champ URL.
 ![](assets/wkf_file_transfer_04.png)
 
 **[!UICONTROL Suivre les redirections]**, **[!UICONTROL Ignorer le code de retour HTTP]** et **[!UICONTROL Ajouter les en-têtes HTTP reçus au fichier]** sont les options supplémentaires disponibles lorsque vous sélectionnez le protocole HTTP.
@@ -101,7 +97,7 @@ Vous pouvez également choisir l&#39;option **[!UICONTROL Configuration rapide]*
 
 Le protocole SFTP permet de lancer le téléchargement d’un fichier depuis une URL ou un compte externe.
 
-Avec ce protocole, vous pouvez choisir l’option **[!UICONTROL Utiliser des paramètres de connexion définis dans un compte externe]**, puis sélectionner le compte désiré et indiquer le chemin d’accès au fichier à télécharger.
+Avec ce protocole, vous pouvez choisir l&#39;option **[!UICONTROL Utiliser des paramètres de connexion définis dans un compte externe]**, puis sélectionner le compte désiré et indiquer le chemin d&#39;accès au fichier à télécharger.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -136,7 +132,7 @@ Le protocole Blob Microsoft Azure permet d’accéder à l’objet Blob situé s
 
 1. Sélectionnez un compte externe **[!UICONTROL Blob Microsoft Azure]**. Pour plus d’informations à ce sujet, consultez cette [page](../../administration/using/external-accounts.md#microsoft-azure-external-account).
 
-1. Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**.
+1. Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d&#39;accès au fichier]** ou **[!UICONTROL Utiliser un chemin d&#39;accès au fichier dynamique]**.
 
    ![](assets/wkf_file_transfer_10.png)
 
@@ -155,7 +151,7 @@ Le protocole Blob Microsoft Azure permet d’accéder à l’objet Blob situé s
 ### Configuration avec des fichiers présents sur le serveur Adobe Campaign {#files-server-configuration-wf}
 
 Le protocole **[!UICONTROL Fichier(s) présent(s) sur le serveur Adobe Campaign]** correspond au référentiel contenant le ou les fichiers à récupérer.
-Les métacaractères ou caractères génériques (par exemple &#42; ou ?) peuvent être utilisés pour filtrer les fichiers.
+Des métacaractères, ou caractères génériques (&#42; ou ?, par exemple) peuvent être utilisés pour filtrer les fichiers.
 
 Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique.]**
 L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer. Pour plus d’informations, consultez [cette page](../../automating/using/customizing-workflow-external-parameters.md).

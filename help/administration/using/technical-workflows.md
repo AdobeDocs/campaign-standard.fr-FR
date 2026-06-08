@@ -7,21 +7,14 @@ role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 TQID: https://experienceleague.adobe.com/imU-lsjNUEb2VZ-hLLAobuJ0UFlFqygQD-KE80hRpG0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 803
+workflow-type: ht
+source-wordcount: 707
 ht-degree: 100%
 
 ---
@@ -36,7 +29,7 @@ Les administrateurs fonctionnels peuvent accéder aux workflows techniques depui
 
 >[!NOTE]
 >
->En tant que personne chargée de l’administration fonctionnelle, vous pouvez redémarrer les workflows techniques et les mettre en pause, et modifier leurs propriétés et leur structure.
+>En tant qu&#39;administrateur fonctionnel, vous pouvez redémarrer les workflows techniques et les mettre en pause, et modifier leurs propriétés et leur structure.
 
 ![](assets/technical_workflows.png)
 
@@ -64,8 +57,8 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
   <tr> 
    <td> <span class="uicontrol">Copier des en-têtes à partir de modèles de diffusion</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> Ce workflow copie les en-têtes SMTP définis pour les modèles de diffusion e-mail vers les diffusions enfant correspondantes qui ne sont pas des modèles. Seules les diffusions e-mail marketing sont récupérées par ce workflow. Les en-têtes SMTP ne sont pas copiés vers les diffusions transactionnelles et les diffusions de BAT. <br> Ce workflow n’est pas exécuté périodiquement. Il doit être démarré par la personne selon son utilisation. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Si votre instance contient un volume élevé de diffusions, vous pouvez mettre à jour l’option NmsCleanup_DeliveryPurgeDelay dans les <strong>Paramètres de l’application</strong>. Si vous effectuez une modification dans les en-têtes SMTP d’un modèle, vous devez exécuter à nouveau le workflow après la modification afin que les en-têtes corrigés soient copiés vers les diffusions non modèles.<a href="data-retention.md#deliveries">En savoir plus</a>
-   <br /> </td> 
+   <td>Ce workflow copie les en-têtes SMTP définis pour les modèles de diffusion par e-mail vers les diffusions enfants correspondantes qui ne sont pas des modèles. Seules les diffusions de marketing par e-mail sont récupérées par ce workflow. Les en-têtes SMTP ne sont pas copiés dans les diffusions transactionnelles et les diffusions de BAT. <br> Ce workflow n’est pas exécuté régulièrement. Il doit être démarré par l’utilisateur ou l’utilisatrice en fonction de l’utilisation. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Si votre instance comporte un grand nombre de diffusions, vous pouvez mettre à jour l’option NmsCleanup_DeliveryPurgeDelay dans les <strong>Paramètres de l’application</strong>. Si vous modifiez les en-têtes SMTP d’un modèle, vous devez exécuter à nouveau le workflow après la modification afin que les en-têtes corrigés soient copiés dans les diffusions qui ne sont pas des modèles.<a href="data-retention.md#deliveries">En savoir plus</a>
+<br /></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Nettoyage de la base de données</span> <br /> </td> 

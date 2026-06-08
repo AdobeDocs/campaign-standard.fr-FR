@@ -10,18 +10,13 @@ role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 TQID: https://experienceleague.adobe.com/WpIRNQtob-mtXSfXYBklwkcObjScygqUrHWRnJOscrM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1046
+workflow-type: ht
+source-wordcount: 1039
 ht-degree: 100%
 
 ---
@@ -48,7 +43,7 @@ Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifi
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/34836?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
@@ -130,7 +125,7 @@ Suivez les instructions [de cette page](https://docs.microsoft.com/fr-fr/onedriv
 
 Pour intégrer l’application Dynamics 365 à votre environnement Campaign Standard, procédez comme suit :
 
-1. Accédez à [Microsoft Business Apps](https://appsource.microsoft.com/fr-fr/marketplace/apps) et recherchez Adobe Campaign Standard dans la barre de recherche.
+1. Accédez à [Microsoft Business Apps](https://appsource.microsoft.com/fr-fr/marketplace/apps) et recherchez Adobe Campaign Standard dans la barre de recherche.
 Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/fr-fr/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
 1. Suivez les instructions pour installer l’application pour votre instance Dynamics 365.
 1. Une fois installée, accédez à votre instance Dynamics 365 et connectez-vous en tant qu’administrateur.

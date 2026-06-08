@@ -10,17 +10,12 @@ role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 TQID: https://experienceleague.adobe.com/Ol-6IkRGAr7OGkXQgHhMSYhPfjmg-DY7s2dr6wxFenU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1853
 ht-degree: 100%
 
@@ -53,11 +48,11 @@ Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les donnée
 
    ![](assets/schema_extension_4.png)
 
-1. Pour modifier l’un des champs, cliquez sur le bouton **[!UICONTROL Modifier les propriétés]**.
+1. Pour modifier l&#39;un des champs, cliquez sur le bouton **[!UICONTROL Editer les propriétés]**.
 
    ![](assets/schema_extension_24.png)
 
-1. Dans l’écran **[!UICONTROL Définition du champ]**, vous pouvez définir une catégorie qui servira pour l’audience et le ciblage ou encore ajouter une description.
+1. Dans l&#39;écran **[!UICONTROL Définition du champ]**, vous pouvez définir une catégorie qui servira pour l&#39;audience et le ciblage ou encore ajouter une description.
 
    ![](assets/schema_extension_5.png)
 
@@ -162,7 +157,7 @@ Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
 
    ![](assets/schema_extension_29.png)
 
-1. Dans l’écran **[!UICONTROL Nouveau lien]**, les champs **[!UICONTROL Libellé]** et **[!UICONTROL Identifiant]** sont renseignés par défaut, mais vous pouvez les modifier.
+1. Dans l&#39;écran **[!UICONTROL Nouveau lien]**, les champs **[!UICONTROL Libellé]** et **[!UICONTROL Identifiant]** sont renseignés par défaut, mais vous pouvez les modifier.
 
    >[!NOTE]
    >
@@ -185,7 +180,7 @@ Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
 
    ![](assets/schema_extension_17.png)
 
-Les liens créés s’affichent dans la liste de la section **[!UICONTROL Liens]**.
+Les liens créés s&#39;affichent dans la liste de la section **[!UICONTROL Liens]**.
 
 >[!NOTE]
 >
@@ -248,7 +243,7 @@ Pour plus d&#39;informations sur le code segment, voir la section [Segmentation]
 
 >[!NOTE]
 >
->L’administrateur doit avoir étendu la ressource Profil avec un champ personnalisé.
+>L&#39;administrateur doit avoir étendu la ressource Profil avec un champ personnalisé.
 
 ![](assets/sendinglogsextension_2.png)
 
@@ -272,11 +267,11 @@ Dans l&#39;écran de la ressource personnalisée, le volet **[!UICONTROL Résum�
 
 ![](assets/schema_extension_3.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Modifier les propriétés]** pour ajouter une description.
+1. Cliquez sur le bouton **[!UICONTROL Editer les propriétés]** pour ajouter une description.
 
    ![](assets/schema_extension_30.png)
 
-1. Si besoin, modifiez le libellé et l’identifiant de la ressource.
+1. Si besoin, modifiez le libellé et l&#39;identifiant de la ressource.
 
    >[!NOTE]
    >

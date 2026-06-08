@@ -10,16 +10,12 @@ role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 TQID: https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1693
 ht-degree: 100%
 
@@ -199,7 +195,7 @@ La **barre d&#39;outils** est un élément contextuel de l&#39;interface de l&#3
    <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Gras</span> <br /> </td> 
    <td> Élément de texte<br /> </td> 
-   <td> Ajoute le style gras au texte sélectionné (entoure le texte de la balise <strong><strong></strong>&lt;strong&gt;</strong>&lt;/strong&gt;).<br /> </td> 
+   <td>Ajoute le style gras au texte sélectionné (entoure le texte des balises <strong><strong></strong>&lt;strong&gt;</strong>&lt;/strong&gt;).<br /></td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 
@@ -301,7 +297,7 @@ Vous pouvez également utiliser la barre d&#39;outils pour modifier les attribut
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. Sélectionnez **[!UICONTROL Image locale]** dans la barre d’outils contextuelle.
+1. Sélectionnez **[!UICONTROL Image locale]** dans la barre d&#39;outils contextuelle.
 
    ![](assets/des_insert_images_lp_2.png)
 
@@ -309,7 +305,7 @@ Vous pouvez également utiliser la barre d&#39;outils pour modifier les attribut
 
    ![](assets/des_insert_images_lp_3.png)
 
-1. Ajustez les propriétés de l’image selon les besoins.
+1. Ajustez les propriétés de l&#39;image selon les besoins.
 
    ![](assets/des_insert_images_lp_4.png)
 
@@ -339,7 +335,7 @@ Vous pouvez naviguer parmi les différents contenus dynamiques d&#39;un bloc. Po
 
    ![](assets/dynamic_content_lp_2.png)
 
-   Le rendu des flèches est estompé lorsque vous avez navigué jusqu’au dernier ou premier contenu dynamique.
+   Le rendu des flèches est estompé lorsque vous avez navigué jusqu&#39;au dernier contenu dynamique (ou jusqu&#39;au premier pour la flèche de gauche).
 
    ![](assets/dynamic_content_lp_3.png)
 

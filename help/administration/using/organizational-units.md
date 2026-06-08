@@ -7,17 +7,12 @@ role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
 TQID: https://experienceleague.adobe.com/OjO9gSlb5OKrPgK2vNQsmEjJ3ykPPULZR5KOb5BenlU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 885
 ht-degree: 100%
 
@@ -90,7 +85,7 @@ Les utilisateurs assignés aux groupes **Utilisateur standard** et **Vêtements 
 
 ![](assets/manage_units_7.png)
 
-L’entité Vêtements Geometrixx étant une entité enfant de Geometrixx, le message suivant apparaît lorsqu’un utilisateur ou une utilisatrice tente de modifier le modèle Geometrixx :
+L’entité Vêtements Geometrixx étant une entité enfant de Geometrixx, le message suivant apparaît lorsqu’un utilisateur tente de modifier le modèle Geometrixx :
 
 ![](assets/manage_units_8.png)
 
@@ -100,7 +95,7 @@ Alors que les profils de l’entité organisationnelle Geometrixx seront en lect
 
 ![](assets/manage_units_10.png)
 
-## Partition des profils {#partitioning-profiles}
+## Partitionnement des profils {#partitioning-profiles}
 
 >[!IMPORTANT]
 >

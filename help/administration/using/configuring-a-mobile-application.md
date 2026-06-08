@@ -7,17 +7,12 @@ role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 TQID: https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1514
+workflow-type: ht
+source-wordcount: 1427
 ht-degree: 100%
 
 ---
@@ -51,8 +46,8 @@ Pour terminer la configuration, procédez comme suit :
 
    * Dans Adobe Campaign Standard, assurez-vous que l’utilisateur IMS figure dans les profils de produit utilisateur et administrateur standard. Cette étape permet à l’utilisateur de se connecter à Adobe Campaign Standard, d’accéder à la page de l’application mobile SDK Experience Platform et d’afficher les propriétés de l’application mobile créée dans l’interface utilisateur de collecte de données.
 
-   * Dans l’interface utilisateur de collecte de données, assurez-vous que votre utilisateur IMS fait partie d’un profil de produit Experience Platform Launch.
-Cette étape permet à l’utilisateur de se connecter à l’interface utilisateur de collecte de données pour créer et afficher les propriétés. Pour plus d’informations sur les profils de produit dans l’interface utilisateur de collecte de données, voir [Création de votre profil de produit](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=fr#gain-admin-rights-for-a-tags-product-profile). Dans le profil de produit, aucune autorisation ne doit être définie pour l’entreprise ou les propriétés, mais l’utilisateur doit être en mesure de se connecter.
+   * Dans l’interface d’utilisation de collecte de données, assurez-vous que votre utilisateur ou utilisatrice IMS fait partie d’un profil de produit Experience Platform Launch.
+Cette étape permet à l’utilisateur ou l’utilisatrice de se connecter à l’interface d’utilisation de collecte de données pour créer et afficher les propriétés. Pour plus d’informations sur les profils de produit dans l’interface d’utilisation de collecte de données, consultez [Créer votre profil de produit](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=fr#gain-admin-rights-for-a-tags-product-profile). Dans le profil de produit, aucune autorisation ne doit être définie sur la société ou les propriétés, mais l’utilisateur ou l’utilisatrice doit toujours pouvoir se connecter.
 
    Pour exécuter d’autres tâches, comme installer une extension, publier une application, configurer des environnements, etc., vous devez définir des autorisations dans le profil de produit.
 
@@ -65,10 +60,10 @@ Cette étape permet à l’utilisateur de se connecter à l’interface utilisat
 1. Dans Adobe Campaign Standard, configurez la propriété mobile que vous avez créée dans l’interface utilisateur de collecte de données. Pour plus d&#39;informations, consultez la section [Configuration de l’application Adobe Experience Platform Launch dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Ajoutez la configuration spécifique au canal à votre configuration d’application mobile.
-Pour plus d’informations, reportez-vous à la section [Configuration de l’application spécifique au canal dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+Pour plus d’informations, consultez [Configuration de l’application spécifique au canal dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 1. Si nécessaire, vous pouvez supprimer la propriété de balise.
-Pour plus d’informations, voir la section [Suppression de l’application Adobe ](../../administration/using/configuring-a-mobile-application.md#delete-app).
+Pour plus d’informations, consultez [ Suppression de l’application ](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
 ## Workflow technique Synchronisation de l’application mobile AEPSDK depuis Launch {#aepsdk-workflow}
 

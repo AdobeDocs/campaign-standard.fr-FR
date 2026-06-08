@@ -9,16 +9,12 @@ role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 TQID: https://experienceleague.adobe.com/ztI-eJdW855g7S99FTujQ6RyRm3iRF0ApASHNi3a6Pk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1422
 ht-degree: 100%
 
@@ -75,7 +71,7 @@ L&#39;email de confirmation est un message transactionnel car il réagit à un �
 
    ![](assets/confirmation_enrichment-service.png)
 
-1. Dans la section **[!UICONTROL Définition de la jointure]**, faites correspondre le champ **[!UICONTROL publicLabel]** de la ressource **[!UICONTROL Service]** au champ **[!UICONTROL publicLabel]** de la configuration de l’événement.
+1. Dans la section **[!UICONTROL Définition de la jointure]**, faites correspondre le champ **[!UICONTROL publicLabel]** de la ressource **[!UICONTROL Service]** au champ **[!UICONTROL publicLabel]** de la configuration de l&#39;événement.
 
    ![](assets/confirmation_publicLabel-join.png)
 
@@ -191,7 +187,7 @@ Pour créer et configurer cette landing page, procédez comme suit :
 
    ![](assets/confirmation_lp-specific-service.png)
 
-1. Sélectionnez l’option **[!UICONTROL Déclencher l’envoi d’un message]** et choisissez le message transactionnel que vous venez de créer dans la liste déroulante.
+1. Sélectionnez l&#39;option **[!UICONTROL Déclencher l&#39;envoi d&#39;un message]** et choisissez le message transactionnel que vous venez de créer dans la liste déroulante.
 
    ![](assets/confirmation_lp-start-sending-message.png)
 

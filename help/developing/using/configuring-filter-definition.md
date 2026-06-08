@@ -10,16 +10,12 @@ role: Developer
 level: Experienced
 exl-id: 342911c5-0746-4205-b380-be195b9cb82a
 TQID: https://experienceleague.adobe.com/LZNc1yJEI9GGnxAs-eLhrDoX91RtZKXRMhqQxkiSN-g
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 572
 ht-degree: 100%
 
@@ -64,7 +60,7 @@ Pour cela, vous devez étendre la ressource **[!UICONTROL Profiles]** et défini
 
    ![](assets/custom_resource_filter-definition_ex_edit-rule.png)
 
-1. Combinez cette règle à une autre règle précisant que la date doit être comprise dans une plage correspondant aux trois derniers mois.
+1. Combinez cette règle à une autre règle précisant que la date doit être comprise dans une plage correspondant aux trois derniers mois.
 
    ![](assets/custom_resource_filter-definition_example.png)
 
@@ -86,7 +82,7 @@ Lors de la création d&#39;un email, ils pourront ainsi facilement définir leur
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 
-Il leur suffira de saisir le montant souhaité dans la boîte de dialogue qui s’affiche au lieu d’effectuer elles-mêmes le paramétrage.
+Il leur suffira de saisir le montant souhaité dans la boîte de dialogue qui s&#39;affiche au lieu d&#39;effectuer eux-mêmes le paramétrage.
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 

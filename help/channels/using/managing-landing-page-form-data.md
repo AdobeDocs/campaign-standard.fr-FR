@@ -10,16 +10,12 @@ role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 TQID: https://experienceleague.adobe.com/RWC1QVnb36uYdmvYN4N4yUeaVATJ2RdI7G8vXkJqR0o
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 894
 ht-degree: 100%
 
@@ -113,7 +109,7 @@ Pour ce faire, procédez comme suit :
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l’aide du bouton **[!UICONTROL Afficher la source]**.
+   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l&#39;aide du bouton **[!UICONTROL Afficher la source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -137,7 +133,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/lp_uncheck-mandatory.png)
 
-1. Pour ajouter d’autres cases à cocher permettant de s’abonner à d’autres services, répétez les étapes ci-dessus autant de fois que nécessaire.
+1. Pour ajouter d&#39;autres cases à cocher permettant de s&#39;abonner à d&#39;autres services, répétez les étapes ci-dessus autant de fois que nécessaire.
 
    ![](assets/lp_multiple-checkboxes.png)
 
@@ -161,7 +157,7 @@ Pour insérer et configurer cette case à cocher, procédez comme suit :
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l’aide du bouton **[!UICONTROL Afficher la source]**.
+   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l&#39;aide du bouton **[!UICONTROL Afficher la source]**.
 
      ![](assets/lp_show_source.png)
 
@@ -189,7 +185,7 @@ Pour insérer et configurer cette case à cocher, procédez comme suit :
 
    ![](assets/lp_agreement_message.png)
 
-   Ce texte s’affiche sous forme d’avertissement si l’utilisateur ou l’utilisatrice ne coche pas la case avant d’envoyer le formulaire.
+   Ce texte s&#39;affiche sous forme d&#39;avertissement si l&#39;utilisateur ne coche pas la case avant d&#39;envoyer le formulaire.
 
    >[!NOTE]
    >

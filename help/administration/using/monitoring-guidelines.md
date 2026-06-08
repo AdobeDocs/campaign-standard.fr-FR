@@ -7,21 +7,13 @@ role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 TQID: https://experienceleague.adobe.com/4hy5-pubF9F2FDQGaC7GF-BfMHqMDykC4mtypRc-zsk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 514
+workflow-type: ht
+source-wordcount: 502
 ht-degree: 100%
 
 ---
@@ -87,7 +79,7 @@ La surveillance des logs de workflow est une étape essentielle pour analyser vo
 
 **Notifications**
 
-Campaign Standard vous permet d’envoyer des notifications aux superviseurs afin de surveiller l’exécution de vos workflows et de voir si une erreur nécessite votre attention.
+Campaign Standard vous permet d’envoyer des notifications aux personnes responsables afin de surveiller l’exécution de vos workflows et de voir si une erreur nécessite votre attention.
 [En savoir plus](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Surveillance des diffusions {#monitoring-deliveries}
@@ -101,7 +93,7 @@ Campaign Standard met à votre disposition plusieurs outils de délivrabilité 
 
 **Diffusions**
 
-Une fois vos messages envoyés, des logs détaillés vous permettent de surveiller les diffusions et de mesurer le succès de votre campagne, ainsi que de suivre le comportement des destinataires de messages.
+Une fois vos messages envoyés, des logs détaillés vous permettent de surveiller les diffusions et de mesurer le succès de votre campagne, ainsi que de suivre le comportement des personnes destinataires de messages.
 [En savoir plus](../../sending/using/monitoring-a-delivery.md)
 
 **Alertes de diffusion**

@@ -10,14 +10,11 @@ role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 TQID: https://experienceleague.adobe.com/eYHAXWPC6z7AhWv1qGoiBRZlN5nSp1-PiYOjCbVdU0g
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 685
 ht-degree: 100%
 
@@ -71,7 +68,7 @@ Après avoir conçu le contenu de votre email, vous devez créer des copies de l
 
    ![](assets/aem_acs_5.png)
 
-1. Sélectionnez le contenu de votre e-mail créé précédemment qui sera traduit dans les langues choisies, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez le contenu de votre email créé précédemment qui sera traduit dans les langues choisies, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/aem_acs_6.png)
 
@@ -99,7 +96,7 @@ Vos copies de langue sont créées. Vous pouvez maintenant modifier le contenu e
 
    >[!NOTE]
    >
-   >Dans le cas présent, vous devrez dupliquer le modèle intégré **[!UICONTROL E-mail multilingue (mailMultiLang)]** pour pouvoir envoyer votre e-mail multilingue.
+   >Dans le cas présent, vous devrez dupliquer le modèle intégré **[!UICONTROL Email multilingue (mailMultiLang)]** pour pouvoir envoyer votre email multilingue.
 
    ![](assets/aem_acs_13.png)
 

@@ -11,14 +11,11 @@ role: Developer
 level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
 TQID: https://experienceleague.adobe.com/LkH1qmElMwEn6JGmUaWj7Qpv7arSvLAZixbfJYTi2NQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 210
 ht-degree: 100%
 
@@ -40,11 +37,11 @@ Le workflow est constitué des éléments suivants :
 
   ![](assets/wkf_segment_example_3.png)
 
-   * un filtre sur l’âge permettant de définir la tranche d’âge du segment ;
+   * un filtrage sur l&#39;âge permettant de définir la tranche d&#39;âge du segment
 
      ![](assets/wkf_segment_new_segment.png)
 
-   * une limitation de type **[!UICONTROL Échantillonnage aléatoire]** associé à une limite de **[!UICONTROL Taille maximale]** avec pour valeur 100.
+   * une limitation de type **[!UICONTROL Tirage aléatoire]** associé à une limite de **[!UICONTROL Taille maximale]** avec pour valeur 100.
 
      ![](assets/wkf_segment_example_1.png)
 

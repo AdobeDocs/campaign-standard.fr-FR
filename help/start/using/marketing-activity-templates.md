@@ -9,16 +9,12 @@ role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
 TQID: https://experienceleague.adobe.com/kZTyOD8tL-C3HzPpUhVohvr7dM0WZ-EdNNQA1S1iB6k
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 423
 ht-degree: 100%
 
@@ -59,11 +55,11 @@ Les modèles de message peuvent être gérés par l&#39;administrateur fonctionn
 
    ![](assets/template_2.png)
 
-1. Survolez-le avec la souris, puis sélectionnez l’option **[!UICONTROL Dupliquer l’élément]**.
+1. Survolez-le avec la souris, puis sélectionnez l’option **[!UICONTROL Dupliquer l’’élément]**.
 
    ![](assets/template_3.png)
 
-1. Configurez les paramètres de votre choix comme vous le feriez lors de la [création d’une activité marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity) à partir de zéro.
+1. Configurez les paramètres de votre choix comme vous le feriez lors de la [création d&#39;une activité marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
    ![](assets/template_4.png)
 
@@ -81,10 +77,10 @@ Voyons à présent comment utiliser un modèle créé dans la section précéden
 
    ![](assets/template_5.png)
 
-1. Dans le premier écran de l’assistant, sélectionnez le modèle que vous souhaitez utiliser.
+1. Dans le premier écran de l&#39;assistant, sélectionnez le modèle que vous souhaitez utiliser.
 
    ![](assets/template_6.png)
 
-   L’activité marketing est pré-configurée avec les paramètres définis dans le modèle.
+   L&#39;activité marketing est pré-configurée avec les paramètres définis dans le modèle.
 
    ![](assets/template_7.png)

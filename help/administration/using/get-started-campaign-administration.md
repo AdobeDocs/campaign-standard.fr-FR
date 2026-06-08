@@ -7,23 +7,13 @@ role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 TQID: https://experienceleague.adobe.com/FKO2q2Cn5rO8aKh0d88eaFi7p1Xa608fOmEZiCRazBc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: b4ecd69f-2adf-4219-bc47-c9cd9a53c118
-  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b4ecd69f-2adf-4219-bc47-c9cd9a53c118id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 652
 ht-degree: 100%
 
@@ -33,7 +23,7 @@ ht-degree: 100%
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menu Administration</a></p></td>
-<td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Utilisateurs et utilisatrices et sécurité</a></p></td>
+<td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Utilisateurs et sécurité</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Configuration des canaux</a></p></td>
 <td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Paramétrage de l’application</a></p></td></tr>
 </table>
@@ -63,7 +53,7 @@ Voici la liste des différents menus disponibles :
 * [Mesures des clients](../../audiences/using/active-profiles.md) : Adobe Campaign contient un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation.
 * [Outils d&#39;accès à des informations personnelles](../../start/using/privacy-management.md) : ce menu vous permet de créer un accès RGPD, de supprimer les demandes et de tracker leur évolution.
 
-## Utilisateurs et utilisatrices et sécurité {#users-security}
+## Utilisateurs et sécurité {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 

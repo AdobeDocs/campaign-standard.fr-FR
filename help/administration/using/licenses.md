@@ -7,15 +7,11 @@ role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
 TQID: https://experienceleague.adobe.com/oAij3BLA46RvHZmXYcdKDSXuLM87QzQYvvukPMnC3Yw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 181
 ht-degree: 100%
 
@@ -33,7 +29,7 @@ Une fois connectés, les utilisateurs standard verront apparaître la fenêtre s
 
 ![](assets/license_2.png)
 
-Une personne chargée de l’administration doit lire et accepter les nouvelles conditions d’utilisation dans les 30 jours suivant l’installation de la version. Pour ce faire, elle doit cocher la case **[!UICONTROL J’accepte les dispositions de licence]** avant de cliquer sur **[!UICONTROL Confirmer]**.
+Un administrateur doit lire et accepter les nouvelles conditions d&#39;utilisation dans les 30 jours suivant l&#39;installation de la version. Pour ce faire, il doit cocher la case **[!UICONTROL J&#39;accepte les dispositions de licence]** avant de cliquer sur **[!UICONTROL Confirmer]**.
 
 ![](assets/license_3.png)
 

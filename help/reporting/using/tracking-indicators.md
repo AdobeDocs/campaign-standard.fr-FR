@@ -10,16 +10,12 @@ role: Leader
 level: Intermediate
 exl-id: 5071c124-07b7-49c3-8f36-5928ded3c544
 TQID: https://experienceleague.adobe.com/YXQB5tHfUzFLhni7CiC2ku-6wL1Lmuw-P-M0HOuTy-k
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 158
 ht-degree: 100%
 
@@ -31,7 +27,7 @@ Le rapport **[!UICONTROL Indicateurs de tracking]** contient les indicateurs cl�
 
 >[!NOTE]
 >
->Pour permettre l’accès à ces données, le tracking doit être activé lors la préparation de la diffusion.
+>Pour permettre l&#39;accès à ces données, le tracking doit être activé lors la préparation de la diffusion.
 
 ![](assets/delivery_reports_2.png)
 

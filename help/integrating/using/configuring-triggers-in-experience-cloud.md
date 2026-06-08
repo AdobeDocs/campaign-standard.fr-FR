@@ -10,16 +10,12 @@ role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 TQID: https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 857
 ht-degree: 100%
 
@@ -47,11 +43,11 @@ Afin de pouvoir utiliser cette fonction, vous devez avoir accès aux solutions/c
 
   ![](assets/trigger_uc_prereq_1.png)
 
-* Core Service DTM Experience Cloud
+* Core Service DTM Experience Cloud
 
   ![](assets/trigger_uc_prereq_2.png)
 
-* Identifiant du visiteur ou de la visiteuse Experience Cloud et Core Service People Experience Cloud
+* Identifiant du visiteur Experience Cloud et Core Service People Experience Cloud
 
   ![](assets/trigger_uc_prereq_3.png)
 

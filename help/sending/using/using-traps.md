@@ -10,19 +10,13 @@ role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
 TQID: https://experienceleague.adobe.com/1dwRaqZSGzlWwOv6ftIpV5V3poCwN3hzdRrQdk0WQsE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
-  - id: ede6e1ec-9279-415e-b828-a09735018d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: d3b34fea-a110-482f-adb2-aae8d686bac8id: ede6e1ec-9279-415e-b828-a09735018d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 463
 ht-degree: 100%
 
@@ -59,7 +53,7 @@ Lors de la définition de l’audience d’un message :
 
    ![](assets/trap_select.png)
 
-1. Une fois que le contenu de votre message est prêt, cliquez sur le bouton **[!UICONTROL Préparer]**. Voir [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
+1. Une fois que le contenu de votre message est prêt, cliquez sur le bouton **[!UICONTROL Préparer]**. Voir [Préparer l’envoi](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Vérifiez que vous avez sélectionné une cible principale. Sinon, votre message ne peut pas être envoyé.

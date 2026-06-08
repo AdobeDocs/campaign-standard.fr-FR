@@ -9,22 +9,14 @@ role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
 TQID: https://experienceleague.adobe.com/vxBxI9A1bHCAHCcPyhDVlmSeS9TOg-K1INwVzftpJLA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 697
+workflow-type: ht
+source-wordcount: 682
 ht-degree: 100%
 
 ---
@@ -34,8 +26,8 @@ ht-degree: 100%
 >[!CAUTION]
 > Le **[!UICONTROL code segment]** ne peut cibler que les diffusions e-mail et SMS.
 
-Après avoir créé un workflow et filtré votre population dans une audience ciblée différente, vous pouvez mesurer l&#39;efficacité de vos campagnes marketing en fonction des segments définis dans ce workflow de ciblage.
-Pour cibler ces segments dans vos rapports :
+Après avoir créé un workflow et filtré votre population dans une audience ciblée différente, vous pouvez mesurer l’efficacité de vos campagnes marketing en fonction des segments définis dans ce workflow de ciblage.
+Pour cibler ces segments dans vos rapports, procédez comme suit :
 
 * [Etape 1 : mise à jour de la ressource personnalisée Profils avec les segments](#step-1--update-profiles-custom-resource-segments)
 * [Etape 2 : création d&#39;un workflow avec des segments](#step-2--create-a-workflow-segments)
@@ -60,7 +52,7 @@ Avant de créer des rapports sur le code segment, vous devez mettre à jour la r
 1. Enregistrez votre ressource personnalisée.
 
 1. Vous devez maintenant publier votre ressource personnalisée.
-Dans le menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Publication]**.
+À partir du menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Publication]**.
 
    ![](assets/custom_profile_7.png)
 
@@ -104,7 +96,7 @@ Vous devez d&#39;abord créer un workflow avec une population ciblée différent
 
    ![](assets/report_segment_9.png)
 
-1. Placez une activité **[!UICONTROL Diffusion e-mail]** après vos segments.
+1. Placez une activité **[!UICONTROL Diffusion Email]** après vos segments.
 
    ![](assets/report_segment_3.png)
 

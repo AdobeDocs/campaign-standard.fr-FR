@@ -10,17 +10,12 @@ role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 TQID: https://experienceleague.adobe.com/dS7csVOV5g64DQCssB9Nzz2ByX3t1gAe2HXdGJo1N50
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1574
 ht-degree: 100%
 
@@ -75,7 +70,7 @@ A la réception d&#39;une notification sur un appareil, la valeur du badge de l&
 
    ![](assets/push_notif_advanced_8.png)
 
-1. Une fois le message envoyé, les utilisateurs et utilisatrices recevront la notification push. L’application affichera alors automatiquement la nouvelle valeur de badge.
+1. Une fois le message envoyé, les utilisateurs recevront la notification push. L&#39;application affichera alors automatiquement la nouvelle valeur de badge.
 
    ![](assets/push_notif_advanced_1.png)
 
@@ -92,7 +87,7 @@ Pour ajouter un lien profond à une notification push :
 
    ![](assets/push_notif_advanced_3.png)
 
-1. Une fois le message envoyé, les utilisateurs et utilisatrices recevront la notification push puis accéderont à la page spécifique de l’application en interagissant avec la notification (en appuyant ou en cliquant sur le bouton d’appel à l’action, par exemple).
+1. Une fois le message envoyé, les utilisateurs recevront la notification push puis accéderont à la page spécifique de l&#39;application en interagissant avec la notification (en appuyant ou en cliquant sur le bouton d&#39;appel à l&#39;action, par exemple).
 
    ![](assets/push_notif_advanced_4.png)
 
@@ -111,7 +106,7 @@ Pour ajouter une catégorie à une notification push :
 
    ![](assets/push_notif_advanced_9.png)
 
-1. Une fois la notification push envoyée, les utilisateurs et utilisatrices la reçoivent et doivent agir à l’aide des boutons actifs configurés auparavant.
+1. Une fois la notification push envoyée, les utilisateurs la reçoivent et doivent agir à l&#39;aide des boutons actifs configurés auparavant.
 
    ![](assets/push_notif_actionable_buttons.png)
 
@@ -166,7 +161,7 @@ Pour insérer du contenu multimédia dans la notification push :
 
    ![](assets/push_notif_advanced_6.png)
 
-1. Une fois le message envoyé, l’utilisateur ou l’utilisatrice recevra votre notification push et pourra afficher le contenu multimédia.
+1. Une fois le message envoyé, l&#39;utilisateur recevra votre notification push et pourra afficher le contenu multimédia.
 
    ![](assets/push_notif_advanced_2.png)
 

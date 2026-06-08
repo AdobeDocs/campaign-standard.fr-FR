@@ -9,19 +9,14 @@ role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 951
+workflow-type: ht
+source-wordcount: 920
 ht-degree: 100%
 
 ---
@@ -75,7 +70,7 @@ Dans les composants Structure, faites glisser et déposez les composants de la d
 
 >[!NOTE]
 >
->Vous pouvez sélectionner différentes dispositions de contenu qui s’ajouteront à votre e-mail.
+>Vous pouvez sélectionner différentes dispositions de contenu qui s&#39;ajouteront à votre email.
 
 ![](assets/structure-components-quick-start.png)
 
@@ -134,8 +129,8 @@ Vous pouvez créer un email à partir de modèles d&#39;usine, tels que des mess
 1. Créez un email et ouvrez son contenu. Voir à ce propos [Créer un email](../../channels/using/creating-an-email.md).
 1. Cliquez sur l&#39;icône Accueil pour accéder à la page d&#39;accueil du **[!UICONTROL concepteur d’e-mail]**.
 1. Cliquez sur l&#39;onglet **[!UICONTROL Modèles]**.
-1. Choisissez un modèle HTML d&#39;usine.
-Les différents modèles présentent de multiples combinaisons de plusieurs types d&#39;éléments. Par exemple, les modèles &#39;Contour progressif&#39; possèdent des marges, tandis que les modèles &#39;Astro&#39; en sont dépourvus. Pour plus d&#39;informations, consultez la section [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
+1. Choisissez un modèle HTML prêt à l’emploi.
+Les différents modèles présentent différentes combinaisons de plusieurs types d’éléments. Par exemple, les modèles « Feather » ont des marges, tandis que les modèles « Astro » n’en ont pas. Pour plus d’informations, consultez [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
 1. Accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du concepteur d’e-mail (accessible par le biais de l&#39;icône Accueil) et renseignez la section **[!UICONTROL Objet.]**
 1. Vous pouvez associer ces éléments afin de créer plusieurs variantes d&#39;emails. Par exemple, vous pouvez dupliquer une section d’e-mail en sélectionnant un composant de structure et en cliquant sur **[!UICONTROL Dupliquer]** dans la barre d’outils contextuelle.
 1. Vous pouvez déplacer les éléments au moyen de la flèche bleue située à gauche de façon à faire glisser un composant de structure au-dessus ou en dessous d&#39;un autre. Pour plus d&#39;informations, consultez la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
@@ -153,7 +148,7 @@ Ce cas pratique présente comment convertir rapidement un email HTML en composan
 
 >[!CAUTION]
 >
->Cette section est destinée aux utilisateurs et utilisatrices qui maîtrisent le code HTML.
+>Cette section est destinée aux utilisateurs qui maîtrisent le code HTML.
 
 >[!NOTE]
 >
