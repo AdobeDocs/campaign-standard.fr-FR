@@ -22,8 +22,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 3017
+workflow-type: ht
+source-wordcount: 2964
 ht-degree: 100%
 
 ---
@@ -51,8 +51,7 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
 * **Délivrabilité**
 
-  L’**[!UICONTROL identifiant pour les rapports de diffusion]** est fourni par l’assistance clientèle d’Adobe. Il identifie chaque instance à l’aide d’un identifiant de délivrabilité utilisé dans les rapports techniques de délivrabilité.
-  <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
+  L’**[!UICONTROL Identifiant pour les rapports de diffusion]** est fourni par l’équipe de l’assistance clientèle d’Adobe. Il identifie chaque instance à l’aide d’un identifiant de délivrabilité utilisé dans les rapports techniques de délivrabilité.  <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Paramètres de la diffusion**
 
@@ -80,8 +79,7 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
   Dans le champ **[!UICONTROL Durée entre deux erreurs significatives]**, saisissez une valeur pour définir le temps d’attente de l’application avant d’incrémenter le compteur d’erreurs en cas d’échec lié à un rebond temporaire. La valeur par défaut est **&quot;1d&quot;**, pour 1 jour.
 
-  Lorsque la valeur **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** est atteinte, l’adresse e-mail est mise en quarantaine. La valeur par défaut est **&quot;5&quot;** : l&#39;adresse est mise en quarantaine à la cinquième erreur. Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
-  <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
+  Lorsque la valeur **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** est atteinte, l’adresse e-mail est mise en quarantaine. La valeur par défaut est **5** : l’adresse est mise en quarantaine à la cinquième erreur. Cela signifie que le contact sera automatiquement exclu des diffusions ultérieures.  <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
   Pour plus d’informations sur ce sujet, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
@@ -210,7 +208,7 @@ Si vous activez l’option de mode test SMTP pour un modèle d’e-mail, cette o
 >[!IMPORTANT]
 >
 >Lorsque cette option est activée pour un e-mail, aucun message n’est envoyé tant qu’elle n’est pas décochée.
->Un avertissement s’affiche dans le tableau de bord de l’email ou du modèle d’email.
+>Un avertissement s’affichera dans l’e-mail ou le tableau de bord du modèle d’e-mail.
 
 Pour plus d’informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](#list-of-email-smtp-parameters).
 

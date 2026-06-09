@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1449
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Dans la section **[!UICONTROL Extraction de la cible]**, sélectionnez l’une d
 
   ![](assets/control-group-keep-first-records.png)
 
-  Il peut être intéressant de définir une population témoin qui inclut les profils qui font quelques achats ou des achats fréquents et de comparer leur comportement à celui des personnes destinataires contactées.
+  Il peut être intéressant de définir une population témoin qui inclut les profils qui font quelques achats ou des achats fréquents et de comparer leur comportement à celui des destinataires contactés.
 
 >[!NOTE]
 >

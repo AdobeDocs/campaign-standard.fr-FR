@@ -20,7 +20,7 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1680
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Vous trouverez ci-dessous un une capture de l’écran Contact pour « Utilisat
 
 ![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
-Reportez-vous au gros plan ci-dessous de la vue de chronologie pour l’utilisateur ou l’utilisatrice Dynamics.
+Reportez au gros plan ci-dessous de la vue de chronologie pour l’utilisateur Dynamics.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
@@ -74,7 +74,7 @@ Si vous cliquez sur l&#39;objet de l’événement d’envoi, vous verrez un for
 
 ![](assets/do-not-localize/mirror_page_url_send.png)
 
-Le formulaire pour les événements de clic sur l’URL d’un e-mail ajoute un attribut supplémentaire pour l’URL sur laquelle l’utilisateur ou l’utilisatrice a cliqué :
+Le formulaire pour les événements de clic sur l’URL d’un email ajoute un attribut supplémentaire pour l’URL sur laquelle l’utilisateur a cliqué :
 
 ![](assets/do-not-localize/mirror_page_url_click.png)
 
@@ -174,7 +174,7 @@ Les valeurs d’opt-out (par exemple, denyList) sont synchronisées entre les sy
 * **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d’opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365.
 * **Bidirectionnelle** : Dynamics 365 ET Campaign Standard sont deux sources de vérité. Les attributs d’opt-out seront synchronisés de façon bidirectionnelle entre Campaign Standard et Dynamics 365
 
-Si vous disposez également d&#39;un processus distinct pour gérer la synchronisation des opt-outs entre les systèmes, le flux de données d&#39;opt-out de l&#39;intégration peut être désactivé.
+Si vous disposez également d’un processus distinct pour gérer la synchronisation des opt-outs entre les systèmes, le flux de données d’opt-out de l’intégration peut être désactivé.
 
 >[!NOTE]
 >

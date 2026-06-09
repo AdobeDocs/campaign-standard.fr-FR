@@ -20,8 +20,8 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1078
+workflow-type: ht
+source-wordcount: 1049
 ht-degree: 100%
 
 ---
@@ -150,8 +150,8 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
 ## Personnalisation d’un type de message de notification locale {#customizing-a-local-notification-message-type}
 
-Les notifications locales peuvent uniquement être déclenchées par une application à une heure spécifique et en fonction d’un événement. Elles alerteront les utilisateurs sur le fait que quelque chose se passe dans leur application, même sans accès à Internet.
-Pour découvrir comment tracker les notifications locales, reportez-vous à cette [page](../../administration/using/local-tracking.md).
+Les notifications locales ne peuvent être déclenchées que par une application à une heure spécifique et en fonction d’un événement. Elles alerteront les utilisateurs et utilisatrices que quelque chose se passe dans leur application, même sans avoir accès à Internet.
+Pour savoir comment effectuer le suivi des notifications locales, consultez cette [page](../../administration/using/local-tracking.md).
 
 Pour personnaliser une notification locale :
 
@@ -159,7 +159,7 @@ Pour personnaliser une notification locale :
 
    ![](assets/inapp_customize_17.png)
 
-1. Sous la catégorie **[!UICONTROL Texte]**, saisissez le **[!UICONTROL Titre du message]** et le **[!UICONTROL Contenu du message]**.
+1. Sous la catégorie **[!UICONTROL Texte]**, saisissez le **[!UICONTROL Titre du message]** et **[!UICONTROL Contenu du message]**.
 
    ![](assets/inapp_customize_18.png)
 

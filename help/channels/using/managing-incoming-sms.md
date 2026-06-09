@@ -23,7 +23,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 728
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Pour ce faire :
 
    ![](assets/sms_config_mo_4.png)
 
-1. Ensuite, dans l’onglet **[!UICONTROL Cible]**, placez la règle **[!UICONTROL Attributs de SMS entrants]**.
+1. Ensuite, dans l&#39;onglet **[!UICONTROL Cible]**, placez la règle **[!UICONTROL Attributs de SMS entrants]**.
 
    ![](assets/sms_config_mo_5.png)
 

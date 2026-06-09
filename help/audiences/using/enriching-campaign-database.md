@@ -21,8 +21,8 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 460
+workflow-type: ht
+source-wordcount: 444
 ht-degree: 100%
 
 ---
@@ -63,8 +63,8 @@ Pour plus d&#39;informations sur les landing pages, reportez-vous à la [documen
 
 ## Synchronisation des profils à partir de Microsoft Dynamics 365
 
-L&#39;intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
-Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans les campagnes marketing.
+L’intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
+Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans des campagnes marketing.
 
 Pour plus d&#39;informations sur cette intégration, reportez-vous à la [documentation dédiée](../../integrating/using/d365-acs-get-started.md).
 

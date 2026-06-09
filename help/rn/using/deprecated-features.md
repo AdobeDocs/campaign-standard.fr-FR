@@ -25,8 +25,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1045
+workflow-type: ht
+source-wordcount: 998
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Utilisateurs et utilisatrices et sécurité - Entités géographiques</strong><br /> </th> 
+   <th> <strong>Utilisateurs et sécurité - Entités géographiques</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -178,7 +178,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Standard
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> À compter d’avril 2021, la fonctionnalité Optimisation prédictive de l’objet est désactivée.</p><br/>
+   <td> <p> À compter d'avril 2021, la fonctionnalité Optimisation prédictive de l'objet est désactivée.</p><br/>
    <p>Nous vous suggérons d'exploiter les fonctionnalités de messagerie optimisée par IA pour analyser et estimer les taux d'ouverture, les délais d'envoi optimaux et le taux probable d'exécution en fonction des mesures d'engagement historiques. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=fr">En savoir plus</a></p></br>
      </td> 
   </tr> 
@@ -188,13 +188,12 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Standard
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Score de propension avec les Triggers Experience Cloud</strong><br /> </th> 
+   <th> <strong>Score de propension avec Triggers Experience Cloud</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Le <b>score de propension</b> a été retiré des Triggers Adobe Experience Cloud. Cette option a donc été supprimée d’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d'enrichissement, nous vous recommandons de les mettre à jour afin de récupérer les dernières modifications et de republier les déclencheurs existants. Pour plus d'informations, voir la section <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=fr">Publication d'un déclencheur dans Campaign</a>.
-</p></br>
+   <td> <p>Le <b>score de propension</b> a été désactivé dans les déclencheurs Adobe Experience Cloud Triggers. Par conséquent, cette option a été supprimée d’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d’enrichissement, nous vous recommandons de mettre à jour les schémas afin de récupérer les dernières modifications et de republier les déclencheurs existants. Pour plus d’informations, consultez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=fr">Publication d’un déclencheur dans Campaign</a>.</p></br>
    </td> 
   </tr> 
  </tbody> 

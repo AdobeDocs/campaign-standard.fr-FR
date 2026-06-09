@@ -19,7 +19,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 534
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Les principales étapes de mise en œuvre de ce cas pratique sont présentées c
 
    ![](assets/message-center_usecase2.png)
 
-1. Créez une condition de jointure entre le champ « Identifiant produit » ajouté précédemment à l’événement et le champ correspondant dans la ressource **[!UICONTROL Achat]**.
+1. Créez une condition de jointure entre le champ « Identifiant produit » ajouté précédemment au message et le champ correspondant dans la ressource **[!UICONTROL Achat]**.
 
    ![](assets/message-center_usecase3.png)
 
@@ -67,7 +67,7 @@ Les principales étapes de mise en œuvre de ce cas pratique sont présentées c
 
    ![](assets/message-center_usecase4.png)
 
-1. Dans la section **[!UICONTROL Enrichissement du ciblage]**, sélectionnez l’enrichissement dans la ressource **[!UICONTROL Profil]** qui sera utilisé en tant que cible des messages pendant l’exécution de la diffusion.
+1. Dans la section **[!UICONTROL Enrichissement de la cible]**, sélectionnez l’enrichissement dans la ressource **[!UICONTROL Profil]** qui sera utilisé en tant que cible des messages pendant l’exécution de la diffusion.
 
    ![](assets/message-center_usecase5.png)
 
@@ -83,7 +83,7 @@ Les principales étapes de mise en œuvre de ce cas pratique sont présentées c
 
    ![](assets/message-center_usecase6.png)
 
-1. Grâce à la réconciliation avec le champ « Identifiant produit », vous pouvez enrichir le contenu du message avec des informations sur les achats du client ou de la cliente en ajoutant n’importe quel champ de la ressource **[!UICONTROL Achat]**.
+1. Grâce à la réconciliation avec le champ « Identifiant produit », vous pouvez enrichir le contenu du message avec des informations sur les achats du client en ajoutant n’importe quel champ de la ressource **[!UICONTROL Achat]**.
 
    ![](assets/message-center_usecase7.png)
 

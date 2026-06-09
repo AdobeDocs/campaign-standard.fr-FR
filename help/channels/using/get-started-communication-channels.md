@@ -26,8 +26,8 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 537
+workflow-type: ht
+source-wordcount: 484
 ht-degree: 100%
 
 ---
@@ -39,11 +39,11 @@ ht-degree: 100%
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">Concepts globaux</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">Canaux de communication</a></p></td>
 <td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">Messages transactionnels</a></p></td>
-<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Pages de destination</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
 </table>
 
-Adobe Campaign vous permet de lancer, de mesurer et d&#39;automatiser des campagnes sur chaque canal.
-L&#39;harmonisation de tous vos canaux marketing n&#39;est pas un impossible. Avec l&#39;aide d’Adobe Campaign, vous pouvez importer les données client de différents systèmes, appareils et canaux, dans un seul et même profil. Ensuite, lancez des campagnes pertinentes et opportunes qui répondent aux besoins de vos clients aux bons endroits et de la bonne manière lors de leur parcours client.
+Adobe Campaign vous permet de lancer, de mesurer et d’automatiser des campagnes sur chaque canal.
+L’harmonisation de tous vos canaux marketing n’est pas une tâche impossible. Avec l’aide d’Adobe Campaign, vous pouvez importer les données des clientes et clients de différents systèmes, appareils et canaux dans un seul profil. Ensuite, lancez des campagnes opportunes et pertinentes qui rencontrent vos clientes et clients au bon endroit et de la bonne manière tout au long de leur parcours clientèle.
 
 ## Concepts globaux {#global-concepts}
 

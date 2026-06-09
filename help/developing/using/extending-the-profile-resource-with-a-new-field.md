@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1171
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Pour créer le champ **Centre d&#39;intérêts** pour les profils, vous devez d&
 
    ![](assets/schema_extension_uc5.png)
 
-1. Dans la catégorie **[!UICONTROL Champs]** de l’onglet **[!UICONTROL Structure de données]**, cliquez sur **[!UICONTROL Créer un élément]**.
+1. Dans la catégorie **[!UICONTROL Champs]** de l&#39;onglet **[!UICONTROL Structure de données]**, cliquez sur **[!UICONTROL Créer un élément]**.
 
    >[!NOTE]
    >
@@ -114,7 +114,7 @@ Pour vérifier si le nouveau champ créé est correctement configuré, vous pouv
 
    ![](assets/schema_extension_uc13.png)
 
-1. Dans l’onglet **[!UICONTROL Structure de données]**, cliquez sur **[!UICONTROL Créer un élément]**.
+1. Dans l&#39;onglet **[!UICONTROL Structure de données]**, cliquez sur **[!UICONTROL Créer un élément]**.
 
    ![](assets/schema_extension_uc15.png)
 
@@ -145,7 +145,7 @@ Pour appliquer les modifications apportées aux ressources et les utiliser, vous
 
    ![](assets/schema_extension_uc18.png)
 
-1. Pour déterminer si vos modifications ont été correctement implémentées, sélectionnez l’onglet **[!UICONTROL Profils]** et cliquez sur **[!UICONTROL Nouveau]**.
+1. Pour déterminer si vos modifications ont été correctement implémentées, sélectionnez l&#39;onglet **[!UICONTROL Profils]** et cliquez sur **[!UICONTROL Nouveau]**.
 
    ![](assets/schema_extension_uc20.png)
 
@@ -188,7 +188,7 @@ Votre landing page est maintenant prête. Pour mettre à jour les profils, vous 
 
    ![](assets/schema_extension_uc23.png)
 
-1. Dans la fenêtre **[!UICONTROL Insérer un lien]**, sélectionnez **[!UICONTROL Page de destination]** dans la liste déroulante **[!UICONTROL Type de lien]**, puis sélectionnez la page de destination créée auparavant.
+1. Dans la fenêtre **[!UICONTROL Insérer un lien]**, sélectionnez **[!UICONTROL Landing page]** dans la liste déroulante **[!UICONTROL Type de lien]**, puis sélectionnez la landing page créée auparavant.
 
    ![](assets/schema_extension_uc24.png)
 

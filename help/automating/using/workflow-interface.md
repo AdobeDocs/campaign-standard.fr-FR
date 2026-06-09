@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 878
 ht-degree: 100%
 
@@ -129,7 +129,7 @@ Lorsqu’une activité est sélectionnée, des boutons d’actions rapides appar
 
 <img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copier la sélection]**<br/>Copie l’activité sélectionnée.
 
-<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Ouvrir les options avancées de l’activité]**<br/>Ouvre les options avancées de l’activité de diffusion e-mail ou SMS sélectionnée.
+<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Ouvrir les options avancées de l’activité]**<br/>Ouvre les options avancées de l’activité de diffusion email ou SMS sélectionnée.
 
 <img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Exécution normale]**<br/>Réactive la sélection après qu’elle a été marquée comme en pause ou désactivée.
 

@@ -21,7 +21,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2507
 ht-degree: 100%
 
@@ -190,7 +190,7 @@ Trois onglets sont disponibles. Ils indiquent les détails des résultats de l&#
 
   ![](assets/fatigue17.png)
 
-* Logs d’exclusions :
+* Exclus :
 
   ![](assets/fatigue18.png)
 
@@ -282,7 +282,7 @@ Les étapes de création de cette règle sont les suivantes :
 
    ![](assets/fatigue9.png)
 
-1. Saisissez les valeurs souhaitées pour créer la formule suivante : **Iif(@status=0,2,4)**.
+1. Saisissez les valeurs souhaitées pour créer la formule suivante :**Iif(@status=0,2,4)**
 
    ![](assets/fatigue10.png)
 

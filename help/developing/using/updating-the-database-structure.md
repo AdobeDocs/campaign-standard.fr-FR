@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 822
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ Les informations contenues dans l&#39;onglet sont divisées en trois sections :
 
 ![](assets/extendpandsapi_diff.png)
 
-L’analyse des différences est une étape obligatoire, car la publication modifiera le comportement de l’API et aura probablement un effet en cascade sur le développement environnant.
+L&#39;analyse des différences est une étape obligatoire, car la publication modifiera le comportement de l&#39;API et aura probablement un effet en cascade sur le développement environnant.
 
 >[!NOTE]
 >

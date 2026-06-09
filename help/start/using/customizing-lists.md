@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 397
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Vous pouvez également configurer les colonnes affichées pour une liste. Pour a
 
    ![](assets/export_list_mode_switch.png)
 
-1. Accédez à la fenêtre de configuration de la liste à l’aide du bouton ![](assets/columnsettings.png) de la barre d’actions.
+1. Accédez à la fenêtre de configuration de la liste à l&#39;aide du bouton ![](assets/columnsettings.png) de la barre d&#39;actions.
 
    ![](assets/list_configuration1.png)
 

@@ -21,8 +21,8 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 392
+workflow-type: ht
+source-wordcount: 388
 ht-degree: 100%
 
 ---
@@ -43,8 +43,8 @@ Vous devez au préalable posséder les éléments suivants :
 
 ## Configuration dans Adobe Campaign Standard {#config-acs}
 
-Afin de pouvoir utiliser conjointement ces deux solutions, vous devez les paramétrer pour les connecter l&#39;une à l&#39;autre.
-Les étapes de configuration d&#39;Adobe Campaign sont les suivants :
+Afin de pouvoir utiliser conjointement ces deux solutions, vous devez les paramétrer pour les connecter l’une à l’autre.
+Pour configurer Adobe Campaign :
 
 1. Vous devez d’abord configurer le compte externe de l’**[!UICONTROL instance Adobe Experience Manager]** sous **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Comptes externes]**.
 
@@ -66,7 +66,7 @@ Les étapes de configuration d&#39;Adobe Campaign sont les suivants :
 
    ![](assets/aem_3.png)
 
-1. Cliquez sur l’icône **[!UICONTROL Modifier les propriétés]**.
+1. Cliquez sur l’icône **[!UICONTROL Editer les propriétés]**.
 
    ![](assets/aem_4.png)
 

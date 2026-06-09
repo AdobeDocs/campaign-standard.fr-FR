@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1122
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ Pour créer un package, vous devez disposer des droits d’administration.
 
    ![](assets/packages_18.png)
 
-1. Dans l’onglet **[!UICONTROL Contenu de l’export]**, utilisez le bouton **[!UICONTROL Créer un élément]** pour sélectionner les ressources que vous souhaitez exporter.
+1. Dans l’onglet **[!UICONTROL Définition de l’export]**, utilisez le bouton **[!UICONTROL Créer un élément]** pour sélectionner les ressources que vous souhaitez exporter.
 
    ![](assets/packages_2.png)
 

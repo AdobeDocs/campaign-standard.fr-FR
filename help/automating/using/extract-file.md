@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 484
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
    ![](assets/wkf_data_export2.png)
 
-   Une nouvelle fenêtre s’affiche.
+   Une nouvelle fenêtre s&#39;affiche.
 
    ![](assets/wkf_data_export3.png)
 

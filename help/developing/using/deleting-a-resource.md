@@ -14,7 +14,7 @@ product_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 260
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Pour réinitialiser et supprimer une ressource publiée :
 
    ![](assets/schema_extension_uc26.png)
 
-1. Cliquez sur **[!UICONTROL OK]**.
+1. Cliquez sur **[!UICONTROL Ok]**.
 
    >[!IMPORTANT]
    >

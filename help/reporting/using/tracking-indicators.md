@@ -19,7 +19,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 158
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Le rapport **[!UICONTROL Indicateurs de tracking]** contient les indicateurs cl�
 
 >[!NOTE]
 >
->Pour permettre l’accès à ces données, le tracking doit être activé lors la préparation de la diffusion.
+>Pour permettre l&#39;accès à ces données, le tracking doit être activé lors la préparation de la diffusion.
 
 ![](assets/delivery_reports_2.png)
 

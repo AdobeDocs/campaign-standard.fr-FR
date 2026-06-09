@@ -18,8 +18,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 418
+workflow-type: ht
+source-wordcount: 405
 ht-degree: 100%
 
 ---
@@ -55,8 +55,7 @@ Vous pouvez envoyer une offre par email à la date anniversaire de la création 
 
 ### Récupération des profils créés le même jour que le jour d’exécution {#retrieving-profiles-created-on-the-same-day}
 
-1. Dans **[!UICONTROL Profil]**, effectuez un glisser-déposer du champ **[!UICONTROL Créé le]**. et cliquez sur **[!UICONTROL Mode avancé]**.
-   ![](assets/advanced_mode.png)
+1. Dans **[!UICONTROL Profil]**, effectuez un glisser-déposer du champ **[!UICONTROL Création le]** et cliquez sur **[!UICONTROL Mode avancé]**.   ![](assets/advanced_mode.png)
 1. Dans la **[!UICONTROL Liste des fonctions]**, double-cliquez sur **[!UICONTROL Jour]** depuis le nœud **[!UICONTROL Date]**.
 1. Ensuite, insérez le champ **[!UICONTROL Créé le]** en tant qu&#39;argument.
 1. Sélectionnez **[!UICONTROL égal à (=)]** comme opérateur.
@@ -82,11 +81,11 @@ Cliquez sur **[!UICONTROL Confirmer]**.
 
 ![](assets/month_rule.png)
 
-Vous devez obtenir ce qui suit :
+Vous devez obtenir :
 
 ``` Month(@created) = Month(GetDate()) ```
 
-La requête finale affiche ce qui suit :
+La requête finale affiche :
 
 ```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
 
@@ -101,8 +100,8 @@ La requête finale affiche ce qui suit :
 1. Saisissez les propriétés de l&#39;email et cliquez sur **[!UICONTROL Suivant]**.
 1. Pour créer la mise en page de votre e-mail, cliquez sur **[!UICONTROL concepteur d’e-mail]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
-1. Personnalisez votre email à l&#39;aide de champs et de liens.
-Pour plus d&#39;informations, consultez la section décrivant la [conception d&#39;un email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Personnalisez votre e-mail à l’aide de champs et de liens.
+Pour plus d’informations, consultez la section décrivant la [conception d’un e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre mise en page.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

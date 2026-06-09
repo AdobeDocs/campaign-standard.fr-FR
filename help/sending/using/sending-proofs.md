@@ -17,7 +17,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 613
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Pour envoyer des bons à tirer, procédez comme suit :
 
    ![](assets/bat_select2.png)
 
-1. Vous pouvez consulter les BAT depuis la liste déroulante **[!UICONTROL BAT]**.
+1. Vous pouvez consulter les BAT depuis la liste déroulante **[!UICONTROL Bons à tirer]**.
 
    ![](assets/bat_view.png)
 
@@ -102,11 +102,11 @@ Pour masquer le numéro du bon à tirer dans la ligne d’objet, activez l’opt
 
 >[!NOTE]
 >
->Si vous souhaitez masquer l’intégralité du préfixe du BAT, laissez vide le champ **[!UICONTROL Préfixe de ligne d’objet]**.
+>Si vous souhaitez masquer l’intégralité du préfixe du bon à tirer, laissez vide le champ **[!UICONTROL Préfixe de ligne d’objet]**.
 
 ![](assets/proof-prefix-configuration.png)
 
-1. Cliquez sur **[!UICONTROL Confirmer]**. Les paramètres sont appliqués par défaut à tous les bons à tirer envoyés pour le message sélectionné.
+1. Cliquez sur **[!UICONTROL Valider]**. Les paramètres sont appliqués par défaut à tous les bons à tirer envoyés pour le message sélectionné.
 
 **Rubrique connexe :**
 

@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 496
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Pour cet exemple, des [ressources personnalisées](../../developing/using/data-m
 
 L’objectif est d’envoyer un email aux profils pour lesquels au moins une transaction a été enregistrée. Via cet email, les clients recevront un rappel de la dernière transaction qu’ils ont effectuée ainsi que diverses informations récapitulatives sur l’ensemble de leurs transactions : nombre de produits achetés, total dépensé, rappel du nombre de points fidélité acquis.
 
-Le workflow se présente comme suit :
+Le workflow de se présente comme suit :
 
 ![](assets/enrichment_example1.png)
 
@@ -60,7 +60,7 @@ Le workflow se présente comme suit :
 
    ![](assets/enrichment_example4.png)
 
-1. Si vous souhaitez vérifier que les données sont correctement transmises en sortie de l’activité, lancez une première fois le workflow (sans l’activité de **[!UICONTROL Diffusion e-mail]**) et ouvrez la transition sortante de la requête.
+1. Si vous souhaitez vérifier que les données sont correctement transmises en sortie de l’activité, lancez une première fois le workflow (sans l’activité de **[!UICONTROL Diffusion Email]**) et ouvrez la transition sortante de la requête.
 
    ![](assets/enrichment_example5.png)
 

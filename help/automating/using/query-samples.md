@@ -23,7 +23,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 370
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ L’exemple qui suit montre une activité de requête configurée pour cibler de
 
 ![](assets/query_sample_emaildomain.png)
 
-L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont l’adresse e-mail a été fournie.
+L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont l’adresse électronique a été fournie.
 
 ![](assets/query_sample_emailnotempty.png)
 

@@ -17,16 +17,16 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 147
+workflow-type: ht
+source-wordcount: 120
 ht-degree: 100%
 
 ---
 
 # Interagir avec l’historique marketing{#interacting-with-marketing-history}
 
-Le point d’entrée **history** vous permet d’interagir avec l’historique marketing d’un profil.
-Vous pouvez ainsi, par exemple, récupérer facilement la page miroir d’une diffusion envoyée à un profil. Pour ce faire, procédez comme suit :
+Le point d’entrée **historique** vous permet d’interagir avec l’historique marketing d’un profil.
+Vous pouvez ainsi, par exemple, récupérer facilement la page miroir d’une diffusion envoyée à un profil. Pour cela, procédez comme suit :
 
 1. Exécutez une requête GET avec le point d’entrée **history** et la clé primaire du profil.
 1. Exécutez une requête GET sur l’adresse href **events** renvoyée.

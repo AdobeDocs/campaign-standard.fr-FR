@@ -20,7 +20,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 582
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Les principales étapes de création d’ue règle de typologie sont les suivant
 
    ![](assets/typology_create-rule.png)
 
-1. Saisissez le **[!UICONTROL libellé]** de typologie, puis spécifiez le **[!UICONTROL canal]** auquel la règle doit s’appliquer.
+1. Entrez le **[!UICONTROL libellé]** de typologie, puis spécifiez le **[!UICONTROL canal]** auquel la règle doit s’appliquer.
 
    ![](assets/typology-rule-label.png)
 
@@ -92,6 +92,6 @@ Dans les **[!UICONTROL Propriétés]** d&#39;une règle de typologie, vous pouve
 
 ![](assets/typology_rule-active.png)
 
-Une règle de typologie peut être désactivée via ses **[!UICONTROL Propriétés]** si vous souhaitez que la règle ne soit pas appliquée au moment de l’analyse des messages sur lesquels elle porte.
+Une règle de typologie peut être désactivée via ses **[!UICONTROL Propriétés]** si vous souhaitez que la règle ne soit pas appliquée au moment de l&#39;analyse des messages sur lesquels elle porte.
 
 ![](assets/typology_rule-order.png)

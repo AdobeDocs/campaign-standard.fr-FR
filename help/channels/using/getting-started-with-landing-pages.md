@@ -17,8 +17,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1049
+workflow-type: ht
+source-wordcount: 956
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ La section ci-dessous répertorie les limites que vous devez connaître avant de
 
 **Ecriture et mise à jour des données**
 
-* Les landing pages sont limitées uniquement aux ressources **[!UICONTROL Profil]** et **[!UICONTROL Abonnement]**. Un enregistrement peut être sauvegardé et mis à jour depuis le **[!UICONTROL Profil]** et un abonnement/désabonnement à un **[!UICONTROL Service]**.
+* Les pages de destination sont limitées aux ressources **[!UICONTROL Profil]** et **[!UICONTROL Abonnement]** uniquement. L’enregistrement peut être sauvegardé et mis à jour à partir de **[!UICONTROL Profil]** et d’un abonnement/désabonnement à un **[!UICONTROL Service]**.
 Pour en savoir plus sur la configuration des ressources, consultez [Configuration de la structure de données de la ressource](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 >[!IMPORTANT]
@@ -93,8 +93,8 @@ Créez une landing page dans le programme ou la campagne de votre choix, à part
 
 1. Créez la landing page à partir du modèle souhaité.
 1. Renseignez les paramètres généraux de la landing page (libellé, description, etc.).
-1. Vous accéderez ensuite au tableau de bord de la landing page. Si nécessaire, modifiez les propriétés de la landing page (voir [Paramétrer une landing page](../../channels/using/configuring-landing-page.md)). Par défaut, les propriétés sont celles configurées dans le modèle de landing page.
-Pour des raisons de sécurité et de performances de la plateforme, il est vivement recommandé de définir une date d&#39;expiration dans les propriétés de la landing page. Une fois cette opération terminée, la landing page est automatiquement dépubliée à la date sélectionnée. Pour plus d’informations sur les paramètres de validité, reportez-vous à [cette section](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
+1. Vous accédez alors au tableau de bord de la page de destination. Modifiez les propriétés de la page de destination si nécessaire (consultez [Configuration d’une page de destination](../../channels/using/configuring-landing-page.md)). Par défaut, les propriétés sont celles configurées dans le modèle de page de destination.
+Pour des raisons de sécurité et de performances de la plateforme, il est vivement recommandé de définir une date d’expiration dans les propriétés de la page de destination. Une fois terminée, la publication de la page de destination sera automatiquement annulée à la date sélectionnée. Pour plus d’informations sur les paramètres de validité, consultez [cette section](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
 
    ![](assets/lp-steps3.png)
 

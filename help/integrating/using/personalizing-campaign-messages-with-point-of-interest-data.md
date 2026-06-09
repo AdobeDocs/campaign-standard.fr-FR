@@ -21,7 +21,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 290
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Dans cet exemple, vous décidez d&#39;envoyer un email à tous vos abonnés s&#3
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
-1. Ajoutez du contenu à votre e-mail.
+1. Ajoutez du contenu à votre email.
 
    ![](assets/poi_email_content.png)
 

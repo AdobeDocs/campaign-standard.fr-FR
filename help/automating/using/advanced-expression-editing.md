@@ -16,7 +16,7 @@ product_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1107
 ht-degree: 100%
 
@@ -147,43 +147,43 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">Égal à</span> <br /> </td> 
-   <td> =<br /> </td> 
-   <td> ==<br /> </td> 
+   <td>=<br /></td> 
+   <td>==<br /></td> 
    <td> La première valeur doit être rigoureusement identique à la seconde valeur.<br /> </td> 
    <td> <strong>@lastName = Martin</strong> récupère les profils dont le nom est « Martin », avec les seuls caractères indiqués.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Supérieur à</span> <br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> &gt;<br /> </td> 
+   <td>&gt;<br /></td> 
+   <td>&gt;<br /></td> 
    <td> La première valeur doit être strictement supérieure à la seconde valeur.<br /> </td> 
    <td> <strong>@age &gt; 50</strong> récupère les profils dont l’âge est supérieur à « 50 », donc « 51 », « 52 », etc.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Inférieur à</span> <br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td>&lt;<br /></td> 
+   <td>&lt;<br /></td> 
    <td> La première valeur doit être strictement inférieure à la seconde valeur.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> récupère tous les profils créés dans la base de données il y a moins de 100 jours.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Supérieur ou égal à</span> <br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> &gt;=<br /> </td> 
+   <td>&gt;=<br /></td> 
+   <td>&gt;=<br /></td> 
    <td> La première valeur doit être supérieure ou égale à la seconde valeur.<br /> </td> 
    <td> <strong>@age &gt;= 30</strong> récupère les profils âgés de 30 ans et plus.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Inférieur ou égal à</span> <br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td>&lt;=<br /></td> 
+   <td>&lt;=<br /></td> 
    <td> La première valeur doit être inférieure ou égale à la seconde valeur.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> récupère les profils âgés de 60 ans ou moins.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Différentes </span> <br /> </td> 
-   <td> !=<br /> </td> 
-   <td> !=<br /> </td> 
+   <td>!=<br /></td> 
+   <td>!=<br /></td> 
    <td> La première valeur doit être différente de la seconde valeur.<br /> </td> 
    <td> <strong>@language != English</strong> récupère les profils n’étant pas définis comme anglophones.<br /> </td> 
   </tr> 

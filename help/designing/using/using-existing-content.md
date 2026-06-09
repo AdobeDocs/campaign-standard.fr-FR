@@ -19,7 +19,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1318
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Pour récupérer du contenu au moment de la préparation d&#39;une diffusion, pr
 
    ![](assets/email_designer_importfromurl2.png)
 
-1. Le contenu de l’URL s’affiche en lecture seule dans l’éditeur.
+1. Le contenu de l&#39;URL s&#39;affiche en lecture seule dans l&#39;éditeur.
 
    >[!CAUTION]
    >
@@ -196,7 +196,7 @@ Ce cas pratique présente comment convertir rapidement un email HTML en composan
 
 >[!CAUTION]
 >
->Cette section est destinée aux utilisateurs et utilisatrices avancés qui sont familiers avec le code HTML.
+>Cette section est destinée aux utilisateurs avancés qui sont familiers avec le code HTML.
 
 >[!NOTE]
 >

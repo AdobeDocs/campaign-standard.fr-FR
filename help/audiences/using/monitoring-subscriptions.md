@@ -16,7 +16,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 357
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Pour afficher un rapport présentant l&#39;évolution des inscriptions et des d�
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. Le rapport **Synthèse du service** présente le nombre d’inscriptions, leur évolution globale et une courbe d’évolution dans le temps.
+1. Le rapport **Synthèse du service** présente le nombre d&#39;inscrits, l&#39;évolution globale des inscriptions et une courbe d&#39;évolution dans le temps.
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 

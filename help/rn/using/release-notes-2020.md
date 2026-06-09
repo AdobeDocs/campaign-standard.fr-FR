@@ -40,8 +40,8 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 5444
+workflow-type: ht
+source-wordcount: 5385
 ht-degree: 100%
 
 ---
@@ -64,8 +64,7 @@ ht-degree: 100%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Vous pouvez désormais utiliser des <strong>Populations témoins</strong> pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Vous pourrez ensuite comparer le comportement de la population cible qui a reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pourrez également cibler une population témoin dans les prochaines campagnes.
-</p>
+  <td> <p>Vous pouvez désormais utiliser des <strong>Populations témoins</strong> pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Vous pourrez ensuite comparer le comportement de la population cible qui a reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pouvez également cibler une population témoin dans des campagnes ultérieures.</p>
 <p>Pour plus d’informations, consultez la <a href="../../sending/using/control-group.md">documentation détaillée</a> et visualisez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=fr">vidéo pratique</a>.
 </p>
 </td> 
@@ -76,15 +75,13 @@ ht-degree: 100%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>API externe - Prise en charge OAuth</strong><br /> </th> 
+<th><strong>API externe - Prise en charge OAuth</strong><br /></th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign prend désormais en charge OAuth pour l’authentification dans l’activité de workflow <strong>API externe</strong>. Cette nouvelle fonctionnalité permet à cette activité de communiquer avec des systèmes nécessitant une prise en charge OAuth.
-</p>
-<p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a>.
-</p>
+  <td> <p>Adobe Campaign prend désormais en charge OAuth pour l’authentification dans l’activité de workflow <strong>API externe</strong>. Cette nouvelle fonctionnalité permet à cette activité de communiquer avec des systèmes nécessitant une prise en charge OAuth.</p>
+<p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a>.</p>
 </td> 
 </tr> 
 </tbody> 

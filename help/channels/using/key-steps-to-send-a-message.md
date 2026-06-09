@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 376
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Tirez profit des [activités marketing](../../start/using/marketing-activities.m
 
 ![](assets/marketing-activities.png)
 
-Les messages peuvent être créés à partir de la liste des activités marketing ou à partir d’un workflow, à l’aide des [activités dédiées](../../automating/using/about-channel-activities.md).
+Les messages peuvent être créés à partir de la liste des activités marketing ou à partir d&#39;un workflow, à l&#39;aide des [activités dédiées](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
@@ -68,7 +68,7 @@ Dans le bloc **[!UICONTROL Contenu]**, concevez et personnalisez le contenu de v
 
 ![](assets/steps-content.png)
 
-## Préparer et tester
+## Préparation et test
 
 [Préparez](../../sending/using/preparing-the-send.md) le message. Ce processus calcule la population cible et prépare le message personnalisé.
 

@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 865
 ht-degree: 100%
 
@@ -95,6 +95,6 @@ Le workflow défini dans cet exemple illustre la mise à jour régulière d&#39;
 
 ![](assets/save_audience_example_1.png)
 
-L’activité **[!UICONTROL Sauvegarde d’audience]** est paramétrée comme suit :
+L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est paramétrée comme suit :
 
 ![](assets/save_audience_example_2.png)

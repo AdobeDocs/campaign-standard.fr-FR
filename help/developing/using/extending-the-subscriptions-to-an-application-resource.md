@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 265
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Cette ressource peut être étendue pour collecter les données que vous avez l&
 
    ![](assets/in_app_personal_data_4.png)
 
-1. Dans la catégorie **[!UICONTROL Champs]** de l’onglet **[!UICONTROL Structure de données]**, définissez les données du client ou de la cliente à récupérer de l’application mobile en cliquant sur le bouton **[!UICONTROL Ajouter un champ]**.
+1. Dans la catégorie **[!UICONTROL Champs]** de l&#39;onglet **[!UICONTROL Structure de données]**, définissez les données du client à récupérer de l&#39;application mobile en cliquant sur le bouton **[!UICONTROL Ajouter un champ]**.
 
    >[!NOTE]
    >

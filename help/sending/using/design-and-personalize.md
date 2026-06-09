@@ -24,8 +24,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1053
+workflow-type: ht
+source-wordcount: 972
 ht-degree: 100%
 
 ---
@@ -43,8 +43,8 @@ Les principes de base de la personnalisation sont présentés dans [cette sectio
 
 Vérifiez que le contenu de votre message est correctement conçu pour éviter les erreurs généralement liées à la personnalisation.
 
-Vous pouvez ajouter manuellement du contenu dynamique pour afficher différents éléments à vos destinataires selon les conditions définies au moyen de l’éditeur d’expression. Lors de l’ajout de contenu dynamique, vous devez toujours laisser une variante par défaut pour les destinataires qui ne remplissent pas les conditions sélectionnées.
-Pour plus d&#39;informations sur les contenu dynamique, consultez [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Vous pouvez ajouter manuellement du contenu dynamique pour afficher différents éléments à vos personnes destinataires selon les conditions définies au moyen de l’éditeur d’expression. Lorsque vous ajoutez du contenu dynamique, vous devez toujours laisser une variante par défaut pour les personnes destinataires qui ne répondent pas aux conditions sélectionnées.
+Pour en savoir plus sur le contenu dynamique, consultez [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 **Conseils** : prévisualisez votre e-mail avec différents profils de test pour vous assurer que le contenu dynamique est correctement paramétré.
 
@@ -114,8 +114,8 @@ Adobe recommande de conserver la valeur par défaut de la taille maximale de mes
 
 Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications). Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
-La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
-En savoir plus dans [cette section](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
+En savoir plus [dans cette section](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Conseils** :
 

@@ -17,7 +17,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 761
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ Pour surveiller un message transactionnel, vous devez accéder aux [diffusions d
 
    ![](assets/message-center_access_logs.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Liste d’exécution]**.
+1. Cliquez sur l’onglet **[!UICONTROL Liste d&#39;exécution]**.
 
    ![](assets/message-center_execution_tab.png)
 
@@ -106,7 +106,7 @@ Sélectionnez l&#39;onglet **[!UICONTROL Envois]**. Dans la colonne **[!UICONTRO
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-Sélectionnez l’onglet **[!UICONTROL Logs d’exclusion]** pour visualiser les personnes destinataires qui ont été exclues de la cible du message, par exemple les adresses mises en liste bloquée.
+Sélectionnez l’onglet **[!UICONTROL Logs d’exclusion]** pour visualiser les destinataires qui ont été exclus de la cible du message, par exemple les adresses mises en liste bloquée.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

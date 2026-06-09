@@ -21,8 +21,8 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1231
+workflow-type: ht
+source-wordcount: 1129
 ht-degree: 100%
 
 ---
@@ -33,14 +33,14 @@ Cette section contient des questions courantes relatives aux rapports dynamiques
 
 ## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne. {#unique-open-clicks-no-match}
 
-Il s&#39;agit d&#39;un comportement attendu.
-Prenons l&#39;exemple suivant pour expliquer ce comportement.
+Il s’agit d’un comportement attendu.
+Prenons l’exemple suivant pour expliquer ce comportement.
 
 Un e-mail est envoyé aux profils P1 et P2.
 
 P1 ouvre l&#39;e-mail deux fois le premier jour, puis trois fois le jour suivant.
 
-P2, quant à lui, ouvre l&#39;e-mail une fois le premier jour et ne le rouvre pas les jours suivants.
+P2, quant à lui, ouvre l’e-mail une fois le premier jour et ne le rouvre pas les jours suivants.
 Voici une représentation visuelle de l’interaction des profils avec l’e-mail envoyé :
 
 <table> 
@@ -54,13 +54,13 @@ Voici une représentation visuelle de l’interaction des profils avec l’e-mai
  <tbody> 
   <tr> 
    <td align="center"> Jour 1<br /> </td> 
-   <td align="center"> 2 + 1 = 3<br /> </td> 
-   <td align="center"> 1 + 1 = 2<br /> </td> 
+   <td align="center">2 + 1 = 3<br /></td> 
+   <td align="center">1 + 1 = 2<br /></td> 
   </tr> 
   <tr> 
    <td align="center"> Jour 2<br /> </td> 
-   <td align="center"> 3 + 0 = 3<br /> </td> 
-   <td align="center"> 1 + 0 = 1<br /> </td> 
+   <td align="center">3 + 0 = 3<br /></td> 
+   <td align="center">1 + 0 = 1<br /></td> 
   </tr>
  </tbody> 
 </table>
@@ -82,18 +82,18 @@ Cela donne le tableau suivant :
  <tbody> 
   <tr> 
    <td align="center"> <strong> Jour </strong><br /> </td> 
-   <td align="center"> <strong> 6 </strong><br /> </td> 
-   <td align="center"> <strong> 2</strong><br /> </td>
+   <td align="center"><strong> 6 </strong><br /></td> 
+   <td align="center"><strong> 2</strong><br /></td>
   </tr> 
   <tr> 
    <td align="center"> Jour 1<br /> </td> 
-   <td align="center"> 3<br /> </td> 
-   <td align="center"> 2<br /> </td>
+   <td align="center">3<br /></td> 
+   <td align="center">2<br /></td>
   </tr> 
   <tr> 
    <td align="center"> Jour 2<br /> </td> 
-   <td align="center"> 3<br /> </td> 
-   <td align="center"> 1<br /> </td> 
+   <td align="center">3<br /></td> 
+   <td align="center">1<br /></td> 
   </tr> 
  </tbody> 
 </table>
@@ -118,10 +118,10 @@ Ces occurrences sont ajoutées car **&quot;un clic sur un e-mail implique l&#39;
 
 ## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ? {#counts-recurring-deliveries}
 
-Lors de l&#39;utilisation de diffusions récurrentes et transactionnelles, les décomptes sont attribués aux diffusions parents et enfants.
-Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s’exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
-Supposons que seule une personne a ouvert toutes les diffusions enfants à plusieurs reprises. Dans ce cas, chaque diffusion enfant récurrente affichera le nombre 1 d&#39;**[!UICONTROL Ouverture.]**
-Toutefois, comme la même personne a cliqué sur toutes les diffusions, la diffusion récurrente parent aura également un décompte de 1 pour les **[!UICONTROL ouvertures uniques]**.
+Lorsque vous travaillez avec des diffusions récurrentes et transactionnelles, les nombres sont attribués aux diffusions parent et enfant.
+Prenons l’exemple d’une diffusion récurrente nommée **R1** définie pour s’exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
+Supposons qu’une seule personne ait ouvert toutes les diffusions enfants plusieurs fois. Dans ce cas, les diffusions enfants récurrentes individuelles affichent le nombre **[!UICONTROL Ouverture]** de 1 pour chacune d’elles.
+Cependant, comme la même personne a cliqué sur toutes les diffusions, la diffusion récurrente parent a également **[!UICONTROL Ouverture unique]** défini sur 1.
 
 Les rapports doivent se présenter comme suit :
 
@@ -138,31 +138,31 @@ Les rapports doivent se présenter comme suit :
  <tbody> 
   <tr> 
    <td align="center"> <strong>R1</strong><br/> </td> 
-   <td align="center"> <strong>100</strong><br/> </td> 
-   <td align="center"> <strong>90</strong><br/> </td> 
-   <td align="center"> <strong>10</strong><br/> </td> 
-   <td align="center"> <strong>3</strong><br/> </td> 
+   <td align="center"><strong>100</strong><br/></td> 
+   <td align="center"><strong>90</strong><br/></td> 
+   <td align="center"><strong>10</strong><br/></td> 
+   <td align="center"><strong>3</strong><br/></td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 6<br /> </td> 
-   <td align="center"> 1<br /> </td> 
+   <td align="center">20<br /></td> 
+   <td align="center">20<br /></td> 
+   <td align="center">6<br /></td> 
+   <td align="center">1<br /></td> 
   </tr>
     <tr> 
    <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 30<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
+   <td align="center">40<br /></td> 
+   <td align="center">30<br /></td> 
+   <td align="center">2<br /></td> 
+   <td align="center">1<br /></td> 
   </tr> 
     <tr> 
    <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
+   <td align="center">40<br /></td> 
+   <td align="center">40<br /></td> 
+   <td align="center">2<br /></td> 
+   <td align="center">1<br /></td> 
   </tr> 
  </tbody> 
 </table>

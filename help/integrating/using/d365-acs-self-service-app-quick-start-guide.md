@@ -20,8 +20,8 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1139
+workflow-type: ht
+source-wordcount: 1099
 ht-degree: 100%
 
 ---
@@ -70,8 +70,8 @@ Ouvrez un navigateur et accédez au connecteur associé à votre zone géographi
 
 ## Reconnaissance des modalités des demandes d&#39;accès à des informations personnelles {#self-service-app-acknowledgement}
 
-Lorsque vous accédez pour la première fois à l’interface utilisateur en libre-service, une reconnaissance des modalités des demandes d&#39;accès à des informations personnelles s’affiche. Vous devez reconnaître que vous avez compris votre rôle dans l&#39;exécution des demandes d&#39;accès à des informations personnelles dans Campaign et Microsoft Dynamics 365 séparément avant de pouvoir continuer.
-Pour en savoir plus sur vos responsabilités en matière de confidentialité et sur la façon de gérer les demandes d&#39;accès à des informations personnelles, consultez [cette section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+Lorsque vous accédez à l’interface d’utilisation en libre-service pour la première fois, la reconnaissance de confidentialité s’affiche. Vous devez reconnaître que vous comprenez votre rôle dans l’exécution séparée des demandes d’accès à des informations personnelles dans Campaign et Microsoft Dynamics 365 avant de pouvoir continuer.
+En savoir plus sur vos responsabilités en matière de confidentialité et sur la gestion des demandes d’accès à des informations personnelles dans [cette section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 ## Configurer vos informations d&#39;identification {#self-service-app-credentials}
 

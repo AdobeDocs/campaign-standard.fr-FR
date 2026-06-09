@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2773
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Le nom du champ apparaît dans l&#39;éditeur et est surligné.
 
 ![](assets/email_perso_field_3.png)
 
-Une fois la personnalisation générée (lors de la prévisualisation et de la préparation de l’e-mail, par exemple), ce champ est remplacé par la valeur qui correspond au profil ciblé.
+Une fois la personnalisation générée (lors de la prévisualisation et de la préparation de l&#39;email, par exemple), ce champ est remplacé par la valeur qui correspond au profil ciblé.
 
 >[!NOTE]
 >
@@ -248,7 +248,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 
    ![](assets/dynamic_content_2.png)
 
-   La section **[!UICONTROL Contenu dynamique]** s’affiche dans la palette de gauche.
+   La section **[!UICONTROL Contenu dynamique]** s&#39;affiche dans la palette de gauche.
 
    ![](assets/dynamic_content_3.png)
 
@@ -270,7 +270,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 
    ![](assets/dynamic_content_6.png)
 
-1. Une fois que toutes les conditions sont définies, définissez l’ordre de priorité dans lequel la condition sera appliquée et enregistrez vos modifications.
+1. Une fois que toutes les conditions sont définies, définissez l&#39;ordre de priorité dans lequel la condition sera appliquée et enregistrez vos modifications.
 
    ![](assets/dynamic_content_7.png)
 
@@ -280,7 +280,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 
    ![](assets/dynamic_content_8.png)
 
-   Les personnes destinataires âgées de 18 à 25 ans verront la nouvelle image.
+   Les destinataires âgés de 18 à 25 ans verront la nouvelle image.
 
    ![](assets/dynamic_content_10.png)
 
@@ -354,11 +354,11 @@ Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont para
 
    ![](assets/delivery_content_48.png)
 
-1. Modifiez son libellé puis sélectionnez le champ **[!UICONTROL Âge]** depuis le nœud **[!UICONTROL Profil]**.
+1. Modifiez son libellé puis sélectionnez le champ **[!UICONTROL Age]** depuis le nœud **[!UICONTROL Profil]**.
 
    ![](assets/delivery_content_49.png)
 
-1. Sélectionnez l’opérateur **Supérieur ou égal à** puis saisissez **18** pour créer l’expression **égal ou plus de 18 ans**.
+1. Sélectionnez l&#39;opérateur **Supérieur ou égal à** puis entrez **18** pour créer l&#39;expression **égal ou plus de 18 ans**.
 
    ![](assets/delivery_content_50.png)
 
@@ -394,7 +394,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 
    ![](assets/delivery_content_53.png)
 
-1. Dans la liste qui s’affiche à l’écran, sélectionnez le champ **[!UICONTROL Prénom]** et confirmez.
+1. Dans la liste qui s&#39;affiche à l&#39;écran, sélectionnez le champ **[!UICONTROL Prénom]** et validez.
 
    ![](assets/delivery_content_54.png)
 

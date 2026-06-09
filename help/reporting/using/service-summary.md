@@ -19,16 +19,16 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 98
+workflow-type: ht
+source-wordcount: 74
 ht-degree: 100%
 
 ---
 
 # Synthèse du service{#service-summary}
 
-Le rapport **[!UICONTROL Synthèse du service]** présente en détail l’évolution des abonnements et des désabonnements de votre service.
-Ce rapport n’est accessible qu’à partir de la page Service, par le biais du menu avancé **[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Services]**. Pour plus d’informations à ce sujet, consultez cette [page](../../audiences/using/monitoring-subscriptions.md#service-reports).
+La **[!UICONTROL Synthèse du service]** détaille l’évolution des abonnements et des désabonnements à votre service.
+Ce rapport est accessible uniquement à partir de votre page Service via le menu avancé **[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Services]**. Pour en savoir plus à ce sujet, consultez cette [page](../../audiences/using/monitoring-subscriptions.md#service-reports).
 
 ![](assets/service-summary.png)
 

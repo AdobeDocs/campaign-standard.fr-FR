@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 463
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Lors de la définition de l’audience d’un message :
 
    ![](assets/trap_select.png)
 
-1. Une fois que le contenu de votre message est prêt, cliquez sur le bouton **[!UICONTROL Préparer]**. Voir [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
+1. Une fois que le contenu de votre message est prêt, cliquez sur le bouton **[!UICONTROL Préparer]**. Voir [Préparer l’envoi](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Vérifiez que vous avez sélectionné une cible principale. Sinon, votre message ne peut pas être envoyé.

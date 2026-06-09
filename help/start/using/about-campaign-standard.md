@@ -36,8 +36,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 789
+workflow-type: ht
+source-wordcount: 737
 ht-degree: 100%
 
 ---
@@ -90,8 +90,8 @@ Créez et envoyez vos messages sur différents canaux de communication en ligne 
 
 Une fois les campagnes marketing exécutées et les différents messages envoyés, Campaign Standard permet de les surveiller pour tracker leur impact et le comportement des destinataires.
 
-**Surveillez les diffusions** envoyées. Consultez et exportez des logs détaillés concernant vos diffusions. Récupérez des informations sur leur statut pour chaque destinataire, les messages exclus de la cible et de nombreuses autres mesures.
-Utilisez la fonction d’alerte de diffusion pour suivre les succès ou les échecs des diffusions à l’aide de notifications par email. Vous souhaitez en savoir plus ? [Prise en main de la surveillance des messages](../../sending/using/monitoring-a-delivery.md)
+**Surveillez vos diffusions** une fois qu’elles ont été envoyées. Consultez et exportez des logs détaillés sur vos diffusions. Récupérez des informations sur leur statut pour chaque personne destinataire, les messages exclus de la cible et de nombreuses autres mesures.
+Tirez parti de la fonctionnalité d’alertes de diffusion pour suivre les succès ou les échecs de diffusion par le biais de notifications par e-mail. Vous souhaitez en savoir plus ? [Commencer avec la surveillance des messages](../../sending/using/monitoring-a-delivery.md)
 
 **Trackez le comportement des destinataires de vos diffusions**. Tirez parti des cookies de session et des cookies permanents pour récupérer les informations de tracking de tous les contacts contenus dans votre base de données. Surveillez les informations de tracking des diffusions (URL cliquées, pages miroir, messages ouverts…) à l’aide de logs et de rapports dédiés. [Prise en main du tracking des messages](../../sending/using/tracking-messages.md)
 

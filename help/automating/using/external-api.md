@@ -23,8 +23,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 2278
+workflow-type: ht
+source-wordcount: 2228
 ht-degree: 100%
 
 ---
@@ -85,7 +85,7 @@ Placez une activité **[!UICONTROL API externe]** dans votre workflow et ouvrez 
 
 ### Mapping entrant
 
-Le mapping entrant est un tableau temporaire généré par une activité entrante précédente qui sera affichée et envoyée sous forme de code JSON dans l’interface utilisateur.
+Le mapping entrant est un tableau temporaire généré par une activité entrante précédente qui sera affichée et envoyée sous forme de code JSON dans l’interface d’utilisation.
 Selon ce tableau temporaire, l’utilisateur ou l’utilisatrice peut apporter des modifications aux données entrantes.
 
 ![](assets/externalAPI-inbound.png)
@@ -111,8 +111,8 @@ L’exemple de définition JSON doit présenter les **caractéristiques suivante
 * Les **éléments de tableau** doivent contenir des propriétés de premier niveau (les niveaux plus profonds ne sont pas pris en charge).
   Les **noms de propriété** deviennent des noms de colonne pour le schéma de sortie du tableau temporaire de sortie.
 * Les **éléments JSON** à capturer doivent être imbriqués à 10 niveaux ou moins dans la réponse JSON.
-* La définition du **nom de colonne** repose sur le premier élément du tableau &quot;data&quot;.
-La définition des colonnes (ajout/suppression) et la valeur de type de la propriété peuvent être éditées dans l’onglet **Définition des colonnes**.
+* La définition de **Nom de la colonne** est basée sur le premier élément du tableau « data ».
+La définition des colonnes (ajout/suppression) et la valeur de type de la propriété peuvent être modifiées dans l’onglet **Définition des colonnes**.
 
 Comportement de la **case à cocher Aplatir** :
 
@@ -322,8 +322,7 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
   </tr>
   <tr> 
    <td> CRL-290200 - Informations d’identification incomplètes/incorrectes.</td> 
-   <td> <p>Ce message d’erreur s’affiche sur l’écran de l’interface utilisateur des comptes externes lors de la configuration d’OAuth. Elle indique que les informations d’identification sont incorrectes ou qu’il manque d’autres informations d’identification requises pour se connecter au serveur d’authentification.
-</p></td>
+   <td> <p>Ce message d’erreur s’affiche sur l’écran de l’interface d’utilisation des comptes externes lors de sa configuration pour OAuth. Il indique que les informations d’identification sont incorrectes ou qu’il manque d’autres informations d’identification requises pour se connecter au serveur d’authentification.</p></td>
   </tr>
  </tbody> 
 </table>

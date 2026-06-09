@@ -20,7 +20,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 840
 ht-degree: 100%
 
@@ -95,15 +95,15 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Accédez à l’onglet **[!UICONTROL Cible]** de l’activité et effectuez un glisser-déposer de l’élément **[!UICONTROL Logs de diffusion (logs)]** de la palette vers l’espace de travail.
+1. Accédez à l’onglet **[!UICONTROL Cible]** de l’activité et effectuez un glisser-déposer de l’élément **[!UICONTROL Logs de diffusion]** de la palette vers l’espace de travail.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Sélectionnez **[!UICONTROL Existe]** pour cibler tous les clientes et clients ayant reçu l’e-mail.
+   Sélectionnez **[!UICONTROL Existe]** pour cibler tous les clients ayant reçu l’email.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. Déplacez l’élément **[!UICONTROL Logs de tracking (tracking)]** de la palette vers l’espace de travail, puis sélectionnez **[!UICONTROL N’existe pas]** pour cibler tous les clientes et clients qui n’ont pas ouvert l’e-mail.
+1. Déplacez l’élément **[!UICONTROL Logs de tracking (tracking)]** de la palette vers l’espace de travail, puis sélectionnez **[!UICONTROL N&#39;existe pas]** pour cibler tous les clients qui n’ont pas ouvert l’email.
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
@@ -127,7 +127,7 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-template.png)
 
-1. Dans le contenu du message de relance, vous pouvez utiliser le contenu de l’événement en ajoutant des champs de personnalisation.
+1. Dans le contenu du message de relance, vous pouvez utiliser le contenu de l&#39;événement en ajoutant des champs de personnalisation.
 
    ![](assets/message-center_follow-up-content.png)
 

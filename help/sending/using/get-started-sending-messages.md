@@ -21,7 +21,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 595
 ht-degree: 100%
 
@@ -31,8 +31,8 @@ ht-degree: 100%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Préparer et tester</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Envoyer, surveiller et suivre</a></p></td>
+<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Préparation et test</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Envoi, surveillance et tracking</a></p></td>
 <td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Indications relatives à la délivrabilité</a></p></td></tr>
 </table>
 
@@ -44,7 +44,7 @@ Enfin, appuyez-vous sur les indications et les outils relatifs à la délivrabil
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment envoyer un email de test, préparer et envoyer une diffusion email en vidéo](#video)
 
-## Préparer et tester {#prepare-test-send}
+## Préparation et test {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
@@ -65,7 +65,7 @@ En savoir plus:
 * [Planification de l&#39;envoi des messages](../../sending/using/about-scheduling-messages.md)
 * [À propos des typologies et des règles de typologie](../../sending/using/about-typology-rules.md)
 
-## Envoyer, surveiller et suivre {#send-track-messages}
+## Envoi, surveillance et tracking {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 

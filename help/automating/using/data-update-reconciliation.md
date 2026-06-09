@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 128
 ht-degree: 100%
 
@@ -49,6 +49,6 @@ L&#39;exemple suivant illustre un workflow permettant de créer une audience de 
 
   ![](assets/identification_example1.png)
 
-* Une activité de [Sauvegarde d’audience](../../automating/using/save-audience.md) permettant d’enregistrer l’audience de profils.
+* une activité de [Sauvegarde d&#39;audience](../../automating/using/save-audience.md) permettant d&#39;enregistrer l&#39;audience de profils.
 
   ![](assets/identification_example3.png)

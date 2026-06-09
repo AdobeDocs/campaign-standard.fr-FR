@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 661
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ L’interface utilisateur d’Adobe Campaign Standard facilite l’interaction
 
   ![](assets/accessibility_3.png)
 
-* Le contenu qui s’affiche au survol ou au focus peut être ignoré par l’utilisateur ou l’utilisatrice et n’obscurcit aucun autre contenu.
+* Le contenu qui s’affiche au survol ou au focus peut être ignoré par l’utilisateur et n’obscurcit aucun autre contenu.
 
   ![](assets/accessibility_4.png)
 

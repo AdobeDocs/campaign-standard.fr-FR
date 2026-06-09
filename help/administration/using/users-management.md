@@ -29,7 +29,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1282
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Pour ajouter un utilisateur à votre instance, vous devez d’abord le créer da
 
    ![](assets/create_user_2.png)
 
-1. Dans l’onglet **[!UICONTROL Détails de l’utilisateur ou de l’utilisatrice]**, renseignez les détails de l’utilisateur ou de l’utilisatrice, tels que l’adresse e-mail, le prénom et le nom.
+1. Dans l’onglet **[!UICONTROL Détails de l’utilisateur]**, renseignez les détails de l’utilisateur, tels que l’adresse email, le prénom et le nom.
 
    ![](assets/create_user_3.png)
 
@@ -162,7 +162,7 @@ Vous pourrez ensuite vérifier si votre utilisateur a été correctement synchro
 
    >[!NOTE]
    >
-   >Les groupes de sécurité peuvent uniquement être supprimés ou ajoutés à un utilisateur ou une utilisatrice dans l’Admin Console.
+   >Les groupes de sécurité peuvent uniquement être supprimés ou ajoutés à un utilisateur dans l’Admin Console.
 
    ![](assets/create_user_6.png)
 

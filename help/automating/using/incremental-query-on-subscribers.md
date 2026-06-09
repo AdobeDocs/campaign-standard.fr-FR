@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 218
 ht-degree: 100%
 
@@ -34,11 +34,11 @@ Le workflow est construit de la manière suivante :
 
 ![](assets/incremental_query_example1.png)
 
-* Une activité [Planificateur](../../automating/using/scheduler.md), afin que le workflow s’exécute chaque lundi à 6 h.
+* Un [Planificateur](../../automating/using/scheduler.md), afin que le workflow s’exécute chaque lundi à 6h.
 
   ![](assets/incremental_query_example2.png)
 
-* Une activité [Requête incrémentale](../../automating/using/incremental-query.md), permettant de cibler toutes les personnes abonnés actuelles lors de la première exécution, puis uniquement les nouvelles personnes abonnées de la semaine lors des exécutions suivantes.
+* Une [Requête incrémentale](../../automating/using/incremental-query.md), permettant de cibler tous les abonnés actuels lors de la première exécution, puis uniquement les nouveaux abonnés de la semaine lors des exécutions suivantes.
 
   ![](assets/incremental_query_example3.png)
 

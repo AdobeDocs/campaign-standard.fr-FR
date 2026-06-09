@@ -19,7 +19,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 857
 ht-degree: 100%
 
@@ -47,11 +47,11 @@ Afin de pouvoir utiliser cette fonction, vous devez avoir accès aux solutions/c
 
   ![](assets/trigger_uc_prereq_1.png)
 
-* Core Service DTM Experience Cloud
+* Core Service DTM Experience Cloud
 
   ![](assets/trigger_uc_prereq_2.png)
 
-* Identifiant du visiteur ou de la visiteuse Experience Cloud et Core Service People Experience Cloud
+* Identifiant du visiteur Experience Cloud et Core Service People Experience Cloud
 
   ![](assets/trigger_uc_prereq_3.png)
 

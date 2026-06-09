@@ -19,7 +19,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 471
 ht-degree: 100%
 
@@ -61,11 +61,11 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
    ![](assets/test_profile_creation_3.png)
 
-1. Sélectionnez l’usage prévu du profil de test.
+1. Sélectionnez l&#39;usage du profil de test.
 
    ![](assets/test_profile_creation_4.png)
 
-1. Renseignez les canaux de contacts **[!UICONTROL E-mail, Téléphone, Mobile, Application mobile]**, ainsi que l’adresse du profil de test si besoin.
+1. Renseignez les canaux de contacts **[!UICONTROL Email, Téléphone, Mobile, Application mobile]**, ainsi que l&#39;adresse du profil de test si besoin.
 
    >[!NOTE]
    >

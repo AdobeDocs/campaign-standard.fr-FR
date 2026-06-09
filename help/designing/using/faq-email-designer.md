@@ -18,8 +18,8 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 445
+workflow-type: ht
+source-wordcount: 415
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Vous pouvez ajouter une marge intérieure à l’aide du chemin de navigation HT
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Cliquez sur l’élément auquel vous souhaitez ajouter une marge intérieure.
-1. Cliquez sur la balise parent dans le chemin de navigation HTML.
+1. Cliquez sur la balise parente dans le chemin de navigation HTML.
 Vous pouvez maintenant ajouter une marge intérieure à cet élément.
 
 ## Puis-je importer du contenu HTML dans le concepteur d’e-mail ?
@@ -54,8 +54,8 @@ Pour plus d’informations, voir la section [Mode de compatibilité](../../desig
 
 ## Comment puis-je créer mon premier contenu d’email ?
 
-Tout d’abord, créez un email à partir de la page d’accueil.
-Ensuite, pour ajouter du contenu à un email, vous devez ajouter un composant de structure et y insérer un composant de contenu.
+Tout d’abord, créez un e-mail à partir de la page d’accueil.
+Ensuite, pour ajouter du contenu à un e-mail, vous devez ajouter un composant de structure et y insérer un composant de contenu.
 
 Pour plus d’informations, voir la section [Création d’un email à partir de zéro](../../designing/using/quick-start.md#from-scratch-email)
 

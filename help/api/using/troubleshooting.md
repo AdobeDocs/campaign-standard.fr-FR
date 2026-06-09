@@ -16,8 +16,8 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 352
+workflow-type: ht
+source-wordcount: 341
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Vous ne pouvez créer des clés d’API que pour les organisations dont vous êt
 Cela signifie qu’il existe un problème avec l’approvisionnement IMS de votre produit Campaign spécifique : l’équipe IMS doit le résoudre.
 
 Pour plus de détails, vous pouvez appeler l’API IMS avec votre jeton pour voir à quoi ressemble votre profil IMS : pour qu’Adobe.io puisse acheminer votre requête, vous devez disposer d’un prodCtx possédant un identifiant id_organization identique à celui inséré dans l’URL.
-S’il manque, l’approvisionnement IMS doit être corrigé.
+S’il est manquant, l’approvisionnement IMS doit être corrigé.
 
 ```
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \

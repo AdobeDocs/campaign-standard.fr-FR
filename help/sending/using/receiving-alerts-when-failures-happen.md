@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2312
 ht-degree: 100%
 
@@ -138,7 +138,7 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 
   ![](assets/delivery-alerting_notification_colums.png)
 
-* **[!UICONTROL Type d’alerte]**, c’est-à-dire le libellé et la couleur qui apparaîtront en regard du critère de diffusion dans la synthèse de la notification.
+* **[!UICONTROL Type d&#39;alerte]**, c&#39;est-à-dire le libellé et la couleur qui apparaîtront en regard du critère de diffusion dans la synthèse de la notification.
 
   ![](assets/delivery-alerting_notification_labels.png)
 
@@ -171,7 +171,7 @@ Pour cela, vous devez d&#39;abord étendre la ressource **Diffusion** et ajouter
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. Éditez la définition du nouveau filtre : dans la fenêtre **[!UICONTROL Définition des filtres]**, placez l’élément **[!UICONTROL Statut]** dans l’espace de travail et sélectionnez **[!UICONTROL Terminé]** en tant que condition de filtre.
+1. Editez la définition du nouveau filtre : dans la fenêtre **[!UICONTROL Définition des filtres]**, placez l&#39;élément **[!UICONTROL Statut]** dans l&#39;espace de travail et sélectionnez **[!UICONTROL Terminé]** en tant que condition de filtre.
 
    ![](assets/delivery-alerting_filter-status.png)
 

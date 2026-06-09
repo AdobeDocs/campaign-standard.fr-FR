@@ -20,7 +20,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1166
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
    ![](assets/send-time_opt_formula_define_segment.png)
 
-   Dans la fenêtre **[!UICONTROL Planning d’envoi]**, la formule de la date personnalisée est affichée comme suit :
+   Dans la fenêtre **[!UICONTROL Planning d&#39;envoi]**, la formule de la date personnalisée est affichée comme suit :
 
    ```
    ToDateTime([targetData/@segmentCode])

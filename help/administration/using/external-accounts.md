@@ -21,8 +21,8 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1878
+workflow-type: ht
+source-wordcount: 1813
 ht-degree: 100%
 
 ---
@@ -216,8 +216,8 @@ Lors de la configuration de votre compte externe, vous devez utiliser l’une de
 
 **Optimisation de la vitesse de transfert des fichiers**
 
-L’option **[!UICONTROL Accès concurrentiel]** permet d’ajuster la vitesse des transferts de fichiers.
-Elle représente le nombre de threads qui seront utilisés pour effectuer le transfert de fichiers. Chacun de ces threads téléchargera une portion d’environ 1 Mo de l’objet Blob. Ils seront ensuite placés en file d’attente pour être écrits sur le disque. Notez qu’en augmentant le nombre de threads, vous augmentez également la charge sur les ressources utilisées par l’application pendant le transfert de fichiers.
+L’option **[!UICONTROL Concurrence]** vous permet de régler précisément la vitesse de vos transferts de fichiers.
+Elle représente le nombre de threads qui seront utilisés pour effectuer le transfert de fichiers. Chacun de ces threads téléchargera une partie d’environ 1 Mo de l’objet blob. Ils seront alors mis en file d’attente pour être écrits sur disque. Notez qu’en augmentant le nombre de threads, vous augmentez également la charge sur les ressources utilisées par l’application pendant le transfert de fichiers.
 
 Une fois le transfert de fichiers terminé, vous trouverez des mesures de performances dans les logs des workflows.
 

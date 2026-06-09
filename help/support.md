@@ -20,8 +20,8 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 629
+workflow-type: ht
+source-wordcount: 624
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
     <tr>
         <td><img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Problèmes courants et bonnes pratiques</a></p></td>
         <td><img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px"><p><a href="#control-panel">Panneau de contrôle Campaign</a></p></td>
-        <td><img src="start/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Demander de l’aide</a></p></td>
+        <td><img src="start/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Demande d’aide</a></p></td>
     </tr>
 </table>
 
@@ -95,7 +95,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
 
 ### Qu’est-ce que le Panneau de contrôle ?
 
-Le Panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Campaign Standard, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances.
+Le panneau de contrôle accroît votre efficacité en tant qu’administrateur ou administratrice de produit Campaign Standard en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances.
 [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr#discover-control-panel) pour plus d’informations.
 
 >[!NOTE]

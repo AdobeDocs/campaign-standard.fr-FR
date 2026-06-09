@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 811
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
    * La dimension de ciblage doit être définie sur **[!UICONTROL abonnements à une application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** pour le modèle **[!UICONTROL Cibler les utilisateurs et utilisatrices en fonction de leur profil mobile (in-app)]**.
 
 1. Placez une activité **[!UICONTROL Diffusion In-App]** dans votre workflow.
-1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
+1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 
    ![](assets/wkf_in_app_5.png)
 
-1. Validez le paramétrage de l’activité et enregistrez le workflow.
+1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
 Lorsque vous ouvrez à nouveau l&#39;activité par la suite, vous accédez au tableau de bord du message in-app. Seul son contenu reste modifiable.
 

@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 615
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Il est ainsi conseillé de faire en sorte qu&#39;une déduplication ne possède 
 Pour paramétrer une déduplication, vous devez renseigner son libellé, la méthode et les critères de déduplication, ainsi que les options relatives au résultat.
 
 1. Placez une activité **[!UICONTROL Déduplication]** dans votre workflow.
-1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
+1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
 
    ![](assets/deduplication_1.png)
 
@@ -77,11 +77,11 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
      ![](assets/deduplication_2.png)
 
-   * **[!UICONTROL Valeur non vide]** : permet de conserver en priorité les enregistrements pour lesquels la valeur de l’expression sélectionnée n’est pas vide.
+   * **[!UICONTROL Valeur non vide]** : permet de conserver en priorité les enregistrements pour lesquels la valeur de l&#39;expression sélectionnée n&#39;est pas vide.
 
      ![](assets/deduplication_3.png)
 
-   * **[!UICONTROL À partir d’une expression]** : permet de conserver les enregistrements dont la valeur de l’expression renseignée est la plus petite ou la plus grande.
+   * **[!UICONTROL A partir d&#39;une expression]** : permet de conserver les enregistrements dont la valeur de l&#39;expression renseignée est la plus petite ou la plus grande.
 
      ![](assets/deduplication_4.png)
 

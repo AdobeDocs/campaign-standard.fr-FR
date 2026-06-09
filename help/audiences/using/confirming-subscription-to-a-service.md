@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1422
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ L&#39;email de confirmation est un message transactionnel car il réagit à un �
 
    ![](assets/confirmation_enrichment-service.png)
 
-1. Dans la section **[!UICONTROL Définition de la jointure]**, faites correspondre le champ **[!UICONTROL publicLabel]** de la ressource **[!UICONTROL Service]** au champ **[!UICONTROL publicLabel]** de la configuration de l’événement.
+1. Dans la section **[!UICONTROL Définition de la jointure]**, faites correspondre le champ **[!UICONTROL publicLabel]** de la ressource **[!UICONTROL Service]** au champ **[!UICONTROL publicLabel]** de la configuration de l&#39;événement.
 
    ![](assets/confirmation_publicLabel-join.png)
 
@@ -191,7 +191,7 @@ Pour créer et configurer cette landing page, procédez comme suit :
 
    ![](assets/confirmation_lp-specific-service.png)
 
-1. Sélectionnez l’option **[!UICONTROL Déclencher l’envoi d’un message]** et choisissez le message transactionnel que vous venez de créer dans la liste déroulante.
+1. Sélectionnez l&#39;option **[!UICONTROL Déclencher l&#39;envoi d&#39;un message]** et choisissez le message transactionnel que vous venez de créer dans la liste déroulante.
 
    ![](assets/confirmation_lp-start-sending-message.png)
 

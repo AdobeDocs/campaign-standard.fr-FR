@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 531
 ht-degree: 100%
 
@@ -74,7 +74,7 @@ Pour chaque profil dont l&#39;état est **[!UICONTROL Envoyé]**, la colonne **[
 
 ![](assets/sending_delivery3.png)
 
-Pour accéder aux détails d’un log d’envoi spécifique, cliquez sur l’icône représentant un crayon à droite de la ligne correspondante.
+Pour accéder aux détails d&#39;un log d’envoi spécifique, cliquez sur l’icône représentant un crayon à droite de la ligne correspondante.
 
 ![](assets/sending_access-sending-log.png)
 

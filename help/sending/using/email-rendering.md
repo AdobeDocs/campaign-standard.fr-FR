@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 538
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Une fois que vous avez créé votre diffusion email et défini son contenu ainsi
 
    ![](assets/email_rendering_07.png)
 
-1. Sélectionnez l’option **[!UICONTROL Rendu des e-mails]**, puis cliquez sur **[!UICONTROL OK]**.
+1. Sélectionnez l&#39;option **[!UICONTROL Rendu des emails]**, puis cliquez sur **[!UICONTROL OK]**.
 
    ![](assets/email_rendering_08.png)
 
@@ -63,7 +63,7 @@ Une fois que vous avez créé votre diffusion email et défini son contenu ainsi
 
    ![](assets/email_rendering_03.png)
 
-1. Dans la liste **[!UICONTROL BAT]**, cliquez sur l’icône **[!UICONTROL Accéder au rendu des e-mails]**.
+1. Dans la liste **[!UICONTROL Bons à tirer]**, cliquez sur l&#39;icône **[!UICONTROL Accéder au rendu des emails]**.
 
    ![](assets/email_rendering_04.png)
 

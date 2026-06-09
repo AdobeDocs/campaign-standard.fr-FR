@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1268
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Pour éditer la structure d’un email :
 
    ![](assets/email_designer_structure.png)
 
-1. Déposez les composants de structure dont vous avez besoin pour former votre e-mail.
+1. Déposez les composants de structure dont vous avez besoin pour former votre email.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -103,7 +103,7 @@ Sélectionnez la zone de modification du **[!UICONTROL pré-en-tête]** et rense
 
 ![](assets/email_designer_preheader.png)
 
-Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou des **[!UICONTROL champs de personnalisation]** dans le contenu du pré-en-tête.
+Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL contenu dynamique]** ou un **[!UICONTROL champ de personnalisation]** dans le contenu du pré-en-tête.
 
 >[!NOTE]
 >

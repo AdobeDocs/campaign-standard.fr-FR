@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 783
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Les étapes de mise en œuvre sont les suivantes :
 
    ![](assets/remarketing_1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Créer]**. L’assistant de création qui s’affiche contient la liste de tous les déclencheurs définis dans Adobe Experience Cloud. La colonne **[!UICONTROL Nombre d’envois Analytics]** indique le nombre d’événements envoyés à Campaign par le déclencheur Adobe Experience Cloud. Il s’agit d’un mapping des déclencheurs créés dans l’interface d’Experience Cloud.
+1. Cliquez sur le bouton **[!UICONTROL Créer.]** L’assistant de création qui s’affiche contient la liste de tous les déclencheurs définis dans Adobe Experience Cloud. La colonne **[!UICONTROL Nombre d’envois Analytics]** indique le nombre d’événements envoyés à Campaign par le déclencheur Adobe Experience Cloud. Il s’agit d’un mapping des déclencheurs créés dans l’interface d’Experience Cloud.
 
    ![](assets/remarketing_2.png)
 

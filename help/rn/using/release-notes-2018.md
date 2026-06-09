@@ -34,8 +34,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 5533
+workflow-type: ht
+source-wordcount: 5273
 ht-degree: 100%
 
 ---
@@ -230,8 +230,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Extension des logs de diffusion<br /> </td> 
-   <td> L’extension des logs de diffusion vous permet d’étendre les envois avec des données de profil et un code segment issu de workflows. Ces informations peuvent ensuite être utilisées dans les rapports dynamiques et vous permettent de conserver un instantané de certaines informations au moment de l’envoi d’une diffusion.<br /> Deux autres cas d’utilisation se présentent :<br /> 
-    <ul> 
+   <td>L’extension des logs de diffusion vous permet d’étendre les logs d’envoi avec des données de profil et du code segment provenant de workflows. Ces informations peuvent ensuite être utilisées dans les rapports dynamiques et vous permettent de conserver un instantané de certaines informations au moment de l’envoi d’une diffusion.<br /> Il existe 2 autres cas d’utilisation :<br /><ul> 
      <li> Export des broadlogs étendus avec des données « figées » : en tant que personne spécialisée dans le marketing, je souhaite exporter tous les profils où le code segment est égal à « A » (provenant du moteur de workflow). </li> 
      <li> Segmentation sur les données « figées » : en tant que personne spécialisée dans le marketing, je souhaite <strong>recibler</strong> tous les profils ayant acquis 1 000 points de fidélité depuis le dernier envoi ou pour lesquels le code segment correspondait à « A ». </li> 
     </ul> Pour plus d’informations, consultez la <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">documentation détaillée</a>.<br /> </td> 
@@ -320,16 +319,14 @@ _Ressources personnalisées_
  <tbody> 
   <tr> 
    <td> Règlement général sur la protection des données (RGPD) de l’UE<br /> </td> 
-   <td> Le RGPD, entré en vigueur le 25 mai 2018, est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles d’utilisation), nous incluons, dans le cadre de notre rôle de responsable du traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur ou de Contrôleuse de données à certaines demandes RGPD :<br /> 
-    <ul> 
+   <td>Le RGPD est la nouvelle loi de l’Union européenne (UE) qui harmonise et modernise les exigences en matière de protection des données en vigueur à compter du 25 mai 2018. Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur et utilisatrice), nous incluons, en qualité de responsable du traitement des données, d’autres fonctionnalités pour faciliter votre préparation en tant que contrôleur de données à certaines demandes RGPD :<br /><ul> 
      <li> Droit d’accès : permet à la personne titulaire de données de recevoir une copie de ses données personnelles capturées par les contrôleurs et contrôleuses de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
     </ul> Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=fr">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 
-   <td> Le nouvel outil Creative Designer d’Adobe Campaign offre un environnement de création entièrement intégré dans Campaign, permettant la création rapide et facile d’e-mails personnalisés, sans avoir à écrire une seule ligne de code. Grâce à sa puissante interface de conception par glisser-déposer, Creative Designer permet de créer facilement des e-mails à partir de zéro ou en utilisant des fragments ou des modèles de contenu existants. <br /> Les fonctionnalités principales sont les suivantes :<br /> 
-    <ul> 
+   <td>Le nouvel outil Creative Designer d’Adobe Campaign offre un environnement de création entièrement intégré dans Campaign, permettant la création rapide et facile d’e-mails personnalisés, sans avoir à écrire une seule ligne de code. Grâce à sa puissante interface de conception par glisser-déposer, Creative Designer permet de créer facilement des e-mails à partir de zéro ou en utilisant des fragments ou des modèles de contenu existants. <br /> Les fonctionnalités principales sont les suivantes :<br /><ul> 
      <li> Créez visuellement des e-mails personnalisés et en responsive design grâce à une interface de conception par glisser-déposer, complétée par des intégrations Creative Cloud natives. </li> 
      <li> Créez et enregistrez un modèle de contenu d’e-mail et utilisez des modèles enregistrés pour faciliter la création d’e-mails. </li> 
      <li> Créez et enregistrez des fragments de contenu (par exemple, un en-tête, un pied-de-page, un article, etc.) pour rationaliser la création de contenu et assurer la cohérence de la marque. </li> 
@@ -342,8 +339,7 @@ _Ressources personnalisées_
   </tr> 
   <tr> 
    <td> Utiliser des ressources personnalisées dans les messages transactionnels<br /> </td> 
-   <td> Outre les champs d’usine, les messages transactionnels permettent désormais d’utiliser des ressources personnalisées pour enrichir le contenu de vos messages.<br /> Par exemple :<br /> 
-    <ul> 
+   <td>Outre les champs d’usine, les messages transactionnels permettent désormais d’utiliser des ressources personnalisées pour enrichir le contenu de vos messages.<br /> Par exemple :<br /><ul> 
      <li> Utilisez des champs personnalisés en tant que critères de réconciliation pour faire correspondre un message transactionnel à un profil. </li> 
      <li> Utilisez des profils complets, des services et des données associées pour personnaliser davantage les messages transactionnels. </li> 
     </ul> Pour plus d’informations, consultez la <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">documentation détaillée</a>.<br /> </td> 
@@ -482,8 +478,7 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
   </tr> 
   <tr> 
    <td> Nouvelles fonctionnalités push<br /> </td> 
-   <td> Prévisualisation des messages push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où une personne ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs et utilisatrices d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’une personne.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs et utilisatrices d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs et utilisatrices peuvent utiliser l’option Contenu mutable pour :<br /> 
-    <ul> 
+   <td>Prévisualisation des messages push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où une personne ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs et utilisatrices d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’une personne.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs et utilisatrices d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs et utilisatrices peuvent utiliser l’option Contenu mutable pour : <br /><ul> 
      <li> déchiffrer des données diffusées dans un format chiffré ; </li> 
      <li> télécharger des images ou d’autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ; </li> 
      <li> changer le texte du titre ou du corps d’une notification ; </li> 

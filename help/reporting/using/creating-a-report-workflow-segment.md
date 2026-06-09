@@ -23,8 +23,8 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 697
+workflow-type: ht
+source-wordcount: 682
 ht-degree: 100%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 100%
 >[!CAUTION]
 > Le **[!UICONTROL code segment]** ne peut cibler que les diffusions e-mail et SMS.
 
-Après avoir créé un workflow et filtré votre population dans une audience ciblée différente, vous pouvez mesurer l&#39;efficacité de vos campagnes marketing en fonction des segments définis dans ce workflow de ciblage.
-Pour cibler ces segments dans vos rapports :
+Après avoir créé un workflow et filtré votre population dans une audience ciblée différente, vous pouvez mesurer l’efficacité de vos campagnes marketing en fonction des segments définis dans ce workflow de ciblage.
+Pour cibler ces segments dans vos rapports, procédez comme suit :
 
 * [Etape 1 : mise à jour de la ressource personnalisée Profils avec les segments](#step-1--update-profiles-custom-resource-segments)
 * [Etape 2 : création d&#39;un workflow avec des segments](#step-2--create-a-workflow-segments)
@@ -60,7 +60,7 @@ Avant de créer des rapports sur le code segment, vous devez mettre à jour la r
 1. Enregistrez votre ressource personnalisée.
 
 1. Vous devez maintenant publier votre ressource personnalisée.
-Dans le menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Publication]**.
+À partir du menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Publication]**.
 
    ![](assets/custom_profile_7.png)
 
@@ -104,7 +104,7 @@ Vous devez d&#39;abord créer un workflow avec une population ciblée différent
 
    ![](assets/report_segment_9.png)
 
-1. Placez une activité **[!UICONTROL Diffusion e-mail]** après vos segments.
+1. Placez une activité **[!UICONTROL Diffusion Email]** après vos segments.
 
    ![](assets/report_segment_3.png)
 

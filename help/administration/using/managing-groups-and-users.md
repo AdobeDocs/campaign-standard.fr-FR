@@ -17,7 +17,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1063
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Pour commencer, vous devez assigner l&#39;un des groupes d&#39;usine à vos util
 
    ![](assets/ootb_security_group_2.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** et suivez les mêmes procédures afin d’assigner le groupe de sécurité d’usine **[!UICONTROL Utilisateurs et utilisatrices standard]** à votre nouvel utilisateur ou nouvelle utilisatrice.
+1. Cliquez sur **[!UICONTROL Enregistrer]** et suivez les mêmes procédures afin d&#39;assigner le groupe de sécurité d&#39;usine **[!UICONTROL Utilisateurs standard]** à votre nouvel utilisateur.
 
    ![](assets/ootb_security_group_3.png)
 
@@ -90,7 +90,7 @@ Une fois vos deux utilisateurs associés aux groupes de sécurité d&#39;usine *
 
    >[!NOTE]
    >
-   >Si la syntaxe ci-dessus semble ne pas fonctionner avec une instance plus ancienne, elle doit être remplacée par **[!UICONTROL Campaign - nom de l’instance - Identifiant du groupe de sécurité]**.
+   >Si la syntaxe ci-dessus semble ne pas fonctionner avec une instance plus ancienne, elle doit être remplacée par **[!UICONTROL Campaign - nom de l&#39;instance - Identifiant du groupe de sécurité]**.
 
    ![](assets/manage_security_group_1.png)
 
@@ -134,7 +134,7 @@ L&#39;utilisateur Administrateur doit créer le jeu de groupes de sécurité uti
 
    >[!NOTE]
    >
-   >Si vous attribuez un groupe de sécurité d’usine à vos utilisateurs et utilisatrices, vous devez réinitialiser l’entité organisationnelle.
+   >Si vous attribuez un groupe de sécurité d’usine à vos utilisateurs, vous devez réinitialiser l’entité organisationnelle.
 
    ![](assets/manage_security_group_6.png)
 
@@ -143,7 +143,7 @@ L&#39;utilisateur Administrateur doit créer le jeu de groupes de sécurité uti
 
    ![](assets/manage_security_group_7.png)
 
-Vos utilisateurs et utilisatrices sont maintenant affectés à un groupe de sécurité et peuvent se connecter à Adobe Campaign.
+Vos utilisateurs sont maintenant affectés à un groupe de sécurité et peuvent se connecter à Adobe Campaign.
 
 >[!IMPORTANT]
 >

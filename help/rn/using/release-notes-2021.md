@@ -29,7 +29,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 4728
 ht-degree: 100%
 
@@ -275,14 +275,14 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Améliorations de l’intégration Adobe Experience Manager</strong><br /> </th> 
+<th><strong>Améliorations de l’intégration Adobe Experience Manager</strong><br /></th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>L’intégration de Campaign avec Adobe Experience Manager a été améliorée : vous pouvez désormais importer plus facilement du contenu multilingue depuis Adobe Experience Manager. <p>
-<p>Adobe Campaign Standard détecte désormais automatiquement les variantes de langues d'un contenu Adobe Experience Manager, et permet l'importation et la création de variantes en masse. Cette approche simplifie considérablement le nombre d’étapes nécessaires pour créer une campagne multilingue basée sur un contenu Adobe Experience Manager.</p>
+<p>L'intégration de Campaign avec Adobe Experience Manager a été améliorée : vous pouvez désormais importer plus facilement du contenu multilingue depuis Adobe Experience Manager. <p>
+<p>Adobe Campaign Standard détecte désormais automatiquement les variantes de langues d’un contenu Adobe Experience Manager et permet l’importation et la création de variantes en masse. Cette approche simplifie considérablement le nombre d’étapes nécessaires pour créer une campagne multilingue basée sur un contenu Adobe Experience Manager.</p>
 <p>Pour plus d’informations, consultez la <a href="../../integrating/using/creating-multilingual-email-aem.md">documentation détaillée</a>.
 </p>
 </td> 

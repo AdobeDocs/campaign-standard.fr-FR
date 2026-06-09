@@ -17,8 +17,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 598
+workflow-type: ht
+source-wordcount: 566
 ht-degree: 100%
 
 ---
@@ -38,8 +38,7 @@ La migration vers les informations d’identification OAuth serveur à serveur 
 
    ![](assets/JwtToOAuthMigration1.png)
 
-3. Ouvrez l’onglet Informations d’identification du compte de service (JWT) dans le volet de navigation de gauche et affichez la carte de migration. Sur la carte de migration, cliquez sur le bouton **Ajouter des nouvelles informations d’identification** pour ajouter des informations d’identification OAuth serveur à serveur équivalentes. L’ajout d’informations d’identification OAuth serveur à serveur à votre projet déclenche la migration.
-   ![](assets/JwtToOAuthMigration2.png)
+3. Ouvrez l’onglet Informations d’identification de compte de service (JWT) à partir du volet de navigation de gauche et affichez la vignette de migration. Sur la vignette de migration, cliquez sur le bouton **Ajouter des nouvelles informations d’identification** pour ajouter des informations d’identification OAuth serveur à serveur équivalentes. L’ajout d’informations d’identification OAuth serveur à serveur à votre projet entraîne le démarrage de la migration.   ![](assets/JwtToOAuthMigration2.png)
 4. Les nouvelles informations d’identification **OAuth serveur à serveur** sont ajoutées au volet de navigation de gauche.
    * Cliquez sur Annuler la migration pour annuler la migration.
    * Ne cliquez pas sur le bouton Vérifier et supprimer tant que vous n’avez pas vérifié si les nouvelles informations d’identification OAuth serveur à serveur fonctionnent.
@@ -65,7 +64,6 @@ La migration vers les informations d’identification OAuth serveur à serveur 
    * Cliquez sur l’onglet Informations d’identification du compte de service (JWT) dans le volet de navigation de gauche.
    * Cliquez sur le bouton Vérifier et supprimer.
      ![](assets/JwtToOAuthMigration5.png)
-   * Vérifiez la date et l’heure du menu de dernier accès ou de dernière utilisation afin de vérifier si l’application d’intégration génère des jetons d’accès à l’aide des nouvelles informations d’identification OAuth ou en utilisant toujours les anciennes informations d’identification JWT.
-     ![](assets/JwtToOAuthMigration6.png)
+   * Vérifiez la date et l’heure du menu de dernier accès ou de dernière utilisation afin de vérifier si l’application d’intégration génère des jetons d’accès à l’aide des nouvelles informations d’identification OAuth ou en utilisant toujours les anciennes informations d’identification JWT.     ![](assets/JwtToOAuthMigration6.png)
    * Une fois qu’il a été vérifié que l’application d’intégration utilise les nouvelles informations d’identification OAuth et qu’elle n’utilise plus les informations d’identification JWT, supprimez les anciennes informations d’identification en cliquant sur le bouton **Confirmer et continuer** pour effectuer la migration.
      ![](assets/JwtToOAuthMigration7.png)

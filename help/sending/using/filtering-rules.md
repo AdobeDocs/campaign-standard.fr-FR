@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 730
 ht-degree: 100%
 
@@ -71,15 +71,15 @@ Pour créer cette règle de typologie de filtrage, procédez comme suit :
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. Dans l’onglet **[!UICONTROL Explorateur]** du requêteur, faites glisser le nœud **[!UICONTROL Personne abonnée]** dans la partie centrale de l’écran.
+1. Dans l&#39;onglet **[!UICONTROL Explorateur]**  du requêteur, faites glisser le nœud **[!UICONTROL Abonné]** dans la partie centrale de l&#39;écran.
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Sélectionnez le champ **[!UICONTROL Âge]** et définissez les conditions de filtrage de sorte que l’âge des personnes abonnées soit inférieur à 18.
+1. Sélectionnez le champ **[!UICONTROL Âge]** et définissez les conditions de filtrage de sorte que l&#39;âge des abonnés soit inférieur à 18.
 
    ![](assets/typology_create-rule-age.png)
 
-1. Dans l’onglet **[!UICONTROL Typologies]**, associez cette règle à une typologie.
+1. Dans l&#39;onglet **[!UICONTROL Typologies]**, associez cette règle à une typologie.
 
    ![](assets/typology_create-rule-typology.png)
 

@@ -24,7 +24,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1797
 ht-degree: 100%
 
@@ -133,7 +133,7 @@ Pour en savoir plus sur la création et la publication de ressources, voir [cett
 
    ![](assets/message-center_new-enrichment.png)
 
-1. Utilisez le bouton **[!UICONTROL Créer un élément]** pour associer un champ de la ressource sélectionnée à l’un des champs que vous avez ajoutés à l’événement (consultez [Définir les attributs d’événement](#defining-the-event-attributes)).
+1. Utilisez le bouton **[!UICONTROL Créer un élément]** pour associer un champ de la ressource sélectionnée à l’un des champs que vous avez ajoutés à l’événement (voir [Définir les attributs d’événement](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
 

@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 910
 ht-degree: 100%
 
@@ -115,7 +115,7 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 
    ![](assets/push_send_5.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Exclusions appliquées]** pour afficher le volume des messages exclus.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Exclusions appliquées]** pour afficher le volume des messages exclus.
 
    ![](assets/push_send_7.png)
 

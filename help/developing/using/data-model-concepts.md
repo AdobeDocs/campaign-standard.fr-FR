@@ -20,7 +20,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 254
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Un modèle de données d’usine est fourni avec Adobe Campaign. Ce modèle de 
 
 >[!CAUTION]
 >
->La création et la modification de ressources sont des opérations sensibles qui doivent être effectuées uniquement par des utilisateurs experts.
+>La création et la modification de ressources sont des opérations sensibles qui doivent être effectuées uniquement par des personnes expertes.
 
 Le menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** accessible via le logo Adobe Campaign, vous permet de gérer vos **ressources personnalisées**, de les **publier** et d&#39;**accéder aux outils de diagnostic**.
 
@@ -52,4 +52,4 @@ Il est possible **d’exporter et d’importer** des ressources personnalisées,
 
 >[!CAUTION]
 >
->Seuls les [administrateurs](../../administration/using/users-management.md#functional-administrators) fonctionnels, avec un rôle d’**[!UICONTROL administration]** et un accès aux entités **Toutes**, peuvent accéder aux logs d’envoi, aux logs de messages, aux logs de tracking, aux logs d’exclusion ou aux logs d’abonnement. Un utilisateur autre qu’administrateur peut cibler ces logs mais en commençant par une table liée (profils, diffusion).
+>Seuls les [administrateurs](../../administration/using/users-management.md#functional-administrators) fonctionnels, avec un rôle d’**[!UICONTROL administration]** et un accès aux entités **Toutes**, peuvent accéder aux logs d’envoi, aux logs de messages, aux logs de tracking, aux logs d’exclusion et aux logs d’abonnement. Un utilisateur autre qu’administrateur peut cibler ces logs mais en commençant par une table liée (profils, diffusion).

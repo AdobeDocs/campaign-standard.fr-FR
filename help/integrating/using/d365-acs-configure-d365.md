@@ -20,8 +20,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1046
+workflow-type: ht
+source-wordcount: 1039
 ht-degree: 100%
 
 ---
@@ -130,7 +130,7 @@ Suivez les instructions [de cette page](https://docs.microsoft.com/fr-fr/onedriv
 
 Pour intégrer l’application Dynamics 365 à votre environnement Campaign Standard, procédez comme suit :
 
-1. Accédez à [Microsoft Business Apps](https://appsource.microsoft.com/fr-fr/marketplace/apps) et recherchez Adobe Campaign Standard dans la barre de recherche.
+1. Accédez à [Microsoft Business Apps](https://appsource.microsoft.com/fr-fr/marketplace/apps) et recherchez Adobe Campaign Standard dans la barre de recherche.
 Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/fr-fr/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
 1. Suivez les instructions pour installer l’application pour votre instance Dynamics 365.
 1. Une fois installée, accédez à votre instance Dynamics 365 et connectez-vous en tant qu’administrateur.

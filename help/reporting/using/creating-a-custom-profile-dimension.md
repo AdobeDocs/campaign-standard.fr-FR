@@ -22,7 +22,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 945
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Pour ce faire :
 
    ![](assets/custom_profile_1.png)
 
-1. À partir de l’onglet **[!UICONTROL Structure de données]**, dans la catégorie **[!UICONTROL Champs]**, cliquez sur le bouton **[!UICONTROL Ajouter un champ]**.
+1. À partir de l&#39;onglet **[!UICONTROL Structure de données]**, dans la catégorie **[!UICONTROL Champs]**, cliquez sur le bouton **[!UICONTROL Ajouter un champ]**.
 
    ![](assets/custom_profile_2.png)
 
@@ -61,7 +61,7 @@ Pour ce faire :
 
    ![](assets/custom_profile_3.png)
 
-1. Cliquez sur l’icône ![](assets/custom_profile_22.png) pour définir votre champ.
+1. Cliquez sur l&#39;icône ![](assets/custom_profile_22.png) pour définir votre champ.
 
    ![](assets/custom_profile_12.png)
 
@@ -164,7 +164,7 @@ Après l’envoi de votre diffusion, vous pouvez répartir des rapports à l’a
 
    ![](assets/custom_profile_18.png)
 
-1. Dans la catégorie **[!UICONTROL Dimensions]**, cliquez sur **[!UICONTROL Profil]**, puis faites glisser et déposez la dimension de votre profil personnalisé de **programme de fidélité** sur votre tableau à structure libre.
+1. Dans la catégorie **[!UICONTROL Dimensions]**, cliquez sur **[!UICONTROL Profil]**, puis faites glisser et déposez la dimension de votre profil personnalisé de **programme de fidélité** à votre tableau à structure libre.
 
    ![](assets/custom_profile_19.png)
 

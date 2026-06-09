@@ -20,8 +20,8 @@ level_v2:
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 2021
+workflow-type: ht
+source-wordcount: 2005
 ht-degree: 100%
 
 ---
@@ -74,7 +74,7 @@ Pour créer un mapping, procédez comme suit :
 
 1. dans la page **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**, cliquez sur le bouton **[!UICONTROL Ajouter un nouveau mapping]**.
 
-1. Utilisez les listes déroulantes pour sélectionner les tables Microsoft Dynamics 365 et Campaign à mapper.
+1. Utilisez les listes déroulantes pour sélectionner les tables Microsoft Dynamics 365 et Campaign à mapper.
 La plupart des autres entrées de la page dépendent des tables que vous choisissez.
 
    ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)

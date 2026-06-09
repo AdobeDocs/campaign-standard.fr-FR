@@ -21,7 +21,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 176
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisé
 
    ![](assets/dam_insert_image_dce.png)
 
-1. Dans la fenêtre de sélection qui s’ouvre, sélectionnez une image, puis validez.
+1. Dans la fenêtre de sélection qui s&#39;ouvre, sélectionnez une image, puis validez.
 
    ![](assets/dam_shared_image_selection.png)
 

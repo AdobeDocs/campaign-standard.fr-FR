@@ -20,7 +20,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 799
 ht-degree: 100%
 
@@ -30,11 +30,11 @@ ht-degree: 100%
 
 <table style="table-layout:fixed">
 <tr>
-<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Découvrir comment configurer votre application mobile pour les notifications push </br><a href="#configuration-push">Cliquer ici</a></p></td>
-<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Découvrir comment configurer votre application mobile pour les messages in-app </br><a href="#configuring-mobile-app">Cliquer ici</a></p></td>
+<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Découvrez comment configurer votre application mobile pour les notifications push </br><a href="#configuration-push">Cliquez ici</a></p></td>
+<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Découvrez comment configurer votre application mobile pour les messages In-App </br><a href="#configuring-mobile-app">Cliquez ici</a></p></td>
 </tr>
 <tr>
-<td><img src="assets/do-not-localize/push2.png" width="60px"><p>Découvrir comment créer des notifications push </br><a href="#create-push">Cliquer ici</a></p></td>
+<td><img src="assets/do-not-localize/push2.png" width="60px"><p>Découvrez comment créer des notifications push </br><a href="#create-push">Cliquez ici</a></p></td>
 <td><img src="assets/do-not-localize/inapp.png" width="60px"><p>Découvrez comment créer des messages In-App</br><a href="#create-inapp">Cliquez ici</a></p></td></tr>
 </table>
 
@@ -56,7 +56,7 @@ Avec Adobe Campaign Standard, vous pouvez envoyer des diffusions mobiles par l
     <div>
     <p><strong>Configuration d’une application mobile à l’aide des SDK Adobe Experience Platform</strong></p>
     </div>
-    <p>Pour envoyer des messages in-app et des notifications push, les applications mobiles doivent être configurées dans Adobe Campaign en utilisant les SDK Adobe Experience Platform. </br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Cliquez ici</strong></a> pour en savoir davantage.</p>
+    <p>Pour envoyer des messages in-app et des notifications push, les applications mobiles doivent être configurées dans Adobe Campaign en utilisant les SDK Adobe Experience Platform. </br><a href="../../administration/using/configuring-a-mobile-application.md"><strong>Cliquez ici</strong></a> pour en savoir plus.</p>
     <br>
   </td>
   <td>
@@ -85,7 +85,7 @@ Avec Adobe Campaign Standard, vous pouvez envoyer des diffusions mobiles par l
 </tr>
 </table>
 
-## Configurer une application mobile pour les messages in-app {#configuring-mobile-app}
+## Configuration d&#39;une application mobile pour les messages In-App {#configuring-mobile-app}
 
 <table style="table-layout:fixed">
 <tr>
@@ -159,7 +159,7 @@ Avec Adobe Campaign Standard, vous pouvez envoyer des diffusions mobiles par l
 </tr>
 </table>
 
-## Créer un message in-app {#create-inapp}
+## Création d’un message In-App {#create-inapp}
 
 <table style="table-layout:fixed">
 <tr>
@@ -196,7 +196,7 @@ Avec Adobe Campaign Standard, vous pouvez envoyer des diffusions mobiles par l
 </tr>
 </table>
 
-## Créer des SMS {#create-sms}
+## Création de SMS {#create-sms}
 
 <table style="table-layout:fixed">
 <tr>

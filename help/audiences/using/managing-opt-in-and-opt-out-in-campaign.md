@@ -16,7 +16,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 339
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Vous pouvez également configurer une page de destination **[!UICONTROL Liste bl
 
    ![](assets/optin_landingpage_2.png)
 
-1. Une fois le formulaire envoyé, l’onglet **[!UICONTROL Général]** du profil est mis à jour en fonction de la sélection de l’utilisateur ou de l’utilisatrice.
+1. Une fois le formulaire envoyé, l’onglet **[!UICONTROL Général]** du profil est mis à jour en fonction de la sélection de l’utilisateur.
 
    ![](assets/optin_landingpage_3.png)
 

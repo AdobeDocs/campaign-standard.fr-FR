@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 120
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Voici un exemple de modèle de courrier qui peut être utilisé.
 
 ![](assets/direct_mail_9.png)
 
-Voici un exemple de workflow qui mélange les canaux Courrier et E-mail.
+Voici un exemple de workflow qui mélange les canaux Courrier et Email.
 
 ![](assets/direct_mail_10.png)
 

@@ -19,8 +19,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1226
+workflow-type: ht
+source-wordcount: 1216
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Pour créer des règles dans l’interface utilisateur de collecte de données, 
 
 ## Création d&#39;éléments de données {#create-data-elements}
 
-Voici les éléments de données que nous vous recommandons de créer dans l’interface utilisateur de collecte de données.
+Voici les éléments de données que nous vous recommandons de créer dans l’interface d’utilisation de collecte de données.
 Vous pouvez créer des éléments de données supplémentaires en fonction de vos besoins.
 
 * **[!UICONTROL Identifiant Experience Cloud]**

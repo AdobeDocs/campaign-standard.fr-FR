@@ -21,7 +21,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1732
 ht-degree: 100%
 
@@ -75,11 +75,11 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
    ![](assets/privacy-namespace-label.png)
 
-1. Si vous souhaitez utiliser un espace de noms du service d’identités existant, sélectionnez **[!UICONTROL Mappage depuis le service d’espace de noms d’identité]**, puis un espace de noms dans la liste **[!UICONTROL Espaces de noms du service d’identités]**.
+1. Si vous souhaitez utiliser un espace de noms du service d&#39;identités existant, sélectionnez **[!UICONTROL Mappage depuis le service d&#39;espace de noms d&#39;identité]**, puis un espace de noms dans la liste **[!UICONTROL Espaces de noms du service d&#39;identités]**.
 
    ![](assets/privacy-map-from-namespace.png)
 
-   Si vous souhaitez créer un espace de noms dans le **[!UICONTROL Service d’identités]** et le mapper dans Campaign, sélectionnez **[!UICONTROL Créer]** et saisissez un nom dans le champ **[!UICONTROL Nom de l’espace de noms d’identité.]**
+   Si vous souhaitez créer un espace de noms dans le **[!UICONTROL Service d&#39;identités]** et le mapper dans Campaign, sélectionnez **[!UICONTROL Créer]** et entrez un nom dans le champ **[!UICONTROL Nom de l&#39;espace de noms d&#39;identité.]**
 
    ![](assets/privacy-create-new-namespace.png)
 
@@ -247,7 +247,7 @@ Vous devez ensuite vous assurer de ne jamais vendre à une quelconque tierce par
 
    ![](assets/privacy-ccpa-profile-opt-out.png)
 
-1. Lorsque la valeur du champ est **[!UICONTROL True]**, les informations s’affichent dans les détails du profil.
+1. Lorsque la valeur du champ est **[!UICONTROL True]**, les informations s&#39;affichent dans les détails du profil.
 
    ![](assets/privacy-ccpa-profile-opt-out-true.png)
 
@@ -255,6 +255,6 @@ Vous devez ensuite vous assurer de ne jamais vendre à une quelconque tierce par
 
    ![](assets/privacy-ccpa-profile-configure-list.png)
 
-1. Vous pouvez cliquer sur la colonne pour trier les destinataires en fonction des informations d’opt-out.
+1. Vous pouvez cliquer sur la colonne afin de trier les destinataires selon les informations d&#39;opt-out.
 
    ![](assets/privacy-ccpa-profile-sorting.png)

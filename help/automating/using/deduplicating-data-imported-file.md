@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 340
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Le workflow est constitué comme suit :
 
   ![](assets/deduplication_example2_writer1.png)
 
-  Indiquez les mappings entre les colonnes du fichier dont vous souhaitez insérer les données et les champs de la base depuis l’onglet **[!UICONTROL Champs à mettre à jour]**.
+  Indiquez les mappings entre les colonnes du fichier dont vous souhaitez insérer les données et les champs de la base depuis l&#39;onglet **[!UICONTROL Champs à mettre à jour]**.
 
   ![](assets/deduplication_example2_writer2.png)
 

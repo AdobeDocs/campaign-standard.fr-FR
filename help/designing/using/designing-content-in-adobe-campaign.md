@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1276
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Accédez à des options et des paramètres plus généraux à partir de la **bar
 
 >[!NOTE]
 >
->Le volet **Paramètres** peut être déplacé vers la gauche selon la résolution et l’affichage de votre écran.
+>Le volet **Paramètres** peut être déplacé vers la gauche selon la résolution et l&#39;affichage de votre écran.
 
 ![](assets/email_designer_toolbar.png)
 
@@ -93,7 +93,7 @@ L&#39;onglet **[!UICONTROL Modèles]** permet d&#39;effectuer une sélection par
 
 ![](assets/email_designer_home_templates.png)
 
-L’onglet **[!UICONTROL Formation et support]** permet d’accéder facilement à la documentation et aux tutoriels connexes.
+L&#39;onglet **[!UICONTROL Formation et support]** permet d&#39;accéder facilement à la documentation et aux tutoriels connexes.
 
 ![](assets/email_designer_home_support.png)
 

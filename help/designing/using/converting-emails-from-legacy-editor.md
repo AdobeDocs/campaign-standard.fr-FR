@@ -18,7 +18,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 462
 ht-degree: 100%
 
@@ -32,11 +32,11 @@ Ce cas pratique permet de créer un modèle de concepteur d’e-mail à l’aide
 
 >[!NOTE]
 >
->De la même manière que le mode de compatibilité, un composant HTML est modifiable avec des options limitées : vous pouvez uniquement effectuer la modification locale.
+>De la même manière que le mode de compatibilité, un composant HTML est éditable avec des options limitées : vous pouvez uniquement effectuer l’édition locale.
 
 >[!IMPORTANT]
 >
->Cette section est destinée aux utilisateurs et utilisatrices avancés qui sont familiers avec le code HTML.
+>Cette section est destinée aux utilisateurs avancés qui sont familiers avec le code HTML.
 
 ## Préparer le contenu de vos emails
 

@@ -19,7 +19,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 835
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Pour plus d’informations sur l’utilisation de cette activité, consultez [ce
 
 ![](assets/extsignal_activities_query.png)
 
-Activités **[!UICONTROL Canaux]** : personnalisez des diffusions en fonction de variables d’événements.
+**[!UICONTROL Activités Canaux]** : personnalisez des diffusions en fonction de variables d’événements.
 
 >[!NOTE]
 >
@@ -138,7 +138,7 @@ Les variables d’événements déclarées sont à présent disponibles dans la 
 
 >[!NOTE]
 >
->Cette action peut être réalisée à partir de n’importe quelle activité qui vous permet de définir un code segment, par exemple des activités **[!UICONTROL Requête]** ou **[!UICONTROL Segmentation]**.
+>Cette action peut être réalisée à partir de n’importe quelle activité qui vous permet de définir un code segment, tel que des activités **[!UICONTROL Requête]** ou **[!UICONTROL Segmentation]**.
 
 ![](assets/extsignal_activities_segment.png)
 

@@ -20,7 +20,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1617
 ht-degree: 100%
 
@@ -127,7 +127,7 @@ Pour importer des profils à utiliser pour les tests à partir d’une audience,
 
    ![](assets/substitution_audience_import.png)
 
-1. Sélectionnez l’audience à utiliser, puis saisissez l’adresse de substitution et le préfixe à utiliser pour les BAT envoyés à l’audience.
+1. Sélectionnez l’audience à utiliser, puis saisissez l’adresse de substitution et le préfixe à utiliser pour les bons à tirer envoyés à l’audience.
 
    >[!NOTE]
    >
@@ -273,7 +273,7 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. Les BAT sont envoyés selon ce qui a été configuré dans l’onglet **[!UICONTROL Substitutions de profil]**.
+1. Les bons à tirer sont envoyés selon ce qui a été configuré dans l’onglet **[!UICONTROL Substitutions de profil]**.
 
    ![](assets/substitution_uc_proofs.png)
 

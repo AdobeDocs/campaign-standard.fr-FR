@@ -20,8 +20,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 514
+workflow-type: ht
+source-wordcount: 502
 ht-degree: 100%
 
 ---
@@ -87,7 +87,7 @@ La surveillance des logs de workflow est une étape essentielle pour analyser vo
 
 **Notifications**
 
-Campaign Standard vous permet d’envoyer des notifications aux superviseurs afin de surveiller l’exécution de vos workflows et de voir si une erreur nécessite votre attention.
+Campaign Standard vous permet d’envoyer des notifications aux personnes responsables afin de surveiller l’exécution de vos workflows et de voir si une erreur nécessite votre attention.
 [En savoir plus](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Surveillance des diffusions {#monitoring-deliveries}
@@ -101,7 +101,7 @@ Campaign Standard met à votre disposition plusieurs outils de délivrabilité 
 
 **Diffusions**
 
-Une fois vos messages envoyés, des logs détaillés vous permettent de surveiller les diffusions et de mesurer le succès de votre campagne, ainsi que de suivre le comportement des destinataires de messages.
+Une fois vos messages envoyés, des logs détaillés vous permettent de surveiller les diffusions et de mesurer le succès de votre campagne, ainsi que de suivre le comportement des personnes destinataires de messages.
 [En savoir plus](../../sending/using/monitoring-a-delivery.md)
 
 **Alertes de diffusion**

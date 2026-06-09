@@ -19,8 +19,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 1408
+workflow-type: ht
+source-wordcount: 1331
 ht-degree: 100%
 
 ---
@@ -101,8 +101,8 @@ Avant de procéder à la migration, tenez compte des recommandations suivantes 
 
 Après cette migration, les abonnés collectés par la version V4 de l’application mobile et les nouveaux abonnés collectés par la version AEP de l’application mobile seront disponibles dans l’application migrée.
 
-Pour faire la distinction entre les deux types d&#39;abonnés, vous pouvez ajouter un nouveau champ personnalisé de type **[!UICONTROL Texte]** lors de l&#39;extension de la ressource personnalisée **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** en tant que `sdkversion` ou `appVersion` par exemple. Pour plus d’informations sur l&#39;extension d&#39;une ressource personnalisée, consultez cette [page](../../developing/using/creating-or-extending-the-resource.md).
-Vous devrez ensuite configurer la balise **[!UICONTROL Propriété mobile]** associée pour envoyer cette valeur de champ personnalisé dans l’appel de collecte PII et modifier la configuration de votre application mobile en conséquence.
+Pour faire la distinction entre les deux types de personnes abonnées, vous pouvez ajouter un nouveau champ personnalisé de type **[!UICONTROL Texte]** lors de l’extension de la ressource personnalisée **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** en tant que `sdkversion` ou `appVersion` par exemple. Pour plus d’informations sur l’extension d’une ressource personnalisée, consultez cette [page](../../developing/using/creating-or-extending-the-resource.md).
+Vous devrez ensuite configurer la balise associée **[!UICONTROL Propriété mobile]** pour envoyer la valeur de ce champ personnalisé dans l’appel Collecter les PII et modifier votre configuration d’application mobile en conséquence.
 
 ## FAQ {#faq}
 
@@ -136,9 +136,9 @@ R : Les administrateurs de l&#39;**[!UICONTROL entité organisationnelle]** TOU
 
 ### Q : Si l’entité organisationnelle de l’application mobile SDK v4 est définie sur A et que l’application SDK Adobe Experience Platform est définie sur B (sœur de l’entité organisationnelle A), Comment puis-je migrer mon application mobile ? {#aep-org-unit}
 
-R : L’application SDK Adobe Experience Platform étant la ressource d’une **[!UICONTROL entité organisationnelle]** sœur, l’application mobile n&#39;est pas visible pour les utilisateurs de l’**[!UICONTROL entité organisationnelle]** A. L’application mobile est disponible pour les administrateurs de l’**[!UICONTROL entité organisationnelle]** TOUS, mais nous ne recommandons pas à ces administrateurs de migrer l’application mobile.
-Dans ce cas, vous devez déplacer vos applications mobiles vers la même **[!UICONTROL entité organisationnelle]** ou dans une **[!UICONTROL entité organisationnelle]** avec un lien parent.
-Pour plus d&#39;informations sur les **[!UICONTROL entités organisationnelles]**, veuillez consulter cette [section](../../administration/using/organizational-units.md).
+R : L’application SDK Adobe Experience Platform étant la ressource d’une **[!UICONTROL entité organisationnelle]** sœur, l’application mobile n’est pas visible pour les utilisateurs et utilisatrices de l’**[!UICONTROL entité organisationnelle]** A. L’application mobile est disponible pour les administrateurs et administratrices de l’**[!UICONTROL entité organisationnelle]** TOUS, mais nous ne recommandons pas à ces administrateurs et administratrices de migrer l’application mobile.
+Dans ce cas, vous devez migrer vos applications mobiles dans la même **[!UICONTROL entité organisationnelle]** ou dans une **[!UICONTROL entité organisationnelle]** avec un lien parent.
+Pour plus d’informations sur l’**[!UICONTROL entité organisationnelle]**, consultez cette [section](../../administration/using/organizational-units.md).
 
 ### Q : Dans la page Application mobile SDK Adobe Experience Platform (migrée depuis votre application mobile v4), sous la liste déroulante Paramètres du canal push, aucune information comme le nom/la date de téléchargement n’est affichée pour la clé Android ou le certificat iOS {#no-information-v5}
 

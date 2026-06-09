@@ -19,7 +19,7 @@ role_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 179
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->L’intégration [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) est la méthode appropriée pour toutes les demandes d’accès et de suppression. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>L’intégration [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) est la méthode appropriée pour toutes les demandes d’accès et de suppression <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Les demandes d’accès aux informations personnelles sont créées à l’aide d’une requête **POST**.
 

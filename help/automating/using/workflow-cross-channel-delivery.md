@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 924
 ht-degree: 100%
 
@@ -89,11 +89,11 @@ Pour configurer la première transition (Email) :
 
    ![](assets/wkf_segment_properties.png)
 
-1. Sélectionnez l’**[!UICONTROL e-mail]** du profil comme critère de filtrage.
+1. Sélectionnez l’**[!UICONTROL email]** du profil comme critère de filtrage.
 
    ![](assets/wkf_segment_email.png)
 
-1. Dans la nouvelle fenêtre qui s’affiche à l’écran, sélectionnez l’opérateur **[!UICONTROL N’est pas vide]**.
+1. Dans la nouvelle fenêtre qui s’affiche à l’écran, sélectionnez l’opérateur **[!UICONTROL N’est pas vide]** .
 
    ![](assets/wkf_segment_email_not_empty.png)
 

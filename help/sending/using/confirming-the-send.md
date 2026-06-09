@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1076
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]
 
   >[!NOTE]
   >
-  >Le **[!UICONTROL Taux d’ouverture]** et le **[!UICONTROL Taux de clics]** sont mis à jour toutes les heures.
+  >Le **[!UICONTROL Taux d&#39;ouverture]** et le **[!UICONTROL Taux de clics]** sont mis à jour toutes les heures.
 
 ![](assets/sending_delivery.png)
 
@@ -126,7 +126,7 @@ Une fois la diffusion lancée, le pourcentage **[!UICONTROL Délivrés]** n&#39;
 
 ![](assets/efs-sending.png)
 
-Les logs de diffusion affichent le statut **[!UICONTROL En attente]** pour chaque adresse ciblée.
+Les logs de diffusion affichent l&#39;état **[!UICONTROL En attente]** pour chaque adresse ciblée.
 
 ![](assets/efs-pending.png)
 
@@ -156,17 +156,17 @@ Les tableaux ci-après présentent les modifications des KPI et de l&#39;état d
 
 | Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
-| Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 0 %.</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** commence à 0 %</li></ul> | En attente |
+| Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 0 %</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** commence à 0 %</li></ul> | En attente |
 | Les messages hard bounce sont renvoyés du MTA amélioré. | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** augmente en conséquence</li></ul> | En échec |
 | Les messages soft bounce sont renvoyés du MTA amélioré. | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** augmente en conséquence</li></ul> | En échec |
-| Les reprises des messages soft bounce sont effectuées avec succès | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** augmente en conséquence.</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** diminue en conséquence</li></ul> | Envoyés |
+| Les reprises des messages soft bounce sont effectuées avec succès | <ul><li>Le pourcentage **[!UICONTROL Diffusés]** augmente en conséquence</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** diminue en conséquence</li></ul> | Envoyés |
 | Échec des reprises des messages soft bounce | <ul><li> Aucun changement du pourcentage **[!UICONTROL Délivrés]** </li><li> Aucun changement du pourcentage **[!UICONTROL Rebonds + erreurs]** </li></ul> | En échec |
 
 **Sans le service de retour d&#39;e-mail**
 
 | Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
-| Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 100 %.</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** commence à 0 %</li></ul> | Envoyés |
+| Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 100 %</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** commence à 0 %</li></ul> | Envoyés |
 | Les messages hard bounce sont renvoyés du MTA amélioré. | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** diminue en conséquence.</li><li>Le pourcentage **[!UICONTROL Rebonds + erreurs]** augmente en conséquence</li></ul> | En échec |
 | Les messages soft bounce sont renvoyés du MTA amélioré. | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li>Aucun changement du pourcentage **[!UICONTROL Rebonds + erreurs]**</li></ul> | Envoyés |
 | Les reprises des messages soft bounce sont effectuées avec succès | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li>Aucun changement du pourcentage **[!UICONTROL Rebonds + erreurs]**</li></ul> | Envoyés |

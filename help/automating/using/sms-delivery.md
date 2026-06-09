@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 829
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 ## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Diffusion SMS]** dans votre workflow.
-1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
+1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
 
    >[!NOTE]
    >

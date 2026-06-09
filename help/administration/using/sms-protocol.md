@@ -18,8 +18,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
-source-wordcount: 8714
+workflow-type: ht
+source-wordcount: 8427
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Il existe deux façons principales d&#39;envoyer un SMS :
 
 * L&#39;envoyer manuellement à partir d&#39;un téléphone, façon habituelle de communiquer directement entre personnes.
 
-* L&#39;envoyer depuis Internet, façon dont Adobe Campaign envoie des messages. Pour cela, vous avez besoin d&#39;un fournisseur de services de SMS destiné à connecter Internet au réseau mobile.
+* L’envoyer depuis Internet, comme Adobe Campaign envoie des messages. Pour cela, vous avez besoin d’un fournisseur de services SMS qui connecte Internet au réseau mobile.
 Adobe Campaign utilise le protocole SMPP pour envoyer des SMS à un fournisseur de services.
 
 Ce document vous accompagne pour la configuration de la connexion entre Adobe Campaign et un fournisseur SMPP.
@@ -91,7 +91,7 @@ L&#39;équipement réseau côté fournisseur SMS est souvent appelé SMSC.
 
 ### Connexions SMPP {#smpp-connections}
 
-Adobe Campaign se connecte à l&#39;équipement réseau du fournisseur SMS via TCP. Le protocole SMPP définit des connexions TCP permanentes d&#39;Adobe Campaign au fournisseur. Les connexions TCP sont toujours initiées par Adobe Campaign, même pour recevoir des messages.
+Adobe Campaign se connecte à l’équipement réseau du fournisseur de services SMS via TCP. Le protocole SMPP définit des connexions TCP permanentes d’Adobe Campaign au fournisseur. Les connexions TCP sont toujours initiées par Adobe Campaign, même pour recevoir des messages.
 SMPP ouvre 1 ou 2 connexions TCP, selon son mode. Toutes les connexions sont toujours initiées par Adobe Campaign.
 
 Le protocole SMPP peut fonctionner en deux modes :
@@ -416,8 +416,8 @@ Valeur transmise dans le champ `system_id` du PDU BIND. Certains fournisseurs on
 
 #### Connexions simultanées {#simultaneous-connections}
 
-Dans Adobe Campaign Standard, ceci définit le nombre de connexions par thread SMS et par processus MTA.
-Le nombre de processus MTA est déterminé par le déploiement : il y a généralement 2 MTA et 1 thread. Le nombre de threads peut être modifié dans le fichier config-instance.xml à l&#39;aide du paramètre smppConnectorThreads. Il y a généralement 1 processus MTA par conteneur et 1 thread par processus MTA.
+Dans Adobe Campaign Standard, cela définit le nombre de connexions par thread SMS et par processus MTA.
+Le nombre de processus MTA est déterminé par le déploiement : il y a généralement 2 MTA et 1 thread. Le nombre de threads peut être modifié dans le fichier config-instance.xml à l’aide du paramètre smppConnectorThreads. Il y a généralement 1 processus MTA par conteneur et 1 thread par processus MTA.
 
 Formule de connexions totales pour Adobe Campaign Standard :
 
@@ -511,8 +511,8 @@ Exemple de transmission avec une fenêtre maximale de 4 :
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-La fenêtre permet d’augmenter le débit lorsque la liaison réseau présente une latence élevée.  La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n&#39;attend jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
-Si la fenêtre est trop grande, vous pouvez envoyer plus de messages en double en cas de problème de connexion. En outre, la plupart des fournisseurs ont une limite très stricte pour la fenêtre et refusent les messages qui dépassent la limite.
+La fenêtre permet d’augmenter le débit lorsque la liaison réseau présente une latence élevée. La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n’attend jamais un `SUBMIT_SM_RESP` avant d’envoyer le message suivant.
+Si la fenêtre est trop importante, vous pouvez envoyer plus de messages en double en cas de problèmes de connexion. De plus, la plupart des fournisseurs ont une limite de fenêtre très stricte et refusent les messages qui dépassent la limite.
 
 Comment calculer la formule optimale de la fenêtre d&#39;émission :
 
@@ -836,7 +836,7 @@ Si vous devez connecter plusieurs comptes de la même instance Adobe Campaign s
 
 ### Activer les traces SMPP de verbose lors des vérifications {#enable-verbose}
 
-Vous devez toujours activer les traces SMPP de verbose lors des vérifications.
+Vous devez toujours activer les traces SMPP verbeuses lors des vérifications.
 Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile pour le Support de vous aider.
 
 ### Tester votre SMS {#test}
@@ -844,14 +844,13 @@ Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile p
 * **Envoyer un SMS avec toutes sortes de caractères**
 Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d’envoyer des messages avec les caractères les plus variés possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
 
-* **Vérifier que les SR sont correctement traités.**
-Le SMS doit être marqué comme reçu dans le log de diffusion. Le log de diffusion ne doit pas rencontrer de problème et se présenter comme suit :
-  `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
+* **Vérifier que les SR sont correctement traités**
+Le SMS doit être marqué comme reçu dans le log de diffusion. Le log de diffusion ne doit pas rencontrer de problème et se présenter comme suit :  `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de diffusion ne doit jamais contenir **SR Generic** sur les environnements de production.
 
-* **Vérifier que les MO sont traités.**
-Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.), essayez de procéder à des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
-Archivez le log auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` réussi (command_status=0).
+* **Vérifier que les MO sont traités.**
+Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.), essayez de procéder à des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
+Vérifiez dans le log qu’Adobe Campaign répond avec un `DELIVER_SM_RESP` réussi (command_status=0).
 
 ### Vérifier les PDU {#check-pdus}
 

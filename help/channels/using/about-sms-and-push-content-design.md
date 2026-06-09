@@ -19,7 +19,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 168
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Pour accéder à l&#39;éditeur de contenu de SMS et de notification push :
 
   ![](assets/des_sms_content.png)
 
-* Cliquez sur le crayon en regard du champ **[!UICONTROL Corps du message]** dans le tableau de bord d’une notification push.
+* Cliquez sur le crayon en regard du champ **[!UICONTROL Corps du message]** dans le tableau de bord d&#39;une notification push.
 
   ![](assets/des_push_body.png)
 
