@@ -11,14 +11,11 @@ role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
+workflow-type: tm+mt
 source-wordcount: 405
 ht-degree: 100%
 
@@ -55,7 +52,8 @@ Vous pouvez envoyer une offre par email à la date anniversaire de la création 
 
 ### Récupération des profils créés le même jour que le jour d’exécution {#retrieving-profiles-created-on-the-same-day}
 
-1. Dans **[!UICONTROL Profil]**, effectuez un glisser-déposer du champ **[!UICONTROL Création le]** et cliquez sur **[!UICONTROL Mode avancé]**.   ![](assets/advanced_mode.png)
+1. Dans **[!UICONTROL Profil]**, effectuez un glisser-déposer du champ **[!UICONTROL Création le]** et cliquez sur **[!UICONTROL Mode avancé]**.
+   ![](assets/advanced_mode.png)
 1. Dans la **[!UICONTROL Liste des fonctions]**, double-cliquez sur **[!UICONTROL Jour]** depuis le nœud **[!UICONTROL Date]**.
 1. Ensuite, insérez le champ **[!UICONTROL Créé le]** en tant qu&#39;argument.
 1. Sélectionnez **[!UICONTROL égal à (=)]** comme opérateur.
@@ -66,7 +64,7 @@ Vous avez récupéré les profils dont le jour de création correspond au jour e
 
 Vous devez obtenir :
 
-```Day(@created) = Day(GetDate())```
+`Day(@created) = Day(GetDate())`
 
 ![](assets/day_creation_query.png)
 
@@ -83,11 +81,11 @@ Cliquez sur **[!UICONTROL Confirmer]**.
 
 Vous devez obtenir :
 
-``` Month(@created) = Month(GetDate()) ```
+`Month(@created) = Month(GetDate())`
 
 La requête finale affiche :
 
-```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
+`Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())`
 
 ![](assets/expression_editor_1.png)
 
