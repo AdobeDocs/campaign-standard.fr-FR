@@ -19,8 +19,8 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+workflow-type: tm+mt
 source-wordcount: 624
 ht-degree: 100%
 
@@ -139,3 +139,4 @@ La création d’un ticket vous permet de contacter l’équipe du Service clien
 Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+

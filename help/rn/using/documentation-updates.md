@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: '7668'
 ht-degree: 100%
@@ -1121,3 +1121,4 @@ Changement d&#39;URL : Assets core service – [En savoir plus](../../integra
 Changement d&#39;URL : People core service – [En savoir plus](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Réorganisation du guide Profils et audiences. [En savoir plus](../../audiences/using/get-started-profiles-and-audiences.md)
+

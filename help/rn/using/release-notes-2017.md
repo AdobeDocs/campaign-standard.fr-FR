@@ -33,8 +33,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+workflow-type: tm+mt
 source-wordcount: 4605
 ht-degree: 100%
 
@@ -423,7 +423,8 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
-   <td>Vous pouvez à présent définir manuellement une heure d’envoi personnalisée par personne destinataire, au niveau de la diffusion ou à l’aide d’un workflow. <br /> Deux nouvelles options sont disponibles : <br /><ul> 
+   <td> Vous pouvez à présent définir manuellement une heure d’envoi personnalisée par personne destinataire, au niveau de la diffusion ou à l’aide d’un workflow. <br /> Deux nouvelles options sont disponibles : <br /> 
+    <ul> 
      <li> Toutes les personnes destinataires reçoivent le message avec la prise en compte de leur fuseau horaire. </li> 
      <li> Chaque destinataire reçoit le message à une date et une heure calculées selon une formule. </li> 
     </ul> Pour plus d’informations, consultez la <a href="../../sending/using/optimizing-the-sending-time.md">documentation détaillée</a>.<br /> </td> 
@@ -441,7 +442,8 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Workflows : nouvelle activité Signal<br /> </td> 
-   <td>Déclenchez un workflow à partir d’un autre workflow à l’aide de la nouvelle activité <span class="uicontrol">Signal</span>.<br /> Grâce à la possibilité de démarrer un workflow à partir d’un autre, vous pouvez désormais prendre en charge des parcours clientèle plus complexes. Vous pouvez mieux surveiller les parcours des clientes et clients et réagir en cas de problèmes.<br /> Plusieurs activités de workflow ont été mises à jour :<br /><ul> 
+   <td> Déclenchez un workflow à partir d’un autre workflow à l’aide de la nouvelle activité <span class="uicontrol">Signal</span>.<br /> Grâce à la possibilité de démarrer un workflow à partir d’un autre, vous pouvez désormais prendre en charge des parcours clientèle plus complexes. Vous pouvez mieux surveiller les parcours des clientes et clients et réagir en cas de problèmes.<br /> Plusieurs activités de workflow ont été mises à jour :<br /> 
+    <ul> 
      <li> Activité <span class="uicontrol">Fin</span> : un nouvel onglet vous permet de spécifier un workflow à déclencher une fois l’exécution de cette activité terminée. </li> 
      <li> Activité <span class="uicontrol">Mise à jour de données</span> : utilisez la nouvelle transition sortante vide pour ajouter une activité <strong>Fin</strong> qui déclenchera un autre workflow. Les transitions sortantes vides ne contiennent pas de données et n’occupent pas d’espace inutilement sur le système. </li> 
     </ul> Pour plus d’informations, consultez la <a href="../../automating/using/external-signal.md">documentation détaillée</a>.<br /> </td> 
@@ -496,14 +498,16 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Export des logs pour un reporting externe<br /> </td> 
-   <td>Exportez les logs tels que les logs de diffusion et de tracking pour les traiter dans vos outils de création de rapports ou de BI préférés. Vous pouvez utiliser des workflows simples avec des requêtes incrémentielles pour automatiser les exports classiques de nouveaux journaux.<br /> En plus de la disponibilité des ressources de log à partir du sélecteur de ressources, des améliorations ont été apportées aux activités <a href="../../automating/using/incremental-query.md">Requête incrémentale</a> et <a href="../../automating/using/extract-file.md">Extraire le fichier</a> :<br /><ul> 
+   <td> Exportez les logs tels que les logs de diffusion et de tracking pour les traiter dans vos outils de création de rapports ou de BI préférés. Vous pouvez utiliser des workflows simples avec des requêtes incrémentielles pour automatiser les exports classiques de nouveaux journaux.<br /> En plus de la disponibilité des ressources de log à partir du sélecteur de ressources, des améliorations ont été apportées aux activités <a href="../../automating/using/incremental-query.md">Requête incrémentale</a> et <a href="../../automating/using/extract-file.md">Extraire le fichier</a> :<br /> 
+    <ul> 
      <li> L’activité <span class="uicontrol">Requête incrémentale</span> permet désormais d’utiliser un champ date pour récupérer des données mises à jour ou nouvelles. Auparavant, tous les résultats des exécutions précédentes étaient automatiquement exclus, même s’ils avaient été mis à jour depuis la dernière exécution. </li> 
      <li> L’activité <span class="uicontrol">Extraction de fichier</span> peut désormais exporter des libellés pour les valeurs d’énumération à la place d’identifiants. </li> 
     </ul> Ces activités sont disponibles pour les administrateurs et administratrices qui ont un accès à toutes les entités organisationnelles et géographiques.<br /> Pour plus d’informations sur l’export des logs, consultez la <a href="../../automating/using/exporting-logs.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Capacités marketing des messages transactionnels<br /> </td> 
-   <td>Les personnes chargées du marketing peuvent désormais envoyer des messages transactionnels selon les profils marketing des clientes et clients. Cela leur permet d’effectuer les opérations suivantes :<br /><ul> 
+   <td> Les personnes chargées du marketing peuvent désormais envoyer des messages transactionnels selon les profils marketing des clientes et clients. Cela leur permet d’effectuer les opérations suivantes :<br /> 
+    <ul> 
      <li> appliquer des règles de typologie marketing telles que <span class="uicontrol">Adresse sur liste bloquée</span> ; </li> 
      <li> inclure le lien de désinscription dans les messages ; </li> 
      <li> ajouter les messages transactionnels au reporting de diffusion globale ; </li> 
@@ -555,3 +559,4 @@ _Intégrations_
 * Correction d’un problème qui était susceptible d’entraîner une erreur lors du déploiement d’un déclenchement d’événement dans Adobe Campaign. Cette erreur se produisait lorsque les métadonnées « Probabilité de retour avant 30 jours » avaient été ajoutées au déclencheur Abandon dans Adobe Experience Cloud.
 * Correction d’une erreur qui était susceptible d’entraîner l’effacement du champ Dimension cible par un workflow technique lors de l’import des audiences depuis People core service. Les requêtes suivantes ne pouvaient pas récupérer les audiences importées.
 * Correction d’une erreur qui était susceptible d’entraîner l’échec d’une activité **[!UICONTROL Sauvegarde d’audience]** d’un workflow lorsque l’option **[!UICONTROL Partager dans Adobe Experience Cloud]** était cochée.
+

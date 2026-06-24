@@ -25,8 +25,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+workflow-type: tm+mt
 source-wordcount: 7898
 ht-degree: 100%
 
@@ -633,3 +633,4 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Le débit d’envoi a été amélioré et stabilisé pour les messages SMS.
 * Correction d’un problème qui empêchait l’utilisation du caractère &quot;~&quot; dans un message SMS. (CAMP-29172)
 * Correction d’un problème de diffusions avec l’option d’optimisation de l’heure d’envoi. (CAMP-29231)
+
