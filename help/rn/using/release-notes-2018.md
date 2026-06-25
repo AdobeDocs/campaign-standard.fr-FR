@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5273
 ht-degree: 100%
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 # Notes de mise à jour 2018{#release-notes}
 
-## Version 18.9 - Septembre 2018 {#release-18-9---september-2018}
+## Version 18.9 - Septembre 2018 {#release-18-9-september-2018}
 
 **Nouveautés**
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 * Correction d’un problème qui empêchait l’affichage des erreurs à l’origine de l’échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d’une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
 
-## Version 18.7 - Juillet 2018 {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018 {#release-18-7-july-2018}
 
 **Nouveautés**
 
@@ -170,7 +170,7 @@ ht-degree: 100%
 * Correction d’un problème dans Creative Designer qui entraînait l’apparition d’un formatage et d’une couleur de police non souhaités lors du changement d’un texte avec un style intégré en un lien ou lors de l’édition de ce lien. (CAMP-26001)
 * Correction d’un problème qui empêchait le rapport Hot clicks d’afficher les pourcentages pour chaque condition dans les diffusions comportant du contenu dynamique. Auparavant, seuls les clics sur la variante par défaut étaient affichés.
 
-## Version 18.6 - Juin 2018 {#release-18-6---june-2018}
+## Version 18.6 - Juin 2018 {#release-18-6-june-2018}
 
 **Améliorations**
 
@@ -208,7 +208,7 @@ ht-degree: 100%
 * Correction d’une erreur liée à l’affichage des données internationales pour les niveaux de compte dans les rapports dynamiques.
 * Il est désormais possible de créer un service sans message de confirmation d’abonnement ou de désabonnement.
 
-## Version 18.5 - Mai 2018 {#release-18-5---may-2018}
+## Version 18.5 - Mai 2018 {#release-18-5-may-2018}
 
 **Nouveautés**
 
@@ -280,7 +280,7 @@ ht-degree: 100%
 * Correction d’un problème qui pouvait empêcher le chargement de Creative Designer. (CAMP-24573)
 * Correction d’un problème qui supprimait les caractères ajoutés après des champs de personnalisation dans l’objet d’un email. (CAMP-24113)
 
-## Version 18.4 - Avril 2018 {#release-18-4---april-2018}
+## Version 18.4 - Avril 2018 {#release-18-4-april-2018}
 
 **Correctifs**
 
@@ -306,7 +306,7 @@ _Ressources personnalisées_
 
 * Correction d’une erreur qui entraînait l’échec de la préparation des ressources personnalisées.
 
-## Version 18.3 - Mars 2018 {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018 {#release-18-3-march-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -396,7 +396,7 @@ _Messages transactionnels_
 * Correction d’une erreur liée au modèle de message transactionnel lors de l’extension de la ressource de diffusion.
 * Il est maintenant possible de supprimer les messages transactionnels.
 
-## Version 18.2 - Février 2018 {#release-18-2---february-2018}
+## Version 18.2 - Février 2018 {#release-18-2-february-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -460,7 +460,7 @@ Il est recommandé de ne pas utiliser Internet Explorer version 11 en raison de
 
 Certains problèmes peuvent se produire lors de l’utilisation des liens d’aide contextuelle dans l’interface de Campaign. Ils seront résolus dans la version 18.3.
 
-## Version 18.1 - Janvier 2018 {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018 {#release-18-1-january-2018}
 
 **Nouvelles fonctionnalités**
 

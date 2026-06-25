@@ -28,7 +28,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 # Notes de mise à jour 2021{#release-notes-2021}
 
-## Version 21.3 - Septembre 2021 {#release-21-3---sept-2021}
+## Version 21.3 - Septembre 2021 {#release-21-3-sept-2021}
 
 Les nouvelles fonctionnalités, améliorations et corrections incluses dans la dernière version de Campaign Standard sont répertoriées ci-dessous.
 
@@ -158,7 +158,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 * Correction d’un problème en raison duquel le workflow de nettoyage de la base échouait avec une erreur. (CAMP-49097)
 
 
-## Version 21.2 - Juin 2021 {#release-21-2---june-2021}
+## Version 21.2 - Juin 2021 {#release-21-2-june-2021}
 
 Les nouvelles fonctionnalités, améliorations et corrections incluses dans la prochaine version de Campaign Standard sont répertoriées ci-dessous. Les nouvelles fonctionnalités, améliorations et corrections incluses dans cette version de Campaign Standard sont répertoriées ci-dessous.
 
@@ -246,7 +246,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Correction d&#39;un problème qui bloquait certaines diffusions de Journey Orchestration en raison de la non-prise en charge de la date et de l&#39;heure avec une valeur exacte (c&#39;est-à-dire se terminant par 00) envoyés par les événements de Journey Orchestration.
 
-## Version 21.1 - Février 2021 {#release-21-1---february-2021}
+## Version 21.1 - Février 2021 {#release-21-1-february-2021}
 
 **Nouveautés**
 

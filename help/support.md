@@ -19,10 +19,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
-source-wordcount: 624
-ht-degree: 100%
+source-wordcount: 636
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
 
 ## Problèmes courants et bonnes pratiques
 
-<img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
+![icône faq](start/using/assets/do-not-localize/icon-faq.svg){width="60px"}
 
 <table>
     <tr><td><strong>Questions et réponses par rubrique</strong></td><td><strong>Problèmes courants</strong></td><td><strong>Bonnes pratiques</strong></td><td><strong>Procédure</strong></td></tr>
@@ -91,11 +91,12 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
 
 ## Panneau de contrôle Campaign
 
-<img src="start/using/assets/do-not-localize/icon-control-panel.svg" width="60px">
+![icône du panneau de contrôle](start/using/assets/do-not-localize/icon-control-panel.svg){width="60px"}
 
 ### Qu’est-ce que le Panneau de contrôle ?
 
-Le panneau de contrôle accroît votre efficacité en tant qu’administrateur ou administratrice de produit Campaign Standard en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances.
+Le Panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Campaign Standard, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances.
+
 [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr#discover-control-panel) pour plus d’informations.
 
 >[!NOTE]
@@ -124,7 +125,7 @@ Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus :
 
 ## Demander de l’aide
 
-<img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
+![icône d’assistance](start/using/assets/do-not-localize/icon-support.svg){width="60px"}
 
 Le nouveau système de gestion des tickets a été mis en place via la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Ce nouveau système nécessite de nouveaux comptes individuels pour chaque personne, avec les autorisations adéquates. Si vous constatez que vous ne pouvez pas vous connecter à l’aide de votre Adobe ID, demandez l’accès par le biais d’Experience League. L’équipe d’assistance clientèle vous assistera dès que possible. [En savoir plus](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
@@ -139,4 +140,3 @@ La création d’un ticket vous permet de contacter l’équipe du Service clien
 Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-

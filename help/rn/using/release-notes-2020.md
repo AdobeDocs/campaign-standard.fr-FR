@@ -39,7 +39,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5385
 ht-degree: 100%
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du Panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
 
-## Version 20.4 - Octobre 2020 {#release-20-4---october-2020}
+## Version 20.4 - Octobre 2020 {#release-20-4-october-2020}
 
 **Nouveautés**
 
@@ -218,7 +218,7 @@ ht-degree: 100%
 
 
 
-## Version 20.3 - Mai 2020 {#release-20-3---may-2020}
+## Version 20.3 - Mai 2020 {#release-20-3-may-2020}
 
 **Nouveautés**
 
@@ -322,7 +322,7 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du Panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
 
-## Version 20.2 - Avril 2020 {#release-20-2---april-2020}
+## Version 20.2 - Avril 2020 {#release-20-2-april-2020}
 
 **Nouveautés**
 
@@ -407,15 +407,15 @@ ht-degree: 100%
 * Correction d’un problème qui se produisait dans les workflows lors de l’exécution d’une activité avec plusieurs transitions entrantes.
 * Correction d’un problème qui empêchait les utilisateurs standard d’utiliser les inscriptions à une application comme dimension cible dans une requête de workflow ou une diffusion. (CAMP-37618)
 
-## Version 20.1.4 - Février 2020 {#release-20-1-4---february-2020}
+## Version 20.1.4 - Février 2020 {#release-20-1-4-february-2020}
 
 * Correction d’un problème lors de l’ouverture d’une activité **Lecture d’audience** sur des workflows existants. (CAMP-41002)
 
-## Version 20.1.3 - Février 2020 {#release-20-1-3---february-2020}
+## Version 20.1.3 - Février 2020 {#release-20-1-3-february-2020}
 
 * Correction d’un problème de régression introduit dans la version 20.1 par CAMP-39273 pour les clients qui utilisaient la faille. CAMP-39273 a été annulé.
 
-## Version 20.1.2 - Février 2020 {#release-20-1-2---february-2020}
+## Version 20.1.2 - Février 2020 {#release-20-1-2-february-2020}
 
 **Améliorations du concepteur d’e-mail**
 
@@ -423,7 +423,7 @@ ht-degree: 100%
 * Correction d’un problème qui entraînait l’ajout d’un espace lors de l’utilisation de contenu dynamique. (CAMP-40605)
 * Correction d’un problème lors de la configuration d’un modèle d’email transactionnel. (CAMP-40604)
 
-## Version 20.1 - Février 2020 {#release-20-1---february-2020}
+## Version 20.1 - Février 2020 {#release-20-1-february-2020}
 
 **Nouveautés**
 

@@ -21,8 +21,8 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+workflow-type: tm+mt
 source-wordcount: 1403
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 | **[!UICONTROL Non connecté]** | Ignoré | Le téléphone portable du profil est éteint ou n’est pas connecté au réseau au moment de l’envoi du message. |
 | **[!UICONTROL Domaine invalide]** | Soft | Le domaine de l’adresse e-mail est incorrect ou n’existe plus. Ce profil sera ciblé de nouveau jusqu’à ce que le nombre d’erreurs atteigne 5. Ensuite, l’enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée. |
 | **[!UICONTROL Texte trop long]** | Ignoré | Le nombre de caractères du SMS dépasse la limite autorisée. Pour plus d&#39;informations, consultez la section [Encodage, longueur et translittération des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
-| **[!UICONTROL Caractère non pris en charge par le codage]** | Ignoré | Le message SMS contient un ou plusieurs caractères qui ne sont pas pris en charge par le codage. &amp;Pour plus d’informations à ce sujet, consultez la section [Table des caractères - Norme GSM](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
+| **[!UICONTROL Caractère non pris en charge par le codage]** | Ignoré | Le message SMS contient un ou plusieurs caractères qui ne sont pas pris en charge par le codage. &amp;Pour plus d’informations à ce sujet, consultez la section [Table des caractères - Norme GSM](../../administration/using/configuring-sms-channel.md#table-of-characters-gsm-standard). |
 
 
 **Rubriques connexes :**
