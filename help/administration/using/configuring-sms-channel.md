@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 100%
@@ -80,7 +80,7 @@ Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 ca
 
 >[!NOTE]
 >
->Certains caractères comptent pour deux (accolades, crochets, symbole de l&#39;euro, etc.). La liste des caractères GSM disponibles est présentée dans la section [Table des caractères - Norme GSM](#table-of-characters---gsm-standard).
+>Certains caractères comptent pour deux (accolades, crochets, symbole de l&#39;euro, etc.). La liste des caractères GSM disponibles est présentée dans la section [Table des caractères - Norme GSM](#table-of-characters-gsm-standard).
 
 Vous pouvez si vous le souhaitez autoriser la translittération des caractères en cochant la case correspondante.
 
@@ -99,7 +99,7 @@ Par défaut, la translittération des caractères est désactivée. Si vous souh
 
 En revanche, si vos SMS contiennent beaucoup de caractères générant des messages Unicode, vous pouvez choisir d&#39;activer cette option afin de limiter le coût de vos envois.
 
-### Tables des caractères - Norme GSM {#table-of-characters---gsm-standard}
+### Tables des caractères - Norme GSM {#table-of-characters-gsm-standard}
 
 Cette section présente les caractères pris en compte par la norme GSM. Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères. Pour en savoir plus, consultez la section [Encodage, longueur et translittération des SMS](#sms-encoding--length-and-transliteration).
 

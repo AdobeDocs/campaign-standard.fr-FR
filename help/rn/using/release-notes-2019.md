@@ -6,26 +6,13 @@ role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 TQID: https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 7898
 ht-degree: 100%
@@ -34,7 +21,7 @@ ht-degree: 100%
 
 # Notes de mise à jour 2019{#release-notes-2019}
 
-## Version 19.4 - Décembre 2019 {#release-19-4---october-2019}
+## Version 19.4 - Décembre 2019 {#release-19-4-october-2019}
 
 **Nouveautés**
 
@@ -160,7 +147,7 @@ ht-degree: 100%
 * Correction d’un problème en raison duquel l’état d’une diffusion pouvait être &quot;Démarrage en attente&quot; même si la diffusion était terminée. (CAMP-35355)
 * Correction d’un problème qui empêchait l’affichage des logs des workflows après activation, puis désactivation des logs SQL.
 
-## Version 19.3 - Juillet 2019 {#release-19-3---july-2019}
+## Version 19.3 - Juillet 2019 {#release-19-3-july-2019}
 
 **Nouveautés**
 
@@ -271,7 +258,7 @@ ht-degree: 100%
 * Correction d’un problème de sécurité qui endommageait le contenu d’un email lorsque l’objet contenait plusieurs lignes.
 
 
-## Version 19.2.7 - Juillet 2019 {#release-19-2-7---july-2019}
+## Version 19.2.7 - Juillet 2019 {#release-19-2-7-july-2019}
 
 **Améliorations**
 
@@ -280,13 +267,13 @@ ht-degree: 100%
 * Correction d’un problème qui empêchait les utilisateurs autres qu’administrateurs d’enregistrer ou de planifier des rapports. (CAMP-31133)
 * Correction d’un problème lors de l’utilisation de du caractère &quot;|&quot; comme séparateur de date dans l’activité de workflow Chargement de fichier. (CAMP-34706)
 
-## Version 19.2.4 - Juin 2019 {#release-19-2-4---june-2019}
+## Version 19.2.4 - Juin 2019 {#release-19-2-4-june-2019}
 
 **Concepteur d’e-mail**
 
 * Correction d’un problème qui empêchait les utilisateurs d’éditer des fragments si le code HTML contenait des balises &lt;style> vides. Il s’agit d’un correctif de suivi pour CAMP-33778 dans la version 19.2.3.
 
-## Version 19.2.3 - Juin 2019 {#release-19-2-3---june-2019}
+## Version 19.2.3 - Juin 2019 {#release-19-2-3-june-2019}
 
 **Concepteur d’e-mail**
 
@@ -305,7 +292,7 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
 * Correction d’un problème qui empêchait l’utilisateur d’enrichir le contenu d’un message transactionnel avec des informations de la ressource Service. (CAMP-33707)
 * Correction d’un problème lié aux landing pages de liste bloquée qui se produisait lors du désabonnement des profils d’un service.
 
-## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
+## Version 19.2 - Mai 2019 {#release-19-2-may-2019}
 
 **Nouveautés**
 
@@ -409,7 +396,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui entraînait la désactivation du workflow de délivrabilité s’il ne se terminait pas correctement.
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer ou de planifier des rapports. (CAMP-31133)
 
-## Version 19.1.3 - Mars 2019 {#release-19-1-3---march-2019}
+## Version 19.1.3 - Mars 2019 {#release-19-1-3-march-2019}
 
 **Améliorations du concepteur d’e-mail**
 
@@ -423,7 +410,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui empêchait l’édition des règles de typologie. (CAMP-31750)
 * Correction d’un problème lié au processus inMail qui pouvait s’arrêter de manière inattendue. (CAMP-31238)
 
-## Version 19.1 - Février 2019 {#release-19-1---february-2019}
+## Version 19.1 - Février 2019 {#release-19-1-february-2019}
 
 **Nouveautés**
 
@@ -529,7 +516,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui entraînait une différence entre les profils ciblés lors de la création d’une diffusion In-App et ceux affichés dans le tableau de bord de la diffusion. (CAMP-28722)
 * Correction d’un problème lié à l’intégration de Campaign avec Assets Core Service qui empêchait la sélection d’une ressource partagée dans un email.
 
-## Version 19.0 - Janvier 2019 {#release-19-0---january-2019}
+## Version 19.0 - Janvier 2019 {#release-19-0-january-2019}
 
 **Nouveautés**
 
