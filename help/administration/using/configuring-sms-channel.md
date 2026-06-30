@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1709'
 ht-degree: 100%
 
@@ -108,10 +108,10 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
 <table> 
  <tbody> 
   <tr> 
-   <td> @<br /> </td> 
+   <td>@<br /></td> 
    <td> <img height="21px" src="assets/delta.png" /> <br /> </td> 
    <td> SP<br /> </td> 
-   <td> 0<br /> </td> 
+   <td>0<br /></td> 
    <td> ¡<br /> </td> 
    <td> P<br /> </td> 
    <td> ¿<br /> </td> 
@@ -119,19 +119,19 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   </tr> 
   <tr> 
    <td> £<br /> </td> 
-   <td> _<br /> </td> 
-   <td> !<br /> </td> 
-   <td> 1<br /> </td> 
+   <td>_<br /></td> 
+   <td>!<br /></td> 
+   <td>1<br /></td> 
    <td> A<br /> </td> 
    <td> Q<br /> </td> 
    <td> a<br /> </td> 
    <td> q<br /> </td> 
   </tr> 
   <tr> 
-   <td> $<br /> </td> 
+   <td>$<br /></td> 
    <td> <img height="21px" src="assets/phi.png" /> <br /> </td> 
-   <td> "<br /> </td> 
-   <td> 2<br /> </td> 
+   <td>"<br /></td> 
+   <td>2<br /></td> 
    <td> B<br /> </td> 
    <td> R<br /> </td> 
    <td> b<br /> </td> 
@@ -140,8 +140,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> ¥<br /> </td> 
    <td> <img height="21px" src="assets/gamma.png" /> <br /> </td> 
-   <td> #<br /> </td> 
-   <td> 3<br /> </td> 
+   <td>#<br /></td> 
+   <td>3<br /></td> 
    <td> C<br /> </td> 
    <td> S<br /> </td> 
    <td> c<br /> </td> 
@@ -151,7 +151,7 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
    <td> è<br /> </td> 
    <td> <img height="21px" src="assets/delta.png" /> <br /> </td> 
    <td> ¤<br /> </td> 
-   <td> 4<br /> </td> 
+   <td>4<br /></td> 
    <td> D<br /> </td> 
    <td> T<br /> </td> 
    <td> d<br /> </td> 
@@ -160,8 +160,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> é<br /> </td> 
    <td> <img height="21px" src="assets/omega.png" /> <br /> </td> 
-   <td> %<br /> </td> 
-   <td> 5<br /> </td> 
+   <td>%<br /></td> 
+   <td>5<br /></td> 
    <td> E<br /> </td> 
    <td> U<br /> </td> 
    <td> e<br /> </td> 
@@ -170,8 +170,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> ù<br /> </td> 
    <td> <img height="21px" src="assets/pi.png" /> <br /> </td> 
-   <td> &amp;<br /> </td> 
-   <td> 6<br /> </td> 
+   <td>&amp;<br /></td> 
+   <td>6<br /></td> 
    <td> F<br /> </td> 
    <td> V<br /> </td> 
    <td> f<br /> </td> 
@@ -180,8 +180,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> ì<br /> </td> 
    <td> <img height="21px" src="assets/psi.png" /> <br /> </td> 
-   <td> '<br /> </td> 
-   <td> 7<br /> </td> 
+   <td>'<br /></td> 
+   <td>7<br /></td> 
    <td> G<br /> </td> 
    <td> W<br /> </td> 
    <td> g<br /> </td> 
@@ -190,8 +190,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> ò<br /> </td> 
    <td> <img height="21px" src="assets/sigma.png" /> <br /> </td> 
-   <td> (<br /> </td> 
-   <td> 8<br /> </td> 
+   <td>(<br /></td> 
+   <td>8<br /></td> 
    <td> H<br /> </td> 
    <td> X<br /> </td> 
    <td> h<br /> </td> 
@@ -200,8 +200,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> Ç<br /> </td> 
    <td> <img height="21px" src="assets/theta.png" /> <br /> </td> 
-   <td> )<br /> </td> 
-   <td> 9 </td> 
+   <td>)<br /></td> 
+   <td>9</td> 
    <td> I<br /> </td> 
    <td> Y<br /> </td> 
    <td> i<br /> </td> 
@@ -210,8 +210,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> LF<br /> </td> 
    <td> <img height="21px" src="assets/xi.png" /> <br /> </td> 
-   <td> *<br /> </td> 
-   <td> :<br /> </td> 
+   <td>*<br /></td> 
+   <td>:<br /></td> 
    <td> J<br /> </td> 
    <td> Z<br /> </td> 
    <td> j<br /> </td> 
@@ -220,8 +220,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> Ø<br /> </td> 
    <td> ESC<br /> </td> 
-   <td> +<br /> </td> 
-   <td> ;<br /> </td> 
+   <td>+<br /></td> 
+   <td>;<br /></td> 
    <td> K<br /> </td> 
    <td> Ä<br /> </td> 
    <td> k<br /> </td> 
@@ -230,8 +230,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> ø<br /> </td> 
    <td> Æ<br /> </td> 
-   <td> ,<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td>,<br /></td> 
+   <td>&lt;<br /></td> 
    <td> L<br /> </td> 
    <td> Ö<br /> </td> 
    <td> l<br /> </td> 
@@ -240,8 +240,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> CR<br /> </td> 
    <td> æ<br /> </td> 
-   <td> -<br /> </td> 
-   <td> = </td> 
+   <td>-<br /></td> 
+   <td>=</td> 
    <td> M<br /> </td> 
    <td> Ñ<br /> </td> 
    <td> m<br /> </td> 
@@ -250,8 +250,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> Å<br /> </td> 
    <td> ß<br /> </td> 
-   <td> .<br /> </td> 
-   <td> &gt;<br /> </td> 
+   <td>.<br /></td> 
+   <td>&gt;<br /></td> 
    <td> N<br /> </td> 
    <td> Ü<br /> </td> 
    <td> n<br /> </td> 
@@ -260,8 +260,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> å<br /> </td> 
    <td> É<br /> </td> 
-   <td> /<br /> </td> 
-   <td> ?<br /> </td> 
+   <td>/<br /></td> 
+   <td>?<br /></td> 
    <td> O<br /> </td> 
    <td> §<br /> </td> 
    <td> o<br /> </td> 
