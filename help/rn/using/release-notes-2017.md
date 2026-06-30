@@ -6,36 +6,15 @@ role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
-source-wordcount: 4605
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+workflow-type: tm+mt
+source-wordcount: 4688
 ht-degree: 100%
 
 ---
@@ -241,7 +220,7 @@ _Général_
 _E-mails, SMS et courrier_
 
 * Correction d’une erreur liée au workflow **updateDeliveryExecInfo** qui définissait l’indicateur **To deliver** sur 0 pour les diffusions SMS.
-* Dans les **Paramètres avancés** des propriétés du modèle de diffusion, la liste déroulante **Routage** n’affiche désormais que les comptes externes qui correspondent au type du message du modèle.Par exemple, un modèle de diffusion email affiche uniquement les comptes externes de type email.
+* Dans les **Paramètres avancés** des propriétés du modèle de diffusion, la liste déroulante **Routage** n’affiche désormais que les comptes externes qui correspondent au type du message du modèle. Par exemple, un modèle de diffusion email affiche uniquement les comptes externes de type email.
 * Correction d’une erreur liée à la préférence de format d’email **[!UICONTROL Texte]** définie pour les profils de test.
 * Correction d’un problème qui entraînait une erreur Javascript lors de la sélection du fuseau horaire par défaut dans l’écran de sélection de planning d’une diffusion.
 * Correction d’une erreur qui empêchait l’affichage des pièges dans les envois.
@@ -283,7 +262,7 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Canal Courrier<br /> </td> 
-   <td>Reconnectez avec les fondamentaux de la communication grâce au premier canal hors ligne d’Adobe Campaign Standard : le courrier.Le canal Courrier vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux dans le cadre de vos campagnes cross-canal. Utilisez le canal Courrier pour relancer votre clientèle et lui proposer une expérience unique qui la conduira vers votre application, site web ou magasin.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/about-direct-mail.md">documentation détaillée</a>.<br /> </td> 
+   <td> Reconnectez avec les fondamentaux de la communication grâce au premier canal hors ligne d’Adobe Campaign Standard : le courrier. Le canal Courrier vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux dans le cadre de vos campagnes cross-canal. Utilisez le canal Courrier pour relancer votre clientèle et lui proposer une expérience unique qui la conduira vers votre application, site web ou magasin.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/about-direct-mail.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> E-mail Cci<br /> </td> 
@@ -423,8 +402,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
-   <td> Vous pouvez à présent définir manuellement une heure d’envoi personnalisée par personne destinataire, au niveau de la diffusion ou à l’aide d’un workflow. <br /> Deux nouvelles options sont disponibles : <br /> 
-    <ul> 
+   <td> Vous pouvez à présent définir manuellement une heure d’envoi personnalisée par destinataire, au niveau de la diffusion ou via un workflow.<br /> Deux nouvelles options sont disponibles : <br /> <ul> 
      <li> Toutes les personnes destinataires reçoivent le message avec la prise en compte de leur fuseau horaire. </li> 
      <li> Chaque destinataire reçoit le message à une date et une heure calculées selon une formule. </li> 
     </ul> Pour plus d’informations, consultez la <a href="../../sending/using/optimizing-the-sending-time.md">documentation détaillée</a>.<br /> </td> 
@@ -442,8 +420,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Workflows : nouvelle activité Signal<br /> </td> 
-   <td> Déclenchez un workflow à partir d’un autre workflow à l’aide de la nouvelle activité <span class="uicontrol">Signal</span>.<br /> Grâce à la possibilité de démarrer un workflow à partir d’un autre, vous pouvez désormais prendre en charge des parcours clientèle plus complexes. Vous pouvez mieux surveiller les parcours des clientes et clients et réagir en cas de problèmes.<br /> Plusieurs activités de workflow ont été mises à jour :<br /> 
-    <ul> 
+   <td> Déclenchez un workflow à partir d’un autre workflow grâce à la nouvelle activité <span class="uicontrol">Signal</span>.<br /> La possibilité de démarrer un workflow à partir d’un autre vous permet désormais de prendre en charge des parcours clientèle plus complexes. Vous pouvez mieux suivre les parcours clientèle et intervenir en cas de problèmes.<br /> Plusieurs activités de workflow ont été mises à jour :<br /> <ul> 
      <li> Activité <span class="uicontrol">Fin</span> : un nouvel onglet vous permet de spécifier un workflow à déclencher une fois l’exécution de cette activité terminée. </li> 
      <li> Activité <span class="uicontrol">Mise à jour de données</span> : utilisez la nouvelle transition sortante vide pour ajouter une activité <strong>Fin</strong> qui déclenchera un autre workflow. Les transitions sortantes vides ne contiennent pas de données et n’occupent pas d’espace inutilement sur le système. </li> 
     </ul> Pour plus d’informations, consultez la <a href="../../automating/using/external-signal.md">documentation détaillée</a>.<br /> </td> 
@@ -454,7 +431,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Données de points ciblés<br /> </td> 
-   <td> Les données de points ciblés sont une intégration entre Adobe Campaign et Adobe Analytics pour Mobile. Il est possible de collecter des données sur localisations mobiles d’un utilisateur - appelées <strong>points ciblés</strong> - lorsque celui-ci ouvre l’application d’une marque. La marque peut alors utiliser les workflows Adobe Campaign pour envoyer des messages personnalisés en fonction de la localisation de sa clientèle.Ce canal utilise le SDK du service principal mobile.<br />Notez que l’utilisation de cette fonctionnalité requiert Analytics pour Mobile, une solution payante.<br /> Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentation détaillée</a>.<br /> </td> 
+   <td> Les données de points ciblés sont une intégration entre Adobe Campaign et Adobe Analytics pour Mobile. Il est possible de collecter des données sur localisations mobiles d’un utilisateur - appelées <strong>points ciblés</strong> - lorsque celui-ci ouvre l’application d’une marque. La marque peut alors utiliser les workflows Adobe Campaign pour envoyer des messages personnalisés en fonction de la localisation de sa clientèle. Ce canal utilise le SDK du service principal mobile.<br /> Notez que l’utilisation de cette fonctionnalité requiert Analytics pour Mobile, une solution payante.<br /> Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> API REST<br /> </td> 
@@ -498,16 +475,14 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Export des logs pour un reporting externe<br /> </td> 
-   <td> Exportez les logs tels que les logs de diffusion et de tracking pour les traiter dans vos outils de création de rapports ou de BI préférés. Vous pouvez utiliser des workflows simples avec des requêtes incrémentielles pour automatiser les exports classiques de nouveaux journaux.<br /> En plus de la disponibilité des ressources de log à partir du sélecteur de ressources, des améliorations ont été apportées aux activités <a href="../../automating/using/incremental-query.md">Requête incrémentale</a> et <a href="../../automating/using/extract-file.md">Extraire le fichier</a> :<br /> 
-    <ul> 
+   <td> Exportez des logs tels que les logs de diffusion et de tracking pour les traiter dans les outils de reporting et de Business Intelligence de votre choix. Vous pouvez utiliser des workflows simples avec des requêtes incrémentales pour automatiser des exports réguliers des nouveaux logs.<br /> En plus de la disponibilité des ressources de log dans le sélecteur de ressources, des améliorations ont été apportées aux activités <a href="../../automating/using/incremental-query.md">Requête incrémentale</a> et <a href="../../automating/using/extract-file.md">Extraction de fichier</a> :<br /> <ul> 
      <li> L’activité <span class="uicontrol">Requête incrémentale</span> permet désormais d’utiliser un champ date pour récupérer des données mises à jour ou nouvelles. Auparavant, tous les résultats des exécutions précédentes étaient automatiquement exclus, même s’ils avaient été mis à jour depuis la dernière exécution. </li> 
      <li> L’activité <span class="uicontrol">Extraction de fichier</span> peut désormais exporter des libellés pour les valeurs d’énumération à la place d’identifiants. </li> 
     </ul> Ces activités sont disponibles pour les administrateurs et administratrices qui ont un accès à toutes les entités organisationnelles et géographiques.<br /> Pour plus d’informations sur l’export des logs, consultez la <a href="../../automating/using/exporting-logs.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Capacités marketing des messages transactionnels<br /> </td> 
-   <td> Les personnes chargées du marketing peuvent désormais envoyer des messages transactionnels selon les profils marketing des clientes et clients. Cela leur permet d’effectuer les opérations suivantes :<br /> 
-    <ul> 
+   <td> Les personnes chargées du marketing peuvent désormais envoyer des messages transactionnels selon les profils marketing des clientes et clients. Elles peuvent ainsi :<br /> <ul> 
      <li> appliquer des règles de typologie marketing telles que <span class="uicontrol">Adresse sur liste bloquée</span> ; </li> 
      <li> inclure le lien de désinscription dans les messages ; </li> 
      <li> ajouter les messages transactionnels au reporting de diffusion globale ; </li> 
@@ -559,4 +534,5 @@ _Intégrations_
 * Correction d’un problème qui était susceptible d’entraîner une erreur lors du déploiement d’un déclenchement d’événement dans Adobe Campaign. Cette erreur se produisait lorsque les métadonnées « Probabilité de retour avant 30 jours » avaient été ajoutées au déclencheur Abandon dans Adobe Experience Cloud.
 * Correction d’une erreur qui était susceptible d’entraîner l’effacement du champ Dimension cible par un workflow technique lors de l’import des audiences depuis People core service. Les requêtes suivantes ne pouvaient pas récupérer les audiences importées.
 * Correction d’une erreur qui était susceptible d’entraîner l’échec d’une activité **[!UICONTROL Sauvegarde d’audience]** d’un workflow lorsque l’option **[!UICONTROL Partager dans Adobe Experience Cloud]** était cochée.
+
 
