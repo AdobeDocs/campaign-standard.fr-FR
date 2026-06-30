@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 450
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 83%
 
 En cas de panne d’un fournisseur d’accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
 
-En décembre 2020, en raison d’un problème mondial au sein de Gmail, l’envoi de certains e-mails à des adresses Gmail valides a entraîné des erreurs hard injustifiées. Ces adresses e-mail ont été considérées comme non valides par les serveurs de Gmail, avec la réponse de rebond suivante : *« 550-5.1.1 Le compte de messagerie que vous avez tenté d’atteindre n’existe pas. »*
+En décembre 2020, un problème mondial qui a affecté Gmail a entraîné des rebonds définitifs incorrects lors de l’envoi d’e-mails à des adresses Gmail valides. Les serveurs Gmail les ont incorrectement rejetés pour cause d’adresses e-mail non valides avec la réponse suivante : *« 550-5.1.1 Le compte de messagerie que vous avez tenté de contacter n’existe pas. »*.
 
 D’après Google, les pannes et les perturbations de Gmail, qui sont à l’origine de ce problème, ont commencées le 14 décembre à 6:55AM et se sont terminées à 6:09PM EST le jour suivant. Notre analyse des données a également montré un pic très court dans les rebonds Gmail à 2:06AM EST le 16 décembre, la majorité se produisant le 15 décembre entre 14:00 EST et 18:30 EST.
 
@@ -46,7 +46,7 @@ En fonction du calendrier de l&#39;incident, voici les instructions recommandée
 
 Pour les instances Campaign contenant des informations de réponse de rebond SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
-* **Texte d’erreur (texte de la quarantaine)** contient « 550-5.1.1 Le compte de messagerie auquel vous avez tenté d’accéder n’existe pas » ET **Texte d’erreur (texte de la quarantaine)** contient « support.google.com » **
+* **Texte d’erreur (texte de quarantaine)** contenant « 550-5.1.1 Le compte de messagerie que vous avez tenté d’atteindre n’existe pas » ET **Texte d’erreur (texte de quarantaine)** contenant « support.google.com » **
 * **Mise à jour du statut (@lastModified)** le ou après le 14/12/2020 à 6:55:00
 * **État de la mise à jour (@lastModified)** le ou avant le 16/12/2020 6:00:00
 
