@@ -6,37 +6,16 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: e739ee2b-6228-412e-878f-45de0791417d
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
 workflow-type: tm+mt
 source-wordcount: 5533
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -71,7 +50,7 @@ ht-degree: 100%
 
 **Autres changements**
 
-* Dans les broadlogs, il est maintenant possible de faire la distinction entre le nombre maximal de connexions et le nombre maximal de messages par heure. Lorsque les limites sont atteintes, il est alors possible de savoir pourquoi le débit est limité. Auparavant, le même message (« quota atteint ») s’appliquait aux deux cas.
+* Dans les broadlogs, il est maintenant possible de faire la distinction entre le nombre maximal de connexions et le nombre maximal de messages par heure. Lorsque les limites sont atteintes, il est alors possible de savoir pourquoi le débit est limité. Auparavant, le même message (&#39;quota atteint&#39;) s&#39;appliquait aux deux cas.
 * Lors de la configuration d’une application mobile dans Campaign, l’utilisateur peut désormais savoir si le certificat iOS et la clé du serveur Android ont été téléchargés avec succès et leur date d’expiration.
 
   Pour plus d’informations, consultez la documentation détaillée sur la configuration d’une application mobile à l’aide de [SDK V4](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html) et [SDK V5](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
@@ -144,8 +123,8 @@ ht-degree: 100%
 
 **Améliorations**
 
-* L’intégration d’Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr) de Target. Lorsque vous incluez dans un email une image dynamique provenant d’Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
-* Les ressources personnalisées disposant d’un lien owncopy vers la ressource de profils sont à présent prises en compte par les demandes d’accès/de suppression des informations personnelles dans le cadre du RGPD. Pour les liens simples de cardinalité 1 et les liens de collection de cardinalité N, vous devez sélectionner &quot;La suppression/duplication de l’enregistrement cible implique celle des enregistrements référencés par le lien&quot; dans la ressource personnalisée. Pour les liens simples de cardinalité 0 ou 1, sélectionnez &quot;La suppression/duplication de l’enregistrement implique celle de l’enregistrement cible référencé par le lien&quot;.
+* L’intégration d’Adobe Campaign et d’Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr) de Target. Lorsque vous incluez dans un email une image dynamique provenant d’Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
+* Les ressources personnalisées disposant d’un lien owncopy vers la ressource de profils sont à présent prises en compte par les demandes d’accès/de suppression des informations personnelles dans le cadre du RGPD. Pour les liens simples de cardinalité 1 et les liens de collection de cardinalité N, vous devez sélectionner &quot;La suppression/duplication de l’enregistrement cible implique celle des enregistrements référencés par le lien&quot; dans la ressource personnalisée. Pour les liens simples de cardinalité 0 ou 1, sélectionnez « Supprimer/Dupliquer l&#39;enregistrement implique de supprimer/dupliquer l&#39;enregistrement cible référencé par le lien ».
 
 **Autres changements**
 
@@ -285,7 +264,7 @@ ht-degree: 100%
 
 _Plateforme_
 
-* Corrections d’une erreur qui pouvait empêcher le bon traitement des demandes d’accès ou de suppression du RGPD. Ce comportement a été observé dans de rares cas lorsque les données extraites contenaient l’un des caractères suivants : &amp; &lt; > &quot; ’.
+* Corrections d’une erreur qui pouvait empêcher le bon traitement des demandes d’accès ou de suppression du RGPD. Ce comportement a été observé dans de rares cas où les données extraites contenaient l’un des caractères suivants : `& < > " '`.
 
 _E-mails, SMS et courrier_
 
@@ -319,7 +298,7 @@ _Ressources personnalisées_
  <tbody> 
   <tr> 
    <td> Règlement général sur la protection des données (RGPD) de l’UE<br /> </td> 
-   <td> Le RGPD, entré en vigueur le 25 mai 2018, est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles d’utilisation), nous incluons, dans le cadre de notre rôle de responsable du traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur ou de Contrôleuse de données à certaines demandes RGPD :<br /> <ul> 
+   <td> Le RGPD est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée qui harmonise et modernise les exigences en matière de protection des données. Il entrera en vigueur le 25 mai 2018. Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles d’utilisation), nous incluons, dans le cadre de notre rôle de responsable du traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur ou de Contrôleuse de données à certaines demandes RGPD :<br /> <ul> 
      <li> Droit d’accès : permet à la personne titulaire de données de recevoir une copie de ses données personnelles capturées par les contrôleurs et contrôleuses de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
     </ul> Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=fr">documentation détaillée</a>.<br /> </td> 
@@ -384,7 +363,7 @@ _Intégrations_
 * Correction d’un problème qui empêchait d’envoyer correctement des caractères internationaux à Adobe Analytics.
 * Les ressources doivent à présent se charger plus rapidement lorsque vous insérez une image dans un message depuis votre bibliothèque de ressources Experience Cloud.
 * Correction d’un problème qui empêchait, dans certains cas, la fermeture de la fenêtre de sélection de ressources.
-* Depuis le détail d’une source de données, vous pouvez à présent accéder directement au workflow associé pour en vérifier l’état.
+* À partir des détails d’une source de données, vous pouvez désormais accéder directement à son workflow associé pour vérifier le statut du workflow.
 * Vous pouvez maintenant mettre directement à jour le schéma Triggers lors de la définition ou de l’édition d’un événement de déclenchement. Grâce à cette modification, vous n’avez plus à dépublier le déclencheur et en créer un autre.
 
 _Messages transactionnels_
@@ -478,7 +457,7 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
   </tr> 
   <tr> 
    <td> Nouvelles fonctionnalités push<br /> </td> 
-   <td> Prévisualisation des messages push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où une personne ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs et utilisatrices d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’une personne.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs et utilisatrices d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs et utilisatrices peuvent utiliser l’option Contenu mutable pour :<br /> <ul> 
+   <td> Prévisualisation des messages push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où une personne ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’un utilisateur.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs et utilisatrices d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs et utilisatrices peuvent utiliser l’option Contenu mutable pour :<br /> <ul> 
      <li> déchiffrer des données diffusées dans un format chiffré ; </li> 
      <li> télécharger des images ou d’autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ; </li> 
      <li> changer le texte du titre ou du corps d’une notification ; </li> 
@@ -487,7 +466,7 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
   </tr> 
   <tr> 
    <td> Diffusions optimisées avec les fuseaux horaires<br /> </td> 
-   <td> Planifiez des notifications push, des SMS et des e-mails récurrents à diffuser à un jour et une heure spécifiques dans le fuseau horaire de chaque destinataire. Vos messages sont ainsi envoyés au bon moment sans configurer plusieurs diffusions. <br /> Pour plus d’informations, consultez la <a href="../../automating/using/scheduler.md">documentation détaillée</a>.<br /> </td> 
+   <td> Planifiez la diffusion des e-mails, SMS et notifications push récurrents à un jour/heure spécifique dans le fuseau horaire de chaque destinataire, en veillant à ce que vos messages soient diffusés au bon moment sans configurer plusieurs diffusions. <br /> Pour plus d’informations, consultez la <a href="../../automating/using/scheduler.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Déclenchement de l’activité Signal depuis l’API<br /> </td> 
@@ -537,5 +516,3 @@ _Profils et audiences_
 * Ajout d’une info-bulle affichant le nombre de résultats exact après le comptage de la population d’une requête.
 * Correction d’une erreur qui empêchait un utilisateur de sélectionner une audience ou de fermer la fenêtre du sélecteur d’audience.
 * Mise à jour de la liste des fonctions disponibles dans l’éditeur d’expression. Suppression des fonctions **FormatCurrency** et **ConvertCurrency**.
-
-

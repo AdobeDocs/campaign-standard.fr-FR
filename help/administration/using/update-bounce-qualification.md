@@ -4,11 +4,9 @@ description: Découvrez comment mettre à jour la qualification des rebonds apr�
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 450
 ht-degree: 100%
@@ -56,5 +54,3 @@ Une fois que vous disposez de la liste des destinataires concernés, vous pouvez
 
 * [Présentation des diffusions en échec](../../sending/using/understanding-delivery-failures.md)
 * [Qualification des e-mails rejetés](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
-
-
