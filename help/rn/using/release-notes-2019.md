@@ -25,10 +25,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 7898
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> 
-    <p>L’intégration entre Adobe Campaign Standard et Microsoft Dynamics 365 est maintenant disponible. Vous pourrez transférer vos enregistrements de contacts et d’entités personnalisées de Dynamics 365 vers Campaign et récupérer les données d’événement d’email à partir de Campaign dans Dynamics 365 pour un meilleur alignement du marketing sur les ventes.</p>
+    <p>L’intégration entre Adobe Campaign Standard et Microsoft Dynamics 365 est maintenant disponible. Vous pourrez transférer vos enregistrements d'entité personnalisés et de contact de Dynamics 365 vers Campaign, et récupérer les données d'événement d'e-mail de Campaign vers Dynamics 365 pour une meilleure harmonisation des ventes/marketing.</p>
     <p>Consultez la <a href="../../integrating/using/d365-acs-get-started.md">documentation détaillée</a> pour configurer cette intégration.</p>
   </td>
   </tr> 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 * Le pop-up de consentement pour la création de rapports dynamiques a été mis à jour afin d’inclure l’intégration de Microsoft Dynamics 365 et Adobe Campaign Standard. En acceptant les termes, les données de profil seront incluses lors de l’utilisation de l’intégration Adobe Campaign Standard/Microsoft Dynamics 365 et de la création de rapports dynamiques. [En savoir plus](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Correction d’un problème qui affichait des dates de contact incorrectes lors de la réception d’alertes de diffusion.
-* Lorsqu’un événement de message transactionnel est envoyé avec un paramètre de contexte inconnu, Campaign renvoie maintenant un message d’erreur « 400 »au lieu de « 500 ». (CAMP-28632)
+* Lorsqu’un événement de message transactionnel est envoyé avec un paramètre contextuel inconnu, Campaign renvoie désormais un message d’erreur « 400 » au lieu de « 500 ». (CAMP-28632)
 * Un nouveau segment **Exclure le BAT** a été ajouté dans les rapports dynamiques. Ce segment est désormais sélectionné par défaut pour filtrer les rapports. [En savoir plus](../../reporting/using/list-of-components.md#segments)
 * L’option **Expiration du message** a été ajoutée à la notification push. Elle vous permet de spécifier une date d’expiration à laquelle le message ne sera plus envoyé par Apple (APNS) ou Android (FCM). [En savoir plus](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Des améliorations ont été apportées à l’activité **Chargement de fichier** : les logs des workflows ont été rendus plus clairs et plus détaillés sur l’erreur qui se produit lorsqu’un fichier ne se charge pas. La transition sortante générée lors de l’activation de l’option **Conserver les rejets dans un fichier** a été renommée **Rejets**. [En savoir plus](../../automating/using/load-file.md)
@@ -102,7 +102,7 @@ ht-degree: 100%
 * Correction d’un problème lors de la recherche de landing pages. La recherche a été étendue des 50 premiers enregistrements créés à toute la base de données. (CAMP-36839)
 * Correction d’un problème lors de l’enregistrement des modifications de l’expéditeur de l’email dans le champ **De : Nom**. (CAMP-36606)
 * L’avertissement de compatibilité des composants du carrousel a été modifié pour prendre en compte les clients d’email pris en charge.
-* Correction d’un problème d’affichage sur mobile. L’attribut height est maintenant toujours défini sur &quot;height: auto&quot; lors de l’ajout ou du téléchargement d’une nouvelle image dans un email. (CAMP-35497)
+* Correction d’un problème d’affichage sur mobile. L’attribut height est désormais toujours défini sur « height : auto » lors de l’ajout ou du chargement d’une nouvelle image dans un e-mail. (CAMP-35497)
 * Correction d’un problème en raison duquel les balises style et meta étaient conservées dans le code HTML lors de la suppression d’un fragment d’un composant de structure. (CAMP-35390)
 * Correction d’un problème lié aux fragments lors de la mise à jour d’un contenu réutilisable. (CAMP-35186)
 * Correction d’un problème lors de l’affichage du contenu conditionnel pour mobiles uniquement dans les emails. (CAMP-35155)
@@ -157,7 +157,7 @@ ht-degree: 100%
 * Correction d’un problème qui empêchait l’import de ressources personnalisées dans un nouvel environnement. (CAMP-36506)
 * Correction d’un problème dans les rapports Hot clicks, en raison duquel les pourcentages étaient masqués par les images (CAMP-36407).
 * Correction d’un problème qui se produisait lors de l’export d’un champ de description de diffusion. (CAMP-35467)
-* Correction d’un problème en raison duquel l’état d’une diffusion pouvait être &quot;Démarrage en attente&quot; même si la diffusion était terminée. (CAMP-35355)
+* Correction d’un problème en raison duquel l’état d’une diffusion comme « Démarrage en attente » même si la diffusion était terminée. (CAMP-35355)
 * Correction d’un problème qui empêchait l’affichage des logs des workflows après activation, puis désactivation des logs SQL.
 
 ## Version 19.3 - Juillet 2019 {#release-19-3-july-2019}
@@ -189,7 +189,7 @@ ht-degree: 100%
 
 **Améliorations du concepteur d’e-mail**
 
-* Correction d’un problème qui ajoutait des balises de style HTML supplémentaires à un modèle HTML chaque fois qu’un composant était ajouté, ce qui augmentait considérablement la taille du modèle. (CAMP-34694)
+* Correction d’un problème en raison duquel des balises de style HTML supplémentaires étaient ajoutées à un modèle HTML chaque fois qu’un composant était ajouté, ce qui pouvait augmenter considérablement la taille du modèle. (CAMP-34694)
 * Correction d’un problème qui empêchait la disponibilité de certaines options de menu de la barre d’outils supérieure droite. (CAMP-34577)
 * Correction d’un problème qui se produisait lorsque le bloc de contenu URL de la page miroir était inséré dans un contenu d’email. (CAMP-34779)
 * Correction d’un problème qui se produisait lors de l’utilisation du code JPSP dans un email, rendant difficile l’édition du contenu. (CAMP-34574)
@@ -221,7 +221,7 @@ ht-degree: 100%
 * Dans les workflows, une option a été ajoutée pour prévisualiser les dix prochaines exécutions d’un workflow. Consultez à ce sujet la [documentation détaillée](../../automating/using/scheduler.md).
 * Dans l’activité Planificateur, une nouvelle option permet de sélectionner un jour spécifique d’une semaine particulière pour les diffusions mensuelles. Consultez à ce sujet la [documentation détaillée](../../automating/using/scheduler.md).
 * Lors de la création de diffusions récurrentes sans période d’agrégation, le tableau de bord de diffusion permet maintenant de demander confirmation avant l’envoi de la diffusion. Consultez à ce sujet la [documentation détaillée](../../sending/using/confirming-the-send.md).
-* Vous pouvez maintenant personnaliser le libellé d’une diffusion avec des variables d’événements qui ont été déclarées dans l’activité de signal externe du workflow. Consultez à ce sujet la [documentation détaillée](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* Vous pouvez désormais personnaliser le libellé d’une diffusion avec des variables d’événement qui ont été déclarées dans l’activité de signal externe du workflow. Consultez à ce sujet la [documentation détaillée](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * Amélioration de la requête de suppression RGPD pour de meilleures performances. (CAMP-33504)
 * Suppression de l’option &quot;ftp&quot; de l’interface de configuration des comptes externes. (CAMP-34472)
 * Vous pouvez maintenant activer et désactiver l’option Mode test SMTP pour chaque e-mail. Consultez à ce sujet la [documentation détaillée](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
@@ -300,7 +300,7 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
 * Correction d’un problème qui empêchait la reprise de l’envoi des SMS suite à une déconnexion du connecteur SMS.
 * Correction d’un problème qui fermait les connexions SMPP lorsque TLS était activé.
 * Correction d’un problème qui fermait les connexions SMPP lorsque TLS était activé.
-* L’option &quot;Launch_URL_Campaign&quot; a été ajoutée dans Campaign pour gérer les propriétés des applications mobiles créées avec le SDK Mobile Adobe Experience Platform.
+* L&#39;option « Launch_URL_Campaign » a été ajoutée dans Campaign pour gérer les propriétés des applications mobiles créées avec Adobe Experience Platform Mobile SDK.
 * Correction d’une erreur qui entraînait la désélection de l’option d’environnement sandbox après le téléchargement du certificat d’une nouvelle propriété mobile et la sortie de la page de propriété de l’application mobile.
 * Correction d’un problème qui empêchait l’utilisateur d’enrichir le contenu d’un message transactionnel avec des informations de la ressource Service. (CAMP-33707)
 * Correction d’un problème lié aux landing pages de liste bloquée qui se produisait lors du désabonnement des profils d’un service.
@@ -377,7 +377,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Une nouvelle option a été ajoutée au compte externe SMS. Elle permet de limiter le nombre maximal de processus MTA envoyant des SMS afin de mieux contrôler le nombre de connexions parallèles. Pour plus d’informations, consultez la technote [Protocole et paramètres du connecteur SMS](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
 * Lors de la publication d’une ressource avec une extension d’API, si l’API a déjà été publiée, elle est automatiquement mise à jour à chaque nouvelle publication. Auparavant, cette action était manuelle et le fait de ne pas mettre à jour l’API pouvait endommager la ressource profil ou les ressources de services de celle-ci. Consultez à ce sujet la [documentation détaillée](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * La dimension de code postal a été supprimée des rapports dynamiques. Il est recommandé d’utiliser plutôt les dimensions de ville, pays et état.
-* Le déclencheur d’événement de cycle de vie « Premier lancement » pour les messages In-App a été supprimé.
+* Le déclencheur d&#39;événement de cycle de vie &#39;Premier lancement&#39; pour les messages In-App a été supprimé.
 * Lors de l’export d’un package avec des groupes de sécurité, celui-ci contient désormais les rôles attribués à chaque groupe. (CAMP-32960)
 * Dans l’activité Chargement de fichier, une nouvelle option permet de vérifier que les colonnes du fichier téléchargé correspondent à la définition de colonne. Pour plus d’informations, consultez la [documentation détaillée](../../automating/using/load-file.md). (CAMP-32229)
 * Les workflows peuvent maintenant être démarrés avec une payload, ce qui permet d’utiliser et de partager des paramètres externes entre les activités au sein d’un workflow. Pour plus d’informations, consultez la [documentation détaillée](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 et CAMP-29413)
@@ -405,7 +405,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème dans les landing pages qui empêchait les champs d’entrée d’afficher la valeur mise à jour une fois celle-ci modifiée. (CAMP-31401)
 * Correction d’un problème qui entraînait l’activation inattendue d’une activité de signal.
 * Correction d’un problème qui empêchait l’affichage de l’aperçu d’un email lorsque l’audience était vide.
-* Correction d’un problème dans l’activité &quot;Extraction de fichier&quot; qui entraînait la génération d’un fichier alors que l’option &quot;Ne pas générer de fichier si la transition entrante est vide&quot; était activée.
+* Correction d&#39;un problème dans l&#39;activité « Extraction de fichier » qui entraînait l&#39;activation de l&#39;option « Ne pas générer de fichier si la transition entrante est vide ».
 * Correction d’un problème qui entraînait la désactivation du workflow de délivrabilité s’il ne se terminait pas correctement.
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer ou de planifier des rapports. (CAMP-31133)
 
@@ -437,7 +437,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
  <tbody> 
   <tr> 
    <td> Améliorations du reporting du canal push<br /> </td> 
-   <td> <p>Plusieurs améliorations ont été apportées au reporting du canal push afin de mesurer l’engagement des utilisateurs de manière plus intuitive. Avec cette version, la liste des mesures du canal push compte désormais trois mesures différentes : Impressions, Clics, Ouvertures (ouverture de l’application). Celles-ci vous permettent de mesurer et d’analyser plus efficacement l’interaction des utilisateurs avec les notifications push. Nous normalisons également la définition et la mise en œuvre de ces mesures. Le rapport intégré relatif aux notifications push a également été amélioré. Il comporte désormais des visualisations et des mesures couramment utilisées.</p><p> Pour plus d'informations, consultez la <a href="../../reporting/using/push-notification-report.md">documentation détaillée</a>.</p> </td> 
+   <td> <p>Plusieurs améliorations ont été apportées au reporting du canal push afin de mesurer l’engagement des utilisateurs de manière plus intuitive. Avec cette version, nous étendons la liste des mesures de canal push à trois mesures différentes : Impressions, Clics, Ouvertures (ouverture d’application) afin de vous aider à mesurer et à analyser plus efficacement l’interaction des utilisateurs avec les notifications push. Nous normalisons également la définition et la mise en œuvre de ces mesures. Le rapport intégré relatif aux notifications push a également été amélioré. Il comporte désormais des visualisations et des mesures couramment utilisées.</p><p> Pour plus d'informations, consultez la <a href="../../reporting/using/push-notification-report.md">documentation détaillée</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Intégration de Launch pour les applications mobiles<br /> </td> 
@@ -554,7 +554,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
   </tr> 
   <tr> 
    <td> Listes des produits dans les emails transactionnels<br /> </td> 
-   <td> <p>Vous pouvez maintenant référencer une ou plusieurs collections de produits dans un e-mail transactionnel. Vous pouvez par exemple envoyer automatiquement un email d’abandon de panier répertoriant tous les produits qui étaient dans le panier de l’utilisateur avec une image, le prix et un lien vers chaque produit.</p><p>Pour plus d’informations, consultez la <a href="../../designing/using/using-product-listings.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=fr">vidéo de procédure</a>.</p> </td> 
+   <td> <p>Vous pouvez maintenant référencer une ou plusieurs collections de produits dans un e-mail transactionnel. Par exemple, vous pouvez envoyer automatiquement un e-mail d’abandon de panier répertoriant tous les produits qui se trouvaient dans le panier de l’utilisateur avec une image, un prix et un lien vers chaque produit.</p><p>Pour plus d’informations, consultez la <a href="../../designing/using/using-product-listings.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=fr">vidéo de procédure</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Vue mobile dans le concepteur d’e-mail<br /> </td> 
@@ -604,7 +604,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui entraînait l’affichage de logs de diffusion incorrects dans les rapports dynamiques. (CAMP-23446)
 * Correction d’un problème qui avait un impact sur les chiffres du rapport de synthèse des rebonds (CAMP-28703).
 * Correction d’un problème lié à l’intégration de Campaign avec Assets Core Service qui empêchait l’affichage des ressources lors de la sélection de l’option **[!UICONTROL Image partagée depuis Adobe Experience Cloud]** dans un email (CAMP-28732).
-* Correction d’un problème qui empêchait l’envoi de SMS contenant le caractère « œ » bien que la translittération soit autorisée dans le compte externe SMPP. (CAMP-29041)
+* Correction d&#39;un problème qui empêchait l&#39;envoi de SMS contenant le caractère &#39;un&#39; même si la translittération était autorisée dans le compte externe SMPP. (CAMP-29041)
 * Correction d’un problème qui entraînait l’affichage d’enregistrements en double lors de l’utilisation d’une activité Segmentation dans des workflows. (CAMP-28743)
 * Correction d’un problème qui empêchait la suppression de l’un des mappings de valeurs sur une colonne dans une activité de workflow. (CAMP-28708)
 * Correction d’un problème lié à l’activité Transfert de fichiers lors de l’utilisation de caractères génériques avec l’option &quot;Test d’existence de fichier&quot;. (CAMP-28977)
@@ -633,5 +633,3 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Le débit d’envoi a été amélioré et stabilisé pour les messages SMS.
 * Correction d’un problème qui empêchait l’utilisation du caractère &quot;~&quot; dans un message SMS. (CAMP-29172)
 * Correction d’un problème de diffusions avec l’option d’optimisation de l’heure d’envoi. (CAMP-29231)
-
-

@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
+source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
+workflow-type: tm+mt
 source-wordcount: 257
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign permet de créer vos audiences manuellement à travers des requê
 Vous pouvez manipuler différents types d’audiences dans Adobe Campaign. Le type d’une audience correspond à la manière dont elle a été créée :
 
 * **[!UICONTROL Requête]** : indique que l’audience a été créée à l’aide d’une [requête](../../automating/using/editing-queries.md#about-query-editor) sur les données de la base Adobe Campaign via la liste des audiences. Les audiences définies par une requête sont recalculées à chaque utilisation ultérieure.
-* **[!UICONTROL Liste]** : indique que l’audience est une liste figée de profils. Ces listes sont créées dans un [workflow](../../automating/using/get-started-workflows.md) lorsque la dimension des données est connue au moment de la sauvegarde de l’audience. Par exemple après des activités de ciblage (notamment **[!UICONTROL Requête]** ) ou après la réconciliation de données importées depuis un fichier.
+* **[!UICONTROL Liste]** : indique que l’audience est une liste figée de profils. Ces listes sont créées dans un [workflow](../../automating/using/get-started-workflows.md) lorsque la dimension des données est connue au moment de la sauvegarde de l’audience. Par exemple, après les activités de ciblage (notamment **[!UICONTROL Query]**) ou après la réconciliation des données importées depuis un fichier.
 * **[!UICONTROL Fichier]** : indique que l’audience été créée à partir d’un [import de fichier](../../automating/using/load-file.md) dans un workflow et que la dimension des données était inconnue au moment de la sauvegarde de l’audience.
 * **[!UICONTROL Experience Cloud]** : indique que l’audience a été importée depuis Adobe Experience Cloud. Cette option n’est disponible que si la fonctionnalité de partage d’audiences a été configurée. Pour plus d’informations, voir [Import d’une audience depuis Adobe Experience Cloud](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience).
 

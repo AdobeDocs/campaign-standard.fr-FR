@@ -33,7 +33,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 4688
 ht-degree: 100%
@@ -555,5 +555,3 @@ _Intégrations_
 * Correction d’un problème qui était susceptible d’entraîner une erreur lors du déploiement d’un déclenchement d’événement dans Adobe Campaign. Cette erreur se produisait lorsque les métadonnées « Probabilité de retour avant 30 jours » avaient été ajoutées au déclencheur Abandon dans Adobe Experience Cloud.
 * Correction d’une erreur qui était susceptible d’entraîner l’effacement du champ Dimension cible par un workflow technique lors de l’import des audiences depuis People core service. Les requêtes suivantes ne pouvaient pas récupérer les audiences importées.
 * Correction d’une erreur qui était susceptible d’entraîner l’échec d’une activité **[!UICONTROL Sauvegarde d’audience]** d’un workflow lorsque l’option **[!UICONTROL Partager dans Adobe Experience Cloud]** était cochée.
-
-
