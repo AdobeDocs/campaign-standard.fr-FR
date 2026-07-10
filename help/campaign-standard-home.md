@@ -4,26 +4,14 @@ title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 TQID: https://experienceleague.adobe.com/uNWyk8itcInOZ2iLyLAOYdGVKzr4ExnBuRRqNe24U-Y
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
-  - id: ede6e1ec-9279-415e-b828-a09735018d48
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: add46d6ff37deb4309146447f5a9026842368cf3
-workflow-type: ht
-source-wordcount: 238
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d3b34fea-a110-482f-adb2-aae8d686bac8id: ede6e1ec-9279-415e-b828-a09735018d48
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e6bc6cdc81a89cded1fa59e6a22c5a3bfaf84363
+workflow-type: tm+mt
+source-wordcount: 594
+ht-degree: 97%
 
 ---
 
@@ -94,11 +82,11 @@ Découvrez comment partager des données entre Campaign et Real-time Customer 
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuration<br/>Administration</strong><br/><a href="administration/using/about-channel-configuration.md">Configurer les canaux</a> - <a href="administration/using/about-campaign-standard-settings.md">Paramètres de Campaign Standard</a> - <a href="administration/using/about-access-management.md">Gestion des accès</a> - <a href="administration/using/monitoring-guidelines.md">Directives de surveillance</a> - <a href="integrating/using/get-started-campaign-integrations.md">Intégrer Campaign à d’autres solutions</a>
+      <strong>Configuration<br/>Administration</strong><br/><a href="administration/using/about-channel-configuration.md">Configurer les canaux</a> - <a href="administration/using/about-campaign-standard-settings.md">Paramètres de Campaign Standard</a>  - <a href="administration/using/about-access-management.md">Gestion des accès</a> - <a href="administration/using/monitoring-guidelines.md">Directives de surveillance</a> - <a href="integrating/using/get-started-campaign-integrations.md">Intégrer Campaign à d’autres solutions</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>Canaux de communication</strong><br/><a href="channels/using/about-emails.md">E-mail</a> - <a href="channels/using/about-sms-messages.md">SMS</a> - <a href="channels/using/about-in-app-messaging.md">In-app</a> - <a href="channels/using/about-push-notifications.md">Notifications push</a> - <a href="channels/using/about-direct-mail.md">Courrier</a> - <a href="channels/using/about-direct-mail.md">Web</a>
+      <strong>Canaux de communication</strong><br/><a href="channels/using/about-emails.md">E-mail</a> - <a href="channels/using/about-sms-messages.md">SMS</a> - <a href="channels/using/about-in-app-messaging.md">In-app</a> - <a href="channels/using/about-push-notifications.md">Notifications push</a> - <a href="channels/using/about-direct-mail.md">Mailing direct</a> - <a href="channels/using/about-direct-mail.md">Web</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -121,8 +109,7 @@ Découvrez comment partager des données entre Campaign et Real-time Customer 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Pages utiles</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview" target="_blank">Tutoriels</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html" target="_blank">Description du produit</a> - <a href="rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a> - <a href="rn/using/release-planning.md">Calendrier des versions</a> - <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">Pixels de suivi des e-mails et recommandations CNIL</a></td>
+<a href="https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview" target="_blank">Tutoriels</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html" target="_blank">Description du produit</a> - <a href="rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a> - <a href="rn/using/release-planning.md">Calendrier des versions</a> - <a href="administration/using/cnil-pixel-tracking.md">Conseils de la CNIL sur les pixels de tracking e-mail</a></td>
 <td><strong>Ressources techniques</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Triggers Experience Cloud</a> - <a href="api/using/get-started-apis.md">API de Campaign</a> - <a href="https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html" target="blank">Notes techniques</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr" target="_blank">Documentation relative au Panneau de Contrôle</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr">Liste des messages d’erreur</a>
-</td>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Déclencheurs Experience Cloud</a> - <a href="api/using/get-started-apis.md">API de Campaign</a> - <a href="https://helpx.adobe.com/campaign/kb/acs-article-list.html" target="blank">Notes techniques</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr" target="_blank">Documentation relative au Panneau de Contrôle</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr">Liste des messages d’erreur</a></td>
 </tr></table>
