@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
 workflow-type: tm+mt
-source-wordcount: '7668'
-ht-degree: 100%
+source-wordcount: '7689'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d&#39;Adobe Campaign Standard.
 
+
+## Juin 2026 {#doc-updates-june-2026}
+
+Ajout d&#39;une page sur les conseils de la CNIL pour les pixels de tracking email et les fonctionnalités Adobe Campaign Standard associées. [En savoir plus](../../administration/using/cnil-pixel-tracking.md)
 
 ## Version 24.1 - Hiver 2024 {#release-24-1}
 
