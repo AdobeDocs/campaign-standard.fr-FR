@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
@@ -17,9 +17,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 415
+source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
+workflow-type: tm+mt
+source-wordcount: 445
 ht-degree: 100%
 
 ---
@@ -43,8 +43,7 @@ Vous pouvez ajouter une marge intérieure à l’aide du chemin de navigation HT
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Cliquez sur l’élément auquel vous souhaitez ajouter une marge intérieure.
-1. Cliquez sur la balise parente dans le chemin de navigation HTML.
-Vous pouvez maintenant ajouter une marge intérieure à cet élément.
+1. Cliquez sur la balise parent dans le chemin de navigation HTML.Vous pouvez maintenant ajouter une marge intérieure à cet élément.
 
 ## Puis-je importer du contenu HTML dans le concepteur d’e-mail ?
 
@@ -54,8 +53,7 @@ Pour plus d’informations, voir la section [Mode de compatibilité](../../desig
 
 ## Comment puis-je créer mon premier contenu d’email ?
 
-Tout d’abord, créez un e-mail à partir de la page d’accueil.
-Ensuite, pour ajouter du contenu à un e-mail, vous devez ajouter un composant de structure et y insérer un composant de contenu.
+Tout d’abord, créez un email à partir de la page d’accueil.Ensuite, pour ajouter du contenu à un email, vous devez ajouter un composant de structure et y insérer un composant de contenu.
 
 Pour plus d’informations, voir la section [Création d’un email à partir de zéro](../../designing/using/quick-start.md#from-scratch-email)
 
