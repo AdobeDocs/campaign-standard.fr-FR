@@ -4,13 +4,11 @@ description: Découvrez comment mettre à jour la qualification des rebonds apr�
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
-workflow-type: tm+mt
-source-wordcount: 450
+workflow-type: ht
+source-wordcount: 455
 ht-degree: 100%
 
 ---
@@ -23,7 +21,7 @@ En cas de panne d’un fournisseur d’accès à Internet, les emails envoyés p
 
 En décembre 2020, un problème mondial qui a affecté Gmail a entraîné des rebonds définitifs incorrects lors de l’envoi d’e-mails à des adresses Gmail valides. Les serveurs Gmail les ont incorrectement rejetés pour cause d’adresses e-mail non valides avec la réponse suivante : *« 550-5.1.1 Le compte de messagerie que vous avez tenté de contacter n’existe pas. »*.
 
-D’après Google, les pannes et les perturbations de Gmail, qui sont à l’origine de ce problème, ont commencées le 14 décembre à 6:55AM et se sont terminées à 6:09PM EST le jour suivant. Notre analyse des données a également montré un pic très court dans les rebonds Gmail à 2:06AM EST le 16 décembre, la majorité se produisant le 15 décembre entre 14:00 EST et 18:30 EST.
+D’après Google, les pannes et les perturbations de Gmail à l’origine de ce problème ont commencé le 14 décembre à 6 h 55 et se sont terminées le 15 décembre à 18 h 09 EST. Notre analyse des données a également montré un pic très court dans les rebonds Gmail à 2 h 06 EST le 16 décembre, la majorité se produisant le 15 décembre entre 14 h EST et 18 h 30 EST.
 
 >[!NOTE]
 >
