@@ -1,5 +1,5 @@
 ---
-title: Calendrier des versions de Campaign Standard
+title: Planification des versions de Campaign Standard
 description: Cette page répertorie toutes les versions à venir d’Adobe Campaign Standard.
 audience: rn
 content-type: reference
@@ -11,18 +11,19 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 TQID: https://experienceleague.adobe.com/J9pNnea7LEzzIOs3B8lLWG7DhVI-iytVfpArC3Xdy94
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 411
-ht-degree: 100%
-
+    internal-label: Beginner
+source-git-commit: 85ffa7d709dc970ab5315fb76577c457380b40f8
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 94%
 ---
-
-# Calendrier des versions {#release-planning}
+# Planification des versions {#release-planning}
 
 Adobe perfectionne constamment ses solutions en ajoutant de nouvelles fonctionnalités, des améliorations et des correctifs.
 
@@ -30,39 +31,13 @@ Toutes les instances Adobe Campaign Standard sont mises à niveau à chaque no
 
 Les mises à niveau sont déployées en deux phases. Tout d’abord, les instances d’évaluation sont mises à niveau afin de vous permettre de tester de nouvelles fonctionnalités et d’adapter votre configuration si nécessaire. Les instances de production sont ensuite mises à niveau.
 
-Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour. Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
+Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour. Les mises à jour des environnements s’effectuent par vagues. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
 
 ## Version 26.3 {#release-26-3-release}
 
 Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](release-notes.md) quand les mises à niveau de l’environnement d’évaluation démarrent.
 
-<table>
- <thead>
-  <tr>
-   <th> Environnements </th>
-   <th> Dates</th>
-   <!--
-   <th> General Availability </th>
-   -->
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>Évaluation </td>
-   <td>Août </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
-  <tr>
-   <td>Production </td>
-   <td>Septembre </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
- </tbody>
-</table>
+Les mises à jour de la version 26.3 ne sont pas encore disponibles. Consultez cette page régulièrement pour vérifier les mises à jour.
 
 ## Questions et réponses {#questions-and-answers}
 

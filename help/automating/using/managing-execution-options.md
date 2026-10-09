@@ -13,19 +13,21 @@ exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 TQID: https://experienceleague.adobe.com/oVIZ7m9J6e8ThKMpO6deSsyKoaNntndP20PVUOhyjxo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 611
+    internal-label: Administration
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
+workflow-type: tm+mt
+source-wordcount: '611'
 ht-degree: 100%
-
 ---
-
 # Gestion des options d&#39;exécution {#managing-execution-options}
 
 Pour modifier les propriétés d’exécution de l’ensemble d’un workflow, utilisez le bouton ![](assets/edit_darkgrey-24px.png) pour accéder aux propriétés du workflow et sélectionnez la section **[!UICONTROL Exécution]**.
@@ -58,7 +60,7 @@ Les options possibles sont les suivantes :
 
 * **[!UICONTROL Exécuter dans le moteur (ne pas utiliser en production)]** : permet d’exécuter le workflow localement, à des fins de test d’environnement de développement.
 
-* **[!UICONTROL Niveau de criticité]** : permet de définir un niveau de priorité pour l’exécution des workflows de votre instance Adobe Campaign. Ce champ est utilisé uniquement par les équipes d’Adobe à des fins de monitoring.
+* **[!UICONTROL Niveau de criticité]** : permet de définir un niveau de priorité pour l’exécution des workflows de votre instance Adobe Campaign. Ce champ est utilisé uniquement par les équipes d’Adobe à des fins de .
 
 La section **[!UICONTROL Gestion des erreurs]** propose des options supplémentaires pour gérer le comportement des workflows en cas d’erreur. Ces options sont présentées dans la section [Gestion des erreurs](../../automating/using/monitoring-workflow-execution.md#error-management).
 

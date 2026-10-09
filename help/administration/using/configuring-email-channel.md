@@ -9,25 +9,32 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 TQID: https://experienceleague.adobe.com/veKfBzSOBLDuuVmwQjSQoa3cb-fY4jUigBdGTCUL8pM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 2964
+    internal-label: Administration
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
+workflow-type: tm+mt
+source-wordcount: '3017'
 ht-degree: 100%
-
 ---
-
 # Configuration du canal e-mail{#configuring-email-channel}
 
 En tant qu’[administrateur](../../administration/using/users-management.md#functional-administrators) Campaign, vous pouvez configurer les paramètres du canal email. Ces paramètres avancés comprennent les paramètres généraux du canal email, les comptes de routage email, les règles de gestion des emails et les propriétés des emails. Sur cette page, apprenez à modifier les valeurs par défaut des paramètres généraux d&#39;e-mail et d&#39;envoi.
@@ -44,14 +51,15 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
   Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient entraîner des problèmes de délivrabilité.
 
-   * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
-   * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’assistance clientèle d’Adobe.
-   * Si vous souhaitez ajouter une autre adresse, vous pouvez utiliser le [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine ou contacter l&#39;assistance clientèle d&#39;Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
-   * Il est recommandé de définir des adresses à l’aide d’une étoile comme dans l’expression **@votredomaine.com** : il est ainsi possible d’utiliser toute adresse se terminant par votre nom de sous-domaine.
+  * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
+  * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’assistance clientèle d’Adobe.
+  * Si vous souhaitez ajouter une autre adresse, vous pouvez utiliser le [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine ou contacter l&#39;assistance clientèle d&#39;Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
+  * Il est recommandé de définir des adresses à l’aide d’une étoile comme dans l’expression **@votredomaine.com** : il est ainsi possible d’utiliser toute adresse se terminant par votre nom de sous-domaine.
 
 * **Délivrabilité**
 
-  L’**[!UICONTROL Identifiant pour les rapports de diffusion]** est fourni par l’équipe de l’assistance clientèle d’Adobe. Il identifie chaque instance à l’aide d’un identifiant de délivrabilité utilisé dans les rapports techniques de délivrabilité.  <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
+  L’**[!UICONTROL identifiant pour les rapports de diffusion]** est fourni par l’assistance clientèle d’Adobe. Il identifie chaque instance à l’aide d’un identifiant de délivrabilité utilisé dans les rapports techniques de délivrabilité.
+  <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Paramètres de la diffusion**
 
@@ -79,7 +87,8 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
   Dans le champ **[!UICONTROL Durée entre deux erreurs significatives]**, saisissez une valeur pour définir le temps d’attente de l’application avant d’incrémenter le compteur d’erreurs en cas d’échec lié à un rebond temporaire. La valeur par défaut est **&quot;1d&quot;**, pour 1 jour.
 
-  Lorsque la valeur **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** est atteinte, l’adresse e-mail est mise en quarantaine. La valeur par défaut est **5** : l’adresse est mise en quarantaine à la cinquième erreur. Cela signifie que le contact sera automatiquement exclu des diffusions ultérieures.  <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
+  Lorsque la valeur **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** est atteinte, l’adresse e-mail est mise en quarantaine. La valeur par défaut est **&quot;5&quot;** : l&#39;adresse est mise en quarantaine à la cinquième erreur. Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
+  <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
   Pour plus d’informations sur ce sujet, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
@@ -207,8 +216,8 @@ Si vous activez l’option de mode test SMTP pour un modèle d’e-mail, cette o
 
 >[!IMPORTANT]
 >
->Lorsque cette option est activée pour un e-mail, aucun message n’est envoyé tant qu’elle n’est pas décochée.
->Un avertissement s’affichera dans l’e-mail ou le tableau de bord du modèle d’e-mail.
+>Lorsque cette option est activée pour un email, aucun message n’est envoyé tant qu’elle n’est pas décochée.
+>Un avertissement s’affiche dans le tableau de bord de l’email ou du modèle d’email.
 
 Pour plus d’informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](#list-of-email-smtp-parameters).
 
@@ -235,10 +244,10 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
 * **[!UICONTROL Durée de validité des ressources]** / **[!UICONTROL Date limite de validité des ressources]** : ce champ est utilisé pour les ressources chargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d&#39;économiser de l&#39;espace disque).
 * **[!UICONTROL Gestion de la page miroir]** : la page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’email. Par défaut, la page miroir est générée si le lien est inséré dans le contenu du mail. Utilisez ce champ pour modifier le mode de génération de cette page :
 
-   * **[!UICONTROL Générer la page miroir si le lien apparaît dans le contenu du message]** (mode par défaut) : la page miroir est générée si le lien est inséré dans le contenu du mail.
-   * **Forcer la génération de la page miroir** : même si aucun lien vers la page miroir n’est inséré dans les messages, la page miroir sera créée.
-   * **Ne pas générer de page miroir** : aucune page miroir n’est générée, même si le lien est présent dans les messages.
-   * **Générer une page miroir accessible depuis l’identifiant du message** : cette option permet d’accéder au contenu de la page miroir, avec les informations de personnalisation, dans l’écran des logs de diffusion.
+  * **[!UICONTROL Générer la page miroir si le lien apparaît dans le contenu du message]** (mode par défaut) : la page miroir est générée si le lien est inséré dans le contenu du mail.
+  * **Forcer la génération de la page miroir** : même si aucun lien vers la page miroir n’est inséré dans les messages, la page miroir sera créée.
+  * **Ne pas générer de page miroir** : aucune page miroir n’est générée, même si le lien est présent dans les messages.
+  * **Générer une page miroir accessible depuis l’identifiant du message** : cette option permet d’accéder au contenu de la page miroir, avec les informations de personnalisation, dans l’écran des logs de diffusion.
 
   >[!IMPORTANT]
   >
