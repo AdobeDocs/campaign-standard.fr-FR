@@ -8,38 +8,57 @@ exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
+    internal-label: Points of Interest
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+    internal-label: Dreamweaver integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
-workflow-type: ht
-source-wordcount: 4605
+workflow-type: tm+mt
+source-wordcount: '4688'
 ht-degree: 100%
-
 ---
-
 # Notes de mise à jour 2017{#release-notes}
 
 ## Version 17.10 - Octobre 2017 {#release-17-10-october-2017}
@@ -423,7 +442,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
-   <td> Vous pouvez à présent définir manuellement une heure d’envoi personnalisée par personne destinataire, au niveau de la diffusion ou à l’aide d’un workflow. <br /> Deux nouvelles options sont disponibles : <br /> 
+   <td> Vous pouvez à présent définir manuellement une heure d’envoi personnalisée par destinataire, au niveau de la diffusion ou via un workflow.<br /> Deux nouvelles options sont disponibles : <br /> 
     <ul> 
      <li> Toutes les personnes destinataires reçoivent le message avec la prise en compte de leur fuseau horaire. </li> 
      <li> Chaque destinataire reçoit le message à une date et une heure calculées selon une formule. </li> 
@@ -442,7 +461,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Workflows : nouvelle activité Signal<br /> </td> 
-   <td> Déclenchez un workflow à partir d’un autre workflow à l’aide de la nouvelle activité <span class="uicontrol">Signal</span>.<br /> Grâce à la possibilité de démarrer un workflow à partir d’un autre, vous pouvez désormais prendre en charge des parcours clientèle plus complexes. Vous pouvez mieux surveiller les parcours des clientes et clients et réagir en cas de problèmes.<br /> Plusieurs activités de workflow ont été mises à jour :<br /> 
+   <td> Déclenchez un workflow à partir d’un autre workflow grâce à la nouvelle activité <span class="uicontrol">Signal</span>.<br /> La possibilité de démarrer un workflow à partir d’un autre vous permet désormais de prendre en charge des parcours clientèle plus complexes. Vous pouvez mieux su les parcours clientèle et intervenir en cas de problèmes.<br /> Plusieurs activités de workflow ont été mises à jour :<br /> 
     <ul> 
      <li> Activité <span class="uicontrol">Fin</span> : un nouvel onglet vous permet de spécifier un workflow à déclencher une fois l’exécution de cette activité terminée. </li> 
      <li> Activité <span class="uicontrol">Mise à jour de données</span> : utilisez la nouvelle transition sortante vide pour ajouter une activité <strong>Fin</strong> qui déclenchera un autre workflow. Les transitions sortantes vides ne contiennent pas de données et n’occupent pas d’espace inutilement sur le système. </li> 
@@ -498,7 +517,7 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Export des logs pour un reporting externe<br /> </td> 
-   <td> Exportez les logs tels que les logs de diffusion et de tracking pour les traiter dans vos outils de création de rapports ou de BI préférés. Vous pouvez utiliser des workflows simples avec des requêtes incrémentielles pour automatiser les exports classiques de nouveaux journaux.<br /> En plus de la disponibilité des ressources de log à partir du sélecteur de ressources, des améliorations ont été apportées aux activités <a href="../../automating/using/incremental-query.md">Requête incrémentale</a> et <a href="../../automating/using/extract-file.md">Extraire le fichier</a> :<br /> 
+   <td> Exportez des logs tels que les logs de diffusion et de tracking pour les traiter dans les outils de reporting et de Business Intelligence de votre choix. Vous pouvez utiliser des workflows simples avec des requêtes incrémentales pour automatiser des exports réguliers des nouveaux logs.<br /> En plus de la disponibilité des ressources de log dans le sélecteur de ressources, des améliorations ont été apportées aux activités <a href="../../automating/using/incremental-query.md">Requête incrémentale</a> et <a href="../../automating/using/extract-file.md">Extraction de fichier</a> :<br /> 
     <ul> 
      <li> L’activité <span class="uicontrol">Requête incrémentale</span> permet désormais d’utiliser un champ date pour récupérer des données mises à jour ou nouvelles. Auparavant, tous les résultats des exécutions précédentes étaient automatiquement exclus, même s’ils avaient été mis à jour depuis la dernière exécution. </li> 
      <li> L’activité <span class="uicontrol">Extraction de fichier</span> peut désormais exporter des libellés pour les valeurs d’énumération à la place d’identifiants. </li> 
@@ -506,7 +525,7 @@ _Workflows_
   </tr> 
   <tr> 
    <td> Capacités marketing des messages transactionnels<br /> </td> 
-   <td> Les personnes chargées du marketing peuvent désormais envoyer des messages transactionnels selon les profils marketing des clientes et clients. Cela leur permet d’effectuer les opérations suivantes :<br /> 
+   <td> Les personnes chargées du marketing peuvent désormais envoyer des messages transactionnels selon les profils marketing des clientes et clients. Elles peuvent ainsi :<br /> 
     <ul> 
      <li> appliquer des règles de typologie marketing telles que <span class="uicontrol">Adresse sur liste bloquée</span> ; </li> 
      <li> inclure le lien de désinscription dans les messages ; </li> 
