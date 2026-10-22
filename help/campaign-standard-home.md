@@ -136,6 +136,6 @@ Découvrez comment partager des données entre Campaign et Real-time Customer 
 <a href="https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview" target="_blank">Tutoriels</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html" target="_blank">Description du produit</a> - <a href="rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a> - <a href="rn/using/release-planning.md">Calendrier des versions</a> - <a href="administration/using/cnil-pixel-tracking.md">Conseils de la CNIL sur les pixels de tracking e-mail</a>
 </td>
 <td><strong>Ressources techniques</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Triggers Experience Cloud</a> - <a href="api/using/get-started-apis.md">API Campaign</a> - <a href="https://helpx.adobe.com/campaign/kb/acs-article-list.html" target="blank">Notes techniques</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr" target="_blank">Documentation du Panneau de Contrôle </a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Triggers Experience Cloud</a> - <a href="api/using/get-started-apis.md">API Campaign</a> - <a href="https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html" target="blank">Notes techniques</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr" target="_blank">Documentation du Panneau de Contrôle </a>
 </td>
 </tr></table>
