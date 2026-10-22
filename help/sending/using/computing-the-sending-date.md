@@ -138,8 +138,8 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
    * Définissez les codes segment comme suit :
 
-     * 8 H 00 À 10 H 00 : ****. Le message sera envoyé au premier trimestre de la population cible à 8 h 00 (date de contact).
-     * 10 H 00 À 12 H 00 : 2 ****. Le message sera envoyé au deuxième trimestre de la population cible à 10 h 00 (date de contact + 2 heures).
+     * 8 H 00 À 10 H 00 : **&#x200B;**. Le message sera envoyé au premier trimestre de la population cible à 8 h 00 (date de contact).
+     * 10 H 00 À 12 H 00 : 2 **&#x200B;**. Le message sera envoyé au deuxième trimestre de la population cible à 10 h 00 (date de contact + 2 heures).
      * DE 14 H À 16 H : 6 **.** Le centre d&#39;appels étant fermé entre 12 h et 14 h, le message sera envoyé au troisième trimestre de la population cible à 14 h (date de contact + 6 heures).
      * DE 16 H À 18 H : **8**. Le message sera envoyé au dernier trimestre de la population cible à 16h00 (date de contact + 8 heures).
 
