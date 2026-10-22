@@ -8,30 +8,44 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
-TQID: https://experienceleague.adobe.com/QRxTBg-V-7ingt25U37UEKIQOrbjOOM4MY0jdEpM-OA
+TQID: 'https://experienceleague.adobe.com/QRxTBg-V-7ingt25U37UEKIQOrbjOOM4MY0jdEpM-OA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 433
+    internal-label: Data management
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '433'
 ht-degree: 100%
-
 ---
-
 # Interface{#about-the-interface}
 
 L&#39;interface utilisateur d&#39;Adobe Campaign est basée sur des concepts communs à toutes les solutions Adobe Experience Cloud.
@@ -52,5 +66,5 @@ Les principales phases de création et d&#39;orchestration d&#39;une campagne ma
 * **Ciblage** - La phase de ciblage permet de définir le mode de collecte des données, leur structure, leur segmentation, les audiences, témoins et tests, les conditions de filtrage à mettre en œuvre, etc. Lors de cette phase, vous pouvez également configurer les méthodes d&#39;abonnement/de désabonnement. Voir [Profils et audiences](../../audiences/using/about-profiles.md).
 * **Création de messages et de contenu** - Cette phase implique la sélection du [canal de communication](../../channels/using/get-started-communication-channels.md). Vous pouvez également concevoir des [landing pages](../../channels/using/getting-started-with-landing-pages.md) afin d&#39;acquérir ou de mettre à jour des profils, et de développer votre base de données. Voir [Créer un email](../../channels/using/creating-an-email.md), [Créer un SMS](../../channels/using/creating-an-sms-message.md), [Créer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md), [Créer un message In-App](../../channels/using/about-in-app-messaging.md) et [Créer une diffusion courrier](../../channels/using/creating-the-direct-mail.md).
 * **Test et envoi** - La phase d&#39;exécution permet de réaliser les phases de validation (du contenu, de la cible) notamment à travers les écrans de prévisualisation et l&#39;envoi de BAT aux validants, avant l&#39;envoi définitif. Voir [Tester et envoyer](../../sending/using/get-started-sending-messages.md).
-* **Contrôle et reporting** - Une fois la campagne exécutée et les différents messages envoyés, cette étape permet de collecter les statuts des différents envois, ainsi que les informations de suivre et de contrôle. Les rapports de campagnes et de diffusions sont générés afin de suivre l&#39;impact de la campagne et les activités des destinataires. Voir [Outils de reporting](../../reporting/using/about-dynamic-reports.md).
+* **Contrôle et reporting** - Une fois la campagne exécutée et les différents messages envoyés, cette étape permet de collecter les statuts des différents envois, ainsi que les informations de suiv et de . Les rapports de campagnes et de diffusions sont générés afin de suivre l&#39;impact de la campagne et les activités des destinataires. Voir [Outils de reporting](../../reporting/using/about-dynamic-reports.md).
 * **Automatisation** - Pendant cette phase, sont définis d&#39;autres facteurs tels que les méthodes de mise en œuvre des mécanismes d&#39;import/export, la gestion des données et les modes de mise à jour, l&#39;identification des données de personnalisation, etc. Voir [Workflows et gestion des données](../../automating/using/get-started-workflows.md).

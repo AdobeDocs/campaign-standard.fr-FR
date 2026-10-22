@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Beginner
 exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
-TQID: https://experienceleague.adobe.com/nWv8hOZa2JQgiO2CEnffriIqb6czIA7Gh0AwWCTwRAA
+TQID: 'https://experienceleague.adobe.com/nWv8hOZa2JQgiO2CEnffriIqb6czIA7Gh0AwWCTwRAA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 200
+    internal-label: Beginner
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '200'
 ht-degree: 100%
-
 ---
-
 # Cycle de vie d&#39;un workflow {#life-cycle}
 
 Le cycle de vie d’un workflow comporte trois grandes étapes, chacune d’elle étant associée à un statut et à une couleur :
@@ -48,7 +57,7 @@ Une fois qu’il a été démarré, un workflow peut également se voir attribue
 
 * **En erreur** (rouge)
 
-  Une erreur est survenue pendant l’exécution du workflow. Ce dernier est arrêté et une action est requise de la part de l’utilisateur. Pour connaître l&#39;origine de l&#39;erreur, utilisez le bouton ![](assets/printpreview_darkgrey-24px.png) afin d&#39;accéder au log du workflow (voir [Contrôle](../../automating/using/monitoring-workflow-execution.md)).
+  Une erreur est survenue pendant l’exécution du workflow. Ce dernier est arrêté et une action est requise de la part de l’utilisateur. Pour connaître l&#39;origine de l&#39;erreur, utilisez le bouton ![](assets/printpreview_darkgrey-24px.png) afin d&#39;accéder au log du workflow (voir [](../../automating/using/monitoring-workflow-execution.md)).
 
 La liste des activités marketing permet d’afficher tous les workflows ainsi que leur statut. Voir à ce sujet la section [Gérer les activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 

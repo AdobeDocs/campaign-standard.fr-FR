@@ -8,44 +8,72 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
+TQID: 'https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
   - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+    internal-label: Data retention
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Experience Platform integration
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
-workflow-type: ht
-source-wordcount: 5385
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '5444'
 ht-degree: 100%
-
 ---
-
 # Notes de mise à jour 2020{#release-notes-2020}
 
 ![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau Panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
@@ -64,7 +92,7 @@ ht-degree: 100%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Vous pouvez désormais utiliser des <strong>Populations témoins</strong> pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Vous pourrez ensuite comparer le comportement de la population cible qui a reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pouvez également cibler une population témoin dans des campagnes ultérieures.
+  <td> <p>Vous pouvez désormais utiliser des <strong>Populations témoins</strong> pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Vous pourrez ensuite comparer le comportement de la population cible qui a reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pourrez également cibler une population témoin dans les prochaines campagnes.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../../sending/using/control-group.md">documentation détaillée</a> et visualisez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=fr">vidéo pratique</a>.
 </p>
@@ -265,7 +293,7 @@ ht-degree: 100%
 
 **Fonctionnalités additionnelles** (à partir du 13 juillet)
 
-* **Optimisation du temps d’envoi et scores de profil optimisés par l’IA** : vous pouvez maintenant optimiser la conception et la diffusion des parcours clients afin de prévoir les préférences d’engagement de chaque particulier. Optimisé par l’IA dédiée au parcours, Adobe Campaign peut analyser et estimer les taux d’ouverture, les temps d’envoi optimaux et l’attrition probable en fonction des mesures d’engagement historiques. [En savoir plus](../../sending/using/predictive.md)
+* **Optimisation du temps d’envoi et scores de profil optimisés par l’IA** : vous pouvez maintenant optimiser la conception et la diffusion des parcours clients afin de prévoir les préférences d’engagement de chaque p. Optimisé par l’IA dédiée au parcours, Adobe Campaign peut analyser et estimer les taux d’ouverture, les temps d’envoi optimaux et l’attrition probable en fonction des mesures d’engagement historiques. [En savoir plus](../../sending/using/predictive.md)
 * **Nouvelle réglementation brésilienne sur la protection de la confidentialité** : en plus des fonctionnalités de protection des informations personnelles déjà disponibles dans Campaign, Adobe vous aide à vous préparer au LGDP (Lei Geral de Proteçao de Datos) brésilien. Lors de la création d’une demande d’accès à des informations personnelles, la réglementation LGPD a été ajoutée à Privacy Core Service. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html)
 
 **Améliorations**
@@ -297,7 +325,7 @@ ht-degree: 100%
 
 **Intégrations avec Experience Platform**
 
-* L’activation des audiences Experience Platform d’Adobe depuis l’activité **Lecture d’audience** a été améliorée afin d’offrir des performances optimisées et une meilleure stabilité. En outre, les logs des workflows ont été rendus plus clairs et plus détaillés en ce qui concerne les traitements d’activation, ce qui facilite le monitoring et la résolution des problèmes lors de la lecture des audiences d’Adobe Experience Platform.
+* L’activation des audiences Experience Platform d’Adobe depuis l’activité **Lecture d’audience** a été améliorée afin d’offrir des performances optimisées et une meilleure stabilité. En outre, les logs des workflows ont été rendus plus clairs et plus détaillés en ce qui concerne les traitements d’activation, ce qui facilite l et la résolution des problèmes lors de la lecture des audiences d’Adobe Experience Platform.
 
 **Correctifs**
 

@@ -8,25 +8,36 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
-TQID: https://experienceleague.adobe.com/LROFX17EE6zvJRbH4P--NjtiJLwanqeudAKzwnQj0BI
+TQID: 'https://experienceleague.adobe.com/LROFX17EE6zvJRbH4P--NjtiJLwanqeudAKzwnQj0BI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 444
+    internal-label: Data management
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '460'
 ht-degree: 100%
-
 ---
-
 # Enrichissement de la base de données{#enriching-the-database}
 
 Campaign Standard propose plusieurs outils pour vous aider à développer votre base de données marketing. Cette section décrit les différentes méthodes que vous pouvez utiliser pour injecter des données dans Campaign et contient des références à la documentation dédiée.
@@ -63,8 +74,8 @@ Pour plus d&#39;informations sur les landing pages, reportez-vous à la [documen
 
 ## Synchronisation des profils à partir de Microsoft Dynamics 365
 
-L’intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
-Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans des campagnes marketing.
+L&#39;intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
+Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans les campagnes marketing.
 
 Pour plus d&#39;informations sur cette intégration, reportez-vous à la [documentation dédiée](../../integrating/using/d365-acs-get-started.md).
 

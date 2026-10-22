@@ -9,25 +9,33 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-TQID: https://experienceleague.adobe.com/JIR0DIeokRtjXbXBl8cHhhC2N9xnVypjNlVllHpQn14
+TQID: 'https://experienceleague.adobe.com/JIR0DIeokRtjXbXBl8cHhhC2N9xnVypjNlVllHpQn14'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: e9810a15-b7f9-542e-81ab-fba1bff301c3
+    internal-label: Control Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1449
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1449'
 ht-degree: 100%
-
 ---
-
 # Ajouter une population témoin {#adding-control-group}
 
 Vous pouvez utiliser des populations témoins pour éviter d’envoyer des messages à une partie de votre audience afin de mesurer l’impact de vos campagnes.
@@ -68,9 +76,9 @@ Dans la section **[!UICONTROL Extraction de la cible]**, sélectionnez l’une d
 
   Par exemple :
 
-   * Sélectionnez le champ **[!UICONTROL Age]** comme critère de tri.
-   * Définissez 100 comme seuil dans la section **[!UICONTROL Limites]** (voir [Limite de taille](#size-limit)).
-   * Laissez l’option **[!UICONTROL Tri descendant]** cochée.
+  * Sélectionnez le champ **[!UICONTROL Age]** comme critère de tri.
+  * Définissez 100 comme seuil dans la section **[!UICONTROL Limites]** (voir [Limite de taille](#size-limit)).
+  * Laissez l’option **[!UICONTROL Tri descendant]** cochée.
 
   La population témoin sera composée par conséquent des 100 plus vieux destinataires.<!--Change screenshot to match example)-->
 
@@ -91,8 +99,8 @@ Que vous ayez sélectionné l’option **[!UICONTROL Tirage aléatoire]** ou **[
 * Sélectionnez **[!UICONTROL Taille (en % de la population initiale)]** et remplissez le cadre correspondant.
 
   Par exemple, si vous définissez 10, selon l’option sélectionnée ci-dessus, Adobe Campaign va :
-   * extraire de manière aléatoire 10 % de la population cible ;
-   * extraire les 10 % de profils les plus âgés de la population cible, si vous avez sélectionné le champ **[!UICONTROL Age]** comme critère de tri.
+  * extraire de manière aléatoire 10 % de la population cible ;
+  * extraire les 10 % de profils les plus âgés de la population cible, si vous avez sélectionné le champ **[!UICONTROL Age]** comme critère de tri.
 
   >[!NOTE]
   >
@@ -101,8 +109,8 @@ Que vous ayez sélectionné l’option **[!UICONTROL Tirage aléatoire]** ou **[
 * Sélectionnez **[!UICONTROL Taille maximale]** et remplissez le cadre correspondant.
 
   Par exemple, si vous définissez 100, Adobe Campaign va :
-   * extraire de manière aléatoire 100 profils de la population cible ;
-   * extraire les 100 profils les plus âgés de la population cible, si vous avez sélectionné le champ **[!UICONTROL Age]** comme critère de tri.
+  * extraire de manière aléatoire 100 profils de la population cible ;
+  * extraire les 100 profils les plus âgés de la population cible, si vous avez sélectionné le champ **[!UICONTROL Age]** comme critère de tri.
 
   >[!NOTE]
   >

@@ -9,20 +9,29 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-TQID: https://experienceleague.adobe.com/uSoAvkY4kGrVnzSmHbgj1gd4YKPFFzSBC-4maW-9VEw
+TQID: 'https://experienceleague.adobe.com/uSoAvkY4kGrVnzSmHbgj1gd4YKPFFzSBC-4maW-9VEw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 470
+    internal-label: Beginner
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
-
 ---
-
 # Création d&#39;un service{#creating-a-service}
 
 Pour pouvoir gérer les inscriptions, vous devez d&#39;abord créer un service et le configurer. La configuration d&#39;un nouveau service vous permet d&#39;indiquer les emails de confirmation que recevront les profils qui s&#39;abonnent au service ou s&#39;en désabonnent. Vous définirez également les landing pages d&#39;inscription et de désinscription associées au service. Par exemple, un lien d&#39;abonnement à un service inséré dans un email renverra automatiquement le profil vers la landing page d&#39;inscription spécifiée dans le service.
@@ -72,6 +81,6 @@ Une fois qu&#39;un service a été créé, vous pouvez commencer à le promouvoi
 
 Cette vidéo montre comment créer un service et gérer ses abonnements.
 
->[!VIDEO](https://video.tv.adobe.com/v/30956?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

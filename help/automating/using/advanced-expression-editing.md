@@ -10,18 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+TQID: 'https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1107
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1119'
 ht-degree: 100%
-
 ---
-
 # Édition avancée d&#39;expressions{#advanced-expression-editing}
 
 ## À propos de l&#39;édition avancée d&#39;expressions {#about-advanced-expression-editing}
@@ -78,9 +89,9 @@ Les expressions standard sont composées d&#39;une ou plusieurs conditions, resp
 
 * Chaque condition est de la forme **&lt;valeur1> &lt;opérateur de comparaison> &lt;valeur2>** où :
 
-   * **&lt;valeur1>** est un champ ou une fonction. Par exemple **@created** pour la date de création d&#39;un profil ou **Year(@created)** pour l&#39;année de création d&#39;un profil.
-   * **&lt;opérateur de comparaison>** est l&#39;un des opérateurs listés dans la section [Opérateurs de comparaison](../../automating/using/advanced-expression-editing.md#comparison-operators). Cet opérateur définit la méthode de comparaison entre **&lt;valeur1>** et **&lt;valeur2>**.
-   * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
+  * **&lt;valeur1>** est un champ ou une fonction. Par exemple **@created** pour la date de création d&#39;un profil ou **Year(@created)** pour l&#39;année de création d&#39;un profil.
+  * **&lt;opérateur de comparaison>** est l&#39;un des opérateurs listés dans la section [Opérateurs de comparaison](../../automating/using/advanced-expression-editing.md#comparison-operators). Cet opérateur définit la méthode de comparaison entre **&lt;valeur1>** et **&lt;valeur2>**.
+  * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
 
   >[!NOTE]
   >
@@ -88,8 +99,8 @@ Les expressions standard sont composées d&#39;une ou plusieurs conditions, resp
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
-   * **[!UICONTROL AND]** : intersection des deux conditions
-   * **[!UICONTROL OR]** : union des deux conditions.
+  * **[!UICONTROL AND]** : intersection des deux conditions
+  * **[!UICONTROL OR]** : union des deux conditions.
 
 Par exemple :
 
@@ -107,9 +118,9 @@ Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, re
 
 * Chaque condition est de la forme **&lt;contexte> &lt;opérateur de comparaison> &lt;valeur2>** où :
 
-   * **&lt;contexte>** correspond à un champ ou une fonction permettant de préciser le contexte. Par exemple, **context.profile.@email** pour l’adresse e-mail d’un profil ou **context.profile.firstName.length()** pour le nombre de caractères du prénom d’un profil.
-   * **&lt;opérateur de comparaison>** est l&#39;un des opérateurs listés dans la section [Opérateurs de comparaison](../../automating/using/advanced-expression-editing.md#comparison-operators). Cet opérateur définit la méthode de comparaison entre **&lt;contexte>** et **&lt;valeur2>**.
-   * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
+  * **&lt;contexte>** correspond à un champ ou une fonction permettant de préciser le contexte. Par exemple, **context.profile.@email** pour l’adresse e-mail d’un profil ou **context.profile.firstName.length()** pour le nombre de caractères du prénom d’un profil.
+  * **&lt;opérateur de comparaison>** est l&#39;un des opérateurs listés dans la section [Opérateurs de comparaison](../../automating/using/advanced-expression-editing.md#comparison-operators). Cet opérateur définit la méthode de comparaison entre **&lt;contexte>** et **&lt;valeur2>**.
+  * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
 
   >[!NOTE]
   >
@@ -117,8 +128,8 @@ Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, re
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
-   * **[!UICONTROL &amp;&amp;]** : intersection des deux conditions
-   * **[!UICONTROL ||]**: union des deux conditions.
+  * **[!UICONTROL &amp;&amp;]** : intersection des deux conditions
+  * **[!UICONTROL ||]**: union des deux conditions.
 
 Par exemple :
 
@@ -147,43 +158,43 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
  <tbody> 
   <tr> 
    <td> <span class="uicontrol">Égal à</span> <br /> </td> 
-   <td>=<br /></td> 
-   <td>==<br /></td> 
+   <td> =<br /> </td> 
+   <td> ==<br /> </td> 
    <td> La première valeur doit être rigoureusement identique à la seconde valeur.<br /> </td> 
    <td> <strong>@lastName = Martin</strong> récupère les profils dont le nom est « Martin », avec les seuls caractères indiqués.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Supérieur à</span> <br /> </td> 
-   <td>&gt;<br /></td> 
-   <td>&gt;<br /></td> 
+   <td> &gt;<br /> </td> 
+   <td> &gt;<br /> </td> 
    <td> La première valeur doit être strictement supérieure à la seconde valeur.<br /> </td> 
    <td> <strong>@age &gt; 50</strong> récupère les profils dont l’âge est supérieur à « 50 », donc « 51 », « 52 », etc.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Inférieur à</span> <br /> </td> 
-   <td>&lt;<br /></td> 
-   <td>&lt;<br /></td> 
+   <td> &lt;<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> La première valeur doit être strictement inférieure à la seconde valeur.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> récupère tous les profils créés dans la base de données il y a moins de 100 jours.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Supérieur ou égal à</span> <br /> </td> 
-   <td>&gt;=<br /></td> 
-   <td>&gt;=<br /></td> 
+   <td> &gt;=<br /> </td> 
+   <td> &gt;=<br /> </td> 
    <td> La première valeur doit être supérieure ou égale à la seconde valeur.<br /> </td> 
    <td> <strong>@age &gt;= 30</strong> récupère les profils âgés de 30 ans et plus.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Inférieur ou égal à</span> <br /> </td> 
-   <td>&lt;=<br /></td> 
-   <td>&lt;=<br /></td> 
+   <td> &lt;=<br /> </td> 
+   <td> &lt;=<br /> </td> 
    <td> La première valeur doit être inférieure ou égale à la seconde valeur.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> récupère les profils âgés de 60 ans ou moins.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Différentes </span> <br /> </td> 
-   <td>!=<br /></td> 
-   <td>!=<br /></td> 
+   <td> !=<br /> </td> 
+   <td> !=<br /> </td> 
    <td> La première valeur doit être différente de la seconde valeur.<br /> </td> 
    <td> <strong>@language != English</strong> récupère les profils n’étant pas définis comme anglophones.<br /> </td> 
   </tr> 

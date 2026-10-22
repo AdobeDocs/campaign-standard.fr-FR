@@ -9,25 +9,36 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-TQID: https://experienceleague.adobe.com/F0EDpvoHNd-fQYxgk5CD-3dlStrW1OhOdlQ6k4tH-c8
+TQID: 'https://experienceleague.adobe.com/F0EDpvoHNd-fQYxgk5CD-3dlStrW1OhOdlQ6k4tH-c8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1076
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1076'
 ht-degree: 100%
-
 ---
-
 # Confirmer l&#39;envoi{#confirming-the-send}
 
 Une fois que la préparation de vos messages est terminée et que les étapes de validation ont été réalisées, vous pouvez démarrer l&#39;envoi. Pour plus d&#39;informations sur la préparation des messages, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
@@ -92,7 +103,7 @@ Le message peut être affiché dans l’historique de l’un des profils ciblés
 Une fois un message envoyé, vous pouvez suivre le comportement des destinataires et le surveiller pour mesurer son impact. Pour plus d’informations, consultez les sections suivantes :
 
 * [Tracker les messages](../../sending/using/tracking-messages.md)
-* [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md)
+* [une diffusion](../../sending/using/monitoring-a-delivery.md)
 
 ### Rapports de réussite de diffusion {#delivered-status-report}
 

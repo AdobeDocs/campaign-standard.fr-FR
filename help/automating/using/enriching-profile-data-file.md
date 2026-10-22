@@ -10,23 +10,34 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-TQID: https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4
+TQID: 'https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 553
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '553'
 ht-degree: 100%
-
 ---
-
 # Enrichissement des données de profil avec des données contenues dans un fichier {#enriching-profile-data-with-data-contained-in-a-file}
 
 Cet exemple illustre comment enrichir des données de profil avec des données d&#39;achat contenues dans un fichier. Dans cet exemple, les données d&#39;achat sont stockées dans un système tiers. Le fichier peut stocker plusieurs achats pour chaque profil. L&#39;objectif final du workflow est d&#39;envoyer un email aux profils ciblés ayant acheté au moins deux articles afin de les remercier pour leur fidélité.
@@ -56,37 +67,37 @@ Le workflow est configuré comme suit :
 
   Une fois le lien créé, deux ensembles de **[!UICONTROL Données additionnelles]** sont ajoutés :
 
-   * Une collection de deux lignes qui correspond aux deux dernières transactions de chaque profil. Pour cette collection, le nom du produit, la date de transaction et le prix du produit sont ajoutés en tant que données additionnelles. Un tri descendant est appliqué aux données. Pour créer la collection, dans l&#39;onglet **[!UICONTROL Données additionnelles]**, procédez comme suit :
+  * Une collection de deux lignes qui correspond aux deux dernières transactions de chaque profil. Pour cette collection, le nom du produit, la date de transaction et le prix du produit sont ajoutés en tant que données additionnelles. Un tri descendant est appliqué aux données. Pour créer la collection, dans l&#39;onglet **[!UICONTROL Données additionnelles]**, procédez comme suit :
 
-     Sélectionnez le lien défini auparavant dans l&#39;onglet **[!UICONTROL Relations avancées]** de l&#39;activité.
+    Sélectionnez le lien défini auparavant dans l&#39;onglet **[!UICONTROL Relations avancées]** de l&#39;activité.
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     Cochez **[!UICONTROL Collection]** et indiquez le nombre de lignes à récupérer (2 dans cet exemple). Dans cet écran, vous pouvez personnaliser l&#39;**[!UICONTROL Alias]** et le **[!UICONTROL Libellé]** de la collection. Ces valeurs seront visibles dans les activités suivantes du workflow lorsqu&#39;elles désigneront cette collection.
+    Cochez **[!UICONTROL Collection]** et indiquez le nombre de lignes à récupérer (2 dans cet exemple). Dans cet écran, vous pouvez personnaliser l&#39;**[!UICONTROL Alias]** et le **[!UICONTROL Libellé]** de la collection. Ces valeurs seront visibles dans les activités suivantes du workflow lorsqu&#39;elles désigneront cette collection.
 
-     ![](assets/enrichment_example_workflow4.png)
+    ![](assets/enrichment_example_workflow4.png)
 
-     Sélectionnez les colonnes qui seront utilisées dans la diffusion finale en tant que **[!UICONTROL Données]** à conserver pour la collection.
+    Sélectionnez les colonnes qui seront utilisées dans la diffusion finale en tant que **[!UICONTROL Données]** à conserver pour la collection.
 
-     ![](assets/enrichment_example_workflow6.png)
+    ![](assets/enrichment_example_workflow6.png)
 
-     Appliquez un tri descendant sur la date de transaction pour être sûr de récupérer les toutes dernières transactions.
+    Appliquez un tri descendant sur la date de transaction pour être sûr de récupérer les toutes dernières transactions.
 
-     ![](assets/enrichment_example_workflow7.png)
+    ![](assets/enrichment_example_workflow7.png)
 
-   * Un agrégat qui comptabilise le nombre total de transactions pour chaque profil. Cet agrégat sera utilisé plus tard pour filtrer les profils pour lesquels deux transactions au moins sont enregistrées. Pour créer l&#39;agrégat, dans l&#39;onglet **[!UICONTROL Données additionnelles]**, procédez comme suit :
+  * Un agrégat qui comptabilise le nombre total de transactions pour chaque profil. Cet agrégat sera utilisé plus tard pour filtrer les profils pour lesquels deux transactions au moins sont enregistrées. Pour créer l&#39;agrégat, dans l&#39;onglet **[!UICONTROL Données additionnelles]**, procédez comme suit :
 
-     Sélectionnez le lien défini auparavant dans l&#39;onglet **[!UICONTROL Relations avancées]** de l&#39;activité.
+    Sélectionnez le lien défini auparavant dans l&#39;onglet **[!UICONTROL Relations avancées]** de l&#39;activité.
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     Sélectionnez **[!UICONTROL Agrégat]**.
+    Sélectionnez **[!UICONTROL Agrégat]**.
 
-     ![](assets/enrichment_example_workflow8.png)
+    ![](assets/enrichment_example_workflow8.png)
 
-     Définissez un agrégat **[!UICONTROL Comptage intégral]** en tant que **Données** à conserver. Au besoin, indiquez un alias personnalisé afin de retrouver l&#39;agrégat plus rapidement dans les activités suivantes.
+    Définissez un agrégat **[!UICONTROL Comptage intégral]** en tant que **Données** à conserver. Au besoin, indiquez un alias personnalisé afin de retrouver l&#39;agrégat plus rapidement dans les activités suivantes.
 
-     ![](assets/enrichment_example_workflow9.png)
+    ![](assets/enrichment_example_workflow9.png)
 
 * Une activité [Segmentation](../../automating/using/segmentation.md), avec un seul segment, récupère les profils de la cible initiale pour lesquels au moins deux transactions sont enregistrées. Les profils ne comportant qu&#39;une seule transaction sont exclus. Pour cela, la requête de la segmentation est créée sur l&#39;agrégat défini auparavant.
 

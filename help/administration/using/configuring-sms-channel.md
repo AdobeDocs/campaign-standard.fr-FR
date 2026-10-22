@@ -6,13 +6,25 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
-source-wordcount: '1709'
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1737'
 ht-degree: 100%
-
 ---
-
 # Configuration du canal SMS{#configuring-sms-channel}
 
 Pour envoyer des SMS, un ou plusieurs comptes externes doivent être configurés par un administrateur depuis le menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL SMS]** > **[!UICONTROL Comptes SMS]**.
@@ -108,10 +120,10 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
 <table> 
  <tbody> 
   <tr> 
-   <td>@<br /></td> 
+   <td> @<br /> </td> 
    <td> <img height="21px" src="assets/delta.png" /> <br /> </td> 
    <td> SP<br /> </td> 
-   <td>0<br /></td> 
+   <td> 0<br /> </td> 
    <td> ¡<br /> </td> 
    <td> P<br /> </td> 
    <td> ¿<br /> </td> 
@@ -119,19 +131,19 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   </tr> 
   <tr> 
    <td> £<br /> </td> 
-   <td>_<br /></td> 
-   <td>!<br /></td> 
-   <td>1<br /></td> 
+   <td> _<br /> </td> 
+   <td> !<br /> </td> 
+   <td> 1<br /> </td> 
    <td> A<br /> </td> 
    <td> Q<br /> </td> 
    <td> a<br /> </td> 
    <td> q<br /> </td> 
   </tr> 
   <tr> 
-   <td>$<br /></td> 
+   <td> $<br /> </td> 
    <td> <img height="21px" src="assets/phi.png" /> <br /> </td> 
-   <td>"<br /></td> 
-   <td>2<br /></td> 
+   <td> "<br /> </td> 
+   <td> 2<br /> </td> 
    <td> B<br /> </td> 
    <td> R<br /> </td> 
    <td> b<br /> </td> 
@@ -140,8 +152,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> ¥<br /> </td> 
    <td> <img height="21px" src="assets/gamma.png" /> <br /> </td> 
-   <td>#<br /></td> 
-   <td>3<br /></td> 
+   <td> #<br /> </td> 
+   <td> 3<br /> </td> 
    <td> C<br /> </td> 
    <td> S<br /> </td> 
    <td> c<br /> </td> 
@@ -151,7 +163,7 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
    <td> è<br /> </td> 
    <td> <img height="21px" src="assets/delta.png" /> <br /> </td> 
    <td> ¤<br /> </td> 
-   <td>4<br /></td> 
+   <td> 4<br /> </td> 
    <td> D<br /> </td> 
    <td> T<br /> </td> 
    <td> d<br /> </td> 
@@ -160,8 +172,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> é<br /> </td> 
    <td> <img height="21px" src="assets/omega.png" /> <br /> </td> 
-   <td>%<br /></td> 
-   <td>5<br /></td> 
+   <td> %<br /> </td> 
+   <td> 5<br /> </td> 
    <td> E<br /> </td> 
    <td> U<br /> </td> 
    <td> e<br /> </td> 
@@ -170,8 +182,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> ù<br /> </td> 
    <td> <img height="21px" src="assets/pi.png" /> <br /> </td> 
-   <td>&amp;<br /></td> 
-   <td>6<br /></td> 
+   <td> &amp;<br /> </td> 
+   <td> 6<br /> </td> 
    <td> F<br /> </td> 
    <td> V<br /> </td> 
    <td> f<br /> </td> 
@@ -180,8 +192,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> ì<br /> </td> 
    <td> <img height="21px" src="assets/psi.png" /> <br /> </td> 
-   <td>'<br /></td> 
-   <td>7<br /></td> 
+   <td> '<br /> </td> 
+   <td> 7<br /> </td> 
    <td> G<br /> </td> 
    <td> W<br /> </td> 
    <td> g<br /> </td> 
@@ -190,8 +202,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> ò<br /> </td> 
    <td> <img height="21px" src="assets/sigma.png" /> <br /> </td> 
-   <td>(<br /></td> 
-   <td>8<br /></td> 
+   <td> (<br /> </td> 
+   <td> 8<br /> </td> 
    <td> H<br /> </td> 
    <td> X<br /> </td> 
    <td> h<br /> </td> 
@@ -200,8 +212,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> Ç<br /> </td> 
    <td> <img height="21px" src="assets/theta.png" /> <br /> </td> 
-   <td>)<br /></td> 
-   <td>9</td> 
+   <td> )<br /> </td> 
+   <td> 9 </td> 
    <td> I<br /> </td> 
    <td> Y<br /> </td> 
    <td> i<br /> </td> 
@@ -210,8 +222,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> LF<br /> </td> 
    <td> <img height="21px" src="assets/xi.png" /> <br /> </td> 
-   <td>*<br /></td> 
-   <td>:<br /></td> 
+   <td> *<br /> </td> 
+   <td> :<br /> </td> 
    <td> J<br /> </td> 
    <td> Z<br /> </td> 
    <td> j<br /> </td> 
@@ -220,8 +232,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> Ø<br /> </td> 
    <td> ESC<br /> </td> 
-   <td>+<br /></td> 
-   <td>;<br /></td> 
+   <td> +<br /> </td> 
+   <td> ;<br /> </td> 
    <td> K<br /> </td> 
    <td> Ä<br /> </td> 
    <td> k<br /> </td> 
@@ -230,8 +242,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> ø<br /> </td> 
    <td> Æ<br /> </td> 
-   <td>,<br /></td> 
-   <td>&lt;<br /></td> 
+   <td> ,<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> L<br /> </td> 
    <td> Ö<br /> </td> 
    <td> l<br /> </td> 
@@ -240,8 +252,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> CR<br /> </td> 
    <td> æ<br /> </td> 
-   <td>-<br /></td> 
-   <td>=</td> 
+   <td> -<br /> </td> 
+   <td> = </td> 
    <td> M<br /> </td> 
    <td> Ñ<br /> </td> 
    <td> m<br /> </td> 
@@ -250,8 +262,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> Å<br /> </td> 
    <td> ß<br /> </td> 
-   <td>.<br /></td> 
-   <td>&gt;<br /></td> 
+   <td> .<br /> </td> 
+   <td> &gt;<br /> </td> 
    <td> N<br /> </td> 
    <td> Ü<br /> </td> 
    <td> n<br /> </td> 
@@ -260,8 +272,8 @@ Cette section présente les caractères pris en compte par la norme GSM. Tout ca
   <tr> 
    <td> å<br /> </td> 
    <td> É<br /> </td> 
-   <td>/<br /></td> 
-   <td>?<br /></td> 
+   <td> /<br /> </td> 
+   <td> ?<br /> </td> 
    <td> O<br /> </td> 
    <td> §<br /> </td> 
    <td> o<br /> </td> 
@@ -302,8 +314,8 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
 
 * Lorsque la fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]** n&#39;est pas cochée, le connecteur a un comportement générique :
 
-   * Il tente d&#39;utiliser l&#39;encodage GSM et lui affecte la valeur **data_coding = 0**.
-   * Si l&#39;encodage GSM échoue, il utilise l&#39;encodage **UCS2** et lui affecte la valeur **data_coding = 8**.
+  * Il tente d&#39;utiliser l&#39;encodage GSM et lui affecte la valeur **data_coding = 0**.
+  * Si l&#39;encodage GSM échoue, il utilise l&#39;encodage **UCS2** et lui affecte la valeur **data_coding = 8**.
 
   ![](assets/sms_data_coding.png)
 
@@ -349,6 +361,6 @@ Dans la section **[!UICONTROL Envoyer]** d&#39;un modèle SMS :
 
 * Le champ **[!UICONTROL Mode de transmission]** permet de déterminer la méthode de diffusion des messages par SMS :
 
-   * **[!UICONTROL Enregistré sur le mobile]** : le message est stocké sur la carte SIM du téléphone du destinataire.
-   * **[!UICONTROL Enregistré sur mobile]** : le message est stocké dans la mémoire interne du téléphone.
-   * **[!UICONTROL Flash]** : le message s&#39;affiche sur l&#39;écran du téléphone mobile du destinataire sous forme de notification, puis disparaît sans être enregistré.
+  * **[!UICONTROL Enregistré sur le mobile]** : le message est stocké sur la carte SIM du téléphone du destinataire.
+  * **[!UICONTROL Enregistré sur mobile]** : le message est stocké dans la mémoire interne du téléphone.
+  * **[!UICONTROL Flash]** : le message s&#39;affiche sur l&#39;écran du téléphone mobile du destinataire sous forme de notification, puis disparaît sans être enregistré.

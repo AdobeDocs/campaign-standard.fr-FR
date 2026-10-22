@@ -9,20 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
-TQID: https://experienceleague.adobe.com/2EyFx8q78HBTmD0-txQnkiMA-IGn0OjMRhCft0FvC0k
+TQID: 'https://experienceleague.adobe.com/2EyFx8q78HBTmD0-txQnkiMA-IGn0OjMRhCft0FvC0k'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 566
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '598'
 ht-degree: 100%
-
 ---
-
 # Migration des informations d’identification de JWT vers OAuth serveur à serveur
 
 Les informations d’identification du compte de service (JWT) ont été abandonnées au profit des nouvelles informations d’identification OAuth serveur à serveur. Les nouvelles informations d’identification vous permettent de gérer plus facilement les applications Adobe. Elles suppriment également la nécessité d’opérer une rotation régulière entre les certificats et fonctionnent de manière prête à l’emploi à l’aide de bibliothèques OAuth2 standard.
@@ -38,7 +47,8 @@ La migration vers les informations d’identification OAuth serveur à serveur 
 
    ![](assets/JwtToOAuthMigration1.png)
 
-3. Ouvrez l’onglet Informations d’identification de compte de service (JWT) à partir du volet de navigation de gauche et affichez la vignette de migration. Sur la vignette de migration, cliquez sur le bouton **Ajouter des nouvelles informations d’identification** pour ajouter des informations d’identification OAuth serveur à serveur équivalentes. L’ajout d’informations d’identification OAuth serveur à serveur à votre projet entraîne le démarrage de la migration.   ![](assets/JwtToOAuthMigration2.png)
+3. Ouvrez l’onglet Informations d’identification du compte de service (JWT) dans le volet de navigation de gauche et affichez la carte de migration. Sur la carte de migration, cliquez sur le bouton **Ajouter des nouvelles informations d’identification** pour ajouter des informations d’identification OAuth serveur à serveur équivalentes. L’ajout d’informations d’identification OAuth serveur à serveur à votre projet déclenche la migration.
+   ![](assets/JwtToOAuthMigration2.png)
 4. Les nouvelles informations d’identification **OAuth serveur à serveur** sont ajoutées au volet de navigation de gauche.
    * Cliquez sur Annuler la migration pour annuler la migration.
    * Ne cliquez pas sur le bouton Vérifier et supprimer tant que vous n’avez pas vérifié si les nouvelles informations d’identification OAuth serveur à serveur fonctionnent.
@@ -64,6 +74,7 @@ La migration vers les informations d’identification OAuth serveur à serveur 
    * Cliquez sur l’onglet Informations d’identification du compte de service (JWT) dans le volet de navigation de gauche.
    * Cliquez sur le bouton Vérifier et supprimer.
      ![](assets/JwtToOAuthMigration5.png)
-   * Vérifiez la date et l’heure du menu de dernier accès ou de dernière utilisation afin de vérifier si l’application d’intégration génère des jetons d’accès à l’aide des nouvelles informations d’identification OAuth ou en utilisant toujours les anciennes informations d’identification JWT.     ![](assets/JwtToOAuthMigration6.png)
+   * Vérifiez la date et l’heure du menu de dernier accès ou de dernière utilisation afin de vérifier si l’application d’intégration génère des jetons d’accès à l’aide des nouvelles informations d’identification OAuth ou en utilisant toujours les anciennes informations d’identification JWT.
+     ![](assets/JwtToOAuthMigration6.png)
    * Une fois qu’il a été vérifié que l’application d’intégration utilise les nouvelles informations d’identification OAuth et qu’elle n’utilise plus les informations d’identification JWT, supprimez les anciennes informations d’identification en cliquant sur le bouton **Confirmer et continuer** pour effectuer la migration.
      ![](assets/JwtToOAuthMigration7.png)

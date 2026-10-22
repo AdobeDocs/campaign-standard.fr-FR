@@ -9,23 +9,31 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-TQID: https://experienceleague.adobe.com/w2qeBwrGka2XfN76lvkL7fjdAErUcHdxNvF7Jb6KYIk
+TQID: 'https://experienceleague.adobe.com/w2qeBwrGka2XfN76lvkL7fjdAErUcHdxNvF7Jb6KYIk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 767
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '767'
 ht-degree: 100%
-
 ---
-
 # Optimisation de votre diffusion {#optimize-delivery}
 
 Avant même de commencer à créer des diffusions, vous pouvez prendre des mesures pour sécuriser et optimiser le processus d&#39;envoi en amont.
@@ -58,9 +66,9 @@ Pour que vos messages arrivent dans la boîte de réception de vos destinataires
 
 * Qu’est-ce que la délivrabilité ?
 
-   * La délivrabilité désigne les facteurs qui déterminent la capacité d’un email à être accepté par le serveur d’un destinataire. Les fournisseurs d’accès à Internet (FAI) filtrent les emails qu’ils identifient comme spam ou bloquent le téléchargement des images. S’ils déterminent qu’un domaine donné envoie un trop grand nombre d’emails, ils fixent une limite au nombre d’emails qu’ils acceptent de cet expéditeur.
+  * La délivrabilité désigne les facteurs qui déterminent la capacité d’un email à être accepté par le serveur d’un destinataire. Les fournisseurs d’accès à Internet (FAI) filtrent les emails qu’ils identifient comme spam ou bloquent le téléchargement des images. S’ils déterminent qu’un domaine donné envoie un trop grand nombre d’emails, ils fixent une limite au nombre d’emails qu’ils acceptent de cet expéditeur.
 
-   * Lorsque vous vérifiez la délivrabilité de votre email, vous devez vous concentrer sur quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Pour une étude plus approfondie de ce sujet, consultez [cette section](../../sending/using/about-deliverability.md).
+  * Lorsque vous vérifiez la délivrabilité de votre email, vous devez vous concentrer sur quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Pour une étude plus approfondie de ce sujet, consultez [cette section](../../sending/using/about-deliverability.md).
 
 * Lors du démarrage d’une nouvelle plateforme, appliquez les recommandations présentées sur [cette page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=fr#transition-process).
 

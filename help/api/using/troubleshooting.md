@@ -6,22 +6,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-TQID: https://experienceleague.adobe.com/uXYP0rBCW5loGzDKt--hLMmUZqfu7XxVn2qL0xgAcek
+TQID: 'https://experienceleague.adobe.com/uXYP0rBCW5loGzDKt--hLMmUZqfu7XxVn2qL0xgAcek'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 341
-ht-degree: 100%
-
+    internal-label: Troubleshooting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 96%
 ---
-
 # Résolution des problèmes d’API {#troubleshooting}
 
 * **Lorsque vous accédez à la console Adobe.io, l’erreur suivante s’affiche : « La console Adobe I/O est uniquement disponible pour sélectionner les membres des comptes d’entreprise. Si vous pensez que vous devriez y avoir accès, contactez votre administrateur système. »**
@@ -33,7 +40,7 @@ Vous ne pouvez créer des clés d’API que pour les organisations dont vous êt
 Cela signifie qu’il existe un problème avec l’approvisionnement IMS de votre produit Campaign spécifique : l’équipe IMS doit le résoudre.
 
 Pour plus de détails, vous pouvez appeler l’API IMS avec votre jeton pour voir à quoi ressemble votre profil IMS : pour qu’Adobe.io puisse acheminer votre requête, vous devez disposer d’un prodCtx possédant un identifiant id_organization identique à celui inséré dans l’URL.
-S’il est manquant, l’approvisionnement IMS doit être corrigé.
+S’il manque, l’approvisionnement IMS doit être corrigé.
 
 ```
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
@@ -84,7 +91,7 @@ Dans la réponse, la valeur ORGANIZATION_ID doit être la même que dans votre p
 }
 ```
 
-* **Lors d’une requête sur Adobe.io, vous obtenez {&quot;code&quot;:500, &quot;message&quot;:&quot;Oups. Une erreur s’est produite. Vérifiez votre URI et réessayez.&quot;}**
+* **Lorsque vous effectuez une requête à Adobe.io, vous obtenez {« code »:500, « message »:« Oups. Une erreur s’est produite. Vérifiez votre URI et réessayez.&quot;}**
 
 Adobe.io déclare votre URI comme non valide : l’URI que vous demandez n’est probablement pas valide. Sur Adobe.io, lorsque vous sélectionnez le service Campaign, vous obtenez un sélecteur avec une liste des valeurs organization_ids possibles. Vous devez vérifier que celui choisi est celui que vous avez inséré dans votre URL.
 

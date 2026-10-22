@@ -5,41 +5,64 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
+TQID: 'https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Target integration
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
-workflow-type: ht
-source-wordcount: 5273
-ht-degree: 100%
-
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '5533'
+ht-degree: 98%
 ---
-
 # Notes de mise à jour 2018{#release-notes}
 
 ## Version 18.9 - Septembre 2018 {#release-18-9-september-2018}
@@ -230,7 +253,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Extension des logs de diffusion<br /> </td> 
-   <td> L’extension des logs de diffusion vous permet d’étendre les logs d’envoi avec des données de profil et du code segment provenant de workflows. Ces informations peuvent ensuite être utilisées dans les rapports dynamiques et vous permettent de conserver un instantané de certaines informations au moment de l’envoi d’une diffusion.<br /> Il existe 2 autres cas d’utilisation :<br /> 
+   <td> L’extension des logs de diffusion vous permet d’étendre les envois avec des données de profil et un code segment issu de workflows. Ces informations peuvent ensuite être utilisées dans les rapports dynamiques et vous permettent de conserver un instantané de certaines informations au moment de l’envoi d’une diffusion.<br /> Deux autres cas d’utilisation se présentent :<br /> 
     <ul> 
      <li> Export des broadlogs étendus avec des données « figées » : en tant que personne spécialisée dans le marketing, je souhaite exporter tous les profils où le code segment est égal à « A » (provenant du moteur de workflow). </li> 
      <li> Segmentation sur les données « figées » : en tant que personne spécialisée dans le marketing, je souhaite <strong>recibler</strong> tous les profils ayant acquis 1 000 points de fidélité depuis le dernier envoi ou pour lesquels le code segment correspondait à « A ». </li> 
@@ -320,7 +343,7 @@ _Ressources personnalisées_
  <tbody> 
   <tr> 
    <td> Règlement général sur la protection des données (RGPD) de l’UE<br /> </td> 
-   <td> Le RGPD est la nouvelle loi de l’Union européenne (UE) qui harmonise et modernise les exigences en matière de protection des données, en vigueur à compter du 25 mai 2018. Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur et utilisatrice), nous incluons, en qualité de sous-traitant des données, d’autres fonctionnalités pour faciliter votre préparation en tant que responsable du traitement à certaines demandes RGPD :<br /> 
+   <td> Le RGPD est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée qui harmonise et modernise les exigences en matière de protection des données. Il entrera en vigueur le 25 mai 2018. Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles d’utilisation), nous incluons, dans le cadre de notre rôle de responsable du traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur ou de Contrôleuse de données à certaines demandes RGPD :<br /> 
     <ul> 
      <li> Droit d’accès : permet à la personne titulaire de données de recevoir une copie de ses données personnelles capturées par les contrôleurs et contrôleuses de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
@@ -482,7 +505,7 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
   </tr> 
   <tr> 
    <td> Nouvelles fonctionnalités push<br /> </td> 
-   <td> Prévisualisation des messages push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenu des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’exécuter la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où une personne ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la prise en charge du Contenu disponible, les utilisateurs et utilisatrices d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’une personne.<br /> Contenu mutable : grâce à la prise en charge du Contenu mutable, les utilisateurs et utilisatrices d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs et utilisatrices peuvent utiliser l’option Contenu mutable pour : <br /> 
+   <td> Prévisualisation des messages push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où une personne ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’un utilisateur.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs et utilisatrices d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs et utilisatrices peuvent utiliser l’option Contenu mutable pour :<br /> 
     <ul> 
      <li> déchiffrer des données diffusées dans un format chiffré ; </li> 
      <li> télécharger des images ou d’autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ; </li> 

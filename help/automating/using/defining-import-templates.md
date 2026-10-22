@@ -4,13 +4,16 @@ description: Les modèles d'import permettent de réduire les paramètres néces
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 100%
-
 ---
-
 
 # Définir un modèle d&#39;import{#defining-import-templates}
 
@@ -25,14 +28,14 @@ Trois modèles par défaut sont disponibles en lecture seule :
 * **[!UICONTROL Mettre à jour les logs de diffusion et les mises en quarantaine Courrier]** : ce modèle peut servir de base pour de nouveaux imports permettant de mettre à jour les mises en quarantaine et les logs de diffusion du canal Courrier. Le workflow de ce modèle contient les activités suivantes :
 * **[!UICONTROL Import de données]** : ce modèle peut servir de base pour de nouveaux imports permettant d&#39;insérer les données d&#39;un fichier dans la base de données. Le workflow de ce modèle contient les activités suivantes :
 
-   * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
-   * **[!UICONTROL Mise à jour de données]** : cette activité permet d&#39;insérer les données du fichier dans la base de données.
+  * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
+  * **[!UICONTROL Mise à jour de données]** : cette activité permet d&#39;insérer les données du fichier dans la base de données.
 
 * **[!UICONTROL Import de liste]** : ce modèle peut servir de base pour de nouveaux imports permettant de créer une audience de type **Liste** à partir des données d&#39;un fichier. Le workflow de ce modèle contient les activités suivantes :
 
-   * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
-   * **[!UICONTROL Réconciliation]** : cette activité permet d&#39;associer une dimension de ciblage aux données importées. Cela permet ensuite de créer une audience de type **Liste**. Si la dimension de ciblage des données importées n&#39;est pas connue, l&#39;audience est de type **Fichier**. Voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * **[!UICONTROL Sauvegarde d&#39;audience]** : cette activité permet d&#39;enregistrer les données importées sous la forme d&#39;audience de type **Liste**. Le nom de l&#39;audience sauvegardée correspondra au nom du fichier importé par l&#39;utilisateur, auquel sera ajouté un suffixe précisant la date et l&#39;heure de l&#39;import. Par exemple : &#39;profiles_20150406_151448&#39;.
+  * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
+  * **[!UICONTROL Réconciliation]** : cette activité permet d&#39;associer une dimension de ciblage aux données importées. Cela permet ensuite de créer une audience de type **Liste**. Si la dimension de ciblage des données importées n&#39;est pas connue, l&#39;audience est de type **Fichier**. Voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
+  * **[!UICONTROL Sauvegarde d&#39;audience]** : cette activité permet d&#39;enregistrer les données importées sous la forme d&#39;audience de type **Liste**. Le nom de l&#39;audience sauvegardée correspondra au nom du fichier importé par l&#39;utilisateur, auquel sera ajouté un suffixe précisant la date et l&#39;heure de l&#39;import. Par exemple : &#39;profiles_20150406_151448&#39;.
 
 Ces modèles par défaut sont en lecture seule et ne sont pas visibles par les utilisateurs standards. Pour créer un modèle mis à la disposition des utilisateurs, procédez comme suit :
 

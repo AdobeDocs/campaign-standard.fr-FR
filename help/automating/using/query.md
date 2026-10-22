@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-TQID: https://experienceleague.adobe.com/rja9hRgWDhDnLMNIYwt28rtxJrPyYnuwOa2XKR23uKA
+TQID: 'https://experienceleague.adobe.com/rja9hRgWDhDnLMNIYwt28rtxJrPyYnuwOa2XKR23uKA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1842
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1885'
 ht-degree: 100%
-
 ---
-
 # Requête{#query}
 
 ## Description {#description}
@@ -148,8 +157,8 @@ En ajoutant un champ simple comme donnée additionnelle, celui-ci devient direct
 
 ### Ajouter un agrégat {#adding-an-aggregate}
 
-Les agrégats permettent de calculer les valeurs à partir des champs de la dimension de ciblage ou des champs des dimensions liées à la dimension de ciblage. Par exemple : le montant moyen acheté par un profil.
-Lors de l’utilisation de l’agrégat avec la requête, sa fonction peut revenir à zéro, qui est alors considéré comme NUL. Utilisez l’onglet **[!UICONTROL Filtrage de sortie]** de votre requête pour filtrer la valeur agrégée :
+Les agrégats permettent de calculer des valeurs à partir de champs de la dimension de ciblage ou de champs des dimensions liées à la dimension de ciblage. Par exemple : la moyenne des achats réalisés par un profil.
+Lorsque vous utilisez l’agrégat avec une requête, sa fonction peut revenir à zéro ce qui est alors considéré comme NULL. Utilisez l’onglet **[!UICONTROL Affiner la cible]** de votre requête pour filtrer la valeur agrégée :
 
 * si vous voulez des valeurs nulles, vous devez filtrer sur **[!UICONTROL est Null]**.
 * si vous ne souhaitez pas de valeurs nulles, filtrez sur **[!UICONTROL n’est pas Null]**.

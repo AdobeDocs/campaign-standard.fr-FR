@@ -8,26 +8,36 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-TQID: https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E
+TQID: 'https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1276
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1276'
 ht-degree: 100%
-
 ---
-
 # Concepteur d&#39;e-mails de Campaign{#designing-content-in-adobe-campaign}
 
 Une fois que vous avez créé un email dans Adobe Campaign, vous devez en définir le contenu.
@@ -46,9 +56,9 @@ Le concepteur d’e-mail permet de créer du contenu d&#39;email et des modèles
 * Pour découvrir comment créer un contenu d’email, voir la section [Prise en main du concepteur d’e-mail](../../designing/using/quick-start.md).
 * Pour une présentation du concepteur d’e-mail, voir [Utilisation du concepteur d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md).
 * Pour en savoir plus sur la création de contenu :
-   * En partant de zéro, voir [Conception d&#39;emails à partir de zéro](../../designing/using/designing-from-scratch.md).
-   * A l&#39;aide d&#39;un contenu existant, voir [Conception à l&#39;aide d&#39;un contenu existant](../../designing/using/using-existing-content.md).
-   * À l’aide des intégrations Creative Cloud, voir [Conception d’emails multisolution](../../designing/using/using-integrations.md).
+  * En partant de zéro, voir [Conception d&#39;emails à partir de zéro](../../designing/using/designing-from-scratch.md).
+  * A l&#39;aide d&#39;un contenu existant, voir [Conception à l&#39;aide d&#39;un contenu existant](../../designing/using/using-existing-content.md).
+  * À l’aide des intégrations Creative Cloud, voir [Conception d’emails multisolution](../../designing/using/using-integrations.md).
 * Pour plus d&#39;informations sur la personnalisation, voir [Personnalisation](../../designing/using/personalization.md).
 
 Lorsque vous créez un email, vous pouvez choisir d&#39;utiliser un modèle prédéfini ou de charger un contenu existant à partir d&#39;une autre source. Voir [Sélectionner un contenu existant](../../designing/using/using-existing-content.md#selecting-an-existing-content).
@@ -179,6 +189,6 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 Cette vidéo présente un aperçu du concepteur d’e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/330100?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
 Pour commencer à utiliser le concepteur d’e-mail, regardez cette [série de vidéos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr#GettingStarted) qui explique la fonctionnalité générale de l’outil et qui décrit comment créer entièrement un email ou le concevoir à l’aide de modèles

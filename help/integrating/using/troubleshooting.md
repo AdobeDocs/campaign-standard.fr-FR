@@ -9,24 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-TQID: https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY
+TQID: 'https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 372
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '372'
 ht-degree: 100%
-
 ---
-
 # Résolution des problèmes{#troubleshooting}
 
 Lors de l&#39;utilisation de l&#39;intégration avec Audience Manager ou People core service, il est possible de rencontrer des erreurs.
@@ -37,8 +49,8 @@ Dans ce cas, vérifiez que les éléments suivants sont correctement configurés
 
   Dans **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Comptes externes]**, vérifiez que les comptes S3 externes ci-dessous sont correctement configurés. Les serveurs S3 mentionnés doivent avoir été configurés pendant l’approvisionnement.
 
-   * **[!UICONTROL importSharedAudience]** : compte S3 dédié à l&#39;import d&#39;audiences.
-   * **[!UICONTROL exportSharedAudience]** : compte S3 dédié à l&#39;export d&#39;audiences.
+  * **[!UICONTROL importSharedAudience]** : compte S3 dédié à l&#39;import d&#39;audiences.
+  * **[!UICONTROL exportSharedAudience]** : compte S3 dédié à l&#39;export d&#39;audiences.
 
 * **Data sources partagées**
 
@@ -54,9 +66,9 @@ Dans ce cas, vérifiez que les éléments suivants sont correctement configurés
 
   Si l&#39;algorithme de chiffrement AES est sélectionné, les champs supplémentaires suivants doivent être correctement définis :
 
-   * **Clé de chiffrement** pour AES
-   * **Chiffrement IV** (vecteur d&#39;initialisation) pour AES
-   * **Canal** (Email/SMS/Autre) : ce champ permet de déchiffrer directement les adresses e-mail et les numéros de SMS. Vérifiez que la clé de réconciliation correspond au paramètre du champ **Canal**. Si vous sélectionnez Autre, ce déchiffrement spécifique ne sera pas effectué et la clé de réconciliation sera utilisée pour réconcilier les données.
+  * **Clé de chiffrement** pour AES
+  * **Chiffrement IV** (vecteur d&#39;initialisation) pour AES
+  * **Canal** (Email/SMS/Autre) : ce champ permet de déchiffrer directement les adresses e-mail et les numéros de SMS. Vérifiez que la clé de réconciliation correspond au paramètre du champ **Canal**. Si vous sélectionnez Autre, ce déchiffrement spécifique ne sera pas effectué et la clé de réconciliation sera utilisée pour réconcilier les données.
 
   Les audiences Experience Cloud peuvent ne pas être partagées parce que le workflow technique s&#39;est arrêté ou est en pause. Accédez au workflow **[!UICONTROL Importer une audience partagée]** en cliquant directement sur l&#39;option **[!UICONTROL Afficher l&#39;audience partagée]** dans votre Data source.
 

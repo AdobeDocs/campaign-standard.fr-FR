@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+TQID: 'https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1532
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1532'
 ht-degree: 100%
-
 ---
-
 # Chargement de fichier {#load-file}
 
 ## Description {#description}
@@ -143,24 +152,24 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
 * **[!UICONTROL Type de données]** : permet de spécifier le type de données attendu dans la colonne.
 * **[!UICONTROL Format et séparateurs]**, **Propriétés** : permettent de définir les propriétés d&#39;un texte, le format des heures, des dates et des valeurs numériques ainsi que le séparateur spécifié par le contexte de la colonne.
 
-   * **[!UICONTROL Nombre de caractères maximum]** : permet de spécifier le nombre maximum de caractères pour les colonnes de type chaîne.
+  * **[!UICONTROL Nombre de caractères maximum]** : permet de spécifier le nombre maximum de caractères pour les colonnes de type chaîne.
 
-     Ce champ doit être renseigné lors du chargement des fichiers composés de colonnes à longueur fixe.
+    Ce champ doit être renseigné lors du chargement des fichiers composés de colonnes à longueur fixe.
 
-   * **[!UICONTROL Gestion de la casse]** : permet de définir si un traitement au niveau de la casse doit être appliqué pour les données de type **Texte**.
-   * **[!UICONTROL Gestion des espaces]** : permet d&#39;indiquer si certains espaces doivent être ignorés dans une chaîne pour les données de type **Texte**.
-   * **[!UICONTROL Format des heures]**, **[!UICONTROL Format des dates]** : permettent de définir le format des heures ou des dates pour les données de type **Date**, **Heure**, **Date et Heure**.
-   * **[!UICONTROL Format]** : permet de définir le format des valeurs numériques pour les données de type **Nombre entier** et **Nombre flottant**.
-   * **[!UICONTROL Séparateur]** : permet de définir le séparateur spécifié par le contexte de la colonne (séparateur de milliers ou séparateur décimal pour les valeurs numériques, séparateur pour les dates et les heures) pour les données de type **Date**, **Heure**, **Date et Heure**, **Nombre entier** et **Nombre flottant**.
+  * **[!UICONTROL Gestion de la casse]** : permet de définir si un traitement au niveau de la casse doit être appliqué pour les données de type **Texte**.
+  * **[!UICONTROL Gestion des espaces]** : permet d&#39;indiquer si certains espaces doivent être ignorés dans une chaîne pour les données de type **Texte**.
+  * **[!UICONTROL Format des heures]**, **[!UICONTROL Format des dates]** : permettent de définir le format des heures ou des dates pour les données de type **Date**, **Heure**, **Date et Heure**.
+  * **[!UICONTROL Format]** : permet de définir le format des valeurs numériques pour les données de type **Nombre entier** et **Nombre flottant**.
+  * **[!UICONTROL Séparateur]** : permet de définir le séparateur spécifié par le contexte de la colonne (séparateur de milliers ou séparateur décimal pour les valeurs numériques, séparateur pour les dates et les heures) pour les données de type **Date**, **Heure**, **Date et Heure**, **Nombre entier** et **Nombre flottant**.
 
 * **[!UICONTROL Remapping des valeurs]** : ce champ est disponible uniquement dans la configuration des détails d’une colonne. Il permet de transformer certaines valeurs lors de l&#39;import. Par exemple, vous pouvez transformer « trois » en « 3 ».
 * **[!UICONTROL Traitement des erreurs]** : permet de définir le comportement en cas d&#39;erreur.
 
-   * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le log d&#39;exécution du workflow.
-   * **[!UICONTROL Rejeter la ligne]** : la ligne entière n&#39;est pas traitée.
-   * **[!UICONTROL Utiliser une valeur par défaut]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**.
-   * **[!UICONTROL Utiliser une valeur par défaut en cas d’absence de remapping]** : remplace la valeur causant l’erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si un remapping a été défini pour la valeur en erreur (voir option **[!UICONTROL Remapping des valeurs]** ci-dessus).
-   * **[!UICONTROL Rejeter la ligne en l’absence de valeur de remapping]** : la ligne entière n’est pas traitée sauf si un remapping a été défini pour la valeur en erreur (voir option **[!UICONTROL Remapping des valeurs]** ci-dessus).
+  * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le log d&#39;exécution du workflow.
+  * **[!UICONTROL Rejeter la ligne]** : la ligne entière n&#39;est pas traitée.
+  * **[!UICONTROL Utiliser une valeur par défaut]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**.
+  * **[!UICONTROL Utiliser une valeur par défaut en cas d’absence de remapping]** : remplace la valeur causant l’erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si un remapping a été défini pour la valeur en erreur (voir option **[!UICONTROL Remapping des valeurs]** ci-dessus).
+  * **[!UICONTROL Rejeter la ligne en l’absence de valeur de remapping]** : la ligne entière n’est pas traitée sauf si un remapping a été défini pour la valeur en erreur (voir option **[!UICONTROL Remapping des valeurs]** ci-dessus).
 
   >[!NOTE]
   >
@@ -169,6 +178,6 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
 * **[!UICONTROL Valeur par défaut]** : permet de spécifier la valeur par défaut en fonction du choix concernant le traitement des erreurs.
 * **[!UICONTROL Gestion des valeurs vides]** : permet d&#39;indiquer comment gérer les valeurs vides rencontrées lors du chargement des données.
 
-   * **[!UICONTROL Générer une erreur pour les champs numériques]** : génère une erreur pour les champs numériques uniquement, sinon insère la valeur NULL.
-   * **[!UICONTROL Insérer NULL dans le champ correspondant]** : autorise les valeurs vides. La valeur NULL est alors insérée.
-   * **[!UICONTROL Générer une erreur]** : génère une erreur en cas de valeur vide.
+  * **[!UICONTROL Générer une erreur pour les champs numériques]** : génère une erreur pour les champs numériques uniquement, sinon insère la valeur NULL.
+  * **[!UICONTROL Insérer NULL dans le champ correspondant]** : autorise les valeurs vides. La valeur NULL est alors insérée.
+  * **[!UICONTROL Générer une erreur]** : génère une erreur en cas de valeur vide.

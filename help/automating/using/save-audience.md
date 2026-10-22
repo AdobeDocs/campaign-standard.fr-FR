@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+TQID: 'https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 865
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '865'
 ht-degree: 100%
-
 ---
-
 # Sauvegarde d&#39;audience{#save-audience}
 
 ## Description {#description}
@@ -51,18 +60,18 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement u
 
    * **[!UICONTROL Mettre à jour une audience existante]** : sélectionnez une audience existante et choisissez le type de mise à jour :
 
-      * **[!UICONTROL Remplacer le contenu de l&#39;audience par les nouvelles données]** : l&#39;intégralité du contenu de l&#39;audience est remplacée. Les anciennes données sont perdues. Seules les données issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience sont conservées.
-      * **[!UICONTROL Compléter l&#39;audience avec les nouvelles données]** : les anciennes données de l&#39;audience sont conservées et sont complétées avec celles issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience.
+     * **[!UICONTROL Remplacer le contenu de l&#39;audience par les nouvelles données]** : l&#39;intégralité du contenu de l&#39;audience est remplacée. Les anciennes données sont perdues. Seules les données issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience sont conservées.
+     * **[!UICONTROL Compléter l&#39;audience avec les nouvelles données]** : les anciennes données de l&#39;audience sont conservées et sont complétées avec celles issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience.
 
    * **[!UICONTROL Créer et mettre à jour une audience]** : saisissez le nom d&#39;une audience et choisissez le type de mise à jour. L&#39;audience est créée si elle n&#39;existe pas. Si elle existe déjà, elle est mise à jour selon le mode choisi :
 
-      * **[!UICONTROL Remplacer le contenu de l&#39;audience par les nouvelles données]** : l&#39;intégralité du contenu de l&#39;audience est remplacée. Les anciennes données sont perdues. Seules les données issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience sont conservées.
+     * **[!UICONTROL Remplacer le contenu de l&#39;audience par les nouvelles données]** : l&#39;intégralité du contenu de l&#39;audience est remplacée. Les anciennes données sont perdues. Seules les données issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience sont conservées.
 
-        Attention, cette option écrase le type et la dimension de ciblage de l&#39;audience mise à jour.
+       Attention, cette option écrase le type et la dimension de ciblage de l&#39;audience mise à jour.
 
-      * **[!UICONTROL Compléter l&#39;audience avec les nouvelles données]** : les anciennes données de l&#39;audience sont conservées et sont complétées avec celles issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience.
+     * **[!UICONTROL Compléter l&#39;audience avec les nouvelles données]** : les anciennes données de l&#39;audience sont conservées et sont complétées avec celles issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience.
 
-        Attention, cette option provoque une erreur si le type ou la dimension de ciblage de l&#39;audience mise à jour ne sont pas compatibles avec le paramétrage actuel du workflow. Par exemple, il est impossible de compléter une audience de type fichier avec des profils issus d&#39;une requête.
+       Attention, cette option provoque une erreur si le type ou la dimension de ciblage de l&#39;audience mise à jour ne sont pas compatibles avec le paramétrage actuel du workflow. Par exemple, il est impossible de compléter une audience de type fichier avec des profils issus d&#39;une requête.
 
    * **[!UICONTROL Créer une nouvelle audience]** : renseignez le nom de l&#39;audience à créer. L&#39;heure et la date de création de l&#39;audience seront automatiquement ajoutées au nom de l&#39;audience. Cela permet à l&#39;audience d&#39;être unique à chaque exécution du workflow.
    * **[!UICONTROL Partager dans Adobe Experience Cloud]** : si vous avez ciblé des profils et que vous souhaitez exporter votre audience vers Adobe Experience Cloud, sélectionnez cette option, puis sélectionnez une audience partagée existante ou créez une audience.

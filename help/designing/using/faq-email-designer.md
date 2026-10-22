@@ -8,22 +8,32 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
+TQID: 'https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
-workflow-type: ht
-source-wordcount: 415
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '445'
 ht-degree: 100%
-
 ---
-
 # Questions fréquentes sur le concepteur d’e-mail
 
 ## Quelle est la différence entre les blocs de contenu et les fragments de contenu ?
@@ -43,7 +53,7 @@ Vous pouvez ajouter une marge intérieure à l’aide du chemin de navigation HT
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Cliquez sur l’élément auquel vous souhaitez ajouter une marge intérieure.
-1. Cliquez sur la balise parente dans le chemin de navigation HTML.
+1. Cliquez sur la balise parent dans le chemin de navigation HTML.
 Vous pouvez maintenant ajouter une marge intérieure à cet élément.
 
 ## Puis-je importer du contenu HTML dans le concepteur d’e-mail ?
@@ -54,8 +64,8 @@ Pour plus d’informations, voir la section [Mode de compatibilité](../../desig
 
 ## Comment puis-je créer mon premier contenu d’email ?
 
-Tout d’abord, créez un e-mail à partir de la page d’accueil.
-Ensuite, pour ajouter du contenu à un e-mail, vous devez ajouter un composant de structure et y insérer un composant de contenu.
+Tout d’abord, créez un email à partir de la page d’accueil.
+Ensuite, pour ajouter du contenu à un email, vous devez ajouter un composant de structure et y insérer un composant de contenu.
 
 Pour plus d’informations, voir la section [Création d’un email à partir de zéro](../../designing/using/quick-start.md#from-scratch-email)
 

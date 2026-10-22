@@ -8,25 +8,32 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
-TQID: https://experienceleague.adobe.com/LTrGN21kDYUVuUOAY55S1cITYYhCVE9O-wJm0ubrtzI
+TQID: 'https://experienceleague.adobe.com/LTrGN21kDYUVuUOAY55S1cITYYhCVE9O-wJm0ubrtzI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 0d3d7867-163e-5570-9cfc-7132e55fb049
+    internal-label: Send Time Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 538
+    internal-label: Optimization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '538'
 ht-degree: 100%
-
 ---
-
 # Rendu des e-mails{#email-rendering}
 
-Avant d&#39;appuyer sur le bouton **[!UICONTROL Envoyer]**, vérifiez que l&#39;affichage de votre message sera optimal sur divers clients web, webmails et appareils.
+Avant d’appuyer sur le bouton **[!UICONTROL Envoyer]**, vérifiez que l’affichage de votre message sera optimal sur divers clients web, webmails et appareils.
 
 Pour permettre cette opération, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez ainsi prévisualiser le message envoyé dans les différents contextes de réception.
 
