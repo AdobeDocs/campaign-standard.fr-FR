@@ -9,23 +9,34 @@ feature: In App
 role: User
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
-TQID: https://experienceleague.adobe.com/QhRAK2kBrSzvgyXK84KTPHS3wPJF7X17e5foclRPXIc
+TQID: 'https://experienceleague.adobe.com/QhRAK2kBrSzvgyXK84KTPHS3wPJF7X17e5foclRPXIc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: f0a90a14-8ca9-484f-994e-d7ff1bead452
+    internal-label: In app messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1049
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1082'
 ht-degree: 100%
-
 ---
-
 # Personnalisation d&#39;un message In-App{#customizing-an-in-app-message}
 
 Pour parfaire votre message In-App, Adobe Campaign vous permet d’accéder à un ensemble d’options avancées lors de sa création.
@@ -150,8 +161,8 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
 ## Personnalisation d’un type de message de notification locale {#customizing-a-local-notification-message-type}
 
-Les notifications locales ne peuvent être déclenchées que par une application à une heure spécifique et en fonction d’un événement. Elles alerteront les utilisateurs et utilisatrices que quelque chose se passe dans leur application, même sans avoir accès à Internet.
-Pour savoir comment effectuer le suivi des notifications locales, consultez cette [page](../../administration/using/local-tracking.md).
+Les notifications locales peuvent uniquement être déclenchées par une application à une heure spécifique et en fonction d’un événement. Elles alerteront les utilisateurs sur le fait que quelque chose se passe dans leur application, même sans accès à Internet.
+Pour découvrir comment tracker les notifications locales, reportez-vous à cette [page](../../administration/using/local-tracking.md).
 
 Pour personnaliser une notification locale :
 

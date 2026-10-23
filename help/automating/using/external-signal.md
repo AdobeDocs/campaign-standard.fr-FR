@@ -10,37 +10,47 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
-TQID: https://experienceleague.adobe.com/-Bmy97uF0S3O3EHS8Dsx9yQt7wKNvqijOVxhtpVL1dc
+TQID: 'https://experienceleague.adobe.com/-Bmy97uF0S3O3EHS8Dsx9yQt7wKNvqijOVxhtpVL1dc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 650
+    internal-label: Customer journeys
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
-
 ---
-
 # Signal externe{#external-signal}
 
 ## Description {#description}
 
 ![](assets/signal.png)
 
-L&#39;activité **[!UICONTROL Signal externe]** déclenche un workflow lorsque certaines conditions sont remplies dans un autre workflow ou un appel de l&#39;API REST.
+Lactivité **[!UICONTROL Signal externe]** déclenche un workflow lorsque certaines conditions sont remplies dans un autre workflow ou un appel de lAPI REST.
 
 ## Contexte d&#39;utilisation {#context-of-use}
 
-L&#39;activité **[!UICONTROL Signal externe]** permet d&#39;organiser et d&#39;orchestrer différents processus qui composent un même parcours client dans différents workflows. Elle permet de démarrer un workflow à partir d&#39;un autre, supportant ainsi des parcours client plus complexes tout en améliorant le contrôle et la réactivité en cas de problèmes.
+L&#39;activité **[!UICONTROL Signal externe]** permet d&#39;organiser et d&#39;orchestrer différents processus qui composent un même parcours client dans différents workflows. Elle permet de démarrer un workflow à partir d&#39;un autre, supportant ainsi des parcours client plus complexes tout en améliorant l et la réactivité en cas de problèmes.
 
 L&#39;activité **[!UICONTROL Signal externe]** est conçue pour être utilisée comme première activité de workflow. Elle peut être déclenchée à partir de l&#39;activité **[!UICONTROL Fin]** d&#39;un autre workflow ou d&#39;un appel API REST (voir à ce propos la [documentation de l&#39;API](../../api/using/triggering-a-signal-activity.md)).
 
@@ -50,7 +60,7 @@ Quand elle est déclenchée, des paramètres externes peuvent être définis et 
 >
 >L&#39;activité ne peut pas être déclenchée plus souvent que toutes les 10 minutes.
 
-Notez qu&#39;une activité **[!UICONTROL Signal externe]** peut être déclenchée via plusieurs événements différents. Dans ce cas, le **[!UICONTROL Signal externe]** est déclenché dès que l&#39;un des workflows source ou l&#39;appel de l&#39;API est exécuté. Il n&#39;est pas nécessaire que tous les workflows source aient terminé leur exécution.
+Notez qu&#39;une activité **[!UICONTROL Signal externe]** peut être déclenchée via plusieurs événements différents. Dans ce cas, le **[!UICONTROL Signal externe]** est déclenché dès que lun des workflows source ou lappel API est exécuté. Il n&#39;est pas nécessaire que tous les workflows source aient terminé leur exécution.
 
 **Rubriques connexes :**
 
@@ -73,7 +83,7 @@ Lors de la configuration d&#39;un signal externe, il est important de commencer 
 
    >[!NOTE]
    >
-   >Si vous souhaitez déclencher le workflow de destination à partir d&#39;un autre workflow, effectuez la procédure suivante. Si vous souhaitez déclencher le workflow de destination depuis un appel de l&#39;API REST, consultez la [documentation de l&#39;API](../../api/using/triggering-a-signal-activity.md) pour plus d&#39;informations.
+   >Si vous souhaitez déclencher le workflow de destination à partir d&#39;un autre workflow, effectuez la procédure suivante. Si vous souhaitez déclencher le workflow de destination depuis un appel API REST, consultez la [documentation de lAPI](../../api/using/triggering-a-signal-activity.md) pour plus dinformations.
 
 1. Ouvrez le workflow source et sélectionnez une activité **[!UICONTROL Fin]**. Si aucune activité **[!UICONTROL Fin]** n&#39;est disponible, ajoutez-en une après la dernière activité d&#39;une branche du workflow.
 
@@ -93,7 +103,7 @@ Lors de la configuration d&#39;un signal externe, il est important de commencer 
 
 1. Sauvegardez le workflow source.
 
-Une fois que l&#39;activité **[!UICONTROL Fin]** du workflow source ou que l&#39;appel de l&#39;API REST est exécuté, le workflow de destination est déclenché automatiquement via l&#39;activité **[!UICONTROL Signal externe]**.
+Une fois que lactivité **[!UICONTROL Fin]** du workflow source ou que lappel de lAPI REST est exécuté, le workflow de destination est déclenché automatiquement via lactivité **[!UICONTROL Signal externe]**.
 
 >[!NOTE]
 >

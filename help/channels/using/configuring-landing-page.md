@@ -9,23 +9,34 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-TQID: https://experienceleague.adobe.com/WGJMzhZXIgXMEioDtea5foDs7hRh70WOLG3XV41irvw
+TQID: 'https://experienceleague.adobe.com/WGJMzhZXIgXMEioDtea5foDs7hRh70WOLG3XV41irvw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 691
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '733'
 ht-degree: 100%
-
 ---
-
 # Paramétrer une landing page {#configuring-landing-page}
 
 ## Confirmer la validation d&#39;une landing page {#confirm-a-landing-page-submission}
@@ -66,8 +77,8 @@ Pour sélectionner le service à associer, procédez comme suit :
 
 ## Définir les autorisations et pré-charger les données {#setting-permissions-and-pre-loading-data}
 
-L’accès à une page de destination peut être limité à des visiteurs et visiteuses identifiés qui proviennent d’un lien figurant dans un message envoyé par Campaign, par exemple, ou à une entité organisationnelle spécifique.
-Dans le cas de visiteurs et visiteuses identifiés, vous pouvez précharger leurs données dans la page de destination. Pour cela :
+L&#39;accès à une landing page peut être limité à des visiteurs identifiés qui proviennent d&#39;un lien figurant dans un message envoyé par Campaign, par exemple, ou à une entité organisationnelle spécifique.
+Dans le cas de visiteurs identifiés, vous pouvez précharger leurs données dans la landing page. Pour cela :
 
 1. Editez les propriétés de la landing page accessibles via l&#39;icône ![](assets/edit_darkgrey-24px.png) dans le tableau de bord de la landing page, puis affichez les paramètres **[!UICONTROL Accès &amp; chargement]**.
 

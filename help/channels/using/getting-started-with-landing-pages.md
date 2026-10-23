@@ -8,21 +8,31 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-TQID: https://experienceleague.adobe.com/r55Y65MfV0YNU5XLTeD3e--ZlHlcqUxH88HV2o3qec0
+TQID: 'https://experienceleague.adobe.com/r55Y65MfV0YNU5XLTeD3e--ZlHlcqUxH88HV2o3qec0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 956
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1068'
 ht-degree: 100%
-
 ---
-
 # Prise en main des landing pages {#getting-started-with-landing-pages}
 
 Voici les principales étapes de configuration d’une landing page :
@@ -44,8 +54,8 @@ La section ci-dessous répertorie les limites que vous devez connaître avant de
 
 **Ecriture et mise à jour des données**
 
-* Les pages de destination sont limitées aux ressources **[!UICONTROL Profil]** et **[!UICONTROL Abonnement]** uniquement. L’enregistrement peut être sauvegardé et mis à jour à partir de **[!UICONTROL Profil]** et d’un abonnement/désabonnement à un **[!UICONTROL Service]**.
-Pour en savoir plus sur la configuration des ressources, consultez [Configuration de la structure de données de la ressource](../../developing/using/configuring-the-resource-s-data-structure.md).
+* Les landing pages sont limitées uniquement aux ressources **[!UICONTROL Profil]** et **[!UICONTROL Abonnement]**. Un enregistrement peut être sauvegardé et mis à jour depuis le **[!UICONTROL Profil]** et un abonnement/désabonnement à un **[!UICONTROL Service]**.
+Pour en savoir plus sur la configuration des ressources, voir [Configuration de la structure de données de la ressource](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 >[!IMPORTANT]
 >
@@ -93,8 +103,8 @@ Créez une landing page dans le programme ou la campagne de votre choix, à part
 
 1. Créez la landing page à partir du modèle souhaité.
 1. Renseignez les paramètres généraux de la landing page (libellé, description, etc.).
-1. Vous accédez alors au tableau de bord de la page de destination. Modifiez les propriétés de la page de destination si nécessaire (consultez [Configuration d’une page de destination](../../channels/using/configuring-landing-page.md)). Par défaut, les propriétés sont celles configurées dans le modèle de page de destination.
-Pour des raisons de sécurité et de performances de la plateforme, il est vivement recommandé de définir une date d’expiration dans les propriétés de la page de destination. Une fois terminée, la publication de la page de destination sera automatiquement annulée à la date sélectionnée. Pour plus d’informations sur les paramètres de validité, consultez [cette section](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
+1. Vous accéderez ensuite au tableau de bord de la landing page. Si nécessaire, modifiez les propriétés de la landing page (voir [Paramétrer une landing page](../../channels/using/configuring-landing-page.md)). Par défaut, les propriétés sont celles configurées dans le modèle de landing page.
+Pour des raisons de sécurité et de performances de la plateforme, il est vivement recommandé de définir une date d&#39;expiration dans les propriétés de la landing page. Une fois cette opération terminée, la landing page est automatiquement dépubliée à la date sélectionnée. Pour plus d’informations sur les paramètres de validité, reportez-vous à [cette section](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
 
    ![](assets/lp-steps3.png)
 
@@ -130,7 +140,7 @@ Pour plus d’informations sur le test d’une landing page, reportez-vous à [c
 
 ## Etape 5 - Publier la landing page {#publish-the-landing-page}
 
-Une fois les tests terminés, vous pouvez publier la landing page via le bouton **[!UICONTROL Publier]** de la barre d’actions du tableau de bord. Un bloc de suivi indique la progression et le statut de la publication.
+Une fois les tests terminés, vous pouvez publier la landing page via le bouton **[!UICONTROL Publier]** de la barre d’actions du tableau de bord. Un bloc de su indique la progression et le statut de la publication.
 
 La publication de la page de destination permet de la rendre accessible en ligne. Une fois publiée, vous pouvez toujours la mettre à jour : pour cela, vous devez la publier de nouveau après chaque modification. Vous pouvez également dépublier une page de destination à tout moment afin qu’elle ne soit plus accessible.
 

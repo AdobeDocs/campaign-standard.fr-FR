@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-TQID: https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4
+TQID: 'https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 949
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '949'
 ht-degree: 100%
-
 ---
-
 # Planificateur{#scheduler}
 
 ## Description {#description}
@@ -76,19 +85,19 @@ Lors de la conception d’un workflow planifié incluant plusieurs activités, v
 
    * Pour exécuter le workflow de manière périodique tout au long de la journée, activez l’option **[!UICONTROL Périodique]** puis configurez la périodicité d’exécution :
 
-      1. Dans le champ **[!UICONTROL Traitement répété selon la fréquence suivante (par exemple 2 h)]**, indiquez l’intervalle d’exécution du workflow (toutes les 30 minutes, toutes les 2 heures, par exemple).
+     1. Dans le champ **[!UICONTROL Traitement répété selon la fréquence suivante (par exemple 2 h)]**, indiquez l’intervalle d’exécution du workflow (toutes les 30 minutes, toutes les 2 heures, par exemple).
 
-         >[!NOTE]
-         >
-         >Cette option permet également de définir des fréquences de répétition quotidiennes, mensuelles ou annuelles. Dans ce cas, le workflow ne s’exécutera pas plusieurs fois par jour, mais selon la fréquence que vous avez définie dans ce champ.
-         >
-         > Si votre workflow ne nécessite pas plusieurs exécutions au cours d’une journée, mais doit plutôt s’exécuter tous les jours, tous les mois ou tous les ans, il est conseillé d’utiliser les options **[!UICONTROL Quotidienne]**, **[!UICONTROL Mensuelle]** ou **[!UICONTROL Annuelle]** disponibles dans la liste déroulante **[!UICONTROL Fréquence d’exécution]**.
+        >[!NOTE]
+        >
+        >Cette option permet également de définir des fréquences de répétition quotidiennes, mensuelles ou annuelles. Dans ce cas, le workflow ne s’exécutera pas plusieurs fois par jour, mais selon la fréquence que vous avez définie dans ce champ.
+        >
+        > Si votre workflow ne nécessite pas plusieurs exécutions au cours d’une journée, mais doit plutôt s’exécuter tous les jours, tous les mois ou tous les ans, il est conseillé d’utiliser les options **[!UICONTROL Quotidienne]**, **[!UICONTROL Mensuelle]** ou **[!UICONTROL Annuelle]** disponibles dans la liste déroulante **[!UICONTROL Fréquence d’exécution]**.
 
-      1. Dans le champ heure de **[!UICONTROL Début]**/**[!UICONTROL Fin]**, définissez l’heure à laquelle l’exécution du workflow doit commencer et se terminer.
+     1. Dans le champ heure de **[!UICONTROL Début]**/**[!UICONTROL Fin]**, définissez l’heure à laquelle l’exécution du workflow doit commencer et se terminer.
 
-         Si aucune heure de fin n’est définie, l’exécution se termine à 00 :00: 00 et la prochaine exécution démarre le lendemain à l’heure de début spécifiée.
+        Si aucune heure de fin n’est définie, l’exécution se termine à 00 :00: 00 et la prochaine exécution démarre le lendemain à l’heure de début spécifiée.
 
-      1. Dans le champ de date de **[!UICONTROL Début]**, sélectionnez la date de début de la première exécution.
+     1. Dans le champ de date de **[!UICONTROL Début]**, sélectionnez la date de début de la première exécution.
 
    Dans l’exemple ci-dessous, l’activité est configurée pour exécuter le workflow toutes les 2 heures entre 8 h et 17 h, à partir du 1er mars.
 

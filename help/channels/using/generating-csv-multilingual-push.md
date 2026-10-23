@@ -8,22 +8,32 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
+TQID: 'https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1001
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1040'
 ht-degree: 100%
-
 ---
-
 # Génération d&#39;un fichier CSV pour les notifications push multilingues{#generating-csv-multilingual-push}
 
 Le téléchargement d’un fichier CSV pour générer du contenu à diffuser est une fonctionnalité utilisée pour prendre en charge les notifications push multilingues. Le format du fichier CSV doit respecter certaines instructions pour que le téléchargement du fichier puisse être effectué et, par conséquent, pour la création d’une diffusion. Les sections suivantes décrivent le format de fichier et les points à prendre en compte.
@@ -59,11 +69,11 @@ Consultez l’exemple de fichier CSV en cliquant sur **[!UICONTROL Télécharger
 
 ## Contraintes et instructions relatives à la création d’un fichier CSV {#constraints-guideline-csv}
 
-**Le nom de chaque colonne est défini**.
+**Le nom de chaque colonne est fixe**.
 Vous devez inclure le nom de chaque colonne dans le fichier CSV. Si vous n’utilisez aucune colonne pour le contenu, laissez-la vide.
 
-**Les colonnes « paramètre régional » et « langue » sont obligatoires et la valeur est unique pour chaque ligne.**
-Une valeur vide pour cette colonne entraîne l’échec du chargement du fichier.
+**Les colonnes « locale » et « language » sont obligatoires et la valeur est unique pour chaque ligne.**
+Une valeur vide pour cette colonne entraînera un échec de chargement de fichier.
 
 **L’ordre des colonnes est important**. L’ordre des colonnes dans le fichier téléchargé doit respecter le même format que le fichier d’exemple.
 

@@ -8,24 +8,34 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-TQID: https://experienceleague.adobe.com/OyHSlh5OPs1dt0kA67RYrb4beKDelLNfWGK4iB0GP54
+TQID: 'https://experienceleague.adobe.com/OyHSlh5OPs1dt0kA67RYrb4beKDelLNfWGK4iB0GP54'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1886
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1899'
 ht-degree: 100%
-
 ---
-
 # Création et utilisation d&#39;un contenu réutilisable {#using-reusable-content}
 
 Découvrez comment maîtriser l&#39;édition de contenu d&#39;email. Avec le concepteur d’e-mail, vous pouvez créer des modèles et des fragments avec votre contenu prédéfini et les réutiliser pour les prochaines diffusions.
@@ -169,8 +179,8 @@ D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https
 >title="À propos des fragments"
 >abstract="Un fragment est un bloc de contenu réutilisable pouvant être référencé dans un ou plusieurs emails."
 
-Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs e-mails.
-Vous pouvez en trouver dans l’interface sous **Ressources** > **Fragments de contenu et modèles**.
+Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
+Il se trouve dans l’interface sous **Ressources** > **Modèles et fragments de contenu**.
 
 Pour optimiser les fragments dans le Concepteur d&#39;email :
 

@@ -8,22 +8,32 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-TQID: https://experienceleague.adobe.com/0ZBuZihQqaowNG6y5gzkh5Vpz86e6pjmTRd5bNDPGxg
+TQID: 'https://experienceleague.adobe.com/0ZBuZihQqaowNG6y5gzkh5Vpz86e6pjmTRd5bNDPGxg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
+subfeature_v2:
+  - id: 458b98fa-9d41-55f3-9c8e-3aeb5c95457a
+    internal-label: Proofs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 421
-ht-degree: 100%
-
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 81%
 ---
-
 # Envoi des messages au fuseau horaire du destinataire{#sending-messages-at-the-recipient-s-time-zone}
 
 Lorsque vous gérez une campagne dans laquelle la date et l&#39;heure sont importantes, vous pouvez planifier une diffusion tenant compte de l&#39;heure locale de chaque destinataire : celui-ci recevra un email, un SMS ou des notifications push au moment programmé, dans son propre fuseau horaire.
@@ -34,7 +44,7 @@ Lorsque vous gérez une campagne dans laquelle la date et l&#39;heure sont impor
 
 Pour envoyer une diffusion au fuseau horaire du destinataire, vous pouvez également utiliser l&#39;activité **[!UICONTROL Planificateur]** dans un workflow. Pour plus d’informations à ce sujet, consultez cette [page](../../automating/using/scheduler.md).
 
-Dans l&#39;exemple ci-après, vous voulez envoyer un code promotionnel valable uniquement le jour de la Saint-Valentin à tous vos clients à travers le monde. Pour disposer de suffisamment de temps pour l’utiliser au cours de la journée, tous les clientes et clients doivent recevoir votre message le 14 février à 8:00 dans leur fuseau horaire.
+Dans l&#39;exemple ci-après, vous voulez envoyer un code promotionnel valable uniquement le jour de la Saint-Valentin à tous vos clients à travers le monde. Pour disposer de suffisamment de temps pour l&#39;utiliser au cours de la journée, tous les clients doivent recevoir votre message le 14 février à 8h00, selon leur fuseau horaire.
 
 1. Dans l&#39;onglet **[!UICONTROL Activités marketing]**, commencez à créer votre diffusion, un email dans le cas présent. Pour plus d&#39;informations sur la création d&#39;une diffusion, consultez cette [section](../../channels/using/creating-an-email.md).
 1. Après avoir conçu l&#39;email pour le jour de la Saint-Valentin, cliquez sur **[!UICONTROL Créer]** pour accéder au tableau de bord des diffusions. Pour plus d&#39;informations sur la conception d&#39;un email, consultez cette [page](../../designing/using/personalization.md#example-email-personalization).
@@ -45,7 +55,7 @@ Dans l&#39;exemple ci-après, vous voulez envoyer un code promotionnel valable u
 
    ![](assets/send-time_opt_valentine_2.png)
 
-1. Sélectionnez l’option **[!UICONTROL Envoi automatique à la date définie ci-dessous]**. Ensuite, dans le champ **[!UICONTROL Commencer à envoyer le]**, définissez la date de contact, dans notre cas le 14 février à 8:00 afin que chaque destinataire la reçoive le jour de la Saint-Valentin.
+1. Sélectionnez l’option **[!UICONTROL Envoi automatique à la date définie ci-dessous]**. Ensuite, dans le champ **[!UICONTROL Commencer à envoyer à partir de]**, définissez la date de contact, dans notre cas le 14 février à 8 h 00, afin que chaque destinataire la reçoive le jour de la Saint Valentin.
 
    ![](assets/send-time_opt_valentine.png)
 
@@ -63,4 +73,4 @@ Dans l&#39;exemple ci-après, vous voulez envoyer un code promotionnel valable u
 
    ![](assets/send-time_opt_valentine_4.png)
 
-Où qu’elles se trouvent, toutes personnes les destinataires recevront le message le 14 février à 8:00, heure locale.
+Où qu’ils se trouvent, tous les destinataires recevront le message le 14 février à 8 h 00, heure locale.

@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
+TQID: 'https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
-workflow-type: ht
-source-wordcount: 405
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '429'
 ht-degree: 100%
-
 ---
-
 # Création de diffusions à la date de création des profils {#creation-date-query}
 
 Vous pouvez envoyer une offre par email à la date anniversaire de la création du profil du client.
@@ -55,7 +64,7 @@ Vous pouvez envoyer une offre par email à la date anniversaire de la création 
 
 ### Récupération des profils créés le même jour que le jour d’exécution {#retrieving-profiles-created-on-the-same-day}
 
-1. Dans **[!UICONTROL Profil]**, effectuez un glisser-déposer du champ **[!UICONTROL Création le]** et cliquez sur **[!UICONTROL Mode avancé]**.
+1. Dans **[!UICONTROL Profil]**, effectuez un glisser-déposer du champ **[!UICONTROL Créé le]**. et cliquez sur **[!UICONTROL Mode avancé]**.
    ![](assets/advanced_mode.png)
 1. Dans la **[!UICONTROL Liste des fonctions]**, double-cliquez sur **[!UICONTROL Jour]** depuis le nœud **[!UICONTROL Date]**.
 1. Ensuite, insérez le champ **[!UICONTROL Créé le]** en tant qu&#39;argument.
@@ -101,8 +110,8 @@ La requête finale affiche :
 1. Saisissez les propriétés de l&#39;email et cliquez sur **[!UICONTROL Suivant]**.
 1. Pour créer la mise en page de votre e-mail, cliquez sur **[!UICONTROL concepteur d’e-mail]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
-1. Personnalisez votre e-mail à l’aide de champs et de liens.
-Pour plus d’informations, consultez la section décrivant la [conception d’un e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Personnalisez votre email à l&#39;aide de champs et de liens.
+Pour plus d&#39;informations, consultez la section décrivant la [conception d&#39;un email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre mise en page.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

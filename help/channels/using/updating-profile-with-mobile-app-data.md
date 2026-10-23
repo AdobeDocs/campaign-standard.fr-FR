@@ -9,20 +9,29 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
+TQID: 'https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1014
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1073'
 ht-degree: 100%
-
 ---
-
 # Création et mise à jour des informations de profil en fonction des données d&#39;application mobile
 
 ## Vue d&#39;ensemble
@@ -127,9 +136,9 @@ Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréq
 
 >[!NOTE]
 >
->Dans ce cas, le workflow exécute une instruction UPSERT, mais étant donné qu’il est basé sur une **[!UICONTROL Requête incrémentale]**, seules les données sont insérées. La modification de la requête peut avoir une incidence sur les données insérées ou mises à jour.
->En outre, les paramètres de l’onglet Champs à mettre à jour déterminent les champs insérés ou mis à jour dans des conditions spécifiques. Ces paramètres peuvent être uniques pour chaque application ou client ou cliente.
->Faites preuve de prudence lors de la configuration de ces paramètres, car il peut y avoir des conséquences inattendues étant donné que la mise à jour des enregistrements dans le profil en fonction des données appSubscriptionRcp peut modifier les informations personnelles des utilisateurs et utilisatrices sans validation.
+>Dans ce cas, le workflow effectue une opération UPSERT, mais comme il est basé sur une **[!UICONTROL requête incrémentale]**, les données sont uniquement insérées. La modification de la requête peut avoir un impact sur les données insérées ou mises à jour.
+>En outre, les paramètres de l&#39;onglet Champs à mettre à jour déterminent quels champs sont insérés ou mis à jour dans des conditions spécifiques. Ces paramètres peuvent être uniques pour chaque application ou client.
+>Faites attention lors de la configuration de ces paramètres, car elle peut avoir des conséquences inattendues. En effet, la mise à jour des enregistrements dans le profil en fonction des données appSubscriptionRcp peut modifier les informations personnelles des utilisateurs sans validation.
 
 Lorsque tous les champs à insérer/mettre à jour dans le profil ont été ajoutés, cliquez sur **[!UICONTROL Confirmer]**.
 

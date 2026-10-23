@@ -1,6 +1,6 @@
 ---
-title: Suivi d’une demande d’accès à des informations personnelles
-description: Découvrez comment suivre une demande d’accès à des informations personnelles avec les API
+title: S d’une demande d’accès à des informations personnelles
+description: Découvrez comment su une demande d’accès à des informations personnelles avec les API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -9,25 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-TQID: https://experienceleague.adobe.com/VO2XcUgDBCaGtqXji550j770iijK8lr0SSw5J8VQtgk
+TQID: 'https://experienceleague.adobe.com/VO2XcUgDBCaGtqXji550j770iijK8lr0SSw5J8VQtgk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 48
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '48'
 ht-degree: 100%
-
 ---
+# Su d&#39;une demande d&#39;accès à des informations personnelles {#monitoring-a-privacy-request}
 
-# Suivi d&#39;une demande d&#39;accès à des informations personnelles {#monitoring-a-privacy-request}
-
-Vous pouvez suivre les informations relatives à une demande d’accès à des informations personnelles créée à l’aide d’une requête **GET**.
+Vous pouvez su les informations relatives à une demande d’accès à des informations personnelles créée à l’aide d’une requête **GET**.
 
 La description de la liste d’états est disponible dans la [documentation relative à la gestion de la confidentialité](../../start/using/privacy-requests.md).
 

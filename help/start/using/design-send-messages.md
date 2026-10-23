@@ -4,13 +4,16 @@ description: 'Découvrez comment personnaliser l''affichage et exécuter des act
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 100%
-
 ---
-
 
 # Créer et envoyer des messages
 
@@ -98,13 +101,13 @@ L&#39;interface graphique permet d&#39;avoir rapidement et facilement accès aux
 
 L&#39;interface utilisateur de reporting de campagne facilite la création de rapports dynamiques. Vous pouvez utiliser des variables par glisser-déposer afin de personnaliser vos rapports et d&#39;analyser la réussite de vos campagnes. En fonction de la complexité de vos requêtes et de vos calculs, les données peuvent être agrégées dans une vue de liste et sont accessibles dans un format qui facilite la génération de rapports d&#39;analytique marketing.
 
-Avec Adobe Campaign, vous pouvez contrôler et tracker chaque diffusion. Le tableau de bord des messages affiche des logs dédiés pour suivre les processus et les règles, ainsi qu&#39;identifier les erreurs et les avertissements possibles.
+Avec Adobe Campaign, vous pouvez  et tracker chaque diffusion. Le tableau de bord des messages affiche des logs dédiés pour suivre les processus et les règles, ainsi qu&#39;identifier les erreurs et les avertissements possibles.
 
 
 **En savoir plus**
 
 * [Accès aux rapports](../../reporting/using/about-dynamic-reports.md)
-* [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md)
+* [er une diffusion](../../sending/using/monitoring-a-delivery.md)
 * [Tracker les messages](../../sending/using/tracking-messages.md)
 
 ## Configurer des rapports

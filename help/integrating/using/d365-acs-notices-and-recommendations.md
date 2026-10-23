@@ -9,26 +9,42 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+TQID: 'https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 2585
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '2585'
 ht-degree: 100%
-
 ---
-
 # Bonnes pratiques et limites {#acs-msdyn-best-practices}
 
 ## Gestion des données {#acs-msdyn-manage-data}
@@ -170,9 +186,9 @@ Les mécanismes de sécurisation suivants doivent être pris en compte lors de l
 
   Utilisez les éléments suivants pour estimer le volume d&#39;appels au moteur à partir de l&#39;intégration :
 
-   * Insertions d&#39;enregistrements (c&#39;est-à-dire, nouvel enregistrement) : 1 appel au moteur
-   * Suppressions d&#39;enregistrements : 1 appel au moteur
-   * Mises à jour d&#39;enregistrement : 2 appels au moteur (un seul appel si l&#39;enregistrement de destination est identique à l&#39;enregistrement source, c&#39;est-à-dire si aucun changement n&#39;est apporté à l&#39;enregistrement Campaign)
+  * Insertions d&#39;enregistrements (c&#39;est-à-dire, nouvel enregistrement) : 1 appel au moteur
+  * Suppressions d&#39;enregistrements : 1 appel au moteur
+  * Mises à jour d&#39;enregistrement : 2 appels au moteur (un seul appel si l&#39;enregistrement de destination est identique à l&#39;enregistrement source, c&#39;est-à-dire si aucun changement n&#39;est apporté à l&#39;enregistrement Campaign)
 
   Lors de l&#39;estimation du volume global des appels au moteur Campaign, il est important de prendre en compte d&#39;autres sources d&#39;appels au moteur, notamment les landing pages, les WebApps, les JSSP, les API, les inscriptions aux applications mobiles, etc.
 

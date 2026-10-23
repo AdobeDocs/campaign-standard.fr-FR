@@ -4,13 +4,16 @@ description: 'Découvrez comment personnaliser l''affichage et exécuter des act
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: ht
-source-wordcount: '788'
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '794'
 ht-degree: 100%
-
 ---
-
 
 # Utilisation des profils et audiences
 
@@ -123,7 +126,7 @@ Grâce aux workflows et à l&#39;éditeur de requêtes, vous pouvez créer des a
 
 <img width="60px" alt="conditions" src="assets/icon_privacy.svg"/>
 
-Le RGPD (Règlement général sur la protection des données) est la nouvelle loi de l’Union européenne (UE) qui harmonise et modernise les exigences en matière de protection de la vie privée.Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
+Le RGPD (Règlement général sur la protection des données) est la nouvelle loi de l’Union européenne (UE) qui harmonise et modernise les exigences en matière de protection de la vie privée. Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
 
 Pour plus d’informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à [cette section](../../start/using/privacy.md).
 

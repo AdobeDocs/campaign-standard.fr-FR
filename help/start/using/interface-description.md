@@ -8,30 +8,42 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-TQID: https://experienceleague.adobe.com/D3wg-eUkV7-ci9tbK2QK-uNaZBSj8e481WYc-XZr7KA
+TQID: 'https://experienceleague.adobe.com/D3wg-eUkV7-ci9tbK2QK-uNaZBSj8e481WYc-XZr7KA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1344
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1344'
 ht-degree: 100%
-
 ---
-
 # Description de l&#39;interface{#interface-description}
 
 Adobe Campaign vous permet de naviguer à travers différents menus et écrans pour gérer vos campagnes.
@@ -93,7 +105,7 @@ Trois onglets vous aident à trouver de l’aide :
    * un accès rapide à la documentation Adobe Campaign Standard avec des liens contextuels,
    * un lien **[!UICONTROL Formation]** qui vous permet d&#39;accéder à la bibliothèque de cours Adobe Campaign,
    * un lien **[!UICONTROL Communauté]** pour accéder au forum dédié à vos questions sur Campaign,
-   * un accès direct aux éléments suivants : Centre d’aide, Assistance clientèle, État du produit Experience Cloud, Connexion développeur, Notes de mise à jour, Calendrier des versions et écran **[!UICONTROL À propos]**.
+   * un accès direct aux éléments suivants : Centre d’aide, Assistance clientèle, État du produit Experience Cloud, Connexion développeur, Notes de mise à jour, Planification des versions et écran **[!UICONTROL À propos]**.
 1. L’onglet **[!UICONTROL Support]** permet d’ouvrir un dossier d’assistance et de nous contacter par téléphone ou sur X (anciennement Twitter).
 1. L’onglet **[!UICONTROL Commentaires]** permet de signaler facilement des problèmes ou de partager vos idées.
 

@@ -6,22 +6,33 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-TQID: https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc
+TQID: 'https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 2543
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '2741'
 ht-degree: 100%
-
 ---
-
 # Résolution des problèmes de SMS {#sms-troubleshooting}
 
 ## Conflit entre différents comptes externes {#external-account-conflict}
@@ -48,14 +59,14 @@ Une fois que vous avez vérifié chaque compte individuellement, il existe 2 sc�
 
   Vous avez un conflit entre les comptes. Comme nous l&#39;avons déjà mentionné, Adobe Campaign traite les comptes individuellement, mais le fournisseur peut les traiter comme un compte unique.
 
-   * Vous utilisez des combinaisons nom d’utilisateur ou d’utilisatrice/mot de passe différentes entre tous vos comptes.
-Vous devrez contacter le fournisseur pour diagnostiquer les conflits potentiels de leur côté.
+  * Vous utilisez des combinaisons nom d&#39;utilisateur / mot de passe différentes entre tous vos comptes.
+    Vous devrez contacter le fournisseur pour qu’il diagnostique les conflits potentiels de son côté.
 
-   * Certains comptes externes partagent la même combinaison de nom d’utilisateur ou d’utilisatrice/mot de passe.
-Le fournisseur n’ayant aucun moyen de savoir de quel compte externe provient `BIND PDU`, il traite toutes les connexions provenant de plusieurs comptes comme un seul compte. Ils ont peut-être acheminé MO et SR de manière aléatoire sur les deux comptes, provoquant des problèmes.
-Si le fournisseur prend en charge plusieurs codes courts pour la même combinaison de nom d’utilisateur ou d’utilisatrice/mot de passe, vous devrez lui demander où placer ce code court dans `BIND PDU`. Notez que cette information doit être placée à l’intérieur de `BIND PDU`, et non dans `SUBMIT_SM`, puisque `BIND PDU` est le seul endroit qui permettra d’acheminer correctement les MO.
-Voir la section [Informations dans chaque type de PDU](../../administration/using/sms-protocol.md#information-pdu) ci-dessus pour savoir quel champ est disponible dans `BIND PDU`. En général, vous ajoutez le code court dans `address_range`, mais cela nécessite une prise en charge spéciale de la part du fournisseur. Contactez-les pour savoir comment ils s’attendent à acheminer plusieurs codes courts indépendamment.
-Adobe Campaign prend en charge la gestion de plusieurs codes courts sur le même compte externe.
+  * Certains comptes externes partagent la même combinaison nom d&#39;utilisateur / mot de passe.
+    Le fournisseur n’a aucun moyen de savoir de quel compte externe provient le `BIND PDU`, de sorte qu’il traite toutes les connexions à partir de plusieurs comptes comme une seule. Il se peut qu&#39;il ait redirigé les MO et SR de manière aléatoire sur les deux comptes, ce qui a provoqué des problèmes.
+    Si le fournisseur prend en charge plusieurs codes courts pour la même combinaison de nom d’utilisateur ou d’utilisatrice et de mot de passe, vous devrez lui demander où placer ce numéro court dans le `BIND PDU`. Notez que cette information doit être placée dans le `BIND PDU` et non dans `SUBMIT_SM`, puisque le `BIND PDU` est le seul endroit qui permettra d&#39;utiliser correctement les MO de routage.
+    Consultez la section [Informations dans chaque type de PDU](../../administration/using/sms-protocol.md#information-pdu) ci-dessus pour savoir quel champ est disponible dans le `BIND PDU`. En général, il convient d’ajouter le numéro court dans `address_range`, mais cela nécessite une assistance spéciale de la part du fournisseur. Contactez-le pour savoir comment il s&#39;attend à acheminer de manière indépendante plusieurs numéros courts.
+    Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le même compte externe.
 
 ## Problème avec un compte externe en général {#external-account-issues}
 
@@ -282,7 +293,7 @@ Le nouveau connecteur prend en charge la connexion étendue via les traces : SM
 **Activation à la volée**
 
 La MTA Adobe Campaign Standard possède une interface de contrôle HTTP qui permet de modifier le filtre de trace à la volée.
-Un appel POST peut activer/désactiver les traces. Exemple d’URL pour activer les traces SMPP :
+Un appel POST peut activer / désactiver les traces. Exemple d&#39;URL pour activer les traces SMPP :
 
 ```
 POST http://host:7780/mta/trace?filter=SMPP

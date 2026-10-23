@@ -9,27 +9,37 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-TQID: https://experienceleague.adobe.com/5NImytAekQWkqNUg9l3qwa2FM1jPpchNBlY-9jeXkG0
+TQID: 'https://experienceleague.adobe.com/5NImytAekQWkqNUg9l3qwa2FM1jPpchNBlY-9jeXkG0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 972
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1062'
 ht-degree: 100%
-
 ---
-
 # Créer du contenu personnalisé {#build-personalized-content}
 
 Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](../../designing/using/personalization.md), à la mise en forme lors de l&#39;[utilisation d&#39;un contenu existant](../../designing/using/using-existing-content.md) et à la [conversion d&#39;un contenu HTML](../../designing/using/using-existing-content.md#converting-an-html-content), ainsi qu&#39;aux [images](../../designing/using/images.md).
@@ -43,8 +53,8 @@ Les principes de base de la personnalisation sont présentés dans [cette sectio
 
 Vérifiez que le contenu de votre message est correctement conçu pour éviter les erreurs généralement liées à la personnalisation.
 
-Vous pouvez ajouter manuellement du contenu dynamique pour afficher différents éléments à vos personnes destinataires selon les conditions définies au moyen de l’éditeur d’expression. Lorsque vous ajoutez du contenu dynamique, vous devez toujours laisser une variante par défaut pour les personnes destinataires qui ne répondent pas aux conditions sélectionnées.
-Pour en savoir plus sur le contenu dynamique, consultez [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Vous pouvez ajouter manuellement du contenu dynamique pour afficher différents éléments à vos destinataires selon les conditions définies au moyen de l’éditeur d’expression. Lors de l’ajout de contenu dynamique, vous devez toujours laisser une variante par défaut pour les destinataires qui ne remplissent pas les conditions sélectionnées.
+Pour plus d&#39;informations sur les contenu dynamique, consultez [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 **Conseils** : prévisualisez votre e-mail avec différents profils de test pour vous assurer que le contenu dynamique est correctement paramétré.
 
@@ -114,8 +124,8 @@ Adobe recommande de conserver la valeur par défaut de la taille maximale de mes
 
 Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications). Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
-La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
-En savoir plus [dans cette section](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
+En savoir plus dans [cette section](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Conseils** :
 

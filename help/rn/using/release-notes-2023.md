@@ -5,24 +5,36 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 5817c4d2-4788-4695-bf9a-ec04cc042190
-TQID: https://experienceleague.adobe.com/YpZ3cQVh6CeVyCkOChGYLBUo1dMueoWh1AkFj3ycRwk
+TQID: 'https://experienceleague.adobe.com/YpZ3cQVh6CeVyCkOChGYLBUo1dMueoWh1AkFj3ycRwk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 463
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '463'
 ht-degree: 100%
-
 ---
-
 # Notes de mise à jour 2023 {#release-notes-2023}
 
 ## Version 23.2 - Version d’automne/hiver 2023 {#fall-23}
@@ -41,9 +53,9 @@ ht-degree: 100%
 
 * **Localisation** : les traductions du terme « audience » lorsqu’il fait référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans tous les produits Digital Experience pour les langues suivantes :
 
-   * Allemand : Zielgruppe
-   * Portugais du Brésil : público-alvo
-   * Espagnol : público desatario
+  * Allemand : Zielgruppe
+  * Portugais du Brésil : público-alvo
+  * Espagnol : público desatario
 
   Ces modifications seront progressivement déployées avec la prochaine UI et les prochaines versions de la documentation.
 
@@ -64,9 +76,9 @@ ht-degree: 100%
 * Le service de messagerie push a été modernisé afin d’optimiser le support. (CAMP-47959)
 * Le service de messagerie SMS a été optimisé afin d’offrir une meilleure stabilité. (CAMP-52217)
 * Adobe a apporté de nombreux correctifs d’accessibilité afin d’améliorer la facilité d’utilisation globale de l’application. Voici quelques exemples d’amélioration de l’accessibilité :
-   * L’accessibilité clavier de l’interface a été optimisée dans de nombreux écrans.
-   * L’application a été améliorée pour les utilisateurs et utilisatrices d’écrans tactiles.
-   * La couleur de plusieurs éléments de l’interface a été modifiée afin d’améliorer la visibilité.
+  * L’accessibilité clavier de l’interface a été optimisée dans de nombreux écrans.
+  * L’application a été améliorée pour les utilisateurs et utilisatrices d’écrans tactiles.
+  * La couleur de plusieurs éléments de l’interface a été modifiée afin d’améliorer la visibilité.
 
 ### Autres changements {#e-rn-changes}
 

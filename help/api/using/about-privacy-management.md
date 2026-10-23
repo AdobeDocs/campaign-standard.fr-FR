@@ -4,13 +4,16 @@ description: En savoir plus sur la gestion de la confidentialité avec les API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
-workflow-type: ht
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
-
 ---
-
 
 # À propos de la gestion de la confidentialité {#about-privacy-management}
 
@@ -19,7 +22,7 @@ Les API de Campaign Standard fournissent des fonctionnalités qui permettent le
 Les actions que vous pouvez effectuer sont les suivantes :
 
 * créer une demande d’accès à des informations personnelles,
-* suivre une demande d’accès à des informations personnelles,
+* su une demande d’accès à des informations personnelles,
 * récupérer un fichier de données de confidentialité,
 * gérer l’état du droit d’opposition du CCPA dans un profil.
 

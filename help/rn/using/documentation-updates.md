@@ -6,13 +6,28 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '7607'
 ht-degree: 100%
-
 ---
-
 # Mises à jour de la documentation{#documentation-updates}
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d&#39;Adobe Campaign Standard.
@@ -560,7 +575,7 @@ Améliorations apportées aux landing pages : Google reCAPTCHA – [En savoir
 
 Mise à jour de l&#39;article sur la délégation de nom de domaine. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html)
 
-Publication d&#39;un nouvel article sur le calendrier des versions pour communiquer les dates des prochaines versions. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html)
+Publication d’un nouvel article sur la planification des versions pour communiquer les dates des prochaines versions. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html)
 
 Mise à jour des liens d&#39;aide contextuelle directement accessibles depuis Adobe Campaign.
 
@@ -586,7 +601,7 @@ Mise à jour du guide sur l&#39;automatisation avec des liens vers les activité
 
 Mise à jour de la section Calcul des indicateurs pour les rapports dynamiques. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-Ajout d&#39;un tableau sur la compatibilité des rapports dynamiques pour mieux comprendre la compatibilité entre les dimensions et les mesures. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=fr)
+Ajout d&#39;un tableau sur la compatibilité des rapports dynamiques pour mieux comprendre la compatibilité entre les dimensions et les mesures. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Mise à jour de la liste des fonctions pour les workflows. [En savoir plus](../../automating/using/list-of-functions.md)
 
@@ -862,7 +877,7 @@ Mise à jour de la section sur l&#39;activité **[!UICONTROL Services d&#39;abon
 
 Ajout d&#39;un cas pratique détaillé sur la préparation d&#39;une diffusion. [En savoir plus](../../sending/using/preparing-the-send.md)
 
-Suppression de la section comprenant la liste des autorisations. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr) (PDF).
+Suppression de la section comprenant la liste des autorisations. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Ajout d&#39;un cas pratique détaillé sur l&#39;utilisation des réponses automatiques des SMS. [En savoir plus](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1034,7 +1049,7 @@ Une nouvelle technote est disponible : &quot;Intégration du SDK Adobe Mobile
 
 Les instructions relatives à la configuration du service People core service ou à l&#39;intégration d&#39;Audience Manager à Adobe Campaign ont été ajoutées. [En savoir plus](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Tableau des autorisations corrigé afin de clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
+Tableau des autorisations corrigé afin de clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Mise à jour des liens d&#39;aide contextuelle disponibles directement dans Adobe Campaign.
 

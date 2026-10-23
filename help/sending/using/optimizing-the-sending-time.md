@@ -8,22 +8,29 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
-TQID: https://experienceleague.adobe.com/FjL5t1ohvrgDdqLiCr03z1Nbq6IukIBysKkmXJ7561c
+TQID: 'https://experienceleague.adobe.com/FjL5t1ohvrgDdqLiCr03z1Nbq6IukIBysKkmXJ7561c'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 0d3d7867-163e-5570-9cfc-7132e55fb049
+    internal-label: Send Time Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 302
-ht-degree: 100%
-
+    internal-label: Optimization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 73%
 ---
-
 # Optimiser l&#39;heure d&#39;envoi{#optimizing-the-sending-time}
 
 Pour améliorer le taux d&#39;ouverture de vos messages, vous pouvez définir manuellement une heure d&#39;envoi par destinataire. Dans la mesure du possible, chaque profil recevra le message à la date et à l’heure spécifiées.
@@ -41,11 +48,11 @@ Plusieurs options sont disponibles :
 
 * **[!UICONTROL Pas d&#39;optimisation]** : les messages sont envoyés à l&#39;heure de l&#39;utilisateur.
 
-  Par exemple, si votre fuseau horaire est GMT+1 et que vous saisissez 9:00 dans le champ **[!UICONTROL Démarrer l’envoi le]**, une personne destinataire située dans le fuseau horaire GMT+3 recevra le message à 11:00, heure locale pour cette personne.
+  Par exemple, si votre fuseau horaire est GMT+1 et que vous saisissez 9 h 00 dans le champ **[!UICONTROL Démarrer l’envoi depuis]**, un destinataire situé dans le fuseau horaire GMT+3 recevra le message à 11 h 00, heure locale, pour ce destinataire.
 
 * **[!UICONTROL Envoyer en fonction du fuseau horaire du destinataire]** : tous les destinataires recevront le message en fonction de leur fuseau horaire.
 
-  Par exemple, si vous saisissez 9:00 dans le champ **[!UICONTROL Démarrer l’envoi le]**, une personne destinataire située dans le fuseau horaire GMT+3 recevra le message à 9:00, heure locale pour cette personne.
+  Par exemple, si vous saisissez 9 h 00 dans le champ **[!UICONTROL Démarrer l’envoi depuis]**, un destinataire situé dans le fuseau horaire GMT+3 recevra le message à 9 h 00, heure locale, pour ce destinataire.
 
   Voir [Envoi des messages au fuseau horaire du destinataire](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 

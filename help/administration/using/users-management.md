@@ -6,42 +6,63 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-TQID: https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA
+TQID: 'https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 1282
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '1282'
 ht-degree: 100%
-
 ---
-
 # Gestion des utilisateurs{#users-management}
 
 ## À propos des utilisateurs {#about-users}
 
 Adobe Campaign permet d’affecter un ensemble de rôles à vos utilisateurs afin de définir la partie de l’interface à laquelle ils ont accès.
 
-Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
+Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Les administrateurs peuvent gérer les utilisateurs depuis Admin Console. Les utilisateurs sont ensuite automatiquement synchronisés avec Adobe Campaign. Pour plus d’informations, consultez la documentation relative à [Admin Console](https://helpx.adobe.com/fr/enterprise/using/users.html).
 
@@ -57,7 +78,7 @@ Pour accéder à l&#39;interface de gestion des utilisateurs à partir d&#39;Ado
 
 * Vidéo [Gérer les autorisations utilisateur](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=fr)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
-* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
+* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## Type d’utilisateurs {#type-of-users}
 
@@ -68,12 +89,12 @@ Cette section présente les principaux types d’utilisateurs Adobe Campaign. P
 Elle est axée sur la répartition des différentes tâches entre trois types d’utilisateurs principaux dans Adobe Campaign :
 
 * [Administrateurs fonctionnels](#functional-administrators) : il s’agit des utilisateurs les plus techniques parmi tous les utilisateurs de votre organisation.
-* [Utilisateurs experts](#advanced-users) : ils configurent tous les éléments dont les spécialistes marketing ont besoin pour envoyer et contrôler leurs diffusions.
-* [Utilisateurs de base](#basic-users) : il s’agit des spécialistes marketing qui personnalisent, diffusent et contrôlent leurs campagnes.
+* [Utilisateurs experts](#advanced-users) : ils configurent tous les éléments dont les spécialistes marketing ont besoin pour envoyer et  leurs diffusions.
+* [Utilisateurs de base](#basic-users) : il s’agit des spécialistes marketing qui personnalisent, diffusent et  leurs campagnes.
 
 >[!NOTE]
 >
->Les administrateurs fonctionnels diffèrent des administrateurs techniques Adobe. Les administrateurs techniques Adobe assument un rôle interne à Adobe qui ne peut être utilisé par aucun client. Ils gèrent l’approvisionnement et l’hébergement de l’instance, le contrôle et la supervision de l’infrastructure et la résolution des problèmes techniques.
+>Les administrateurs fonctionnels diffèrent des administrateurs techniques Adobe. Les administrateurs techniques Adobe assument un rôle interne à Adobe qui ne peut être utilisé par aucun client. Ils gèrent l’approvisionnement et l’hébergement de l’instance, l et la supervision de l’infrastructure et la résolution des problèmes techniques.
 
 ### Administrateurs fonctionnels {#functional-administrators}
 
@@ -97,7 +118,7 @@ Voici les principales tâches qu’ils peuvent effectuer :
 
 ### Utilisateurs experts {#advanced-users}
 
-Les utilisateurs experts sont des utilisateurs marketing qui effectuent les tâches les plus techniques dans Adobe Campaign. Ils préconfigurent tous les éléments utilisés par les marketeurs pour envoyer et contrôler leurs diffusions.
+Les utilisateurs experts sont des utilisateurs marketing qui effectuent les tâches les plus techniques dans Adobe Campaign. Ils préconfigurent tous les éléments utilisés par les marketeurs pour envoyer et  leurs diffusions.
 
 Ce type d’utilisateur requiert des rôles plus généraux que les administrateurs fonctionnels, mais doit néanmoins être en mesure d’effectuer certaines opérations techniques. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Export]**, **[!UICONTROL Import générique]** ou **[!UICONTROL Workflow]**. Pour plus d’informations à ce sujet, consultez cette [section](../../administration/using/list-of-roles.md).
 
@@ -111,7 +132,7 @@ Voici les principales tâches qu’ils peuvent effectuer :
 
 ### Utilisateurs de base {#basic-users}
 
-Grâce à l’administrateur fonctionnel et aux utilisateurs experts, les spécialistes marketing peuvent personnaliser, diffuser et contrôler leurs campagnes sans se soucier de la configuration technique. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Préparer des diffusions]**, **[!UICONTROL Workflow]** et **[!UICONTROL Démarrer des diffusions]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Utilisateurs standard]**. Pour plus d’informations à ce sujet, consultez cette [section](../../administration/using/list-of-roles.md).
+Grâce à l’administrateur fonctionnel et aux utilisateurs experts, les spécialistes marketing peuvent personnaliser, diffuser et  leurs campagnes sans se soucier de la configuration technique. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Préparer des diffusions]**, **[!UICONTROL Workflow]** et **[!UICONTROL Démarrer des diffusions]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Utilisateurs standard]**. Pour plus d’informations à ce sujet, consultez cette [section](../../administration/using/list-of-roles.md).
 
 Voici les principales tâches qu’ils peuvent effectuer :
 
@@ -120,7 +141,7 @@ Voici les principales tâches qu’ils peuvent effectuer :
 * [Créer et envoyer des messages](../../sending/using/confirming-the-send.md) : créez votre message, sélectionnez l’audience, définissez le contenu du message et ses éléments de personnalisation, envoyez les bons à tirer puis le message final à votre audience.
 * [Créer et publier des landing pages](../../channels/using/getting-started-with-landing-pages.md) : créez et gérez un ensemble de services que vous souhaitez proposer à vos clients, comme des formulaires d’inscription ou de désinscription.
 * [Créer et exécuter des workflows d’opérations](../../automating/using/building-a-workflow.md) : automatisez les processus de campagne à l’aide de workflows.
-* Contrôler les activités marketing par le biais des [rapports disponibles](../../reporting/using/defining-the-report-period.md).
+* les activités marketing par le biais des [rapports disponibles](../../reporting/using/defining-the-report-period.md).
 
 ## Création d’un utilisateur {#creating-a-user}
 

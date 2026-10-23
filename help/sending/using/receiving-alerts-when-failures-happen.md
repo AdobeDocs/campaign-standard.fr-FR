@@ -8,29 +8,42 @@ feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-TQID: https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc
+TQID: 'https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: 458b98fa-9d41-55f3-9c8e-3aeb5c95457a
+    internal-label: Proofs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
-workflow-type: ht
-source-wordcount: 2312
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '2312'
 ht-degree: 100%
-
 ---
-
 # Recevoir des alertes en cas d&#39;échec{#receiving-alerts-when-failures-happen}
 
 ## À propos des alertes de diffusion {#about-delivery-alerting}
@@ -47,7 +60,7 @@ Les notifications envoyées comportent un rapport qui repose sur les critères p
 * Diffusions avec faible débit
 * Diffusions en cours
 
-Les destinataires des alertes peuvent contrôler les diffusions qui sont traitées par Adobe Campaign et prendre les mesures qui s&#39;imposent en cas de problèmes liés à leur exécution.
+Les destinataires des alertes peuvent  les diffusions qui sont traitées par Adobe Campaign et prendre les mesures qui s&#39;imposent en cas de problèmes liés à leur exécution.
 
 Ces notifications d&#39;alerte peuvent être personnalisées selon des critères d&#39;alerte spécifiques qui sont définis par le biais d&#39;un tableau de bord dans l&#39;interface d&#39;Adobe Campaign.
 
@@ -142,7 +155,7 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 
   ![](assets/delivery-alerting_notification_labels.png)
 
-* **[!UICONTROL Fréquence des critères]** : si une diffusion répond à un critère, ce dernier est répété dans chaque notification envoyée pendant la période de contrôle. Sinon, une seule alerte est envoyée par jour (à la première occurrence) par critère d&#39;alerte pour une diffusion.
+* **[!UICONTROL Fréquence des critères]** : si une diffusion répond à un critère, ce dernier est répété dans chaque notification envoyée pendant la période de . Sinon, une seule alerte est envoyée par jour (à la première occurrence) par critère d&#39;alerte pour une diffusion.
 
   Cette option est définie par défaut sur une fois par jour pour tous les critères.
 
@@ -205,7 +218,7 @@ Dans l&#39;onglet **[!UICONTROL Paramètres des critères]** d&#39;un [tableau d
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
 * **[!UICONTROL Taille minimale de la cible de la diffusion]** : si vous saisissez par exemple la valeur 100 dans ce champ, une notification est envoyée uniquement pour les diffusions dont la cible est supérieure ou égale à 100 destinataires. Ce paramètre s&#39;applique à tous les critères.
-* **[!UICONTROL Période de contrôle avant et après la date de contact (en heures)]** : nombre d&#39;heures avant et après l&#39;heure actuelle. Seules les diffusions dont la date de contact est comprise dans cette plage sont prises en compte. Ce paramètre s&#39;applique à tous les critères. Par défaut, la valeur de ce champ est définie sur 24 heures.
+* **[!UICONTROL Période de  avant et après la date de contact (en heures)]** : nombre d&#39;heures avant et après l&#39;heure actuelle. Seules les diffusions dont la date de contact est comprise dans cette plage sont prises en compte. Ce paramètre s&#39;applique à tous les critères. Par défaut, la valeur de ce champ est définie sur 24 heures.
 
   Pour plus d&#39;informations sur la date de contact, voir [Planning](../../sending/using/about-scheduling-messages.md).
 
@@ -247,41 +260,41 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
 * **[!UICONTROL Diffusions en échec]** : ce critère vous indique toutes les diffusions ayant un statut en erreur. Les raisons peuvent être les suivantes :
 
-   * un problème lié au serveur de diffusion (MTA, Message Transfer Agent) ;
-   * une connexion arrivée à expiration entre le serveur de diffusion Adobe Campaign et le serveur de réception ;
-   * un problème de délivrabilité ;
-   * un workflow en erreur.
+  * un problème lié au serveur de diffusion (MTA, Message Transfer Agent) ;
+  * une connexion arrivée à expiration entre le serveur de diffusion Adobe Campaign et le serveur de réception ;
+  * un problème de délivrabilité ;
+  * un workflow en erreur.
 
   Si la diffusion est déclenchée à l&#39;aide d&#39;un workflow, vérifiez que ce dernier a correctement démarré. Pour plus d&#39;informations, consultez la section [Exécuter un workflow](../../automating/using/about-workflow-execution.md). Sinon, contactez votre administrateur Adobe Campaign pour résoudre ce problème.
 
 * **[!UICONTROL Diffusions avec préparation en échec]** : une erreur peut se produire lors de la préparation de la diffusion dans les cas suivants :
 
-   * Il manque un objet dans la diffusion.
-   * Les champs de personnalisation contiennent une syntaxe incorrecte.
-   * La cible est absente.
-   * La diffusion dépasse la taille limite.
+  * Il manque un objet dans la diffusion.
+  * Les champs de personnalisation contiennent une syntaxe incorrecte.
+  * La cible est absente.
+  * La diffusion dépasse la taille limite.
 
   Pour plus d&#39;informations, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md). Ces erreurs sont toutefois généralement détectées lors de l&#39;analyse des messages. Voir [Règles de contrôle](../../sending/using/control-rules.md).
 
 * Les causes possibles d’une alerte **[!UICONTROL Diffusion avec taux d’erreurs incorrect pour les rebonds temporaires]** peuvent être les suivantes :
 
-   * Le serveur du destinataire est en panne.
-   * La boîte de messagerie du destinataire est pleine.
+  * Le serveur du destinataire est en panne.
+  * La boîte de messagerie du destinataire est pleine.
 
   Pour plus d&#39;informations, consultez les onglets **[!UICONTROL Exclus]** et **[!UICONTROL Exclusions appliquées]** des logs de diffusion. Voir [Exclus](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
   Les causes possibles d’une alerte **[!UICONTROL Diffusion avec taux d’erreurs incorrect pour les rebonds définitifs]** peuvent être les suivantes :
 
-   * Le destinataire est ajouté sur la liste bloquée, ce qui signifie qu’il ne souhaite plus être contacté.
-   * L&#39;adresse email du destinataire n&#39;existe pas.
-   * Le domaine du destinataire n&#39;existe pas.
-   * Le serveur du destinataire bloque la diffusion.
+  * Le destinataire est ajouté sur la liste bloquée, ce qui signifie qu’il ne souhaite plus être contacté.
+  * L&#39;adresse email du destinataire n&#39;existe pas.
+  * Le domaine du destinataire n&#39;existe pas.
+  * Le serveur du destinataire bloque la diffusion.
 
   Pour éviter les soft et hard bounces, suivez les bonnes pratiques suivantes :
 
-   * Créez des règles de typologie de type Filtrage pour exclure une partie de la cible des messages (comme les destinataires en quarantaine) pendant l&#39;analyse de la diffusion. Voir [Créer une règle de filtrage](../../sending/using/filtering-rules.md).
-   * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [À propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * D&#39;une manière générale, améliorez autant que possible la délivrabilité. Consultez la documentation détaillé d&#39;Adobe Campaign relative à la [délivrabilité](../../sending/using/about-deliverability.md) et contactez votre administrateur Adobe Campaign pour obtenir de l&#39;aide.
+  * Créez des règles de typologie de type Filtrage pour exclure une partie de la cible des messages (comme les destinataires en quarantaine) pendant l&#39;analyse de la diffusion. Voir [Créer une règle de filtrage](../../sending/using/filtering-rules.md).
+  * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [À propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
+  * D&#39;une manière générale, améliorez autant que possible la délivrabilité. Consultez la documentation détaillé d&#39;Adobe Campaign relative à la [délivrabilité](../../sending/using/about-deliverability.md) et contactez votre administrateur Adobe Campaign pour obtenir de l&#39;aide.
 
 * **[!UICONTROL Diffusions avec un état de démarrage en attente long]** : cette alerte indique généralement un problème au niveau du MTA (Message Transfer Agent). Le processus d’exécution attend la disponibilité de certaines ressources. Le MTA n’a peut-être pas été démarré.
 
