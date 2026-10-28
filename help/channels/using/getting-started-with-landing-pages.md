@@ -29,7 +29,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
 ht-degree: 100%
 ---
@@ -154,6 +154,6 @@ Pour plus d’informations sur la publication d’une landing page, reportez-vou
 
 Cette vidéo montre comment créer et modifier une landing page.
 
->[!VIDEO](https://video.tv.adobe.com/v/36633?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

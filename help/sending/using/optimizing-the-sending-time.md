@@ -27,9 +27,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 73%
+ht-degree: 100%
 ---
 # Optimiser l&#39;heure d&#39;envoi{#optimizing-the-sending-time}
 
@@ -48,11 +48,11 @@ Plusieurs options sont disponibles :
 
 * **[!UICONTROL Pas d&#39;optimisation]** : les messages sont envoyés à l&#39;heure de l&#39;utilisateur.
 
-  Par exemple, si votre fuseau horaire est GMT+1 et que vous saisissez 9 h 00 dans le champ **[!UICONTROL Démarrer l’envoi depuis]**, un destinataire situé dans le fuseau horaire GMT+3 recevra le message à 11 h 00, heure locale, pour ce destinataire.
+  Par exemple, si votre fuseau horaire est GMT+1 et que vous saisissez 9 heures dans le champ **[!UICONTROL Démarrer l’envoi à partir de]**, une personne destinataire se trouvant dans le fuseau horaire GMT+3 recevra le message à 11 heures (heure locale de cette personne).
 
-* **[!UICONTROL Envoyer en fonction du fuseau horaire du destinataire]** : tous les destinataires recevront le message en fonction de leur fuseau horaire.
+* **[!UICONTROL Envoyer en fonction du fuseau horaire de la personne destinataire]** : les destinataires recevront le message en fonction de leur fuseau horaire.
 
-  Par exemple, si vous saisissez 9 h 00 dans le champ **[!UICONTROL Démarrer l’envoi depuis]**, un destinataire situé dans le fuseau horaire GMT+3 recevra le message à 9 h 00, heure locale, pour ce destinataire.
+  Par exemple, si vous saisissez 9 heures dans le champ **[!UICONTROL Démarrer l’envoi à partir de]**, une personne destinataire se trouvant dans le fuseau horaire GMT+3 recevra le message à 9 heures (heure locale de cette personne).
 
   Voir [Envoi des messages au fuseau horaire du destinataire](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 

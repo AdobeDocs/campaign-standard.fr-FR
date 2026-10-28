@@ -36,7 +36,7 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
 ht-degree: 100%
 ---
@@ -129,6 +129,6 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
 Cette vidéo montre comment créer un e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/30952?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

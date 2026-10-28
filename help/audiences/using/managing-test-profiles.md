@@ -31,7 +31,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
 ht-degree: 100%
 ---
@@ -101,6 +101,6 @@ Pour éditer un profil de test et consulter les données qui lui sont associées
 
 Cette vidéo montre comment créer un profil de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/30595?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

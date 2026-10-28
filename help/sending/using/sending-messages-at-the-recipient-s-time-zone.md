@@ -30,9 +30,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 81%
+ht-degree: 100%
 ---
 # Envoi des messages au fuseau horaire du destinataire{#sending-messages-at-the-recipient-s-time-zone}
 
@@ -44,7 +44,7 @@ Lorsque vous gérez une campagne dans laquelle la date et l&#39;heure sont impor
 
 Pour envoyer une diffusion au fuseau horaire du destinataire, vous pouvez également utiliser l&#39;activité **[!UICONTROL Planificateur]** dans un workflow. Pour plus d’informations à ce sujet, consultez cette [page](../../automating/using/scheduler.md).
 
-Dans l&#39;exemple ci-après, vous voulez envoyer un code promotionnel valable uniquement le jour de la Saint-Valentin à tous vos clients à travers le monde. Pour disposer de suffisamment de temps pour l&#39;utiliser au cours de la journée, tous les clients doivent recevoir votre message le 14 février à 8h00, selon leur fuseau horaire.
+Dans l&#39;exemple ci-après, vous voulez envoyer un code promotionnel valable uniquement le jour de la Saint-Valentin à tous vos clients à travers le monde. Pour disposer de suffisamment de temps pour l’utiliser au cours de la journée, les clientes et clients doivent recevoir votre message le 14 février à 8 h, en fonction de leur fuseau horaire.
 
 1. Dans l&#39;onglet **[!UICONTROL Activités marketing]**, commencez à créer votre diffusion, un email dans le cas présent. Pour plus d&#39;informations sur la création d&#39;une diffusion, consultez cette [section](../../channels/using/creating-an-email.md).
 1. Après avoir conçu l&#39;email pour le jour de la Saint-Valentin, cliquez sur **[!UICONTROL Créer]** pour accéder au tableau de bord des diffusions. Pour plus d&#39;informations sur la conception d&#39;un email, consultez cette [page](../../designing/using/personalization.md#example-email-personalization).
@@ -55,7 +55,7 @@ Dans l&#39;exemple ci-après, vous voulez envoyer un code promotionnel valable u
 
    ![](assets/send-time_opt_valentine_2.png)
 
-1. Sélectionnez l’option **[!UICONTROL Envoi automatique à la date définie ci-dessous]**. Ensuite, dans le champ **[!UICONTROL Commencer à envoyer à partir de]**, définissez la date de contact, dans notre cas le 14 février à 8 h 00, afin que chaque destinataire la reçoive le jour de la Saint Valentin.
+1. Sélectionnez l’option **[!UICONTROL Envoi automatique à la date définie ci-dessous]**. Ensuite, dans le champ **[!UICONTROL Démarrer l’envoi à partir de]**, définissez la date de contact, à savoir le 14 février à 8 heures, afin que chaque destinataire reçoive l&#39;e-mail le jour de la Saint-Valentin.
 
    ![](assets/send-time_opt_valentine.png)
 
@@ -73,4 +73,4 @@ Dans l&#39;exemple ci-après, vous voulez envoyer un code promotionnel valable u
 
    ![](assets/send-time_opt_valentine_4.png)
 
-Où qu’ils se trouvent, tous les destinataires recevront le message le 14 février à 8 h 00, heure locale.
+Où qu’elles se trouvent, les personnes destinataires recevront le message le 14 février à 8 h 00, heure locale.

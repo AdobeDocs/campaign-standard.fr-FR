@@ -28,7 +28,7 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
 ht-degree: 100%
 ---
@@ -96,6 +96,6 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 Cette vidéo présente un aperçu du connecteur de données Adobe Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/34363?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 D’autres vidéos relatives au connecteur de données Adobe Experience Platform sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=fr).

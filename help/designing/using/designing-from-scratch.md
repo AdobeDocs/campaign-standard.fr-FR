@@ -30,7 +30,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1268'
 ht-degree: 100%
 ---
@@ -49,7 +49,7 @@ Voici les principales étapes pour créer entièrement un contenu d’email à l
 1. Prévisualisez l’email.
 1. Enregistrez votre contenu et traitez votre message après avoir vérifié que vous avez défini une audience et correctement planifié l’envoi.
 
-Vous pouvez également regarder cette [vidéo de présentation](https://video.tv.adobe.com/v/330100/?captions=fre_fr&autoplay=true&hidetitle=true).
+Vous pouvez également regarder cette [vidéo de présentation](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >

@@ -32,9 +32,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
-ht-degree: 79%
+ht-degree: 100%
 ---
 # Calcul de la date d&#39;envoi{#computing-the-sending-date}
 
@@ -48,7 +48,7 @@ Lorsque vous envoyez des e-mails à l’aide d’une nouvelle plateforme, rien n
 
 Pour éviter d&#39;être bloqué par les FAI, vous pouvez augmenter progressivement les volumes envoyés en les répartissant sur plusieurs périodes. Cela permet d’entamer la phase de démarrage en douceur et de réduire le nombre total d’adresses invalides.
 
-Par exemple, vous pouvez segmenter aléatoirement l’audience de votre message pour envoyer votre diffusion à cinq lots de destinataires. Vous enverrez un premier lot représentant 10 % de votre audience cible le 1er juin à 10 h, un second lot 24 heures plus tard contenant 15 % de l’audience, etc.
+Par exemple, vous pouvez segmenter aléatoirement l’audience de votre message pour envoyer votre diffusion à cinq lots de destinataires. Vous enverrez un premier lot représentant 10 % de votre audience cible le 1er juin à 10:00, un second lot 24 heures plus tard contenant 15 % de l’audience, etc.
 
 Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
@@ -62,7 +62,7 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
    * Remplissez le champ **[!UICONTROL Code segment]** : saisissez manuellement la date et l&#39;heure d&#39;envoi du message.
 
-     Par exemple, vous souhaitez envoyer le premier lot le 1er juin à 10 h 00 GMT+1. Utilisez le format suivant : **`YYYY-MM-DD hh:mm:ss+tz`**.
+     Par exemple, vous souhaitez envoyer le premier lot le 1er juin à 10:00 GMT+1. Utilisez le format suivant : **`YYYY-MM-DD hh:mm:ss+tz`**.
 
      ![](assets/send-time_opt_segment_configuration.png)
 
@@ -138,10 +138,10 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
    * Définissez les codes segment comme suit :
 
-     * 8 H 00 À 10 H 00 : **&#x200B;**. Le message sera envoyé au premier trimestre de la population cible à 8 h 00 (date de contact).
-     * 10 H 00 À 12 H 00 : 2 **&#x200B;**. Le message sera envoyé au deuxième trimestre de la population cible à 10 h 00 (date de contact + 2 heures).
-     * DE 14 H À 16 H : 6 **.** Le centre d&#39;appels étant fermé entre 12 h et 14 h, le message sera envoyé au troisième trimestre de la population cible à 14 h (date de contact + 6 heures).
-     * DE 16 H À 18 H : **8**. Le message sera envoyé au dernier trimestre de la population cible à 16h00 (date de contact + 8 heures).
+     * 8 h - 10 h : **0**. Le message sera envoyé au premier trimestre de la population cible à 8 h (date de contact).
+     * 10 h - 12 h : **2**. Le message sera envoyé au deuxième trimestre de la population cible à 10 h (date de contact + 2 heures).
+     * 14 h - 16 h : **6**. Le centre d’appel étant fermé entre 12 h et 14 h, le message sera envoyé au troisième trimestre de la population cible à 14 h (date de contact + 6 heures).
+     * 16 h - 18 h : **8**. Le message sera envoyé au dernier trimestre de la population cible à 16 h (date de contact + 8 heures).
 
      >[!NOTE]
      >
@@ -159,7 +159,7 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 1. Sélectionnez **[!UICONTROL Envoi automatique à la date définie ci-dessous]**.
 1. Dans le champ **[!UICONTROL Démarrer l&#39;envoi le]**, définissez une date de contact.
 
-   Dans cet exemple, sélectionnez le 25 mai à 8 h 00.
+   Dans cet exemple, sélectionnez le 25 mai à 8 heures.
 
 1. Dans le menu déroulant d&#39;optimisation de l&#39;heure d&#39;envoi, sélectionnez **[!UICONTROL Envoyer à une date personnalisée définie par une formule]** et cliquez sur le bouton **[!UICONTROL Editer une expression]**.
 
@@ -191,7 +191,7 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
 1. Confirmez pour sauvegarder votre expression. Confirmez le planning, sauvegardez votre diffusion et exécutez le workflow.
 
-* Le premier segment recevra le message à la date de contact (25 mai à 8 h).
-* Le deuxième segment recevra le message deux heures plus tard (le 25 mai à 10 h).
-* Le troisième segment recevra le message six heures plus tard (le 25 mai à 14 h).
-* Le quatrième segment recevra le message huit heures plus tard (le 25 mai à 16 h).
+* Le premier segment recevra le message à la date de contact (le 25 mai à 8 heures).
+* Le deuxième segment recevra le message deux heures plus tard (le 25 mai à 10 heures).
+* Le troisième segment recevra le message six heures plus tard (le 25 mai à 14 heures).
+* Le quatrième segment recevra le message huit heures plus tard (le 25 mai à 16 heures).

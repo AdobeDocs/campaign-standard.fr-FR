@@ -52,7 +52,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1282'
 ht-degree: 100%
 ---
@@ -199,6 +199,6 @@ Votre utilisateur peut maintenant utiliser Adobe Campaign Standard.
 
 Cette vidéo montre comment gérer les droits d’accès des utilisateurs.
 
->[!VIDEO](https://video.tv.adobe.com/v/36024?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
