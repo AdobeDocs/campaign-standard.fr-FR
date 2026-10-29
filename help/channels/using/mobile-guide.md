@@ -34,7 +34,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '799'
 ht-degree: 100%
 ---

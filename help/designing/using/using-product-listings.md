@@ -35,9 +35,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '947'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Utiliser des listes de produits dans un message transactionnel {#using-product-listings}
 
@@ -79,7 +79,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
 
    >[!NOTE]
    >
-   >L’option **[!UICONTROL Colonne]** n’est disponible que lors de l’utilisation d’un composant de structure à plusieurs colonnes ( **[!UICONTROL 2:2 colonne]**, **[!UICONTROL 3:3 colonne]** et **[!UICONTROL 4:4 colonne]** ). Lors de l’édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d’informations sur la sélection de composants de structure, voir [Définir la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >L’option **[!UICONTROL Colonne]** n’est disponible que lors de l’utilisation d’un composant de structure à plusieurs colonnes (**[!UICONTROL colonne 2:2]**, **[!UICONTROL colonne 3:3]** et **[!UICONTROL colonne 4:4]**). Lors de l’édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d’informations sur la sélection de composants de structure, voir [Définir la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Sélectionnez la collection de données que vous avez créée lors de la configuration de l’événement associé au message transactionnel. Elle se trouve sous le nœud **[!UICONTROL Contexte]** > **[!UICONTROL Evénement temps réel]** > **[!UICONTROL Contexte de l’événement]**.
 

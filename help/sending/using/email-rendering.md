@@ -27,7 +27,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
 ht-degree: 100%
 ---

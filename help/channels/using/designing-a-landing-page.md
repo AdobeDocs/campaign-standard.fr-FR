@@ -31,7 +31,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1693'
 ht-degree: 100%
 ---
@@ -209,7 +209,7 @@ La **barre d&#39;outils** est un élément contextuel de l&#39;interface de l&#3
    <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Gras</span> <br /> </td> 
    <td> Élément de texte<br /> </td> 
-   <td> Ajoute le style gras au texte sélectionné (entoure le texte de la balise <strong><strong></strong>&lt;strong&gt;</strong>&lt;/strong&gt;).<br /> </td> 
+   <td>Ajoute le style gras au texte sélectionné (entoure le texte des balises <strong><strong></strong>&lt;strong&gt;</strong>&lt;/strong&gt;).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 

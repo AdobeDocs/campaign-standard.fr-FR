@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
 ht-degree: 100%
 ---

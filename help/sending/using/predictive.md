@@ -33,9 +33,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1129'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Fonctionnalités prédictives d’engagement client {#journey-ai}
 
@@ -67,7 +67,7 @@ Dans le modèle d’optimisation de l’heure d’envoi prédictive, il existe d
 
 Détails de la sortie
 
-* Calcule la meilleure heure d’envoi d’un e-mail au cours des 7 jours de la semaine avec des intervalles d’une heure (par exemple : 9 h, 10 h, 11 h).
+* Calcule la meilleure heure d’envoi de l’e-mail pour chacun des 7 jours de la semaine par intervalles d’une heure (p. ex. : 9 h, 10 h, 11 h)
 * Le modèle indique le meilleur jour de la semaine et la meilleure heure de la journée.
 * Chaque heure optimale est calculée deux fois : une fois pour maximiser le taux d’ouverture et une fois pour maximiser le taux de clics
 * 16 champs sont proposés (14 pour les jours de la semaine et 2 pour toute la semaine) :

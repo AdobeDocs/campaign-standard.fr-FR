@@ -24,9 +24,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 79%
+ht-degree: 100%
 ---
 # À propos de la planification des messages{#about-scheduling-messages}
 
@@ -48,7 +48,7 @@ Les propriétés de **[!UICONTROL Planning]** permettent de définir les options
 
   L&#39;envoi peut être préparé et confirmé, mais les messages ne seront envoyés qu&#39;à la date et à l&#39;heure sélectionnées. Les étapes de préparation et de confirmation de l&#39;envoi sont présentées dans les sections [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md) et [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md).
 
-  La liste déroulante **[!UICONTROL Fuseau horaire de la date de contact]** vous permet de modifier le fuseau horaire pris en compte pour l&#39;heure d&#39;envoi. Par exemple, si vous saisissez 9 h 00 dans le champ **[!UICONTROL Démarrer l’envoi depuis]** et si vous sélectionnez Bruxelles, Copenhague, Madrid, Paris (GMT+1) dans la liste déroulante **[!UICONTROL Fuseau horaire de la date de contact]**, tous les destinataires recevront le message à 9 h 00, heure de Paris. Par conséquent, un destinataire situé à Moscou (GMT+3) recevra le message à 11h00, heure de Moscou.
+  La liste déroulante **[!UICONTROL Fuseau horaire de la date de contact]** vous permet de modifier le fuseau horaire pris en compte pour l&#39;heure d&#39;envoi. Par exemple, si vous saisissez 9 heures dans le champ **[!UICONTROL Démarrer l’envoi à partir de]** et si vous sélectionnez Bruxelles, Copenhague, Madrid, Paris (GMT+1) dans la liste déroulante **[!UICONTROL Fuseau horaire de la date de contact]**, les destinataires recevront le message à 9 heures, heure de Paris. Par conséquent, une personne destinataire située à Moscou (GMT+3) recevra le message à 11 heures, heure de Moscou.
 
   Si vous souhaitez confirmer manuellement l&#39;envoi définitif des messages, cochez l&#39;option **[!UICONTROL Demander une confirmation avant l&#39;envoi des messages]**. Cette option est activée par défaut.
 

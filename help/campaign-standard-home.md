@@ -35,9 +35,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Documentation d&#39;Adobe Campaign Standard {#campaign-standard-documentation}
 
@@ -132,10 +132,9 @@ Découvrez comment partager des données entre Campaign et Real-time Customer 
 ## Autres ressources
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>Pages utiles</strong><br/>
-<a href="https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview" target="_blank">Tutoriels</a> - <a href="https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html" target="_blank">Description du produit</a> - <a href="rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a> - <a href="rn/using/release-planning.md">Calendrier des versions</a> - <a href="administration/using/cnil-pixel-tracking.md">Conseils de la CNIL sur les pixels de tracking e-mail</a>
+<td><strong>Pages utiles</strong><br/><a href="https://experienceleague.adobe.com/fr/docs/campaign-standard-learn/tutorials/overview" target="_blank">Tutoriels</a> – <a href="https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html" target="_blank">Description du produit</a> – <a href="rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a> – <a href="rn/using/release-planning.md">Planification des versions</a> – <a href="administration/using/cnil-pixel-tracking.md">Directives de la CNIL en matière de pixels de suivi des e-mails</a>
 </td>
 <td><strong>Ressources techniques</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Triggers Experience Cloud</a> - <a href="api/using/get-started-apis.md">API Campaign</a> - <a href="https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html" target="blank">Notes techniques</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr" target="_blank">Documentation du Panneau de Contrôle </a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Déclencheures Experience Cloud</a> – <a href="api/using/get-started-apis.md">API de Campaign</a> – <a href="https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html" target="blank">Notes techniques</a> – <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr" target="_blank">Documentation relative au panneau de contrôle</a>
 </td>
 </tr></table>

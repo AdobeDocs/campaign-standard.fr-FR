@@ -59,9 +59,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5533'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # Notes de mise à jour 2018{#release-notes}
 
@@ -343,7 +343,7 @@ _Ressources personnalisées_
  <tbody> 
   <tr> 
    <td> Règlement général sur la protection des données (RGPD) de l’UE<br /> </td> 
-   <td> Le RGPD est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée qui harmonise et modernise les exigences en matière de protection des données. Il entrera en vigueur le 25 mai 2018. Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles d’utilisation), nous incluons, dans le cadre de notre rôle de responsable du traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur ou de Contrôleuse de données à certaines demandes RGPD :<br /> 
+   <td>Le RGPD, entré en vigueur le 25 mai 2018, est la nouvelle loi de l’Union européenne (UE) sur la confidentialité. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clientes et clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles d’utilisation), nous incluons, dans le cadre de notre rôle de responsable du traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur ou de Contrôleuse de données à certaines demandes RGPD :<br /> 
     <ul> 
      <li> Droit d’accès : permet à la personne titulaire de données de recevoir une copie de ses données personnelles capturées par les contrôleurs et contrôleuses de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
@@ -357,7 +357,7 @@ _Ressources personnalisées_
      <li> Créez et enregistrez un modèle de contenu d’e-mail et utilisez des modèles enregistrés pour faciliter la création d’e-mails. </li> 
      <li> Créez et enregistrez des fragments de contenu (par exemple, un en-tête, un pied-de-page, un article, etc.) pour rationaliser la création de contenu et assurer la cohérence de la marque. </li> 
      <li> Passez facilement de la création d’un email dans l’interface de conception par glisser-déposer à l’édition directe de son code HTML en cliquant sur un bouton. </li> 
-    </ul> Creative Designer pour les e-mails est disponible uniquement en anglais.<br /> Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et regardez cette <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">vidéo</a>.<br /> </td> 
+    </ul> Creative Designer pour les e-mails est disponible uniquement en anglais.<br /> Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et regardez cette <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Diffusions de notifications push multilingues<br /> </td> 
@@ -505,7 +505,7 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
   </tr> 
   <tr> 
    <td> Nouvelles fonctionnalités push<br /> </td> 
-   <td> Prévisualisation des messages push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où une personne ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’un utilisateur.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs et utilisatrices d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs et utilisatrices peuvent utiliser l’option Contenu mutable pour :<br /> 
+   <td> Prévisualisation des messages push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où une personne ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs et utilisatrices d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience d’utilisation in-app.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs et utilisatrices d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs et utilisatrices peuvent utiliser l’option Contenu mutable pour :<br /> 
     <ul> 
      <li> déchiffrer des données diffusées dans un format chiffré ; </li> 
      <li> télécharger des images ou d’autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ; </li> 
